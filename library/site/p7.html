@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reading list · Dawah Study Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri&family=Young+Serif&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: hub of part cards; part pages = sticky contents rail + one reading column of "debate briefs" with a label gutter */
+:root{
+  --paper:#eef2ef; --card:#ffffff; --ink:#15201c; --muted:#56655d; --rule:#d0dad4;
+  --accent:#0c6250; --accent-soft:#e1efe9; --gold:#8f6614; --gold-soft:#f6eedb; --hl:#f4e3a6; --warn:#9a3f12; --warn-soft:#fbeee4;
+  --f-display:"Young Serif", Georgia, "Times New Roman", serif;
+  --f-body:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-ui:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-ar:"Amiri", "Traditional Arabic", "Geeza Pro", "Noto Naskh Arabic", serif;
+  --measure:44rem;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0e1513; --card:#151e1b; --ink:#e1e9e5; --muted:#98a9a1; --rule:#27342f;
+  --accent:#5fc6ac; --accent-soft:#17302a; --gold:#d9ae5a; --gold-soft:#2a2414; --hl:#5a4a17; --warn:#f0a070; --warn-soft:#30201a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0e1513; --card:#151e1b; --ink:#e1e9e5; --muted:#98a9a1; --rule:#27342f;
+  --accent:#5fc6ac; --accent-soft:#17302a; --gold:#d9ae5a; --gold-soft:#2a2414; --hl:#5a4a17; --warn:#f0a070; --warn-soft:#30201a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.62;margin:0}
+a{color:var(--accent);text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:80rem;margin:0 auto;padding-inline:16px;padding-block:0 4rem}
+.eyebrow{font-family:var(--f-ui);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:0 0 .5rem}
+h1,h2,h3{text-wrap:balance}
+button{font:inherit;color:inherit}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+img{max-width:100%}
+[hidden]{display:none!important}
+/* top bar */
+.topbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1rem;padding-block:1rem;border-bottom:1px solid var(--rule);font-family:var(--f-ui);font-size:.85rem}
+.topbar a{text-decoration:none;color:var(--muted)}
+.topbar a:hover{color:var(--accent)}
+.topbar .home{font-weight:600;color:var(--ink)}
+.phead{padding-block:2.2rem 1.6rem;border-bottom:3px double var(--rule);margin-bottom:2rem}
+.phead h1{font-family:var(--f-display);font-weight:400;font-size:clamp(2.1rem,5vw,3.3rem);line-height:1.08;margin:0 0 .8rem}
+.phead p.desc{max-width:var(--measure);color:var(--muted);font-size:1.08rem;margin:0 0 1rem}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem .5rem;font-family:var(--f-ui);font-size:.75rem;margin:0;padding:0;list-style:none}
+.legend li{border:1px solid var(--rule);border-radius:99px;padding:.15rem .6rem;color:var(--muted);background:var(--card)}
+/* layout */
+.layout{display:grid;grid-template-columns:16.5rem minmax(0,1fr);gap:3rem;align-items:start}
+aside{position:sticky;top:env(safe-area-inset-top,0px);max-height:100vh;overflow:auto;padding-block:1rem 2rem;font-family:var(--f-ui);font-size:.85rem}
+.search{display:flex;flex-direction:column;gap:.4rem;margin-bottom:1rem}
+.search input{width:100%;font:inherit;font-size:.95rem;padding:.55rem .7rem;border:1px solid var(--rule);border-radius:5px;background:var(--card);color:var(--ink)}
+.search small{color:var(--muted);min-height:1.2em}
+.progress{margin:0 0 1rem;color:var(--muted)}
+.bar{height:4px;background:var(--rule);border-radius:2px;margin-top:.35rem;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+.toc{list-style:none;margin:0;padding:0;display:grid;gap:.35rem}
+.toc details summary{cursor:pointer;list-style:none;display:flex;gap:.4rem;align-items:baseline}
+.toc details summary::-webkit-details-marker{display:none}
+.toc details summary::before{content:"▸";color:var(--muted);font-size:.75rem;transition:transform .15s}
+.toc details[open] summary::before{transform:rotate(90deg)}
+.toc summary a{font-weight:600;color:var(--ink);text-decoration:none}
+.toc ol{list-style:none;margin:.35rem 0 .6rem;padding:0;display:grid;gap:.1rem}
+.toc ol a{display:block;color:var(--muted);text-decoration:none;padding:.15rem 0 .15rem .7rem;border-left:2px solid var(--rule);line-height:1.35}
+.toc ol a:hover{color:var(--ink);border-left-color:var(--accent)}
+.toc ol a.is-done{color:var(--accent);border-left-color:var(--accent)}
+.toc ol a.is-done::after{content:" ✓"}
+.toc a.dim{opacity:.35}
+details.mtoc{display:none}
+main{min-width:0;max-width:54rem}
+/* sections */
+.sec{margin:0 0 4rem;scroll-margin-top:1rem}
+.sec-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.3rem 1rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem}
+.sec h2{font-family:var(--f-display);font-weight:400;font-size:clamp(1.6rem,3.4vw,2.1rem);line-height:1.2;margin:0}
+.sec-count{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);margin:0}
+.sec-intro{max-width:var(--measure);font-size:1.04rem;color:var(--muted);margin:1rem 0 2rem}
+/* brief */
+.brief{background:var(--card);border:1px solid var(--rule);border-radius:8px;margin:0 0 2rem;scroll-margin-top:1rem;overflow:hidden}
+.brief-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.2rem 1rem;padding:1.2rem 1.4rem 1rem;border-bottom:1px solid var(--rule)}
+.kicker{grid-column:1/-1;font-family:var(--f-ui);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+.brief h3{font-family:var(--f-display);font-weight:400;font-size:1.42rem;line-height:1.25;margin:0}
+.done{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);display:flex;align-items:center;gap:.35rem;cursor:pointer;white-space:nowrap;align-self:start;margin-top:.3rem}
+.done input{accent-color:var(--accent);width:1rem;height:1rem}
+.brief.studied .brief-head{background:var(--accent-soft)}
+.row{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:1.2rem;padding:1rem 1.4rem;border-bottom:1px solid var(--rule)}
+.row:last-child{border-bottom:0}
+.lab{font-family:var(--f-ui);font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;font-weight:600;color:var(--gold);padding-top:.3rem}
+.cell{min-width:0}
+.cell>:first-child{margin-top:0}.cell>:last-child{margin-bottom:0}
+.cell p{margin:.55rem 0}
+.cell ul,.cell ol{padding-left:1.2rem;margin:.5rem 0}
+.cell li{margin:.35rem 0}
+.cell li::marker{color:var(--accent)}
+.r-thesis .cell p{font-size:1.12rem;font-weight:600;line-height:1.5}
+.r-caution{background:var(--warn-soft)}
+.r-caution .lab,.r-caution .cell{color:var(--warn)}
+.syl{list-style:none;padding:0!important;margin:0!important;display:grid;gap:.5rem;counter-reset:none}
+.syl li{display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:.6rem;margin:0!important;align-items:baseline}
+.ptag{font-family:var(--f-ui);font-size:.75rem;font-weight:600;color:var(--accent);border:1px solid var(--accent);border-radius:4px;text-align:center;padding:.05rem 0;font-variant-numeric:tabular-nums}
+.syl li.concl{padding-top:.55rem;border-top:1px dashed var(--rule);font-weight:600}
+.syl li.concl .ptag{background:var(--accent);color:var(--card);font-size:.95rem;line-height:1.2}
+.r-ar{background:var(--gold-soft)}
+.ar{margin:0 0 .8rem;padding:0}
+.ar:last-child{margin-bottom:0}
+.ar p{font-family:var(--f-ar);font-size:1.55rem;line-height:2;margin:0;text-align:right}
+.ar cite{display:block;font-family:var(--f-ui);font-style:normal;font-size:.75rem;color:var(--muted);text-align:right}
+.obj{padding:.1rem 0 .1rem 1rem;border-left:2px solid var(--rule);margin:0 0 1rem}
+.obj:last-child{margin-bottom:0}
+.obj .q{font-family:var(--f-ui);font-weight:600;font-size:.95rem;margin:0 0 .25rem}
+.obj .a p:first-child{margin-top:0}
+.rebut{border:1px dashed var(--accent);border-radius:6px;background:var(--accent-soft);padding:.9rem 1rem}
+.rb-tag{font-family:var(--f-ui);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0!important}
+.rb-q{font-size:1.08rem;font-style:italic;margin:.3rem 0 .4rem!important}
+.rb-hint{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);margin:0 0 .6rem!important}
+.rb-btn{font-family:var(--f-ui);font-size:.85rem;font-weight:500;background:var(--accent);color:var(--card);border:0;border-radius:4px;padding:.4rem .85rem;cursor:pointer}
+.rb-a{margin-top:.7rem;padding-top:.7rem;border-top:1px solid var(--rule)}
+.r-sum .cell p{font-style:italic}
+/* figures */
+.fig{margin:1rem 0;max-width:26rem;display:flex;flex-direction:column;gap:.4rem}
+.thumb{all:unset;cursor:zoom-in;display:block;position:relative;max-height:20rem;overflow:hidden;border:1px solid var(--rule);border-radius:5px;background:var(--paper)}
+.thumb img{display:block;width:100%;height:auto}
+.thumb .zoom{position:absolute;right:.5rem;bottom:.5rem;font-family:var(--f-ui);font-size:.7rem;background:var(--card);color:var(--ink);border:1px solid var(--rule);border-radius:3px;padding:.1rem .4rem}
+.thumb:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.fig figcaption{font-family:var(--f-ui);font-size:.78rem;line-height:1.45;color:var(--muted)}
+.srcnote{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);border-left:3px solid var(--gold);padding:.3rem .7rem;background:var(--gold-soft);border-radius:0 4px 4px 0}
+.srclabel{font-weight:600;color:var(--gold);text-transform:uppercase;letter-spacing:.1em;font-size:.68rem;margin-right:.3rem}
+/* flashcards */
+.cards{margin:1rem 0 0;padding:1.2rem;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+.cards-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem 1rem;margin-bottom:.9rem}
+.cards h4{font-family:var(--f-display);font-weight:400;font-size:1.25rem;margin:0}
+.cards-head p{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);margin:0;flex:1}
+.reset{font-family:var(--f-ui);font-size:.78rem;background:none;border:1px solid var(--rule);border-radius:4px;padding:.25rem .6rem;cursor:pointer;color:var(--muted)}
+.cards ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.7rem}
+.card{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:.5rem;width:100%;height:100%;min-height:6.5rem;padding:.8rem .9rem;background:var(--card);border:1px solid var(--rule);border-radius:6px;font-family:var(--f-ui);font-size:.86rem;line-height:1.4}
+.card:hover{border-color:var(--accent)}
+.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card .cq{font-weight:500}
+.card .ca{display:none;color:var(--accent);border-top:1px solid var(--rule);padding-top:.5rem}
+.card[aria-pressed="true"] .ca{display:block}
+.card[aria-pressed="true"]{border-color:var(--accent)}
+.hit{background:var(--hl);border-radius:2px}
+.empty{font-family:var(--f-ui);color:var(--muted);padding:2rem 0}
+.pager{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1rem;margin-top:3rem}
+.pg{display:block;padding:1rem 1.2rem;border:1px solid var(--rule);border-radius:8px;background:var(--card);text-decoration:none;color:var(--ink);font-family:var(--f-display);font-size:1.15rem}
+.pg span{display:block;font-family:var(--f-ui);font-size:.75rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.pg.next{text-align:right}
+.pg:hover{border-color:var(--accent)}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--rule);font-family:var(--f-ui);font-size:.8rem;color:var(--muted)}
+/* lightbox */
+dialog{border:0;padding:0;max-width:min(60rem,94vw);max-height:92vh;background:var(--card);color:var(--ink);border-radius:8px}
+dialog::backdrop{background:rgba(5,12,10,.78)}
+.lb{display:flex;flex-direction:column;max-height:92vh}
+.lb-bar{display:flex;justify-content:space-between;align-items:start;gap:1rem;padding:.8rem 1rem;font-family:var(--f-ui);font-size:.85rem;border-bottom:1px solid var(--rule)}
+.lb-bar button{background:var(--accent);color:var(--card);border:0;border-radius:4px;padding:.35rem .8rem;cursor:pointer;flex:none}
+.lb-img{overflow:auto}
+.lb-img img{display:block;width:100%;height:auto}
+@media (max-width:900px){
+  .layout{grid-template-columns:minmax(0,1fr);gap:0}
+  aside{position:static;max-height:none;padding-block:0}
+  aside>.toc,aside .progress{display:none}
+  details.mtoc{display:block;margin:0 0 1rem;font-family:var(--f-ui);font-size:.9rem;background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:.6rem .9rem}
+  details.mtoc>summary{cursor:pointer;font-weight:600}
+  details.mtoc .toc{margin-top:.8rem}
+  .search{position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--paper);padding-block:.6rem}
+  body{font-size:16px}
+}
+@media (max-width:640px){
+  .row{grid-template-columns:minmax(0,1fr);gap:.35rem;padding:.9rem 1rem}
+  .brief-head{padding:1rem}
+  .lab{padding-top:0}
+  .ar p{font-size:1.35rem}
+  .cards-head p{flex-basis:100%;order:3}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="topbar" aria-label="Library"><a class="home" href="index.html">← Dawah Study Library</a><span>Part VII of IX</span></nav>
+<header class="phead">
+  <p class="eyebrow">Part VII · 1 section · 11 arguments</p>
+  <h1>Reading list</h1>
+  <p class="desc">What to read for every part of the library, with the best starting book for each and the strongest works on the other side.</p>
+  <ul class="legend" aria-label="Each argument is laid out as"><li>Thesis</li><li>Argument (premises → conclusion)</li><li>Evidence &amp; screenshots</li><li>Arabic</li><li>Objections</li><li>Practice</li><li>In one breath</li></ul>
+</header>
+<div class="layout">
+<aside>
+  <div class="search">
+    <label for="q" class="eyebrow" style="margin:0">Search this part</label>
+    <input id="q" type="search" placeholder="Verse, name or keyword" autocomplete="off">
+    <small id="qinfo" aria-live="polite"></small>
+  </div>
+  <div class="progress"><span id="prog">0 studied</span><div class="bar"><i id="progbar"></i></div></div>
+  <details class="mtoc"><summary>Contents</summary><ol class="toc"><li class="toc-sec"><details><summary><a href="#s-resources">Reading list for every part</a></summary><ol><li><a href="#s-resources--the-quran-preservation-text-and-its-challenge" data-arg="s-resources--the-quran-preservation-text-and-its-challenge">The Quran: preservation, text and its challenge</a></li><li><a href="#s-resources--hadith-the-life-of-the-prophet-and-the-history-o" data-arg="s-resources--hadith-the-life-of-the-prophet-and-the-history-o">Hadith, the life of the Prophet ﷺ and the history of early Islam</a></li><li><a href="#s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl" data-arg="s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl">Muhammad ﷺ in earlier scripture and the Quran–Bible relationship</a></li><li><a href="#s-resources--christianity-jesus-the-trinity-paul-and-the-new" data-arg="s-resources--christianity-jesus-the-trinity-paul-and-the-new">Christianity: Jesus, the Trinity, Paul and the New Testament text</a></li><li><a href="#s-resources--the-old-testament-history-archaeology-and-author" data-arg="s-resources--the-old-testament-history-archaeology-and-author">The Old Testament: history, archaeology and authorship</a></li><li><a href="#s-resources--judaism" data-arg="s-resources--judaism">Judaism</a></li><li><a href="#s-resources--atheism-arguments-for-god-and-science" data-arg="s-resources--atheism-arguments-for-god-and-science">Atheism, arguments for God and science</a></li><li><a href="#s-resources--agnosticism-and-the-divine-attributes" data-arg="s-resources--agnosticism-and-the-divine-attributes">Agnosticism and the divine attributes</a></li><li><a href="#s-resources--philosophy-logic-fallacies-and-the-main-fields" data-arg="s-resources--philosophy-logic-fallacies-and-the-main-fields">Philosophy: logic, fallacies and the main fields</a></li><li><a href="#s-resources--answering-objections-morality-slavery-aisha-and" data-arg="s-resources--answering-objections-morality-slavery-aisha-and">Answering objections: morality, slavery, Aisha and the sects</a></li><li><a href="#s-resources--online-tools" data-arg="s-resources--online-tools">Online tools</a></li></ol></details></li></ol></details>
+  <ol class="toc" id="toc"><li class="toc-sec"><details><summary><a href="#s-resources">Reading list for every part</a></summary><ol><li><a href="#s-resources--the-quran-preservation-text-and-its-challenge" data-arg="s-resources--the-quran-preservation-text-and-its-challenge">The Quran: preservation, text and its challenge</a></li><li><a href="#s-resources--hadith-the-life-of-the-prophet-and-the-history-o" data-arg="s-resources--hadith-the-life-of-the-prophet-and-the-history-o">Hadith, the life of the Prophet ﷺ and the history of early Islam</a></li><li><a href="#s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl" data-arg="s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl">Muhammad ﷺ in earlier scripture and the Quran–Bible relationship</a></li><li><a href="#s-resources--christianity-jesus-the-trinity-paul-and-the-new" data-arg="s-resources--christianity-jesus-the-trinity-paul-and-the-new">Christianity: Jesus, the Trinity, Paul and the New Testament text</a></li><li><a href="#s-resources--the-old-testament-history-archaeology-and-author" data-arg="s-resources--the-old-testament-history-archaeology-and-author">The Old Testament: history, archaeology and authorship</a></li><li><a href="#s-resources--judaism" data-arg="s-resources--judaism">Judaism</a></li><li><a href="#s-resources--atheism-arguments-for-god-and-science" data-arg="s-resources--atheism-arguments-for-god-and-science">Atheism, arguments for God and science</a></li><li><a href="#s-resources--agnosticism-and-the-divine-attributes" data-arg="s-resources--agnosticism-and-the-divine-attributes">Agnosticism and the divine attributes</a></li><li><a href="#s-resources--philosophy-logic-fallacies-and-the-main-fields" data-arg="s-resources--philosophy-logic-fallacies-and-the-main-fields">Philosophy: logic, fallacies and the main fields</a></li><li><a href="#s-resources--answering-objections-morality-slavery-aisha-and" data-arg="s-resources--answering-objections-morality-slavery-aisha-and">Answering objections: morality, slavery, Aisha and the sects</a></li><li><a href="#s-resources--online-tools" data-arg="s-resources--online-tools">Online tools</a></li></ol></details></li></ol>
+</aside>
+<main id="main">
+<section class="sec" id="s-resources"><header class="sec-head"><h2>Reading list for every part</h2><p class="sec-count">11 arguments</p></header><p class="sec-intro">A reading list for every part of this library, including the new sections on the Old Testament, agnosticism and philosophy. Each list starts with the book to read first (marked <strong>Start here</strong>). Books marked <em>Other side</em> argue against the Muslim position or defend Christianity or atheism. Read them so you know your opponent's best case before they make it. Academic works and primary sources carry more weight in debate than websites or YouTube.</p><article class="brief" id="s-resources--the-quran-preservation-text-and-its-challenge" data-arg="s-resources--the-quran-preservation-text-and-its-challenge">
+<header class="brief-head"><p class="kicker">Argument 1 of 11</p><h3>The Quran: preservation, text and its challenge</h3><label class="done"><input type="checkbox" data-arg="s-resources--the-quran-preservation-text-and-its-challenge" id="chk-s-resources--the-quran-preservation-text-and-its-challenge"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Start here:</strong> M.M. al-A'zami, <em>The History of the Qur'anic Text from Revelation to Compilation</em> (2003). This compares the Quran's transmission with the Bible's.</li>
+<li>Yasir Qadhi, <em>An Introduction to the Sciences of the Qur'aan</em> (1999). The best English primer on 'ulum al-Qur'an: revelation, compilation, the qira'at and abrogation.</li>
+<li>Ahmad von Denffer, <em>'Ulum al-Qur'an</em> (1983). A shorter alternative.</li>
+<li>Muhammad Abdullah Draz, <em>The Qur'an: An Eternal Challenge</em> (<em>al-Naba' al-'Azim</em>). The classic modern case for the Quran's inimitability.</li>
+<li>Shady Nasser, The Transmission of the Variant Readings of the Qur'an (2013), which argues the readings were not strictly mutawatir, and The Second<em> Canonization of the Qur'an</em> (2020). Essential for the qira'at debate.</li>
+<li>Marijn van Putten, <em>Quranic Arabic: From its Hijazi Origins to its Classical Reading Traditions</em> (2022). Also his articles on the shared spelling "fingerprints" of the Uthmanic codices.</li>
+<li>Behnam Sadeghi &amp; Mohsen Goudarzi (they argue the lower text is a pre-'Uthmanic codex; read it critically), "Ṣan'ā' 1 and the Origins of the Qur'ān," <em>Der Islam</em> 87 (2012). The key article on the Sana'a palimpsest.</li>
+<li>Nicolai Sinai, <em>The Qur'an: A Historical-Critical Introduction</em> (2017). An academic, non-Muslim account that rejects late-date theories.</li>
+<li><em>Other side:</em> Daniel Brubaker, Corrections in Early Qur'an Manuscripts: Twenty Examples (2019); Keith Small, <em>Textual Criticism and Qur'an Manuscripts</em> (2011).</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Read al-A'zami first, then Qadhi for the sciences, Nasser and van Putten for the readings and manuscripts, and Sadeghi on Sana'a. Know Small and Brubaker's arguments.</p></div></div>
+</article><article class="brief" id="s-resources--hadith-the-life-of-the-prophet-and-the-history-o" data-arg="s-resources--hadith-the-life-of-the-prophet-and-the-history-o">
+<header class="brief-head"><p class="kicker">Argument 2 of 11</p><h3>Hadith, the life of the Prophet ﷺ and the history of early Islam</h3><label class="done"><input type="checkbox" data-arg="s-resources--hadith-the-life-of-the-prophet-and-the-history-o" id="chk-s-resources--hadith-the-life-of-the-prophet-and-the-history-o"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Start here:</strong> Jonathan A.C. Brown, <em>Hadith: Muhammad's Legacy in the Medieval and Modern World</em> (2nd ed. 2017).</li>
+<li>M.M. al-A'zami, <em>Studies in Early Hadith Literature</em> (1968) and <em>On Schacht's Origins of Muhammadan Jurisprudence</em> (1985). These answer the Western sceptics.</li>
+<li>Harald Motzki, <em>The Origins of Islamic Jurisprudence</em> (2002). Dates material to the first Islamic century.</li>
+<li>Gregor Schoeler, <em>The Biography of Muhammad: Nature and Authenticity</em> (2011).</li>
+<li>Safi-ur-Rahman al-Mubarakpuri, <em>The Sealed Nectar</em> (<em>al-Raheeq al-Makhtum</em>). A standard sira.</li>
+<li>Martin Lings, <em>Muhammad: His Life Based on the Earliest Sources</em> (1983). A readable narrative.</li>
+<li>Ibn Ishaq / Ibn Hisham, <em>The Life of Muhammad</em>, translated by A. Guillaume (1955). The primary source critics quote; read it in context.</li>
+<li>Robert Hoyland, <em>Seeing Islam as Others Saw It</em> (1997). Non-Muslim 7th-century sources on the Prophet ﷺ and the conquests.</li>
+<li>al-Bayhaqi, <em>Dala'il al-Nubuwwa</em>, and al-Qadi 'Iyad, <em>al-Shifa</em>. Classical collections of the proofs of prophethood.</li>
+<li><em>Other side:</em> Joseph Schacht, <em>The Origins of Muhammadan Jurisprudence</em> (1950); Patricia Crone &amp; Michael Cook, <em>Hagarism</em> (1977), which its own authors later stepped back from.</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Brown first, then al-A'zami and Motzki against the sceptics, a sira (Mubarakpuri or Lings), and Hoyland for the outside sources. Know Schacht and Hagarism.</p></div></div>
+</article><article class="brief" id="s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl" data-arg="s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl">
+<header class="brief-head"><p class="kicker">Argument 3 of 11</p><h3>Muhammad ﷺ in earlier scripture and the Quran–Bible relationship</h3><label class="done"><input type="checkbox" data-arg="s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl" id="chk-s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Start here:</strong> Rahmatullah Kairanawi, <em>Izhar al-Haqq</em> (1864; English abridgement <em>The Truth Revealed</em>). The classic 19th-century response to the missionaries (note its sources are dated): textual corruption, contradictions and prophecies.</li>
+<li>Ibn Taymiyya, <em>al-Jawab al-Sahih li-man Baddala Din al-Masih</em>. The most comprehensive classical answer to Christianity. A partial English version is <em>A Muslim Theologian's Response to Christianity</em>, translated by Thomas Michel (1984).</li>
+<li>Abdul-Ahad Dawud (formerly Rev. David Benjamin Keldani), <em>Muhammad in the Bible</em>. Use with care and check every claim.</li>
+<li>Sami Ameri, <em>Hunting for the Word of God</em> (2013). Compares the textual criticism of the New Testament and the Quran.</li>
+<li>Gabriel Said Reynolds, <em>The Qur'an and the Bible: Text and Commentary</em> (2018). An academic Catholic author; useful for parallels, but his interpretations are contestable.</li>
+<li>Holger Zellentin, <em>The Qur'an's Legal Culture</em> (2013). Shows the Quran engaging Jewish-Christian law.</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Kairanawi and Ibn Taymiyya are the classical foundation; Ameri compares the texts; Reynolds and Zellentin show the academic picture of the Quran's dialogue with the Bible.</p></div></div>
+</article><article class="brief" id="s-resources--christianity-jesus-the-trinity-paul-and-the-new" data-arg="s-resources--christianity-jesus-the-trinity-paul-and-the-new">
+<header class="brief-head"><p class="kicker">Argument 4 of 11</p><h3>Christianity: Jesus, the Trinity, Paul and the New Testament text</h3><label class="done"><input type="checkbox" data-arg="s-resources--christianity-jesus-the-trinity-paul-and-the-new" id="chk-s-resources--christianity-jesus-the-trinity-paul-and-the-new"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Start here:</strong> Bart Ehrman, <em>Misquoting Jesus</em> (2005). Then <em>How Jesus Became God</em> (2014), <em>Jesus, Interrupted</em> (2009), <em>Forged</em> (2011), <em>Lost Christianities</em> (2003) and <em>The Orthodox Corruption of Scripture</em> (2nd ed. 2011).</li>
+<li>Bruce Metzger &amp; Bart Ehrman, <em>The Text of the New Testament</em> (4th ed. 2005); Metzger, <em>A Textual Commentary on the Greek New Testament</em> (2nd ed. 1994). Use it to check any variant.</li>
+<li>James D.G. Dunn, <em>Christology in the Making</em> (1980) and <em>Did the First Christians Worship Jesus?</em> (2010).</li>
+<li>R.P.C. Hanson, <em>The Search for the Christian Doctrine of God: The Arian Controversy 318–381</em> (1988). The standard history of how the Trinity was fixed.</li>
+<li>Anthony Buzzard &amp; Charles Hunting, <em>The Doctrine of the Trinity: Christianity's Self-Inflicted Wound</em> (1998); Dale Tuggy, What is the Trinity? Thinking About the Father, Son, and Holy Spirit (2017, self-published). Unitarian Christian critiques.</li>
+<li>Paula Fredriksen, <em>Paul: The Pagans' Apostle</em> (2017) and <em>When Christians Were Jews</em> (2018); James Tabor, <em>Paul and Jesus</em> (2012); Hyam Maccoby, <em>The Mythmaker</em> (1986, a polemical work).</li>
+<li>Geza Vermes, <em>Jesus the Jew</em> (1973), <em>The Nativity</em> (2006) and <em>The Resurrection</em> (2008); Dale Allison, <em>Constructing Jesus</em> (2010) and <em>Resurrecting Jesus</em> (2005).</li>
+<li>John Kloppenborg, <em>Q, the Earliest Gospel</em> (2008); Brent Nongbri, <em>God's Library</em> (2018) on dating manuscripts; H.J. Schoeps, Jewish Christianity (1969; dated, read as history of scholarship).</li>
+<li>Gerald Sigal, <em>The Virgin Birth Myth</em> (2016).</li>
+<li><em>Other side:</em> Larry Hurtado, <em>Lord Jesus Christ</em> (2003); Richard Bauckham, <em>Jesus and the Eyewitnesses</em> (2006); Michael Licona, <em>The Resurrection of Jesus</em> (2010) and <em>Why Are There Differences in the Gospels?</em> (2017); N.T. Wright, <em>The Resurrection of the Son of God</em> (2003).</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Ehrman and Metzger for the text, Dunn and Hanson for how Christology and the Trinity developed, Fredriksen and Tabor for Paul, Vermes and Allison for the historical Jesus. Know Hurtado, Bauckham, Licona and Wright, the strongest Christian scholars.</p></div></div>
+</article><article class="brief" id="s-resources--the-old-testament-history-archaeology-and-author" data-arg="s-resources--the-old-testament-history-archaeology-and-author">
+<header class="brief-head"><p class="kicker">Argument 5 of 11</p><h3>The Old Testament: history, archaeology and authorship</h3><label class="done"><input type="checkbox" data-arg="s-resources--the-old-testament-history-archaeology-and-author" id="chk-s-resources--the-old-testament-history-archaeology-and-author"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Start here:</strong> Israel Finkelstein &amp; Neil Asher Silberman, <em>The Bible Unearthed</em> (2001). Archaeology versus the biblical narrative, from the patriarchs to Josiah. Their <em>David and Solomon</em> (2006) covers the united monarchy and Solomon's Temple.</li>
+<li>William G. Dever, <em>What Did the Biblical Writers Know and When Did They Know It?</em> (2001) and <em>Who Were the Early Israelites and Where Did They Come From?</em> (2003). A more moderate archaeologist who still rejects the Exodus and conquest as written.</li>
+<li>Richard Elliott Friedman, <em>Who Wrote the Bible?</em> (1987) and <em>The Bible with Sources Revealed</em> (2003). These show the J, E, P and D sources. Use them for the doubled stories (Genesis 37, the Flood, creation).</li>
+<li>Joel S. Baden, <em>The Composition of the Pentateuch</em> (2012). The neo-documentary case.</li>
+<li>Marc Zvi Brettler, <em>How to Read the Bible</em> (2005). A Jewish scholar on reading the Hebrew Bible critically.</li>
+<li>Mark S. Smith, <em>The Early History of God</em> (2nd ed. 2002). The development of Israelite monotheism.</li>
+<li>Lester Grabbe, <em>Ancient Israel: What Do We Know and How Do We Know It?</em> (2nd ed. 2017).</li>
+<li>John J. Collins, <em>Daniel</em> (Hermeneia commentary, 1993). The scholarly dating of Daniel and its historical problems.</li>
+<li>Emanuel Tov, <em>Textual Criticism of the Hebrew Bible</em> (3rd ed. 2012). The Masoretic text, the Septuagint and the Dead Sea Scrolls.</li>
+<li><em>Other side:</em> Kenneth Kitchen, <em>On the Reliability of the Old Testament</em> (2003); James Hoffmeier, <em>Israel in Egypt</em> (1997); Gleason Archer, <em>Encyclopedia of Bible Difficulties</em> (1982), the standard harmonisation handbook.</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Finkelstein &amp; Silberman and Dever for archaeology, Friedman and Baden for the sources behind the contradictions, Tov for the text, Collins for Daniel. Know Kitchen and Archer, whose answers you will hear.</p></div></div>
+</article><article class="brief" id="s-resources--judaism" data-arg="s-resources--judaism">
+<header class="brief-head"><p class="kicker">Argument 6 of 11</p><h3>Judaism</h3><label class="done"><input type="checkbox" data-arg="s-resources--judaism" id="chk-s-resources--judaism"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Start here:</strong> Tovia Singer, <em>Let's Get Biblical</em> (2 vols., 2014). A rabbi's refutation of Christian proof-texts. Very useful against Christian prophecy claims; Muslims should note where it also targets Islam.</li>
+<li>Ibn Hazm, <em>al-Fisal fi al-Milal wa al-Ahwa' wa al-Nihal</em>. A classical Muslim critique of the Torah's text.</li>
+<li>Samau'al al-Maghribi, <em>Ifham al-Yahud</em> (<em>Silencing the Jews</em>). By a 12th-century Jewish convert to Islam.</li>
+<li>Zellentin, <em>The Qur'an's Legal Culture</em>, and Reynolds, <em>The Qur'an and the Bible</em>, listed above.</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Singer for Jewish arguments against Christian readings, Ibn Hazm and al-Maghribi for the classical Muslim case.</p></div></div>
+</article><article class="brief" id="s-resources--atheism-arguments-for-god-and-science" data-arg="s-resources--atheism-arguments-for-god-and-science">
+<header class="brief-head"><p class="kicker">Argument 7 of 11</p><h3>Atheism, arguments for God and science</h3><label class="done"><input type="checkbox" data-arg="s-resources--atheism-arguments-for-god-and-science" id="chk-s-resources--atheism-arguments-for-god-and-science"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Start here:</strong> Hamza Andreas Tzortzis, <em>The Divine Reality: God, Islam and the Mirage of Atheism</em> (rev. ed. 2019). A widely read Muslim book against atheism.</li>
+<li>Edward Feser, <em>Five Proofs of the Existence of God</em> (2017). Rigorous arguments, each followed by deriving the divine attributes and answering objections. His <em>The Last Superstition</em> (2008) is a polemical companion.</li>
+<li>Richard Swinburne, <em>The Existence of God</em> (2nd ed. 2004). The probabilistic case.</li>
+<li>William Lane Craig &amp; J.P. Moreland (eds.), <em>The Blackwell Companion to Natural Theology</em> (2009). Academic chapters on every argument.</li>
+<li>Luke Barnes &amp; Geraint Lewis, <em>A Fortunate Universe: Life in a Finely Tuned Cosmos</em> (2016). Fine-tuning by two cosmologists (they do not draw a theistic conclusion).</li>
+<li>Justin Barrett, <em>Born Believers: The Science of Children's Religious Belief</em> (2012). Cognitive science of children's religious belief, which Muslim authors relate to the fitrah.</li>
+<li>Thomas Nagel, <em>Mind and Cosmos</em> (2012). An atheist on why materialism fails to explain mind.</li>
+<li>Alvin Plantinga, <em>Where the Conflict Really Lies: Science, Religion, and Naturalism</em> (2011). Includes the evolutionary argument against naturalism.</li>
+<li>Antony Flew, There Is a God (2007, written with Roy Abraham Varghese). Flew, a famous atheist philosopher, became a deist; critics dispute how much of the book is his own work.</li>
+<li>Sherman Jackson, <em>Islam and the Problem of Black Suffering</em> (2009); Jon Hoover, <em>Ibn Taymiyya's Theodicy of Perpetual Optimism</em> (2007). The problem of evil from an Islamic perspective.</li>
+<li>Ibn al-Qayyim, <em>Shifa' al-'Alil</em>. The classical work on qadar, wisdom and free will.</li>
+<li><em>Other side:</em> J.L. Mackie, <em>The Miracle of Theism</em> (1982); Graham Oppy, <em>Arguing about Gods</em> (2006); Richard Dawkins, <em>The God Delusion</em> (2006), so you know the popular arguments.</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Tzortzis first, then Feser for rigour, Swinburne and the Blackwell Companion for depth, Barnes &amp; Lewis for fine-tuning, Nagel and Plantinga against materialism. Know Mackie and Oppy, the serious atheist cases.</p></div></div>
+</article><article class="brief" id="s-resources--agnosticism-and-the-divine-attributes" data-arg="s-resources--agnosticism-and-the-divine-attributes">
+<header class="brief-head"><p class="kicker">Argument 8 of 11</p><h3>Agnosticism and the divine attributes</h3><label class="done"><input type="checkbox" data-arg="s-resources--agnosticism-and-the-divine-attributes" id="chk-s-resources--agnosticism-and-the-divine-attributes"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Start here:</strong> Feser, <em>Five Proofs of the Existence of God</em> (above). Its chapters derive the divine attributes (unity, simplicity, eternity, omnipotence, omniscience, perfect goodness) from each proof</li>
+<li>al-Ghazali, <em>al-Iqtisad fi al-I'tiqad</em>, translated by Aladdin Yaqub as <em>Al-Ghazali's Moderation in Belief</em> (2013). A systematic proof of God's existence and attributes.</li>
+<li>Ibn Rushd, <em>al-Kashf 'an Manahij al-Adilla</em>, translated by Ibrahim Najjar as <em>Faith and Reason in Islam</em> (2001). The arguments from providence ('inaya) and invention (ikhtira').</li>
+<li>Ibn Taymiyya, <em>Dar' Ta'arud al-'Aql wa al-Naql</em>. Reason, fitrah and the attributes; the argument "whatever perfection is in creation, the Creator is more entitled to".</li>
+<li>Avicenna, <em>The Metaphysics of The Healing</em>, translated by Michael Marmura (2005). The necessary being and why it must be one.</li>
+<li>Brian Davies, <em>An Introduction to the Philosophy of Religion</em> (4th ed. 2020).</li>
+<li><em>Other side:</em> J.L. Schellenberg, <em>Divine Hiddenness and Human Reason</em> (1993); Robin Le Poidevin, <em>Agnosticism: A Very Short Introduction</em> (2010).</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Feser, al-Ghazali's Iqtisad and Ibn Rushd's Kashf show how to move from a Creator to His attributes; Ibn Taymiyya grounds it in the fitrah. Know Schellenberg's hiddenness argument.</p></div></div>
+</article><article class="brief" id="s-resources--philosophy-logic-fallacies-and-the-main-fields" data-arg="s-resources--philosophy-logic-fallacies-and-the-main-fields">
+<header class="brief-head"><p class="kicker">Argument 9 of 11</p><h3>Philosophy: logic, fallacies and the main fields</h3><label class="done"><input type="checkbox" data-arg="s-resources--philosophy-logic-fallacies-and-the-main-fields" id="chk-s-resources--philosophy-logic-fallacies-and-the-main-fields"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><p><strong>Introductions</strong></p>
+<ul>
+<li><strong>Start here:</strong> Simon Blackburn, <em>Think</em> (1999), or Nigel Warburton, <em>Philosophy: The Basics</em> (5th ed. 2012).</li>
+<li>Thomas Nagel, <em>What Does It All Mean?</em> (1987). Very short.</li>
+</ul>
+<p><strong>Logic and argument</strong></p>
+<ul>
+<li>Peter Kreeft, <em>Socratic Logic</em> (3rd ed. 2008). Classical (Aristotelian) logic for beginners, written for debate.</li>
+<li>Anthony Weston, <em>A Rulebook for Arguments</em> (5th ed. 2017). Short and practical.</li>
+<li>Patrick Hurley, <em>A Concise Introduction to Logic</em> (many editions) or Irving Copi, <em>Introduction to Logic</em>. Standard textbooks.</li>
+<li>T. Edward Damer, <em>Attacking Faulty Reasoning</em> (7th ed. 2012). The fallacies with examples and how to answer them.</li>
+<li>Mortimer Adler, <em>How to Read a Book</em> (1972). For reading opponents' books analytically.</li>
+</ul>
+<p><strong>The fields</strong></p>
+<ul>
+<li>Epistemology: Robert Audi, <em>Epistemology: A Contemporary Introduction</em>; Alvin Plantinga, <em>Warranted Christian Belief</em> (2000) on properly basic belief.</li>
+<li>Metaphysics: Edward Feser, <em>Scholastic Metaphysics</em> (2014); Michael Loux, <em>Metaphysics: A Contemporary Introduction</em>.</li>
+<li>Philosophy of religion: Michael Peterson et al., <em>Reason and Religious Belief</em> (5th ed. 2012).</li>
+<li>Ethics: James Rachels, <em>The Elements of Moral Philosophy</em>; Russ Shafer-Landau, <em>Moral Realism: A Defence</em> (2003).</li>
+<li>Philosophy of science: Samir Okasha, <em>Philosophy of Science: A Very Short Introduction</em> (2nd ed. 2016); A.F. Chalmers, <em>What Is This Thing Called Science?</em> (4th ed. 2013).</li>
+<li>Philosophy of mind: Edward Feser, <em>Philosophy of Mind: A Beginner's Guide</em> (2006); David Chalmers, <em>The Conscious Mind</em> (1996).</li>
+</ul>
+<p><strong>Islam and philosophy</strong></p>
+<ul>
+<li>Peter Adamson, <em>Philosophy in the Islamic World: A Very Short Introduction</em> (2015) and his longer <em>Philosophy in the Islamic World</em> (2016).</li>
+<li>al-Ghazali, <em>The Incoherence of the Philosophers</em>, translated by Michael Marmura (2nd ed. 2000), and <em>Deliverance from Error</em> (<em>al-Munqidh min al-Dalal</em>).</li>
+<li>Ibn Rushd, <em>The Decisive Treatise</em> (<em>Fasl al-Maqal</em>), translated by Charles Butterworth (2001).</li>
+<li>Wael Hallaq, Ibn Taymiyya Against the Greek Logicians (Clarendon Press, 1993). A translation of al-Suyuti's abridgement of Ibn Taymiyya's critique of Aristotelian logic.</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Begin with Blackburn or Warburton, then Kreeft's logic and Damer's fallacies. Pick one book per field. For the Islamic tradition, read Adamson, then al-Ghazali's Incoherence and Hallaq's Ibn Taymiyya.</p></div></div>
+</article><article class="brief" id="s-resources--answering-objections-morality-slavery-aisha-and" data-arg="s-resources--answering-objections-morality-slavery-aisha-and">
+<header class="brief-head"><p class="kicker">Argument 10 of 11</p><h3>Answering objections: morality, slavery, Aisha and the sects</h3><label class="done"><input type="checkbox" data-arg="s-resources--answering-objections-morality-slavery-aisha-and" id="chk-s-resources--answering-objections-morality-slavery-aisha-and"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Start here:</strong> Jonathan A.C. Brown, <em>Misquoting Muhammad</em> (2014). How the tradition interprets hard texts.</li>
+<li>Jonathan A.C. Brown, <em>Slavery and Islam</em> (2019).</li>
+<li>Tafsir Ibn Kathir, al-Qurtubi and al-Sa'di. Always check a verse's classical explanation before answering an objection.</li>
+<li>Ibn Taymiyya, <em>Minhaj al-Sunna al-Nabawiyya</em>. The classical Sunni answer to Shi'i arguments.</li>
+<li>Ibn al-Qayyim, <em>Hidayat al-Hayara</em>. Answers Jewish and Christian objections to Islam.</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Brown's Misquoting Muhammad and Slavery and Islam, the classical tafsirs for context, and Ibn Taymiyya for sectarian debates.</p></div></div>
+</article><article class="brief" id="s-resources--online-tools" data-arg="s-resources--online-tools">
+<header class="brief-head"><p class="kicker">Argument 11 of 11</p><h3>Online tools</h3><label class="done"><input type="checkbox" data-arg="s-resources--online-tools" id="chk-s-resources--online-tools"> Studied</label></header>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Quran:</strong> Corpus Coranicum (manuscripts, variant readings and late-antique parallel texts for the Quran), quran.com, quran.ksu.edu.sa, altafsir.com.</li>
+<li><strong>Hadith:</strong> sunnah.com, dorar.net (gradings), isnad.io.</li>
+<li><strong>Classical library:</strong> shamela.ws.</li>
+<li><strong>Bible:</strong> Codex Sinaiticus online, the NT Virtual Manuscript Room, CSNTM (Center for the Study of NT Manuscripts), the Leon Levy Dead Sea Scrolls Digital Library, and biblehub.com interlinear.</li>
+<li><strong>Philosophy:</strong> the <em>Stanford Encyclopedia of Philosophy</em> (plato.stanford.edu) and the <em>Internet Encyclopedia of Philosophy</em> (iep.utm.edu). These are free and scholarly, and the first place to check any philosophical term.</li>
+</ul></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Corpus Coranicum and dorar.net to check manuscripts and gradings, the online Bible manuscript sites for variants, and the Stanford Encyclopedia of Philosophy for any philosophical term.</p></div></div>
+</article></section>
+<p class="empty" id="empty" hidden>No arguments match that search.</p>
+<nav class="pager" aria-label="Other parts"><a class="pg prev" href="p6.html"><span>← Part VI</span>Philosophy for debaters</a><a class="pg next" href="p8.html"><span>Part VIII →</span>Modern ideological challenges</a></nav>
+<footer>Compiled from the Islam | إسلام | Library And Training Center Discord server and written up as full arguments. Check each source before citing it in a debate. Tap any screenshot to open it full size.</footer>
+</main>
+</div>
+</div>
+<dialog id="lb" aria-label="Screenshot">
+  <div class="lb"><div class="lb-bar"><span id="lbcap"></span><button id="lbclose" type="button">Close</button></div>
+  <div class="lb-img"><img id="lbimg" alt=""></div></div>
+</dialog>
+<script>
+(function(){
+  const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+  const boxes=[...document.querySelectorAll('.done input')];
+  function refresh(){
+    let n=0;
+    boxes.forEach(b=>{const on=b.checked;if(on)n++;b.closest('.brief').classList.toggle('studied',on);
+      document.querySelectorAll('.toc a[data-arg="'+b.dataset.arg+'"]').forEach(a=>a.classList.toggle('is-done',on));});
+    document.getElementById('prog').textContent=n+' of '+boxes.length+' arguments studied';
+    document.getElementById('progbar').style.width=(boxes.length?100*n/boxes.length:0)+'%';
+  }
+  boxes.forEach(b=>{b.checked=store.get('studied:'+b.dataset.arg)==='1';b.addEventListener('change',()=>{store.set('studied:'+b.dataset.arg,b.checked?'1':'0');refresh();});});
+  refresh();
+  // rebuttal practice
+  document.querySelectorAll('.rb-btn').forEach(btn=>btn.addEventListener('click',()=>{
+    const a=document.getElementById(btn.getAttribute('aria-controls'));const open=a.hidden;a.hidden=!open;
+    btn.setAttribute('aria-expanded',open);btn.textContent=open?'Hide the model answer':'Show a model answer';}));
+  // flashcards
+  document.querySelectorAll('.card').forEach(c=>c.addEventListener('click',()=>c.setAttribute('aria-pressed',c.getAttribute('aria-pressed')==='true'?'false':'true')));
+  document.querySelectorAll('.reset').forEach(r=>r.addEventListener('click',()=>r.closest('.cards').querySelectorAll('.card').forEach(c=>c.setAttribute('aria-pressed','false'))));
+  // contents: open the section that contains the hash
+  function openFor(id){const el=document.getElementById(id);if(!el)return;const sec=el.closest('.sec')||el;
+    document.querySelectorAll('.toc a[href="#'+sec.id+'"]').forEach(a=>{const d=a.closest('details');if(d)d.open=true;});}
+  if(location.hash)openFor(location.hash.slice(1));
+  window.addEventListener('hashchange',()=>openFor(location.hash.slice(1)));
+  document.querySelectorAll('details.mtoc a').forEach(a=>a.addEventListener('click',()=>a.closest('details.mtoc').open=false));
+  // search
+  const q=document.getElementById('q'),info=document.getElementById('qinfo'),empty=document.getElementById('empty');
+  const secs=[...document.querySelectorAll('.sec')],briefs=[...document.querySelectorAll('.brief')];
+  briefs.forEach(b=>b._t=b.textContent.toLowerCase());
+  let timer;
+  function run(){
+    const v=q.value.trim().toLowerCase();let hits=0;
+    briefs.forEach(b=>{const m=!v||b._t.includes(v);b.hidden=!m;if(m&&v)hits++;
+      document.querySelectorAll('.toc a[data-arg="'+b.id+'"]').forEach(a=>a.classList.toggle('dim',!m));});
+    secs.forEach(s=>{const any=!v||[...s.querySelectorAll('.brief')].some(b=>!b.hidden);s.hidden=!any;
+      const c=s.querySelector('.cards');if(c)c.hidden=!!v;const i=s.querySelector('.sec-intro');if(i)i.hidden=!!v;
+      document.querySelectorAll('.toc a[href="#'+s.id+'"]').forEach(a=>{a.classList.toggle('dim',!any);if(v&&any){const d=a.closest('details');if(d)d.open=true;}});});
+    info.textContent=v?(hits+' matching argument'+(hits===1?'':'s')):'';
+    empty.hidden=!v||hits>0;
+  }
+  q.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(run,120);});
+  q.addEventListener('keydown',e=>{if(e.key==='Escape'){q.value='';run();}});
+  // lightbox
+  const lb=document.getElementById('lb'),lbimg=document.getElementById('lbimg'),lbcap=document.getElementById('lbcap');
+  document.querySelectorAll('.thumb').forEach(b=>b.addEventListener('click',()=>{lbimg.src=b.dataset.src;lbimg.alt=b.dataset.cap;lbcap.textContent=b.dataset.cap;if(lb.showModal)lb.showModal();else lb.setAttribute('open','');}));
+  document.getElementById('lbclose').addEventListener('click',()=>lb.close());
+  lb.addEventListener('click',e=>{if(e.target===lb)lb.close();});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Philosophy for debaters · Dawah Study Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri&family=Young+Serif&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: hub of part cards; part pages = sticky contents rail + one reading column of "debate briefs" with a label gutter */
+:root{
+  --paper:#eef2ef; --card:#ffffff; --ink:#15201c; --muted:#56655d; --rule:#d0dad4;
+  --accent:#0c6250; --accent-soft:#e1efe9; --gold:#8f6614; --gold-soft:#f6eedb; --hl:#f4e3a6; --warn:#9a3f12; --warn-soft:#fbeee4;
+  --f-display:"Young Serif", Georgia, "Times New Roman", serif;
+  --f-body:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-ui:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-ar:"Amiri", "Traditional Arabic", "Geeza Pro", "Noto Naskh Arabic", serif;
+  --measure:44rem;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0e1513; --card:#151e1b; --ink:#e1e9e5; --muted:#98a9a1; --rule:#27342f;
+  --accent:#5fc6ac; --accent-soft:#17302a; --gold:#d9ae5a; --gold-soft:#2a2414; --hl:#5a4a17; --warn:#f0a070; --warn-soft:#30201a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0e1513; --card:#151e1b; --ink:#e1e9e5; --muted:#98a9a1; --rule:#27342f;
+  --accent:#5fc6ac; --accent-soft:#17302a; --gold:#d9ae5a; --gold-soft:#2a2414; --hl:#5a4a17; --warn:#f0a070; --warn-soft:#30201a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.62;margin:0}
+a{color:var(--accent);text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:80rem;margin:0 auto;padding-inline:16px;padding-block:0 4rem}
+.eyebrow{font-family:var(--f-ui);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:0 0 .5rem}
+h1,h2,h3{text-wrap:balance}
+button{font:inherit;color:inherit}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+img{max-width:100%}
+[hidden]{display:none!important}
+/* top bar */
+.topbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1rem;padding-block:1rem;border-bottom:1px solid var(--rule);font-family:var(--f-ui);font-size:.85rem}
+.topbar a{text-decoration:none;color:var(--muted)}
+.topbar a:hover{color:var(--accent)}
+.topbar .home{font-weight:600;color:var(--ink)}
+.phead{padding-block:2.2rem 1.6rem;border-bottom:3px double var(--rule);margin-bottom:2rem}
+.phead h1{font-family:var(--f-display);font-weight:400;font-size:clamp(2.1rem,5vw,3.3rem);line-height:1.08;margin:0 0 .8rem}
+.phead p.desc{max-width:var(--measure);color:var(--muted);font-size:1.08rem;margin:0 0 1rem}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem .5rem;font-family:var(--f-ui);font-size:.75rem;margin:0;padding:0;list-style:none}
+.legend li{border:1px solid var(--rule);border-radius:99px;padding:.15rem .6rem;color:var(--muted);background:var(--card)}
+/* layout */
+.layout{display:grid;grid-template-columns:16.5rem minmax(0,1fr);gap:3rem;align-items:start}
+aside{position:sticky;top:env(safe-area-inset-top,0px);max-height:100vh;overflow:auto;padding-block:1rem 2rem;font-family:var(--f-ui);font-size:.85rem}
+.search{display:flex;flex-direction:column;gap:.4rem;margin-bottom:1rem}
+.search input{width:100%;font:inherit;font-size:.95rem;padding:.55rem .7rem;border:1px solid var(--rule);border-radius:5px;background:var(--card);color:var(--ink)}
+.search small{color:var(--muted);min-height:1.2em}
+.progress{margin:0 0 1rem;color:var(--muted)}
+.bar{height:4px;background:var(--rule);border-radius:2px;margin-top:.35rem;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+.toc{list-style:none;margin:0;padding:0;display:grid;gap:.35rem}
+.toc details summary{cursor:pointer;list-style:none;display:flex;gap:.4rem;align-items:baseline}
+.toc details summary::-webkit-details-marker{display:none}
+.toc details summary::before{content:"▸";color:var(--muted);font-size:.75rem;transition:transform .15s}
+.toc details[open] summary::before{transform:rotate(90deg)}
+.toc summary a{font-weight:600;color:var(--ink);text-decoration:none}
+.toc ol{list-style:none;margin:.35rem 0 .6rem;padding:0;display:grid;gap:.1rem}
+.toc ol a{display:block;color:var(--muted);text-decoration:none;padding:.15rem 0 .15rem .7rem;border-left:2px solid var(--rule);line-height:1.35}
+.toc ol a:hover{color:var(--ink);border-left-color:var(--accent)}
+.toc ol a.is-done{color:var(--accent);border-left-color:var(--accent)}
+.toc ol a.is-done::after{content:" ✓"}
+.toc a.dim{opacity:.35}
+details.mtoc{display:none}
+main{min-width:0;max-width:54rem}
+/* sections */
+.sec{margin:0 0 4rem;scroll-margin-top:1rem}
+.sec-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.3rem 1rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem}
+.sec h2{font-family:var(--f-display);font-weight:400;font-size:clamp(1.6rem,3.4vw,2.1rem);line-height:1.2;margin:0}
+.sec-count{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);margin:0}
+.sec-intro{max-width:var(--measure);font-size:1.04rem;color:var(--muted);margin:1rem 0 2rem}
+/* brief */
+.brief{background:var(--card);border:1px solid var(--rule);border-radius:8px;margin:0 0 2rem;scroll-margin-top:1rem;overflow:hidden}
+.brief-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.2rem 1rem;padding:1.2rem 1.4rem 1rem;border-bottom:1px solid var(--rule)}
+.kicker{grid-column:1/-1;font-family:var(--f-ui);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+.brief h3{font-family:var(--f-display);font-weight:400;font-size:1.42rem;line-height:1.25;margin:0}
+.done{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);display:flex;align-items:center;gap:.35rem;cursor:pointer;white-space:nowrap;align-self:start;margin-top:.3rem}
+.done input{accent-color:var(--accent);width:1rem;height:1rem}
+.brief.studied .brief-head{background:var(--accent-soft)}
+.row{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:1.2rem;padding:1rem 1.4rem;border-bottom:1px solid var(--rule)}
+.row:last-child{border-bottom:0}
+.lab{font-family:var(--f-ui);font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;font-weight:600;color:var(--gold);padding-top:.3rem}
+.cell{min-width:0}
+.cell>:first-child{margin-top:0}.cell>:last-child{margin-bottom:0}
+.cell p{margin:.55rem 0}
+.cell ul,.cell ol{padding-left:1.2rem;margin:.5rem 0}
+.cell li{margin:.35rem 0}
+.cell li::marker{color:var(--accent)}
+.r-thesis .cell p{font-size:1.12rem;font-weight:600;line-height:1.5}
+.r-caution{background:var(--warn-soft)}
+.r-caution .lab,.r-caution .cell{color:var(--warn)}
+.syl{list-style:none;padding:0!important;margin:0!important;display:grid;gap:.5rem;counter-reset:none}
+.syl li{display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:.6rem;margin:0!important;align-items:baseline}
+.ptag{font-family:var(--f-ui);font-size:.75rem;font-weight:600;color:var(--accent);border:1px solid var(--accent);border-radius:4px;text-align:center;padding:.05rem 0;font-variant-numeric:tabular-nums}
+.syl li.concl{padding-top:.55rem;border-top:1px dashed var(--rule);font-weight:600}
+.syl li.concl .ptag{background:var(--accent);color:var(--card);font-size:.95rem;line-height:1.2}
+.r-ar{background:var(--gold-soft)}
+.ar{margin:0 0 .8rem;padding:0}
+.ar:last-child{margin-bottom:0}
+.ar p{font-family:var(--f-ar);font-size:1.55rem;line-height:2;margin:0;text-align:right}
+.ar cite{display:block;font-family:var(--f-ui);font-style:normal;font-size:.75rem;color:var(--muted);text-align:right}
+.obj{padding:.1rem 0 .1rem 1rem;border-left:2px solid var(--rule);margin:0 0 1rem}
+.obj:last-child{margin-bottom:0}
+.obj .q{font-family:var(--f-ui);font-weight:600;font-size:.95rem;margin:0 0 .25rem}
+.obj .a p:first-child{margin-top:0}
+.rebut{border:1px dashed var(--accent);border-radius:6px;background:var(--accent-soft);padding:.9rem 1rem}
+.rb-tag{font-family:var(--f-ui);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0!important}
+.rb-q{font-size:1.08rem;font-style:italic;margin:.3rem 0 .4rem!important}
+.rb-hint{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);margin:0 0 .6rem!important}
+.rb-btn{font-family:var(--f-ui);font-size:.85rem;font-weight:500;background:var(--accent);color:var(--card);border:0;border-radius:4px;padding:.4rem .85rem;cursor:pointer}
+.rb-a{margin-top:.7rem;padding-top:.7rem;border-top:1px solid var(--rule)}
+.r-sum .cell p{font-style:italic}
+/* figures */
+.fig{margin:1rem 0;max-width:26rem;display:flex;flex-direction:column;gap:.4rem}
+.thumb{all:unset;cursor:zoom-in;display:block;position:relative;max-height:20rem;overflow:hidden;border:1px solid var(--rule);border-radius:5px;background:var(--paper)}
+.thumb img{display:block;width:100%;height:auto}
+.thumb .zoom{position:absolute;right:.5rem;bottom:.5rem;font-family:var(--f-ui);font-size:.7rem;background:var(--card);color:var(--ink);border:1px solid var(--rule);border-radius:3px;padding:.1rem .4rem}
+.thumb:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.fig figcaption{font-family:var(--f-ui);font-size:.78rem;line-height:1.45;color:var(--muted)}
+.srcnote{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);border-left:3px solid var(--gold);padding:.3rem .7rem;background:var(--gold-soft);border-radius:0 4px 4px 0}
+.srclabel{font-weight:600;color:var(--gold);text-transform:uppercase;letter-spacing:.1em;font-size:.68rem;margin-right:.3rem}
+/* flashcards */
+.cards{margin:1rem 0 0;padding:1.2rem;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+.cards-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem 1rem;margin-bottom:.9rem}
+.cards h4{font-family:var(--f-display);font-weight:400;font-size:1.25rem;margin:0}
+.cards-head p{font-family:var(--f-ui);font-size:.8rem;color:var(--muted);margin:0;flex:1}
+.reset{font-family:var(--f-ui);font-size:.78rem;background:none;border:1px solid var(--rule);border-radius:4px;padding:.25rem .6rem;cursor:pointer;color:var(--muted)}
+.cards ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.7rem}
+.card{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:.5rem;width:100%;height:100%;min-height:6.5rem;padding:.8rem .9rem;background:var(--card);border:1px solid var(--rule);border-radius:6px;font-family:var(--f-ui);font-size:.86rem;line-height:1.4}
+.card:hover{border-color:var(--accent)}
+.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card .cq{font-weight:500}
+.card .ca{display:none;color:var(--accent);border-top:1px solid var(--rule);padding-top:.5rem}
+.card[aria-pressed="true"] .ca{display:block}
+.card[aria-pressed="true"]{border-color:var(--accent)}
+.hit{background:var(--hl);border-radius:2px}
+.empty{font-family:var(--f-ui);color:var(--muted);padding:2rem 0}
+.pager{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1rem;margin-top:3rem}
+.pg{display:block;padding:1rem 1.2rem;border:1px solid var(--rule);border-radius:8px;background:var(--card);text-decoration:none;color:var(--ink);font-family:var(--f-display);font-size:1.15rem}
+.pg span{display:block;font-family:var(--f-ui);font-size:.75rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.pg.next{text-align:right}
+.pg:hover{border-color:var(--accent)}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--rule);font-family:var(--f-ui);font-size:.8rem;color:var(--muted)}
+/* lightbox */
+dialog{border:0;padding:0;max-width:min(60rem,94vw);max-height:92vh;background:var(--card);color:var(--ink);border-radius:8px}
+dialog::backdrop{background:rgba(5,12,10,.78)}
+.lb{display:flex;flex-direction:column;max-height:92vh}
+.lb-bar{display:flex;justify-content:space-between;align-items:start;gap:1rem;padding:.8rem 1rem;font-family:var(--f-ui);font-size:.85rem;border-bottom:1px solid var(--rule)}
+.lb-bar button{background:var(--accent);color:var(--card);border:0;border-radius:4px;padding:.35rem .8rem;cursor:pointer;flex:none}
+.lb-img{overflow:auto}
+.lb-img img{display:block;width:100%;height:auto}
+@media (max-width:900px){
+  .layout{grid-template-columns:minmax(0,1fr);gap:0}
+  aside{position:static;max-height:none;padding-block:0}
+  aside>.toc,aside .progress{display:none}
+  details.mtoc{display:block;margin:0 0 1rem;font-family:var(--f-ui);font-size:.9rem;background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:.6rem .9rem}
+  details.mtoc>summary{cursor:pointer;font-weight:600}
+  details.mtoc .toc{margin-top:.8rem}
+  .search{position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--paper);padding-block:.6rem}
+  body{font-size:16px}
+}
+@media (max-width:640px){
+  .row{grid-template-columns:minmax(0,1fr);gap:.35rem;padding:.9rem 1rem}
+  .brief-head{padding:1rem}
+  .lab{padding-top:0}
+  .ar p{font-size:1.35rem}
+  .cards-head p{flex-basis:100%;order:3}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="topbar" aria-label="Library"><a class="home" href="index.html">← Dawah Study Library</a><span>Part VI of IX</span></nav>
+<header class="phead">
+  <p class="eyebrow">Part VI · 1 section · 12 arguments</p>
+  <h1>Philosophy for debaters</h1>
+  <p class="desc">The laws of logic, validity, burden of proof, fallacies, and the essentials of epistemology, metaphysics, ethics, science and mind, with the Islamic tradition&#x27;s view of philosophy.</p>
+  <ul class="legend" aria-label="Each argument is laid out as"><li>Thesis</li><li>Argument (premises → conclusion)</li><li>Evidence &amp; screenshots</li><li>Arabic</li><li>Objections</li><li>Practice</li><li>In one breath</li></ul>
+</header>
+<div class="layout">
+<aside>
+  <div class="search">
+    <label for="q" class="eyebrow" style="margin:0">Search this part</label>
+    <input id="q" type="search" placeholder="Verse, name or keyword" autocomplete="off">
+    <small id="qinfo" aria-live="polite"></small>
+  </div>
+  <div class="progress"><span id="prog">0 studied</span><div class="bar"><i id="progbar"></i></div></div>
+  <details class="mtoc"><summary>Contents</summary><ol class="toc"><li class="toc-sec"><details><summary><a href="#s-philosophy">Philosophy for debaters</a></summary><ol><li><a href="#s-philosophy--the-laws-of-logic-what-everyone-is-bound-by" data-arg="s-philosophy--the-laws-of-logic-what-everyone-is-bound-by">The laws of logic: what everyone is bound by</a></li><li><a href="#s-philosophy--how-arguments-work-validity-soundness-and-the-th" data-arg="s-philosophy--how-arguments-work-validity-soundness-and-the-th">How arguments work: validity, soundness and the three kinds of inference</a></li><li><a href="#s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to" data-arg="s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to">Burden of proof and what you can hold someone to</a></li><li><a href="#s-philosophy--the-fallacies-you-will-meet-most-often" data-arg="s-philosophy--the-fallacies-you-will-meet-most-often">The fallacies you will meet most often</a></li><li><a href="#s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it" data-arg="s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it">Epistemology: what knowledge is and how we get it</a></li><li><a href="#s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo" data-arg="s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo">Metaphysics: the concepts behind the arguments for God</a></li><li><a href="#s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo" data-arg="s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo">Philosophy of religion: the map of the debate about God</a></li><li><a href="#s-philosophy--ethics-what-grounds-right-and-wrong" data-arg="s-philosophy--ethics-what-grounds-right-and-wrong">Ethics: what grounds right and wrong</a></li><li><a href="#s-philosophy--philosophy-of-science-what-science-can-and-can-t" data-arg="s-philosophy--philosophy-of-science-what-science-can-and-can-t">Philosophy of science: what science can and can't do</a></li><li><a href="#s-philosophy--philosophy-of-mind-and-the-self" data-arg="s-philosophy--philosophy-of-mind-and-the-self">Philosophy of mind and the self</a></li><li><a href="#s-philosophy--debate-conduct-charity-socratic-questions-and-st" data-arg="s-philosophy--debate-conduct-charity-socratic-questions-and-st">Debate conduct: charity, Socratic questions and staying in control</a></li><li><a href="#s-philosophy--islam-and-philosophy-what-muslim-scholars-accept" data-arg="s-philosophy--islam-and-philosophy-what-muslim-scholars-accept">Islam and philosophy: what Muslim scholars accepted and rejected</a></li></ol></details></li></ol></details>
+  <ol class="toc" id="toc"><li class="toc-sec"><details><summary><a href="#s-philosophy">Philosophy for debaters</a></summary><ol><li><a href="#s-philosophy--the-laws-of-logic-what-everyone-is-bound-by" data-arg="s-philosophy--the-laws-of-logic-what-everyone-is-bound-by">The laws of logic: what everyone is bound by</a></li><li><a href="#s-philosophy--how-arguments-work-validity-soundness-and-the-th" data-arg="s-philosophy--how-arguments-work-validity-soundness-and-the-th">How arguments work: validity, soundness and the three kinds of inference</a></li><li><a href="#s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to" data-arg="s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to">Burden of proof and what you can hold someone to</a></li><li><a href="#s-philosophy--the-fallacies-you-will-meet-most-often" data-arg="s-philosophy--the-fallacies-you-will-meet-most-often">The fallacies you will meet most often</a></li><li><a href="#s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it" data-arg="s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it">Epistemology: what knowledge is and how we get it</a></li><li><a href="#s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo" data-arg="s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo">Metaphysics: the concepts behind the arguments for God</a></li><li><a href="#s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo" data-arg="s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo">Philosophy of religion: the map of the debate about God</a></li><li><a href="#s-philosophy--ethics-what-grounds-right-and-wrong" data-arg="s-philosophy--ethics-what-grounds-right-and-wrong">Ethics: what grounds right and wrong</a></li><li><a href="#s-philosophy--philosophy-of-science-what-science-can-and-can-t" data-arg="s-philosophy--philosophy-of-science-what-science-can-and-can-t">Philosophy of science: what science can and can't do</a></li><li><a href="#s-philosophy--philosophy-of-mind-and-the-self" data-arg="s-philosophy--philosophy-of-mind-and-the-self">Philosophy of mind and the self</a></li><li><a href="#s-philosophy--debate-conduct-charity-socratic-questions-and-st" data-arg="s-philosophy--debate-conduct-charity-socratic-questions-and-st">Debate conduct: charity, Socratic questions and staying in control</a></li><li><a href="#s-philosophy--islam-and-philosophy-what-muslim-scholars-accept" data-arg="s-philosophy--islam-and-philosophy-what-muslim-scholars-accept">Islam and philosophy: what Muslim scholars accepted and rejected</a></li></ol></details></li></ol>
+</aside>
+<main id="main">
+<section class="sec" id="s-philosophy"><header class="sec-head"><h2>Philosophy for debaters</h2><p class="sec-count">12 arguments</p></header><p class="sec-intro">This section is a working course in the philosophy you need for debating: the rules of reasoning everyone is bound by, what you can and cannot hold an opponent to, how to analyse and attack an argument, the fallacies, and the key ideas in the theory of knowledge, metaphysics, ethics, science and mind that come up in debates about God. It ends with the Islamic tradition's own relationship with philosophy, so you know where Muslim scholars accepted it and where they criticised it. Each lesson gives you the concept, why it matters in a debate, and how to use it.</p><article class="brief" id="s-philosophy--the-laws-of-logic-what-everyone-is-bound-by" data-arg="s-philosophy--the-laws-of-logic-what-everyone-is-bound-by">
+<header class="brief-head"><p class="kicker">Argument 1 of 12</p><h3>The laws of logic: what everyone is bound by</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--the-laws-of-logic-what-everyone-is-bound-by" id="chk-s-philosophy--the-laws-of-logic-what-everyone-is-bound-by"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Three laws of logic bind every person in every debate: identity, non-contradiction and excluded middle. Almost every meaningful assertion presupposes them, and anyone who denies them in ordinary reasoning still relies on them to make the denial. They are the first thing you can hold anyone to.</p></div></div>
+<div class="row r-arg"><div class="lab">Argument</div><div class="cell"><ol class="syl"><li class=""><span class="ptag">P1</span><span>To assert anything meaningful, you must mean that it is so and not otherwise.</span></li><li class=""><span class="ptag">P2</span><span>That assumes non-contradiction (a claim and its denial can't both be true in the same sense at the same time), identity (a thing is what it is) and excluded middle (a claim or its negation is true; classical logic also assumes every claim is true or false, which is bivalence).</span></li><li class="concl"><span class="ptag">∴</span><span>No one can coherently reject these laws; any argument against them uses them.</span></li></ol></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Identity.</strong> A is A: a thing is what it is. "God" in your premise must mean the same in your conclusion (or you commit equivocation).</li>
+<li><strong>Non-contradiction.</strong> Not both A and not-A, in the same sense at the same time. Aristotle called it the firmest of all principles (<em>Metaphysics</em> IV). This is the law you use against the Trinity's formula when the 'is' is read as strict identity (Trinitarians reply that 'is' differs in sense): "the Father is God, the Son is God, the Father is not the Son, there is one God" (see <em>How the Trinity developed</em>), and against "Jesus knew and did not know the Hour".</li>
+<li><strong>Excluded middle.</strong> Either A or not-A. "Jesus is God" is either true or false; there is no third option once terms are fixed.</li>
+<li><strong>Self-refutation.</strong> Someone who says "logic is just a Western construct" is making a claim he wants you to accept as true and not false, which uses logic. Point that out calmly.</li>
+<li><strong>"Mystery" vs "contradiction".</strong> A mystery is something not fully understood; a contradiction is something that cannot be true. You can accept mysteries (how Allah's attributes are, <em>kayfiyya</em>); no one should accept contradictions.</li>
+</ul></div></div>
+<div class="row r-obj"><div class="lab">Objections</div><div class="cell"><div class="obj"><p class="q">"Quantum mechanics shows things can be in two states at once, so non-contradiction fails."</p><div class="a"><p>Superposition is a mathematical description of a state that is not either of the classical values; it is not a particle being "here and not here in the same sense at the same time". Physicists use logic to state quantum mechanics.</p></div></div><div class="obj"><p class="q">"Paraconsistent logics allow contradictions."</p><div class="a"><p> Paraconsistent logics are formal systems built to avoid 'explosion' when inconsistent information is present; even dialetheists restrict true contradictions to special cases like the Liar paradox, not ordinary claims like God's existence.</p></div></div></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“The Trinity is beyond human logic; you can't judge God with logic.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--the-laws-of-logic-what-everyone-is-bound-by">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--the-laws-of-logic-what-everyone-is-bound-by" hidden><p>If logic doesn't apply, you can't say the Trinity is true rather than false either, because "true and not false" is logic. God is beyond our full understanding, but He doesn't make contradictions true. A mystery is something we don't fully grasp; a contradiction is something that can't be.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Identity, non-contradiction and excluded middle bind everyone; denying them uses them. Mystery is acceptable; contradiction is not. These are the first rules you can hold any opponent to.</p></div></div>
+</article><article class="brief" id="s-philosophy--how-arguments-work-validity-soundness-and-the-th" data-arg="s-philosophy--how-arguments-work-validity-soundness-and-the-th">
+<header class="brief-head"><p class="kicker">Argument 2 of 12</p><h3>How arguments work: validity, soundness and the three kinds of inference</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--how-arguments-work-validity-soundness-and-the-th" id="chk-s-philosophy--how-arguments-work-validity-soundness-and-the-th"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Every argument can be checked in two places: are the premises true, and does the conclusion follow? Learn the difference between deduction, induction and abduction, and you will know exactly where to attack, and where your own arguments are exposed.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Deductive arguments.</strong> If the premises are true and the form is valid, the conclusion must be true. <em>Valid</em> means the conclusion follows; <em>sound</em> means valid with true premises. Common valid forms:<ul>
+<li><em>Modus ponens</em>: if P then Q; P; so Q.</li>
+<li><em>Modus tollens</em>: if P then Q; not Q; so not P. (Example: "If Jesus were omniscient he would know the Hour; he did not know it; so he was not omniscient.")</li>
+<li><em>Disjunctive syllogism</em>: P or Q; not P; so Q. (Example: 52:35 — created from nothing, self-created, or created by another.)</li>
+<li><em>Reductio ad absurdum</em>: assume the opponent's claim, derive a contradiction or absurdity, so reject the claim.</li>
+</ul>
+</li>
+<li><strong>Invalid forms to watch for.</strong> <em>Affirming the consequent</em>: if P then Q; Q; so P. <em>Denying the antecedent</em>: if P then Q; not P; so not Q.</li>
+<li><strong>Inductive arguments</strong> reason from many cases to a general conclusion. They make conclusions probable, not certain. (Example: the Oxford Cognition, Religion and Theology Project's studies in 20 countries on natural predispositions to belief.)</li>
+<li><strong>Abductive arguments</strong> (inference to the best explanation) choose the hypothesis that best explains the evidence, judged by explanatory power, scope, simplicity, fit with background knowledge and lack of ad hoc additions. Most historical arguments (the Quran's preservation, the resurrection debate) are abductive.</li>
+<li><strong>How to attack.</strong> Grant the form and attack a premise, or grant the premises and show the conclusion doesn't follow. Say which you're doing: "I accept your premise one, but premise two is false because…"</li>
+<li><strong>How to defend.</strong> Number your premises in debate. It forces your opponent to say which premise he rejects, and stops him attacking a conclusion without engaging the reasoning.</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“Your argument is just your opinion.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--how-arguments-work-validity-soundness-and-the-th">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--how-arguments-work-validity-soundness-and-the-th" hidden><p>It's a valid argument: if the premises are true, the conclusion follows. So which premise do you reject, and why? If you can't name one, you're rejecting the conclusion without a reason.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Valid means the conclusion follows; sound means valid with true premises. Know modus ponens, modus tollens, disjunctive syllogism and reductio, and the invalid forms. Deduction gives certainty, induction probability, abduction the best explanation. Always ask: which premise do you reject?</p></div></div>
+</article><article class="brief" id="s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to" data-arg="s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to">
+<header class="brief-head"><p class="kicker">Argument 3 of 12</p><h3>Burden of proof and what you can hold someone to</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to" id="chk-s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Whoever makes a claim has the burden to support it, including negative claims like "there is no God" or "the Quran was copied". Learn to identify each side's claims, demand support, and refuse to carry burdens that aren't yours.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>The rule.</strong> "Whoever asserts must prove." This applies to positive claims ("God exists") and to negative ones ("God doesn't exist", "the Bible was not corrupted", "Muhammad copied from the Bible"). Islamic jurisprudence has an analogous litigation rule: "the burden of proof is on the claimant" (<em>al-bayyina 'ala al-mudda'i</em>, al-Bayhaqi, al-Sunan al-Kubra).</li>
+<li><strong>The "lack of belief" move.</strong> Some atheists define atheism as "lack of belief" to avoid any burden. Fine, then they have made no claim and have nothing to say against your arguments except to show which premise fails. If they say "there is no good evidence for God", that is a claim, and they must support it.</li>
+<li><strong>Internal critique vs external critique.</strong> In an <em>internal critique</em> you show that a position fails by its own standards (the Bible contradicts itself; Christian doctrine contradicts Christian scripture). You don't need the opponent to accept Islam for this to work. In an <em>external critique</em> you judge it by your standards. Internal critiques are usually stronger because the opponent can't reject the standard.</li>
+<li><strong>Consistency.</strong> You can always hold an opponent to his own standards. If he demands early manuscripts for the Quran, apply the same demand to the Gospels. If he accepts Paul's vision as revelation, ask why Muhammad's ﷺ revelation fails the same test. This is legitimate; it only becomes the <em>tu quoque</em> fallacy if you use it to dodge the original question.</li>
+<li><strong>Definitions first.</strong> Before arguing, fix the meaning of key terms ("God", "corruption", "evidence", "Trinity"). Many debates are lost by arguing past each other.</li>
+<li><strong>"Extraordinary claims require extraordinary evidence."</strong> This slogan is vague. Ask: by what standard is a claim "extraordinary", and what evidence would count? Often the standard is set so no evidence could meet it, which is a refusal to engage, not a rule of reason.</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“I don't have to prove anything; I just don't believe your claims.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to" hidden><p>Then you have no case against them, only against the premises, so tell me which premise is false. But the moment you say "there's no evidence for God" or "the Quran was copied", you're making a claim, and it's your turn to support it.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Whoever claims must prove, including negative claims. Use internal critiques where you can, hold opponents to their own standards consistently, define terms first, and challenge vague slogans like "extraordinary evidence".</p></div></div>
+</article><article class="brief" id="s-philosophy--the-fallacies-you-will-meet-most-often" data-arg="s-philosophy--the-fallacies-you-will-meet-most-often">
+<header class="brief-head"><p class="kicker">Argument 4 of 12</p><h3>The fallacies you will meet most often</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--the-fallacies-you-will-meet-most-often" id="chk-s-philosophy--the-fallacies-you-will-meet-most-often"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Fallacies are patterns of bad reasoning. Learn to name the common ones briefly and without arrogance, and avoid committing them yourself.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><p><strong>Fallacies of relevance</strong></p>
+<ul>
+<li><strong>Ad hominem</strong>: attacking the person, not the argument ("you're just a Muslim apologist"). Answer: "Even if that's true, which premise is false?"</li>
+<li><strong>Straw man</strong>: attacking a weaker version of the view. Answer by restating your view accurately. Avoid it yourself: represent the Trinity as Christians define it before you criticise it.</li>
+<li><strong>Red herring</strong>: changing the subject (asked about Gospel authorship, the opponent talks about Islamic violence).</li>
+<li><strong>Tu quoque</strong> ("you too"): dismissing a criticism because the critic is guilty of something similar. Use consistency arguments only to expose double standards, not to avoid answering.</li>
+<li><strong>Appeal to emotion or popularity</strong>: "billions of Christians can't be wrong."</li>
+<li><strong>Genetic fallacy</strong>: judging a claim by its origin rather than its merit ("you only believe because you were raised Muslim"). Note the inverse: showing a doctrine developed historically is not a genetic fallacy if the question is whether it was originally taught.</li>
+</ul>
+<p><strong>Fallacies of presumption</strong></p>
+<ul>
+<li><strong>Begging the question</strong> (circular reasoning): assuming what you're trying to prove ("the Bible is true because the Bible says so").</li>
+<li><strong>False dilemma</strong>: presenting two options when there are more ("Jesus was a liar, lunatic, or Lord" omits "legend" and "misreported").</li>
+<li><strong>Complex question</strong>: "Have you stopped defending violence?"</li>
+<li><strong>Special pleading</strong>: exempting your case from a rule you apply to others (demanding manuscripts from the Quran but not the Gospels).</li>
+<li><strong>Moving the goalposts</strong>: raising the standard once evidence is provided.</li>
+<li><strong>No true Scotsman</strong>: redefining a group to exclude counterexamples.</li>
+</ul>
+<p><strong>Fallacies of ambiguity and inference</strong></p>
+<ul>
+<li><strong>Equivocation</strong>: shifting a word's meaning mid-argument ("son of God", "word", "one").</li>
+<li><strong>Composition and division</strong>: assuming what's true of parts is true of the whole, or vice versa ("every part of the universe has a cause, so the universe has a cause" needs more argument; the dependence argument supplies it).</li>
+<li><strong>Argument from ignorance</strong>: "it hasn't been proved false, so it's true" (or vice versa).</li>
+<li><strong>Post hoc</strong>: assuming that because B followed A, A caused B.</li>
+<li><strong>Hasty generalisation</strong>: a few cases taken as the rule.</li>
+</ul>
+<p><strong>Debate tactics</strong></p>
+<ul>
+<li><strong>Gish gallop</strong>: firing many weak claims quickly so that rebuttal is impossible in the time. Answer: "My opponent has raised fifteen claims; I'll take the three strongest and show they fail, and invite him to pick any other he thinks is decisive."</li>
+<li><strong>Burden shifting</strong>: making you prove a negative.</li>
+<li><strong>Appeal to authority</strong> is legitimate when the authority is a genuine expert on that specific question and experts broadly agree; fallacious when the authority is irrelevant or the experts are divided.</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“That's an ad hominem! (when you note a scholar's bias)”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--the-fallacies-you-will-meet-most-often">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--the-fallacies-you-will-meet-most-often" hidden><p>Pointing out a source's bias goes to how much weight their testimony gets, not whether their argument is valid. When I criticise an argument, I'll address its premises; when I assess a witness, credibility is relevant.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Know ad hominem, straw man, red herring, tu quoque, genetic fallacy, begging the question, false dilemma, special pleading, moving goalposts, equivocation, composition, argument from ignorance and the Gish gallop. Name them briefly, answer the substance, and don't commit them yourself.</p></div></div>
+</article><article class="brief" id="s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it" data-arg="s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it">
+<header class="brief-head"><p class="kicker">Argument 5 of 12</p><h3>Epistemology: what knowledge is and how we get it</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it" id="chk-s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Debates about God turn on what counts as knowledge. Know the main sources of knowledge, the self-refuting positions (radical scepticism, scientism, verificationism), and the Islamic view that reason, the senses, reliable testimony and the fitrah are all legitimate sources.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Knowledge.</strong> The classical definition is justified true belief; Edmund Gettier (1963) showed cases where that isn't enough, and philosophers still debate what must be added. For debate, what matters is <em>justification</em>: what makes a belief rational.</li>
+<li><strong>Sources of knowledge.</strong> Sense perception; reason (logic, mathematics, necessary truths); memory; testimony (most of what we know about history, science and geography comes from trusting others); introspection; and, in Islamic thought, the fitrah and revelation.</li>
+<li><strong>Foundationalism.</strong> Some beliefs are basic: they are rational without being inferred from others (that other minds exist, that the past was real, that I am conscious). Alvin Plantinga argued belief in God can be "properly basic". This fits the Islamic fitrah.</li>
+<li><strong>Testimony and mass transmission.</strong> Islam developed a sophisticated theory of testimony: reports transmitted by so many independent people that collusion is impossible (<em>mutawatir</em>) give certain knowledge on the majority view of the usul scholars. This is how the Quran's text is known, and it is the same principle by which we know cities we have never visited exist.</li>
+<li><strong>Dogmatic scepticism ("we can't know anything") refutes itself, since it claims to know that knowledge is impossible; Pyrrhonian scepticism avoids this by suspending judgment, so press it on why we should doubt reliable faculties.</strong></li>
+<li><strong>Verificationism</strong> (logical positivism: only empirically verifiable or tautological statements are meaningful) collapsed because the principle itself is neither empirically verifiable nor a tautology. A.J. Ayer later admitted its defects.</li>
+<li><strong>Scientism</strong> ("only science gives knowledge") is not a scientific claim and so, by its own standard, can't be known.</li>
+<li><strong>Evidentialism vs reformed epistemology.</strong> Some say belief needs evidence proportioned to it (W.K. Clifford); others (Plantinga, William Alston) say some beliefs are rational without argument. Islam affirms both: belief in God is natural, and evidence confirms it.</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“You can only believe what's proven by evidence.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it" hidden><p>Can you prove that principle with evidence? You believe other people have minds, that the past happened and that your reasoning is reliable, without proving them. Those are rational basic beliefs, and so is the natural recognition of a Creator, which the evidence then confirms.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Sources of knowledge: senses, reason, memory, testimony, introspection, fitrah and revelation. Scepticism, verificationism and scientism refute themselves. Mass-transmitted testimony (tawatur) gives certainty, which is how the Quran is known.</p></div></div>
+</article><article class="brief" id="s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo" data-arg="s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo">
+<header class="brief-head"><p class="kicker">Argument 6 of 12</p><h3>Metaphysics: the concepts behind the arguments for God</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo" id="chk-s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Arguments for God use a small set of metaphysical concepts. Learn them precisely: necessary and contingent, essence and existence, causation and the principle of sufficient reason, actual and potential infinity, and the theologians' categories.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Necessary, contingent, impossible.</strong> The rational categories: wajib (must exist), ja'iz/mumkin (can exist or not, so needs a cause), mustahil (cannot exist, like a square circle); Avicenna's wajib al-wujud/mumkin al-wujud sharpened the first two. Avicenna built his proof of God on this division.</li>
+<li><strong>Essence and existence.</strong> On Avicenna's view, for any created thing what it is doesn't include that it is (a distinction Ibn Rushd and Ibn Taymiyya reject)<em></em>: knowing what a horse is doesn't tell you whether one exists. Something must give it existence. In God, existence is not added to essence.</li>
+<li><strong>Causation.</strong> Distinguish causes <em>in time</em> (a match lighting a fire) from causes <em>here and now</em> that sustain existence (the fire depends on oxygen now). The strongest cosmological arguments (Aquinas and Ibn Taymiyya's argument from essential dependence) concern sustaining causes, which can't regress infinitely (Ibn Taymiyya allowed an endless past series of events, so the kalam beginning-argument is not his).</li>
+<li><strong>The principle of sufficient reason</strong> (Leibniz): there is an explanation for why anything exists rather than not. Opponents who deny it must explain why they still expect explanations in science.</li>
+<li><strong>Actual vs potential infinity.</strong> A potential infinite is a series that can always be extended (counting). An actual infinite is a completed infinite collection. Kalam arguments say an actually infinite series of past events can't be traversed (Hilbert's hotel shows the oddities). Beware the weak versions noted in <em>Arguments for God</em>.</li>
+<li><strong>Possible worlds.</strong> A way of speaking about what could have been. "The universe could have been different" means there is a possible world where it is, which supports contingency.</li>
+<li><strong>Kalam categories.</strong> <em>Jawhar</em> (substance) and <em>'arad</em> (accident/property); the <em>Ash'ari</em> argument from the createdness of accidents; Ibn Taymiyya's critique of it and his preference for the Quran's direct argument from the creation of observable things (52:35).</li>
+<li><strong>Universals and the nature of numbers and logic</strong>: abstract objects. Atheists who are naturalists struggle to explain what logical laws and mathematical truths are; theists can ground them in God's knowledge.</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“Everything has a cause, so God needs a cause.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo" hidden><p>The principle is that every <em>contingent</em> thing, everything that could have failed to exist, has a cause. A necessary being, which can't fail to exist, doesn't need one. That's not special pleading; it's the distinction the argument is built on.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Necessary, contingent, impossible (wajib, mumkin, mustahil); essence vs existence; sustaining vs temporal causes; the principle of sufficient reason; actual vs potential infinity; possible worlds; substance and accident. These are the tools of the God arguments.</p></div></div>
+</article><article class="brief" id="s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo" data-arg="s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo">
+<header class="brief-head"><p class="kicker">Argument 7 of 12</p><h3>Philosophy of religion: the map of the debate about God</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo" id="chk-s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Know the families of arguments for God and the main objections, with a one-line answer to each, so that nothing in a debate surprises you.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><p><strong>Arguments for God</strong></p>
+<ul>
+<li><strong>Cosmological.</strong> (1) The <em>kalam</em> argument: whatever begins to exist has a cause; the universe began; so it has a cause (al-Ghazali, William Lane Craig). (2) The <em>contingency</em> argument: contingent things need a necessary cause (Avicenna, Leibniz). (3) The <em>Thomist</em> argument from sustaining causes (Aquinas, Feser). (4) Ibn Taymiyya's argument from the dependence of created things, rooted in 52:35.</li>
+<li><strong>Teleological.</strong> Design from fine-tuning (Robin Collins), from the intelligibility of the universe, from biological complexity (contested; use carefully).</li>
+<li><strong>Moral.</strong> Objective moral values need a transcendent ground.</li>
+<li><strong>Consciousness and reason.</strong> The argument from mind (Swinburne) and the evolutionary argument against naturalism (Plantinga): if our faculties evolved only for survival, we can't trust them to produce true beliefs, including naturalism.</li>
+<li><strong>Fitrah / religious experience.</strong> Natural, widespread belief (Barrett) and the rationality of basic beliefs.</li>
+<li><strong>Ontological</strong> (Anselm, Plantinga's modal version): a maximally great being is possible, and if possible then actual (Plantinga says this makes theism rational, not that it compels belief). Use with care; many philosophers, including Muslim ones, find it unpersuasive.</li>
+</ul>
+<p><strong>Objections and short answers</strong></p>
+<ul>
+<li><strong>Who made God?</strong> Only contingent things need a cause.</li>
+<li><strong>Problem of evil.</strong> The logical version is widely regarded as defeated by Plantinga's free will defense (even atheists such as William Rowe concede this); the evidential version assumes we can see what an all-wise God sees, and ignores the afterlife.</li>
+<li><strong>Divine hiddenness.</strong> God is knowable but does not compel belief; life is a test (67:2).</li>
+<li><strong>Euthyphro dilemma.</strong> Good is grounded in God's perfect nature, neither arbitrary nor above Him.</li>
+<li><strong>Omnipotence paradox</strong> ("can God make a stone He can't lift?"). Omnipotence is power over all possible things; a "stone an omnipotent being can't lift" is a contradiction, not a thing.</li>
+<li><strong>Incoherence of attributes</strong> (omniscience vs free will). Knowledge does not cause; God knows what we freely choose (see <em>Free will and qadar</em>).</li>
+<li><strong>Many gods objection</strong> ("why Allah, not Zeus?"). The arguments, if sound, lead to one necessary, perfect being; finite gods like Zeus are contingent beings who fail every attribute proved.</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“You're just an atheist about the other gods; I go one god further.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo" hidden><p>The arguments don't pick a god from a list. They show there must be one necessary, perfect, uncaused being. Zeus was born, had parents and limits, so he fails the description; the God of Abraham fits it. I reject the other gods for the same reason you should accept this one.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Arguments for God: cosmological (kalam, contingency, Thomist, Ibn Taymiyya), design, moral, mind and reason, fitrah, ontological. Objections: who made God, evil, hiddenness, Euthyphro, omnipotence paradox, many gods; each has a short answer.</p></div></div>
+</article><article class="brief" id="s-philosophy--ethics-what-grounds-right-and-wrong" data-arg="s-philosophy--ethics-what-grounds-right-and-wrong">
+<header class="brief-head"><p class="kicker">Argument 8 of 12</p><h3>Ethics: what grounds right and wrong</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--ethics-what-grounds-right-and-wrong" id="chk-s-philosophy--ethics-what-grounds-right-and-wrong"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Debates about morality turn on metaethics: whether moral facts are objective, and what grounds them. Know the main positions and their weaknesses.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Moral realism vs anti-realism.</strong> Realists hold some moral claims are objectively true; anti-realists hold they are expressions of feeling (emotivism), conventions, or simply false (error theory, J.L. Mackie).</li>
+<li><strong>The is-ought gap</strong> (Hume): you can't derive an "ought" from facts alone. Secular realists need some starting value; ask them to justify it.</li>
+<li><strong>The main normative theories.</strong> <em>Consequentialism</em> (the right act produces the best outcome; can lead to conclusions such as Peter Singer's on infanticide, given his preference utilitarianism); <em>deontology</em> (duties and rights, Kant; struggles to ground the duties); <em>virtue ethics</em> (Aristotle; needs an account of human nature and purpose, which theism supplies); <em>divine command theory</em> and <em>natural law</em>.</li>
+<li><strong>The Islamic position.</strong> On the view of Maturidis and Ibn Taymiyya, good and evil are grounded in Allah's wise and perfect nature and expressed in His commands; the fitrah gives humans a general moral sense (91:7-8), and revelation gives the details. Muslim theologians debated whether reason alone can know good and evil (the Mu'tazila said yes, the Ash'aris said good, evil and obligation are known and fixed by revelation, the Maturidis sided with reason on knowing good and evil, and Ibn Taymiyya held that reason knows good and evil but obligation and reward come through revelation).</li>
+<li><strong>Moral relativism</strong> ("morality is relative to culture") refutes itself when pushed: it implies no culture could ever be wrong, including about slavery or genocide, and that moral reformers are always wrong by their own culture's standards.</li>
+<li><strong>Moral facts and evolution.</strong> Explaining how moral beliefs evolved doesn't show whether they are true; but if they evolved only for survival, the naturalist has no reason to think they track objective truth.</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“Morality is just about well-being; we don't need God.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--ethics-what-grounds-right-and-wrong">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--ethics-what-grounds-right-and-wrong" hidden><p>Why is well-being objectively good, and whose well-being counts? Animals', embryos', future people's? Your starting point is a value you've assumed. Theism explains why it's actually true that cruelty is wrong; naturalism only explains why we feel that it is.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Know realism vs anti-realism, the is-ought gap, consequentialism, deontology, virtue ethics, divine command and natural law. Islam grounds morality in Allah's wise nature, known generally through fitrah and in detail through revelation. Relativism condemns all moral reformers.</p></div></div>
+</article><article class="brief" id="s-philosophy--philosophy-of-science-what-science-can-and-can-t" data-arg="s-philosophy--philosophy-of-science-what-science-can-and-can-t">
+<header class="brief-head"><p class="kicker">Argument 9 of 12</p><h3>Philosophy of science: what science can and can't do</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--philosophy-of-science-what-science-can-and-can-t" id="chk-s-philosophy--philosophy-of-science-what-science-can-and-can-t"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Science is a powerful method for studying the natural world, but it rests on philosophical assumptions it cannot prove, and it cannot answer questions about why there is a natural world at all. Know the limits, so you can resist "science disproves God".</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Assumptions of science.</strong> The reality of an external world; the reliability of our senses and reason; the uniformity of nature (that the laws will hold tomorrow); that nature is intelligible. None of these can be proved by science, and theism explains them (an intelligent Creator made an ordered world and minds to understand it).</li>
+<li><strong>The problem of induction</strong> (Hume): no number of observations proves the next will be the same. Science proceeds anyway, on trust in nature's uniformity.</li>
+<li><strong>Falsifiability</strong> (Karl Popper): a scientific theory must risk being proved wrong. This is a criterion for science, not for truth; mathematics and history are not falsifiable in the same way but give knowledge.</li>
+<li><strong>Underdetermination (Duhem and Quine) and theory change (Thomas Kuhn)</strong>: theories are revised and sometimes replaced. Scientific claims are provisional. That's why Islamic arguments should not depend on a current scientific model, and why critics can't treat today's theory as final.</li>
+<li><strong>Methodological vs metaphysical naturalism.</strong> Science limits itself to natural causes as a method (methodological naturalism). That is not a finding that only natural causes exist (metaphysical naturalism). Confusing the two is the most common error in "science vs God" debates.</li>
+<li><strong>The God of the gaps.</strong> Don't argue "science can't explain X, so God". Argue from what science <em>does</em> show (a beginning, fine-tuned laws, order) and from what science by its nature can't address (why anything exists).</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“Science has explained everything that used to be attributed to God.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--philosophy-of-science-what-science-can-and-can-t">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--philosophy-of-science-what-science-can-and-can-t" hidden><p>Science explains how natural things behave by natural laws. It can't explain why there are laws, why anything exists at all, or why the universe is intelligible, because science assumes all of those. My arguments are from what science shows, not from gaps in it.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Science assumes an external world, reliable reason, uniformity and intelligibility; it can't prove them. Know Hume's problem of induction, Popper's falsifiability, Kuhn's theory change, and the difference between methodological and metaphysical naturalism. Argue from what science shows, not from gaps.</p></div></div>
+</article><article class="brief" id="s-philosophy--philosophy-of-mind-and-the-self" data-arg="s-philosophy--philosophy-of-mind-and-the-self">
+<header class="brief-head"><p class="kicker">Argument 10 of 12</p><h3>Philosophy of mind and the self</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--philosophy-of-mind-and-the-self" id="chk-s-philosophy--philosophy-of-mind-and-the-self"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Questions about consciousness, the soul and free will are central to debates with materialists. Know the main positions and why materialism struggles.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Physicalism</strong>: the mind is the brain or what the brain does. Versions: identity theory, functionalism (mind is what the brain computes), eliminativism (folk-psychological states like belief and desire do not really exist, Paul and Patricia Churchland; illusionism about consciousness, Keith Frankish and Daniel Dennett).</li>
+<li><strong>Dualism</strong>: the mind or soul is not wholly physical. <em>Substance dualism</em> (Descartes; the Islamic <em>ruh</em>), <em>property dualism</em> (mental properties aren't physical, Chalmers).</li>
+<li><strong>Key arguments against physicalism.</strong> The <em>knowledge argument</em> (Frank Jackson's "Mary's room": a scientist who knows every physical fact about colour still learns something when she first sees red); the <em>hard problem</em> (Chalmers); <em>intentionality</em> (thoughts are <em>about</em> things; physical states aren't intrinsically about anything); the <em>unity of consciousness</em>.</li>
+<li><strong>Free will.</strong> <em>Libertarian</em> free will (our choices are not fully determined); <em>compatibilism</em> (free will is compatible with determinism, Hume, Dennett); <em>hard determinism</em> (no free will). Islam affirms real human choice under God's decree (see <em>Free will and qadar</em>). Note: if materialism is true, many philosophers concede libertarian free will is hard to defend, and with it moral responsibility.</li>
+<li><strong>Personal identity.</strong> What makes you the same person over time? Physical continuity (but your cells are replaced), psychological continuity (but memory fails). The soul gives a simple answer, and it is what makes resurrection coherent.</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“Consciousness is just neurons firing.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--philosophy-of-mind-and-the-self">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--philosophy-of-mind-and-the-self" hidden><p>Neurons firing is what happens in the brain when you see red; it doesn't explain why there is something it is like to see red. Jackson's Mary argument (1982; Jackson later gave it up, but many still defend it) says she learns something new when she sees red. That suggests experience isn't just a physical fact.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Physicalism (identity, functionalism, eliminativism) vs dualism (substance, property). Use Mary's room, the hard problem, intentionality and the unity of consciousness against materialism. Know libertarian, compatibilist and determinist views of free will.</p></div></div>
+</article><article class="brief" id="s-philosophy--debate-conduct-charity-socratic-questions-and-st" data-arg="s-philosophy--debate-conduct-charity-socratic-questions-and-st">
+<header class="brief-head"><p class="kicker">Argument 11 of 12</p><h3>Debate conduct: charity, Socratic questions and staying in control</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--debate-conduct-charity-socratic-questions-and-st" id="chk-s-philosophy--debate-conduct-charity-socratic-questions-and-st"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>Winning a debate is not the same as winning a person. Apply the principle of charity, ask questions more than you assert, concede what is true, and keep the discussion on the strongest ground.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>Steelmanning and charity.</strong> State your opponent's view in a form he would accept before criticising it. It earns trust, prevents straw men, and makes your critique land.</li>
+<li><strong>The Socratic method.</strong> Ask questions that expose assumptions: "How do you know that?" "What would count as evidence?" "Does that standard apply to your own view?" A person who reaches the problem himself is more convinced than one who is told.</li>
+<li><strong>Concede what is true.</strong> If the opponent makes a good point (a weak hadith, a debated Quranic variant), concede it and show why it doesn't affect your conclusion. Credibility is your main asset.</li>
+<li><strong>Lead with your strongest material.</strong> One strong argument well defended beats ten weak ones; weak arguments let the opponent win the exchange and discredit the rest (see the <em>Use with care</em> flags throughout this library).</li>
+<li><strong>Control the frame.</strong> Begin by agreeing on the question and the standard of evidence. Keep returning to it when the debate drifts.</li>
+<li><strong>Adab.</strong> The Quran: "Argue with them in the way that is best" (16:125); "Do not argue with the People of the Book except in the best manner" (29:46). Good manners are not weakness; they are part of dawah.</li>
+</ul></div></div>
+<div class="row r-ar"><div class="lab">Arabic</div><div class="cell"><blockquote class="ar"><p lang="ar" dir="rtl">ادْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِالْحِكْمَةِ وَالْمَوْعِظَةِ الْحَسَنَةِ ۖ وَجَادِلْهُم بِالَّتِي هِيَ أَحْسَنُ</p><cite>16:125</cite></blockquote></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“You just ask questions; why won't you make your own case?”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--debate-conduct-charity-socratic-questions-and-st">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--debate-conduct-charity-socratic-questions-and-st" hidden><p>Questions are how we find out whether a view holds up. But here's my case, numbered so you can tell me which premise you reject: one, two, three. Now, back to my question about your standard of evidence.</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>Steelman your opponent, ask Socratic questions, concede true points, lead with your strongest arguments, control the frame, and argue "in the way that is best" (16:125).</p></div></div>
+</article><article class="brief" id="s-philosophy--islam-and-philosophy-what-muslim-scholars-accept" data-arg="s-philosophy--islam-and-philosophy-what-muslim-scholars-accept">
+<header class="brief-head"><p class="kicker">Argument 12 of 12</p><h3>Islam and philosophy: what Muslim scholars accepted and rejected</h3><label class="done"><input type="checkbox" data-arg="s-philosophy--islam-and-philosophy-what-muslim-scholars-accept" id="chk-s-philosophy--islam-and-philosophy-what-muslim-scholars-accept"> Studied</label></header>
+<div class="row r-thesis"><div class="lab">Thesis</div><div class="cell"><p>The Islamic tradition engaged deeply with Greek philosophy. Some scholars adopted its logic and metaphysics; others criticised it. Knowing this history lets you use philosophy confidently while knowing where its claims conflict with revelation.</p></div></div>
+<div class="row r-ev"><div class="lab">Evidence</div><div class="cell"><ul>
+<li><strong>The falasifa.</strong> Al-Kindi, al-Farabi, Ibn Sina (Avicenna) and Ibn Rushd (Averroes) developed Aristotelian and Neoplatonic philosophy in Arabic. Avicenna's necessary-contingent distinction became a standard tool even among his critics.</li>
+<li><strong>Al-Ghazali</strong> (d. 1111) mastered their philosophy, accepted logic as a neutral tool (<em>Mi'yar al-'Ilm</em>, <em>al-Qistas al-Mustaqim</em>), and in <em>Tahafut al-Falasifa</em> (<em>The Incoherence of the Philosophers</em>) refuted twenty of their doctrines, condemning three as unbelief: the eternity of the world, God's not knowing particulars, and denial of bodily resurrection.</li>
+<li><strong>Ibn Rushd</strong> replied in <em>Tahafut al-Tahafut</em> (<em>The Incoherence of the Incoherence</em>), defending philosophy, and argued in <em>Fasl al-Maqal</em> that the Quran commands rational reflection.</li>
+<li><strong>The theologians (mutakallimun).</strong> The Mu'tazila and Ash'aris built rational theology (<em>kalam</em>), including the arguments from the createdness of the world.</li>
+<li><strong>Ibn Taymiyya</strong> (d. 1328), in <em>al-Radd 'ala al-Mantiqiyyin</em> (<em>Refutation of the Logicians</em>) and <em>Dar' Ta'arud al-'Aql wa al-Naql</em> (<em>Averting the Conflict between Reason and Revelation</em>), criticised Aristotelian logic's claims (for example, that real definitions are the only path to concepts, see Hallaq, Ibn Taymiyya Against the Greek Logicians) and argued that sound reason never contradicts authentic revelation. He grounded the arguments for God in the fitrah and in the Quran's own reasoning, which he held to be more certain than the philosophers' proofs.</li>
+<li><strong>The upshot for you.</strong> Use logic and philosophical arguments freely as tools; they are recognised by the tradition. Don't commit to philosophical theories that contradict revelation (an eternal universe, a God who doesn't know particulars). And remember Ibn Taymiyya's point: the Quran's arguments (52:35; 21:22; 36:78-79) are themselves rational proofs.</li>
+</ul></div></div>
+<div class="row r-rebut"><div class="lab">Practice</div><div class="cell"><div class="rebut"><p class="rb-tag">Your opponent says</p><p class="rb-q">“Islam is anti-intellectual; al-Ghazali killed philosophy.”</p><p class="rb-hint">Answer it in your head first, then compare.</p><button type="button" class="rb-btn" aria-expanded="false" aria-controls="rb-s-philosophy--islam-and-philosophy-what-muslim-scholars-accept">Show a model answer</button><div class="rb-a" id="rb-s-philosophy--islam-and-philosophy-what-muslim-scholars-accept" hidden><p>Al-Ghazali mastered philosophy and used logic; he criticised specific doctrines, and Ibn Rushd answered him, and the debate continued for centuries. Philosophy flourished after him in Persia and the Ottoman lands. The Quran commands reflection over and over (3:190-191).</p></div></div></div></div>
+<div class="row r-sum"><div class="lab">In one breath</div><div class="cell"><p>The falasifa (al-Farabi, Ibn Sina, Ibn Rushd), al-Ghazali's Tahafut (three doctrines condemned), the mutakallimun, and Ibn Taymiyya's critique of Greek logic and defence of reason-revelation harmony. Use philosophy as a tool, not a rival authority.</p></div></div>
+</article><section class="cards" aria-label="Flashcards for Philosophy for debaters"><div class="cards-head"><h4>Flashcards</h4><p>38 cards. Tap a card to see the answer.</p><button type="button" class="reset">Hide all answers</button></div><ul><li><button type="button" class="card" aria-pressed="false"><span class="cq">State the law of non-contradiction.</span><span class="ca">A thing cannot be both A and not-A in the same sense at the same time</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">Who called non-contradiction the firmest principle?</span><span class="ca">Aristotle (Metaphysics IV)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is the difference between a mystery and a contradiction?</span><span class="ca">A mystery isn't fully understood; a contradiction can't be true</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is the difference between valid and sound?</span><span class="ca">Valid: the conclusion follows; sound: valid and the premises are true</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">State modus tollens.</span><span class="ca">If P then Q; not Q; therefore not P</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is affirming the consequent?</span><span class="ca">If P then Q; Q; therefore P (invalid)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What criteria judge the best explanation?</span><span class="ca">Explanatory power, scope, simplicity, fit with background knowledge, not ad hoc</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is the Islamic legal maxim on the burden of proof?</span><span class="ca">al-bayyina 'ala al-mudda'i: proof is on the claimant</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is an internal critique?</span><span class="ca">Showing a position fails by its own standards</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">When does tu quoque become a fallacy?</span><span class="ca">When used to dodge the original question rather than to show inconsistency</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is special pleading?</span><span class="ca">Exempting your case from a rule you apply to others</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is equivocation?</span><span class="ca">Shifting a word's meaning within an argument</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">How do you answer a Gish gallop?</span><span class="ca">Take the strongest claims, refute them, and invite the opponent to choose one he thinks decisive</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">When is an appeal to authority legitimate?</span><span class="ca">When the authority is a relevant expert and experts broadly agree</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">Who showed justified true belief isn't sufficient for knowledge?</span><span class="ca">Edmund Gettier (1963)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is a properly basic belief?</span><span class="ca">A belief that is rational without being inferred from others (Plantinga)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">Why did verificationism fail?</span><span class="ca">Its own principle is neither verifiable nor a tautology</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is tawatur?</span><span class="ca">Transmission by so many independent people that collusion is impossible</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What are wajib, mumkin and mustahil?</span><span class="ca">Necessary, possible/contingent, impossible</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is the principle of sufficient reason?</span><span class="ca">Everything that exists has an explanation for why it exists (Leibniz)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is the difference between an actual and a potential infinite?</span><span class="ca">A completed infinite collection vs a series that can always be extended</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">Who developed the kalam cosmological argument?</span><span class="ca">al-Ghazali (and in modern form William Lane Craig)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is Plantinga's evolutionary argument against naturalism?</span><span class="ca">If faculties evolved only for survival, we can't trust them to produce true beliefs, including naturalism</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">How do you answer the omnipotence paradox?</span><span class="ca">Omnipotence covers all possible things; a contradiction isn't a thing</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">Who argued moral claims are all false (error theory)?</span><span class="ca">J.L. Mackie</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is the is-ought gap?</span><span class="ca">Facts alone can't establish obligations (Hume)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What did Ibn Taymiyya hold about reason and morality?</span><span class="ca">Reason knows good and evil; obligation and reward come through revelation</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is methodological naturalism?</span><span class="ca">Science limits its explanations to natural causes as a method, not a claim that only nature exists</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">Who proposed falsifiability?</span><span class="ca">Karl Popper</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is the problem of induction?</span><span class="ca">Past observations can't prove the future will be the same (Hume)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is Mary's room?</span><span class="ca">Frank Jackson's argument that knowing all physical facts about colour doesn't include knowing what red looks like</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is intentionality?</span><span class="ca">The "aboutness" of thoughts, which physical states lack intrinsically</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is compatibilism?</span><span class="ca">The view that free will is compatible with determinism</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What is steelmanning?</span><span class="ca">Stating the opponent's view in its strongest form before criticising it</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">Which verse commands arguing in the best way?</span><span class="ca">16:125 (also 29:46 for the People of the Book)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">Which three doctrines did al-Ghazali condemn as unbelief?</span><span class="ca">Eternity of the world, God not knowing particulars, denial of bodily resurrection</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">What did Ibn Rushd call his reply to al-Ghazali?</span><span class="ca">Tahafut al-Tahafut (The Incoherence of the Incoherence)</span></button></li><li><button type="button" class="card" aria-pressed="false"><span class="cq">Which work by Ibn Taymiyya argues reason never contradicts revelation?</span><span class="ca">Dar' Ta'arud al-'Aql wa al-Naql</span></button></li></ul></section></section>
+<p class="empty" id="empty" hidden>No arguments match that search.</p>
+<nav class="pager" aria-label="Other parts"><a class="pg prev" href="p5.html"><span>← Part V</span>Answering objections to Islam</a><a class="pg next" href="p7.html"><span>Part VII →</span>Reading list</a></nav>
+<footer>Compiled from the Islam | إسلام | Library And Training Center Discord server and written up as full arguments. Check each source before citing it in a debate. Tap any screenshot to open it full size.</footer>
+</main>
+</div>
+</div>
+<dialog id="lb" aria-label="Screenshot">
+  <div class="lb"><div class="lb-bar"><span id="lbcap"></span><button id="lbclose" type="button">Close</button></div>
+  <div class="lb-img"><img id="lbimg" alt=""></div></div>
+</dialog>
+<script>
+(function(){
+  const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+  const boxes=[...document.querySelectorAll('.done input')];
+  function refresh(){
+    let n=0;
+    boxes.forEach(b=>{const on=b.checked;if(on)n++;b.closest('.brief').classList.toggle('studied',on);
+      document.querySelectorAll('.toc a[data-arg="'+b.dataset.arg+'"]').forEach(a=>a.classList.toggle('is-done',on));});
+    document.getElementById('prog').textContent=n+' of '+boxes.length+' arguments studied';
+    document.getElementById('progbar').style.width=(boxes.length?100*n/boxes.length:0)+'%';
+  }
+  boxes.forEach(b=>{b.checked=store.get('studied:'+b.dataset.arg)==='1';b.addEventListener('change',()=>{store.set('studied:'+b.dataset.arg,b.checked?'1':'0');refresh();});});
+  refresh();
+  // rebuttal practice
+  document.querySelectorAll('.rb-btn').forEach(btn=>btn.addEventListener('click',()=>{
+    const a=document.getElementById(btn.getAttribute('aria-controls'));const open=a.hidden;a.hidden=!open;
+    btn.setAttribute('aria-expanded',open);btn.textContent=open?'Hide the model answer':'Show a model answer';}));
+  // flashcards
+  document.querySelectorAll('.card').forEach(c=>c.addEventListener('click',()=>c.setAttribute('aria-pressed',c.getAttribute('aria-pressed')==='true'?'false':'true')));
+  document.querySelectorAll('.reset').forEach(r=>r.addEventListener('click',()=>r.closest('.cards').querySelectorAll('.card').forEach(c=>c.setAttribute('aria-pressed','false'))));
+  // contents: open the section that contains the hash
+  function openFor(id){const el=document.getElementById(id);if(!el)return;const sec=el.closest('.sec')||el;
+    document.querySelectorAll('.toc a[href="#'+sec.id+'"]').forEach(a=>{const d=a.closest('details');if(d)d.open=true;});}
+  if(location.hash)openFor(location.hash.slice(1));
+  window.addEventListener('hashchange',()=>openFor(location.hash.slice(1)));
+  document.querySelectorAll('details.mtoc a').forEach(a=>a.addEventListener('click',()=>a.closest('details.mtoc').open=false));
+  // search
+  const q=document.getElementById('q'),info=document.getElementById('qinfo'),empty=document.getElementById('empty');
+  const secs=[...document.querySelectorAll('.sec')],briefs=[...document.querySelectorAll('.brief')];
+  briefs.forEach(b=>b._t=b.textContent.toLowerCase());
+  let timer;
+  function run(){
+    const v=q.value.trim().toLowerCase();let hits=0;
+    briefs.forEach(b=>{const m=!v||b._t.includes(v);b.hidden=!m;if(m&&v)hits++;
+      document.querySelectorAll('.toc a[data-arg="'+b.id+'"]').forEach(a=>a.classList.toggle('dim',!m));});
+    secs.forEach(s=>{const any=!v||[...s.querySelectorAll('.brief')].some(b=>!b.hidden);s.hidden=!any;
+      const c=s.querySelector('.cards');if(c)c.hidden=!!v;const i=s.querySelector('.sec-intro');if(i)i.hidden=!!v;
+      document.querySelectorAll('.toc a[href="#'+s.id+'"]').forEach(a=>{a.classList.toggle('dim',!any);if(v&&any){const d=a.closest('details');if(d)d.open=true;}});});
+    info.textContent=v?(hits+' matching argument'+(hits===1?'':'s')):'';
+    empty.hidden=!v||hits>0;
+  }
+  q.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(run,120);});
+  q.addEventListener('keydown',e=>{if(e.key==='Escape'){q.value='';run();}});
+  // lightbox
+  const lb=document.getElementById('lb'),lbimg=document.getElementById('lbimg'),lbcap=document.getElementById('lbcap');
+  document.querySelectorAll('.thumb').forEach(b=>b.addEventListener('click',()=>{lbimg.src=b.dataset.src;lbimg.alt=b.dataset.cap;lbcap.textContent=b.dataset.cap;if(lb.showModal)lb.showModal();else lb.setAttribute('open','');}));
+  document.getElementById('lbclose').addEventListener('click',()=>lb.close());
+  lb.addEventListener('click',e=>{if(e.target===lb)lb.close();});
+})();
+</script>
+</body>
+</html>

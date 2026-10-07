@@ -1,0 +1,142 @@
+[
+ {
+  "n": 11,
+  "arg_id": "s-quran--the-missing-verses-reports-answered",
+  "find": "them. (Bukhari 6437, 6438, 6440), so it is",
+  "replace": "them. The extra wording quoted in Bukhari 6437, 6438 and 6440 is not in the Quran, so it is",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 80,
+  "arg_id": "s-miracles--the-quran-s-literary-challenge-has-never-been-me",
+  "find": "Evidencethe challenge",
+  "replace": "EvidenceThe challenge",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 117,
+  "arg_id": "s-notgod--before-abraham-was-i-am-john-8-58-is-not-a-claim",
+  "find": "Evidence in the Septuagint",
+  "replace": "Evidence In the Septuagint",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 124,
+  "arg_id": "s-notgod--philippians-2-6-11-the-second-adam-not-god-incar",
+  "find": "Evidencesome scholars",
+  "replace": "EvidenceSome scholars",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 214,
+  "arg_id": "s-messianic--isaiah-53-the-suffering-servant-is-israel",
+  "find": "(Contra Celsum 1.55) Practice",
+  "replace": "(Contra Celsum 1.55). Practice",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 220,
+  "arg_id": "s-messianic--the-jews-expected-a-messiah-who-would-live-and-t",
+  "find": "Studied Thesisthe disciples",
+  "replace": "Studied ThesisThe disciples",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 258,
+  "arg_id": "s-xn-morality--the-church-s-own-moral-record",
+  "find": "Exsurge Domine (1520) Practice",
+  "replace": "Exsurge Domine (1520). Practice",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 299,
+  "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+  "find": "fitrah Olivera",
+  "replace": "fitrah. Olivera",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 310,
+  "arg_id": "s-atheism--the-problem-of-evil-and-suffering",
+  "find": "Evidence the logical",
+  "replace": "Evidence The logical",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 312,
+  "arg_id": "s-atheism--darwinism-as-an-atheist-worldview",
+  "find": "extending it Tap",
+  "replace": "extending it. Tap",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 313,
+  "arg_id": "s-atheism--darwinism-as-an-atheist-worldview",
+  "find": "non-scientific prize Frauds",
+  "replace": "non-scientific prize. Frauds",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 318,
+  "arg_id": "s-atheism--religion-and-islam-in-particular-makes-for-healt",
+  "find": "life satisfaction Tap",
+  "replace": "life satisfaction. Tap",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 324,
+  "arg_id": "s-science--the-seven-earths-65-12",
+  "find": "Isra'iliyyat Weak",
+  "replace": "Isra'iliyyat. Weak",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 360,
+  "arg_id": "s-hadith-obj--the-assassinations-attributed-to-the-prophet",
+  "find": "incitement to war Miqyas",
+  "replace": "incitement to war. Miqyas",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 414,
+  "arg_id": "s-resources--agnosticism-and-the-divine-attributes",
+  "find": "from each proof al-Ghazali",
+  "replace": "from each proof. al-Ghazali",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 439,
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "find": "acknowledge The Islamic",
+  "replace": "acknowledge. The Islamic",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 444,
+  "arg_id": "s-text--uthman-s-standardisation-what-it-did-and-did-not-d",
+  "find": "number of copies Consent",
+  "replace": "number of copies. Consent",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 455,
+  "arg_id": "s-revision--the-petra-qibla-theory",
+  "find": "said: ““What",
+  "replace": "said: “What",
+  "reason": "not found"
+ },
+ {
+  "n": 459,
+  "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+  "find": "was left)P2",
+  "replace": "was left).P2",
+  "reason": "crosses structure"
+ },
+ {
+  "n": 460,
+  "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+  "find": "Evidence the Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik; the foundation inscription gives the date 72 AH (691-2 CE) but now carries the name of the Abbasid al-Ma'mun, who substituted it It is one",
+  "replace": "Evidence The Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik; the foundation inscription gives the date 72 AH (691-2 CE) but now carries the name of the Abbasid al-Ma'mun, who substituted it. The Dome is one",
+  "reason": "crosses structure"
+ }
+]
