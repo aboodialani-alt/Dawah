@@ -143,9 +143,9 @@ def scene_description(f, t, d):
         lines = wrap(r, font(SERIF, 46), 640)
         for j, ln in enumerate(lines):
             put(f, ln, 270, y + 59 + (j - (len(lines) - 1) / 2) * 52, font(SERIF, 46), INK, al, anchor="lm")
-    put(f, "(a separate narration)", W - 130, 420 + 4 * 150 + 59 + 56, font(SANS, 26), MUTED,
+    put(f, "(same hadith)", W - 130, 420 + 4 * 150 + 59 + 56, font(SANS, 26), MUTED,
         seg(t, d * 0.8, d * 0.8 + 0.4), anchor="rm")
-    source(f, "Sahih al-Bukhari", "check the exact narration numbers before citing", t, 0.8)
+    source(f, "Sahih al-Bukhari 2928", "the hadith names the Turks", t, 0.8)
 
 
 def timeline(f, t_prog, show1258, t1258=0.0, y=820, brace=True):
@@ -173,7 +173,7 @@ def timeline(f, t_prog, show1258, t1258=0.0, y=820, brace=True):
         r = 16 + int(10 * math.sin(t1258 * 6) * a)
         ImageDraw.Draw(f).ellipse((x - r, y - r, x + r, y + r), fill=WARN + (int(255 * a),))
         put(f, "1258", x, y - 70, font(SERIF, 56), WARN, a)
-        for j, ln in enumerate(["Mongols", "take Baghdad"]):
+        for j, ln in enumerate(["Mongols", "enter Baghdad"]):
             put(f, ln, x, y - 150 - (1 - j) * 38, font(SANS, 30), MUTED, a)
     a = seg(t_prog, 0.62, 0.9) if brace else 0
     if a > 0:
@@ -187,15 +187,15 @@ def scene_city(f, t, d):
     put(f, "A great city on the Tigris,", W // 2, 470, font(SERIF, 58), INK, seg(t, 0.4, 1.0))
     put(f, "with a bridge", W // 2, 545, font(SERIF, 58), INK, seg(t, 0.7, 1.3))
     timeline(f, seg(t, 0.8, d * 0.8), False, y=900)
-    source(f, "Sunan Abu Dawud · graded hasan by al-Albani",
+    source(f, "Sunan Abu Dawud 4306 · hasan (al-Albani)",
            "the text names the city Basra; some scholars read it as Baghdad", t, d * 0.55, y=1285)
 
 
 def scene_history(f, t, d):
     header(f, "WHAT HISTORY RECORDS", GOLD, t, d)
     put(f, "1258", W // 2, 470, font(SERIF, 200), WARN, seg(t, 0.2, 0.8))
-    put(f, "Hülegü and the Mongol army", W // 2, 640, font(SERIF, 52), INK, seg(t, 0.7, 1.3))
-    put(f, "take Baghdad", W // 2, 710, font(SERIF, 52), INK, seg(t, 0.9, 1.5))
+    put(f, "Hulagu and the Mongol army", W // 2, 640, font(SERIF, 52), INK, seg(t, 0.7, 1.3))
+    put(f, "enter Baghdad", W // 2, 710, font(SERIF, 52), INK, seg(t, 0.9, 1.5))
     timeline(f, 1.0, True, max(0.0, t - 0.3), y=1030, brace=False)
     put(f, "End of Abbasid rule in Baghdad", W // 2, 1300, font(SANSB, 36), GOLD, seg(t, d * 0.55, d * 0.55 + 0.5))
 

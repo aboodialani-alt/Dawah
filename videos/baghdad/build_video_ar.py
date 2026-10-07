@@ -40,7 +40,7 @@ def scene_hook(f, t, d):
 
 def scene_description(f, t, d):
     header(f, "ماذا وصف؟", GOLD, t, d)
-    rows = ["صغار الأعين", "حمر الوجوه", "فطس الأنوف", "كأن وجوههم المجانّ المطرقة", "نعالهم الشعر"]
+    rows = ["صغار الأعين", "حمر الوجوه", "ذلف الأنوف", "كأن وجوههم المجانّ المطرقة", "نعالهم الشعر"]
     for i, r in enumerate(rows):
         a = 0.45 + i * (d - 1.2) / (len(rows) + 0.5)
         al = seg(t, a, a + 0.45)
@@ -48,8 +48,8 @@ def scene_description(f, t, d):
         box(f, 100, y, W - 100, y + 118, (21, 30, 27), al, outline=(39, 52, 47))
         tx(f, str(i + 1), W - 170, y + 59, font(SANSB, 52), GOLD, al)
         tx(f, r, W - 270, y + 59, font(SANSB, 50), INK, al, anchor="rm")
-    tx(f, "(رواية أخرى)", 130, 420 + 4 * 150 + 115, font(SANS, 28), MUTED, seg(t, d * 0.8, d * 0.8 + 0.4), anchor="lm")
-    source(f, "صحيح البخاري", "راجع أرقام الروايات قبل النقل", t, 0.8)
+    tx(f, "(في الحديث نفسه)", 130, 420 + 4 * 150 + 115, font(SANS, 28), MUTED, seg(t, d * 0.8, d * 0.8 + 0.4), anchor="lm")
+    source(f, "صحيح البخاري ٢٩٢٨", "الحديث يذكر الترك", t, 0.8)
 
 
 def timeline(f, prog, show1258, t1258=0.0, y=820, brace=True):
@@ -87,7 +87,7 @@ def scene_city(f, t, d):
     tx(f, "مدينة على دجلة", W // 2, 470, font(SANSB, 62), INK, seg(t, 0.4, 1.0))
     tx(f, "يأتيها بنو قنطوراء", W // 2, 550, font(SANSB, 62), INK, seg(t, 0.7, 1.3))
     timeline(f, seg(t, 0.8, d * 0.8), False, y=900)
-    source(f, "سنن أبي داود", "النص يقول «البصرة»، وبعض العلماء فهموها بغداد", t, d * 0.55, y=1285)
+    source(f, "سنن أبي داود ٤٣٠٦", "النص يقول «البصرة»، وبعض العلماء فهموها بغداد", t, d * 0.55, y=1285)
 
 
 def scene_history(f, t, d):
