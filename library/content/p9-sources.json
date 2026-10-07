@@ -1,0 +1,100 @@
+{
+  "id": "s-sources",
+  "title": "“The Quran came from Syriac and Christian sources”",
+  "intro": "This theory comes in three forms: that the Quran’s Arabic is really mistranscribed Syriac (Luxenberg), that Muhammad ﷺ was taught by a Christian monk or other informant, and that the Quran is a reworking of Syriac Christian literature. The standard stories of Dhul-Qarnayn, the Sleepers of the Cave and the Infancy Gospel are answered in Part I (<a href=\"p1.html#s-history\">Historical accuracies</a>) and Part V (<a href=\"p5.html#s-main\">The Quran &amp; the earlier scriptures</a>), so they are not repeated here. This section answers the method, the named “teachers” and the question of how a text that borrowed from Christians could contradict them on every central doctrine. Concede what is true: the Quran shares themes, figures and vocabulary with the Jewish and Christian world around it, and that is what it says about itself. The argument is about dependence and direction.",
+  "args": [
+    {
+      "title": "Luxenberg’s “Syro-Aramaic reading” and why specialists reject it",
+      "thesis": "Christoph Luxenberg argued that many obscure Quranic words are Syriac words misread by later Muslims. Specialists in Arabic and Syriac have criticised the method, and the best-known examples fail on the text itself.",
+      "premises": [
+        "A method that rewrites the text whenever a word is difficult can explain anything and so proves nothing.",
+        "Luxenberg’s proposals depend on assuming that Arabic script was undotted and misread, and on choosing a Syriac word wherever Arabic seemed obscure.",
+        "Where his readings can be tested against the verses and the manuscripts, they fail."
+      ],
+      "conclusion": "The Syro-Aramaic reading is not accepted by the field and is not evidence that the Quran was a mistranslated Christian lectionary.",
+      "evidence": [
+        "<strong>The book.</strong> <em>Die syro-aramäische Lesart des Koran</em> (2000; English 2007), written under a pseudonym. Its famous proposals are that <em>qur’an</em> means a Syriac “lectionary” and that the <em>hur ‘in</em> promised in paradise are “white grapes” or raisins.",
+        "<strong>Test it on the verse.</strong> “And We shall marry them to <em>hur ‘in</em>” (44:54; 52:20). One does not marry raisins. The same figures are “restrained of glance” (55:56) and “confined in tents” (55:72).",
+        "<strong>The dots.</strong> Luxenberg’s method assumes that early Arabic script lacked dots and was misread. Arabic writing with dots is already attested in papyri from the 640s (for example PERF 558, dated 22 AH/643 CE), and early Quran manuscripts carry dots and strokes in many places.",
+        "<strong>The critics.</strong> François de Blois reviewed the book in the <em>Journal of Qur’anic Studies</em> (2003) and found its methods unreliable, and Walid Saleh’s “The Etymological Fallacy and Quranic Studies” (2008) argues that tracing a word to a Syriac root does not show that the Quran uses it with the Syriac meaning.",
+        "<strong>The Quran’s own claim.</strong> “This is a clear Arabic tongue” (16:103, 26:195). The Quran was recited aloud to Arabic speakers who understood it, which a text of misread Syriac could not have been."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“Many Quranic words are admittedly obscure, so Luxenberg may be right.”", "a": "Every ancient text has rare words, and the classical commentators discussed them from the start. A rare word is not a mistranscription. Rare words in Arabic poetry and the Quran are matched by cognates in other Semitic languages, and borrowing a word is not the same as borrowing a message."},
+        {"q": "“The Quran contains many words that came from Syriac and other languages.”", "a": "Some words are loanwords, as in every language, and Muslim scholars discussed this openly: al-Suyuti’s <em>al-Itqan</em> collects reports on words of non-Arabic origin. Arabic had long been in contact with Aramaic and Syriac through trade, so a shared word is expected. A loanword is not a mistranscription, and borrowing a word does not show that a message was borrowed."}
+      ],
+      "practice": {
+        "q": "The Quran is a mistranslated Syriac lectionary. Even paradise’s virgins are really white grapes.",
+        "a": "Read 44:54: “We shall marry them to hur ‘in.” You cannot marry grapes. Luxenberg’s method picks a Syriac word whenever an Arabic one is rare, and specialists like François de Blois and Walid Saleh criticise it. Arabic with dots appears in papyri from 643 CE, so the premise of misreading undotted letters fails, and the Quran calls itself clear Arabic (16:103). The reading is not accepted in the field."
+      },
+      "summary": "Luxenberg’s Syro-Aramaic reading fails on the verses (one cannot marry raisins, 44:54), on the dots (attested from 643 CE), and on the methodological critiques of de Blois and Saleh."
+    },
+    {
+      "title": "The “teacher” claims: Bahira, Waraqa and the foreign tongue",
+      "thesis": "The Quran records the accusation that a human taught Muhammad ﷺ and answers it. The proposed teachers (the monk Bahira, Waraqa ibn Nawfal, a foreign craftsman) either met him briefly, died too early, or could not have supplied the content.",
+      "premises": [
+        "If a human teacher supplied the Quran, he must have been in contact with the Prophet ﷺ over the 23 years of revelation and had the knowledge it contains.",
+        "The named candidates were not in such contact, or knew little of what the Quran says.",
+        "The Quran states the accusation and replies to it in the text, in the Meccan period, to people who could check."
+      ],
+      "conclusion": "No candidate for a human source fits the evidence, and the text itself records that the accusation was made in Mecca and was answered.",
+      "evidence": [
+        "<strong>The charge in the Quran.</strong> “We know that they say: ‘It is only a human being who teaches him.’ The tongue of the one they refer to is foreign, and this is a clear Arabic tongue” (16:103). Also: “They say: ‘Legends of the ancients, which he has had written down, and which are dictated to him morning and evening’” (25:5).",
+        "<strong>The Meccan candidate.</strong> The commentators (al-Tabari) report that the accusers pointed to a Christian non-Arab craftsman in Mecca, named variously as Bal‘am, Jabr or Yasar. The verse answers that a man who barely speaks Arabic cannot teach a text in eloquent Arabic.",
+        "<strong>Bahira.</strong> The story of the monk Bahira meeting the boy Muhammad ﷺ on a trading journey with his uncle (Ibn Ishaq; Tirmidhi 3620) describes one short encounter when he was about twelve. Scholars debate its details, but even as told there was no teaching, and the revelation came some thirty years later.",
+        "<strong>Waraqa.</strong> Waraqa ibn Nawfal, Khadija’s cousin, was a Christian who knew scripture. After the first revelation he said that the Prophet ﷺ had received the same angel who came to Moses, “and he died soon after, and the revelation paused” (Bukhari 3). The Quran continued to be revealed for some twenty-three years after his death, covering law, politics and polemics he never discussed.",
+        "<strong>Later informants.</strong> Salman al-Farisi and Abdullah ibn Salam came to Islam in Medina after the Hijra, so they cannot have been teachers for the Meccan surahs, and Medinan material is full of revelations answering events as they happened."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“Muhammad could have learned from many travellers over the years.”", "a": "That is a theory without a witness. It must explain how an unlettered man in a trading town gathered, from unnamed people, the content of Genesis, the Gospels and their commentaries in a way that disagrees with the Bible on the Trinity, the crucifixion and the nature of Jesus, and why his opponents, who were looking for a source, could name only a foreign craftsman."},
+        {"q": "“16:103 shows that the Quran admits someone was teaching him.”", "a": "It reports an accusation and refutes it. The refutation is that the supposed teacher’s tongue is foreign, while the Quran is in clear Arabic, which is an argument its Meccan audience could test."}
+      ],
+      "practice": {
+        "q": "Muhammad learned the stories from the monk Bahira and from Waraqa.",
+        "a": "Bahira is a single meeting when Muhammad ﷺ was about twelve, with no teaching described, and the revelation came decades later. Waraqa died soon after the first revelation (Bukhari 3), and the Quran went on for twenty-three years. The Quran itself records that the Meccans said a human taught him, named a foreign craftsman, and was answered in 16:103: his tongue is foreign, the Quran is clear Arabic."
+      },
+      "summary": "The Quran records the “teacher” charge (16:103, 25:5) and answers it. Bahira met him once, Waraqa died as revelation began, and the named craftsman was a non-Arabic speaker."
+    },
+    {
+      "title": "A student who contradicts his teachers on every central doctrine",
+      "thesis": "If the Quran were a Syriac Christian text reworked, it should reproduce Christian doctrine. Instead it rejects the Trinity, the divinity of Jesus, the crucifixion and original sin, while agreeing with the Jewish-Christian understanding of Jesus as a prophet. That is a pattern of independence, not dependence.",
+      "premises": [
+        "Dependence means reproducing the source’s central claims, and a text that overturns them every time is not copying.",
+        "The Quran overturns Syriac Christianity’s central doctrines while engaging its stories and figures.",
+        "The best explanation for shared material together with contradicted doctrine is a common older source, not borrowing."
+      ],
+      "conclusion": "The relation of the Quran to Syriac Christian literature is a relation of engagement and correction, as the Quran says of itself (5:48), not of dependence.",
+      "evidence": [
+        "<strong>Contradicted doctrines.</strong> “Those who say that Allah is the Messiah, son of Mary, have disbelieved” (5:72). “Those who say that Allah is the third of three have disbelieved” (5:73). “They did not kill him and they did not crucify him” (4:157). “He is Allah, One” (112:1-4). Syriac Christians held the Trinity, the divinity of Christ and the cross as central.",
+        "<strong>Shared material.</strong> The Quran discusses Mary, the birth of Jesus, the Apostles and the miracles of Jesus (3:35-59; 19:16-36), with details that differ from the Gospels (Mary’s mother’s vow; the speaking infant).",
+        "<strong>The name of Jesus.</strong> Arab and Syriac Christians called him Yasu‘ or Yeshu‘. The Quran calls him ‘Isa (see Part V, <em>The names Yahya and ‘Isa</em>), a form no Christian community used.",
+        "<strong>Scholarly view.</strong> Gabriel Said Reynolds (<em>The Qur’an and Its Biblical Subtext</em>, 2010) and Sidney Griffith argue that the Quran engages in dialogue with Jewish and Christian traditions of its time. This is what the Quran claims, since it describes itself as confirming and correcting (5:48; 2:213; 27:76).",
+        "<strong>Jewish-Christian parallels.</strong> The Quran’s Jesus (a human prophet and messiah, born of a virgin, who says “I am the servant of God”, 19:30) resembles the view of early Jewish Christians more than that of the Syriac Church (see Part II, <em>Jewish Christianity and the Ebionites</em>)."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“It borrowed the stories but changed the theology to suit Muhammad.”", "a": "That claim assumes the conclusion. If the stories are from a common earlier revelation, as the Quran says, then the corrections are the point. If they were borrowed and changed deliberately, the borrower had to know the doctrines well enough to reverse each one, in a trading town where the Christian sources were remote and untranslated into Arabic (see Part V on the absence of an Arabic Bible)."},
+        {"q": "“Scholars like Reynolds do say the Quran depends on Syriac sources.”", "a": "Reynolds argues for a conversation with a shared biblical and Syriac subtext, and he is explicit that the Quran’s purposes are its own. Shared themes and a shared language of scripture do not show that the content is derived. Say you accept the intertextuality and dispute the inference."}
+      ],
+      "practice": {
+        "q": "The Quran is just recycled Syriac Christianity.",
+        "a": "Recycled Syriac Christianity would teach the Trinity, the divinity of Christ and the cross. The Quran rejects each of them (5:72-73, 4:157), calls Jesus a servant and prophet (19:30), and even calls him ‘Isa, a name no Christian used. Scholars like Reynolds see a conversation with Jewish and Christian traditions, which is just what the Quran says it is (5:48). A student does not contradict his teachers on every central doctrine."
+      },
+      "summary": "The Quran shares figures and stories with Syriac Christian literature and rejects its central doctrines (5:72-73, 4:157), which fits correction of a common source, not dependence."
+    }
+  ],
+  "cards": [
+    ["Who wrote the “Syro-Aramaic reading” of the Quran?", "Christoph Luxenberg (pseudonym), 2000"],
+    ["Which verse refutes the “white raisins” reading of hur ‘in?", "44:54 (“We shall marry them to hur ‘in”)"],
+    ["Which Arabic papyrus from 643 CE has diacritical dots?", "PERF 558 (22 AH)"],
+    ["Who criticised Luxenberg in the Journal of Qur’anic Studies (2003)?", "François de Blois"],
+    ["Which verse records the charge that a human teaches Muhammad ﷺ?", "16:103"],
+    ["Which verse says the Quran is dictated to him morning and evening, the Meccans claimed?", "25:5"],
+    ["How soon after the first revelation did Waraqa die?", "Soon after; the revelation paused (Bukhari 3)"],
+    ["Which Quranic name for Jesus differs from the Christian Arabic Yasu‘?", "‘Isa"],
+    ["Which verse says the Quran confirms and corrects earlier scripture?", "5:48"],
+    ["Whose book is The Qur’an and Its Biblical Subtext?", "Gabriel Said Reynolds (2010)"]
+  ]
+}

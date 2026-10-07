@@ -1,0 +1,614 @@
+{
+ "id": "p9",
+ "roman": "IX",
+ "total_parts": "IX",
+ "title": "The Quran under attack: text, sources and history",
+ "desc": "The readings and the Sana’a palimpsest, radiocarbon dating and Uthman’s recension, the claim that the Quran came from Syriac Christian sources, the Petra and “Mecca did not exist” theories, and the charges of grammatical error and abrogation.",
+ "prev": {
+  "href": "p8.html",
+  "label": "Part VIII",
+  "title": "Modern ideological challenges"
+ },
+ "next": null,
+ "sections": [
+  {
+   "id": "s-text",
+   "title": "Manuscripts and the history of the text",
+   "intro": "The attack on the text now comes in an academic form: the readings (qira’at), the Sana’a palimpsest, radiocarbon dates and the claim that the standard text is a later construction. Part I already answers the basic charge that the readings are copying errors (<a href=\"p1.html#s-quran\">Preservation of the Quran</a>) and gives the scholars’ concessions. This section adds the pieces that come up next: what the technical terms actually mean, what the Sana’a palimpsest shows and does not show, what the radiocarbon dates can and cannot prove, and what Uthman’s standardisation did. Be exact about the evidence and do not claim more than it shows. The strongest position is that the manuscripts confirm the Islamic account, including its admission that variant Companion codices existed.",
+   "args": [
+    {
+     "title": "Seven ahruf, seven readings, ten readings: three different things",
+     "thesis": "Critics often run together three different terms: the seven ahruf of the hadith, the seven or ten canonical readings (qira’at), and the Uthmanic text itself. Keeping them apart removes most of the force of the “seven versions of the Quran” charge.",
+     "premises": [
+      "An argument built on a confusion of terms fails once the terms are separated.",
+      "The seven ahruf are a Prophetic permission for variation in recitation, the qira’at are the later systematised readings that survive within the Uthmanic outline, and the Uthmanic text is the written standard.",
+      "The ten canonical readings are variations on one text and one set of consonants, and the Quran has not been transmitted as ten different books."
+     ],
+     "conclusion": "There is one Quran written in one consonantal outline, with a bounded set of authorised variations in recitation, and the claim of seven or ten Qurans comes from conflating terms.",
+     "evidence": [
+      "<strong>The ahruf.</strong> “The Quran was revealed in seven ahruf, so recite whichever is easy for you” (Bukhari 2419, 4992; Muslim 818). The word <em>harf</em> means “mode” or “manner”. Scholars have proposed many meanings (dialects, synonyms, types of variation), and a classical view held that the permission narrowed after Uthman’s standardisation.",
+      "<strong>The readings.</strong> Ibn Mujahid (d. 324 AH/936 CE) selected seven leading readers of the early centuries, and later Ibn al-Jazari (d. 833 AH/1429 CE) set out ten, with three conditions: an authentic chain back to the Prophet ﷺ, conformity with Arabic, and agreement with one of the Uthmanic copies. A reading that fails any of the three is not canonical.",
+      "<strong>The text.</strong> All ten readings share the same Uthmanic consonantal outline and differ mainly in vowels, in whether a letter is pointed one way or another, and in a limited number of word forms.",
+      "<strong>Not seven books.</strong> The hadith of Bukhari 2419 shows the Prophet ﷺ affirming two recitations of one surah as both revealed. It does not describe seven different Qurans.",
+      "<strong>Comparison.</strong> The New Testament exists in more than five thousand Greek manuscripts whose variants are counted in the hundreds of thousands (estimates differ), with several passages disputed even by conservative editors. The variants of the Quran are a fixed, listed set transmitted by named readers."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“Uthman burned six of the seven ahruf and kept one.”",
+       "a": "That was the view of al-Tabari and some others. Many scholars, such as Ibn al-Jazari, hold instead that the Uthmanic outline preserves the readings confirmed in the Prophet’s ﷺ final recitation of the Quran to Gabriel (the ‘ardah al-akhira), which is why more than one reading fits it. Scholars differ on this point, so present it as a scholarly debate and not as a settled fact."
+      },
+      {
+       "q": "“Different readings mean the text was not fixed.”",
+       "a": "They mean the recitation was transmitted with authorised variations. The text, in the sense of its consonantal skeleton and the content, is the same. The existence of an authorised variation is a feature of the revelation as the sources describe it, not a defect in preservation."
+      }
+     ],
+     "practice": {
+      "q": "Muslims admit there are seven versions of the Quran, so it cannot be one preserved book.",
+      "a": "Three different things are being run together. The seven ahruf are a Prophetic permission for variation in recitation. The readings are the later canonical systems, seven or ten depending on the list, each with an unbroken chain to the Prophet ﷺ and each fitting the same written outline. The written text is a single one. The differences are listed, small and transmitted by name, which is the opposite of a text drifting through copying errors."
+     },
+     "summary": "The ahruf, the qira’at and the Uthmanic text are three distinct things. The ten readings share one written outline and a listed set of authorised variants, so “seven Qurans” is a confusion of terms."
+    },
+    {
+     "title": "The Sana’a palimpsest: what it shows and what it does not",
+     "thesis": "The Sana’a palimpsest has a lower text with variants from the standard text, and it is often presented as proof that the Quran evolved. On the researchers’ own account, the lower text is overwhelmingly the same Quran, it is dated to the first generation after the Prophet ﷺ, and a codex that differs from the standard text is exactly what the Islamic account of the Companion codices predicts.",
+     "premises": [
+      "To count against preservation, a manuscript must show that the text was substantially different, or that the Islamic account of its history is false.",
+      "The lower text of the palimpsest agrees with the standard text in the great majority of its wording, and its variants resemble those the Islamic sources report for the Companions’ private codices.",
+      "The Islamic sources say that such codices existed and that Uthman standardised the text, so finding one confirms the account."
+     ],
+     "conclusion": "The palimpsest is evidence that a Companion-type codex existed in the first century, which the tradition already says. It is not evidence that the Quran was composed later or that its content was different.",
+     "evidence": [
+      "<strong>What it is.</strong> A set of parchment leaves found in the Great Mosque of Sana’a in 1972, in which an earlier Quranic text was washed off and a later Quranic text was written over it (the upper text is close to the standard Uthmanic text). The scholars Behnam Sadeghi and Mohsen Goudarzi published the lower text in 2012 (“Ṣanʿāʾ 1 and the Origins of the Qurʾān”, <em>Der Islam</em>).",
+      "<strong>Its date.</strong> Sadeghi and Uwe Bergmann’s radiocarbon dating of the parchment (<em>Arabica</em>, 2010) placed it, with 95 percent probability, roughly between 578 and 669 CE, which means the first half-century or so after the Prophet’s death.",
+      "<strong>What the lower text shows.</strong> According to Sadeghi and Goudarzi, the lower text is a non-Uthmanic codex that contains the same Quran with differences in wording and a different order of some surahs. Their own conclusion is that it is close to the codices the sources attribute to the Companions.",
+      "<strong>The Islamic account.</strong> The sources report that Ibn Mas‘ud, Ubayy and others had private codices with variant wording and a different surah order, that this alarmed Hudhayfa, and that Uthman had a standard copy written and sent to the main cities (Bukhari 4987). A palimpsest that preserves an earlier text type is what that account predicts.",
+      "<strong>Why it was erased.</strong> Scholars suggest it was washed because it no longer matched the standard text, which fits the report that non-standard copies were retired after Uthman’s standardisation."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“The variants show the Quran was changed after Muhammad.”",
+       "a": "The variants show that one early codex differed in some wording and surah order from the standard. The sources already say that such codices existed. What the palimpsest does not show is a different message, different laws, a different narrative or a text that was composed in the next century. Even its editors describe it as the same Quran with variations."
+      },
+      {
+       "q": "“The material has been kept secret.”",
+       "a": "Sadeghi and Goudarzi’s 2012 article transcribes the lower text of Sana’a 1 and reproduces images, and Asma Hilali’s <em>The Sanaa Palimpsest</em> (Oxford, 2017) studies the whole palimpsest. Early press claims about it were often exaggerated, so rely on the specialists’ published work."
+      }
+     ],
+     "practice": {
+      "q": "The Sana’a palimpsest proves the Quran was edited after Muhammad.",
+      "a": "It proves that one early codex had some different wording and surah order, which is exactly what the Islamic sources say about the Companions’ codices and about Uthman’s standardisation (Bukhari 4987). Radiocarbon puts the parchment in the first half-century after the Prophet’s death, and the scholars who edited it describe a text that is, apart from limited variants, the same Quran. It confirms the story rather than contradicting it."
+     },
+     "summary": "The Sana’a lower text is an early Companion-type codex, dated to the first generation, overwhelmingly the same Quran with variants in wording and order, which is what the Islamic account already says existed."
+    },
+    {
+     "title": "Birmingham, Tübingen and the radiocarbon dates",
+     "thesis": "Radiocarbon dating of early Quran manuscripts places them in the lifetime of the Prophet’s Companions. The dates are ranges for the animal skin, not for the writing, so they should be presented carefully, and critics who claim a date before Muhammad are reading the range wrongly.",
+     "premises": [
+      "A radiocarbon date gives a range for when the animal died, and the writing is the same age or later.",
+      "The best-known dated manuscripts fall in ranges that overlap the first decades of Islam.",
+      "A range whose lower edge touches the Prophet’s birth does not show the text existed before him."
+     ],
+     "conclusion": "The early manuscripts show a Quran in written circulation within the first generation, consistent with the Islamic account, and the arguments for a pre-Muhammad or much later text both misread the evidence.",
+     "evidence": [
+      "<strong>Birmingham (Mingana 1572a with Paris BnF Arabe 328c).</strong> Two leaves with parts of Surahs 18-20 in Hijazi script. The Oxford Radiocarbon Accelerator Unit dated the parchment in 2015 to 568-645 CE with 95.4 percent probability. The Prophet ﷺ was born around 570 and died in 632.",
+      "<strong>Tübingen (Ma VI 165).</strong> A manuscript that covers 17:36 to 36:57, dated by radiocarbon (2014) to 649-675 CE with 95.4 percent probability.",
+      "<strong>Others.</strong> The Sana’a leaves (see the previous argument), and manuscripts such as Paris BnF Arabe 328a and British Library Or. 2165, belong to the same early Hijazi tradition and are dated by palaeography to the first and early second centuries of Islam.",
+      "<strong>The comparison.</strong> The oldest New Testament fragment (P52, a few verses of John) is dated by palaeography to the second century CE, and the oldest complete New Testament manuscripts are from the fourth century. The Quran has substantial parts in manuscripts within a century at most of its revelation, and the oral chain was running from the beginning.",
+      "<strong>The caution.</strong> The date refers to the skin. The parchment can be older than the ink by years or decades, or reused. State the ranges as they are and avoid saying that “the manuscript is from the Prophet’s time”."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“568 is before Muhammad was born, so the Quran predates him.”",
+       "a": "The range is for the death of the animal, which is the earliest the writing could be, and the probability is not spread evenly across it. A parchment is normally written on within years or decades of preparation. A range that reaches back to 568 and forward to 645 includes the whole lifetime of the Prophet ﷺ and the early caliphate, and Surahs 18-20 are Meccan, revealed from the early years of his mission."
+      },
+      {
+       "q": "“Scholars like Alba Fedeli say the Birmingham leaves are a palimpsest, so they were rewritten.”",
+       "a": "Fedeli’s proposal about a possible earlier layer is debated. In any case a palimpsest shows that parchment was reused, which would make the writing later than the skin, still within the early period and still the same Quranic text. The dating tells us the text in those surahs was in circulation very early."
+      }
+     ],
+     "practice": {
+      "q": "Radiocarbon dates show the Quran existed before Muhammad was born.",
+      "a": "They give a range for when the animal died, and the writing is the same age or later. The Birmingham range is 568-645 CE, and it starts two years before the Prophet’s birth and includes his entire life and the caliphate of Abu Bakr and Umar. The probability is not flat across the range, and the Hijazi script and the Meccan surahs on the leaves fit the first generation. Tübingen is 649-675, and Sana’a around 578-669. All point to a written Quran inside the lifetimes of the Companions."
+     },
+     "summary": "Birmingham (568-645), Tübingen (649-675) and Sana’a (about 578-669) put written Quranic text within the Companions’ lifetimes. The dates are for the skin, and claims of a pre-Muhammad text misread the range."
+    },
+    {
+     "title": "Uthman’s standardisation: what it did and did not do",
+     "thesis": "The Islamic sources describe the Uthmanic recension as a public, consultative standardisation of a text that already existed in written and memorised form, accepted by the Companions. It neither created the Quran nor silenced all other readings.",
+     "premises": [
+      "A standardisation presupposes an existing text and shows an effort to keep it intact.",
+      "The sources state who did it, why, how, and that the leading Companions agreed.",
+      "The readings of the Companions whose codices were retired survive in the canonical tradition."
+     ],
+     "conclusion": "Uthman’s action is evidence of how seriously the early community guarded the text, and the charge of suppression is not supported by the sources or by the survival of the readings.",
+     "evidence": [
+      "<strong>The first collection.</strong> After the Battle of Yamama, Abu Bakr asked Zayd ibn Thabit, a scribe of the Prophet ﷺ who had memorised the Quran, to collect the text, which he did from writings and from memories (Bukhari 4986-4987). The sheets passed to Umar and then to Hafsa.",
+      "<strong>The second step.</strong> Hudhayfa ibn al-Yaman saw people differing in recitation on the campaign in Armenia and Azerbaijan and urged Uthman to act. Uthman asked Hafsa for the sheets and appointed Zayd, Abdullah ibn al-Zubayr, Sa‘id ibn al-As and ‘Abd al-Rahman ibn al-Harith, telling them that where they differed they should write in the dialect of Quraysh, in which it was revealed (Bukhari 4987).",
+      "<strong>Distribution.</strong> Copies were sent to the main centres such as Kufa, Basra and Damascus, one was kept in Medina, and other copies and sheets were retired (Bukhari 4987).",
+      "<strong>Consent.</strong> Ali is reported to have said that Uthman acted on the Mushaf with the agreement of the Companions (Ibn Abi Dawud, <em>al-Masahif</em>).",
+      "<strong>The other readings survive.</strong> The reading of ‘Asim, which gives us the Hafs text most Muslims recite today, passes through readers who learned from Ibn Mas‘ud and Ali, so the supposedly suppressed Kufan tradition is part of the canon.",
+      "<strong>Compare.</strong> The Church’s canon was shaped over centuries by councils and regional practice, and no single recension ever fixed the New Testament text."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“Ibn Mas‘ud was angry about the burning of his codex.”",
+       "a": "The sources do report his objection, and a debater should say so. They also report that the Companions as a body supported the decision, that Ibn Mas‘ud’s readings were taught through Kufa and survive in the reading of ‘Asim, and that no early Muslim community produced a rival text of the Quran. A disagreement about method, voiced and recorded, is not evidence of a corrupted text."
+      },
+      {
+       "q": "“Burning copies is destroying evidence.”",
+       "a": "The aim was to stop a dispute over recitation in the army. It was done in public with the main Companions present, and the content of the retired codices is known from the reports, which still circulate. Compare Part I on the “missing verses” reports."
+      }
+     ],
+     "practice": {
+      "q": "Uthman burned every copy that disagreed with him, so the Quran is just his version.",
+      "a": "The sources say that Uthman used a text collected under Abu Bakr from the Prophet’s scribes and from memorisers, that he did it in public with a committee headed by Zayd, and that the Companions agreed. The disputed readings were retired, but the reading of Ibn Mas‘ud and Ali survives through ‘Asim, so nothing important was lost. And the oldest manuscripts we have match this text, with only the limited variants the sources themselves describe."
+     },
+     "summary": "Uthman’s standardisation was a public, consultative step based on an existing text, accepted by the Companions, and the readings of those whose codices were retired survive in the canon."
+    }
+   ],
+   "cards": [
+    [
+     "What does “harf” mean in the hadith of seven ahruf?",
+     "A mode or manner of recitation; scholars proposed many meanings"
+    ],
+    [
+     "Which hadith records Umar and Hisham reciting Surat al-Furqan differently?",
+     "Bukhari 2419"
+    ],
+    [
+     "Who set out the three conditions for a canonical reading?",
+     "Ibn al-Jazari (authentic chain, Arabic grammar, agreement with an Uthmanic copy)"
+    ],
+    [
+     "Who selected the seven readers?",
+     "Ibn Mujahid (d. 324 AH)"
+    ],
+    [
+     "Where was the Sana’a palimpsest found?",
+     "In the Great Mosque of Sana’a, 1972"
+    ],
+    [
+     "Who published the lower text of Sana’a 1 in 2012?",
+     "Behnam Sadeghi and Mohsen Goudarzi"
+    ],
+    [
+     "What is the radiocarbon range of the Birmingham leaves?",
+     "568-645 CE (95.4 percent), Surahs 18-20"
+    ],
+    [
+     "What is the radiocarbon range of the Tübingen manuscript?",
+     "649-675 CE (95.4 percent)"
+    ],
+    [
+     "Which hadith describes Uthman’s standardisation?",
+     "Bukhari 4987"
+    ],
+    [
+     "Who led Uthman’s committee?",
+     "Zayd ibn Thabit"
+    ]
+   ]
+  },
+  {
+   "id": "s-sources",
+   "title": "“The Quran came from Syriac and Christian sources”",
+   "intro": "This theory comes in three forms: that the Quran’s Arabic is really mistranscribed Syriac (Luxenberg), that Muhammad ﷺ was taught by a Christian monk or other informant, and that the Quran is a reworking of Syriac Christian literature. The standard stories of Dhul-Qarnayn, the Sleepers of the Cave and the Infancy Gospel are answered in Part I (<a href=\"p1.html#s-history\">Historical accuracies</a>) and Part V (<a href=\"p5.html#s-main\">The Quran &amp; the earlier scriptures</a>), so they are not repeated here. This section answers the method, the named “teachers” and the question of how a text that borrowed from Christians could contradict them on every central doctrine. Concede what is true: the Quran shares themes, figures and vocabulary with the Jewish and Christian world around it, and that is what it says about itself. The argument is about dependence and direction.",
+   "args": [
+    {
+     "title": "Luxenberg’s “Syro-Aramaic reading” and why specialists reject it",
+     "thesis": "Christoph Luxenberg argued that many obscure Quranic words are Syriac words misread by later Muslims. Specialists in Arabic and Syriac have criticised the method, and the best-known examples fail on the text itself.",
+     "premises": [
+      "A method that rewrites the text whenever a word is difficult can explain anything and so proves nothing.",
+      "Luxenberg’s proposals depend on assuming that Arabic script was undotted and misread, and on choosing a Syriac word wherever Arabic seemed obscure.",
+      "Where his readings can be tested against the verses and the manuscripts, they fail."
+     ],
+     "conclusion": "The Syro-Aramaic reading is not accepted by the field and is not evidence that the Quran was a mistranslated Christian lectionary.",
+     "evidence": [
+      "<strong>The book.</strong> <em>Die syro-aramäische Lesart des Koran</em> (2000; English 2007), written under a pseudonym. Its famous proposals are that <em>qur’an</em> means a Syriac “lectionary” and that the <em>hur ‘in</em> promised in paradise are “white grapes” or raisins.",
+      "<strong>Test it on the verse.</strong> “And We shall marry them to <em>hur ‘in</em>” (44:54; 52:20). One does not marry raisins. The same figures are “restrained of glance” (55:56) and “confined in tents” (55:72).",
+      "<strong>The dots.</strong> Luxenberg’s method assumes that early Arabic script lacked dots and was misread. Arabic writing with dots is already attested in papyri from the 640s (for example PERF 558, dated 22 AH/643 CE), and early Quran manuscripts carry dots and strokes in many places.",
+      "<strong>The critics.</strong> François de Blois reviewed the book in the <em>Journal of Qur’anic Studies</em> (2003) and found its methods unreliable, and Walid Saleh’s “The Etymological Fallacy and Quranic Studies” (2008) argues that tracing a word to a Syriac root does not show that the Quran uses it with the Syriac meaning.",
+      "<strong>The Quran’s own claim.</strong> “This is a clear Arabic tongue” (16:103, 26:195). The Quran was recited aloud to Arabic speakers who understood it, which a text of misread Syriac could not have been."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“Many Quranic words are admittedly obscure, so Luxenberg may be right.”",
+       "a": "Every ancient text has rare words, and the classical commentators discussed them from the start. A rare word is not a mistranscription. Rare words in Arabic poetry and the Quran are matched by cognates in other Semitic languages, and borrowing a word is not the same as borrowing a message."
+      },
+      {
+       "q": "“The Quran contains many words that came from Syriac and other languages.”",
+       "a": "Some words are loanwords, as in every language, and Muslim scholars discussed this openly: al-Suyuti’s <em>al-Itqan</em> collects reports on words of non-Arabic origin. Arabic had long been in contact with Aramaic and Syriac through trade, so a shared word is expected. A loanword is not a mistranscription, and borrowing a word does not show that a message was borrowed."
+      }
+     ],
+     "practice": {
+      "q": "The Quran is a mistranslated Syriac lectionary. Even paradise’s virgins are really white grapes.",
+      "a": "Read 44:54: “We shall marry them to hur ‘in.” You cannot marry grapes. Luxenberg’s method picks a Syriac word whenever an Arabic one is rare, and specialists like François de Blois and Walid Saleh criticise it. Arabic with dots appears in papyri from 643 CE, so the premise of misreading undotted letters fails, and the Quran calls itself clear Arabic (16:103). The reading is not accepted in the field."
+     },
+     "summary": "Luxenberg’s Syro-Aramaic reading fails on the verses (one cannot marry raisins, 44:54), on the dots (attested from 643 CE), and on the methodological critiques of de Blois and Saleh."
+    },
+    {
+     "title": "The “teacher” claims: Bahira, Waraqa and the foreign tongue",
+     "thesis": "The Quran records the accusation that a human taught Muhammad ﷺ and answers it. The proposed teachers (the monk Bahira, Waraqa ibn Nawfal, a foreign craftsman) either met him briefly, died too early, or could not have supplied the content.",
+     "premises": [
+      "If a human teacher supplied the Quran, he must have been in contact with the Prophet ﷺ over the 23 years of revelation and had the knowledge it contains.",
+      "The named candidates were not in such contact, or knew little of what the Quran says.",
+      "The Quran states the accusation and replies to it in the text, in the Meccan period, to people who could check."
+     ],
+     "conclusion": "No candidate for a human source fits the evidence, and the text itself records that the accusation was made in Mecca and was answered.",
+     "evidence": [
+      "<strong>The charge in the Quran.</strong> “We know that they say: ‘It is only a human being who teaches him.’ The tongue of the one they refer to is foreign, and this is a clear Arabic tongue” (16:103). Also: “They say: ‘Legends of the ancients, which he has had written down, and which are dictated to him morning and evening’” (25:5).",
+      "<strong>The Meccan candidate.</strong> The commentators (al-Tabari) report that the accusers pointed to a Christian non-Arab craftsman in Mecca, named variously as Bal‘am, Jabr or Yasar. The verse answers that a man who barely speaks Arabic cannot teach a text in eloquent Arabic.",
+      "<strong>Bahira.</strong> The story of the monk Bahira meeting the boy Muhammad ﷺ on a trading journey with his uncle (Ibn Ishaq; Tirmidhi 3620) describes one short encounter when he was about twelve. Scholars debate its details, but even as told there was no teaching, and the revelation came some thirty years later.",
+      "<strong>Waraqa.</strong> Waraqa ibn Nawfal, Khadija’s cousin, was a Christian who knew scripture. After the first revelation he said that the Prophet ﷺ had received the same angel who came to Moses, “and he died soon after, and the revelation paused” (Bukhari 3). The Quran continued to be revealed for some twenty-three years after his death, covering law, politics and polemics he never discussed.",
+      "<strong>Later informants.</strong> Salman al-Farisi and Abdullah ibn Salam came to Islam in Medina after the Hijra, so they cannot have been teachers for the Meccan surahs, and Medinan material is full of revelations answering events as they happened."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“Muhammad could have learned from many travellers over the years.”",
+       "a": "That is a theory without a witness. It must explain how an unlettered man in a trading town gathered, from unnamed people, the content of Genesis, the Gospels and their commentaries in a way that disagrees with the Bible on the Trinity, the crucifixion and the nature of Jesus, and why his opponents, who were looking for a source, could name only a foreign craftsman."
+      },
+      {
+       "q": "“16:103 shows that the Quran admits someone was teaching him.”",
+       "a": "It reports an accusation and refutes it. The refutation is that the supposed teacher’s tongue is foreign, while the Quran is in clear Arabic, which is an argument its Meccan audience could test."
+      }
+     ],
+     "practice": {
+      "q": "Muhammad learned the stories from the monk Bahira and from Waraqa.",
+      "a": "Bahira is a single meeting when Muhammad ﷺ was about twelve, with no teaching described, and the revelation came decades later. Waraqa died soon after the first revelation (Bukhari 3), and the Quran went on for twenty-three years. The Quran itself records that the Meccans said a human taught him, named a foreign craftsman, and was answered in 16:103: his tongue is foreign, the Quran is clear Arabic."
+     },
+     "summary": "The Quran records the “teacher” charge (16:103, 25:5) and answers it. Bahira met him once, Waraqa died as revelation began, and the named craftsman was a non-Arabic speaker."
+    },
+    {
+     "title": "A student who contradicts his teachers on every central doctrine",
+     "thesis": "If the Quran were a Syriac Christian text reworked, it should reproduce Christian doctrine. Instead it rejects the Trinity, the divinity of Jesus, the crucifixion and original sin, while agreeing with the Jewish-Christian understanding of Jesus as a prophet. That is a pattern of independence, not dependence.",
+     "premises": [
+      "Dependence means reproducing the source’s central claims, and a text that overturns them every time is not copying.",
+      "The Quran overturns Syriac Christianity’s central doctrines while engaging its stories and figures.",
+      "The best explanation for shared material together with contradicted doctrine is a common older source, not borrowing."
+     ],
+     "conclusion": "The relation of the Quran to Syriac Christian literature is a relation of engagement and correction, as the Quran says of itself (5:48), not of dependence.",
+     "evidence": [
+      "<strong>Contradicted doctrines.</strong> “Those who say that Allah is the Messiah, son of Mary, have disbelieved” (5:72). “Those who say that Allah is the third of three have disbelieved” (5:73). “They did not kill him and they did not crucify him” (4:157). “He is Allah, One” (112:1-4). Syriac Christians held the Trinity, the divinity of Christ and the cross as central.",
+      "<strong>Shared material.</strong> The Quran discusses Mary, the birth of Jesus, the Apostles and the miracles of Jesus (3:35-59; 19:16-36), with details that differ from the Gospels (Mary’s mother’s vow; the speaking infant).",
+      "<strong>The name of Jesus.</strong> Arab and Syriac Christians called him Yasu‘ or Yeshu‘. The Quran calls him ‘Isa (see Part V, <em>The names Yahya and ‘Isa</em>), a form no Christian community used.",
+      "<strong>Scholarly view.</strong> Gabriel Said Reynolds (<em>The Qur’an and Its Biblical Subtext</em>, 2010) and Sidney Griffith argue that the Quran engages in dialogue with Jewish and Christian traditions of its time. This is what the Quran claims, since it describes itself as confirming and correcting (5:48; 2:213; 27:76).",
+      "<strong>Jewish-Christian parallels.</strong> The Quran’s Jesus (a human prophet and messiah, born of a virgin, who says “I am the servant of God”, 19:30) resembles the view of early Jewish Christians more than that of the Syriac Church (see Part II, <em>Jewish Christianity and the Ebionites</em>)."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“It borrowed the stories but changed the theology to suit Muhammad.”",
+       "a": "That claim assumes the conclusion. If the stories are from a common earlier revelation, as the Quran says, then the corrections are the point. If they were borrowed and changed deliberately, the borrower had to know the doctrines well enough to reverse each one, in a trading town where the Christian sources were remote and untranslated into Arabic (see Part V on the absence of an Arabic Bible)."
+      },
+      {
+       "q": "“Scholars like Reynolds do say the Quran depends on Syriac sources.”",
+       "a": "Reynolds argues for a conversation with a shared biblical and Syriac subtext, and he is explicit that the Quran’s purposes are its own. Shared themes and a shared language of scripture do not show that the content is derived. Say you accept the intertextuality and dispute the inference."
+      }
+     ],
+     "practice": {
+      "q": "The Quran is just recycled Syriac Christianity.",
+      "a": "Recycled Syriac Christianity would teach the Trinity, the divinity of Christ and the cross. The Quran rejects each of them (5:72-73, 4:157), calls Jesus a servant and prophet (19:30), and even calls him ‘Isa, a name no Christian used. Scholars like Reynolds see a conversation with Jewish and Christian traditions, which is just what the Quran says it is (5:48). A student does not contradict his teachers on every central doctrine."
+     },
+     "summary": "The Quran shares figures and stories with Syriac Christian literature and rejects its central doctrines (5:72-73, 4:157), which fits correction of a common source, not dependence."
+    }
+   ],
+   "cards": [
+    [
+     "Who wrote the “Syro-Aramaic reading” of the Quran?",
+     "Christoph Luxenberg (pseudonym), 2000"
+    ],
+    [
+     "Which verse refutes the “white raisins” reading of hur ‘in?",
+     "44:54 (“We shall marry them to hur ‘in”)"
+    ],
+    [
+     "Which Arabic papyrus from 643 CE has diacritical dots?",
+     "PERF 558 (22 AH)"
+    ],
+    [
+     "Who criticised Luxenberg in the Journal of Qur’anic Studies (2003)?",
+     "François de Blois"
+    ],
+    [
+     "Which verse records the charge that a human teaches Muhammad ﷺ?",
+     "16:103"
+    ],
+    [
+     "Which verse says the Quran is dictated to him morning and evening, the Meccans claimed?",
+     "25:5"
+    ],
+    [
+     "How soon after the first revelation did Waraqa die?",
+     "Soon after; the revelation paused (Bukhari 3)"
+    ],
+    [
+     "Which Quranic name for Jesus differs from the Christian Arabic Yasu‘?",
+     "‘Isa"
+    ],
+    [
+     "Which verse says the Quran confirms and corrects earlier scripture?",
+     "5:48"
+    ],
+    [
+     "Whose book is The Qur’an and Its Biblical Subtext?",
+     "Gabriel Said Reynolds (2010)"
+    ]
+   ]
+  },
+  {
+   "id": "s-revision",
+   "title": "Revisionist claims about Mecca and the early history",
+   "intro": "These claims circulate mostly online: that the first qibla was Petra, that Mecca was a small or even non-existent place, and that the Quran was composed generations after Muhammad ﷺ. Part I already presents the pre-Islamic evidence for Mecca and the non-Muslim sources that name Muhammad within years of his death (<a href=\"p1.html#s-history\">Historical accuracies &amp; early attestation</a>). This section answers the Petra theory in detail, separates the real scholarly debate on Meccan trade from the popular claim that Mecca did not exist, and adds a piece of early evidence the other sections do not use: the Quran in stone in Jerusalem in 691. The rule here is to separate academic scholarship, which debates real questions, from popular theories, which most specialists reject.",
+   "args": [
+    {
+     "title": "The Petra qibla theory",
+     "thesis": "Dan Gibson argues that the earliest mosques faced Petra and that Mecca was a later construction. Specialists reject the theory, because early qibla orientations were approximate, the Quran’s description of Mecca does not fit Petra, and the argument has no textual support.",
+     "premises": [
+      "A claim that early Muslims faced a different city must explain the Quran’s own geography as well as mosque orientations.",
+      "Early mosque orientations were set by approximate methods and vary widely, so a spread of directions is expected.",
+      "The Quran describes a valley without cultivation beside a sacred house, which does not describe Petra."
+     ],
+     "conclusion": "The Petra theory depends on a selective reading of imprecise orientations and conflicts with the Quran’s geography and with Islamic and non-Islamic sources. It is not accepted by historians of early Islam, Muslim or not.",
+     "evidence": [
+      "<strong>The claim.</strong> Dan Gibson (<em>Qur’anic Geography</em>, 2011; <em>Early Islamic Qiblas</em>, 2017) argues that the first Muslims prayed towards Petra, that a Nabataean sanctuary there was the original sacred site, and that Mecca replaced it later. He is a Canadian researcher and filmmaker, not a specialist in Arabic or early Islamic history.",
+      "<strong>The Quran’s geography.</strong> “Our Lord, I have settled some of my descendants in a valley without cultivation near Your sacred House” (14:37). Petra, by contrast, had one of the most sophisticated water systems of the ancient world. The Quran names Bakka (3:96), mentions Mecca (48:24), Safa and Marwa (2:158) and the Hajj sites (2:196-203).",
+      "<strong>Qibla was approximate.</strong> The Prophet ﷺ told the people of Medina: “What is between the east and the west is a qibla” (Tirmidhi 342; Ibn Majah 1011). The history of science on this topic (David King, <em>World-Maps for Finding the Direction and Distance to Mecca</em>) shows that Muslims used rough methods, such as winds and the rising of stars, and that orientations varied between regions for centuries.",
+      "<strong>Petra’s history.</strong> The Nabataean city declined after the earthquake of 363 CE and was a small settlement by the seventh century. A pilgrimage centre there would have left evidence in the Byzantine and Muslim records, and none exists.",
+      "<strong>The sources.</strong> The conquest accounts, the Hudaybiyyah treaty and the early histories all place the events at Mecca, Medina and nearby sites, and Muslims, Jews and Christians of the period referred to the same places."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“The orientation of early mosques shows they did not face Mecca.”",
+       "a": "It shows that early builders did not have accurate methods. Early mosques are off by many degrees in many directions, and a spread of orientations is the expected result of estimating from local custom."
+      },
+      {
+       "q": "“Hagarism argued something similar in the 1970s.”",
+       "a": "Patricia Crone and Michael Cook’s <em>Hagarism</em> (1977) proposed that the early Muslims’ sanctuary lay in north-west Arabia. Crone’s own later book on Meccan trade treated Mecca and its tribe Quraysh as historical, and the manuscripts and inscriptions found since then do not support the northern-sanctuary idea. It is a historical hypothesis that did not survive the evidence."
+      }
+     ],
+     "practice": {
+      "q": "The first Muslims prayed towards Petra, and Mecca was invented later.",
+      "a": "The Quran describes a valley without cultivation beside the sacred house (14:37), and Petra was famous for its water engineering. The Prophet ﷺ told Medinans that what lies between east and west is a qibla (Tirmidhi 342), and historians of science show that early orientations were approximate, so scatter is expected. Gibson is not a specialist and historians of early Islam, including non-Muslim ones, do not accept the theory."
+     },
+     "summary": "The Petra theory conflicts with the Quran’s description of Mecca (14:37), ignores that early qibla finding was approximate (Tirmidhi 342), and is rejected by specialists."
+    },
+    {
+     "title": "From the Meccan trade debate to “Mecca did not exist”",
+     "thesis": "The serious scholarly debate was whether Mecca was a major long-distance trading hub, not whether it existed. The popular claim that Mecca did not exist turns a narrow academic argument into a different one that nobody in the field makes.",
+     "premises": [
+      "A claim should be answered in the form its scholarly source actually made it.",
+      "Patricia Crone argued that Mecca was not a major spice-route hub, and she did not argue that it did not exist.",
+      "A small commercial town can still be a sanctuary and the birthplace of a prophet."
+     ],
+     "conclusion": "The academic debate leaves Mecca’s existence, its sanctuary and the Quran’s picture intact, and the Quran’s own description of Mecca as a modest valley town fits the more modest reconstructions.",
+     "evidence": [
+      "<strong>The thesis.</strong> Patricia Crone’s <em>Meccan Trade and the Rise of Islam</em> (1987) argued that Mecca was not a major node in the spice trade and that earlier historians had overstated it. Her target was the theory that Islam arose from a trade crisis, not the existence of Mecca.",
+      "<strong>The responses.</strong> R.B. Serjeant (<em>Journal of the American Oriental Society</em>, 1990, “Meccan trade and the rise of Islam: misconceptions and flawed polemics”) and others argued that Mecca’s trade in local goods and its role in the pilgrimage season is well supported by the Quran and early sources.",
+      "<strong>The Quran.</strong> It refers to the trading journeys of Quraysh in winter and summer (106:1-2) and to trade during the Hajj season (2:198). It also calls Mecca “the mother of towns” (6:92; 42:7), a local centre, and describes its valley as barren (14:37).",
+      "<strong>Evidence of antiquity.</strong> Diodorus Siculus’s account of a revered Arabian temple and Ptolemy’s “Macoraba” are discussed in Part I. Treat these as suggestive, since Arabia is the least excavated region of the Near East.",
+      "<strong>The inference.</strong> “Not a global trade hub” does not entail “did not exist”. Even on Crone’s own picture the town had a sanctuary and a tribe."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“Crone proved the Meccan trade story was a myth.”",
+       "a": "She argued that the stories of vast spice trade were overstated, and her work forced a better-grounded picture. That does not make the Quran’s account of a trading and pilgrimage town false, and her thesis was challenged by Serjeant and others on the evidence of the Quran and the early sources."
+      },
+      {
+       "q": "“No Greek or Syriac source names Mecca before Islam.”",
+       "a": "Absence from the surviving sources of a small Arabian town is expected, as Arabia was outside the empires’ records, and Part I gives the candidate references. It is an argument from silence about a region that has hardly been excavated."
+      }
+     ],
+     "practice": {
+      "q": "Scholars have shown Mecca was a nothing town on no trade route, so the Islamic story is invented.",
+      "a": "What Crone argued in 1987 is that Mecca was not a major spice-trade hub. She did not argue it did not exist, and Serjeant and others replied with the Quran’s own evidence of local trade and the pilgrimage season (106:1-2, 2:198). The Quran calls Mecca ‘the mother of towns’ and a barren valley (14:37), which is a modest place. A modest town can be a sanctuary and a birthplace of a prophet, so that debate does not touch the Islamic account."
+     },
+     "summary": "Crone argued Mecca was not a major spice-trade hub, not that it did not exist; the Quran’s picture of a modest sanctuary town (6:92, 14:37, 106) fits even her reconstruction."
+    },
+    {
+     "title": "The Quran in stone: the Dome of the Rock inscriptions (691 CE)",
+     "thesis": "The Dome of the Rock in Jerusalem, completed in 72 AH/691-2 CE, carries long inscriptions that quote Quranic verses closely. This is monumental evidence of the Quran’s text within about sixty years of the Prophet’s death, and it also contradicts the idea that the Quran was composed in the eighth or ninth century.",
+     "premises": [
+      "Dated public inscriptions are among the strongest kinds of historical evidence, since they cannot be revised later.",
+      "The Dome of the Rock carries a dated inscription that quotes passages found in our Quran.",
+      "A text that was composed generations later could not be quoted in a monument from 691."
+     ],
+     "conclusion": "By 691 the Quranic text, with the Prophet ﷺ named as God’s messenger, was already authoritative enough to be inscribed on the most prominent monument of the empire.",
+     "evidence": [
+      "<strong>The monument.</strong> The Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik, and the inscription gives the date as 72 AH (691-2 CE). It is one of the oldest surviving Islamic monuments and carries a long inscription.",
+      "<strong>The text.</strong> The mosaic inscriptions around the inner arcade quote Surat al-Ikhlas (112), 4:171-172, 19:33-36, 3:18-19 and other verses, together with the formula that Muhammad is the messenger of God. The quotations closely follow the text we have, and scholars such as Oleg Grabar (<em>The Shape of the Holy</em>, 1996) have studied them.",
+      "<strong>The message.</strong> The inscription’s central statements are the Quran’s: that God is One, that Jesus is the messenger of God and not His son (4:171), and that “the religion with God is Islam” (3:19).",
+      "<strong>Other early evidence.</strong> Coins and the Hisma inscription also name the Prophet ﷺ (see Part I), and the Birmingham, Tübingen and Sana’a manuscripts date from the same period (see Section A).",
+      "<strong>The inference.</strong> If the Quran had been composed gradually in the eighth and ninth centuries, as the late-composition theories (Wansbrough; the <em>Hagarism</em> school) proposed, a monument of 691 could not quote it."
+     ],
+     "arabic": [
+      {
+       "text": "قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+       "cite": "112:1-4"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“The inscription differs from the standard text in places.”",
+       "a": "Some scholars note small differences in wording or selection, which is expected when verses are chosen and combined for a building and when the text was still in an oral and early written phase. The point stands: the passages, themes and wording are those of our Quran, and a building of 691 relies on them as already authoritative."
+      },
+      {
+       "q": "“Abd al-Malik’s Dome is political propaganda.”",
+       "a": "It may well be, since it asserts Islam in a city full of Christian monuments. But propaganda quotes an existing text, and it needs its audience to recognise the verses as authoritative. That is the evidence that the Quran existed and was known."
+      }
+     ],
+     "practice": {
+      "q": "The Quran was put together in the 8th or 9th century.",
+      "a": "The Dome of the Rock was completed in 72 AH/691-2 CE, and its inscriptions quote Surat al-Ikhlas, 4:171, 19:33-36 and 3:18-19 closely and name Muhammad ﷺ as God’s messenger. So by 691 the text was known and authoritative enough to be inscribed in the most prominent monument of the empire. The Birmingham, Tübingen and Sana’a manuscripts also date within the first century. A text composed in the 700s cannot appear in a building of 691."
+     },
+     "summary": "The Dome of the Rock (72 AH/691-2) quotes the Quran closely on its walls, so the text was authoritative within about sixty years of the Prophet’s death, long before any “late composition” could have happened."
+    }
+   ],
+   "cards": [
+    [
+     "Who argued that the first qibla was Petra?",
+     "Dan Gibson (Qur’anic Geography, 2011)"
+    ],
+    [
+     "Which verse describes a valley without cultivation near the sacred house?",
+     "14:37"
+    ],
+    [
+     "What did the Prophet ﷺ tell the people of Medina about the qibla?",
+     "“What is between the east and the west is a qibla” (Tirmidhi 342)"
+    ],
+    [
+     "Who wrote Meccan Trade and the Rise of Islam?",
+     "Patricia Crone (1987)"
+    ],
+    [
+     "Who replied to Crone in the Journal of the American Oriental Society (1990)?",
+     "R.B. Serjeant"
+    ],
+    [
+     "Which surah mentions the winter and summer journeys of Quraysh?",
+     "Surat Quraysh (106)"
+    ],
+    [
+     "Which verse calls Mecca the “mother of towns”?",
+     "6:92 and 42:7"
+    ],
+    [
+     "When was the Dome of the Rock completed?",
+     "72 AH / 691-2 CE, under ‘Abd al-Malik"
+    ],
+    [
+     "Which Quranic passages appear in the Dome’s inscriptions?",
+     "112, 4:171-172, 19:33-36, 3:18-19 and others"
+    ],
+    [
+     "Who wrote The Shape of the Holy (1996)?",
+     "Oleg Grabar"
+    ]
+   ]
+  },
+  {
+   "id": "s-grammar",
+   "title": "Grammar, scribal errors and abrogation",
+   "intro": "Two textual charges come up constantly after the manuscript questions: that the Quran contains grammatical mistakes and scribal slips, and that abrogation shows God changing His mind. Both can be answered from the sources, and in both cases the right approach is to say what the verse says, what the grammarians and commentators said about it from the beginning, and what the critic’s standard assumes. Do not claim that nobody ever reported a scribal error. Say that the reports are weak or were understood as describing permitted variation, and show why.",
+   "args": [
+    {
+     "title": "“Grammatical errors” (20:63, 4:162, 5:69) and the reports of scribal mistakes",
+     "thesis": "The verses cited as grammatical errors have established explanations from the earliest grammarians and readers, and the reports that Aisha or Uthman acknowledged scribal mistakes are weak or were read by the scholars as describing dialect and permitted variation.",
+     "premises": [
+      "The rules of Arabic grammar were systematised after the Quran and were drawn in part from it and from the speech of the Arabs.",
+      "Each verse the critic cites has a recognised explanation in dialect, in rhetorical construction or in an alternative canonical reading.",
+      "The reports of scribal errors have weak chains or were interpreted by the scholars as referring to something else."
+     ],
+     "conclusion": "The “errors” are features the early grammarians already knew and explained, and the reports of scribal mistakes do not establish an error in the text.",
+     "evidence": [
+      "<strong>20:63.</strong> “Inna hadhani lasahirani” has the dual noun in the nominative where standard grammar would expect the accusative. Hafs and Ibn Kathir read it as <em>in hadhani</em> with a light <em>in</em> (“these two are sorcerers”), which is regular. Abu ‘Amr reads <em>inna hadhayni</em>, also regular. For the majority reading, the grammarians cite the dialect of Kinana and the Harith ibn Ka‘b tribe, which keeps the dual in <em>-ani</em> in all cases.",
+      "<strong>4:162.</strong> “<em>wa al-muqimina al-salata</em>” has the accusative where the nominative is expected. Sibawayh explained it as an accusative of praise, in which the speaker breaks the construction to emphasise a group (“I single out the establishers of prayer”). This construction is well attested in Arabic.",
+      "<strong>5:69.</strong> “<em>wa al-sabi’un</em>” in the nominative. Sibawayh and later grammarians explained this as a postponed subject (<em>ta’khir</em>) whose predicate is understood earlier in the sentence.",
+      "<strong>The order of discovery.</strong> The early grammarians (Abu al-Aswad al-Du’ali, then Sibawayh in the later eighth century) collected their rules from the Quran, poetry and the Bedouin, so where the Quran departed from a later rule, the rule was adjusted to the Quran and not the reverse.",
+      "<strong>The reports.</strong> Reports attributed to Aisha, Uthman and Ibn Abbas that scribes made a <em>lahn</em> (“mistake”) in these verses are collected in Ibn Abi Dawud’s <em>al-Masahif</em>. Their chains are broken or disputed, and al-Suyuti and Ibn Hajar understood <em>lahn</em> here as meaning dialect, style or a permitted variant, not an error. Compare the transmission by mass-reciters in Section A."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“Even the reports admit the scribes made mistakes.”",
+       "a": "The reports are weak by their chains, and the most natural reading of <em>lahn</em> in early usage is dialect or style. They are also at odds with the claim attributed to the same figures that the text was recited by many Companions, who would have corrected an error. Nothing in the manuscripts shows these words differently."
+      },
+      {
+       "q": "“If the Quran is perfect Arabic, why do its words break the rules?”",
+       "a": "It does not break rules, it breaks the later simplified rule the critic is applying. Arabic had dialects and rhetorical constructions, and the grammarians who built the rules treated the Quran as a primary authority on correct usage."
+      }
+     ],
+     "practice": {
+      "q": "The Quran says ‘inna hadhani lasahirani’, which is bad grammar. Even Aisha said the scribes made a mistake.",
+      "a": "Hafs reads it as ‘in hadhani’ with a light ‘in’, which is regular, and Abu ‘Amr reads ‘inna hadhayni’; the majority reading follows the dialect of Kinana. Sibawayh, who wrote the first grammar of Arabic, explained the other cases in 4:162 and 5:69 as well-known constructions. The report about Aisha has a disputed chain, and al-Suyuti and Ibn Hajar read ‘lahn’ as dialect, not error. Grammar was written after the Quran and took the Quran as evidence."
+     },
+     "summary": "The cited “errors” have established explanations in dialect, rhetorical constructions and alternative readings, and the reports of scribal mistakes are weak or describe permitted variation."
+    },
+    {
+     "title": "Abrogation (naskh) is not God changing His mind",
+     "thesis": "The Quran says that God replaces some rulings with better or equal ones (2:106). Abrogation is a feature of progressive revelation, it covers a small and carefully studied set of cases, and it appears in the Bible too. It does not imply that God learned something new.",
+     "premises": [
+      "A change of ruling does not mean a change of knowledge, since a wise lawgiver can know in advance that a rule is temporary.",
+      "The Quran announces abrogation and the early community practised it, in a limited and documented set of cases.",
+      "Earlier revelation also replaced rulings, and the New Testament says so."
+     ],
+     "conclusion": "Naskh is graded revelation fitted to the stage of a community, announced in the text, limited in scope and no more a sign of ignorance than the replacement of the Mosaic law in the Gospels.",
+     "evidence": [
+      "<strong>The text.</strong> “We do not abrogate a verse or cause it to be forgotten except that We bring one better than it or similar to it. Do you not know that Allah is over all things competent?” (2:106). Also 16:101 and 13:39.",
+      "<strong>Clear examples.</strong> Wine was restricted in stages (2:219; 4:43; 5:90-91). The qibla changed from Jerusalem to the Ka‘ba (2:142-150). The widow’s waiting period of a year (2:240) was replaced by four months and ten days (2:234). The requirement to give charity before consulting the Prophet ﷺ (58:12) was lifted in the next verse (58:13).",
+      "<strong>The scope.</strong> The scholars differ on how many verses are abrogated. Al-Suyuti accepted about twenty, and Shah Waliullah al-Dihlawi reduced the number to five. Abu Muslim al-Isfahani went further and denied abrogation of Quranic verses by other verses. The disagreement shows that this is a controlled technical discipline, not an open licence.",
+      "<strong>It is also biblical.</strong> Jesus says “You have heard it said… but I say to you” on retaliation and oaths (Matthew 5:21-22, 38-39), Mark 7:19 declares all foods clean, Acts 10 ends the food laws, and Hebrews 8:13 says that by calling a covenant new, God “has made the first one obsolete”.",
+      "<strong>The analogy.</strong> A physician who changes the prescription as the patient improves does not show he was wrong at first, since the treatment suited the stage."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“A perfect God would not need to revise.”",
+       "a": "Revising a rule does not mean the lawgiver did not know. Any wise teacher who gives a student a graded course knows from the start that the early steps will be replaced. 2:106 itself says God knows and has power over all things. The Gospels make the same move when they replace Mosaic rulings, and the objection would apply to them as well."
+      },
+      {
+       "q": "“Naskh was invented by jurists to cover contradictions.”",
+       "a": "The principle is announced in the Quran (2:106; 16:101) and the cases of wine, the qibla and the waiting period are clear in the text and the early sources. The jurists’ own long disputes over how many cases exist show a discipline that was restricted, not invented to hide contradictions."
+      }
+     ],
+     "practice": {
+      "q": "Allah changes His mind in the Quran, so He cannot be all-knowing.",
+      "a": "A change in ruling is not a change in knowledge. The Quran announces the principle (2:106) and the clear cases are gradual: wine in three stages, the qibla, the widow’s waiting period. Scholars disagree on how many verses are abrogated, from about twenty to five, so it is a limited, studied discipline. The Gospels do the same: ‘You have heard it said… but I say to you’ (Matthew 5), all foods clean (Mark 7:19), the first covenant made obsolete (Hebrews 8:13). If that shows ignorance in God, it would show it in the Bible too."
+     },
+     "summary": "Abrogation is graded revelation announced in 2:106, limited to a studied set of cases (twenty by al-Suyuti, five by Shah Waliullah), and mirrored in the Gospels and Hebrews. It is not a change of divine knowledge."
+    }
+   ],
+   "cards": [
+    [
+     "How do Hafs and Ibn Kathir read 20:63?",
+     "“In hadhani” with a light in"
+    ],
+    [
+     "Which tribe’s dialect keeps the dual in -ani in all cases?",
+     "Kinana and the Harith ibn Ka‘b (as cited by the grammarians)"
+    ],
+    [
+     "Who explained 4:162 as an accusative of praise?",
+     "Sibawayh"
+    ],
+    [
+     "Which book collects reports of “lahn” in the codices?",
+     "Ibn Abi Dawud’s al-Masahif"
+    ],
+    [
+     "What did al-Suyuti and Ibn Hajar take “lahn” to mean?",
+     "Dialect, style or a permitted variant, not an error"
+    ],
+    [
+     "Which verse announces abrogation?",
+     "2:106 (also 16:101)"
+    ],
+    [
+     "Give three clear cases of abrogation.",
+     "Wine in stages, the change of qibla, the widow’s waiting period"
+    ],
+    [
+     "How many abrogated verses did al-Suyuti accept?",
+     "About twenty (Shah Waliullah: five)"
+    ],
+    [
+     "Which scholar denied Quranic verse-by-verse abrogation?",
+     "Abu Muslim al-Isfahani"
+    ],
+    [
+     "Which New Testament verse calls the first covenant obsolete?",
+     "Hebrews 8:13"
+    ]
+   ]
+  }
+ ],
+ "notice": "New part. Written after the original library from published scholarship and the primary sources, with the strongest objections stated. It has not yet been through the line-by-line fact-check that the first seven parts are due to get, so verify every citation before quoting it in a debate."
+}

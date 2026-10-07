@@ -139,6 +139,10 @@ def build(content, template):
             pager += f'<a class="pg next" href="{nx["href"]}"><span>{h(nx["label"])} →</span>{h(nx["title"])}</a>'
         pager += "</nav>"
 
+    notice_html = ""
+    if content.get("notice"):
+        notice_html = ('  <p class="desc" style="font-family:var(--f-ui);font-size:.88rem;border-left:3px solid var(--gold);'
+                       f'padding-left:.8rem">{h(content["notice"])}</p>\n')
     body = f"""
 <div class="wrap">
 <nav class="topbar" aria-label="Library"><a class="home" href="index.html">← Dawah Study Library</a><span>Part {content["roman"]} of {content["total_parts"]}</span></nav>
@@ -146,7 +150,7 @@ def build(content, template):
   <p class="eyebrow">Part {content["roman"]} · {len(content["sections"])} sections · {n_args} arguments</p>
   <h1>{h(title)}</h1>
   <p class="desc">{h(content["desc"])}</p>
-  <ul class="legend" aria-label="Each argument is laid out as"><li>Thesis</li><li>Argument (premises → conclusion)</li><li>Evidence &amp; screenshots</li><li>Arabic</li><li>Objections</li><li>Practice</li><li>In one breath</li></ul>
+{notice_html}  <ul class="legend" aria-label="Each argument is laid out as"><li>Thesis</li><li>Argument (premises → conclusion)</li><li>Evidence &amp; screenshots</li><li>Arabic</li><li>Objections</li><li>Practice</li><li>In one breath</li></ul>
 </header>
 <div class="layout">
 <aside>
