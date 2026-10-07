@@ -1,0 +1,900 @@
+{
+ "id": "p8",
+ "roman": "VIII",
+ "total_parts": "IX",
+ "title": "Modern ideological challenges",
+ "desc": "Feminism, sexuality and gender identity, liberalism and secularism, and apostasy and blasphemy: the questions that now come up in nearly every debate, answered from the sources with the strongest objections stated honestly.",
+ "prev": {
+  "href": "p7.html",
+  "label": "Part VII",
+  "title": "Reading list"
+ },
+ "next": null,
+ "sections": [
+  {
+   "id": "s-gender",
+   "title": "Women, gender roles and feminism",
+   "intro": "Feminist objections are the most common opening in a modern debate: unequal inheritance, half a witness, the hijab, polygyny and 4:34. The approach that works is the same each time. State exactly what the text says, show the whole rule rather than the single clause the critic quotes, and then put the critic's own standard under the same scrutiny. Do not deny a ruling that exists. A debater who says “that is not in Islam” and is then shown the verse loses the room. Say what the ruling is, what it is for, and where the scholars differ.",
+   "args": [
+    {
+     "title": "Equal in worth, different in role",
+     "thesis": "The Quran addresses men and women as equals in worth, reward and accountability, and gives them different but complementary roles in some areas. Equality of worth is not the same claim as sameness of every role.",
+     "premises": [
+      "Equality of moral worth and accountability is one claim; identical roles in every institution is a different claim, and the second does not follow from the first.",
+      "The Quran asserts the first in the plainest terms (33:35; 16:97; 3:195; 49:13), and assigns some roles differently (maintenance in 4:34, shares in 4:11) while attaching matching duties to each.",
+      "A rule that differentiates roles is unjust only if it is arbitrary or one-sided, and the critic has to show that, not assume it."
+     ],
+     "conclusion": "Islam teaches equal worth with differentiated roles. Calling that “inequality” already assumes that identical roles are the only fair arrangement, which is a value claim and not a neutral fact.",
+     "evidence": [
+      "<strong>Parallel address.</strong> 33:35 lists ten qualities (Muslim, believing, obedient, truthful, patient, humble, charitable, fasting, chaste, remembering God) for men and women in matching pairs, and ends with one shared reward: “Allah has prepared for them forgiveness and a great reward.”",
+      "<strong>The same reward.</strong> “Whoever does righteousness, male or female, while a believer, We will surely cause him to live a good life, and We will surely give them their reward according to the best of what they used to do” (16:97). And “I will not allow the work of any worker among you, male or female, to be lost; you are of one another” (3:195).",
+      "<strong>No ranking by sex.</strong> “We created you from a male and a female… the most honoured of you with God is the most God-conscious” (49:13). The only ranking is taqwa.",
+      "<strong>Eve is not blamed alone.</strong> The Quran never makes the woman the cause of the Fall. Adam is named as the one who disobeyed (20:121), and the two say together “Our Lord, we have wronged ourselves” (7:23). Compare 1 Timothy 2:14 (“Adam was not deceived, but the woman was deceived”) and Sirach 25:24 (“From a woman sin had its beginning, and because of her we all die”).",
+      "<strong>The Prophet ﷺ.</strong> “Women are the twin halves of men” (Abu Dawud 236, Tirmidhi 113; graded sahih by al-Albani). On 2:228 Ibn Abbas said: “I like to adorn myself for my wife as I like her to adorn herself for me” (Tabari)."
+     ],
+     "arabic": [
+      {
+       "text": "أَنِّي لَا أُضِيعُ عَمَلَ عَامِلٍ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّن بَعْضٍ",
+       "cite": "3:195"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“‘Equal but different’ is what every sexist said.”",
+       "a": "The test is whether the difference is arbitrary and one-sided. Here each difference comes with a matching duty: the man carries the financial obligation (maintenance, the dowry) while the woman’s property stays entirely her own (4:32). The critic also uses a role-based standard of his own when he accepts separate sports categories or maternity leave, so “different treatment” cannot be the thing that is wrong in itself."
+      },
+      {
+       "q": "“2:228 says men have a degree over women.”",
+       "a": [
+        "The same verse opens: “And due to the wives is similar to what is expected of them, in a reasonable manner” (wa lahunna mithlu alladhi ‘alayhinna bil-ma‘ruf), then adds “and men have a degree over them.”",
+        "The commentators tie the degree to responsibility and leadership in the household, not to worth. Ibn Abbas, quoted above, read the verse as a mutual duty to treat each other well."
+       ]
+      }
+     ],
+     "practice": {
+      "q": "If men and women are really equal, why does Islam not make everything identical?",
+      "a": "Because equal worth does not require identical roles, and no society treats them as the same: every legal system separates some categories by sex or by family role. What matters is whether the rule is fair and whether duties match rights. In Islam the woman’s worth, property, reward and accountability are equal to the man’s (33:35, 4:32), and the extra financial burden falls on him. If you think roles must be identical to be fair, that is a premise you have to defend, not a fact we both accept."
+     },
+     "summary": "Men and women are equal in worth, reward and accountability (33:35, 16:97, 49:13) and have complementary roles with matching duties. “Different” is not “unequal” unless you assume identical roles are the only fair design."
+    },
+    {
+     "title": "Inheritance: the whole picture behind “half a share”",
+     "thesis": "The rule that a son receives twice a daughter’s share is one case among several. It comes with obligations that fall only on men, and in other cases women receive equal or larger shares than men.",
+     "premises": [
+      "To judge whether an inheritance system is fair you must compare shares together with financial obligations, not shares alone.",
+      "Islamic law gives the male double share only to heirs of the same degree such as sons and daughters, and in the same law the man alone must pay the dowry and maintain his wife, children and, in need, other relatives, while the woman has no duty to spend her own wealth on the family even if she is rich.",
+      "In many other configurations the share of the woman equals or exceeds that of the man."
+     ],
+     "conclusion": "Looked at as a system, Islamic inheritance does not reduce women’s wealth relative to men’s, and compared with the system it replaced it was a large expansion of women’s rights.",
+     "evidence": [
+      "<strong>The text.</strong> “Allah instructs you concerning your children: for the male, the equivalent of the share of two females” (4:11). The same verse gives the mother and the father one-sixth each if the deceased had children.",
+      "<strong>Equal shares.</strong> Maternal half-brothers and half-sisters share equally (4:12). Mother and father each receive one-sixth when there is a child (4:11).",
+      "<strong>A woman receiving more.</strong> If a man dies leaving a daughter, a father and a mother, the daughter receives one-half, the father one-sixth plus the remainder (one-third in all) and the mother one-sixth. If two daughters survive with both parents, each daughter’s one-third is larger than the father’s share.",
+      "<strong>The other side of the ledger.</strong> The husband must pay the mahr (4:4) and provide for the household. The wife’s wealth and earnings are hers: “For men is a share of what they have earned, and for women is a share of what they have earned” (4:32). Classical law makes maintenance a debt even if she is wealthy.",
+      "<strong>What it replaced.</strong> In pre-Islamic Arabia women generally did not inherit, and 4:19 forbids “inheriting women by compulsion”. In England, married women’s property passed to the husband under coverture until the Married Women’s Property Acts of 1870 and 1882."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“But a woman still gets half of what her brother gets.”",
+       "a": "In that one case, yes, and the brother must then pay a dowry, support his wife and children, and may be responsible for others, while his sister keeps her share and her husband’s dowry, and is supported. The net financial position of the sister is normally the stronger of the two. The Quran presents the shares as God’s apportioning, with the reminder that “you do not know which of them is nearer to you in benefit” (4:11)."
+      },
+      {
+       "q": "“What if the brother does not actually spend on her?”",
+       "a": "Then he fails an obligation Islamic law enforces, and she can claim it. An abuse of a rule does not show the rule is unjust; it shows that the rule was broken."
+      }
+     ],
+     "practice": {
+      "q": "Islam says a woman’s inheritance is half a man’s. That is plain discrimination.",
+      "a": "It is one rule in a larger system. Daughters get half of what sons get, but sons must pay the dowry and maintain the household, while the daughter’s wealth is free of any such duty. In other cases women get the same as men, and in some a daughter gets more than the father. Compare it to what existed before: women inherited nothing in Arabia, and in England a woman’s property belonged to her husband until 1870. If you add up shares and duties, you do not get a system that is built to leave women poorer."
+     },
+     "summary": "The double share for sons comes with duties only men carry, in several cases women receive equal or larger shares, and the whole system was a major expansion of women’s property rights."
+    },
+    {
+     "title": "Witness: “two women for one man” and its scope",
+     "thesis": "The two-women rule in 2:282 applies to written financial contracts and gives a stated reason. It is not a general rule that a woman’s word counts for half.",
+     "premises": [
+      "A rule must be read within the scope the text gives it.",
+      "2:282 sets the two-women rule for debt contracts, and gives its reason as a safeguard for memory: “so that if one of them errs, the other can remind her.”",
+      "In many other matters a woman’s testimony or oath is accepted as equal to a man’s or as sufficient on its own."
+     ],
+     "conclusion": "The verse is a rule about evidence in commercial documents, not a statement about women’s credibility in general, and Islamic law and hadith practice show women trusted as witnesses and narrators.",
+     "evidence": [
+      "<strong>The verse.</strong> “Call upon two witnesses from among your men. And if there are not two men, then a man and two women from those whom you accept as witnesses, so that if one of the two women errs, the other can remind her” (2:282). The context is a contract of debt to a fixed term.",
+      "<strong>Equal oaths.</strong> In li‘an (24:6-9) a husband swears four times and a wife swears four times in reply, and her oath is enough to remove the punishment.",
+      "<strong>One woman suffices.</strong> The Prophet ﷺ accepted the testimony of a single woman on a matter of breastfeeding and ruled on it (Bukhari 2640). Classical jurists accept the testimony of women alone on matters such as childbirth.",
+      "<strong>Women as narrators.</strong> A large part of the hadith corpus passes through women. Aisha alone narrated over two thousand reports, and the hadith scholars accepted a single trustworthy woman’s narration with no second witness (see Mohammad Akram Nadwi, <em>al-Muhaddithat</em>).",
+      "<strong>Other contexts.</strong> Other verses on witnessing (5:106, 65:2) say “two just persons”, and the jurists differ on how far women’s testimony extends in criminal cases, which is why you should state the scope precisely."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“The hadith says women are deficient in intellect” (Bukhari 304).",
+       "a": [
+        "In that report the Prophet ﷺ explains the phrase himself: “Is not the testimony of a woman half that of a man? … That is from the deficiency of her intellect.” He is pointing back to the legal rule in 2:282, not making an IQ claim. The same report calls women “deficient in religion” because she does not pray or fast during menstruation, which is a dispensation, not a defect.",
+        "Classical commentators such as al-Nawawi treat the wording as technical and not blameworthy."
+       ]
+      },
+      {
+       "q": "“Then why not make women equal witnesses in finance too?”",
+       "a": "That is what the verse is for: financial contracts were then mostly handled by men, and the second woman is the guard against error under pressure. Some contemporary scholars argue that the rule is tied to that setting; the classical position keeps it. Either way the debate is about commercial evidence, not women’s honesty or worth."
+      }
+     ],
+     "practice": {
+      "q": "A woman’s testimony counts as half a man’s in Islam. That proves women are second-class.",
+      "a": "The verse you are citing (2:282) is about written debt contracts and states a reason: so that one can remind the other. In other matters a woman’s oath equals a man’s (24:6-9), one woman’s testimony suffices in matters like breastfeeding (Bukhari 2640), and women are some of the most trusted narrators in Islamic tradition, Aisha first among them. The rule is narrow and is not a general verdict on women."
+     },
+     "summary": "The two-women rule in 2:282 applies to written debts and gives its reason. Elsewhere women’s oaths equal men’s, one woman’s word can suffice, and women are among the most trusted narrators."
+    },
+    {
+     "title": "Hijab and modesty: for both sexes, and a ruling to state honestly",
+     "thesis": "Islam commands modesty of both men and women (24:30-31), with covering as an act of obedience for women. The ruling is obligatory, not optional, and a debater should say so and defend the reasoning.",
+     "premises": [
+      "A fair account of the ruling must say that it exists, who it binds and why.",
+      "The Quran orders men first to lower their gaze and guard themselves (24:30), then women (24:31), and says that modest conduct protects both.",
+      "A believer’s covering is an act of worship done by choice, and nothing in the Quran licenses forcing it by violence."
+     ],
+     "conclusion": "Hijab is part of a modesty code that binds both sexes, and it is neither a sign of male ownership nor something Islam leaves open. The right defence is to explain it, not to dilute it.",
+     "evidence": [
+      "<strong>Men first.</strong> “Tell the believing men to lower their gaze and guard their private parts; that is purer for them” (24:30). Then: “And tell the believing women to lower their gaze and guard their private parts and not display their adornment except what is apparent, and to draw their head-covers over their chests” (24:31).",
+      "<strong>Dress rules for men too.</strong> Men have a minimum awrah (navel to knees according to the majority), and the Prophet ﷺ forbade men gold and pure silk (Abu Dawud 4057).",
+      "<strong>The early women’s response.</strong> Aisha said: “May Allah have mercy on the early Emigrant women. When Allah revealed ‘and to draw their head-covers over their chests’, they tore their wrappers and covered themselves with them” (Bukhari 4758).",
+      "<strong>The purpose stated.</strong> “That is more suitable that they will be known and not be harmed” (33:59).",
+      "<strong>Where scholars differ.</strong> All schools agree on covering the hair and body. They differ on whether the face and hands must be covered, with the majority holding they need not be."
+     ],
+     "arabic": [
+      {
+       "text": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ",
+       "cite": "24:30"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“Women are policed over dress and men are not.”",
+       "a": "The Quran addresses men first and gives them rules of gaze, conduct and dress. The ruling for women is more visible because it concerns visible clothing, not because only they are bound. The standard Islam applies is mutual modesty, not women’s concealment so men can behave as they like."
+      },
+      {
+       "q": "“It is forced on women in Iran and Saudi Arabia.”",
+       "a": "Compulsion by a state is a separate question from the ruling. A Muslim can hold both that covering is obligatory in belief and that enforcement by police belongs to a debate within Muslim societies (the Quran’s emphasis on sincere obedience, 2:256, is the starting point of that debate). Criticism of coercion is therefore not a criticism of the ruling."
+      },
+      {
+       "q": "“Many Muslim women do not wear it, so it cannot be required.”",
+       "a": "That a duty is not always kept does not mean the duty is absent. Muslims also miss prayers and fasts. The ruling is clear in the sources and among the schools, and practice differs."
+      }
+     ],
+     "practice": {
+      "q": "Hijab is just men controlling what women wear.",
+      "a": "The Quran addresses men first on the gaze and on guarding themselves (24:30), and has dress rules for men as well. Hijab is a command from God that women choose to obey. In Aisha’s account of the early Muslim women, they covered themselves as soon as the verse was revealed (Bukhari 4758), no one forced them. I accept that it is an obligation in Islam, I am not going to pretend it is optional, and I would also say it is wrong to force someone to obey a religious duty at the point of a stick."
+     },
+     "summary": "Modesty is commanded for men (24:30) and women (24:31); covering is an obligation chosen as obedience, scholars differ on the face and hands, and coercion is a separate and disputed political question."
+    },
+    {
+     "title": "Polygyny: limited, conditioned and not invented by Islam",
+     "thesis": "Islam did not introduce polygyny. It inherited an unlimited practice, capped it at four, tied it to strict justice, and gave the wife enforceable rights.",
+     "premises": [
+      "Polygyny was widely practised before Islam, including in the Bible, with no stated limit.",
+      "4:3 sets a maximum of four and a condition: “if you fear you will not be just, then one.”",
+      "The Prophet ﷺ and the jurists treat the wife’s rights as enforceable, including her right to leave."
+     ],
+     "conclusion": "Islam’s position is a restriction of an older, unrestricted practice, not an invention. Whether one finds it acceptable is a separate question from whether the critic’s picture of it is accurate.",
+     "evidence": [
+      "<strong>Before Islam.</strong> The Bible reports Solomon with seven hundred wives and three hundred concubines (1 Kgs 11:3), and Deuteronomy 21:15 regulates inheritance for a man with two wives without condemning it. The Church later forbade it, but even then Luther advised Philip of Hesse in 1539-40 that a second marriage was possible.",
+      "<strong>The verse and its setting.</strong> “If you fear that you will not deal justly with the orphan girls, then marry those who please you of women, two or three or four. But if you fear that you will not be just, then only one” (4:3). Aisha explained that the verse concerns guardians who wanted to marry orphan girls in their care for their wealth without giving a fair dowry (Bukhari 4574).",
+      "<strong>The standard of justice.</strong> “You will never be able to be equal between wives, even if you should strive” (4:129) refers to emotional inclination. The duty that is required is equal maintenance, housing and time.",
+      "<strong>The Prophet ﷺ and Fatima.</strong> When the Banu Hisham asked his permission to marry their daughter to Ali ibn Abi Talib while Fatima was his wife, the Prophet ﷺ refused, saying Fatima is “part of me” and what upsets her upsets him (Bukhari 5230).",
+      "<strong>The wife’s options.</strong> A wife can insist on a monogamy clause in her marriage contract, which the Hanbali school treats as binding, and can seek divorce through khul‘ or the court if she is harmed."
+     ],
+     "arabic": [
+      {
+       "text": "فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا فَوَاحِدَةً",
+       "cite": "4:3"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“Why can a man have four wives but a woman cannot have four husbands?”",
+       "a": "Because children’s paternity must be certain so that inheritance, maintenance, guardianship and lineage can be assigned. The rule is a rule about the family structure, and it applies the same restriction on both sexes in other respects (neither may have a sexual relationship outside marriage)."
+      },
+      {
+       "q": "“It degrades women.”",
+       "a": "Critics usually picture a harem with no rights. Islamic law gives the wife her dowry, her own housing and maintenance, equal treatment and the right to leave. And the legal alternatives in many societies, serial divorce and informal relationships, often leave the second woman and her children without any rights at all."
+      }
+     ],
+     "practice": {
+      "q": "Polygamy is barbaric and proves Islam hates women.",
+      "a": "Polygyny was unlimited before Islam and in the Bible. Islam capped it at four, made it depend on justice (4:3) and gave wives enforceable rights, including to stipulate monogamy and to leave. The verse was revealed with orphan girls in mind (Bukhari 4574), and the Prophet ﷺ refused to allow a second marriage that would hurt Fatima (Bukhari 5230). You can argue that monogamy is better, but that is an argument about policy and not about whether Islam disregards women."
+     },
+     "summary": "Polygyny predated Islam and the Bible. Islam limited it to four, made it conditional on justice (4:3) and gave wives enforceable rights; the Prophet ﷺ himself refused it where it would hurt Fatima."
+    },
+    {
+     "title": "4:34 and the “wife-beating” charge",
+     "thesis": "4:34 is a last-resort provision inside a sequence of steps, hedged by the Prophet’s explicit restrictions, and it never licenses abuse. Muslims should state what it says and how the Prophet ﷺ himself acted.",
+     "premises": [
+      "A verse must be read together with its sequence and with how the Prophet ﷺ applied it.",
+      "The verse sets a sequence (advice, then separation in bed, then a strike), and the Prophet ﷺ defined the last step as light, never on the face, and said the best of men do not do it.",
+      "The Prophet ﷺ never struck a woman or a servant."
+     ],
+     "conclusion": "The ruling is restrained to the point of being symbolic and cannot be used to justify domestic violence. A man who injures his wife is acting against Islam and is liable under it.",
+     "evidence": [
+      "<strong>The text.</strong> “As for those from whom you fear arrogance (nushuz), advise them, abandon them in bed, and strike them (wadribuhunna). If they obey you, seek no way against them” (4:34). The sequence is ordered, and 4:35 immediately provides for arbitration by the two families.",
+      "<strong>The Prophet’s limits.</strong> In the Farewell Sermon he said: “If they do (something clearly unacceptable), strike them in a way that does not cause pain (ghayra mubarrih)” (Muslim 1218). Ibn Abbas and al-Hasan al-Basri said it means with something like a siwak (Tabari).",
+      "<strong>His own conduct.</strong> Aisha said: “The Messenger of Allah never struck anything with his hand, neither a woman nor a servant, except when fighting in the way of Allah” (Muslim 2328).",
+      "<strong>His disapproval.</strong> “Does any of you beat his wife as he would beat a slave, and then lie with her at the end of the day?” (Bukhari 5204). When women complained of being struck he said of those men: “They are not the best of you” (Abu Dawud 2146). And: “The best of you are the best to their wives” (Tirmidhi 3895).",
+      "<strong>The jurists.</strong> Al-Shafi‘i said that striking is permitted but that leaving it is better (<em>al-Umm</em>). Any harm gives the wife the right to complain to a judge and to ask for separation, based on the principle “no harm and no reciprocating harm” (Ibn Majah 2341).",
+      "<strong>Note.</strong> Some modern translators render <em>daraba</em> as “go away from”. This has no support among the classical commentators and should not be your main defence; rely on the Prophet’s own restrictions."
+     ],
+     "arabic": [
+      {
+       "text": "وَعَاشِرُوهُنَّ بِالْمَعْرُوفِ",
+       "cite": "4:19"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“Even a symbolic strike is domestic violence.”",
+       "a": "That is the modern criminal-law view and many Muslim jurists and countries accept it for practical purposes. The classical ruling is a restrained last step after advice and separation, with a prohibition on harm and a right to court relief. The Biblical texts are far harsher: Proverbs 13:24 on the rod, Exodus 21:20-21 on beating a slave so long as he survives a day or two, and Sirach 25:26."
+      },
+      {
+       "q": "“So Islam does permit hitting a wife.”",
+       "a": "It permits a restrained act in a narrow case, and the Prophet’s own example and the leading jurists discourage it. A Muslim should say clearly that abuse, bruising and fear are forbidden and that the best of men do not strike their wives."
+      }
+     ],
+     "practice": {
+      "q": "Quran 4:34 tells men to beat their wives. How is that anything but abuse?",
+      "a": "The verse gives an ordered sequence: advice, separation in bed, and only then a strike, followed by arbitration (4:35). The Prophet ﷺ defined it as non-injurious (Muslim 1218), never struck a woman or servant himself (Muslim 2328), and said of men who beat their wives: “They are not the best of you” (Abu Dawud 2146). Al-Shafi‘i said leaving it is better. Anyone who injures his wife violates Islamic law, and she can go to a judge. The Bible’s texts on striking wives, children and servants are much harsher."
+     },
+     "summary": "4:34 is a last step after advice and separation, defined by the Prophet ﷺ as non-injurious; he never struck a woman, called such men “not the best of you”, and harm gives the wife a claim before a judge."
+    }
+   ],
+   "cards": [
+    [
+     "Which verse lists ten qualities for men and women in parallel?",
+     "33:35"
+    ],
+    [
+     "Which verse says the most honoured is the most God-conscious, not either sex?",
+     "49:13"
+    ],
+    [
+     "What are the daughters’ and father’s shares if a man leaves two daughters, a father and a mother?",
+     "Daughters two-thirds together (one-third each), father one-sixth plus remainder (one-third in all), mother one-sixth"
+    ],
+    [
+     "What does 4:32 say about women’s property?",
+     "“For women is a share of what they have earned”: her wealth and earnings are hers"
+    ],
+    [
+     "What is the scope of the two-women rule?",
+     "Written debt contracts (2:282); not women’s testimony in general"
+    ],
+    [
+     "Which hadith shows the Prophet ﷺ accepting a single woman’s testimony?",
+     "Bukhari 2640 (breastfeeding)"
+    ],
+    [
+     "Which verse orders men to lower their gaze?",
+     "24:30, before the address to women in 24:31"
+    ],
+    [
+     "What did Aisha say the Prophet ﷺ never struck?",
+     "“Neither a woman nor a servant”, except in battle (Muslim 2328)"
+    ],
+    [
+     "What did the Prophet ﷺ say of men who beat their wives?",
+     "“They are not the best of you” (Abu Dawud 2146)"
+    ],
+    [
+     "What does Bukhari 4574 say 4:3 was about?",
+     "Guardians marrying orphan girls in their care without giving a fair dowry"
+    ]
+   ]
+  },
+  {
+   "id": "s-lgbt",
+   "title": "Sexuality, gender identity and LGBT questions",
+   "intro": "This is where most debates now turn hostile, so precision matters more than anywhere else. Islam’s position is a position on acts, it applies to everyone who feels desire outside marriage, and it is held by all four Sunni schools and the Shia schools alike. State it plainly. Do not retreat into vagueness, and do not claim more than the sources say. Two things keep the conversation honest: the difference between a desire and an act, and the difference between what a Muslim believes and what a state may enforce. The Quran’s own words on Lot’s people are the strongest ground you have, so learn them well. Never use dehumanising language, never justify vigilantism, and remember that you are speaking to a person.",
+   "args": [
+    {
+     "title": "What Islam says, and what it does not",
+     "thesis": "Islam prohibits same-sex sexual acts, as Judaism and Christianity historically did, and judges them as acts, not as an identity. The same limit on sexual conduct binds every person, including heterosexuals outside marriage.",
+     "premises": [
+      "Muslims believe God’s guidance includes limits on sexual conduct, and that these limits apply to all people alike.",
+      "The limit is placed on acts (zina and the act of the people of Lot are both prohibited), not on having an inclination, and heterosexual desire outside marriage is bounded in the same way.",
+      "Islamic law forbids spying on private conduct and sets very high evidentiary bars, so it gives no licence to hunt people down."
+     ],
+     "conclusion": "Islam’s position is a universal rule on acts. It is not a verdict that anyone is less than human, and it gives no warrant for harassment or violence.",
+     "evidence": [
+      "<strong>The Quran.</strong> “Indeed you approach men with desire instead of women. Rather, you are a transgressing people” (7:81). See also 26:165-166, 27:54-55 and 29:28-29.",
+      "<strong>The consensus.</strong> The four Sunni schools and the Shia jurists agree the act is forbidden. They differ on penalties: some treat it as a fixed punishment, Abu Hanifa as a discretionary matter (ta‘zir). The report that prescribes death (Abu Dawud 4462) is disputed in grading, so do not build your case on it; the prohibition rests on the Quran and the consensus.",
+      "<strong>Same standard as zina.</strong> The same sexual ethic forbids sex outside marriage between a man and a woman, and zina carries a more clearly stated penalty in the Quran (24:2). The rule is about the act and not about the person’s orientation.",
+      "<strong>No spying, high proof.</strong> “Do not spy on one another” (49:12). A hadd offence needs a confession or four eyewitnesses to the act itself (24:4, 24:13 for zina), and the Prophet ﷺ urged concealing others’ sins (Bukhari 2442). In practice, private conduct was almost never prosecuted.",
+      "<strong>Vigilantism is forbidden.</strong> Only a court may impose a fixed penalty, and a private person who attacks another commits a grave wrong (5:32)."
+     ],
+     "arabic": [
+      {
+       "text": "إِنَّكُمْ لَتَأْتُونَ الرِّجَالَ شَهْوَةً مِّن دُونِ النِّسَاءِ ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ",
+       "cite": "7:81"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“So you think gay people are evil.”",
+       "a": "No. Islam does not call a person evil for feeling an attraction; it asks every believer to refrain from certain acts, the unmarried heterosexual included. People are judged on their conduct and their effort, and God alone knows the heart. Mocking, shaming or harming anyone is itself forbidden."
+      },
+      {
+       "q": "“Your position leads to violence against gay people.”",
+       "a": "Violence by individuals is forbidden in Islamic law, and no jurist allows a private person to punish. Where violence occurs it is a crime, as when any group is attacked. A moral belief that a practice is wrong is not an incitement to attack people, and neither is believing that adultery is wrong."
+      },
+      {
+       "q": "“A Muslim minority in the West should therefore want such acts banned.”",
+       "a": "Muslims living in a non-Muslim country are bound by their agreements with their society and have no duty to impose their ethics by force. They can hold a belief and argue for it by persuasion while obeying the law of the land."
+      }
+     ],
+     "practice": {
+      "q": "Do you really believe that being gay is a sin?",
+      "a": "I believe Islam forbids same-sex sexual acts, as it forbids all sex outside marriage, and as Judaism and Christianity historically did. It does not say that a person is sinful for an attraction. The rule is about conduct and it applies to everyone. Nobody has the right to harass or harm anyone over it, and Islamic law forbids spying on people’s private lives."
+     },
+     "summary": "Islam forbids same-sex acts as it forbids all sex outside marriage, judges acts and not persons, forbids spying, vigilantism and harassment, and demands very high proof for any legal penalty."
+    },
+    {
+     "title": "“Born this way” does not settle the moral question",
+     "thesis": "Even if sexual orientation is partly innate, it does not follow that acting on it is permissible. People accept that inclinations they did not choose still may need restraint, and Islam treats such inclinations as a test, not as a verdict.",
+     "premises": [
+      "From the claim that a trait is natural or innate it does not follow that acting on it is right (the is-ought gap).",
+      "Many predispositions that people did not choose, such as aggression, addiction proneness or attraction outside a committed relationship, are rightly restrained.",
+      "Islam teaches that God tests people through desires and hardships and does not burden anyone beyond capacity (2:286)."
+     ],
+     "conclusion": "“Born this way” cannot settle whether an act is permitted. What settles it is what God has permitted, and Islam answers that with a rule for acts and a promise of reward for the restraint it asks.",
+     "evidence": [
+      "<strong>The is-ought gap.</strong> David Hume’s point that moral conclusions do not follow from facts alone is accepted across moral philosophy. Natural does not equal good, and the reverse also fails.",
+      "<strong>The science is not what the slogan claims.</strong> A large 2019 genome-wide study of nearly half a million people (Ganna et al., <em>Science</em>) found no single “gay gene”, with common genetic variants together accounting for roughly 8 to 25 percent of the variation in same-sex behaviour. A review by Bailey and colleagues (<em>Psychological Science in the Public Interest</em>, 2016) concluded that orientation is shaped by several factors, none individually decisive.",
+      "<strong>Islam’s framework.</strong> “He who created death and life to test you as to which of you is best in deed” (67:2). “Hell is surrounded by desires and Paradise is surrounded by hardships” (Muslim 2822). “Allah does not burden a soul beyond its capacity” (2:286).",
+      "<strong>The unmarried.</strong> Islam asks every unmarried person to restrain sexual desire. The Prophet ﷺ told young men who could not marry to fast (Bukhari 5066), and the Quran praises Yahya (John) as <em>hasur</em>, one who restrained himself (3:39).",
+      "<strong>Complementarity.</strong> The Quran presents the male-female pairing as part of creation: “And of everything We created two mates” (51:49), and marriage as a source of tranquillity (30:21)."
+     ],
+     "arabic": [
+      {
+       "text": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+       "cite": "2:286"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“If God made them this way, why would He forbid it?”",
+       "a": "The same question applies to anyone with a strong desire they are asked to restrain, whether it is for sex outside marriage, for revenge or for another person’s property. The Islamic answer is that life is a test, that restraint is rewarded, and that God does not impose what a person cannot bear (2:286)."
+      },
+      {
+       "q": "“That is cruel. It asks people to be alone.”",
+       "a": "Islam asks all unmarried people to refrain until marriage, and for some of them that lasts a lifetime. It values celibacy, forbids shaming those who struggle, and places a heavy duty on the community to support them. The difficulty of a rule is a reason for compassion in applying it, not proof that it is false."
+      }
+     ],
+     "practice": {
+      "q": "People do not choose their orientation, so condemning acting on it is bigotry.",
+      "a": "Whether it is chosen is one question and whether it is right to act on it is another. Plenty of things people did not choose, like a quick temper or a desire for many partners, are still things we ask them to restrain. The research shows influences and not a single cause, and it cannot tell us what is permitted. Islam’s answer is that God tests us with desires and does not burden anyone beyond capacity, and that applies to every Muslim, whatever their desire."
+     },
+     "summary": "Innate does not mean permitted: the is-ought gap applies, the science shows influences and no single cause, and Islam treats inclinations as a test that every believer faces and that God does not make unbearable."
+    },
+    {
+     "title": "The revisionist reading of Lot’s people",
+     "thesis": "Some claim the story of Lot is about rape or inhospitality and not about same-sex relations. The Quran’s own wording rules that out, and every major classical commentary reads it the same way.",
+     "premises": [
+      "If the sin were only violence or inhospitality, the rebuke would be about violence or inhospitality.",
+      "The Quran’s rebuke names the act itself: approaching men “with desire instead of women” (7:81) and leaving “what your Lord has created for you of your wives” (26:165-166).",
+      "A reading that has to ignore these phrases is reading the present into the text."
+     ],
+     "conclusion": "The text identifies same-sex relations as the offence, together with other crimes of the people, and the revisionist reading does not survive the wording.",
+     "evidence": [
+      "<strong>The wording.</strong> “Do you approach males among the worlds and leave what your Lord has created for you of your wives? Rather, you are a people transgressing” (26:165-166). “You approach men with desire instead of women” (7:81). The Quran calls it <em>fahisha</em>, “an immorality no one in the worlds preceded you in” (7:80).",
+      "<strong>The revisionist point.</strong> 29:29 adds that they “cut the road” and commit “evil in your gatherings”, and revisionists argue that the real crime was highway robbery and assault. But the verse begins with the act (“Do you approach men…?”) and lists other crimes in addition to it, so the act is not erased.",
+      "<strong>Lot’s offer.</strong> “These are my daughters; they are purer for you” (11:78; 15:71). The commentators (Tabari, Ibn Kathir) read this as an appeal to lawful marriage, which makes sense only if the issue is the kind of relation sought, not rape of anyone.",
+      "<strong>Across scripture.</strong> The same story and the same prohibition appear in Genesis 19, Leviticus 18:22 and 20:13 and Jude 7. Muslims, Jews and Christians read these as condemning the act for most of their history.",
+      "<strong>The revisionists.</strong> The best-known contemporary argument is Scott Siraj al-Haqq Kugle’s <em>Homosexuality in Islam</em> (2010). It starts from modern values and re-reads the text to fit them, and mainstream scholars in every school reject it because it must set aside the explicit wording."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“The Quran never mentions lesbians or consensual same-sex love.”",
+       "a": "The Quran’s statements on this are addressed to the act in general terms, and the jurists derived the prohibition from them and from the Prophetic rulings on sexual conduct. The absence of a modern category in a seventh-century text is not an absence of a ruling on the act."
+      },
+      {
+       "q": "“Kugle is a scholar and you are not.”",
+       "a": "He is entitled to his views, but the Quranic text he is reinterpreting can be read by anyone who reads Arabic, and the phrase “instead of women” cannot be explained as a reference to rape. A scholar’s argument must be judged on whether it fits the evidence, and this one does not."
+      }
+     ],
+     "practice": {
+      "q": "Lot’s people were destroyed for rape and inhospitality, not for being gay.",
+      "a": "Read what God says to them: “You approach men with desire instead of women” (7:81) and “Do you approach males and leave what your Lord created for you of your wives?” (26:165-166). That names the act itself. 29:29 lists other crimes as well, but it does not erase the first. If the sin were only rape, God’s rebuke would have no reason to compare men with wives. Tabari, Qurtubi and Ibn Kathir all read it this way, and so did Jews and Christians reading the same story."
+     },
+     "summary": "The Quran names the act (7:81, 26:165-166), the other crimes in 29:29 are additional and not a replacement, and every major commentary reads the story the same way."
+    },
+    {
+     "title": "Sex, gender and the categories Islamic law uses",
+     "thesis": "Islamic law treats male and female as real and meaningful categories, recognises the rare intersex condition (khuntha) with detailed rulings, and forbids imitation of the other sex. A person’s felt identity is not treated as changing their legal sex, though scholars differ on some medical questions.",
+     "premises": [
+      "Law needs categories, and Islamic law has long had a category for the exceptional case of ambiguous sex.",
+      "The existence of a recognised exception (khuntha) presupposes, and does not erase, the normal male-female binary.",
+      "The Prophet ﷺ cursed men who imitate women and women who imitate men."
+     ],
+     "conclusion": "Islam’s framework is a binary with a defined exception for intersex people, and it rejects the idea that gender is self-defined. Contemporary rulings on surgery differ and should be stated as differing, not as a single position.",
+     "evidence": [
+      "<strong>The categories.</strong> “He created the two mates, the male and the female” (53:45). Classical fiqh devotes chapters to the <em>khuntha</em>, the person of ambiguous sex, with rulings on prayer rows, inheritance and marriage, and the jurists assign the person to a sex by physical signs wherever these exist, which presupposes the two categories.",
+      "<strong>The hadith.</strong> “The Messenger of Allah ﷺ cursed men who imitate women and women who imitate men” (Bukhari 5885, from Ibn Abbas).",
+      "<strong>The mukhannathun.</strong> The Prophet ﷺ ordered men who deliberately imitated women to be kept out of women’s quarters (Bukhari 5235), which shows he drew a line between sex and social role.",
+      "<strong>Medical rulings differ.</strong> Contemporary scholars generally allow surgery to correct a physical ambiguity in intersex people. Rulings on sex reassignment for people without a physical ambiguity differ: many bodies, including councils of fiqh scholars, forbid it, while a few authorities (for example, a 1980s ruling associated with Ayatollah Khomeini in Iran) permitted it in some cases.",
+      "<strong>Pastoral note.</strong> Islamic law protects the dignity of all people, forbids insults, and requires equal justice in courts, whatever a person’s status."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“Intersex people prove sex is not binary.”",
+       "a": "Intersex conditions are rare variations in development, and classical Islamic law, like modern medicine, treats them as exceptions needing their own rulings. A rare exception does not turn a binary into a spectrum, just as the existence of people born with six fingers does not mean humans have a variable number of fingers."
+      },
+      {
+       "q": "“Different Muslim scholars disagree about transition, so Islam has no position.”",
+       "a": "They disagree on the medical question of surgery, but they do not disagree that God created male and female and that men and women should not imitate each other’s sex. Distinguish a disagreement on details from the absence of any position."
+      }
+     ],
+     "practice": {
+      "q": "Gender is an identity, not biology. Who are you to say what anyone is?",
+      "a": "Islamic law works with male and female as real categories, and has always had a special rule for the rare intersex person, which only makes sense if the two categories are real. Muslims believe that is how God created humanity (53:45). That does not mean anyone may mock or mistreat another person. Muslim scholars differ on questions of surgery, and I would tell you that honestly, but none of them says identity alone changes someone’s legal sex."
+     },
+     "summary": "Islamic law recognises male, female and the rare intersex exception, forbids imitation of the other sex (Bukhari 5885), and does not treat self-defined identity as changing legal sex; rulings on surgery differ."
+    }
+   ],
+   "cards": [
+    [
+     "Which verse says “you approach men with desire instead of women”?",
+     "7:81"
+    ],
+    [
+     "Which verse rebukes leaving “what your Lord created for you of your wives”?",
+     "26:165-166"
+    ],
+    [
+     "Which verse forbids spying?",
+     "49:12"
+    ],
+    [
+     "What did Ganna et al. (Science, 2019) find?",
+     "No single gay gene; common variants explain roughly 8 to 25 percent of the variation"
+    ],
+    [
+     "What is the is-ought gap?",
+     "A fact about what is natural does not by itself tell you what is right"
+    ],
+    [
+     "Which hadith says Paradise is surrounded by hardships?",
+     "Muslim 2822"
+    ],
+    [
+     "Who does the Quran praise as hasur, one who restrained himself?",
+     "Yahya (John), 3:39"
+    ],
+    [
+     "Which hadith curses men imitating women and women imitating men?",
+     "Bukhari 5885"
+    ],
+    [
+     "What is a khuntha?",
+     "A person of ambiguous sex, with specific rulings in fiqh"
+    ],
+    [
+     "Why can the Lot story not be reduced to rape?",
+     "The text names approaching men “instead of women” (7:81, 26:165-166) and 29:29 adds other crimes without removing this one"
+    ]
+   ]
+  },
+  {
+   "id": "s-liberal",
+   "title": "Liberalism, secularism and human rights",
+   "intro": "Most modern debates are not Islam against “neutral reason”. They are Islam against another worldview, secular liberalism, which presents itself as neutral. This section gives you the tools to show that politely and with sources: that liberalism rests on contested premises, that universal rights need a ground, that “religion causes wars” does not survive the data, and that Muslim history on minorities and consultation is more complicated and more interesting than either side usually admits. Use the strongest sources the other side respects (Rawls, Habermas, Cavanaugh, Rorty), and concede what is true: liberal societies protect real goods, and Muslim societies have a mixed record.",
+   "args": [
+    {
+     "title": "Secular liberalism is a worldview, not a neutral referee",
+     "thesis": "Secular liberalism claims to be neutral between ways of life, but its tests for what counts as harm, consent and personhood depend on disputed views of the good. It is one worldview among others and has to argue its case like the rest.",
+     "premises": [
+      "A procedure can be neutral only if its basic standards do not favour any side in the dispute it settles.",
+      "The liberal tests (the harm principle, consent, autonomy, dignity) each need an answer to contested questions: what counts as harm, who counts as a person, and what makes a life good.",
+      "Liberal states themselves restrict consensual acts on grounds of dignity or morality."
+     ],
+     "conclusion": "Liberalism cannot claim the neutral high ground. The real debate is between comprehensive views, and Islam can present its own case on equal terms.",
+     "evidence": [
+      "<strong>Philosophers admit it.</strong> Alasdair MacIntyre (<em>After Virtue</em>, 1981; <em>Whose Justice? Which Rationality?</em>, 1988) argued that there is no tradition-independent standpoint of reason. Michael Sandel (<em>Liberalism and the Limits of Justice</em>, 1982) argued that liberalism presupposes a particular picture of the self. John Rawls himself retreated in <em>Political Liberalism</em> (1993) to claim only a limited, “political” neutrality.",
+      "<strong>Mill’s test needs a view of harm.</strong> John Stuart Mill’s harm principle (<em>On Liberty</em>, 1859) allows interference only to prevent harm to others. But what counts as harm (offence? damage to the social fabric? harm to the self?) is exactly what people dispute.",
+      "<strong>Consent is not enough even for liberal states.</strong> In 1995 France’s Conseil d’État upheld the ban on dwarf-tossing despite the consent of the dwarf, on grounds of human dignity (<em>Commune de Morsang-sur-Orge</em>). In <em>Stübing v. Germany</em> (2012) the European Court of Human Rights upheld a criminal ban on consensual incest between adult siblings. Both restrict consenting adults on moral grounds.",
+      "<strong>Quran 2:256.</strong> Islam does not claim to coerce belief (2:256; 10:99), and so argues its case in public. The Quran invites evidence: “Bring your proof, if you are truthful” (2:111)."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“Liberalism at least lets everyone live as they choose.”",
+       "a": "It protects real goods, and Muslims benefit from freedom of conscience in liberal states. But it does not let everyone live as they choose: it forbids polygamy, drug sale, certain consensual acts and some speech. Every society draws lines, and liberalism draws its lines using its own contested values."
+      },
+      {
+       "q": "“Religious claims need justification; liberal values do not.”",
+       "a": "Both do. Appealing to “harm” or “autonomy” without an account of why those are the right values is as much a faith commitment as appealing to revelation. The debate should compare grounds, not exempt one side from giving them."
+      }
+     ],
+     "practice": {
+      "q": "Secular law is neutral. Religious law imposes one group’s morals on everyone.",
+      "a": "All law imposes someone’s morals. France bans dwarf-tossing with the dwarf’s consent, and the European Court upheld a ban on consensual adult incest. Those are moral judgements about dignity. Rawls himself accepted that liberalism could claim only a limited, political neutrality. So the real question is which moral foundations are true, and I am glad to compare grounds."
+     },
+     "summary": "Liberalism’s tests for harm, consent and personhood rest on disputed moral views, and liberal states restrict consensual acts on moral grounds. It is a worldview to be argued for, not a neutral referee."
+    },
+    {
+     "title": "Where do universal human rights come from?",
+     "thesis": "Universal, equal human rights need a ground that makes every person’s worth equal and non-negotiable. Several leading secular philosophers concede that this ground is hard to supply without religion, while Islam supplies one in creation and honour from God.",
+     "premises": [
+      "A claim that every human has equal, inalienable worth needs a reason that does not depend on abilities, since abilities differ.",
+      "Secular accounts of the ground of rights are contested, and some of their best defenders admit the difficulty.",
+      "The Quran grounds human worth in God’s act of honouring humanity, independent of status."
+     ],
+     "conclusion": "Islam supplies a ground for universal human dignity that is stronger than a social convention, and the secular critic must explain what grounds rights in its place.",
+     "evidence": [
+      "<strong>Habermas.</strong> The German philosopher Jürgen Habermas, a non-believer, wrote that universalistic egalitarianism, “from which sprang the ideas of freedom and social solidarity”, is “the direct legacy of the Judaic ethic of justice and the Christian ethic of love” (<em>Time of Transitions</em>, 2006).",
+      "<strong>Waldron and Wolterstorff.</strong> Jeremy Waldron (<em>God, Locke, and Equality</em>, 2002) argues that Locke’s basic equality depends on theological premises. Nicholas Wolterstorff (<em>Justice: Rights and Wrongs</em>, 2008) argues that rights are grounded in being loved by God.",
+      "<strong>Rorty’s alternative.</strong> Richard Rorty (“Human Rights, Rationality, and Sentimentality”, 1993) argued that rights rest on no deep foundation, only on cultivated sentiment, which is the clearest sign of the difficulty.",
+      "<strong>The Islamic ground.</strong> “We have certainly honoured the children of Adam” (17:70). “We created you from a male and female… the most honoured is the most God-conscious” (49:13). “Whoever kills a soul… it is as if he had slain mankind entirely” (5:32). The Prophet ﷺ declared in the Farewell Sermon that “your blood, your wealth and your honour are sacred to each other” (Bukhari 1739, Muslim 1218), and that no Arab has superiority over a non-Arab except by taqwa (Ahmad 23489)."
+     ],
+     "arabic": [
+      {
+       "text": "وَلَقَدْ كَرَّمْنَا بَنِي آدَمَ",
+       "cite": "17:70"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“Atheists can be good without God.”",
+       "a": "Of course; the argument is about grounding and not about behaviour. The question is not whether atheists behave well but what makes human equality true, rather than a useful convention. A convention can be changed by a majority, while a right grounded in God cannot."
+      },
+      {
+       "q": "“Religion has been used to deny rights.”",
+       "a": "That is true of every ideology that has held power, secular ones included. It shows that a ground can be misused. It does not remove the need for a ground, and it does not tell us whether the Islamic ground in 17:70 and 49:13 is true."
+      }
+     ],
+     "practice": {
+      "q": "Human rights do not need God. They are common sense.",
+      "a": "If they were common sense, there would be no need for the philosophy. Habermas, who is not religious, concedes that universal egalitarianism is the legacy of Jewish and Christian ethics, and Rorty admits rights rest on sentiment, not a foundation. In Islam the ground is that God honoured every child of Adam (17:70) and that only taqwa ranks people (49:13). I am asking what grounds rights for you."
+     },
+     "summary": "Equal, universal rights need a ground. Habermas concedes their religious lineage, Rorty finds no deeper foundation, and the Quran grounds dignity in God’s honouring of humanity (17:70, 49:13)."
+    },
+    {
+     "title": "“Religion causes most wars” and the data",
+     "thesis": "The claim that religion is the main cause of war is not supported by the historical record, and the category “religious violence” is itself contested. This is not a defence of every act done in religion’s name.",
+     "premises": [
+      "A causal claim about the cause of most wars must be supported by a classification of wars.",
+      "The best-known classification of wars in the standard reference work finds a small share with religion as the primary cause.",
+      "The twentieth century’s largest atrocities were committed by states and ideologies that were avowedly secular."
+     ],
+     "conclusion": "“Religion causes most wars” is a slogan. The honest position is that people have used religion, nationalism, ideology and economics as causes and justifications, and none of them has a clean record.",
+     "evidence": [
+      "<strong>The Encyclopedia of Wars.</strong> Charles Phillips and Alan Axelrod’s <em>Encyclopedia of Wars</em> (2005) records 1,763 wars, of which 123 (about 7 percent) are classified as religious. Be honest about the rest of the figure: the authors classify 66 of those 123 as involving Islam. The coding is also debated, so cite it as a rough measure.",
+      "<strong>The category itself.</strong> William Cavanaugh (<em>The Myth of Religious Violence</em>, 2009) argues that the line between “religious” and “secular” violence is an arbitrary modern construction, and that nationalism and liberal ideology function as quasi-religions that also command killing and sacrifice.",
+      "<strong>The twentieth century.</strong> Estimates put the deaths of the Second World War at around 70 to 85 million, and the Soviet and Chinese famines and purges at tens of millions more, under states that officially rejected religion or acted on nationalist and racial ideology.",
+      "<strong>Islam’s own rules.</strong> “Do not transgress; indeed Allah does not like transgressors” (2:190). “Whoever kills a soul unjustly… it is as if he had killed all mankind” (5:32). Abu Bakr’s instructions to his armies forbade killing women, children, the elderly and monks and cutting down fruit trees (Muwatta Malik, Book of Jihad)."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“But what about ISIS and Muslim terrorism?”",
+       "a": "Acknowledge it and condemn it. Groups that kill civilians violate the Quran’s rules (5:32) and the Prophet’s instructions in war, and the great majority of Muslim scholars and the victims of such groups are themselves Muslims. Naming Islam as the cause requires showing the groups’ conduct follows the sources, and it does not."
+      },
+      {
+       "q": "“The 7 percent figure is only for wars labelled religious.”",
+       "a": "That is the point of the coding dispute: if nationalism and ideology are also treated as secular belief systems, the picture shifts further away from religion as a special cause. The honest claim is that the evidence does not support the slogan, not that religion is harmless."
+      }
+     ],
+     "practice": {
+      "q": "Religion is the biggest cause of war in history.",
+      "a": "That is not what the data shows. In the Encyclopedia of Wars, 123 of 1,763 wars are classified as religious, about 7 percent, and I should add that 66 of those involve Islam, so I am not hiding anything. William Cavanaugh also argues that the line between religious and secular violence is arbitrary. The deadliest conflicts of the last century were fought by nations and ideologies that were openly secular. And Islam’s rules of war forbid harming civilians (5:32)."
+     },
+     "summary": "About 7 percent of 1,763 wars are classified as religious (66 of 123 involving Islam), the category is contested, the largest modern atrocities were secular, and Islam’s own rules forbid killing civilians."
+    },
+    {
+     "title": "Minorities under Muslim rule: a record to state honestly",
+     "thesis": "Muslim polities generally let Jewish and Christian communities survive and keep their own religious law, in contrast with the expulsions in medieval Europe. This was a hierarchical arrangement and not equal citizenship, and the record is mixed.",
+     "premises": [
+      "Claims about “tolerance” should be tested against what happened to minorities.",
+      "Jewish and Christian communities lived under Muslim rule for centuries and kept their own courts and worship, while England expelled its Jews in 1290 and Spain in 1492.",
+      "The arrangement was one of protection with unequal status, with periods of persecution."
+     ],
+     "conclusion": "Islam’s record shows more survival and pluralism than most of Europe’s, but it was not equality or uniform tolerance. The honest account is more persuasive than a golden-age story.",
+     "evidence": [
+      "<strong>The Constitution of Medina.</strong> The document preserved by Ibn Ishaq (in Ibn Hisham’s edition) treats the Jewish tribes as a community (<em>umma</em>) alongside the believers, “to the Jews their religion and to the Muslims theirs”.",
+      "<strong>Jerusalem.</strong> Umar’s covenant at Jerusalem (as reported by al-Tabari) guaranteed the safety of the city’s churches, crosses and people.",
+      "<strong>1492.</strong> After Spain expelled its Jews in 1492, Ottoman Sultan Bayezid II welcomed many of the refugees. Historians debate the scale of his role, but the Sephardic communities of Istanbul, Salonica and elsewhere flourished under Ottoman rule.",
+      "<strong>The Quran.</strong> “Allah does not forbid you from those who do not fight you because of religion and do not expel you from your homes, from being righteous toward them and acting justly toward them” (60:8). “Whoever kills a person with whom there is a treaty will not smell the fragrance of Paradise” (Bukhari 3166).",
+      "<strong>The limits.</strong> Non-Muslims paid the jizya, faced restrictions on building and office in many periods, and there were massacres and forced conversions in some times and places (for example the Granada massacre of 1066 and the Almohad persecutions). State the history in full."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“The dhimma system was second-class citizenship.”",
+       "a": "Yes, and a Muslim should not deny that. The comparison is with the world in which it arose, where dissenting religious groups were usually forced to convert, expelled or killed. Judged by modern equal citizenship it falls short, which is why contemporary Muslim jurists discuss citizenship in the modern state with new frameworks."
+      },
+      {
+       "q": "“What about the persecution of Christians and Jews in some Muslim countries now?”",
+       "a": "Where minorities are persecuted unlawfully, it contradicts the Prophet’s warning about harming covenant-holders (Bukhari 3166). A balanced answer condemns the persecution and refuses to use it to define Islam, just as the Inquisition does not define the Gospel."
+      }
+     ],
+     "practice": {
+      "q": "Only secular states protect religious minorities.",
+      "a": "Medieval Europe expelled Jews from England in 1290 and Spain in 1492, while Muslim states such as the Ottomans took many of them in and let communities keep their own courts. I will not claim it was equal citizenship, it was not, and there were persecutions. But the record shows that religious law and the survival of minorities have gone together far more than your claim allows."
+     },
+     "summary": "Under Muslim rule Jewish and Christian communities mostly survived with their own law, while Europe expelled them, but the arrangement was unequal and the record mixed; the honest account is stronger than the myth."
+    },
+    {
+     "title": "Shura, sovereignty and the “Islam versus democracy” charge",
+     "thesis": "Islam has no clergy or priestly rule, requires consultation in public affairs, and places ultimate sovereignty with God. Whether this is compatible with democracy depends on definitions, and Muslim thinkers differ.",
+     "premises": [
+      "To answer the charge you must say what is meant by democracy: popular participation, or ultimate popular sovereignty over every question.",
+      "Islam commands consultation (42:38, 3:159) and has no priesthood with authority to legislate on its own.",
+      "Islam holds that the limits of the permitted and forbidden are God’s, which clashes with a doctrine of unlimited popular sovereignty."
+     ],
+     "conclusion": "Islam is compatible with participation, consultation and accountability, and in tension with the view that a majority can decide every question. Say so, and show where Muslim scholars differ.",
+     "evidence": [
+      "<strong>Consultation.</strong> “And whose affair is consultation among themselves” (42:38) describes the believers. “And consult them in the matter” (3:159) was addressed to the Prophet ﷺ himself.",
+      "<strong>No priesthood.</strong> Islam has no sacramental clergy. Scholars (<em>‘ulama</em>) hold authority by knowledge and can be challenged; the caliphs Abu Bakr and Umar were publicly corrected by ordinary Muslims, and the rulers were accountable to the law.",
+      "<strong>Early practice.</strong> Abu Bakr was chosen at the gathering at Saqifa and then given the public pledge (<em>bay‘a</em>), and Umar appointed a consultative council for his succession. These show consultation in practice, though not a modern electoral system.",
+      "<strong>Where Muslim thinkers differ.</strong> Some (such as Abul A‘la Mawdudi) stressed God’s sovereignty (<em>hakimiyya</em>) as opposed to popular sovereignty; others (such as Rashid al-Ghannushi and many contemporary scholars) argue that democratic institutions are a way to implement consultation and accountability within Islamic limits."
+     ],
+     "arabic": [
+      {
+       "text": "وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ",
+       "cite": "42:38"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“A system with divine limits is not a democracy.”",
+       "a": "It is not a system of unlimited majority rule, and Islam says so. Many constitutional democracies also have limits that majorities cannot cross, such as entrenched rights. The question is which limits and who decides, and Islam places the limits in revelation, with consultation in everything else."
+      },
+      {
+       "q": "“Muslim countries are not democratic.”",
+       "a": "Many are authoritarian, and Muslim societies need accountability. That is a fact about governments, and several Muslim-majority states hold elections. Judge the doctrine by its texts and the competing scholarly views, not only by the worst governments."
+      }
+     ],
+     "practice": {
+      "q": "Islam and democracy cannot go together.",
+      "a": "It depends on what you mean. If democracy is consultation, participation and accountable rulers, the Quran commands consultation (42:38) and the early caliphs were chosen by pledge and publicly corrected. If it means a majority can decide any question, including what God has forbidden, then Islam differs, and so do many constitutional democracies that limit what majorities can do. Muslim thinkers differ among themselves on this, and I would show you where."
+     },
+     "summary": "Islam commands consultation (42:38), has no priesthood and holds rulers accountable, and puts ultimate limits with God. Compatibility with democracy depends on the definition, and Muslim thinkers disagree."
+    }
+   ],
+   "cards": [
+    [
+     "Which French ruling banned dwarf-tossing despite consent?",
+     "Commune de Morsang-sur-Orge (Conseil d’État, 1995)"
+    ],
+    [
+     "Which European Court case upheld a ban on consensual adult incest?",
+     "Stübing v. Germany (2012)"
+    ],
+    [
+     "Who wrote that egalitarian universalism is the legacy of Jewish and Christian ethics?",
+     "Jürgen Habermas (Time of Transitions, 2006)"
+    ],
+    [
+     "Which Quranic verse says God honoured the children of Adam?",
+     "17:70"
+    ],
+    [
+     "How many wars in the Encyclopedia of Wars are classified as religious?",
+     "123 of 1,763 (about 7 percent); 66 of them involve Islam"
+    ],
+    [
+     "Who wrote The Myth of Religious Violence?",
+     "William Cavanaugh (2009)"
+    ],
+    [
+     "Which verse permits kindness to peaceful non-Muslims?",
+     "60:8"
+    ],
+    [
+     "Which document treats the Jews of Medina as a community with the believers?",
+     "The Constitution of Medina (Ibn Ishaq)"
+    ],
+    [
+     "Which verses command consultation?",
+     "42:38 and 3:159"
+    ],
+    [
+     "What is hakimiyya?",
+     "The doctrine of God’s sovereignty, emphasised by Mawdudi against popular sovereignty"
+    ]
+   ]
+  },
+  {
+   "id": "s-apostasy",
+   "title": "Apostasy and blasphemy",
+   "intro": "These are the questions where evasion is most costly. The majority classical position on apostasy is capital punishment after a call to repent, and several Muslim-majority countries have blasphemy laws with severe penalties. If you pretend otherwise, the first search result will refute you. The sound approach has three parts. First, state the classical ruling accurately and say who may apply it. Second, show what the sources actually say about belief, compulsion and the Prophet’s own conduct, including where scholars dissent. Third, keep the comparison fair: every society limits some speech and punishes betrayal in time of war. Condemn mob violence clearly, since Islamic law gives no private person the right to punish.",
+   "args": [
+    {
+     "title": "What the classical law says on apostasy, stated honestly",
+     "thesis": "The majority of classical jurists held that a Muslim who publicly abandons Islam is to be called to repent and then, if he refuses, faces the death penalty from a court. There are early and modern dissenting views. A debater should state this plainly before giving context.",
+     "premises": [
+      "You cannot defend or explain a ruling you have misstated.",
+      "The hadith and the practice of the early schools support a capital penalty for apostasy after repentance is offered, as the mainstream position.",
+      "A continuous line of scholars, early and contemporary, restricts or rejects the penalty, and the penalty is for courts, not individuals."
+     ],
+     "conclusion": "State the majority ruling accurately, say who may apply it and under what conditions, and then show the debate within the tradition. This gives you credibility and keeps the discussion on the real issues.",
+     "evidence": [
+      "<strong>The hadith.</strong> “Whoever changes his religion, kill him” (Bukhari 6922). And: “The blood of a Muslim is not lawful except for one of three: a life for a life, a married adulterer, and the one who leaves his religion and separates from the community” (Bukhari 6878, Muslim 1676). The second wording ties the offence to leaving and “separating from the community”.",
+      "<strong>The schools.</strong> The majority hold that the apostate is called to repent first. The Hanafis hold that women are imprisoned and not killed, while the other schools include women. The Malikis give three days’ delay.",
+      "<strong>Umar’s reaction.</strong> When told that an apostate had been killed straight away, Umar said: “Why did you not imprison him for three days, give him a loaf every day, and call him to repent? Perhaps he would have repented and Allah would have accepted him” (Muwatta Malik).",
+      "<strong>Dissent.</strong> Ibrahim al-Nakha‘i and Sufyan al-Thawri held that the apostate should be invited to repent indefinitely. In modern times Mahmud Shaltut and Taha Jabir al-Alwani (<em>La ikraha fi al-din</em>) argued that the penalty is discretionary or limited to those who fight the community, and Abdullah Saeed and Hassan Saeed wrote <em>Freedom of Religion, Apostasy and Islam</em> (2004) in the same direction.",
+      "<strong>Who applies it.</strong> Fixed penalties are for a judge in a functioning Islamic court, never for individuals, and a Muslim minority living in a non-Muslim state is not authorised to apply them."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“So you want to kill people who leave Islam?”",
+       "a": "No Muslim in a non-Muslim society is allowed to punish anyone, and no individual in any society may do so. The classical law assigns the decision to a court and has the conditions above. The question of whether and how it should be applied in modern states is debated among Muslim scholars, as the dissenting views show. I would rather give you the accurate position than deny it."
+      },
+      {
+       "q": "“Your dissenters are a minority.”",
+       "a": "They are a minority on the question of punishment, and I said so. But they are classical as well as modern, and their argument is based on the sources, the Quran’s silence on any earthly penalty and the Prophet’s own practice (see the next two arguments)."
+      }
+     ],
+     "practice": {
+      "q": "Islam says apostates must be executed. Is that true or not?",
+      "a": "The majority of classical jurists said yes, after a call to repent, and carried out by a court, based on Bukhari 6922 and the hadith of the three cases (Bukhari 6878). I won’t deny it. But there is a long tradition of dissent from al-Nakha‘i and al-Thawri to Shaltut and al-Alwani, Umar objected to a man’s execution without a chance to repent, and the Quran itself names no earthly penalty. So the honest answer is: that is the majority classical ruling, and it is debated."
+     },
+     "summary": "The majority classical ruling is death for apostasy after a call to repent, by a court. There is early and modern dissent, no private person may apply it, and a debater should say all three."
+    },
+    {
+     "title": "“No compulsion in religion” and the apostasy ruling",
+     "thesis": "The Quran guarantees freedom to choose belief, never prescribes an earthly penalty for apostasy, and the classical ruling is linked to public defection from the community. The tension is real and the answers are scholarly, not rhetorical.",
+     "premises": [
+      "Entering Islam is not by force, which the Quran states repeatedly.",
+      "The Quran speaks of apostasy only with consequences in the hereafter.",
+      "The classical jurists treated apostasy as a public act with consequences for the community, which is why they often compare it to treason."
+     ],
+     "conclusion": "The ruling cannot be derived from the Quran’s text on belief alone, and defenders must give the full reasoning, including its disputed parts, rather than quoting 2:256 as if it settled the matter.",
+     "evidence": [
+      "<strong>Freedom of belief.</strong> “There is no compulsion in religion; the right path has become clear from the wrong” (2:256). “Would you then compel the people until they become believers?” (10:99). “Say: the truth is from your Lord, so whoever wills let him believe, and whoever wills let him disbelieve” (18:29). “You are only a reminder; you are not a controller over them” (88:21-22).",
+      "<strong>The Quran’s verses on apostasy.</strong> 2:217, 3:90, 4:137 and 16:106 speak of loss in this world and the next and a severe punishment from God, but none prescribes an earthly penalty.",
+      "<strong>The treason analogy.</strong> Many classical jurists linked the death penalty to apostasy together with leaving the community (the second wording of the hadith in Muslim 1676). Most states treat betrayal in wartime harshly: treason can carry death under US federal law (18 U.S.C. § 2381), and wartime desertion was punished by execution (Private Eddie Slovik in 1945).",
+      "<strong>The limits of the analogy.</strong> A critic will say that belief is not treason. The classical argument is that in the early community religion was the political identity, so public renunciation was treated as defection. Whether that logic applies now is exactly what contemporary scholars dispute."
+     ],
+     "arabic": [
+      {
+       "text": "لَا إِكْرَاهَ فِي الدِّينِ ۖ قَدْ تَبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ",
+       "cite": "2:256"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“You cannot have both 2:256 and a death penalty.”",
+       "a": "The verse guarantees that nobody is forced in, and Islamic law has historically distinguished a private change of belief, which jurists said could not be investigated, from public renunciation. The ruling is a point of dispute inside the tradition, and I have not claimed that it fully resolves the tension; I have said where the debate lies."
+      },
+      {
+       "q": "“Treason is about betraying the state, not changing your mind.”",
+       "a": "That is the strongest objection and the reason many modern scholars reject the penalty for private belief. The classical position is a claim about a particular historical polity, and modern jurists such as al-Alwani argue the reasoning does not carry over."
+      }
+     ],
+     "practice": {
+      "q": "How can Islam say there is no compulsion in religion and then execute apostates?",
+      "a": "The Quran does say there is no compulsion (2:256), and it names no earthly punishment for apostasy. The classical jurists attached the penalty to public defection from the community, comparing it to treason, and many modern scholars say that reasoning no longer applies. I admit there is a tension and that scholars dispute how to resolve it, but I would not say the rule is simply a command to force belief."
+     },
+     "summary": "The Quran guarantees no compulsion (2:256) and names no earthly penalty for apostasy. The classical ruling rests on hadith and public defection, and modern scholars dispute whether it still applies."
+    },
+    {
+     "title": "The Prophet’s own record with those who left",
+     "thesis": "The Prophet’s ﷺ recorded handling of people who left Islam, or were suspected of insincere belief, was largely restraint, and the people executed were tied to murder, theft or armed rebellion.",
+     "premises": [
+      "The Prophet’s ﷺ practice is the best evidence of how the rulings were applied.",
+      "In many recorded cases of apostasy or hypocrisy he did not punish the person.",
+      "The cases of execution involved violence, desertion in war or armed rebellion, not belief alone."
+     ],
+     "conclusion": "The Prophet’s own record supports reading the penalty as tied to violence and betrayal and does not show a general policy of killing people for belief. This is the strongest historical support for the dissenting view, and it is used with the honest note that the majority of jurists read the hadith more broadly.",
+     "evidence": [
+      "<strong>The Bedouin who left.</strong> A Bedouin came to the Prophet ﷺ, pledged allegiance, fell ill, and asked to withdraw it. The Prophet declined three times, and the man left Medina; no action was taken (Bukhari 7211).",
+      "<strong>Abdullah ibn Ubayy.</strong> The leader of the hypocrites was not executed, though Umar asked, because the Prophet ﷺ said: “People would say that Muhammad kills his companions” (Bukhari 4905, Muslim 2584).",
+      "<strong>Abdullah ibn Sa‘d ibn Abi Sarh.</strong> A scribe who apostatised and fled to Mecca, then was pardoned at the conquest after Uthman’s intercession (Abu Dawud 2683).",
+      "<strong>Ubaydullah ibn Jahsh.</strong> He left Islam for Christianity in Abyssinia, and the sources report no action against him (Ibn Ishaq).",
+      "<strong>Hudaybiyyah.</strong> The treaty of Hudaybiyyah required Muslims to send back anyone from Quraysh who came over without his guardian’s permission, while Quraysh was not required to return anyone who went from the Muslims to them. The Prophet ﷺ accepted this and said: “Whoever goes from us to them, may Allah keep him far away” (Muslim 1784). He did not order such people pursued.",
+      "<strong>Those who were executed.</strong> The ‘Urayna group accepted Islam, killed a shepherd, mutilated him and stole the camels, and were punished for that (Bukhari 233, 3018). In Abu Bakr’s Ridda wars the fighting was against tribes that withheld zakat in rebellion and against false claimants such as Musaylima who had armies."
+     ],
+     "arabic": [],
+     "objections": [
+      {
+       "q": "“Bukhari 6922 says kill him. You are ignoring it.”",
+       "a": "I am not ignoring it; it is the main proof of the majority view and I have set it out. The question is how the Prophet ﷺ applied his own words, and the record shows restraint and punishment tied to violence or rebellion. The majority jurists read the hadith as general; the dissenters read it in light of this record."
+      },
+      {
+       "q": "“Those pardoned were exceptions.”",
+       "a": "They are the recorded cases. If belief alone were a capital offence enforced without exception, the exceptions would be the rule. That the Prophet ﷺ gave reasons (such as avoiding the label ‘Muhammad kills his companions’) shows he considered the effect on the community."
+      }
+     ],
+     "practice": {
+      "q": "The Prophet ordered people killed for leaving Islam.",
+      "a": "The recorded cases show otherwise. A Bedouin withdrew his pledge and was let go (Bukhari 7211), Ibn Ubayy was left alone (Bukhari 4905), Abdullah ibn Sa‘d was pardoned (Abu Dawud 2683), and at Hudaybiyyah the Prophet accepted that people who went to Quraysh would not be pursued (Muslim 1784). The group executed in Bukhari 233 had killed and robbed. The majority jurists read Bukhari 6922 more broadly, and I would tell you that."
+     },
+     "summary": "The Prophet ﷺ let the Bedouin go, spared Ibn Ubayy, pardoned Abdullah ibn Sa‘d and accepted the Hudaybiyyah clause; those executed had killed or rebelled. Majority jurists still read the hadith more broadly."
+    },
+    {
+     "title": "Blasphemy: classical rulings, patience, and the free-speech comparison",
+     "thesis": "Classical law treats public insult of the Prophet ﷺ as a grave offence, schools differ on the penalty and on non-Muslims, and the Quran and Sunnah command patience under insult. Modern statutes are often broader than the classical law, and mob action has no basis in it.",
+     "premises": [
+      "Every society limits some speech, and the question is where and why.",
+      "Classical Islamic law and the Prophet’s own conduct under insult are more nuanced than the modern headlines suggest.",
+      "Vigilante violence over blasphemy has no basis in Islamic law."
+     ],
+     "conclusion": "Islam treats insult of the sacred as serious, commands patience in response to personal abuse, leaves penalties to a court, and applies no more of a double standard than states that restrict speech they find intolerable.",
+     "evidence": [
+      "<strong>The Quran’s tone.</strong> “Do not insult those they invoke besides Allah, lest they insult Allah in enmity without knowledge” (6:108). “Repel evil by that which is better” (41:34). “When you hear the verses of Allah denied and mocked, do not sit with them” (4:140), which prescribes leaving the gathering, not violence.",
+      "<strong>The Prophet’s patience.</strong> When some Jews greeted him with “al-sam ‘alaykum” (death be upon you), Aisha answered in kind and he said: “Gently, Aisha” (Bukhari 6024). At Ta’if the angel of the mountains offered to crush the town, and he refused (Bukhari 3231).",
+      "<strong>Ka‘b ibn al-Ashraf.</strong> The best-known case of a man killed for insulting the Prophet ﷺ (Bukhari 4037) is one where he was also inciting Quraysh to war, breaking the Medina covenant, and composing verses against Muslim women. Classical jurists differ on whether the case shows a rule on insult alone.",
+      "<strong>The schools.</strong> The Malikis, Shafi‘is and Hanbalis (see Ibn Taymiyya’s <em>al-Sarim al-maslul</em>) hold that insulting the Prophet ﷺ merits death. The Hanafis hold that a non-Muslim who insults is not put to death for it, and that a Muslim who does so is an apostate. The details of repentance also differ.",
+      "<strong>Modern statutes.</strong> Pakistan’s section 295-C was introduced in 1986, and the Federal Shariat Court in 1990 held that death should be the only penalty. Accusations there are frequently used to settle personal and property disputes, and mob killings (Mashal Khan in 2017) and the assassination of Salmaan Taseer in 2011 show the danger. These are not required by classical law, and many Pakistani scholars condemn them.",
+      "<strong>The comparison.</strong> England’s blasphemy law was only abolished in 2008, the last major case being <em>Whitehouse v Lemon</em> (1979); Ireland abolished its offence in 2018 after a referendum. Germany (§130 of its Criminal Code) and France (the Gayssot Act of 1990) criminalise forms of speech such as Holocaust denial, and Britain restricts incitement to hatred. No state has unlimited speech."
+     ],
+     "arabic": [
+      {
+       "text": "وَلَا تَسُبُّوا الَّذِينَ يَدْعُونَ مِن دُونِ اللَّهِ فَيَسُبُّوا اللَّهَ عَدْوًا بِغَيْرِ عِلْمٍ",
+       "cite": "6:108"
+      }
+     ],
+     "objections": [
+      {
+       "q": "“So Muslims want to kill anyone who draws the Prophet.”",
+       "a": "No. The classical law gives the penalty to a court, the Quran commands leaving mocking gatherings (4:140), and the Prophet’s own example was patience (Bukhari 6024, 3231). Individuals who kill over insult act against Islamic law, and many scholars have said so after each such incident."
+      },
+      {
+       "q": "“Free speech is an absolute value in the West.”",
+       "a": "It is not. Germany and France criminalise Holocaust denial, the UK criminalises incitement to hatred, and until 2008 England had a blasphemy offence, which Ireland abolished only in 2018. The real question is which speech a society chooses to restrict and why. Muslims say the sacred also deserves protection, and you may disagree, but then we are discussing where to draw a line, not whether to draw one."
+      }
+     ],
+     "practice": {
+      "q": "Islam punishes blasphemy by death. That is the opposite of free speech.",
+      "a": "The classical schools do treat insulting the Prophet ﷺ as grave, and they differ on the penalty and on non-Muslims. But the Quran tells believers to leave mocking gatherings (4:140) and repel evil with good (41:34), and the Prophet ﷺ answered abuse with patience (Bukhari 6024). Private violence is forbidden, and modern laws like Pakistan’s 295-C go beyond the classical rulings and are abused. And no society has absolute free speech: Germany and France criminalise Holocaust denial, and England had a blasphemy law until 2008."
+     },
+     "summary": "Classical schools treat insulting the Prophet ﷺ as grave but differ on penalties, the Quran and Prophet teach patience, vigilantism is forbidden, modern statutes overreach, and no society has unlimited speech."
+    }
+   ],
+   "cards": [
+    [
+     "Which hadith says “whoever changes his religion, kill him”?",
+     "Bukhari 6922"
+    ],
+    [
+     "Which hadith lists the three cases for lawful killing, including leaving the religion and separating from the community?",
+     "Bukhari 6878 and Muslim 1676"
+    ],
+    [
+     "What did Umar say about an apostate killed without delay?",
+     "“Why did you not imprison him for three days and call him to repent?” (Muwatta Malik)"
+    ],
+    [
+     "Name two classical scholars who allowed indefinite repentance.",
+     "Ibrahim al-Nakha‘i and Sufyan al-Thawri"
+    ],
+    [
+     "Which verse guarantees no compulsion in religion?",
+     "2:256"
+    ],
+    [
+     "Which hadith shows a Bedouin leaving without punishment?",
+     "Bukhari 7211"
+    ],
+    [
+     "Why did the Prophet ﷺ not execute Abdullah ibn Ubayy?",
+     "“People would say Muhammad kills his companions” (Bukhari 4905)"
+    ],
+    [
+     "What was the crime of the ‘Urayna group?",
+     "They killed the shepherd and stole the camels (Bukhari 233)"
+    ],
+    [
+     "Which verse forbids insulting what others invoke besides Allah?",
+     "6:108"
+    ],
+    [
+     "When did England abolish its blasphemy offence?",
+     "2008 (Ireland: 2018)"
+    ]
+   ]
+  }
+ ]
+}

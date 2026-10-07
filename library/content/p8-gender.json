@@ -1,0 +1,193 @@
+{
+  "id": "s-gender",
+  "title": "Women, gender roles and feminism",
+  "intro": "Feminist objections are the most common opening in a modern debate: unequal inheritance, half a witness, the hijab, polygyny and 4:34. The approach that works is the same each time. State exactly what the text says, show the whole rule rather than the single clause the critic quotes, and then put the critic's own standard under the same scrutiny. Do not deny a ruling that exists. A debater who says “that is not in Islam” and is then shown the verse loses the room. Say what the ruling is, what it is for, and where the scholars differ.",
+  "args": [
+    {
+      "title": "Equal in worth, different in role",
+      "thesis": "The Quran addresses men and women as equals in worth, reward and accountability, and gives them different but complementary roles in some areas. Equality of worth is not the same claim as sameness of every role.",
+      "premises": [
+        "Equality of moral worth and accountability is one claim; identical roles in every institution is a different claim, and the second does not follow from the first.",
+        "The Quran asserts the first in the plainest terms (33:35; 16:97; 3:195; 49:13), and assigns some roles differently (maintenance in 4:34, shares in 4:11) while attaching matching duties to each.",
+        "A rule that differentiates roles is unjust only if it is arbitrary or one-sided, and the critic has to show that, not assume it."
+      ],
+      "conclusion": "Islam teaches equal worth with differentiated roles. Calling that “inequality” already assumes that identical roles are the only fair arrangement, which is a value claim and not a neutral fact.",
+      "evidence": [
+        "<strong>Parallel address.</strong> 33:35 lists ten qualities (Muslim, believing, obedient, truthful, patient, humble, charitable, fasting, chaste, remembering God) for men and women in matching pairs, and ends with one shared reward: “Allah has prepared for them forgiveness and a great reward.”",
+        "<strong>The same reward.</strong> “Whoever does righteousness, male or female, while a believer, We will surely cause him to live a good life, and We will surely give them their reward according to the best of what they used to do” (16:97). And “I will not allow the work of any worker among you, male or female, to be lost; you are of one another” (3:195).",
+        "<strong>No ranking by sex.</strong> “We created you from a male and a female… the most honoured of you with God is the most God-conscious” (49:13). The only ranking is taqwa.",
+        "<strong>Eve is not blamed alone.</strong> The Quran never makes the woman the cause of the Fall. Adam is named as the one who disobeyed (20:121), and the two say together “Our Lord, we have wronged ourselves” (7:23). Compare 1 Timothy 2:14 (“Adam was not deceived, but the woman was deceived”) and Sirach 25:24 (“From a woman sin had its beginning, and because of her we all die”).",
+        "<strong>The Prophet ﷺ.</strong> “Women are the twin halves of men” (Abu Dawud 236, Tirmidhi 113; graded sahih by al-Albani). On 2:228 Ibn Abbas said: “I like to adorn myself for my wife as I like her to adorn herself for me” (Tabari)."
+      ],
+      "arabic": [
+        {"text": "أَنِّي لَا أُضِيعُ عَمَلَ عَامِلٍ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّن بَعْضٍ", "cite": "3:195"}
+      ],
+      "objections": [
+        {"q": "“‘Equal but different’ is what every sexist said.”", "a": "The test is whether the difference is arbitrary and one-sided. Here each difference comes with a matching duty: the man carries the financial obligation (maintenance, the dowry) while the woman’s property stays entirely her own (4:32). The critic also uses a role-based standard of his own when he accepts separate sports categories or maternity leave, so “different treatment” cannot be the thing that is wrong in itself."},
+        {"q": "“2:228 says men have a degree over women.”", "a": ["The same verse opens: “And due to the wives is similar to what is expected of them, in a reasonable manner” (wa lahunna mithlu alladhi ‘alayhinna bil-ma‘ruf), then adds “and men have a degree over them.”", "The commentators tie the degree to responsibility and leadership in the household, not to worth. Ibn Abbas, quoted above, read the verse as a mutual duty to treat each other well."]}
+      ],
+      "practice": {
+        "q": "If men and women are really equal, why does Islam not make everything identical?",
+        "a": "Because equal worth does not require identical roles, and no society treats them as the same: every legal system separates some categories by sex or by family role. What matters is whether the rule is fair and whether duties match rights. In Islam the woman’s worth, property, reward and accountability are equal to the man’s (33:35, 4:32), and the extra financial burden falls on him. If you think roles must be identical to be fair, that is a premise you have to defend, not a fact we both accept."
+      },
+      "summary": "Men and women are equal in worth, reward and accountability (33:35, 16:97, 49:13) and have complementary roles with matching duties. “Different” is not “unequal” unless you assume identical roles are the only fair design."
+    },
+    {
+      "title": "Inheritance: the whole picture behind “half a share”",
+      "thesis": "The rule that a son receives twice a daughter’s share is one case among several. It comes with obligations that fall only on men, and in other cases women receive equal or larger shares than men.",
+      "premises": [
+        "To judge whether an inheritance system is fair you must compare shares together with financial obligations, not shares alone.",
+        "Islamic law gives the male double share only to heirs of the same degree such as sons and daughters, and in the same law the man alone must pay the dowry and maintain his wife, children and, in need, other relatives, while the woman has no duty to spend her own wealth on the family even if she is rich.",
+        "In many other configurations the share of the woman equals or exceeds that of the man."
+      ],
+      "conclusion": "Looked at as a system, Islamic inheritance does not reduce women’s wealth relative to men’s, and compared with the system it replaced it was a large expansion of women’s rights.",
+      "evidence": [
+        "<strong>The text.</strong> “Allah instructs you concerning your children: for the male, the equivalent of the share of two females” (4:11). The same verse gives the mother and the father one-sixth each if the deceased had children.",
+        "<strong>Equal shares.</strong> Maternal half-brothers and half-sisters share equally (4:12). Mother and father each receive one-sixth when there is a child (4:11).",
+        "<strong>A woman receiving more.</strong> If a man dies leaving a daughter, a father and a mother, the daughter receives one-half, the father one-sixth plus the remainder (one-third in all) and the mother one-sixth. If two daughters survive with both parents, each daughter’s one-third is larger than the father’s share.",
+        "<strong>The other side of the ledger.</strong> The husband must pay the mahr (4:4) and provide for the household. The wife’s wealth and earnings are hers: “For men is a share of what they have earned, and for women is a share of what they have earned” (4:32). Classical law makes maintenance a debt even if she is wealthy.",
+        "<strong>What it replaced.</strong> In pre-Islamic Arabia women generally did not inherit, and 4:19 forbids “inheriting women by compulsion”. In England, married women’s property passed to the husband under coverture until the Married Women’s Property Acts of 1870 and 1882."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“But a woman still gets half of what her brother gets.”", "a": "In that one case, yes, and the brother must then pay a dowry, support his wife and children, and may be responsible for others, while his sister keeps her share and her husband’s dowry, and is supported. The net financial position of the sister is normally the stronger of the two. The Quran presents the shares as God’s apportioning, with the reminder that “you do not know which of them is nearer to you in benefit” (4:11)."},
+        {"q": "“What if the brother does not actually spend on her?”", "a": "Then he fails an obligation Islamic law enforces, and she can claim it. An abuse of a rule does not show the rule is unjust; it shows that the rule was broken."}
+      ],
+      "practice": {
+        "q": "Islam says a woman’s inheritance is half a man’s. That is plain discrimination.",
+        "a": "It is one rule in a larger system. Daughters get half of what sons get, but sons must pay the dowry and maintain the household, while the daughter’s wealth is free of any such duty. In other cases women get the same as men, and in some a daughter gets more than the father. Compare it to what existed before: women inherited nothing in Arabia, and in England a woman’s property belonged to her husband until 1870. If you add up shares and duties, you do not get a system that is built to leave women poorer."
+      },
+      "summary": "The double share for sons comes with duties only men carry, in several cases women receive equal or larger shares, and the whole system was a major expansion of women’s property rights."
+    },
+    {
+      "title": "Witness: “two women for one man” and its scope",
+      "thesis": "The two-women rule in 2:282 applies to written financial contracts and gives a stated reason. It is not a general rule that a woman’s word counts for half.",
+      "premises": [
+        "A rule must be read within the scope the text gives it.",
+        "2:282 sets the two-women rule for debt contracts, and gives its reason as a safeguard for memory: “so that if one of them errs, the other can remind her.”",
+        "In many other matters a woman’s testimony or oath is accepted as equal to a man’s or as sufficient on its own."
+      ],
+      "conclusion": "The verse is a rule about evidence in commercial documents, not a statement about women’s credibility in general, and Islamic law and hadith practice show women trusted as witnesses and narrators.",
+      "evidence": [
+        "<strong>The verse.</strong> “Call upon two witnesses from among your men. And if there are not two men, then a man and two women from those whom you accept as witnesses, so that if one of the two women errs, the other can remind her” (2:282). The context is a contract of debt to a fixed term.",
+        "<strong>Equal oaths.</strong> In li‘an (24:6-9) a husband swears four times and a wife swears four times in reply, and her oath is enough to remove the punishment.",
+        "<strong>One woman suffices.</strong> The Prophet ﷺ accepted the testimony of a single woman on a matter of breastfeeding and ruled on it (Bukhari 2640). Classical jurists accept the testimony of women alone on matters such as childbirth.",
+        "<strong>Women as narrators.</strong> A large part of the hadith corpus passes through women. Aisha alone narrated over two thousand reports, and the hadith scholars accepted a single trustworthy woman’s narration with no second witness (see Mohammad Akram Nadwi, <em>al-Muhaddithat</em>).",
+        "<strong>Other contexts.</strong> Other verses on witnessing (5:106, 65:2) say “two just persons”, and the jurists differ on how far women’s testimony extends in criminal cases, which is why you should state the scope precisely."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“The hadith says women are deficient in intellect” (Bukhari 304).", "a": ["In that report the Prophet ﷺ explains the phrase himself: “Is not the testimony of a woman half that of a man? … That is from the deficiency of her intellect.” He is pointing back to the legal rule in 2:282, not making an IQ claim. The same report calls women “deficient in religion” because she does not pray or fast during menstruation, which is a dispensation, not a defect.", "Classical commentators such as al-Nawawi treat the wording as technical and not blameworthy."]},
+        {"q": "“Then why not make women equal witnesses in finance too?”", "a": "That is what the verse is for: financial contracts were then mostly handled by men, and the second woman is the guard against error under pressure. Some contemporary scholars argue that the rule is tied to that setting; the classical position keeps it. Either way the debate is about commercial evidence, not women’s honesty or worth."}
+      ],
+      "practice": {
+        "q": "A woman’s testimony counts as half a man’s in Islam. That proves women are second-class.",
+        "a": "The verse you are citing (2:282) is about written debt contracts and states a reason: so that one can remind the other. In other matters a woman’s oath equals a man’s (24:6-9), one woman’s testimony suffices in matters like breastfeeding (Bukhari 2640), and women are some of the most trusted narrators in Islamic tradition, Aisha first among them. The rule is narrow and is not a general verdict on women."
+      },
+      "summary": "The two-women rule in 2:282 applies to written debts and gives its reason. Elsewhere women’s oaths equal men’s, one woman’s word can suffice, and women are among the most trusted narrators."
+    },
+    {
+      "title": "Hijab and modesty: for both sexes, and a ruling to state honestly",
+      "thesis": "Islam commands modesty of both men and women (24:30-31), with covering as an act of obedience for women. The ruling is obligatory, not optional, and a debater should say so and defend the reasoning.",
+      "premises": [
+        "A fair account of the ruling must say that it exists, who it binds and why.",
+        "The Quran orders men first to lower their gaze and guard themselves (24:30), then women (24:31), and says that modest conduct protects both.",
+        "A believer’s covering is an act of worship done by choice, and nothing in the Quran licenses forcing it by violence."
+      ],
+      "conclusion": "Hijab is part of a modesty code that binds both sexes, and it is neither a sign of male ownership nor something Islam leaves open. The right defence is to explain it, not to dilute it."
+      ,
+      "evidence": [
+        "<strong>Men first.</strong> “Tell the believing men to lower their gaze and guard their private parts; that is purer for them” (24:30). Then: “And tell the believing women to lower their gaze and guard their private parts and not display their adornment except what is apparent, and to draw their head-covers over their chests” (24:31).",
+        "<strong>Dress rules for men too.</strong> Men have a minimum awrah (navel to knees according to the majority), and the Prophet ﷺ forbade men gold and pure silk (Abu Dawud 4057).",
+        "<strong>The early women’s response.</strong> Aisha said: “May Allah have mercy on the early Emigrant women. When Allah revealed ‘and to draw their head-covers over their chests’, they tore their wrappers and covered themselves with them” (Bukhari 4758).",
+        "<strong>The purpose stated.</strong> “That is more suitable that they will be known and not be harmed” (33:59).",
+        "<strong>Where scholars differ.</strong> All schools agree on covering the hair and body. They differ on whether the face and hands must be covered, with the majority holding they need not be."
+      ],
+      "arabic": [
+        {"text": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ", "cite": "24:30"}
+      ],
+      "objections": [
+        {"q": "“Women are policed over dress and men are not.”", "a": "The Quran addresses men first and gives them rules of gaze, conduct and dress. The ruling for women is more visible because it concerns visible clothing, not because only they are bound. The standard Islam applies is mutual modesty, not women’s concealment so men can behave as they like."},
+        {"q": "“It is forced on women in Iran and Saudi Arabia.”", "a": "Compulsion by a state is a separate question from the ruling. A Muslim can hold both that covering is obligatory in belief and that enforcement by police belongs to a debate within Muslim societies (the Quran’s emphasis on sincere obedience, 2:256, is the starting point of that debate). Criticism of coercion is therefore not a criticism of the ruling."},
+        {"q": "“Many Muslim women do not wear it, so it cannot be required.”", "a": "That a duty is not always kept does not mean the duty is absent. Muslims also miss prayers and fasts. The ruling is clear in the sources and among the schools, and practice differs."}
+      ],
+      "practice": {
+        "q": "Hijab is just men controlling what women wear.",
+        "a": "The Quran addresses men first on the gaze and on guarding themselves (24:30), and has dress rules for men as well. Hijab is a command from God that women choose to obey. In Aisha’s account of the early Muslim women, they covered themselves as soon as the verse was revealed (Bukhari 4758), no one forced them. I accept that it is an obligation in Islam, I am not going to pretend it is optional, and I would also say it is wrong to force someone to obey a religious duty at the point of a stick."
+      },
+      "summary": "Modesty is commanded for men (24:30) and women (24:31); covering is an obligation chosen as obedience, scholars differ on the face and hands, and coercion is a separate and disputed political question."
+    },
+    {
+      "title": "Polygyny: limited, conditioned and not invented by Islam",
+      "thesis": "Islam did not introduce polygyny. It inherited an unlimited practice, capped it at four, tied it to strict justice, and gave the wife enforceable rights.",
+      "premises": [
+        "Polygyny was widely practised before Islam, including in the Bible, with no stated limit.",
+        "4:3 sets a maximum of four and a condition: “if you fear you will not be just, then one.”",
+        "The Prophet ﷺ and the jurists treat the wife’s rights as enforceable, including her right to leave."
+      ],
+      "conclusion": "Islam’s position is a restriction of an older, unrestricted practice, not an invention. Whether one finds it acceptable is a separate question from whether the critic’s picture of it is accurate.",
+      "evidence": [
+        "<strong>Before Islam.</strong> The Bible reports Solomon with seven hundred wives and three hundred concubines (1 Kgs 11:3), and Deuteronomy 21:15 regulates inheritance for a man with two wives without condemning it. The Church later forbade it, but even then Luther advised Philip of Hesse in 1539-40 that a second marriage was possible.",
+        "<strong>The verse and its setting.</strong> “If you fear that you will not deal justly with the orphan girls, then marry those who please you of women, two or three or four. But if you fear that you will not be just, then only one” (4:3). Aisha explained that the verse concerns guardians who wanted to marry orphan girls in their care for their wealth without giving a fair dowry (Bukhari 4574).",
+        "<strong>The standard of justice.</strong> “You will never be able to be equal between wives, even if you should strive” (4:129) refers to emotional inclination. The duty that is required is equal maintenance, housing and time.",
+        "<strong>The Prophet ﷺ and Fatima.</strong> When the Banu Hisham asked his permission to marry their daughter to Ali ibn Abi Talib while Fatima was his wife, the Prophet ﷺ refused, saying Fatima is “part of me” and what upsets her upsets him (Bukhari 5230).",
+        "<strong>The wife’s options.</strong> A wife can insist on a monogamy clause in her marriage contract, which the Hanbali school treats as binding, and can seek divorce through khul‘ or the court if she is harmed."
+      ],
+      "arabic": [
+        {"text": "فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا فَوَاحِدَةً", "cite": "4:3"}
+      ],
+      "objections": [
+        {"q": "“Why can a man have four wives but a woman cannot have four husbands?”", "a": "Because children’s paternity must be certain so that inheritance, maintenance, guardianship and lineage can be assigned. The rule is a rule about the family structure, and it applies the same restriction on both sexes in other respects (neither may have a sexual relationship outside marriage)."},
+        {"q": "“It degrades women.”", "a": "Critics usually picture a harem with no rights. Islamic law gives the wife her dowry, her own housing and maintenance, equal treatment and the right to leave. And the legal alternatives in many societies, serial divorce and informal relationships, often leave the second woman and her children without any rights at all."}
+      ],
+      "practice": {
+        "q": "Polygamy is barbaric and proves Islam hates women.",
+        "a": "Polygyny was unlimited before Islam and in the Bible. Islam capped it at four, made it depend on justice (4:3) and gave wives enforceable rights, including to stipulate monogamy and to leave. The verse was revealed with orphan girls in mind (Bukhari 4574), and the Prophet ﷺ refused to allow a second marriage that would hurt Fatima (Bukhari 5230). You can argue that monogamy is better, but that is an argument about policy and not about whether Islam disregards women."
+      },
+      "summary": "Polygyny predated Islam and the Bible. Islam limited it to four, made it conditional on justice (4:3) and gave wives enforceable rights; the Prophet ﷺ himself refused it where it would hurt Fatima."
+    },
+    {
+      "title": "4:34 and the “wife-beating” charge",
+      "thesis": "4:34 is a last-resort provision inside a sequence of steps, hedged by the Prophet’s explicit restrictions, and it never licenses abuse. Muslims should state what it says and how the Prophet ﷺ himself acted.",
+      "premises": [
+        "A verse must be read together with its sequence and with how the Prophet ﷺ applied it.",
+        "The verse sets a sequence (advice, then separation in bed, then a strike), and the Prophet ﷺ defined the last step as light, never on the face, and said the best of men do not do it.",
+        "The Prophet ﷺ never struck a woman or a servant."
+      ],
+      "conclusion": "The ruling is restrained to the point of being symbolic and cannot be used to justify domestic violence. A man who injures his wife is acting against Islam and is liable under it."
+      ,
+      "evidence": [
+        "<strong>The text.</strong> “As for those from whom you fear arrogance (nushuz), advise them, abandon them in bed, and strike them (wadribuhunna). If they obey you, seek no way against them” (4:34). The sequence is ordered, and 4:35 immediately provides for arbitration by the two families.",
+        "<strong>The Prophet’s limits.</strong> In the Farewell Sermon he said: “If they do (something clearly unacceptable), strike them in a way that does not cause pain (ghayra mubarrih)” (Muslim 1218). Ibn Abbas and al-Hasan al-Basri said it means with something like a siwak (Tabari).",
+        "<strong>His own conduct.</strong> Aisha said: “The Messenger of Allah never struck anything with his hand, neither a woman nor a servant, except when fighting in the way of Allah” (Muslim 2328).",
+        "<strong>His disapproval.</strong> “Does any of you beat his wife as he would beat a slave, and then lie with her at the end of the day?” (Bukhari 5204). When women complained of being struck he said of those men: “They are not the best of you” (Abu Dawud 2146). And: “The best of you are the best to their wives” (Tirmidhi 3895).",
+        "<strong>The jurists.</strong> Al-Shafi‘i said that striking is permitted but that leaving it is better (<em>al-Umm</em>). Any harm gives the wife the right to complain to a judge and to ask for separation, based on the principle “no harm and no reciprocating harm” (Ibn Majah 2341).",
+        "<strong>Note.</strong> Some modern translators render <em>daraba</em> as “go away from”. This has no support among the classical commentators and should not be your main defence; rely on the Prophet’s own restrictions."
+      ],
+      "arabic": [
+        {"text": "وَعَاشِرُوهُنَّ بِالْمَعْرُوفِ", "cite": "4:19"}
+      ],
+      "objections": [
+        {"q": "“Even a symbolic strike is domestic violence.”", "a": "That is the modern criminal-law view and many Muslim jurists and countries accept it for practical purposes. The classical ruling is a restrained last step after advice and separation, with a prohibition on harm and a right to court relief. The Biblical texts are far harsher: Proverbs 13:24 on the rod, Exodus 21:20-21 on beating a slave so long as he survives a day or two, and Sirach 25:26."},
+        {"q": "“So Islam does permit hitting a wife.”", "a": "It permits a restrained act in a narrow case, and the Prophet’s own example and the leading jurists discourage it. A Muslim should say clearly that abuse, bruising and fear are forbidden and that the best of men do not strike their wives."}
+      ],
+      "practice": {
+        "q": "Quran 4:34 tells men to beat their wives. How is that anything but abuse?",
+        "a": "The verse gives an ordered sequence: advice, separation in bed, and only then a strike, followed by arbitration (4:35). The Prophet ﷺ defined it as non-injurious (Muslim 1218), never struck a woman or servant himself (Muslim 2328), and said of men who beat their wives: “They are not the best of you” (Abu Dawud 2146). Al-Shafi‘i said leaving it is better. Anyone who injures his wife violates Islamic law, and she can go to a judge. The Bible’s texts on striking wives, children and servants are much harsher."
+      },
+      "summary": "4:34 is a last step after advice and separation, defined by the Prophet ﷺ as non-injurious; he never struck a woman, called such men “not the best of you”, and harm gives the wife a claim before a judge."
+    }
+  ],
+  "cards": [
+    ["Which verse lists ten qualities for men and women in parallel?", "33:35"],
+    ["Which verse says the most honoured is the most God-conscious, not either sex?", "49:13"],
+    ["What are the daughters’ and father’s shares if a man leaves two daughters, a father and a mother?", "Daughters two-thirds together (one-third each), father one-sixth plus remainder (one-third in all), mother one-sixth"],
+    ["What does 4:32 say about women’s property?", "“For women is a share of what they have earned”: her wealth and earnings are hers"],
+    ["What is the scope of the two-women rule?", "Written debt contracts (2:282); not women’s testimony in general"],
+    ["Which hadith shows the Prophet ﷺ accepting a single woman’s testimony?", "Bukhari 2640 (breastfeeding)"],
+    ["Which verse orders men to lower their gaze?", "24:30, before the address to women in 24:31"],
+    ["What did Aisha say the Prophet ﷺ never struck?", "“Neither a woman nor a servant”, except in battle (Muslim 2328)"],
+    ["What did the Prophet ﷺ say of men who beat their wives?", "“They are not the best of you” (Abu Dawud 2146)"],
+    ["What does Bukhari 4574 say 4:3 was about?", "Guardians marrying orphan girls in their care without giving a fair dowry"]
+  ]
+}

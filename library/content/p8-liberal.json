@@ -1,0 +1,154 @@
+{
+  "id": "s-liberal",
+  "title": "Liberalism, secularism and human rights",
+  "intro": "Most modern debates are not Islam against “neutral reason”. They are Islam against another worldview, secular liberalism, which presents itself as neutral. This section gives you the tools to show that politely and with sources: that liberalism rests on contested premises, that universal rights need a ground, that “religion causes wars” does not survive the data, and that Muslim history on minorities and consultation is more complicated and more interesting than either side usually admits. Use the strongest sources the other side respects (Rawls, Habermas, Cavanaugh, Rorty), and concede what is true: liberal societies protect real goods, and Muslim societies have a mixed record.",
+  "args": [
+    {
+      "title": "Secular liberalism is a worldview, not a neutral referee",
+      "thesis": "Secular liberalism claims to be neutral between ways of life, but its tests for what counts as harm, consent and personhood depend on disputed views of the good. It is one worldview among others and has to argue its case like the rest.",
+      "premises": [
+        "A procedure can be neutral only if its basic standards do not favour any side in the dispute it settles.",
+        "The liberal tests (the harm principle, consent, autonomy, dignity) each need an answer to contested questions: what counts as harm, who counts as a person, and what makes a life good.",
+        "Liberal states themselves restrict consensual acts on grounds of dignity or morality."
+      ],
+      "conclusion": "Liberalism cannot claim the neutral high ground. The real debate is between comprehensive views, and Islam can present its own case on equal terms.",
+      "evidence": [
+        "<strong>Philosophers admit it.</strong> Alasdair MacIntyre (<em>After Virtue</em>, 1981; <em>Whose Justice? Which Rationality?</em>, 1988) argued that there is no tradition-independent standpoint of reason. Michael Sandel (<em>Liberalism and the Limits of Justice</em>, 1982) argued that liberalism presupposes a particular picture of the self. John Rawls himself retreated in <em>Political Liberalism</em> (1993) to claim only a limited, “political” neutrality.",
+        "<strong>Mill’s test needs a view of harm.</strong> John Stuart Mill’s harm principle (<em>On Liberty</em>, 1859) allows interference only to prevent harm to others. But what counts as harm (offence? damage to the social fabric? harm to the self?) is exactly what people dispute.",
+        "<strong>Consent is not enough even for liberal states.</strong> In 1995 France’s Conseil d’État upheld the ban on dwarf-tossing despite the consent of the dwarf, on grounds of human dignity (<em>Commune de Morsang-sur-Orge</em>). In <em>Stübing v. Germany</em> (2012) the European Court of Human Rights upheld a criminal ban on consensual incest between adult siblings. Both restrict consenting adults on moral grounds.",
+        "<strong>Quran 2:256.</strong> Islam does not claim to coerce belief (2:256; 10:99), and so argues its case in public. The Quran invites evidence: “Bring your proof, if you are truthful” (2:111)."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“Liberalism at least lets everyone live as they choose.”", "a": "It protects real goods, and Muslims benefit from freedom of conscience in liberal states. But it does not let everyone live as they choose: it forbids polygamy, drug sale, certain consensual acts and some speech. Every society draws lines, and liberalism draws its lines using its own contested values."},
+        {"q": "“Religious claims need justification; liberal values do not.”", "a": "Both do. Appealing to “harm” or “autonomy” without an account of why those are the right values is as much a faith commitment as appealing to revelation. The debate should compare grounds, not exempt one side from giving them."}
+      ],
+      "practice": {
+        "q": "Secular law is neutral. Religious law imposes one group’s morals on everyone.",
+        "a": "All law imposes someone’s morals. France bans dwarf-tossing with the dwarf’s consent, and the European Court upheld a ban on consensual adult incest. Those are moral judgements about dignity. Rawls himself accepted that liberalism could claim only a limited, political neutrality. So the real question is which moral foundations are true, and I am glad to compare grounds."
+      },
+      "summary": "Liberalism’s tests for harm, consent and personhood rest on disputed moral views, and liberal states restrict consensual acts on moral grounds. It is a worldview to be argued for, not a neutral referee."
+    },
+    {
+      "title": "Where do universal human rights come from?",
+      "thesis": "Universal, equal human rights need a ground that makes every person’s worth equal and non-negotiable. Several leading secular philosophers concede that this ground is hard to supply without religion, while Islam supplies one in creation and honour from God.",
+      "premises": [
+        "A claim that every human has equal, inalienable worth needs a reason that does not depend on abilities, since abilities differ.",
+        "Secular accounts of the ground of rights are contested, and some of their best defenders admit the difficulty.",
+        "The Quran grounds human worth in God’s act of honouring humanity, independent of status."
+      ],
+      "conclusion": "Islam supplies a ground for universal human dignity that is stronger than a social convention, and the secular critic must explain what grounds rights in its place.",
+      "evidence": [
+        "<strong>Habermas.</strong> The German philosopher Jürgen Habermas, a non-believer, wrote that universalistic egalitarianism, “from which sprang the ideas of freedom and social solidarity”, is “the direct legacy of the Judaic ethic of justice and the Christian ethic of love” (<em>Time of Transitions</em>, 2006).",
+        "<strong>Waldron and Wolterstorff.</strong> Jeremy Waldron (<em>God, Locke, and Equality</em>, 2002) argues that Locke’s basic equality depends on theological premises. Nicholas Wolterstorff (<em>Justice: Rights and Wrongs</em>, 2008) argues that rights are grounded in being loved by God.",
+        "<strong>Rorty’s alternative.</strong> Richard Rorty (“Human Rights, Rationality, and Sentimentality”, 1993) argued that rights rest on no deep foundation, only on cultivated sentiment, which is the clearest sign of the difficulty.",
+        "<strong>The Islamic ground.</strong> “We have certainly honoured the children of Adam” (17:70). “We created you from a male and female… the most honoured is the most God-conscious” (49:13). “Whoever kills a soul… it is as if he had slain mankind entirely” (5:32). The Prophet ﷺ declared in the Farewell Sermon that “your blood, your wealth and your honour are sacred to each other” (Bukhari 1739, Muslim 1218), and that no Arab has superiority over a non-Arab except by taqwa (Ahmad 23489)."
+      ],
+      "arabic": [
+        {"text": "وَلَقَدْ كَرَّمْنَا بَنِي آدَمَ", "cite": "17:70"}
+      ],
+      "objections": [
+        {"q": "“Atheists can be good without God.”", "a": "Of course; the argument is about grounding and not about behaviour. The question is not whether atheists behave well but what makes human equality true, rather than a useful convention. A convention can be changed by a majority, while a right grounded in God cannot."},
+        {"q": "“Religion has been used to deny rights.”", "a": "That is true of every ideology that has held power, secular ones included. It shows that a ground can be misused. It does not remove the need for a ground, and it does not tell us whether the Islamic ground in 17:70 and 49:13 is true."}
+      ],
+      "practice": {
+        "q": "Human rights do not need God. They are common sense.",
+        "a": "If they were common sense, there would be no need for the philosophy. Habermas, who is not religious, concedes that universal egalitarianism is the legacy of Jewish and Christian ethics, and Rorty admits rights rest on sentiment, not a foundation. In Islam the ground is that God honoured every child of Adam (17:70) and that only taqwa ranks people (49:13). I am asking what grounds rights for you."
+      },
+      "summary": "Equal, universal rights need a ground. Habermas concedes their religious lineage, Rorty finds no deeper foundation, and the Quran grounds dignity in God’s honouring of humanity (17:70, 49:13)."
+    },
+    {
+      "title": "“Religion causes most wars” and the data",
+      "thesis": "The claim that religion is the main cause of war is not supported by the historical record, and the category “religious violence” is itself contested. This is not a defence of every act done in religion’s name.",
+      "premises": [
+        "A causal claim about the cause of most wars must be supported by a classification of wars.",
+        "The best-known classification of wars in the standard reference work finds a small share with religion as the primary cause.",
+        "The twentieth century’s largest atrocities were committed by states and ideologies that were avowedly secular."
+      ],
+      "conclusion": "“Religion causes most wars” is a slogan. The honest position is that people have used religion, nationalism, ideology and economics as causes and justifications, and none of them has a clean record.",
+      "evidence": [
+        "<strong>The Encyclopedia of Wars.</strong> Charles Phillips and Alan Axelrod’s <em>Encyclopedia of Wars</em> (2005) records 1,763 wars, of which 123 (about 7 percent) are classified as religious. Be honest about the rest of the figure: the authors classify 66 of those 123 as involving Islam. The coding is also debated, so cite it as a rough measure.",
+        "<strong>The category itself.</strong> William Cavanaugh (<em>The Myth of Religious Violence</em>, 2009) argues that the line between “religious” and “secular” violence is an arbitrary modern construction, and that nationalism and liberal ideology function as quasi-religions that also command killing and sacrifice.",
+        "<strong>The twentieth century.</strong> Estimates put the deaths of the Second World War at around 70 to 85 million, and the Soviet and Chinese famines and purges at tens of millions more, under states that officially rejected religion or acted on nationalist and racial ideology.",
+        "<strong>Islam’s own rules.</strong> “Do not transgress; indeed Allah does not like transgressors” (2:190). “Whoever kills a soul unjustly… it is as if he had killed all mankind” (5:32). Abu Bakr’s instructions to his armies forbade killing women, children, the elderly and monks and cutting down fruit trees (Muwatta Malik, Book of Jihad)."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“But what about ISIS and Muslim terrorism?”", "a": "Acknowledge it and condemn it. Groups that kill civilians violate the Quran’s rules (5:32) and the Prophet’s instructions in war, and the great majority of Muslim scholars and the victims of such groups are themselves Muslims. Naming Islam as the cause requires showing the groups’ conduct follows the sources, and it does not."},
+        {"q": "“The 7 percent figure is only for wars labelled religious.”", "a": "That is the point of the coding dispute: if nationalism and ideology are also treated as secular belief systems, the picture shifts further away from religion as a special cause. The honest claim is that the evidence does not support the slogan, not that religion is harmless."}
+      ],
+      "practice": {
+        "q": "Religion is the biggest cause of war in history.",
+        "a": "That is not what the data shows. In the Encyclopedia of Wars, 123 of 1,763 wars are classified as religious, about 7 percent, and I should add that 66 of those involve Islam, so I am not hiding anything. William Cavanaugh also argues that the line between religious and secular violence is arbitrary. The deadliest conflicts of the last century were fought by nations and ideologies that were openly secular. And Islam’s rules of war forbid harming civilians (5:32)."
+      },
+      "summary": "About 7 percent of 1,763 wars are classified as religious (66 of 123 involving Islam), the category is contested, the largest modern atrocities were secular, and Islam’s own rules forbid killing civilians."
+    },
+    {
+      "title": "Minorities under Muslim rule: a record to state honestly",
+      "thesis": "Muslim polities generally let Jewish and Christian communities survive and keep their own religious law, in contrast with the expulsions in medieval Europe. This was a hierarchical arrangement and not equal citizenship, and the record is mixed.",
+      "premises": [
+        "Claims about “tolerance” should be tested against what happened to minorities.",
+        "Jewish and Christian communities lived under Muslim rule for centuries and kept their own courts and worship, while England expelled its Jews in 1290 and Spain in 1492.",
+        "The arrangement was one of protection with unequal status, with periods of persecution."
+      ],
+      "conclusion": "Islam’s record shows more survival and pluralism than most of Europe’s, but it was not equality or uniform tolerance. The honest account is more persuasive than a golden-age story.",
+      "evidence": [
+        "<strong>The Constitution of Medina.</strong> The document preserved by Ibn Ishaq (in Ibn Hisham’s edition) treats the Jewish tribes as a community (<em>umma</em>) alongside the believers, “to the Jews their religion and to the Muslims theirs”.",
+        "<strong>Jerusalem.</strong> Umar’s covenant at Jerusalem (as reported by al-Tabari) guaranteed the safety of the city’s churches, crosses and people.",
+        "<strong>1492.</strong> After Spain expelled its Jews in 1492, Ottoman Sultan Bayezid II welcomed many of the refugees. Historians debate the scale of his role, but the Sephardic communities of Istanbul, Salonica and elsewhere flourished under Ottoman rule.",
+        "<strong>The Quran.</strong> “Allah does not forbid you from those who do not fight you because of religion and do not expel you from your homes, from being righteous toward them and acting justly toward them” (60:8). “Whoever kills a person with whom there is a treaty will not smell the fragrance of Paradise” (Bukhari 3166).",
+        "<strong>The limits.</strong> Non-Muslims paid the jizya, faced restrictions on building and office in many periods, and there were massacres and forced conversions in some times and places (for example the Granada massacre of 1066 and the Almohad persecutions). State the history in full."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“The dhimma system was second-class citizenship.”", "a": "Yes, and a Muslim should not deny that. The comparison is with the world in which it arose, where dissenting religious groups were usually forced to convert, expelled or killed. Judged by modern equal citizenship it falls short, which is why contemporary Muslim jurists discuss citizenship in the modern state with new frameworks."},
+        {"q": "“What about the persecution of Christians and Jews in some Muslim countries now?”", "a": "Where minorities are persecuted unlawfully, it contradicts the Prophet’s warning about harming covenant-holders (Bukhari 3166). A balanced answer condemns the persecution and refuses to use it to define Islam, just as the Inquisition does not define the Gospel."}
+      ],
+      "practice": {
+        "q": "Only secular states protect religious minorities.",
+        "a": "Medieval Europe expelled Jews from England in 1290 and Spain in 1492, while Muslim states such as the Ottomans took many of them in and let communities keep their own courts. I will not claim it was equal citizenship, it was not, and there were persecutions. But the record shows that religious law and the survival of minorities have gone together far more than your claim allows."
+      },
+      "summary": "Under Muslim rule Jewish and Christian communities mostly survived with their own law, while Europe expelled them, but the arrangement was unequal and the record mixed; the honest account is stronger than the myth."
+    },
+    {
+      "title": "Shura, sovereignty and the “Islam versus democracy” charge",
+      "thesis": "Islam has no clergy or priestly rule, requires consultation in public affairs, and places ultimate sovereignty with God. Whether this is compatible with democracy depends on definitions, and Muslim thinkers differ.",
+      "premises": [
+        "To answer the charge you must say what is meant by democracy: popular participation, or ultimate popular sovereignty over every question.",
+        "Islam commands consultation (42:38, 3:159) and has no priesthood with authority to legislate on its own.",
+        "Islam holds that the limits of the permitted and forbidden are God’s, which clashes with a doctrine of unlimited popular sovereignty."
+      ],
+      "conclusion": "Islam is compatible with participation, consultation and accountability, and in tension with the view that a majority can decide every question. Say so, and show where Muslim scholars differ.",
+      "evidence": [
+        "<strong>Consultation.</strong> “And whose affair is consultation among themselves” (42:38) describes the believers. “And consult them in the matter” (3:159) was addressed to the Prophet ﷺ himself.",
+        "<strong>No priesthood.</strong> Islam has no sacramental clergy. Scholars (<em>‘ulama</em>) hold authority by knowledge and can be challenged; the caliphs Abu Bakr and Umar were publicly corrected by ordinary Muslims, and the rulers were accountable to the law.",
+        "<strong>Early practice.</strong> Abu Bakr was chosen at the gathering at Saqifa and then given the public pledge (<em>bay‘a</em>), and Umar appointed a consultative council for his succession. These show consultation in practice, though not a modern electoral system.",
+        "<strong>Where Muslim thinkers differ.</strong> Some (such as Abul A‘la Mawdudi) stressed God’s sovereignty (<em>hakimiyya</em>) as opposed to popular sovereignty; others (such as Rashid al-Ghannushi and many contemporary scholars) argue that democratic institutions are a way to implement consultation and accountability within Islamic limits."
+      ],
+      "arabic": [
+        {"text": "وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ", "cite": "42:38"}
+      ],
+      "objections": [
+        {"q": "“A system with divine limits is not a democracy.”", "a": "It is not a system of unlimited majority rule, and Islam says so. Many constitutional democracies also have limits that majorities cannot cross, such as entrenched rights. The question is which limits and who decides, and Islam places the limits in revelation, with consultation in everything else."},
+        {"q": "“Muslim countries are not democratic.”", "a": "Many are authoritarian, and Muslim societies need accountability. That is a fact about governments, and several Muslim-majority states hold elections. Judge the doctrine by its texts and the competing scholarly views, not only by the worst governments."}
+      ],
+      "practice": {
+        "q": "Islam and democracy cannot go together.",
+        "a": "It depends on what you mean. If democracy is consultation, participation and accountable rulers, the Quran commands consultation (42:38) and the early caliphs were chosen by pledge and publicly corrected. If it means a majority can decide any question, including what God has forbidden, then Islam differs, and so do many constitutional democracies that limit what majorities can do. Muslim thinkers differ among themselves on this, and I would show you where."
+      },
+      "summary": "Islam commands consultation (42:38), has no priesthood and holds rulers accountable, and puts ultimate limits with God. Compatibility with democracy depends on the definition, and Muslim thinkers disagree."
+    }
+  ],
+  "cards": [
+    ["Which French ruling banned dwarf-tossing despite consent?", "Commune de Morsang-sur-Orge (Conseil d’État, 1995)"],
+    ["Which European Court case upheld a ban on consensual adult incest?", "Stübing v. Germany (2012)"],
+    ["Who wrote that egalitarian universalism is the legacy of Jewish and Christian ethics?", "Jürgen Habermas (Time of Transitions, 2006)"],
+    ["Which Quranic verse says God honoured the children of Adam?", "17:70"],
+    ["How many wars in the Encyclopedia of Wars are classified as religious?", "123 of 1,763 (about 7 percent); 66 of them involve Islam"],
+    ["Who wrote The Myth of Religious Violence?", "William Cavanaugh (2009)"],
+    ["Which verse permits kindness to peaceful non-Muslims?", "60:8"],
+    ["Which document treats the Jews of Medina as a community with the believers?", "The Constitution of Medina (Ibn Ishaq)"],
+    ["Which verses command consultation?", "42:38 and 3:159"],
+    ["What is hakimiyya?", "The doctrine of God’s sovereignty, emphasised by Mawdudi against popular sovereignty"]
+  ]
+}
