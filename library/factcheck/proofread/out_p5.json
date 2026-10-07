@@ -1,0 +1,100 @@
+[
+ {
+  "n": 335,
+  "arg_id": "s-main--the-quran-s-torah-and-injil-are-revelations-not",
+  "find": ", though this is a hypothesis, a single harmonised Gospel that dominated Syriac churches until the 5th century.",
+  "replace": ", a single harmonised Gospel that dominated Syriac churches until the 5th century, though this is a hypothesis.",
+  "note": "appositive order"
+ },
+ {
+  "n": 336,
+  "arg_id": "s-main--the-quran-did-not-copy-the-apocrypha",
+  "find": "the Qur'an and Its",
+  "replace": "The Qur'an and Its",
+  "note": "capitalisation"
+ },
+ {
+  "n": 338,
+  "arg_id": "s-quran-obj--mary-and-the-trinity-5-116-5-73",
+  "find": "626, and when Constantinople was besieged in 626 Patriarch Sergius",
+  "replace": "626, when Patriarch Sergius",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 341,
+  "arg_id": "s-quran-obj--mary-and-the-trinity-5-116-5-73",
+  "find": " whatever the official term",
+  "replace": "",
+  "note": "dangling phrase"
+ },
+ {
+  "n": 343,
+  "arg_id": "s-quran-obj--the-names-yahya-and-isa",
+  "find": "Ahmad al-Jallad has proposed that a pre-Islamic Safaitic (North Arabian) inscription,",
+  "replace": "Ahmad al-Jallad cites a pre-Islamic Safaitic (North Arabian) inscription,",
+  "note": "incomplete clause"
+ },
+ {
+  "n": 357,
+  "arg_id": "s-prophet-obj--the-satanic-verses-story-is-not-authentic",
+  "find": "; scholars from Ibn Kathir to al-Albani rejected it.",
+  "replace": ".",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 358,
+  "arg_id": "s-prophet-obj--islam-is-not-racist",
+  "find": "Dhu al-Thudayya, the Kharijite leader, was a Kharijite figure, identified in some sources as Hurqus ibn Zuhayr (the identification is disputed), an Arab.",
+  "replace": "Dhu al-Thudayya was a Kharijite figure, identified in some sources as Hurqus ibn Zuhayr (the identification is disputed). He was an Arab.",
+  "note": "repeated words, dangling apposition"
+ },
+ {
+  "n": 360,
+  "arg_id": "s-hadith-obj--the-assassinations-attributed-to-the-prophet",
+  "find": "incitement to war Miqyas",
+  "replace": "incitement to war. Miqyas",
+  "note": "missing full stop"
+ },
+ {
+  "n": 362,
+  "arg_id": "s-hadith-obj--other-hadith-objections-answered",
+  "find": ", and Jarir heard from him late; the chain also has a break (Ibn 'Ubayd from his father).",
+  "replace": ".",
+  "note": "stale old-claim tail"
+ },
+ {
+  "n": 364,
+  "arg_id": "s-morality--4-34-and-domestic-violence",
+  "find": "hurt her, and Aisha herself reported",
+  "replace": "hurt her. She also reported",
+  "note": "repeated name"
+ },
+ {
+  "n": 370,
+  "arg_id": "s-morality--non-muslims-under-islamic-rule",
+  "find": "free them from the Romans",
+  "replace": "free Christians from the Romans",
+  "note": "dangling pronoun"
+ },
+ {
+  "n": 378,
+  "arg_id": "s-aisha--65-4-those-who-have-not-menstruated",
+  "find": "It sets the waiting period for women who do not menstruate. Classical",
+  "replace": "Classical",
+  "note": "duplicate sentence"
+ },
+ {
+  "n": 379,
+  "arg_id": "s-sects--the-quran-itself-requires-the-sunnah-against-qur",
+  "find": ") (6:38 speaks of animals and birds).",
+  "replace": "), and 6:38 speaks of animals and birds.",
+  "note": "double parentheses"
+ },
+ {
+  "n": 380,
+  "arg_id": "s-sects--creed-points-for-debates-with-christians",
+  "find": " (begotten, proceeding)",
+  "replace": "",
+  "note": "duplicate parenthetical"
+ }
+]
