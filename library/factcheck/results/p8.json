@@ -1,0 +1,198 @@
+{
+ "part": "p8",
+ "arguments_checked": 18,
+ "findings": [
+  {
+   "arg_id": "s-gender--what-feminism-got-right-and-where-islam-differs",
+   "snippet": "The Quran states \u201cthe male is not like the female\u201d (3:36)",
+   "status": "misleading",
+   "problem": "In 3:36 these are the words of Mary's mother (the wife of Imran) about her newborn, and the context is her vow. Presenting them as a general Quranic statement about sex overstates the verse and an opponent can point to the context.",
+   "correction": "In the story of Mary's birth the Quran quotes her mother saying \u201cthe male is not like the female\u201d (3:36), and the Quran elsewhere treats sex as real and meaningful (53:45).",
+   "sources": [
+    "https://quran.com/3/36"
+   ]
+  },
+  {
+   "arg_id": "s-gender--marriage-consent-the-dowry-and-a-wife-s-way-out",
+   "snippet": "Habiba bint Sahl told the Prophet",
+   "status": "misleading",
+   "problem": "Bukhari 5273 does not name the wife; she is just the wife of Thabit ibn Qays. The name Habiba bint Sahl comes from other reports (Abu Dawud, Malik), and Jamila bint Ubayy is also named in other narrations. Naming her while citing Bukhari 5273 mismatches the source.",
+   "correction": "Thabit ibn Qays's wife (named Habiba bint Sahl in some reports, Jamila in others) told the Prophet",
+   "sources": [
+    "Sahih al-Bukhari 5273; Abu Dawud 2227; Muwatta Malik (Talaq)"
+   ]
+  },
+  {
+   "arg_id": "s-gender--honour-killing-forced-marriage-and-fgm-customs-not",
+   "snippet": "\u201cWhoever kills a soul unjustly\u2026 it is as if he had killed all mankind\u201d (5:32)",
+   "status": "misleading",
+   "problem": "5:32 does not contain the word 'unjustly'; it reads 'unless for a soul or for corruption in the land'. The text paraphrases and the ellipsis hides the exception, which opponents often quote against Muslims. The same wording recurs in other arguments of this part.",
+   "correction": "\u201cWhoever kills a soul, unless for a soul or for corruption [done] in the land, it is as if he had slain mankind entirely\u201d (5:32)",
+   "sources": [
+    "https://quran.com/5/32"
+   ]
+  },
+  {
+   "arg_id": "s-lgbt--born-this-way-does-not-settle-the-moral-question",
+   "snippet": "concluded that orientation is shaped by several factors, none individually decisive",
+   "status": "misleading",
+   "problem": "Bailey et al. (2016) concluded that biological factors (prenatal hormones, genetic factors) likely contribute and that evidence for social or learned causes is weak. Saying 'none individually decisive' undersells their conclusion and an opponent who has read the paper will say so.",
+   "correction": "Bailey and colleagues (Psychological Science in the Public Interest, 2016) concluded that orientation has multiple biological and non-social influences, with little support for social or learned causes; either way, the moral question is not settled by causes.",
+   "sources": [
+    "https://www.psychologicalscience.org/journals/pspi/1529100616637616/"
+   ]
+  },
+  {
+   "arg_id": "s-lgbt--sex-gender-and-the-categories-islamic-law-uses",
+   "snippet": "ordered men who deliberately imitated women to be kept out of women\u2019s quarters (Bukhari 5235), which shows he drew a line between sex and social role",
+   "status": "misleading",
+   "problem": "In Bukhari 5235 the man was tolerated as 'without need of women' until the Prophet heard him describing a woman's body; the stated reason for exclusion is that, not imitation. The inference about sex versus role is the author's own.",
+   "correction": "The Prophet \ufdfa ordered the effeminate men (mukhannathun) who had been allowed into women's quarters to be kept out after one described a woman's body (Bukhari 5235); the report is also cited by jurists in discussing gender behaviour.",
+   "sources": [
+    "Sahih al-Bukhari 5235 (sunnah.com/bukhari:5235)"
+   ]
+  },
+  {
+   "arg_id": "s-lgbt--the-revisionist-reading-of-lot-s-people",
+   "snippet": "It starts from modern values and re-reads the text to fit them",
+   "status": "misleading",
+   "problem": "This is an uncharitable characterisation of Kugle, Homosexuality in Islam: Critical Reflection on Gay, Lesbian, and Transgender Muslims (Oneworld, 2010). He argues from linguistic, Quranic and hadith analysis and from the Islamic tradition, and the book's title and year are right. Say that he argues it, and rebut the argument.",
+   "correction": "Kugle argues from philological and hadith analysis that the Lot narrative concerns rape, inhospitality and violence, and mainstream scholars in every school reject that reading because it sets aside the explicit wording.",
+   "sources": [
+    "Kugle, Homosexuality in Islam, Oneworld 2010"
+   ]
+  },
+  {
+   "arg_id": "s-lgbt--the-revisionist-reading-of-lot-s-people",
+   "snippet": "\u201cThese are my daughters; they are purer for you\u201d (11:78; 15:71)",
+   "status": "weak_source",
+   "problem": "'Purer for you' is only in 11:78. 15:71 reads 'These are my daughters, if you would be doers [of what you intend]'. Also, classical commentators (Tabari) record several readings of 'my daughters' (women of the people, or his own daughters).",
+   "correction": "\u201cThese are my daughters; they are purer for you\u201d (11:78; compare 15:71)",
+   "sources": [
+    "https://quran.com/11/78",
+    "https://quran.com/15/71"
+   ]
+  },
+  {
+   "arg_id": "s-liberal--where-do-universal-human-rights-come-from",
+   "snippet": "Several leading secular philosophers concede that this ground is hard to supply without religion",
+   "status": "misleading",
+   "problem": "Habermas argues that religious content can be translated into secular reasons (post-secular approach) and Rorty regards the lack of foundations as no problem. Waldron's claim concerns Locke specifically. Calling them concessions overstates their positions.",
+   "correction": "Some leading secular thinkers acknowledge the religious roots of equal human dignity (Habermas), argue that Locke's equality rested on theology (Waldron), or deny that rights need any foundation (Rorty).",
+   "sources": [
+    "Habermas, Time of Transitions (2006); Waldron, God, Locke, and Equality (CUP 2002); Rorty 1993"
+   ]
+  },
+  {
+   "arg_id": "s-liberal--where-do-universal-human-rights-come-from",
+   "snippet": "which is the clearest sign of the difficulty",
+   "status": "misleading",
+   "problem": "Rorty did not see this as a difficulty: he held that foundations are unnecessary and that sentiment is the right basis. The comment is the author's gloss, not Rorty's view, so state it as such.",
+   "correction": "a view Rorty held to be sufficient, and which critics say leaves rights without a ground",
+   "sources": [
+    "Rorty, 'Human Rights, Rationality, and Sentimentality' (1993)"
+   ]
+  },
+  {
+   "arg_id": "s-liberal--religion-causes-most-wars-and-the-data",
+   "snippet": "the authors classify 66 of those 123 as involving Islam",
+   "status": "misleading",
+   "problem": "The 123 'religious wars' figure comes from the index of Encyclopedia of Wars (2005); the percentages and the Islam breakdown (66) were mostly computed by third-party commentators and the authors did not themselves present them as a classification. I could not confirm 66 in the primary text.",
+   "correction": "the 123 figure is taken from the encyclopedia's index, and secondary tallies put about 66 of them as involving Islam; the encyclopedia does not itself make that classification",
+   "sources": [
+    "https://apholt.com/2018/12/26/counting-religious-wars-in-the-encyclopedia-of-wars/ (blocked, search snippet only)"
+   ]
+  },
+  {
+   "arg_id": "s-liberal--religion-causes-most-wars-and-the-data",
+   "snippet": "(Muwatta Malik, Book of Jihad)",
+   "status": "weak_source",
+   "problem": "Abu Bakr's instructions to the army (Muwatta Malik 21.3.10) are narrated by Malik from Yahya ibn Sa'id as a mursal (disconnected) report, so they are not strongly authenticated, though widely cited.",
+   "correction": "(Muwatta Malik, Book of Jihad, a mursal report widely cited by jurists)",
+   "sources": [
+    "Muwatta Malik 21.3.10"
+   ]
+  },
+  {
+   "arg_id": "s-liberal--muslims-as-citizens-of-secular-states",
+   "snippet": "al-Shafi\u2018i already added a third category of covenant ( dar al-\u2018ahd )",
+   "status": "weak_source",
+   "problem": "The attribution of a third category (dar al-ahd or dar al-sulh) to al-Shafi'i is common in secondary literature but rests on his discussion in al-Umm and has been disputed. Treat it as attributed, not settled.",
+   "correction": "al-Shafi\u2018i is usually credited with recognising a third category of covenant (dar al-\u2018ahd / dar al-sulh)",
+   "sources": [
+    "al-Shafi'i, al-Umm (Kitab al-Siyar)"
+   ]
+  },
+  {
+   "arg_id": "s-apostasy--the-prophet-s-own-record-with-those-who-left",
+   "snippet": "The \u2018Urayna group accepted Islam, killed a shepherd, mutilated him and stole the camels, and were punished for that (Bukhari 233, 3018)",
+   "status": "misleading",
+   "problem": "Bukhari 3018 and other versions say the group also 'became disbelievers after their Islam' (kafaru ba'da islamihim). Omitting this lets an opponent say the narration itself ties the punishment partly to apostasy. State it and argue the punishment was for murder and robbery.",
+   "correction": "The \u2018Urayna group accepted Islam, killed a shepherd, mutilated him and stole the camels; some narrations add that they left Islam, and the punishment is usually argued to be for the murder and robbery (Bukhari 233, 3018, 6802).",
+   "sources": [
+    "Sahih al-Bukhari 3018 (sunnah.com/bukhari:3018)"
+   ]
+  },
+  {
+   "arg_id": "s-apostasy--the-prophet-s-own-record-with-those-who-left",
+   "snippet": "In Abu Bakr\u2019s Ridda wars the fighting was against tribes that withheld zakat in rebellion and against false claimants such as Musaylima who had armies.",
+   "status": "misleading",
+   "problem": "Classical sources also describe the Ridda wars as against apostates (Tulayha, al-Aswad al-Ansi, tribes that left Islam), and Abu Bakr's dispute with Umar was about those who only withheld zakat. Framing it as rebellion alone is one side of a debate.",
+   "correction": "The Ridda wars involved both tribes that withheld zakat and tribes and claimants who abandoned Islam and took up arms; classical sources use the word apostasy, and modern writers dispute how much was political.",
+   "sources": [
+    "al-Tabari, Tarikh (Ridda); Bukhari 1399-1400"
+   ]
+  },
+  {
+   "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+   "snippet": "Ireland abolished its offence in 2018 after a referendum",
+   "status": "error",
+   "problem": "The October 2018 referendum removed the constitutional reference; the offence itself was abolished by the Blasphemy (Abolition of Offences and Related Matters) Act 2019, signed 21 Dec 2019 and commenced in January 2020.",
+   "correction": "Ireland held a referendum in 2018 and abolished the offence by statute in 2019 (in force January 2020)",
+   "sources": [
+    "https://lawsociety.ie/gazette/top-stories/2020/01-january/justice-minister-commences-abolition-of-blasphemy-act",
+    "https://en.wikipedia.org/wiki/Thirty-seventh_Amendment_of_the_Constitution_of_Ireland"
+   ]
+  },
+  {
+   "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+   "snippet": "which Ireland abolished only in 2018",
+   "status": "error",
+   "problem": "Same error: the 2018 referendum was a constitutional vote; statutory abolition was 2019.",
+   "correction": "which Ireland abolished by referendum in 2018 and statute in 2019",
+   "sources": [
+    "https://merrionstreet.ie/en/news-room/releases/minister_flanagan_announces_commencement_of_the_blasphemy_abolition_act_2019.html"
+   ]
+  },
+  {
+   "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+   "snippet": "The Hanafis hold that a non-Muslim who insults is not put to death for it",
+   "status": "weak_source",
+   "problem": "This is the standard early Hanafi position, but later Hanafi jurists (e.g. Ibn Abidin, Ibn al-Humam) allowed death as discretionary punishment for repeated insult, so the school was not uniform.",
+   "correction": "The early Hanafi position is that a non-Muslim who insults is not put to death for it, though later Hanafi jurists allowed discretionary death for repeat offences.",
+   "sources": [
+    "Ibn Abidin, Hashiyat Radd al-Muhtar"
+   ]
+  },
+  {
+   "arg_id": "s-gender--equal-in-worth-different-in-role",
+   "snippet": "The commentators tie the degree to responsibility and leadership in the household, not to worth.",
+   "status": "weak_source",
+   "problem": "Tabari records Ibn Abbas reading the 'degree' (2:228) as the husband's forbearance and generosity, while others tie it to maintenance or leadership. Presenting a single commentator view and then pairing it with Ibn Abbas is slightly inconsistent.",
+   "correction": "Commentators differ: some link the degree to maintenance and leadership, and Ibn Abbas read it as the husband's forbearance and generosity, none as superior worth.",
+   "sources": [
+    "al-Tabari, Jami' al-bayan on 2:228"
+   ]
+  },
+  {
+   "arg_id": "s-gender--what-feminism-got-right-and-where-islam-differs",
+   "snippet": "Megawati Sukarnoputri in Indonesia",
+   "status": "weak_source",
+   "problem": "Megawati was Indonesia's president (2001-04), i.e. head of state and government; the list is said to be of heads of government, and the dates are only given for Bhutto.",
+   "correction": "Megawati Sukarnoputri as president of Indonesia (2001)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Megawati_Sukarnoputri"
+   ]
+  }
+ ]
+}
