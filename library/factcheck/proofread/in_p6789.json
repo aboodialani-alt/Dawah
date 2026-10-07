@@ -1,0 +1,690 @@
+[
+ {
+  "n": 381,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+  "status": "misleading",
+  "correction_inserted": "Almost every meaningful assertion presupposes them, and anyone who denies them in ordinary reasoning still relies on them to make the denial.",
+  "context": " Argument 1 of 12The laws of logic: what everyone is bound by Studied ThesisThree laws of logic bind every person in every debate: identity, non-contradiction and excluded middle. Almost every meaningful assertion presupposes them, and anyone who denies them in ordinary reasoning still relies on them to make the denial. They are the first thing you can hold anyone to. ArgumentP1To assert anything meaningful, you must mean that it is so and not otherwise.P2That assumes non-contradiction (a claim and its denial can't both be true in the "
+ },
+ {
+  "n": 382,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+  "status": "misleading",
+  "correction_inserted": "a claim or its negation is true (excluded middle; classical logic also assumes every claim is true or false, bivalence)",
+  "context": "e to. ArgumentP1To assert anything meaningful, you must mean that it is so and not otherwise.P2That assumes non-contradiction (a claim and its denial can't both be true in the same sense at the same time), identity (a thing is what it is) and excluded middle (a claim or its negation is true (excluded middle; classical logic also assumes every claim is true or false, bivalence)).∴No one can coherently reject these laws; any argument against them uses them. Evidence Identity. A is A: a thing is what it is. \"God\" in your premise must mean the same in your conclusion (or you commit equivocation)."
+ },
+ {
+  "n": 383,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+  "status": "misleading",
+  "correction_inserted": "This is the law you use against the Trinity's formula when the 'is' is read as strict identity (Trinitarians reply that 'is' differs in sense):",
+  "context": ": a thing is what it is. \"God\" in your premise must mean the same in your conclusion (or you commit equivocation). Non-contradiction. Not both A and not-A, in the same sense at the same time. Aristotle called it the firmest of all principles (Metaphysics IV). This is the law you use against the Trinity's formula when the 'is' is read as strict identity (Trinitarians reply that 'is' differs in sense): \"the Father is God, the Son is God, the Father is not the Son, there is one God\" (see How the Trinity developed), and against \"Jesus knew and did not know the Hour\". Excluded middle. Either A or not-A. \"Jesus is God\" is"
+ },
+ {
+  "n": 384,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+  "status": "misleading",
+  "correction_inserted": "Paraconsistent logics are formal systems built to avoid 'explosion' when inconsistent information is present; even dialetheists restrict true contradictions to special cases like the Liar paradox, not ordinary claims like God's existence.",
+  "context": "s; it is not a particle being \"here and not here in the same sense at the same time\". Physicists use logic to state quantum mechanics.\"Paraconsistent logics allow contradictions.\"They are formal systems designed to avoid \"explosion\" in inconsistent data sets; Paraconsistent logics are formal systems built to avoid 'explosion' when inconsistent information is present; even dialetheists restrict true contradictions to special cases like the Liar paradox, not ordinary claims like God's existence. PracticeYour opponent says“The Trinity is beyond human logic; you can't judge God with logic.”Answer it in your head first, then compare.Show a model answerIf logic doesn't apply, you can't say the Trinity is true rathe"
+ },
+ {
+  "n": 385,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--how-arguments-work-validity-soundness-and-the-th",
+  "status": "weak_source",
+  "correction_inserted": "the Oxford Cognition, Religion and Theology Project's studies in 20 countries on natural predispositions to belief",
+  "context": "claim. Invalid forms to watch for. Affirming the consequent: if P then Q; Q; so P. Denying the antecedent: if P then Q; not P; so not Q. Inductive arguments reason from many cases to a general conclusion. They make conclusions probable, not certain. (Example: the Oxford Cognition, Religion and Theology Project's studies in 20 countries on natural predispositions to belief.) Abductive arguments (inference to the best explanation) choose the hypothesis that best explains the evidence, judged by explanatory power, scope, simplicity, fit with background knowledge and lack of ad hoc additions"
+ },
+ {
+  "n": 386,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to",
+  "status": "misleading",
+  "correction_inserted": "Islamic jurisprudence has an analogous litigation rule:",
+  "context": "upport, and refuse to carry burdens that aren't yours. Evidence The rule. \"Whoever asserts must prove.\" This applies to positive claims (\"God exists\") and to negative ones (\"God doesn't exist\", \"the Bible was not corrupted\", \"Muhammad copied from the Bible\"). Islamic jurisprudence has an analogous litigation rule:: \"the burden of proof is on the claimant\" (al-bayyina 'ala al-mudda'i, al-Bayhaqi, al-Sunan al-Kubra). The \"lack of belief\" move. Some atheists define atheism as \"lack of belief\" to avoid any burden. Fine, then they hav"
+ },
+ {
+  "n": 387,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it",
+  "status": "misleading",
+  "correction_inserted": "Dogmatic scepticism (\"we can't know anything\") refutes itself, since it claims to know that knowledge is impossible; Pyrrhonian scepticism avoids this by suspending judgment, so press it on why we should doubt reliable faculties.",
+  "context": "d by so many independent people that collusion is impossible (mutawatir) give certain knowledge on the majority view of the usul scholars. This is how the Quran's text is known, and it is the same principle by which we know cities we have never visited exist. Dogmatic scepticism (\"we can't know anything\") refutes itself, since it claims to know that knowledge is impossible; Pyrrhonian scepticism avoids this by suspending judgment, so press it on why we should doubt reliable faculties. Verificationism (logical positivism: only empirically verifiable or tautological statements are meaningful) collapsed because the principle itself is neither empirically verifiable nor a tautology. A.J. Ayer later admit"
+ },
+ {
+  "n": 388,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it",
+  "status": "misleading",
+  "correction_inserted": "give certain knowledge on the majority view of the usul scholars",
+  "context": "ntinga argued belief in God can be \"properly basic\". This fits the Islamic fitrah. Testimony and mass transmission. Islam developed a sophisticated theory of testimony: reports transmitted by so many independent people that collusion is impossible (mutawatir) give certain knowledge on the majority view of the usul scholars. This is how the Quran's text is known, and it is the same principle by which we know cities we have never visited exist. Dogmatic scepticism (\"we can't know anything\") refutes itself, since it claims to know that knowl"
+ },
+ {
+  "n": 389,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo",
+  "status": "misleading",
+  "correction_inserted": "On Avicenna's view, for any created thing what it is doesn't include that it is (a distinction Ibn Rushd and Ibn Taymiyya reject)",
+  "context": ": wajib (must exist), ja'iz/mumkin (can exist or not, so needs a cause), mustahil (cannot exist, like a square circle); Avicenna's wajib al-wujud/mumkin al-wujud sharpened the first two. Avicenna built his proof of God on this division. Essence and existence. On Avicenna's view, for any created thing what it is doesn't include that it is (a distinction Ibn Rushd and Ibn Taymiyya reject): knowing what a horse is doesn't tell you whether one exists. Something must give it existence. In God, existence is not added to essence. Causation. Distinguish causes in time (a match lighting a fire) from causes here"
+ },
+ {
+  "n": 390,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo",
+  "status": "misleading",
+  "correction_inserted": "The rational categories: wajib (must exist), ja'iz/mumkin (can exist or not, so needs a cause), mustahil (cannot exist, like a square circle); Avicenna's wajib al-wujud/mumkin al-wujud sharpened the first two.",
+  "context": " set of metaphysical concepts. Learn them precisely: necessary and contingent, essence and existence, causation and the principle of sufficient reason, actual and potential infinity, and the theologians' categories. Evidence Necessary, contingent, impossible. The rational categories: wajib (must exist), ja'iz/mumkin (can exist or not, so needs a cause), mustahil (cannot exist, like a square circle); Avicenna's wajib al-wujud/mumkin al-wujud sharpened the first two. Avicenna built his proof of God on this division. Essence and existence. On Avicenna's view, for any created thing what it is doesn't include that it is (a distinction Ibn Rushd and Ibn Taymiyya reject): knowing what a "
+ },
+ {
+  "n": 391,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo",
+  "status": "misleading",
+  "correction_inserted": "(Aquinas, and Ibn Taymiyya's argument from essential dependence) concern sustaining causes, which can't regress infinitely (Ibn Taymiyya allowed an endless past series of events, so the kalam beginning-argument is not his)",
+  "context": "must give it existence. In God, existence is not added to essence. Causation. Distinguish causes in time (a match lighting a fire) from causes here and now that sustain existence (the fire depends on oxygen now). The strongest cosmological arguments (Aquinas, (Aquinas, and Ibn Taymiyya's argument from essential dependence) concern sustaining causes, which can't regress infinitely (Ibn Taymiyya allowed an endless past series of events, so the kalam beginning-argument is not his). The principle of sufficient reason (Leibniz): there is an explanation for why anything exists rather than not. Opponents who deny it must explain why they still expect explanations in science. Actual vs potential infin"
+ },
+ {
+  "n": 392,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+  "status": "error",
+  "correction_inserted": "The logical version is widely regarded as defeated by Plantinga's free will defense (even atheists such as William Rowe concede this).",
+  "context": "hen actual (Plantinga says this makes theism rational, not that it compels belief). Use with care; many philosophers, including Muslim ones, find it unpersuasive. Objections and short answers Who made God? Only contingent things need a cause. Problem of evil. The logical version is widely regarded as defeated by Plantinga's free will defense (even atheists such as William Rowe concede this); the evidential version assumes we can see what an all-wise God sees, and ignores the afterlife. Divine hiddenness. God is knowable but does not compel belief; life is a test (67:2). Euthyphro dilemma. Good is grounded i"
+ },
+ {
+  "n": 393,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+  "status": "misleading",
+  "correction_inserted": "Natural, widespread belief (Barrett)",
+  "context": "iousness and reason. The argument from mind (Swinburne) and the evolutionary argument against naturalism (Plantinga): if our faculties evolved only for survival, we can't trust them to produce true beliefs, including naturalism. Fitrah / religious experience. Natural, widespread belief (Barrett) and the rationality of basic beliefs. Ontological (Anselm, Plantinga's modal version): a maximally great being is possible, and if possible then actual (Plantinga says this makes theism rational, not that it compels bel"
+ },
+ {
+  "n": 394,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+  "status": "misleading",
+  "correction_inserted": "The arguments, if sound, lead to one necessary, perfect being;",
+  "context": " a \"stone an omnipotent being can't lift\" is a contradiction, not a thing. Incoherence of attributes (omniscience vs free will). Knowledge does not cause; God knows what we freely choose (see Free will and qadar). Many gods objection (\"why Allah, not Zeus?\"). The arguments, if sound, lead to one necessary, perfect being;; finite gods like Zeus are contingent beings who fail every attribute proved. PracticeYour opponent says“You're just an atheist about the other gods; I go one god further.”Answer it in your head first, then compare.Show"
+ },
+ {
+  "n": 395,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+  "status": "misleading",
+  "correction_inserted": "a maximally great being is possible, and if possible then actual (Plantinga says this makes theism rational, not that it compels belief)",
+  "context": " faculties evolved only for survival, we can't trust them to produce true beliefs, including naturalism. Fitrah / religious experience. Natural, widespread belief (Barrett) and the rationality of basic beliefs. Ontological (Anselm, Plantinga's modal version): a maximally great being is possible, and if possible then actual (Plantinga says this makes theism rational, not that it compels belief). Use with care; many philosophers, including Muslim ones, find it unpersuasive. Objections and short answers Who made God? Only contingent things need a cause. Problem of evil. The logical version is widely regarded as "
+ },
+ {
+  "n": 396,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--ethics-what-grounds-right-and-wrong",
+  "status": "misleading",
+  "correction_inserted": "can lead to conclusions such as Peter Singer's on infanticide, given his preference utilitarianism",
+  "context": "alse (error theory, J.L. Mackie). The is-ought gap (Hume): you can't derive an \"ought\" from facts alone. Secular realists need some starting value; ask them to justify it. The main normative theories. Consequentialism (the right act produces the best outcome; can lead to conclusions such as Peter Singer's on infanticide, given his preference utilitarianism); deontology (duties and rights, Kant; struggles to ground the duties); virtue ethics (Aristotle; needs an account of human nature and purpose, which theism supplies); divine command theory and natural law. The Islamic "
+ },
+ {
+  "n": 397,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--ethics-what-grounds-right-and-wrong",
+  "status": "misleading",
+  "correction_inserted": "On the view of Maturidis and Ibn Taymiyya, good and evil are grounded in Allah's wise and perfect nature and expressed in His commands;",
+  "context": " his preference utilitarianism); deontology (duties and rights, Kant; struggles to ground the duties); virtue ethics (Aristotle; needs an account of human nature and purpose, which theism supplies); divine command theory and natural law. The Islamic position. On the view of Maturidis and Ibn Taymiyya, good and evil are grounded in Allah's wise and perfect nature and expressed in His commands; the fitrah gives humans a general moral sense (91:7-8), and revelation gives the details. Muslim theologians debated whether reason alone can know good and evil (the Mu'tazila said yes, the Ash'aris said good, evil and "
+ },
+ {
+  "n": 398,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--ethics-what-grounds-right-and-wrong",
+  "status": "misleading",
+  "correction_inserted": "the Ash'aris said good, evil and obligation are known and fixed by revelation, the Maturidis sided with reason on knowing good and evil",
+  "context": "rounded in Allah's wise and perfect nature and expressed in His commands; the fitrah gives humans a general moral sense (91:7-8), and revelation gives the details. Muslim theologians debated whether reason alone can know good and evil (the Mu'tazila said yes, the Ash'aris said good, evil and obligation are known and fixed by revelation, the Maturidis sided with reason on knowing good and evil, and Ibn Taymiyya held that reason knows good and evil but obligation and reward come through revelation). Moral relativism (\"morality is relative to culture\") refutes itself when pushed: it implies no culture could eve"
+ },
+ {
+  "n": 399,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--philosophy-of-science-what-science-can-and-can-t",
+  "status": "error",
+  "correction_inserted": "Underdetermination (Duhem and Quine) and theory change (Thomas Kuhn)",
+  "context": "e proceeds anyway, on trust in nature's uniformity. Falsifiability (Karl Popper): a scientific theory must risk being proved wrong. This is a criterion for science, not for truth; mathematics and history are not falsifiable in the same way but give knowledge. Underdetermination (Duhem and Quine) and theory change (Thomas Kuhn): theories are revised and sometimes replaced. Scientific claims are provisional. That's why Islamic arguments should not depend on a current scientific model, and why critics can't treat today's theory as final. Methodo"
+ },
+ {
+  "n": 400,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--philosophy-of-mind-and-the-self",
+  "status": "error",
+  "correction_inserted": "eliminativism (folk-psychological states like belief and desire do not really exist, Paul and Patricia Churchland; illusionism about consciousness, Keith Frankish and Daniel Dennett)",
+  "context": "soul and free will are central to debates with materialists. Know the main positions and why materialism struggles. Evidence Physicalism: the mind is the brain or what the brain does. Versions: identity theory, functionalism (mind is what the brain computes), eliminativism (folk-psychological states like belief and desire do not really exist, Paul and Patricia Churchland; illusionism about consciousness, Keith Frankish and Daniel Dennett). Dualism: the mind or soul is not wholly physical. Substance dualism (Descartes; the Islamic ruh), property dualism (mental properties aren't physical, Chalmers). Key arguments against physicalism. The knowledge argumen"
+ },
+ {
+  "n": 401,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--philosophy-of-mind-and-the-self",
+  "status": "misleading",
+  "correction_inserted": "Jackson's Mary argument (1982; Jackson later gave it up, but many still defend it) says she learns something new when she sees red. That suggests",
+  "context": "rent. PracticeYour opponent says“Consciousness is just neurons firing.”Answer it in your head first, then compare.Show a model answerNeurons firing is what happens in the brain when you see red; it doesn't explain why there is something it is like to see red. Jackson's Mary argument (1982; Jackson later gave it up, but many still defend it) says she learns something new when she sees red. That suggests experience isn't just a physical fact. In one breathPhysicalism (identity, functionalism, eliminativism) vs dualism (substance, property). Use Mary's room, the hard problem, intentionality and the unity of consciousness"
+ },
+ {
+  "n": 402,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--islam-and-philosophy-what-muslim-scholars-accept",
+  "status": "misleading",
+  "correction_inserted": "Al-Ghazali mastered philosophy and used logic",
+  "context": "nd remember Ibn Taymiyya's point: the Quran's arguments (52:35; 21:22; 36:78-79) are themselves rational proofs. PracticeYour opponent says“Islam is anti-intellectual; al-Ghazali killed philosophy.”Answer it in your head first, then compare.Show a model answerAl-Ghazali mastered philosophy and used logic; he criticised specific doctrines, and Ibn Rushd answered him, and the debate continued for centuries. Philosophy flourished after him in Persia and the Ottoman lands. The Quran commands reflection over and over (3:190-"
+ },
+ {
+  "n": 403,
+  "page": "p6.html",
+  "arg_id": "s-philosophy--islam-and-philosophy-what-muslim-scholars-accept",
+  "status": "weak_source",
+  "correction_inserted": "criticised Aristotelian logic's claims (for example, that real definitions are the only path to concepts, see Hallaq, Ibn Taymiyya Against the Greek Logicians)",
+  "context": "tional theology (kalam), including the arguments from the createdness of the world. Ibn Taymiyya (d. 1328), in al-Radd 'ala al-Mantiqiyyin (Refutation of the Logicians) and Dar' Ta'arud al-'Aql wa al-Naql (Averting the Conflict between Reason and Revelation), criticised Aristotelian logic's claims (for example, that real definitions are the only path to concepts, see Hallaq, Ibn Taymiyya Against the Greek Logicians) and argued that sound reason never contradicts authentic revelation. He grounded the arguments for God in the fitrah and in the Quran's own reasoning, which he held to be more certain than the philosophers' proofs. The "
+ },
+ {
+  "n": 404,
+  "page": "p7.html",
+  "arg_id": "s-resources--the-quran-preservation-text-and-its-challenge",
+  "status": "misleading",
+  "correction_inserted": "Behnam Sadeghi & Mohsen Goudarzi (they argue the lower text is a pre-'Uthmanic codex; read it critically)",
+  "context": "Second Canonization of the Qur'an (2020). Essential for the qira'at debate. Marijn van Putten, Quranic Arabic: From its Hijazi Origins to its Classical Reading Traditions (2022). Also his articles on the shared spelling \"fingerprints\" of the Uthmanic codices. Behnam Sadeghi & Mohsen Goudarzi (they argue the lower text is a pre-'Uthmanic codex; read it critically), \"Ṣan'ā' 1 and the Origins of the Qur'ān,\" Der Islam 87 (2012). The key article on the Sana'a palimpsest. Nicolai Sinai, The Qur'an: A Historical-Critical Introduction (2017). An academic, non-Muslim account that reject"
+ },
+ {
+  "n": 405,
+  "page": "p7.html",
+  "arg_id": "s-resources--the-quran-preservation-text-and-its-challenge",
+  "status": "misleading",
+  "correction_inserted": "Shady Nasser, The Transmission of the Variant Readings of the Qur'an (2013), which argues the readings were not strictly mutawatir",
+  "context": "Qur'an: revelation, compilation, the qira'at and abrogation. Ahmad von Denffer, 'Ulum al-Qur'an (1983). A shorter alternative. Muhammad Abdullah Draz, The Qur'an: An Eternal Challenge (al-Naba' al-'Azim). The classic modern case for the Quran's inimitability. Shady Nasser, The Transmission of the Variant Readings of the Qur'an (2013), which argues the readings were not strictly mutawatir and The Second Canonization of the Qur'an (2020). Essential for the qira'at debate. Marijn van Putten, Quranic Arabic: From its Hijazi Origins to its Classical Reading Traditions (2022). Also his articles on the shared "
+ },
+ {
+  "n": 406,
+  "page": "p7.html",
+  "arg_id": "s-resources--the-quran-preservation-text-and-its-challenge",
+  "status": "weak_source",
+  "correction_inserted": "Daniel Brubaker, Corrections in Early Qur'an Manuscripts: Twenty Examples (2019)",
+  "context": "cally), \"Ṣan'ā' 1 and the Origins of the Qur'ān,\" Der Islam 87 (2012). The key article on the Sana'a palimpsest. Nicolai Sinai, The Qur'an: A Historical-Critical Introduction (2017). An academic, non-Muslim account that rejects late-date theories. Other side: Daniel Brubaker, Corrections in Early Qur'an Manuscripts: Twenty Examples (2019); Keith Small, Textual Criticism and Qur'an Manuscripts (2011). In one breathRead al-A'zami first, then Qadhi for the sciences, Nasser and van Putten for the readings and manuscripts, and Sadeghi on Sana'a. Know Small an"
+ },
+ {
+  "n": 407,
+  "page": "p7.html",
+  "arg_id": "s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl",
+  "status": "weak_source",
+  "correction_inserted": "The classic 19th-century response to the missionaries (note its sources are dated): textual corruption, contradictions and prophecies.",
+  "context": " Argument 3 of 11Muhammad ﷺ in earlier scripture and the Quran–Bible relationship Studied Evidence Start here: Rahmatullah Kairanawi, Izhar al-Haqq (1864; English abridgement The Truth Revealed). The classic 19th-century response to the missionaries (note its sources are dated): textual corruption, contradictions and prophecies. Ibn Taymiyya, al-Jawab al-Sahih li-man Baddala Din al-Masih. The most comprehensive classical answer to Christianity. A partial English version is A Muslim Theologian's Response to Christianity, translated by Thomas Mic"
+ },
+ {
+  "n": 408,
+  "page": "p7.html",
+  "arg_id": "s-resources--christianity-jesus-the-trinity-paul-and-the-new",
+  "status": "misleading",
+  "correction_inserted": "Dale Tuggy, What is the Trinity? Thinking About the Father, Son, and Holy Spirit (2017, self-published).",
+  "context": ". R.P.C. Hanson, The Search for the Christian Doctrine of God: The Arian Controversy 318–381 (1988). The standard history of how the Trinity was fixed. Anthony Buzzard & Charles Hunting, The Doctrine of the Trinity: Christianity's Self-Inflicted Wound (1998); Dale Tuggy, What is the Trinity? Thinking About the Father, Son, and Holy Spirit (2017, self-published). Unitarian Christian critiques. Paula Fredriksen, Paul: The Pagans' Apostle (2017) and When Christians Were Jews (2018); James Tabor, Paul and Jesus (2012); Hyam Maccoby, The Mythmaker (1986, a polemical work). Geza Verm"
+ },
+ {
+  "n": 409,
+  "page": "p7.html",
+  "arg_id": "s-resources--christianity-jesus-the-trinity-paul-and-the-new",
+  "status": "weak_source",
+  "correction_inserted": "H.J. Schoeps, Jewish Christianity (1969; dated, read as history of scholarship).",
+  "context": "a Vermes, Jesus the Jew (1973), The Nativity (2006) and The Resurrection (2008); Dale Allison, Constructing Jesus (2010) and Resurrecting Jesus (2005). John Kloppenborg, Q, the Earliest Gospel (2008); Brent Nongbri, God's Library (2018) on dating manuscripts; H.J. Schoeps, Jewish Christianity (1969; dated, read as history of scholarship). Gerald Sigal, The Virgin Birth Myth (2016). Other side: Larry Hurtado, Lord Jesus Christ (2003); Richard Bauckham, Jesus and the Eyewitnesses (2006); Michael Licona, The Resurrection of Jesus (2010) and Why Are There Di"
+ },
+ {
+  "n": 410,
+  "page": "p7.html",
+  "arg_id": "s-resources--atheism-arguments-for-god-and-science",
+  "status": "weak_source",
+  "correction_inserted": "A widely read Muslim book against atheism.",
+  "context": " Argument 7 of 11Atheism, arguments for God and science Studied Evidence Start here: Hamza Andreas Tzortzis, The Divine Reality: God, Islam and the Mirage of Atheism (rev. ed. 2019). A widely read Muslim book against atheism. Edward Feser, Five Proofs of the Existence of God (2017). Rigorous arguments, each followed by deriving the divine attributes and answering objections. His The Last Superstition (2008) is a polemical companion. Richard "
+ },
+ {
+  "n": 411,
+  "page": "p7.html",
+  "arg_id": "s-resources--atheism-arguments-for-god-and-science",
+  "status": "error",
+  "correction_inserted": "Antony Flew, There Is a God (2007, written with Roy Abraham Varghese). Flew, a famous atheist philosopher, became a deist; critics dispute how much of the book is his own work.",
+  "context": " relate to the fitrah. Thomas Nagel, Mind and Cosmos (2012). An atheist on why materialism fails to explain mind. Alvin Plantinga, Where the Conflict Really Lies: Science, Religion, and Naturalism (2011). Includes the evolutionary argument against naturalism. Antony Flew, There Is a God (2007, written with Roy Abraham Varghese). Flew, a famous atheist philosopher, became a deist; critics dispute how much of the book is his own work. Sherman Jackson, Islam and the Problem of Black Suffering (2009); Jon Hoover, Ibn Taymiyya's Theodicy of Perpetual Optimism (2007). The problem of evil from an Islamic perspective. Ibn al-Qayyim, Shifa' al-'Alil. The cl"
+ },
+ {
+  "n": 412,
+  "page": "p7.html",
+  "arg_id": "s-resources--atheism-arguments-for-god-and-science",
+  "status": "misleading",
+  "correction_inserted": "Fine-tuning by two cosmologists (they do not draw a theistic conclusion).",
+  "context": "2nd ed. 2004). The probabilistic case. William Lane Craig & J.P. Moreland (eds.), The Blackwell Companion to Natural Theology (2009). Academic chapters on every argument. Luke Barnes & Geraint Lewis, A Fortunate Universe: Life in a Finely Tuned Cosmos (2016). Fine-tuning by two cosmologists (they do not draw a theistic conclusion). Justin Barrett, Born Believers: The Science of Children's Religious Belief (2012). Cognitive science of children's religious belief, which Muslim authors relate to the fitrah. Thomas Nagel, Mind and Cosmos (2012). An at"
+ },
+ {
+  "n": 413,
+  "page": "p7.html",
+  "arg_id": "s-resources--atheism-arguments-for-god-and-science",
+  "status": "misleading",
+  "correction_inserted": "Cognitive science of children's religious belief, which Muslim authors relate to the fitrah.",
+  "context": "ery argument. Luke Barnes & Geraint Lewis, A Fortunate Universe: Life in a Finely Tuned Cosmos (2016). Fine-tuning by two cosmologists (they do not draw a theistic conclusion). Justin Barrett, Born Believers: The Science of Children's Religious Belief (2012). Cognitive science of children's religious belief, which Muslim authors relate to the fitrah. Thomas Nagel, Mind and Cosmos (2012). An atheist on why materialism fails to explain mind. Alvin Plantinga, Where the Conflict Really Lies: Science, Religion, and Naturalism (2011). Includes the evolutionary argument ag"
+ },
+ {
+  "n": 414,
+  "page": "p7.html",
+  "arg_id": "s-resources--agnosticism-and-the-divine-attributes",
+  "status": "misleading",
+  "correction_inserted": "Its chapters derive the divine attributes (unity, simplicity, eternity, omnipotence, omniscience, perfect goodness) from each proof.",
+  "context": " Argument 8 of 11Agnosticism and the divine attributes Studied Evidence Start here: Feser, Five Proofs of the Existence of God (above). Its chapters derive the divine attributes (unity, simplicity, eternity, omnipotence, omniscience, perfect goodness) from each proof al-Ghazali, al-Iqtisad fi al-I'tiqad, translated by Aladdin Yaqub as Al-Ghazali's Moderation in Belief (2013). A systematic proof of God's existence and attributes. Ibn Rushd, al-Kashf 'an Manahij al-Adilla, translated b"
+ },
+ {
+  "n": 415,
+  "page": "p7.html",
+  "arg_id": "s-resources--philosophy-logic-fallacies-and-the-main-fields",
+  "status": "error",
+  "correction_inserted": "Wael Hallaq, Ibn Taymiyya Against the Greek Logicians (Clarendon Press, 1993). A translation of al-Suyuti's abridgement of Ibn Taymiyya's critique of Aristotelian logic.",
+  "context": "amic World (2016). al-Ghazali, The Incoherence of the Philosophers, translated by Michael Marmura (2nd ed. 2000), and Deliverance from Error (al-Munqidh min al-Dalal). Ibn Rushd, The Decisive Treatise (Fasl al-Maqal), translated by Charles Butterworth (2001). Wael Hallaq, Ibn Taymiyya Against the Greek Logicians (Clarendon Press, 1993). A translation of al-Suyuti's abridgement of Ibn Taymiyya's critique of Aristotelian logic. In one breathBegin with Blackburn or Warburton, then Kreeft's logic and Damer's fallacies. Pick one book per field. For the Islamic tradition, read Adamson, then al-Ghazali's Incoherence and Hallaq's Ibn Taymiyya. "
+ },
+ {
+  "n": 416,
+  "page": "p7.html",
+  "arg_id": "s-resources--online-tools",
+  "status": "misleading",
+  "correction_inserted": "Corpus Coranicum (manuscripts, variant readings and late-antique parallel texts for the Quran)",
+  "context": " Argument 11 of 11Online tools Studied Evidence Quran: Corpus Coranicum (manuscripts, variant readings and late-antique parallel texts for the Quran), quran.com, quran.ksu.edu.sa, altafsir.com. Hadith: sunnah.com, dorar.net (gradings), isnad.io. Classical library: shamela.ws. Bible: Codex Sinaiticus online, the NT Virtual Manuscript Room, CSNTM (Center for the Study "
+ },
+ {
+  "n": 417,
+  "page": "p8.html",
+  "arg_id": "s-gender--what-feminism-got-right-and-where-islam-differs",
+  "status": "misleading",
+  "correction_inserted": "In the story of Mary's birth the Quran quotes her mother saying “the male is not like the female” (3:36), and the Quran elsewhere treats sex as real and meaningful (53:45).",
+  "context": "iage contradicts the sources. When the Taliban banned girls’ secondary schooling (2021) and women’s university education (2022), Al-Azhar and the Organisation of Islamic Cooperation criticised the decisions as contrary to Islam. Where Islam differs: sameness. In the story of Mary's birth the Quran quotes her mother saying “the male is not like the female” (3:36), and the Quran elsewhere treats sex as real and meaningful (53:45) and treats sex as real and meaningful (see the section on sexuality and gender). Where Islam differs: motherhood. A man asked who most deserved his good company and the Prophet ﷺ said: “Your mother”, three times, “then y"
+ },
+ {
+  "n": 418,
+  "page": "p8.html",
+  "arg_id": "s-gender--marriage-consent-the-dowry-and-a-wife-s-way-out",
+  "status": "misleading",
+  "correction_inserted": "Thabit ibn Qays's wife (named Habiba bint Sahl in some reports, Jamila in others) told the Prophet",
+  "context": "property and she may spend it as she wishes. Conditions. “The conditions most deserving to be fulfilled are those by which you make intimacy lawful” (Bukhari 2721), which the Hanbali school applies to conditions such as no second wife or no relocation. Khul‘. Thabit ibn Qays's wife (named Habiba bint Sahl in some reports, Jamila in others) told the Prophet ﷺ she did not fault her husband Thabit ibn Qays’s character or religion but could not live with him; he asked her to return the garden she had received from him and told Thabit to accept it and divorce her (Bukhari 5273"
+ },
+ {
+  "n": 419,
+  "page": "p8.html",
+  "arg_id": "s-gender--honour-killing-forced-marriage-and-fgm-customs-not",
+  "status": "misleading",
+  "correction_inserted": "“Whoever kills a soul, unless for a soul or for corruption [done] in the land, it is as if he had slain mankind entirely” (5:32)",
+  "context": "rn Muslim authorities have prohibited it on the ground of harm.∴Honour killings and forced marriage are crimes under Islamic law, and FGM is a disputed custom that Islamic principles of preventing harm now lead major authorities to prohibit. Evidence Killing. “Whoever kills a soul, unless for a soul or for corruption [done] in the land, it is as if he had slain mankind entirely” (5:32); “Do not kill the soul that Allah has made sacred except by right” (17:33). A father or brother has no right to execute anyone. The standard of proof. Zina requires four eyewitnesses to the act itself (24:13), and a fal"
+ },
+ {
+  "n": 420,
+  "page": "p8.html",
+  "arg_id": "s-lgbt--born-this-way-does-not-settle-the-moral-question",
+  "status": "misleading",
+  "correction_inserted": "Bailey and colleagues (Psychological Science in the Public Interest, 2016) concluded that orientation has multiple biological and non-social influences, with little support for social or learned causes; either way, the moral question is not settled by causes.",
+  "context": " slogan claims. A large 2019 genome-wide study of nearly half a million people (Ganna et al., Science) found no single “gay gene”, with common genetic variants together accounting for roughly 8 to 25 percent of the variation in same-sex behaviour. A review by Bailey and colleagues (Psychological Science in the Public Interest, 2016) Bailey and colleagues (Psychological Science in the Public Interest, 2016) concluded that orientation has multiple biological and non-social influences, with little support for social or learned causes; either way, the moral question is not settled by causes. Islam’s framework. “He who created death and life to test you as to which of you is best in deed” (67:2). “Hell is surrounded by desires and Par"
+ },
+ {
+  "n": 421,
+  "page": "p8.html",
+  "arg_id": "s-lgbt--sex-gender-and-the-categories-islamic-law-uses",
+  "status": "misleading",
+  "correction_inserted": "The Prophet ﷺ ordered the effeminate men (mukhannathun) who had been allowed into women's quarters to be kept out after one described a woman's body (Bukhari 5235); the report is also cited by jurists in discussing gender behaviour.",
+  "context": "ign the person to a sex by physical signs wherever these exist, which presupposes the two categories. The hadith. “The Messenger of Allah ﷺ cursed men who imitate women and women who imitate men” (Bukhari 5885, from Ibn Abbas). The mukhannathun. The Prophet ﷺ the Prophet ﷺ ordered the effeminate men (mukhannathun) who had been allowed into women's quarters to be kept out after one described a woman's body (Bukhari 5235); the report is also cited by jurists in discussing gender behaviour. Medical rulings differ. Contemporary scholars generally allow surgery to correct a physical ambiguity in intersex people. Rulings on sex reassignment for people without a physical ambiguity differ: many bodies, includin"
+ },
+ {
+  "n": 422,
+  "page": "p8.html",
+  "arg_id": "s-lgbt--the-revisionist-reading-of-lot-s-people",
+  "status": "misleading",
+  "correction_inserted": "Kugle argues from philological and hadith analysis that the Lot narrative concerns rape, inhospitality and violence, and mainstream scholars in every school reject that reading because it sets aside the explicit wording.",
+  "context": " in Genesis 19, Leviticus 18:22 and 20:13 and Jude 7. Muslims, Jews and Christians read these as condemning the act for most of their history. The revisionists. The best-known contemporary argument is Scott Siraj al-Haqq Kugle’s Homosexuality in Islam (2010). Kugle argues from philological and hadith analysis that the Lot narrative concerns rape, inhospitality and violence, and mainstream scholars in every school reject that reading because it sets aside the explicit wording, and mainstream scholars in every school reject it because it must set aside the explicit wording. Objections“The Quran never mentions lesbians or consensual same-sex love.”The Quran’s statements on this are addressed to"
+ },
+ {
+  "n": 423,
+  "page": "p8.html",
+  "arg_id": "s-lgbt--the-revisionist-reading-of-lot-s-people",
+  "status": "weak_source",
+  "correction_inserted": "“These are my daughters; they are purer for you” (11:78; compare 15:71)",
+  "context": "oad” and commit “evil in your gatherings”, and revisionists argue that the real crime was highway robbery and assault. But the verse begins with the act (“Do you approach men…?”) and lists other crimes in addition to it, so the act is not erased. Lot’s offer. “These are my daughters; they are purer for you” (11:78; compare 15:71). The commentators (Tabari, Ibn Kathir) read this as an appeal to lawful marriage, which makes sense only if the issue is the kind of relation sought, not rape of anyone. Across scripture. The same story and the same pro"
+ },
+ {
+  "n": 424,
+  "page": "p8.html",
+  "arg_id": "s-liberal--where-do-universal-human-rights-come-from",
+  "status": "misleading",
+  "correction_inserted": "Some leading secular thinkers acknowledge the religious roots of equal human dignity (Habermas), argue that Locke's equality rested on theology (Waldron), or deny that rights need any foundation (Rorty).",
+  "context": " Argument 2 of 5Where do universal human rights come from? Studied ThesisUniversal, equal human rights need a ground that makes every person’s worth equal and non-negotiable. Some leading secular thinkers acknowledge the religious roots of equal human dignity (Habermas), argue that Locke's equality rested on theology (Waldron), or deny that rights need any foundation (Rorty), while Islam supplies one in creation and honour from God. ArgumentP1A claim that every human has equal, inalienable worth needs a reason that does not depend on abilities, since abilities differ.P2Secular accounts of th"
+ },
+ {
+  "n": 425,
+  "page": "p8.html",
+  "arg_id": "s-liberal--where-do-universal-human-rights-come-from",
+  "status": "misleading",
+  "correction_inserted": "a view Rorty held to be sufficient, and which critics say leaves rights without a ground",
+  "context": "f (Justice: Rights and Wrongs, 2008) argues that rights are grounded in being loved by God. Rorty’s alternative. Richard Rorty (“Human Rights, Rationality, and Sentimentality”, 1993) argued that rights rest on no deep foundation, only on cultivated sentiment, a view Rorty held to be sufficient, and which critics say leaves rights without a ground. The Islamic ground. “We have certainly honoured the children of Adam” (17:70). “We created you from a male and female… the most honoured is the most God-conscious” (49:13). “Whoever kills a soul… it is as if he had sla"
+ },
+ {
+  "n": 426,
+  "page": "p8.html",
+  "arg_id": "s-liberal--religion-causes-most-wars-and-the-data",
+  "status": "misleading",
+  "correction_inserted": "the 123 figure is taken from the encyclopedia's index, and secondary tallies put about 66 of them as involving Islam; the encyclopedia does not itself make that classification",
+  "context": "ns, and none of them has a clean record. Evidence The Encyclopedia of Wars. Charles Phillips and Alan Axelrod’s Encyclopedia of Wars (2005) records 1,763 wars, of which 123 (about 7 percent) are classified as religious. Be honest about the rest of the figure: the 123 figure is taken from the encyclopedia's index, and secondary tallies put about 66 of them as involving Islam; the encyclopedia does not itself make that classification. The coding is also debated, so cite it as a rough measure. The category itself. William Cavanaugh (The Myth of Religious Violence, 2009) argues that the line between “religious” and “secular” violence is an arbitrary m"
+ },
+ {
+  "n": 427,
+  "page": "p8.html",
+  "arg_id": "s-liberal--religion-causes-most-wars-and-the-data",
+  "status": "weak_source",
+  "correction_inserted": "(Muwatta Malik, Book of Jihad, a mursal report widely cited by jurists)",
+  "context": "sgress; indeed Allah does not like transgressors” (2:190). “Whoever kills a soul unjustly… it is as if he had killed all mankind” (5:32). Abu Bakr’s instructions to his armies forbade killing women, children, the elderly and monks and cutting down fruit trees (Muwatta Malik, Book of Jihad, a mursal report widely cited by jurists). Objections“But what about ISIS and Muslim terrorism?”Acknowledge it and condemn it. Groups that kill civilians violate the Quran’s rules (5:32) and the Prophet’s instructions in war, and the great majority of Muslim sc"
+ },
+ {
+  "n": 428,
+  "page": "p8.html",
+  "arg_id": "s-liberal--muslims-as-citizens-of-secular-states",
+  "status": "weak_source",
+  "correction_inserted": "al-Shafi‘i is usually credited with recognising a third category of covenant (dar al-‘ahd / dar al-sulh)",
+  "context": "unded 1997), rule that Muslims in the West should obey the law of the land and honour the covenant of residence. The old division of the world into dar al-Islam and dar al-harb is a juristic construct from a period of constant war, not a Quranic category, and al-Shafi‘i is usually credited with recognising a third category of covenant (dar al-‘ahd / dar al-sulh). Where scholars differ. A minority of scholars, especially in some Salafi circles, discourage naturalisation or participation in politics in non-Muslim states. A debater should say that the majority view is the one abov"
+ },
+ {
+  "n": 429,
+  "page": "p8.html",
+  "arg_id": "s-apostasy--the-prophet-s-own-record-with-those-who-left",
+  "status": "misleading",
+  "correction_inserted": "The ‘Urayna group accepted Islam, killed a shepherd, mutilated him and stole the camels; some narrations add that they left Islam, and the punishment is usually argued to be for the murder and robbery (Bukhari 233, 3018, 6802).",
+  "context": " while Quraysh was not required to return anyone who went from the Muslims to them. The Prophet ﷺ accepted this and said: “Whoever goes from us to them, may Allah keep him far away” (Muslim 1784). He did not order such people pursued. Those who were executed. The ‘Urayna group accepted Islam, killed a shepherd, mutilated him and stole the camels; some narrations add that they left Islam, and the punishment is usually argued to be for the murder and robbery (Bukhari 233, 3018, 6802). The Ridda wars involved both tribes that withheld zakat and tribes and claimants who abandoned Islam and took up arms; classical sources use the word apostasy, and modern writers dispute how much was political. Objectio"
+ },
+ {
+  "n": 430,
+  "page": "p8.html",
+  "arg_id": "s-apostasy--the-prophet-s-own-record-with-those-who-left",
+  "status": "misleading",
+  "correction_inserted": "The Ridda wars involved both tribes that withheld zakat and tribes and claimants who abandoned Islam and took up arms; classical sources use the word apostasy, and modern writers dispute how much was political.",
+  "context": "rsued. Those who were executed. The ‘Urayna group accepted Islam, killed a shepherd, mutilated him and stole the camels; some narrations add that they left Islam, and the punishment is usually argued to be for the murder and robbery (Bukhari 233, 3018, 6802). The Ridda wars involved both tribes that withheld zakat and tribes and claimants who abandoned Islam and took up arms; classical sources use the word apostasy, and modern writers dispute how much was political. Objections“Bukhari 6922 says kill him. You are ignoring it.”I am not ignoring it; it is the main proof of the majority view and I have set it out. The question is how the Prophet ﷺ applied his own words, and the record "
+ },
+ {
+  "n": 431,
+  "page": "p8.html",
+  "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+  "status": "error",
+  "correction_inserted": "Ireland held a referendum in 2018 and abolished the offence by statute in 2019 (in force January 2020)",
+  "context": "ssassination of Salmaan Taseer in 2011 show the danger. These are not required by classical law, and many Pakistani scholars condemn them. The comparison. England’s blasphemy law was only abolished in 2008, the last major case being Whitehouse v Lemon (1979); Ireland held a referendum in 2018 and abolished the offence by statute in 2019 (in force January 2020). Germany (§130 of its Criminal Code) and France (the Gayssot Act of 1990) criminalise forms of speech such as Holocaust denial, and Britain restricts incitement to hatred. No state has unlimited speech. Arabicوَلَا تَسُ"
+ },
+ {
+  "n": 432,
+  "page": "p8.html",
+  "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+  "status": "error",
+  "correction_inserted": "which Ireland abolished by referendum in 2018 and statute in 2019",
+  "context": "c law, and many scholars have said so after each such incident.“Free speech is an absolute value in the West.”It is not. Germany and France criminalise Holocaust denial, the UK criminalises incitement to hatred, and until 2008 England had a blasphemy offence, which Ireland abolished by referendum in 2018 and statute in 2019. The real question is which speech a society chooses to restrict and why. Muslims say the sacred also deserves protection, and you may disagree, but then we are discussing where to draw a line, not whether to draw one. "
+ },
+ {
+  "n": 433,
+  "page": "p8.html",
+  "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+  "status": "weak_source",
+  "correction_inserted": "The early Hanafi position is that a non-Muslim who insults is not put to death for it, though later Hanafi jurists allowed discretionary death for repeat offences.",
+  "context": "nant, and composing verses against Muslim women. Classical jurists differ on whether the case shows a rule on insult alone. The schools. The Malikis, Shafi‘is and Hanbalis (see Ibn Taymiyya’s al-Sarim al-maslul) hold that insulting the Prophet ﷺ merits death. The early Hanafi position is that a non-Muslim who insults is not put to death for it, though later Hanafi jurists allowed discretionary death for repeat offences, and that a Muslim who does so is an apostate. The details of repentance also differ. Modern statutes. Pakistan’s section 295-C was introduced in 1986, and the Federal Shariat Court in 1990 held that death should be the "
+ },
+ {
+  "n": 434,
+  "page": "p8.html",
+  "arg_id": "s-gender--equal-in-worth-different-in-role",
+  "status": "weak_source",
+  "correction_inserted": "Commentators differ: some link the degree to maintenance and leadership, and Ibn Abbas read it as the husband's forbearance and generosity, none as superior worth.",
+  "context": "rong in itself.“2:228 says men have a degree over women.”The same verse opens: “And due to the wives is similar to what is expected of them, in a reasonable manner” (wa lahunna mithlu alladhi ‘alayhinna bil-ma‘ruf), then adds “and men have a degree over them.”Commentators differ: some link the degree to maintenance and leadership, and Ibn Abbas read it as the husband's forbearance and generosity, none as superior worth. Ibn Abbas, quoted above, read the verse as a mutual duty to treat each other well. PracticeYour opponent says“If men and women are really equal, why does Islam not make everything identical?”Answer it in your head first"
+ },
+ {
+  "n": 435,
+  "page": "p8.html",
+  "arg_id": "s-gender--what-feminism-got-right-and-where-islam-differs",
+  "status": "weak_source",
+  "correction_inserted": "Megawati Sukarnoputri as president of Indonesia (2001)",
+  "context": "ources forbid: denying inheritance, schooling or consent. Others are not, and several Muslim-majority countries have elected women as heads of government (Benazir Bhutto in Pakistan in 1988, Tansu Çiller in Turkey, Khaleda Zia and Sheikh Hasina in Bangladesh, Megawati Sukarnoputri as president of Indonesia (2001)). The question is whether the rule is in the sources, not whether every society follows it. PracticeYour opponent says“You cannot call yourself pro-woman unless you accept feminism.”Answer it in your head first, then co"
+ },
+ {
+  "n": 436,
+  "page": "p9.html",
+  "arg_id": "s-text--seven-ahruf-seven-readings-ten-readings-three-diff",
+  "status": "misleading",
+  "correction_inserted": "All ten readings fit the Uthmanic consonantal outline, with a handful of well-known rasm differences between the regional codices (for example 2:132, 9:100, 57:24)",
+  "context": " and later Ibn al-Jazari (d. 833 AH/1429 CE) set out ten, with three conditions: an authentic chain back to the Prophet ﷺ, conformity with Arabic, and agreement with one of the Uthmanic copies. A reading that fails any of the three is not canonical. The text. All ten readings fit the Uthmanic consonantal outline, with a handful of well-known rasm differences between the regional codices (for example 2:132, 9:100, 57:24) and differ mainly in vowels, in whether a letter is pointed one way or another, and in a limited number of word forms. Not seven books. The hadith of Bukhari 2419 shows the Prophet ﷺ affirming two recitations of one sur"
+ },
+ {
+  "n": 437,
+  "page": "p9.html",
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "status": "error",
+  "correction_inserted": "placed it, with about 95 percent probability, between 578 and 669 CE, a range that covers the Prophet's lifetime and the following decades (they argue for a date before about 671)",
+  "context": "se to the standard Uthmanic text). The scholars Behnam Sadeghi and Mohsen Goudarzi published the lower text in 2012 (“Ṣanʿāʾ 1 and the Origins of the Qurʾān”, Der Islam). Its date. Sadeghi and Uwe Bergmann’s radiocarbon dating of the parchment (Arabica, 2010) placed it, with about 95 percent probability, between 578 and 669 CE, a range that covers the Prophet's lifetime and the following decades (they argue for a date before about 671). What the lower text shows. According to Sadeghi and Goudarzi, the lower text is a non-Uthmanic codex that contains the same Quran with differences in wording and a different order of some surahs. Their conclusion is th"
+ },
+ {
+  "n": 438,
+  "page": "p9.html",
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "status": "misleading",
+  "correction_inserted": "it is dated by radiocarbon to between 578 and 669 CE (parchment), i.e. no later than the first decades of Islam",
+  "context": " shows and what it does not Studied ThesisThe Sana’a palimpsest has a lower text with variants from the standard text, and it is often presented as proof that the Quran evolved. On the researchers’ own account, the lower text is overwhelmingly the same Quran, it is dated by radiocarbon to between 578 and 669 CE (parchment), i.e. no later than the first decades of Islam, and a codex that differs from the standard text is exactly what the Islamic account of the Companion codices predicts. ArgumentP1To count against preservation, a manuscript must show that the text was substantially dif"
+ },
+ {
+  "n": 439,
+  "page": "p9.html",
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "status": "misleading",
+  "correction_inserted": "Their conclusion is that it is a non-Uthmanic text-type of the kind the sources attribute to Companion codices, though not identical to any reported codex; they draw conclusions about the text's early history that go beyond the traditional account, which a debater should acknowledge",
+  "context": "the following decades (they argue for a date before about 671). What the lower text shows. According to Sadeghi and Goudarzi, the lower text is a non-Uthmanic codex that contains the same Quran with differences in wording and a different order of some surahs. Their conclusion is that it is a non-Uthmanic text-type of the kind the sources attribute to Companion codices, though not identical to any reported codex; they draw conclusions about the text's early history that go beyond the traditional account, which a debater should acknowledge The Islamic account. The sources report that ... (Bukhari 4987 for Hudhayfa and the copies; Ibn Abi Dawud's al-Masahif for the other codices). A palimpsest that preserves an earlier text type is what that account predic"
+ },
+ {
+  "n": 440,
+  "page": "p9.html",
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "status": "misleading",
+  "correction_inserted": "Even its editors treat it as a Qur'an text, while arguing that it represents a different, pre-Uthmanic text-type.",
+  "context": "dex differed in some wording and surah order from the standard. The sources already say that such codices existed. What the palimpsest does not show is a different message, different laws, a different narrative or a text that was composed in the next century. Even its editors treat it as a Qur'an text, while arguing that it represents a different, pre-Uthmanic text-type.“The material has been kept secret.”Sadeghi and Goudarzi’s 2012 article transcribes the lower text of Sana’a 1 and reproduces images, and Asma Hilali’s The Sanaa Palimpsest (Oxford, 2017) studies the whole palimpsest. Ea"
+ },
+ {
+  "n": 441,
+  "page": "p9.html",
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "status": "weak_source",
+  "correction_inserted": "... (Bukhari 4987 for Hudhayfa and the copies; Ibn Abi Dawud's al-Masahif for the other codices)",
+  "context": "he sources attribute to Companion codices, though not identical to any reported codex; they draw conclusions about the text's early history that go beyond the traditional account, which a debater should acknowledge The Islamic account. The sources report that ... (Bukhari 4987 for Hudhayfa and the copies; Ibn Abi Dawud's al-Masahif for the other codices). A palimpsest that preserves an earlier text type is what that account predicts. Why it was erased. Scholars suggest it was washed because it no longer matched the standard text, which fits the report that non-standard "
+ },
+ {
+  "n": 442,
+  "page": "p9.html",
+  "arg_id": "s-text--birmingham-t-bingen-and-the-radiocarbon-dates",
+  "status": "misleading",
+  "correction_inserted": "Surahs 18-20 are traditionally classed as Meccan",
+  "context": "ld be, and the probability is not spread evenly across it. A parchment is normally written on within years or decades of preparation. A range that reaches back to 568 and forward to 645 includes the whole lifetime of the Prophet ﷺ and the early caliphate, and Surahs 18-20 are traditionally classed as Meccan.“Scholars like Alba Fedeli say the Birmingham leaves are a palimpsest, so they were rewritten.”Fedeli’s proposal about a possible earlier layer is debated. In any case a palimpsest shows that parchment was reused, which"
+ },
+ {
+  "n": 443,
+  "page": "p9.html",
+  "arg_id": "s-text--birmingham-t-bingen-and-the-radiocarbon-dates",
+  "status": "misleading",
+  "correction_inserted": "belong to the same early Hijazi tradition; the Sana'a leaves are radiocarbon-dated, the others are dated palaeographically to roughly the first two centuries of Islam",
+  "context": "en (Ma VI 165). A manuscript that covers 17:36 to 36:57, dated by radiocarbon (2014) to 649-675 CE with 95.4 percent probability. Others. The Sana’a leaves (see the previous argument), and manuscripts such as Paris BnF Arabe 328a and British Library Or. 2165, belong to the same early Hijazi tradition; the Sana'a leaves are radiocarbon-dated, the others are dated palaeographically to roughly the first two centuries of Islam. The comparison. The oldest New Testament fragment (P52, a few verses of John) is dated by palaeography to the second century CE, and the oldest complete New Testament manuscripts are from the fourth century. The Quran "
+ },
+ {
+  "n": 444,
+  "page": "p9.html",
+  "arg_id": "s-text--uthman-s-standardisation-what-it-did-and-did-not-d",
+  "status": "weak_source",
+  "correction_inserted": "Copies were sent to the Muslim regions (Bukhari 4987); later reports name centres such as Kufa, Basra and Damascus, with Medina keeping one, and accounts differ on the number of copies",
+  "context": " asked Hafsa for the sheets and appointed Zayd, Abdullah ibn al-Zubayr, Sa‘id ibn al-As and ‘Abd al-Rahman ibn al-Harith, telling them that where they differed they should write in the dialect of Quraysh, in which it was revealed (Bukhari 4987). Distribution. Copies were sent to the Muslim regions (Bukhari 4987); later reports name centres such as Kufa, Basra and Damascus, with Medina keeping one, and accounts differ on the number of copies Consent. Ali is reported to have said that Uthman acted on the Mushaf with the agreement of the Companions (Ibn Abi Dawud, al-Masahif). The other readings survive. The reading of ‘Asim, which gives us the Hafs text most"
+ },
+ {
+  "n": 445,
+  "page": "p9.html",
+  "arg_id": "s-text--uthman-s-standardisation-what-it-did-and-did-not-d",
+  "status": "misleading",
+  "correction_inserted": "passes through readers who learned from Ali (Hafs, via al-Sulami) and Ibn Mas'ud (Shu'ba, via Zirr), so part of the Kufan tradition is in the canon, though Ibn Mas'ud's variants that depart from the Uthmanic outline are not",
+  "context": " number of copies Consent. Ali is reported to have said that Uthman acted on the Mushaf with the agreement of the Companions (Ibn Abi Dawud, al-Masahif). The other readings survive. The reading of ‘Asim, which gives us the Hafs text most Muslims recite today, passes through readers who learned from Ali (Hafs, via al-Sulami) and Ibn Mas'ud (Shu'ba, via Zirr), so part of the Kufan tradition is in the canon, though Ibn Mas'ud's variants that depart from the Uthmanic outline are not. Compare. The Church’s canon was shaped over centuries by councils and regional practice, and no single recension ever fixed the New Testament text. Objections“Ibn Mas‘ud was angry about the burning of his codex.”The so"
+ },
+ {
+  "n": 446,
+  "page": "p9.html",
+  "arg_id": "s-text--uthman-s-standardisation-what-it-did-and-did-not-d",
+  "status": "misleading",
+  "correction_inserted": "so nothing the community counted as Qur'an was lost",
+  "context": "ollected under Abu Bakr from the Prophet’s scribes and from memorisers, that he did it in public with a committee headed by Zayd, and that the Companions agreed. The disputed readings were retired, but the reading of Ibn Mas‘ud and Ali survives through ‘Asim, so nothing the community counted as Qur'an was lost. And the oldest manuscripts we have match this text, with only the limited variants the sources themselves describe. In one breathUthman’s standardisation was a public, consultative step based on an existing text, accep"
+ },
+ {
+  "n": 447,
+  "page": "p9.html",
+  "arg_id": "s-sources--luxenberg-s-syro-aramaic-reading-and-why-specialis",
+  "status": "error",
+  "correction_inserted": "Walid Saleh’s “The Etymological Fallacy and Quranic Studies” (2010)",
+  "context": "apyri from the 640s (for example PERF 558, dated 22 AH/643 CE), and some early Quran manuscripts carry dots and strokes in places. The critics. François de Blois reviewed the book in the Journal of Qur’anic Studies (2003) and found its methods unreliable, and Walid Saleh’s “The Etymological Fallacy and Quranic Studies” (2010) argues that tracing a word to a Syriac root does not show that the Quran uses it with the Syriac meaning. The Quran’s own claim. “This is a clear Arabic tongue” (16:103, 26:195). The Quran was recited aloud to Arabic sp"
+ },
+ {
+  "n": 448,
+  "page": "p9.html",
+  "arg_id": "s-sources--luxenberg-s-syro-aramaic-reading-and-why-specialis",
+  "status": "misleading",
+  "correction_inserted": "some early Quran manuscripts carry dots and strokes in places",
+  "context": "of glance” (55:56) and “confined in tents” (55:72). The dots. Luxenberg’s method assumes that early Arabic script lacked dots and was misread. Arabic writing with dots is already attested in papyri from the 640s (for example PERF 558, dated 22 AH/643 CE), and some early Quran manuscripts carry dots and strokes in places. The critics. François de Blois reviewed the book in the Journal of Qur’anic Studies (2003) and found its methods unreliable, and Walid Saleh’s “The Etymological Fallacy and Quranic Studies” (2010) argues that tracing a"
+ },
+ {
+  "n": 449,
+  "page": "p9.html",
+  "arg_id": "s-sources--the-teacher-claims-bahira-waraqa-and-the-foreign-t",
+  "status": "misleading",
+  "correction_inserted": "he died soon after, and the revelation paused for a while (Bukhari 3, paraphrased)",
+  "context": " told there was no teaching, and the revelation came some thirty years later. Waraqa. Waraqa ibn Nawfal, Khadija’s cousin, was a Christian who knew scripture. After the first revelation he said that the Prophet ﷺ had received the same angel who came to Moses, he died soon after, and the revelation paused for a while (Bukhari 3, paraphrased). The Quran continued to be revealed for some twenty-three years after his death, covering law, politics and polemics he never discussed. Later informants. Salman al-Farisi and Abdullah ibn Salam came to Islam in Medina "
+ },
+ {
+  "n": 450,
+  "page": "p9.html",
+  "arg_id": "s-sources--a-student-who-contradicts-his-teachers-on-every-ce",
+  "status": "error",
+  "correction_inserted": "a form that differs from the usual Arabic Christian Yasuʿ and whose origin is debated (an Aramaic Ishoʿ or a Jewish form)",
+  "context": "cles of Jesus (3:35-59; 19:16-36), with details that differ from the Gospels (Mary’s mother’s vow; the speaking infant). The name of Jesus. Arab and Syriac Christians called him Yasu‘ or Yeshu‘. The Quran calls him ‘Isa (see Part V, The names Yahya and ‘Isa), a form that differs from the usual Arabic Christian Yasuʿ and whose origin is debated (an Aramaic Ishoʿ or a Jewish form). Scholarly view. Gabriel Said Reynolds (The Qur’an and Its Biblical Subtext, 2010) and Sidney Griffith argue that the Quran engages in dialogue with Jewish and Christian traditions of its time. This is what the Quran cl"
+ },
+ {
+  "n": 451,
+  "page": "p9.html",
+  "arg_id": "s-sources--a-student-who-contradicts-his-teachers-on-every-ce",
+  "status": "error",
+  "correction_inserted": "born of a virgin, who says “I am the servant of God”, 19:30) agrees with the Jewish-Christian view that Jesus was a human prophet and messiah, though on the virgin birth the Quran agrees with the Syriac Church and not the Ebionites",
+  "context": "Quran engages in dialogue with Jewish and Christian traditions of its time. This is what the Quran claims, since it describes itself as confirming and correcting (5:48; 2:213; 27:76). Jewish-Christian parallels. The Quran’s Jesus (a human prophet and messiah, born of a virgin, who says “I am the servant of God”, 19:30) agrees with the Jewish-Christian view that Jesus was a human prophet and messiah, though on the virgin birth the Quran agrees with the Syriac Church and not the Ebionites (see Part II, Jewish Christianity and the Ebionites). Objections“It borrowed the stories but changed the theology to suit Muhammad.”That claim assumes the conclusion. If the stories are from a common earlier revelation,"
+ },
+ {
+  "n": 452,
+  "page": "p9.html",
+  "arg_id": "s-sources--a-student-who-contradicts-his-teachers-on-every-ce",
+  "status": "misleading",
+  "correction_inserted": "rejects the Trinity, the divinity of Jesus and the crucifixion",
+  "context": " Argument 3 of 3A student who contradicts his teachers on every central doctrine Studied ThesisIf the Quran were a Syriac Christian text reworked, it should reproduce Christian doctrine. Instead it rejects the Trinity, the divinity of Jesus and the crucifixion, while agreeing with the Jewish-Christian understanding of Jesus as a prophet. That is a pattern of independence, not dependence. ArgumentP1Dependence means reproducing the source’s central claims, and a text that overt"
+ },
+ {
+  "n": 453,
+  "page": "p9.html",
+  "arg_id": "s-sources--a-student-who-contradicts-his-teachers-on-every-ce",
+  "status": "misleading",
+  "correction_inserted": "in a town whose Christian contacts were mainly through travel and trade, with no Arabic Bible",
+  "context": "t claim assumes the conclusion. If the stories are from a common earlier revelation, as the Quran says, then the corrections are the point. If they were borrowed and changed deliberately, the borrower had to know the doctrines well enough to reverse each one, in a town whose Christian contacts were mainly through travel and trade, with no Arabic Bible (see Part V on the absence of an Arabic Bible).“Scholars like Reynolds do say the Quran depends on Syriac sources.”Reynolds argues for a conversation with a shared biblical and Syriac subtext, and he is explicit that th"
+ },
+ {
+  "n": 454,
+  "page": "p9.html",
+  "arg_id": "s-revision--the-petra-qibla-theory",
+  "status": "misleading",
+  "correction_inserted": "“What is between the east and the west is a qibla” (Tirmidhi 342; Ibn Majah 1011), which scholars apply to those living north of Mecca, such as Medina",
+  "context": " House” (14:37). Petra, by contrast, had one of the most sophisticated water systems of the ancient world. The Quran names Bakka (3:96), mentions Mecca (48:24), Safa and Marwa (2:158) and the Hajj sites (2:196-203). Qibla was approximate. The Prophet ﷺ said: ““What is between the east and the west is a qibla” (Tirmidhi 342; Ibn Majah 1011), which scholars apply to those living north of Mecca, such as Medina. The history of science on this topic (David King, World-Maps for Finding the Direction and Distance to Mecca) shows that Muslims used rough methods, such as winds and the rising of stars, and that orientations varied b"
+ },
+ {
+  "n": 455,
+  "page": "p9.html",
+  "arg_id": "s-revision--the-petra-qibla-theory",
+  "status": "misleading",
+  "correction_inserted": "The Prophet ﷺ said",
+  "context": "tion near Your sacred House” (14:37). Petra, by contrast, had one of the most sophisticated water systems of the ancient world. The Quran names Bakka (3:96), mentions Mecca (48:24), Safa and Marwa (2:158) and the Hajj sites (2:196-203). Qibla was approximate. The Prophet ﷺ said: ““What is between the east and the west is a qibla” (Tirmidhi 342; Ibn Majah 1011), which scholars apply to those living north of Mecca, such as Medina. The history of science on this topic (David King, World-Maps for "
+ },
+ {
+  "n": 456,
+  "page": "p9.html",
+  "arg_id": "s-revision--the-petra-qibla-theory",
+  "status": "misleading",
+  "correction_inserted": "had greatly declined by the seventh century",
+  "context": "ding the Direction and Distance to Mecca) shows that Muslims used rough methods, such as winds and the rising of stars, and that orientations varied between regions for centuries. Petra’s history. The Nabataean city declined after the earthquake of 363 CE and had greatly declined by the seventh century. A pilgrimage centre there would have left evidence in the Byzantine and Muslim records, and none exists. The sources. The conquest accounts, the Hudaybiyyah treaty and the early histories all place the events at Mecca,"
+ },
+ {
+  "n": 457,
+  "page": "p9.html",
+  "arg_id": "s-revision--from-the-meccan-trade-debate-to-mecca-did-not-exis",
+  "status": "misleading",
+  "correction_inserted": "a different one that few specialists make (it is argued by popular writers and revisionists such as Gibson)",
+  "context": "3From the Meccan trade debate to “Mecca did not exist” Studied ThesisThe serious scholarly debate was whether Mecca was a major long-distance trading hub, not whether it existed. The popular claim that Mecca did not exist turns a narrow academic argument into a different one that few specialists make (it is argued by popular writers and revisionists such as Gibson). ArgumentP1A claim should be answered in the form its scholarly source actually made it.P2Patricia Crone argued that Mecca was not a major spice-route hub, and she did not argue that it did not exist.P3A small commercia"
+ },
+ {
+  "n": 458,
+  "page": "p9.html",
+  "arg_id": "s-revision--from-the-meccan-trade-debate-to-mecca-did-not-exis",
+  "status": "weak_source",
+  "correction_inserted": "Diodorus Siculus’s account of a revered Arabian temple and Ptolemy’s “Macoraba” (identifications with Mecca are disputed and Crone rejected them)",
+  "context": "It refers to the trading journeys of Quraysh in winter and summer (106:1-2) and to trade during the Hajj season (2:198). It also calls Mecca “the mother of towns” (6:92; 42:7), a local centre, and describes its valley as barren (14:37). Evidence of antiquity. Diodorus Siculus’s account of a revered Arabian temple and Ptolemy’s “Macoraba” (identifications with Mecca are disputed and Crone rejected them) are discussed in Part I. Treat these as suggestive, since Arabia is the least excavated region of the Near East. The inference. “Not a global trade hub” does not entail “did not exist”. Even on Crone’s own picture the t"
+ },
+ {
+  "n": 459,
+  "page": "p9.html",
+  "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+  "status": "error",
+  "correction_inserted": "Dated public inscriptions are among the strongest kinds of historical evidence, though they must be checked for later alteration (the Dome's inscription had al-Ma'mun's name inserted over Abd al-Malik's, while the date 72 AH was left)",
+  "context": "arries long inscriptions that quote Quranic verses closely. This is monumental evidence of the Quran’s text within about sixty years of the Prophet’s death, and it also contradicts the idea that the Quran was composed in the eighth or ninth century. ArgumentP1Dated public inscriptions are among the strongest kinds of historical evidence, though they must be checked for later alteration (the Dome's inscription had al-Ma'mun's name inserted over Abd al-Malik's, while the date 72 AH was left)P2The Dome of the Rock carries a dated inscription that quotes passages found in our Quran.P3A text that was composed generations later could not be quoted in a monument from 691.∴By 691 the Quranic text, with the Prophe"
+ },
+ {
+  "n": 460,
+  "page": "p9.html",
+  "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+  "status": "misleading",
+  "correction_inserted": "The Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik; the foundation inscription gives the date 72 AH (691-2 CE) but now carries the name of the Abbasid al-Ma'mun, who substituted it",
+  "context": " text that was composed generations later could not be quoted in a monument from 691.∴By 691 the Quranic text, with the Prophet ﷺ named as God’s messenger, was already authoritative enough to be inscribed on the most prominent monument of the empire. Evidence the Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik; the foundation inscription gives the date 72 AH (691-2 CE) but now carries the name of the Abbasid al-Ma'mun, who substituted it It is one of the oldest surviving Islamic monuments and carries a long inscription. The text. The mosaic inscriptions around the inner arcade quote Surat al-Ikhlas (112), 4:171-172, 19:33-36, 3:18-19 and other verses, t"
+ },
+ {
+  "n": 461,
+  "page": "p9.html",
+  "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+  "status": "error",
+  "correction_inserted": "the late-composition theory (Wansbrough) proposed",
+  "context": " Coins and the Hisma inscription also name the Prophet ﷺ (see Part I), and the Birmingham, Tübingen and Sana’a manuscripts date from the same period (see Section A). The inference. If the Quran had been composed gradually in the eighth and ninth centuries, as the late-composition theory (Wansbrough) proposed, a monument of 691 could not quote it. Arabicقُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ112:1-4 Objections“The inscription differs from the standard text"
+ },
+ {
+  "n": 462,
+  "page": "p9.html",
+  "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+  "status": "misleading",
+  "correction_inserted": "The quotations broadly follow the text we have, with some small variants and additions",
+  "context": " surviving Islamic monuments and carries a long inscription. The text. The mosaic inscriptions around the inner arcade quote Surat al-Ikhlas (112), 4:171-172, 19:33-36, 3:18-19 and other verses, together with the formula that Muhammad is the messenger of God. The quotations broadly follow the text we have, with some small variants and additions, and scholars such as Oleg Grabar (The Shape of the Holy, 1996) have studied them. The message. The inscription’s central statements are the Quran’s: that God is One, that Jesus is the messenger of God and not His son ("
+ },
+ {
+  "n": 463,
+  "page": "p9.html",
+  "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+  "status": "misleading",
+  "correction_inserted": "Reports attributed to Aisha (naming 4:162, 5:69 and 20:63) and to Uthman (generic) say the scribes made a lahn; Ibn Abbas is reported for other verses (13:31, 24:27)",
+  "context": "y grammarians (Abu al-Aswad al-Du’ali, then Sibawayh in the later eighth century) collected their rules from the Quran, poetry and the Bedouin, so where the Quran departed from a later rule, the rule was adjusted to the Quran and not the reverse. The reports. Reports attributed to Aisha (naming 4:162, 5:69 and 20:63) and to Uthman (generic) say the scribes made a lahn; Ibn Abbas is reported for other verses (13:31, 24:27) are collected in Ibn Abi Dawud’s al-Masahif. The Uthman report has a broken chain, while the chain of the Aisha report is graded sound by al-Suyuti, so scholars rejected it on grounds of meaning (Aisha was an eloquent A"
+ },
+ {
+  "n": 464,
+  "page": "p9.html",
+  "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+  "status": "error",
+  "correction_inserted": "The Uthman report has a broken chain, while the chain of the Aisha report is graded sound by al-Suyuti, so scholars rejected it on grounds of meaning (Aisha was an eloquent Arab and the cutting-off construction is well known)",
+  "context": "d to the Quran and not the reverse. The reports. Reports attributed to Aisha (naming 4:162, 5:69 and 20:63) and to Uthman (generic) say the scribes made a lahn; Ibn Abbas is reported for other verses (13:31, 24:27) are collected in Ibn Abi Dawud’s al-Masahif. The Uthman report has a broken chain, while the chain of the Aisha report is graded sound by al-Suyuti, so scholars rejected it on grounds of meaning (Aisha was an eloquent Arab and the cutting-off construction is well known), and al-Suyuti and Ibn Hajar understood lahn here as meaning dialect, style or a permitted variant, not an error. Compare the transmission by mass-reciters in Section A. Objections“Even the reports admit the scribes mad"
+ },
+ {
+  "n": 465,
+  "page": "p9.html",
+  "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+  "status": "error",
+  "correction_inserted": "The Uthman report is weak by chain, and the Aisha report is answered on grounds of meaning",
+  "context": " construction is well known), and al-Suyuti and Ibn Hajar understood lahn here as meaning dialect, style or a permitted variant, not an error. Compare the transmission by mass-reciters in Section A. Objections“Even the reports admit the scribes made mistakes.”The Uthman report is weak by chain, and the Aisha report is answered on grounds of meaning, and the most natural reading of lahn in early usage is dialect or style. They are also at odds with the claim attributed to the same figures that the text was recited by many Companions, who would have corrected an err"
+ },
+ {
+  "n": 466,
+  "page": "p9.html",
+  "arg_id": "s-grammar--abrogation-naskh-is-not-god-changing-his-mind",
+  "status": "error",
+  "correction_inserted": "Matthew 5:33-34, 38-39",
+  "context": "t further and denied abrogation of Quranic verses by other verses. The disagreement shows that this is a controlled technical discipline, not an open licence. It is also biblical. Jesus says “You have heard it said… but I say to you” on retaliation and oaths (Matthew 5:33-34, 38-39), Mark 7:19 declares all foods clean, Acts 10 ends the food laws, and Hebrews 8:13 says that by calling a covenant new, God “has made the first one obsolete”. The analogy. A physician who changes the prescription as the"
+ }
+]
