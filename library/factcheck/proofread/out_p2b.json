@@ -1,0 +1,184 @@
+[
+ {
+  "n": 182,
+  "arg_id": "s-paul--paul-contradicted-jesus-and-the-torah-on-the-law",
+  "find": "adds, adds",
+  "replace": "adds",
+  "note": "doubled word"
+ },
+ {
+  "n": 184,
+  "arg_id": "s-paul--paul-s-methods-all-things-to-all-men",
+  "find": "struggle and describes himself as unable to stop doing what he hates (Rom 7:14-24), yet",
+  "replace": "struggle (Rom 7:14-24), yet",
+  "note": "duplicated clause"
+ },
+ {
+  "n": 188,
+  "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+  "find": "Pindar, where the god Dionysus says it to his persecutor.",
+  "replace": "Pindar.",
+  "note": "duplicated clause"
+ },
+ {
+  "n": 189,
+  "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+  "find": "similar in wording to Philippians 2:7, though many scholars read that hymn against Jewish backgrounds, \"being made in the likeness of men\"",
+  "replace": "similar in wording to \"being made in the likeness of men\" (Philippians 2:7), though many scholars read that hymn against Jewish backgrounds",
+  "note": "dangling quote"
+ },
+ {
+  "n": 190,
+  "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+  "find": "(112:3): \"He neither begets nor is begotten\" (112:3)",
+  "replace": "(112:3)",
+  "note": "duplicated quote"
+ },
+ {
+  "n": 191,
+  "arg_id": "s-paul--beware-of-false-prophets-ravenous-wolves-and-the",
+  "find": "\"make no distinction between the holy and the common\" (22:26), \"make no distinction between the holy and the common, clean and unclean\"",
+  "replace": "\"make no distinction between the holy and the common, clean and unclean\" (22:26)",
+  "note": "duplicated quote"
+ },
+ {
+  "n": 192,
+  "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+  "find": "Mark and Matthew, they were",
+  "replace": "Mark and Matthew, and they were",
+  "note": "comma splice"
+ },
+ {
+  "n": 195,
+  "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+  "find": "events and are not eyewitness accounts",
+  "replace": "events. They are not eyewitness accounts",
+  "note": "agreement"
+ },
+ {
+  "n": 200,
+  "arg_id": "s-corruption--major-passages-were-added-later",
+  "find": "(7:10). scribes changed it to \"not yet\" (already found in P66 and P75, earlier than Porphyry's criticism), while Epiphanius, Jerome and others knew the reading \"not\" \"not yet\" (P66, P75), while Epiphanius, Chrysostom and Augustine knew \"not\".",
+  "replace": "(7:10). Scribes changed it to \"not yet\" (already found in P66 and P75, earlier than Porphyry's criticism), while Epiphanius, Jerome and others knew the reading \"not\".",
+  "note": "capital and duplicate"
+ },
+ {
+  "n": 201,
+  "arg_id": "s-corruption--major-passages-were-added-later",
+  "find": "\"two others, criminals\", which could imply Jesus was a criminal; scribes reordered the words",
+  "replace": "\"two others, criminals\"",
+  "note": "duplicated clause"
+ },
+ {
+  "n": 205,
+  "arg_id": "s-corruption--major-passages-were-added-later",
+  "find": "is \"unheard of anywhere in the NT\", is attested in Matthew 28:19 itself and in the Didache (7.1), and is",
+  "replace": "is \"unheard of anywhere in the NT\" apart from Matthew 28:19 itself and the Didache (7.1), and is",
+  "note": "contradiction"
+ },
+ {
+  "n": 207,
+  "arg_id": "s-corruption--the-hebrew-bible-shows-deliberate-theological-ch",
+  "find": " In this quotation Mark follows the Greek (Septuagint) wording.",
+  "replace": "",
+  "note": "duplicated sentence"
+ },
+ {
+  "n": 213,
+  "arg_id": "s-messianic--isaiah-53-the-suffering-servant-is-israel",
+  "find": "takes it as Israel; others, such as Targum Jonathan and b. Sanhedrin 98b, take it as the Messiah Origen",
+  "replace": "takes the passage as Israel; others, such as Targum Jonathan and b. Sanhedrin 98b, take it as the Messiah. Origen",
+  "note": "missing period, pronoun"
+ },
+ {
+  "n": 214,
+  "arg_id": "s-messianic--isaiah-53-the-suffering-servant-is-israel",
+  "find": "(Contra Celsum 1.55) Practice",
+  "replace": "(Contra Celsum 1.55). Practice",
+  "note": "missing period"
+ },
+ {
+  "n": 215,
+  "arg_id": "s-messianic--isaiah-7-14-a-sign-for-king-ahaz",
+  "find": "usually read as already pregnant: a specific woman, already pregnant.",
+  "replace": "usually read as describing a specific woman who is already pregnant.",
+  "note": "duplicated clause"
+ },
+ {
+  "n": 217,
+  "arg_id": "s-messianic--zechariah-and-daniel-zerubbabel-the-pierced-and",
+  "find": "called \"the Branch\" (3:8), and in the received text of 6:11-12 the crown is set on Joshua the high priest and God's \"signet ring\" (Hag 2:23)",
+  "replace": "called \"the Branch\" (3:8) and God's \"signet ring\" (Hag 2:23), and in the received text of 6:11-12 the crown is set on Joshua the high priest",
+  "note": "misattached phrase"
+ },
+ {
+  "n": 218,
+  "arg_id": "s-messianic--zechariah-and-daniel-zerubbabel-the-pierced-and",
+  "find": "near Jesus Christian",
+  "replace": "near Jesus. Christian",
+  "note": "missing period"
+ },
+ {
+  "n": 220,
+  "arg_id": "s-messianic--the-jews-expected-a-messiah-who-would-live-and-t",
+  "find": "Studied Thesisthe disciples",
+  "replace": "Studied ThesisThe disciples",
+  "note": "capitalisation"
+ },
+ {
+  "n": 221,
+  "arg_id": "s-messianic--the-jews-expected-a-messiah-who-would-live-and-t",
+  "find": "(Matt 4:6) Jesus replies by quoting Deuteronomy 6:16 against that use of Psalm 91 (Matt 4:7), promises",
+  "replace": "(Matt 4:6), though Jesus replies by quoting Deuteronomy 6:16 against that use (Matt 4:7), promises",
+  "note": "broken syntax"
+ },
+ {
+  "n": 232,
+  "arg_id": "s-pagan--eating-a-god-s-flesh-and-drinking-his-blood",
+  "find": "\"received from the Lord\", which he says he \"received from the Lord\" (a phrase",
+  "replace": "\"received from the Lord\" (a phrase",
+  "note": "duplicated clause"
+ },
+ {
+  "n": 247,
+  "arg_id": "s-dilemmas--the-prophets-say-sacrifices-continue-in-the-mess",
+  "find": "is not named A sinless",
+  "replace": "is not named. A sinless",
+  "note": "missing period"
+ },
+ {
+  "n": 254,
+  "arg_id": "s-xn-morality--marriage-women-and-modesty-in-christian-traditio",
+  "find": "Law, and allowed",
+  "replace": "Law, allowed",
+  "note": "extra and"
+ },
+ {
+  "n": 255,
+  "arg_id": "s-xn-morality--marriage-women-and-modesty-in-christian-traditio",
+  "find": ", and Jesus told his followers",
+  "replace": ". Jesus told his followers",
+  "note": "sentence split"
+ },
+ {
+  "n": 258,
+  "arg_id": "s-xn-morality--the-church-s-own-moral-record",
+  "find": "Indulgences were papal policy, infant damnation was Augustine's doctrine, and the death of heretics was Aquinas' theology. Indulgence sales",
+  "replace": "Indulgence sales",
+  "note": "duplicated sentence"
+ },
+ {
+  "n": 258,
+  "arg_id": "s-xn-morality--the-church-s-own-moral-record",
+  "find": "Exsurge Domine (1520) Practice",
+  "replace": "Exsurge Domine (1520). Practice",
+  "note": "missing period"
+ },
+ {
+  "n": 260,
+  "arg_id": "s-xn-morality--allah-does-not-love-the-disbelievers-and-the-bib",
+  "find": "says that, in both Testaments, alongside verses that God loves sinners",
+  "replace": "says, alongside such verses and in both Testaments, that God loves sinners",
+  "note": "broken syntax"
+ }
+]

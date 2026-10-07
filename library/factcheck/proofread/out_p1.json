@@ -1,0 +1,177 @@
+[
+ {
+  "n": 3,
+  "arg_id": "s-quran--the-quran-was-preserved-through-two-independent",
+  "find": "choice of Zayd If a verse",
+  "replace": "choice of Zayd. If a verse",
+  "note": "missing period"
+ },
+ {
+  "n": 6,
+  "arg_id": "s-quran--non-muslim-scholars-concede-the-quran-s-integrit",
+  "find": " (check each citation before quoting; Rippin should be removed).",
+  "replace": ".",
+  "note": "editor note"
+ },
+ {
+  "n": 9,
+  "arg_id": "s-quran--the-qira-at-are-revealed-readings-not-copying-er",
+  "find": ", must fit the Uthmanic consonantal outline, and must be correct Arabic. The Prophet",
+  "replace": ". The Prophet",
+  "note": "duplicated clause"
+ },
+ {
+  "n": 10,
+  "arg_id": "s-quran--the-qira-at-are-revealed-readings-not-copying-er",
+  "find": "readings, the Prophet approved different recitations (the seven ahruf), and the canonical qira'at are held by scholars to preserve authorised recitations; how exactly the ahruf relate to the qira'at is discussed among scholars, on the same consonantal text, differing",
+  "replace": "readings. The Prophet approved different recitations (the seven ahruf), and the canonical qira'at are held by scholars to preserve authorised recitations; how exactly the ahruf relate to the qira'at is discussed among scholars. They share the same consonantal text, differing",
+  "note": "run-on sentence"
+ },
+ {
+  "n": 11,
+  "arg_id": "s-quran--the-missing-verses-reports-answered",
+  "find": "them. (Bukhari 6437, 6438, 6440), so it is",
+  "replace": "them. The extra wording quoted in Bukhari 6437, 6438 and 6440 is not in the Quran, so it is",
+  "note": "dangling citation, restore subject"
+ },
+ {
+  "n": 16,
+  "arg_id": "s-history--king-in-joseph-s-time-pharaoh-in-moses-time",
+  "find": "(Many Egyptologists call the biblical usage retrospective.)",
+  "replace": "Many Egyptologists call the biblical usage retrospective.",
+  "note": "drop brackets"
+ },
+ {
+  "n": 22,
+  "arg_id": "s-history--abraham-and-the-astral-triad",
+  "find": "Source some scholars regard",
+  "replace": "Source Some scholars regard",
+  "note": "capitalisation"
+ },
+ {
+  "n": 24,
+  "arg_id": "s-history--more-egyptian-details-the-bible-lacks",
+  "find": "The Quran gives no number but quotes Pharaoh describing them as a \"small band\". The Quran's number is the plausible one.",
+  "replace": "The Quran gives no number, and its \"small band\" is the more plausible picture.",
+  "note": "duplicate and contradiction"
+ },
+ {
+  "n": 25,
+  "arg_id": "s-history--more-egyptian-details-the-bible-lacks",
+  "find": "derive it from Hebrew shomer or from an Egyptian term (Budge, Hieroglyphic Dictionary, a dated source) who led the Israelites",
+  "replace": "derive the name from Hebrew shomer or from an Egyptian term (Budge, Hieroglyphic Dictionary, a dated source). He led the Israelites",
+  "note": "dangling who"
+ },
+ {
+  "n": 28,
+  "arg_id": "s-history--muhammad-is-attested-by-outsiders-within-years-o",
+  "find": " (check Hoyland for the exact items)",
+  "replace": "",
+  "note": "editor note"
+ },
+ {
+  "n": 44,
+  "arg_id": "s-prophecy--the-romans-will-be-victorious-30-2-5",
+  "find": "accomplishment, no prophecy could be more distant from its accomplishment, since",
+  "replace": "accomplishment, since",
+  "note": "duplicated clause"
+ },
+ {
+  "n": 49,
+  "arg_id": "s-prophecy--barefoot-shepherds-competing-in-tall-buildings",
+  "find": " (check the current status)",
+  "replace": "",
+  "note": "editor note"
+ },
+ {
+  "n": 57,
+  "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+  "find": "They gained all three only through",
+  "replace": "They gained a prophet and a revealed law only through",
+  "note": "dangling all three"
+ },
+ {
+  "n": 66,
+  "arg_id": "s-bible-muhammad--isaiah-29-12-read-i-cannot-read",
+  "find": ", down to a manuscript that names the cave.",
+  "replace": ".",
+  "note": "contradicts inserted text"
+ },
+ {
+  "n": 68,
+  "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+  "find": "has that reading, \"praise/glory\" (as in Kleopatra and Periklytos).",
+  "replace": "has that reading. The suggested root means \"praise/glory\" (as in Kleopatra and Periklytos).",
+  "note": "leftover fragment"
+ },
+ {
+  "n": 69,
+  "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+  "find": "He gives the word as Munahhemana, saying \"in Syriac",
+  "replace": "He adds that \"in Syriac",
+  "note": "duplicate"
+ },
+ {
+  "n": 74,
+  "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+  "find": "In the in the Song of Songs 5:10 and 5:16 the beloved is \"chief among ten thousand\" and \"altogether desirable\" (mahamaddim) is kullo mahmaddim, \"altogether desirable\".",
+  "replace": "In the Song of Songs 5:10 and 5:16 the beloved is \"chief among ten thousand\" and \"altogether desirable\" (mahamaddim).",
+  "note": "doubled words, duplicate"
+ },
+ {
+  "n": 75,
+  "arg_id": "s-bible-muhammad--the-jews-and-christians-of-the-time-recognised-h",
+  "find": "century),, ordered",
+  "replace": "century), ordered",
+  "note": "double comma"
+ },
+ {
+  "n": 78,
+  "arg_id": "s-bible-muhammad--more-passages-and-the-expectation-of-an-arabian",
+  "find": "The Assumption of Moses (a Jewish text surviving in a 6th-century Latin manuscript) The Assumption",
+  "replace": "The Assumption",
+  "note": "duplicate"
+ },
+ {
+  "n": 80,
+  "arg_id": "s-miracles--the-quran-s-literary-challenge-has-never-been-me",
+  "find": "Evidencethe challenge",
+  "replace": "EvidenceThe challenge",
+  "note": "capitalisation"
+ },
+ {
+  "n": 81,
+  "arg_id": "s-miracles--the-prophet-refused-to-exploit-the-eclipse-an-ar",
+  "find": "records, and some Muslim sources",
+  "replace": "records; some Muslim sources",
+  "note": "run-on"
+ },
+ {
+  "n": 85,
+  "arg_id": "s-miracles--zakat-and-the-economics-of-mercy",
+  "find": "Africa under Umar ibn Abd al-Aziz.",
+  "replace": "Africa under him.",
+  "note": "repeated name"
+ },
+ {
+  "n": 87,
+  "arg_id": "s-miracles--zakat-and-the-economics-of-mercy",
+  "find": "in the 7th, tied",
+  "replace": "in the 7th century, tied",
+  "note": "missing word"
+ },
+ {
+  "n": 88,
+  "arg_id": "s-miracles--the-fastest-growing-religion-is-not-a-proof",
+  "find": " (verify the 347 million figure at pewresearch.org)",
+  "replace": "",
+  "note": "editor note"
+ },
+ {
+  "n": 93,
+  "arg_id": "s-intertext--the-quran-corrects-historical-and-narrative-deta",
+  "find": "vs 'asa), summarising their record",
+  "replace": "vs 'asa). The Quranic phrase summarises their record",
+  "note": "dangling participle"
+ }
+]
