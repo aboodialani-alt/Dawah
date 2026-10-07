@@ -1,0 +1,177 @@
+[
+ {
+  "n": 264,
+  "arg_id": "s-ot-history--solomon-s-temple-a-huge-workforce-for-a-small-bu",
+  "find": "with the Temple taking seven years to build a temple roughly",
+  "replace": "with seven years spent on a temple roughly",
+  "note": "duplicate to build"
+ },
+ {
+  "n": 267,
+  "arg_id": "s-ot-history--the-conquest-of-canaan-jericho-and-ai",
+  "find": "before the Iron I village before Joshua's time",
+  "replace": "before the Iron I village, and was already a ruin before Joshua's time",
+  "note": "garbled ending"
+ },
+ {
+  "n": 271,
+  "arg_id": "s-ot-history--daniel-and-esther-get-the-persian-and-babylonian",
+  "find": "in 597 BCE, which would make him over 110 under Xerxes (though the Hebrew may refer to his ancestor Kish). Esther is set under Ahasuerus (Xerxes I, 486-465 BCE), which would make Mordecai well over 110",
+  "replace": "in 597 BCE (though the Hebrew may refer to his ancestor Kish). Esther is set under Ahasuerus (Xerxes I, 486-465 BCE), which on that reading would make Mordecai well over 110",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 273,
+  "arg_id": "s-ot-history--daniel-and-esther-get-the-persian-and-babylonian",
+  "find": "text; none is proven; Gubaru is attested in the Nabonidus Chronicle as a governor, but nothing calls him king or 'Darius', and Daniel",
+  "replace": "text, and none is proven. Gubaru is attested in the Nabonidus Chronicle as a governor, but nothing calls him king or 'Darius'. Daniel",
+  "note": "stacked semicolons"
+ },
+ {
+  "n": 275,
+  "arg_id": "s-ot-history--impossible-numbers-in-kings-and-chronicles",
+  "find": "which Samuel and Chronicles contradict each other on (800,000 vs 1,100,000)",
+  "replace": "and Samuel and Chronicles give different census totals (800,000 vs 1,100,000)",
+  "note": "dangling preposition"
+ },
+ {
+  "n": 278,
+  "arg_id": "s-ot-incoherence--joseph-sold-by-ishmaelites-or-midianites-genesis",
+  "find": "two groups: Ishmael is",
+  "replace": "two groups. Ishmael is",
+  "note": "stray colon"
+ },
+ {
+  "n": 281,
+  "arg_id": "s-ot-incoherence--more-contradictions-in-names-ages-and-events",
+  "find": "or 8 (2 Chr 36:9); and Chronicles (like Kings, 2 Kgs 24:9) says he \"did what was evil in the sight of the LORD\", though at 8 in the Masoretic reading (some manuscripts have 18).",
+  "replace": "or 8 (2 Chr 36:9) in the Masoretic reading (some manuscripts have 18). Chronicles, like Kings (2 Kgs 24:9), says he \"did what was evil in the sight of the LORD\".",
+  "note": "garbled clause"
+ },
+ {
+  "n": 286,
+  "arg_id": "s-judaism--the-quran-answers-rabbinic-teachings-precisely",
+  "find": ", and rabbinic texts limit punishment in Gehinnom to twelve months",
+  "replace": "",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 289,
+  "arg_id": "s-judaism--jewish-thought-allows-a-later-prophet-to-change",
+  "find": "be replaced, but he held that the Torah of Moses will not in fact be replaced, since the Law was given to suit the people at a particular time.",
+  "replace": "be replaced, since a law may be given to suit the people at a particular time, but that the Torah of Moses will not in fact be replaced.",
+  "note": "reason now misattached"
+ },
+ {
+  "n": 290,
+  "arg_id": "s-judaism--rabbis-recognised-muslims-as-true-monotheists-an",
+  "find": "Delete this sentence. If used, say the Samaritan text emphasises that no prophet will ever equal Moses, which cuts against the argument. ",
+  "replace": "",
+  "note": "editor note"
+ },
+ {
+  "n": 296,
+  "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+  "find": "Jarnefelt, Canfield",
+  "replace": "Järnefelt, Canfield",
+  "note": "spelling consistency"
+ },
+ {
+  "n": 298,
+  "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+  "find": ", which they did not show for neutral statements",
+  "replace": "",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 299,
+  "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+  "find": "fitrah Olivera",
+  "replace": "fitrah. Olivera",
+  "note": "missing period"
+ },
+ {
+  "n": 302,
+  "arg_id": "s-atheism--the-universe-is-fine-tuned-for-life",
+  "find": "A slightly larger value would have blown matter apart; A slightly",
+  "replace": "A slightly",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 304,
+  "arg_id": "s-atheism--the-universe-is-fine-tuned-for-life",
+  "find": "The strength of the strong nuclear force: The strength",
+  "replace": "The strength",
+  "note": "duplicate label"
+ },
+ {
+  "n": 307,
+  "arg_id": "s-atheism--consciousness-points-beyond-matter",
+  "find": "You did\". He concluded",
+  "replace": "You did\". Penfield concluded",
+  "note": "unclear pronoun"
+ },
+ {
+  "n": 310,
+  "arg_id": "s-atheism--the-problem-of-evil-and-suffering",
+  "find": "Evidence the logical",
+  "replace": "Evidence The logical",
+  "note": "capitalisation"
+ },
+ {
+  "n": 312,
+  "arg_id": "s-atheism--darwinism-as-an-atheist-worldview",
+  "find": "extending it Tap",
+  "replace": "extending it. Tap",
+  "note": "missing period"
+ },
+ {
+  "n": 313,
+  "arg_id": "s-atheism--darwinism-as-an-atheist-worldview",
+  "find": "non-scientific prize Frauds",
+  "replace": "non-scientific prize. Frauds",
+  "note": "missing period"
+ },
+ {
+  "n": 316,
+  "arg_id": "s-atheism--religion-and-islam-in-particular-makes-for-healt",
+  "find": "(not individuals) found",
+  "replace": "(not individuals) and found",
+  "note": "grammar"
+ },
+ {
+  "n": 318,
+  "arg_id": "s-atheism--religion-and-islam-in-particular-makes-for-healt",
+  "find": "life satisfaction Tap",
+  "replace": "life satisfaction. Tap",
+  "note": "missing period"
+ },
+ {
+  "n": 321,
+  "arg_id": "s-science--the-quran-and-muslim-scholars-held-the-earth-to",
+  "find": "round earth Ibn Hazm cited it for the earth's roundness.",
+  "replace": "round earth.",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 322,
+  "arg_id": "s-science--the-quran-did-not-copy-greek-embryology",
+  "find": ", and it was full of errors",
+  "replace": ". Greek medicine was full of errors",
+  "note": "dangling it"
+ },
+ {
+  "n": 324,
+  "arg_id": "s-science--the-seven-earths-65-12",
+  "find": "Isra'iliyyat Weak",
+  "replace": "Isra'iliyyat. Weak",
+  "note": "missing period"
+ },
+ {
+  "n": 326,
+  "arg_id": "s-agnosticism--why-the-first-cause-must-be-one",
+  "find": "The philosophical version. are used to argue that what",
+  "replace": "The philosophical version argues that what",
+  "note": "fragment"
+ }
+]
