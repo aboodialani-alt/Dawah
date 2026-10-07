@@ -32,7 +32,7 @@ def source(f, text, sub, t, a=0.6, y=1235):
 def scene_hook(f, t, d):
     header(f, "هل هو مجرد صدفة؟", GOLD, t, d)
     k = seg(t, 0.4, max(1.2, d * 0.72))
-    tx(f, str(int(632 + (1258 - 632) * k)).translate(str.maketrans("0123456789", "٠١٢٣٤٥٦٧٨٩")), W // 2, 640, font(SERIF, 250), INK if k < 1 else GOLD)
+    tx(f, str(int(632 + (1258 - 632) * k)).translate(str.maketrans("0123456789", "٠١٢٣٤٥٦٧٨٩")), W // 2, 640, font(SANSB, 230), INK if k < 1 else GOLD)
     tx(f, "أكثر من ستمئة سنة", W // 2, 860, font(SANSB, 52), MUTED, seg(t, d * 0.72, d * 0.72 + 0.4))
     tx(f, "من وفاة النبي إلى سقوط بغداد", W // 2, 1040,
        font(SANSB, 50), INK, seg(t, d * 0.55, d * 0.55 + 0.6))
@@ -162,9 +162,13 @@ def main():
     ap.add_argument("--music")
     ap.add_argument("--out")
     ap.add_argument("--max-seconds", type=float)
+    ap.add_argument("--speed", type=float, default=1.0, help="draft only: playback speed multiplier")
     a = ap.parse_args()
     script = json.load(open(os.path.join(HERE, "script_ar.json")))
     plan, total = plan_timing(script, a.voice)
+    if a.speed != 1.0 and not a.voice:
+        plan = [tuple(x / a.speed for x in p) for p in plan]
+        total /= a.speed
     if a.max_seconds:
         total = min(total, a.max_seconds)
     out = a.out or os.path.join(HERE, "baghdad_ar_final.mp4" if a.voice else "baghdad_ar_draft.mp4")
@@ -184,7 +188,8 @@ def main():
         ox, oy = int(t * 6) % n, int(t * 4) % n
         f = bg.copy()
         f.alpha_composite(pat.crop((ox, oy, ox + W, oy + H)))
-        SCENES[si](f, t - s0, s1 - s0)
+        sp = a.speed if not a.voice else 1.0
+        SCENES[si](f, (t - s0) * sp, (s1 - s0) * sp)
         draw_caption(f, caps[si], t)
         if not a.voice:
             tx(f, "مسودة · توقيت تقديري · بلا صوت", W // 2, 1700, font(SANSB, 30), WARN, 0.9)
