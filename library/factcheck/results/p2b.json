@@ -1,0 +1,1002 @@
+{
+ "part": "p2b",
+ "arguments_checked": 38,
+ "findings": [
+  {
+   "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+   "snippet": "The earliest Jewish-Christian texts call him \"the enemy\"",
+   "status": "misleading",
+   "problem": "The \"enemy\" language is in the Pseudo-Clementines (Homilies and the Epistle of Peter to James), which reached their present form in the 3rd-4th century and never name Paul; reading \"the man who is my enemy\" as Paul is an inference (and the same texts separately attack Simon Magus). They are not the earliest Jewish-Christian texts.",
+   "correction": "Later Jewish-Christian texts (the Pseudo-Clementines, 3rd-4th century in their final form) have Peter denounce \"the man who is my enemy\", which many scholars read as an allusion to Paul",
+   "sources": [
+    "Epistle of Peter to James 2; Clementine Homilies 17.19",
+    "https://www.philipharland.com/Blog/2005/10/peter-vs-simon-magus-alias-paul-in-the-pseudo-clementines-nt-apocrypha-17/"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+   "snippet": "\"The gospel I preached is not of human origin; I did not receive it from any man, nor was I taught it; I received it by revelation from Jesus Christ\"",
+   "status": "error",
+   "problem": "Not a quotation of any standard translation; it blends wordings and adds \"by revelation from Jesus Christ\". ESV: \"the gospel that was preached by me is not man's gospel. For I did not receive it from any man, nor was I taught it, but I received it through a revelation of Jesus Christ.\"",
+   "correction": "\"the gospel that was preached by me is not man's gospel. For I did not receive it from any man, nor was I taught it, but I received it through a revelation of Jesus Christ\"",
+   "sources": [
+    "Galatians 1:11-12 (ESV), biblegateway.com"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+   "snippet": "Paul mocks the Jerusalem leaders as",
+   "status": "misleading",
+   "problem": "\"Mocks\" is the arguer's characterisation; Paul says \"those who seemed to be influential (what they were makes no difference to me; God shows no partiality)\" and goes on (2:9) to say they recognised his grace as \"pillars\". \"Seemed to be something\" is an older (RSV/ASV-type) wording.",
+   "correction": "Paul downplays the status of the Jerusalem leaders as \"those who seemed to be influential (what they were makes no difference to me; God shows no partiality)\"",
+   "sources": [
+    "Galatians 2:6-9 (ESV)"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+   "snippet": "saw the light but did not hear the voice",
+   "status": "misleading",
+   "problem": "Acts 9:7/22:9 is presented as a flat contradiction. The Greek verb akouo takes the genitive in 9:7 and the accusative in 22:9 and can mean \"hear\" or \"understand\"; many scholars read 22:9 as \"did not understand the voice\". Present it as a difficulty that Christians resolve this way, not as a proven contradiction.",
+   "correction": null,
+   "sources": [
+    "Acts 9:7; 22:9 (Greek text); Bruce, Acts of the Apostles"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+   "snippet": "he made Paul pay for a Temple vow to prove otherwise",
+   "status": "misleading",
+   "problem": "Acts 21:23-24 has James and the elders advise Paul to join four men who were under a vow and to pay their expenses; it was not Paul's own vow, and \"made\" overstates an advisory request.",
+   "correction": "he advised Paul to join four men under a vow and pay their expenses, to show that Paul himself lived in observance of the Law",
+   "sources": [
+    "Acts 21:18-26 (ESV)"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+   "snippet": "Bishop Westcott acknowledged that \"no doubt St Paul is referred to as 'the enemy'\"",
+   "status": "unverifiable",
+   "problem": "Could not locate this sentence in any accessible text by B. F. Westcott. Do not quote it live without the exact work and page.",
+   "correction": null,
+   "sources": [
+    "Search of Westcott/Clementines literature (no match found)"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-contradicted-jesus-and-the-torah-on-the-law",
+   "snippet": "the Torah calls circumcision an everlasting covenant and the Law perfect",
+   "status": "misleading",
+   "problem": "\"The Law of the LORD is perfect\" is Psalm 19:7, not the Torah (Pentateuch).",
+   "correction": "the Torah calls circumcision an everlasting covenant and the Psalmist calls the Law perfect",
+   "sources": [
+    "Psalm 19:7; Genesis 17:13"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-contradicted-jesus-and-the-torah-on-the-law",
+   "snippet": "Mark, Paul's companion (Col 4:10; Phlm 24)",
+   "status": "misleading",
+   "problem": "Identifying the author of the Gospel of Mark with Paul's companion John Mark is church tradition (Papias, Irenaeus); the Gospel itself is anonymous, which another page in this library argues. Stating it as fact here contradicts that page. The Mark of Col 4:10 is the cousin of Barnabas.",
+   "correction": "Mark, whom tradition identifies with Paul's companion John Mark (Col 4:10; Phlm 24), adds",
+   "sources": [
+    "Eusebius, Church History 3.39.15; Colossians 4:10"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-methods-all-things-to-all-men",
+   "snippet": "he declared \"I am a Pharisee… I am on trial concerning the resurrection\"",
+   "status": "error",
+   "problem": "Acts 23:6 reads \"I am a Pharisee, a son of Pharisees. It is with respect to the hope and the resurrection of the dead that I am on trial.\" The words in the snippet are not a verbatim quotation.",
+   "correction": "he declared \"I am a Pharisee, a son of Pharisees. It is with respect to the hope and the resurrection of the dead that I am on trial\"",
+   "sources": [
+    "Acts 23:6 (ESV)"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-methods-all-things-to-all-men",
+   "snippet": "He calls himself \"the chief of sinners\" (1 Tim 1:15)",
+   "status": "misleading",
+   "problem": "1 Timothy is regarded by most critical scholars as pseudonymous (the same library says so elsewhere), and Romans 7:14-24 is read by many scholars as a rhetorical \"I\", not Paul's own autobiography. Both are contested as evidence about Paul himself. ESV/NRSV render 1 Tim 1:15 \"of whom I am the foremost\".",
+   "correction": "The Pastoral letter 1 Timothy has him call himself the foremost of sinners (1:15), and Romans 7:14-24 is read by some as his own struggle",
+   "sources": [
+    "1 Timothy 1:15 (ESV)"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-and-jesus-predicted-the-end-within-their-ge",
+   "snippet": "Paul expected to be alive at Jesus' return",
+   "status": "misleading",
+   "problem": "\"We who are alive\" (1 Thess 4:15-17) is a natural reading, but Paul also contemplates dying before the return (Phil 1:20-24; 2 Cor 5:1-8; 1 Thess 5:10), and scholars dispute whether \"we\" is literal. Stated as settled; it is the majority reading, not a certainty.",
+   "correction": "Paul wrote as though he might be alive at Jesus' return",
+   "sources": [
+    "1 Thessalonians 4:15-17; Philippians 1:23; 2 Corinthians 5:8"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-and-jesus-predicted-the-end-within-their-ge",
+   "snippet": "C.S. Lewis called Matthew 24:34 \"the most embarrassing verse in the Bible\"",
+   "status": "misleading",
+   "problem": "The words are Lewis's (The World's Last Night), but he is voicing the sceptic's objection and then argues that Jesus' confession of ignorance in the next verses (Mark 13:32/Matt 24:36) shows the Gospels preserve both the error and the ignorance as Jesus' own words, not that the prophecy was false. Quote him with that context.",
+   "correction": "C.S. Lewis called Matthew 24:34 \"certainly the most embarrassing verse in the Bible\", though he went on to argue that Jesus' admission of ignorance in Matthew 24:36 explains it",
+   "sources": [
+    "C.S. Lewis, The World's Last Night, \"The Last Night\"",
+    "https://singjupost.com/c-s-lewis-the-worlds-last-night-transcript/"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+   "snippet": "quotes Aratus' Phaenomena and echoes Cleanthes' Hymn to Zeus",
+   "status": "misleading",
+   "problem": "Only \"for we are also his offspring\" corresponds to Aratus (Phaenomena 5) and Cleanthes (Hymn 4). \"In him we live and move and have our being\" is generally traced to Epimenides of Crete, not Aratus.",
+   "correction": "quotes Aratus' Phaenomena (\"we are also his offspring\", echoed in Cleanthes' Hymn to Zeus); \"in him we live and move\" is traced to Epimenides",
+   "sources": [
+    "Acts 17:28; Aratus, Phaenomena 5; Cleanthes, Hymn to Zeus 4; F.F. Bruce, Acts"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+   "snippet": "is a proverb best known from Euripides' Bacchae (794-795)",
+   "status": "misleading",
+   "problem": "The \"kick against the goads\" proverb is also found in Aeschylus (Agamemnon 1624; Prometheus Bound 323) and Pindar (Pythian 2.94); it was a common Greek proverb, so Acts 26:14 does not specifically point to Euripides or Dionysus. Also the phrase is in Jesus' voice in Luke's narrative, not Paul's letters.",
+   "correction": "is a Greek proverb found in Euripides' Bacchae (794-795), where Dionysus says it to his persecutor, and also in Aeschylus and Pindar",
+   "sources": [
+    "Euripides, Bacchae 794-795; Aeschylus, Agamemnon 1624; Pindar, Pythian 2.94"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+   "snippet": "the same idea as Philippians 2:7",
+   "status": "misleading",
+   "problem": "Placing Phil 2:7 beside the Lystra crowd is the arguer's comparison; most scholars read Phil 2:6-11 against Jewish Adam, Isaiah 45/52-53 and Wisdom backgrounds. Do not say Paul borrowed from the pagan idea.",
+   "correction": "similar in wording to Philippians 2:7, though many scholars read that hymn against Jewish backgrounds",
+   "sources": [
+    "Philippians 2:6-11; Acts 14:11"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+   "snippet": "Scholars such as Thomas Wilson describe Paul's Christology as a fusion of the Jewish Messiah with the Hellenistic dying-and-rising divine saviour.",
+   "status": "unverifiable",
+   "problem": "No scholar named Thomas Wilson with this thesis could be identified. The \"dying-and-rising god\" model (Frazer; Bousset's history-of-religions school) is itself widely disputed (J.Z. Smith, Drudges, Divine Beings and Dying and Rising Gods).",
+   "correction": null,
+   "sources": [
+    "J.Z. Smith, \"Dying and Rising Gods\", Encyclopedia of Religion"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+   "snippet": "a change Ehrman treats as orthodox corruption",
+   "status": "unverifiable",
+   "problem": "The manuscript list (P46, B, D*, F, G read \"of God and Christ\" at Gal 2:20) is correct, but I could not confirm that Ehrman treats it in The Orthodox Corruption of Scripture as an orthodox corruption. Cite page or drop the attribution.",
+   "correction": null,
+   "sources": [
+    "NA28 apparatus Gal 2:20; https://www.biblegateway.com/verse/en/Galatians%202%3A20"
+   ]
+  },
+  {
+   "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+   "snippet": "Quoting a line about Zeus to describe the God of Abraham is a choice that blurs the difference, and the Quran explicitly rejects \"offspring\" language",
+   "status": "misleading",
+   "problem": "Acts 17:28 says humans are God's \"offspring\"; Quran 112:3 denies that God begets a son. They address different things, so 112:3 does not answer Acts 17:28.",
+   "correction": "Quoting a line about Zeus to describe the God of Abraham blurs the difference; and the Quran rejects divine sonship: \"He neither begets nor is begotten\" (112:3)",
+   "sources": [
+    "Quran 112:3; Acts 17:28"
+   ]
+  },
+  {
+   "arg_id": "s-paul--beware-of-false-prophets-ravenous-wolves-and-the",
+   "snippet": "Ezekiel's \"wolves\" (Ezek 22:25-28) \"do violence to My law\"",
+   "status": "misleading",
+   "problem": "In Ezek 22 the \"wolves\" are the princes/officials (22:27); the priests are the ones who \"do violence to my law\" (22:26) and the prophets are those who say \"thus says the Lord God\" (22:28). The quotes are mixed under one label.",
+   "correction": "Ezekiel's officials are \"like wolves tearing the prey\" (22:27), and his priests \"do violence to My law\" and \"make no distinction between the holy and the common\" (22:26)",
+   "sources": [
+    "Ezekiel 22:25-28 (ESV)"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+   "snippet": "their traditional names appear first around 180",
+   "status": "error",
+   "problem": "Papias (c. 110-130, quoted in Eusebius, Church History 3.39.15-16) already names Mark and Matthew as authors, and Justin (c. 150) speaks of the \"memoirs of the apostles\". Irenaeus (c. 180) is the first to name all four together. The page itself cites Papias on Matthew.",
+   "correction": "their traditional names are first attested together around 180 (Irenaeus), though Papias (c. 110-130) already names Mark and Matthew",
+   "sources": [
+    "Eusebius, Church History 3.39.15-16; Irenaeus, Against Heresies 3.1.1"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+   "snippet": "the names were attached around 180 CE",
+   "status": "error",
+   "problem": "Same problem as above: Papias attributes Mark and Matthew decades earlier, and the titles (euangelion kata ...) appear in P66 and P75 (c. 200). 180 is when all four are first named together.",
+   "correction": "the names are first attested for all four Gospels around 180 CE",
+   "sources": [
+    "Eusebius, Church History 3.39"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+   "snippet": "mainstream scholars agree none is an eyewitness account",
+   "status": "misleading",
+   "problem": "Most critical scholars deny eyewitness authorship, but not all (Bauckham, Hengel, Blomberg and others argue eyewitness sources lie behind them). \"Agree\" overstates it.",
+   "correction": "most critical scholars hold that none is the work of an eyewitness",
+   "sources": [
+    "Bauckham, Jesus and the Eyewitnesses (2006)"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+   "snippet": "The New Oxford Annotated Bible states they were written 40-60 years after the events",
+   "status": "misleading",
+   "problem": "Inconsistent with P2 on the same page (\"40-70 years\"). Standard dates (Mark c. 70, Matthew and Luke c. 80-90, John c. 90-100) give about 40 to 70 years. Confirm the NOAB page before quoting \"40-60\".",
+   "correction": "The New Oxford Annotated Bible dates them roughly 40 to 70 years after the events",
+   "sources": [
+    "New Oxford Annotated Bible, introductions to the Gospels"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+   "snippet": "concedes that his thesis \"runs counter to almost all recent New Testament scholarship\"",
+   "status": "weak_source",
+   "problem": "The sentence is found in the publisher's description of Jesus and the Eyewitnesses. I could not confirm it as Bauckham's own words in the book; his actual claim is that his thesis challenges the form-critical consensus. Verify wording and page before attributing it to him.",
+   "correction": "acknowledges that his thesis challenges the form-critical consensus that the Gospel traditions circulated anonymously",
+   "sources": [
+    "https://www.equip.org/product/jesus-eyewitnesses-gospels-eyewitness-testimony"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+   "snippet": "copies about 90% of Greek Mark, often word for word",
+   "status": "misleading",
+   "problem": "Matthew reproduces roughly 80-90% of Mark's content, but only about half of Mark's actual wording (Streeter counted c. 51% of Mark's words in Matthew), and often rewrites it.",
+   "correction": "reproduces most of Mark's content (roughly 80-90%) and about half of its exact wording",
+   "sources": [
+    "B.H. Streeter, The Four Gospels (1924), ch. 8"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+   "snippet": "Some 2nd-century Christians (the \"Alogi\" and Gaius of Rome) attributed John's Gospel and Revelation to the heretic Cerinthus",
+   "status": "misleading",
+   "problem": "The Alogi (Epiphanius, Panarion 51) rejected both and ascribed them to Cerinthus. For Gaius, Eusebius (3.28.2) attests only that he ascribed the Revelation to Cerinthus; that he also rejected the Gospel rests on a 12th-century report (Dionysius bar Salibi citing Hippolytus), which scholars treat with caution.",
+   "correction": "The Alogi (Epiphanius, Panarion 51) attributed John's Gospel and Revelation to Cerinthus, and Gaius of Rome attributed Revelation to him (Eusebius 3.28.2)",
+   "sources": [
+    "Eusebius, Church History 3.28.2; Epiphanius, Panarion 51",
+    "https://en.wikipedia.org/wiki/Alogi"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-church-fathers-themselves-admitted-the-text",
+   "snippet": "Jerome says there were \"almost as many forms of text as copies\"",
+   "status": "misleading",
+   "problem": "Jerome's Preface to the Gospels (to Damasus) complains about the Old Latin copies (\"tot sunt exemplaria paene quot codices\"), not about the Greek text he used to correct them. It shows Latin versions diverged; it is not testimony that the Greek original was altered at that rate.",
+   "correction": "Jerome says there were \"almost as many forms of text as copies\" of the Latin Gospels",
+   "sources": [
+    "Jerome, Preface to the Gospels (Novum opus), Ad Damasum"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-church-fathers-themselves-admitted-the-text",
+   "snippet": "Chrysostom says Jews burned books and copies perished",
+   "status": "unverifiable",
+   "problem": "I could not locate the passage in Chrysostom. State the homily and section or drop it.",
+   "correction": null,
+   "sources": [
+    "Chrysostom, Homilies (passage not located)"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-church-fathers-themselves-admitted-the-text",
+   "snippet": "\"substantial revisions\"",
+   "status": "unverifiable",
+   "problem": "Could not retrieve Koester's exact wording from an accessible source; confirm the quote and page before using it live.",
+   "correction": null,
+   "sources": [
+    "H. Koester, Ancient Christian Gospels (1990), on text-types (not retrieved)"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--major-passages-were-added-later",
+   "snippet": "After the pagan critic Porphyry pointed this out, scribes changed it to",
+   "status": "error",
+   "problem": "Chronology is wrong. P66 (c. 200) and P75 (early 3rd century) already read \"not yet\" (oupo) and predate Porphyry (c. 234-305). The change was made earlier, to remove the inconsistency with 7:10; Porphyry attacked the \"not going\" reading that was still circulating.",
+   "correction": "scribes changed it to \"not yet\" (already found in P66 and P75, earlier than Porphyry's criticism), while Epiphanius, Jerome and others knew the reading \"not\"",
+   "sources": [
+    "Metzger, Textual Commentary on John 7:8",
+    "Jerome, Against Pelagius 2.17 (Porphyry)"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--major-passages-were-added-later",
+   "snippet": "the earliest manuscripts read \"two others, criminals, were led away with him\"",
+   "status": "error",
+   "problem": "Direction is reversed. The earlier reading (Nestle-Aland, P75/B tradition) is heteroi kakourgoi duo, \"other criminals, two\"; the Byzantine reading reorders to heteroi duo kakourgoi, \"two others, criminals\" (the ESV wording). The reorder is said to have avoided calling Jesus a criminal.",
+   "correction": "the earliest manuscripts read \"other criminals, two, were led away with him\" (heteroi kakourgoi duo), which could imply Jesus was a criminal; later scribes reordered it to \"two others, criminals\"",
+   "sources": [
+    "https://openbible.com/text/luke/23-32.htm (Greek variants)",
+    "Metzger, Textual Commentary on Luke 23:32"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--major-passages-were-added-later",
+   "snippet": "Scholars broadly agree it is a 2nd-century addition stitched from other Gospels",
+   "status": "misleading",
+   "problem": "Scholars broadly agree it is not original to Mark, but it was known by c. 180 (Irenaeus, Against Heresies 3.10.5 quotes 16:19) and probably earlier (Justin, Tatian), so \"absent from the earliest fathers\" in P1 is too strong; \"stitched from other Gospels\" is one view among several.",
+   "correction": "Scholars broadly agree it is not original to Mark and was added in the 2nd century or earlier (Irenaeus quotes it c. 180)",
+   "sources": [
+    "Irenaeus, Against Heresies 3.10.5"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--major-passages-were-added-later",
+   "snippet": "Matthew 28:19 meets them in part",
+   "status": "misleading",
+   "problem": "No Greek manuscript or ancient version omits the triadic formula, Didache 7 and Justin (1 Apology 61) use it in the 2nd century, and the conclusion that it was \"added after the books were written\" is not shown by the textual evidence. The honest claim is tension with Acts and with some of Eusebius' quotations.",
+   "correction": "Matthew 28:19 is textually secure in every Greek manuscript, but its formula is in tension with Acts and with Eusebius' shorter quotations",
+   "sources": [
+    "Didache 7.1; Justin, First Apology 61"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--major-passages-were-added-later",
+   "snippet": "The Hebrew Matthew preserved by Shem Tob lacks the formula",
+   "status": "weak_source",
+   "problem": "The Shem Tob Hebrew Matthew is a medieval (14th century) text; many scholars (e.g. Howard) argue it was translated from Latin/Greek, so it cannot be offered as an ancient \"Hebrew Matthew\".",
+   "correction": "The medieval (14th-century) Hebrew Matthew in Shem Tob's Even Bohan lacks the formula, though its antiquity is debated",
+   "sources": [
+    "G. Howard, Hebrew Gospel of Matthew (1995)"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--major-passages-were-added-later",
+   "snippet": "appears first in the Didache",
+   "status": "misleading",
+   "problem": "Circular: Matthew 28:19 itself is the earliest attestation of the triadic baptism formula; Didache 7.1 is generally held to depend on Matthew or its tradition. Also verify the Vermes quote (\"unheard of anywhere in the NT\") before using it.",
+   "correction": "is attested in Matthew 28:19 itself and in the Didache (7.1)",
+   "sources": [
+    "Didache 7.1"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-hebrew-bible-shows-deliberate-theological-ch",
+   "snippet": "confirming the Quran's account",
+   "status": "misleading",
+   "problem": "Textual variants and scribal theological changes are not the same as the wholesale falsification alleged in Quran 2:79 or 4:46, and Tov himself regards such changes as limited and the Masoretic Text as generally reliable. Overreach from the premises.",
+   "correction": "which supports the Muslim position that the earlier scriptures were not preserved perfectly",
+   "sources": [
+    "Quran 2:79; 4:46"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-hebrew-bible-shows-deliberate-theological-ch",
+   "snippet": "Tov writes that \"the existence of theological changes… is accepted by most scholars\"",
+   "status": "unverifiable",
+   "problem": "Could not retrieve this sentence from an accessible text of Textual Criticism of the Hebrew Bible. Confirm wording and page.",
+   "correction": null,
+   "sources": [
+    "E. Tov, Textual Criticism of the Hebrew Bible (3rd ed.), section on theological changes"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-hebrew-bible-shows-deliberate-theological-ch",
+   "snippet": "The Masoretic Text of Samuel is \"frequently corrupt\"",
+   "status": "unverifiable",
+   "problem": "It is well known that MT Samuel is textually difficult, but I could not confirm the phrase \"frequently corrupt\" as Tov's wording.",
+   "correction": null,
+   "sources": [
+    "Search results on MT Samuel (phrase not found)"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-hebrew-bible-shows-deliberate-theological-ch",
+   "snippet": "The Gospel authors depended on a Greek translation.",
+   "status": "misleading",
+   "problem": "One citation of Isaiah 29:13 in LXX form shows that Mark (and Matthew) used a Greek text there; it does not show that all Gospel authors \"depended\" on it, and Jesus is presented as teaching in Aramaic.",
+   "correction": "In this quotation Mark follows the Greek (Septuagint) wording.",
+   "sources": [
+    "Mark 7:6-7; Isaiah 29:13 (MT and LXX)"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-canon-itself-was-disputed-for-centuries",
+   "snippet": "no Companion disputed which surahs belonged to it",
+   "status": "misleading",
+   "problem": "Reports (Ahmad, Ibn Hajar in Fath al-Bari 8/743) say Ibn Mas'ud's codex lacked al-Fatiha and the two Mu'awwidhat, and Uthman standardised the text c. 650, about 18 years after the Prophet. Do not say nobody disputed it.",
+   "correction": "no Companion disputed the Quran's contents in a way that survived the standardisation; reports about Ibn Mas'ud's codex show the point was discussed and settled",
+   "sources": [
+    "Ibn Hajar, Fath al-Bari 8/743; Sahih al-Bukhari 4987"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--the-canon-itself-was-disputed-for-centuries",
+   "snippet": "the Ethiopian Orthodox canon has 81 books",
+   "status": "misleading",
+   "problem": "The count varies by how books are divided (the \"broader canon\" is commonly given as 81; the \"narrower\" lists fewer).",
+   "correction": "the Ethiopian Orthodox canon is commonly counted as 81 books",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Orthodox_Tewahedo_biblical_canon"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--historical-errors-and-misquotations",
+   "snippet": "Jeremiah's potter's field (Jer 32) does not mention silver pieces",
+   "status": "error",
+   "problem": "Jeremiah 32:9 says Jeremiah bought the field at Anathoth by weighing out \"seventeen shekels of silver\". Not thirty pieces, and no potter in ch. 32, but silver is mentioned; the potter appears in Jer 18-19.",
+   "correction": "Jeremiah's field purchase (Jer 32:6-15) involves seventeen shekels of silver, not thirty, and the potter scene is in Jer 18-19",
+   "sources": [
+    "Jeremiah 32:9 (ESV)"
+   ]
+  },
+  {
+   "arg_id": "s-corruption--historical-errors-and-misquotations",
+   "snippet": "Eusebius called Abraham and Moses \"Christians before the name\"",
+   "status": "error",
+   "problem": "Not Eusebius' wording. Church History 1.4.6 says anyone who asserts that all who enjoyed the testimony of righteousness from Abraham back to the first man were \"Christians in fact, if not in name\" would not go beyond the truth.",
+   "correction": "Eusebius wrote that the righteous from Abraham back to the first man were \"Christians in fact, if not in name\"",
+   "sources": [
+    "Eusebius, Church History 1.4.6",
+    "https://bkv.unifr.ch/works/cpg-3495/versions/the-church-history-of-eusebius/divisions/6"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--isaiah-53-the-suffering-servant-is-israel",
+   "snippet": "Chapter 53's \"we\" (\"he was despised and we esteemed him not\") are these nations",
+   "status": "misleading",
+   "problem": "Common in Jewish readings (e.g. Rashi, Ibn Ezra) but a contested interpretation, and not the only Jewish one. Isa 49:5-6 also distinguishes the servant from Jacob/Israel (\"to bring Jacob back to him\"), which the \"servant = Israel\" case must address.",
+   "correction": "On this reading, chapter 53's \"we\" are the nations",
+   "sources": [
+    "Isaiah 49:5-6; Rashi on Isaiah 53"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--isaiah-53-the-suffering-servant-is-israel",
+   "snippet": "The Jewish reading is ancient.",
+   "status": "misleading",
+   "problem": "Selective. Origen's Jew (c. 248) gives the national reading, but other early Jewish sources read Isaiah 53 of the Messiah: Targum Jonathan renders 52:13 \"my servant the Messiah\", and b. Sanhedrin 98b reads the suffering of the Messiah from Isa 53:4.",
+   "correction": "One ancient Jewish reading takes it as Israel; others, such as Targum Jonathan and b. Sanhedrin 98b, take it as the Messiah",
+   "sources": [
+    "Targum Jonathan on Isaiah 52:13; Babylonian Talmud Sanhedrin 98b"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--isaiah-53-the-suffering-servant-is-israel",
+   "snippet": "Origen, writing around 248, already reports the national reading as the Jews' standard view.",
+   "status": "misleading",
+   "problem": "Contra Celsum 1.55 has a Jew say the passage refers to the whole people; Origen does not call it the standard Jewish view, and a single report of c. 248 does not show it predates Christianity.",
+   "correction": "Origen, writing around 248, reports a Jewish interlocutor who read it of the whole people (Contra Celsum 1.55)",
+   "sources": [
+    "Origen, Contra Celsum 1.55"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--psalm-22-like-a-lion-not-they-pierced",
+   "snippet": "The Qumran Thanksgiving Hymns apply Psalms 22 and 118 to the Teacher of Righteousness",
+   "status": "unverifiable",
+   "problem": "The Hodayot are associated with the Teacher of Righteousness, but I found no source that they apply Psalms 22 and 118 to him. Give the column and line or drop it.",
+   "correction": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Thanksgiving_Hymns"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--isaiah-7-14-a-sign-for-king-ahaz",
+   "snippet": "The Hebrew has the definite article and the present tense",
+   "status": "misleading",
+   "problem": "Hebrew has no tense; harah is a stative adjective (\"pregnant/with child\") that can mean already pregnant or about to conceive. Many scholars read it as already pregnant but the grammar alone does not prove it.",
+   "correction": "The Hebrew has the definite article and the adjective harah (\"pregnant\"), usually read as already pregnant",
+   "sources": [
+    "Isaiah 7:14 (NJPS \"is with child\")"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--isaiah-7-14-a-sign-for-king-ahaz",
+   "snippet": "Assyria destroyed both kingdoms within a few years",
+   "status": "misleading",
+   "problem": "Damascus fell in 732 BCE (2 Kgs 16:9) and Pekah was assassinated about then (15:30), but Samaria fell only c. 722 BCE, roughly a decade later.",
+   "correction": "Assyria destroyed Damascus in 732 BCE, Pekah was killed the same year, and Samaria fell about ten years later",
+   "sources": [
+    "2 Kings 15:29-30; 16:9; 17:6"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--isaiah-7-14-a-sign-for-king-ahaz",
+   "snippet": "Raymond Brown, a Catholic priest, concluded that",
+   "status": "unverifiable",
+   "problem": "Could not confirm the quoted sentence at pp. 146-149 of The Birth of the Messiah. Brown held that Matthew reads Isaiah through the Septuagint and affirmed the virginal conception as a tradition, so quoting him as a supporter needs the context. \"Christian scholars agree\" is also too broad.",
+   "correction": null,
+   "sources": [
+    "R.E. Brown, The Birth of the Messiah (1993), pp. 143-153"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--zechariah-and-daniel-zerubbabel-the-pierced-and",
+   "snippet": "called \"the Branch\" (3:8; 6:12)",
+   "status": "misleading",
+   "problem": "In Zech 6:11-12 the crown is placed on Joshua the high priest and the Branch oracle is spoken to him in the received text; applying it to Zerubbabel is a scholarly reconstruction.",
+   "correction": "called \"the Branch\" (3:8), and in the received text of 6:11-12 the crown is set on Joshua the high priest",
+   "sources": [
+    "Zechariah 3:8; 6:11-13"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--zechariah-and-daniel-zerubbabel-the-pierced-and",
+   "snippet": "and John changed it",
+   "status": "misleading",
+   "problem": "The Hebrew text itself is uncertain: some Hebrew manuscripts read elav (\"to him\") instead of elai (\"to me\"), and Aquila, Symmachus and Theodotion render it \"him whom they pierced\", so John 19:37 is not simply John altering the text.",
+   "correction": "and John 19:37 reads \"him\", as some Hebrew manuscripts and Greek versions do",
+   "sources": [
+    "Zechariah 12:10, manuscript variants (Kennicott/De Rossi; Aquila, Symmachus, Theodotion)"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--zechariah-and-daniel-zerubbabel-the-pierced-and",
+   "snippet": "Starting there (538 BCE), the timeline does not reach Jesus.",
+   "status": "misleading",
+   "problem": "Critical scholars such as J.J. Collins count the 70 weeks from Jeremiah's oracle (c. 605/587 BCE); seven weeks (49 years) then lead to Cyrus the \"anointed prince\" (538), and Onias III is the one \"cut off\" in 171. The page's start at 538 does not fit that scheme and its own point about Onias.",
+   "correction": "On the critical reading the 490 years run from Jeremiah's oracle (c. 605/587 BCE) to the Maccabean crisis, ending nowhere near Jesus",
+   "sources": [
+    "J.J. Collins, Daniel (Hermeneia), on 9:24-27"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--genesis-3-15-psalm-2-and-isaiah-42",
+   "snippet": "Jesus brought no new law (Matt 5:17)",
+   "status": "misleading",
+   "problem": "John 13:34 has Jesus give \"a new commandment\", and the page says Jesus preached only to monotheist Jews although Matt 8:5-13, 15:21-28 and Mark 5 show him ministering to Gentiles.",
+   "correction": "Jesus said he came not to abolish the Law (Matt 5:17), although he also gave \"a new commandment\" (John 13:34)",
+   "sources": [
+    "Matthew 5:17; John 13:34; Matthew 8:5-13"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--the-jews-expected-a-messiah-who-would-live-and-t",
+   "snippet": "The disciples and the crowds expected a Messiah who would not die",
+   "status": "misleading",
+   "problem": "Some Jewish texts of the period have a dying Messiah (4 Ezra 7:29, \"my son the Messiah shall die\"), and the disciples' incomprehension is not proof that Scripture teaches otherwise. Present it as the disciples' reaction, not \"the Jews expected\".",
+   "correction": "The disciples and the crowd did not expect a Messiah who would die",
+   "sources": [
+    "4 Ezra (2 Esdras) 7:28-29"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--the-jews-expected-a-messiah-who-would-live-and-t",
+   "snippet": "without Jesus denying it",
+   "status": "misleading",
+   "problem": "Jesus does answer: \"It is written again, You shall not put the Lord your God to the test\" (Matt 4:7), rebuking the misuse. His reply is not agreement that Psalm 91 promised no death.",
+   "correction": "Jesus replies by quoting Deuteronomy 6:16 against that use of Psalm 91 (Matt 4:7)",
+   "sources": [
+    "Matthew 4:5-7"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--the-jews-expected-a-messiah-who-would-live-and-t",
+   "snippet": "quotes no actual text, because there is none",
+   "status": "misleading",
+   "problem": "Luke gives no citation, but that does not show no text exists; Christians cite Isa 53, Ps 22, Hos 6:2 and Jonah, which this library argues against elsewhere. Luke 24:44 refers broadly to Moses, the Prophets and the Psalms.",
+   "correction": "quotes no actual text, and the passages Christians usually cite are answered elsewhere",
+   "sources": [
+    "Luke 24:44-46"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--prophecies-that-do-not-exist",
+   "snippet": "Either the NT authors erred, or they relied on scripture that has since been lost.",
+   "status": "misleading",
+   "problem": "False dilemma. Other options: loose paraphrase or midrash, composite citation, and Targumic/oral forms (e.g. John 7:38 echoes Isa 12:3, 44:3, 58:11; Zech 14:8). The page should not state that only two options exist.",
+   "correction": "Either the NT authors erred, they cited loosely or interpretively, or they relied on scripture that has since been lost.",
+   "sources": [
+    "John 7:38; Isaiah 58:11; Zechariah 14:8"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--prophecies-that-do-not-exist",
+   "snippet": "Geza Vermes notes that Hebrew netser (\"branch\") and Nazoraios are not even the same root",
+   "status": "unverifiable",
+   "problem": "Both words are usually traced to the consonants n-ts-r; the real objection is that Greek zeta in Nazoraios does not match Hebrew tsade. Do not say they are \"not the same root\" without the page in Vermes.",
+   "correction": "Hebrew netser (\"branch\") is an imperfect fit for Nazoraios because of the Greek zeta",
+   "sources": [
+    "G. Vermes, The Nativity (2006)"
+   ]
+  },
+  {
+   "arg_id": "s-messianic--prophecies-that-do-not-exist",
+   "snippet": "Chrysostom suggested it came from lost books",
+   "status": "unverifiable",
+   "problem": "Origen and Jerome connect 1 Cor 2:9 to an Apocalypse of Elijah; I could not confirm Chrysostom's statement.",
+   "correction": null,
+   "sources": [
+    "Jerome, Commentary on Isaiah 64:4; Origen, Commentary on Matthew 27:9"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--the-gods-have-come-down-in-the-likeness-of-men-w",
+   "snippet": "a 1st-century teacher, was said to have had a miraculous birth announced by a divine being",
+   "status": "misleading",
+   "problem": "Our only source (Philostratus, Life of Apollonius) was written c. 220-240 CE, more than a century after the Gospels, so these details cannot show a pre-Christian pagan environment and may reflect Christian influence.",
+   "correction": "a 1st-century teacher, was said, in Philostratus' Life (written c. 220-240 CE), to have had a miraculous birth announced by a divine being",
+   "sources": [
+    "Philostratus, Life of Apollonius 1.4; 4.45; 8.30"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--the-gods-have-come-down-in-the-likeness-of-men-w",
+   "snippet": "the language of Philippians 2:7 matches Dionysus' self-description in Euripides",
+   "status": "misleading",
+   "problem": "Both use morphe, but Philippians has \"form of a servant\" and homoioma, and the passage is read by most scholars against Jewish backgrounds. \"Echoes\" is the most one can say.",
+   "correction": "the language of Philippians 2:7 resembles Dionysus' self-description in Euripides",
+   "sources": [
+    "Euripides, Bacchae 4, 53; Philippians 2:6-8"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--the-gods-have-come-down-in-the-likeness-of-men-w",
+   "snippet": "the idea of a god becoming man was at home in Greek religion and alien to Jewish monotheism",
+   "status": "misleading",
+   "problem": "Contradicts this library's own Israelite-religion page, which lists Genesis 18 and 32 (God eating with Abraham, wrestling Jacob). Jewish scripture has theophanies in human form; what is missing is a god permanently becoming a man.",
+   "correction": "the idea of a god becoming man was at home in Greek religion, while Jewish scripture has only temporary appearances such as Genesis 18",
+   "sources": [
+    "Genesis 18:1-8; 32:24-30"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--divine-triads-were-common-in-pagan-religion",
+   "snippet": "Three-in-one gods existed in Egyptian and Greek religion long before Christianity",
+   "status": "misleading",
+   "problem": "The Pythagorean example is number symbolism, not a three-in-one god, and the Egyptian example rests on a single hymn (Pap. Leiden I 350). Assmann and Morenz describe it as a theological formula, not a model that the Church fathers drew on.",
+   "correction": "A three-fold unity of gods appears in Egyptian religion (Papyrus Leiden I 350), and the Pythagoreans gave sacred significance to the number three",
+   "sources": [
+    "Aristotle, On the Heavens 268a10-15; Papyrus Leiden I 350 (J. Assmann, Of God and Gods)"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--divine-triads-were-common-in-pagan-religion",
+   "snippet": "described by its own defenders as a compromise with Greek polytheism",
+   "status": "error",
+   "problem": "Gregory of Nyssa (Catechetical Oration 3) says truth passes between the Jewish and Hellenic errors, taking the unity of nature from the Jews and the distinction of persons from the Greeks; he calls polytheism an error, not a source.",
+   "correction": "described by Gregory of Nyssa as a middle path between Jewish and Greek errors",
+   "sources": [
+    "Gregory of Nyssa, Catechetical Oration 3"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--divine-triads-were-common-in-pagan-religion",
+   "snippet": "And Gregory himself says the doctrine takes something from Greek polytheism.",
+   "status": "error",
+   "problem": "Gregory says it accepts the Greek recognition of distinction in persons, while rejecting Greek polytheism as an error.",
+   "correction": "And Gregory himself says the doctrine takes the distinction of persons from the Greeks, while rejecting their polytheism.",
+   "sources": [
+    "Gregory of Nyssa, Catechetical Oration 3"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--eating-a-god-s-flesh-and-drinking-his-blood",
+   "snippet": "The sacramental Eucharist, with its pagan parallels, comes from Paul and John.",
+   "status": "error",
+   "problem": "The words over the bread and cup are in Mark 14:22-24, Matthew 26:26-28 and Luke 22:19-20 as well, not only Paul and John.",
+   "correction": "The sacramental Eucharist, with its pagan parallels, is found in Paul, John and the Synoptic Gospels.",
+   "sources": [
+    "Mark 14:22-24; Matthew 26:26-28; Luke 22:19-20"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--eating-a-god-s-flesh-and-drinking-his-blood",
+   "snippet": "that the Torah calls an abomination",
+   "status": "misleading",
+   "problem": "Leviticus 17:10-14 forbids blood on pain of being \"cut off\" but does not call it an abomination (to'evah).",
+   "correction": "that the Torah forbids on pain of being \"cut off\"",
+   "sources": [
+    "Leviticus 17:10-14"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--eating-a-god-s-flesh-and-drinking-his-blood",
+   "snippet": "meaning by revelation",
+   "status": "misleading",
+   "problem": "\"Received from the Lord\" (1 Cor 11:23) is read by most scholars as tradition handed down, with the Lord as ultimate authority (paralambano apo); revelation is one view.",
+   "correction": "which he says he \"received from the Lord\" (a phrase scholars read either as tradition or as direct revelation)",
+   "sources": [
+    "1 Corinthians 11:23; 15:3"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--eating-a-god-s-flesh-and-drinking-his-blood",
+   "snippet": "the earliest Jewish Christians held a simple remembrance meal",
+   "status": "misleading",
+   "problem": "The only evidence given is the Ebionites (attested from Irenaeus c. 180 and Epiphanius, 4th century) and their practice; it does not describe the first Jerusalem believers, whose meals (Acts 2:42-46) are not described in detail.",
+   "correction": "the Ebionites, a later Jewish-Christian group, held a simple remembrance meal",
+   "sources": [
+    "Irenaeus, Against Heresies 5.1.3; Epiphanius, Panarion 30.16"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--israelite-religion-itself-absorbed-pagan-element",
+   "snippet": "present the gods and Chemosh's wrath without condemnation",
+   "status": "error",
+   "problem": "Psalm 82 condemns the gods: \"you shall die like men, and fall like any prince\" (82:6-7). It is not presented without condemnation.",
+   "correction": "present the gods and Chemosh's wrath, though Psalm 82:6-7 pronounces judgement on the gods",
+   "sources": [
+    "Psalm 82:6-7"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--israelite-religion-itself-absorbed-pagan-element",
+   "snippet": "The prophecy was not fulfilled.",
+   "status": "misleading",
+   "problem": "Israel and its allies did defeat Moab in the field and devastated its cities (2 Kgs 3:24-25) before withdrawing; whether 3:18 was \"not fulfilled\" is disputed.",
+   "correction": "The text records Israel's withdrawal after the king of Moab sacrificed his son.",
+   "sources": [
+    "2 Kings 3:18-27"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--israelite-religion-itself-absorbed-pagan-element",
+   "snippet": "The Masoretic Text changed \"sons of God\" to \"sons of Israel\".",
+   "status": "misleading",
+   "problem": "Majority scholarly view (Tov, M.S. Smith) but stated as certain, including the motive. Present as the prevailing reconstruction.",
+   "correction": "On the prevailing scholarly reconstruction, the Masoretic Text changed \"sons of God\" to \"sons of Israel\".",
+   "sources": [
+    "Deuteronomy 32:8; 4QDeut-j"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--israelite-religion-itself-absorbed-pagan-element",
+   "snippet": "bless people \"by YHWH and his Asherah\"",
+   "status": "misleading",
+   "problem": "Whether asherah in the inscriptions is a goddess or a cult object is disputed among scholars.",
+   "correction": "bless people \"by YHWH and his Asherah\" (whether Asherah is a goddess or a cultic symbol is debated)",
+   "sources": [
+    "Kuntillet Ajrud inscriptions; Khirbet el-Qom"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--images-and-the-cross-worship-the-torah-forbids",
+   "snippet": "q. 25, a. 3",
+   "status": "error",
+   "problem": "The article on adoring the cross with latria is ST III, q. 25, a. 4 (a. 3 is the image of Christ). Aquinas also says the cross is honoured relatively, as representing Christ.",
+   "correction": "q. 25, a. 4",
+   "sources": [
+    "https://ccel.org/ccel/aquinas/summa.TP_Q25_A4.html"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--images-and-the-cross-worship-the-torah-forbids",
+   "snippet": "Clement of Alexandria says Christians are forbidden to make images.",
+   "status": "misleading",
+   "problem": "Clement forbids idols but in Paedagogus 3.11 permits a dove, fish, ship, lyre or anchor on seal rings.",
+   "correction": "Clement of Alexandria condemns the making of idols, though he allows simple symbols such as a dove or fish on seal rings (Paedagogus 3.11).",
+   "sources": [
+    "Clement of Alexandria, Paedagogus 3.11"
+   ]
+  },
+  {
+   "arg_id": "s-pagan--images-and-the-cross-worship-the-torah-forbids",
+   "snippet": "Early Christians agreed",
+   "status": "misleading",
+   "problem": "Third-century Christian art exists (the Dura-Europos house church, c. 240; the catacombs), and the Council of Elvira (c. 305, canon 36) had to ban pictures in churches.",
+   "correction": "Several early fathers agreed",
+   "sources": [
+    "Council of Elvira, canon 36; Dura-Europos house church"
+   ]
+  },
+  {
+   "arg_id": "s-dilemmas--by-their-fruits-satan-does-not-cast-out-satan",
+   "snippet": "Jesus gave two tests for a prophet",
+   "status": "misleading",
+   "problem": "Matt 12:26 answers the charge that Jesus drove out demons by Beelzebul; it is about exorcism, not a general test for prophets. Only Matt 7:15-20 is about testing prophets.",
+   "correction": "Jesus gave the \"tree and fruit\" test for prophets, and an argument about Satan and exorcism",
+   "sources": [
+    "Matthew 12:24-26; 7:15-20"
+   ]
+  },
+  {
+   "arg_id": "s-dilemmas--by-their-fruits-satan-does-not-cast-out-satan",
+   "snippet": "Edward Gibbon wrote that at the time \"no prophecy could be more distant from its accomplishment\"",
+   "status": "misleading",
+   "problem": "Gibbon wrote \"at the time when this prediction is said to have been delivered\", doubting that it was delivered then; quoted alone, it reads as an endorsement.",
+   "correction": "Edward Gibbon wrote that at the time the prediction \"is said to have been delivered\", \"no prophecy could be more distant from its accomplishment\"",
+   "sources": [
+    "Gibbon, Decline and Fall, ch. 50"
+   ]
+  },
+  {
+   "arg_id": "s-dilemmas--god-died-christian-doctrine-against-the-bible",
+   "snippet": "\"A mediator implies more than one, but God is one\" (Gal 3:20)",
+   "status": "misleading",
+   "problem": "Gal 3:20 is about the mediator of the Law (Moses, with angels) in contrast with the promise, not a statement about Christ as mediator.",
+   "correction": "\"Now an intermediary implies more than one, but God is one\" (Gal 3:20, about the mediator of the Law)",
+   "sources": [
+    "Galatians 3:19-20 (ESV)"
+   ]
+  },
+  {
+   "arg_id": "s-dilemmas--jeconiah-s-curse-and-the-two-genealogies",
+   "snippet": "(Jer 22:30; 36:30)",
+   "status": "error",
+   "problem": "Jeremiah 36:30 is about Jehoiakim (Jeconiah's father), not Jeconiah.",
+   "correction": "(Jer 22:30; compare 36:30 about his father Jehoiakim)",
+   "sources": [
+    "Jeremiah 22:30; 36:30"
+   ]
+  },
+  {
+   "arg_id": "s-dilemmas--the-bible-s-own-confirmation-fails",
+   "snippet": "Paul changes Psalm 68:18 from \"you received gifts\" to \"he gave gifts\" (Eph 4:8)",
+   "status": "misleading",
+   "problem": "The reading \"gave\" appears in the Peshitta and Targum Psalms, so Paul probably cites an existing interpretive tradition; \"changes\" suggests he invented it.",
+   "correction": "Paul cites Psalm 68:18 as \"he gave gifts\" (Eph 4:8), a reading also found in the Targum and Peshitta",
+   "sources": [
+    "Psalm 68:18; Targum Psalms; Peshitta"
+   ]
+  },
+  {
+   "arg_id": "s-dilemmas--the-bible-s-own-confirmation-fails",
+   "snippet": "and 2 Timothy 3:16 says all Scripture is God-breathed",
+   "status": "misleading",
+   "problem": "Contrasts with the library's own claim that the Pastoral letters are pseudonymous; and 2 Tim 3:16 refers to the Old Testament, not the NT.",
+   "correction": "and 2 Timothy 3:16 (a Pastoral letter, regarded as deutero-Pauline) says all Scripture is God-breathed",
+   "sources": [
+    "2 Timothy 3:16"
+   ]
+  },
+  {
+   "arg_id": "s-dilemmas--the-prophets-say-sacrifices-continue-in-the-mess",
+   "snippet": "Ezekiel 37:24-25 identifies the prince with \"David My servant\", the Messiah.",
+   "status": "misleading",
+   "problem": "Ezek 37:24-25 says \"David my servant shall be their king/prince forever\", but the nasi of chs. 40-48 has sons (46:16) and is not identified there as Messiah; this identification is an interpretation.",
+   "correction": "Ezekiel 37:24-25 speaks of \"David My servant\" as prince, which many read as the Messiah, though the prince of chapters 40-48 is not named",
+   "sources": [
+    "Ezekiel 37:24-25; 45:22; 46:16"
+   ]
+  },
+  {
+   "arg_id": "s-dilemmas--do-whatever-the-pharisees-tell-you",
+   "snippet": "Jesus' criticism of the Pharisees was hypocrisy (\"they preach but do not practise\", Matt 23:3), not their legal teaching.",
+   "status": "misleading",
+   "problem": "Jesus also criticises their teaching: \"the tradition of the elders\" (Mark 7:1-13; Matt 15:1-9) and \"the teaching of the Pharisees\" (Matt 16:12).",
+   "correction": "Jesus' criticism in Matthew 23 was of hypocrisy, though he also criticised their traditions (Matt 15:1-9; 16:12).",
+   "sources": [
+    "Matthew 15:1-9; 16:12; Mark 7:1-13"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--god-forgives-without-blood-and-no-one-bears-anot",
+   "snippet": "The prophets say exactly this: God desires repentance, not sacrifice",
+   "status": "misleading",
+   "problem": "Contradicts the library's own page on sacrifices continuing: the same prophets also affirm sacrifice (Jer 33:18; Ezek 45:22; Mal 3:3-4). Prophetic \"not sacrifice\" is rhetorical against hypocritical offerings. Also ignores Exod 20:5 and 34:7 (children bearing fathers' iniquity).",
+   "correction": "The prophets say that God desires repentance above sacrifice",
+   "sources": [
+    "Hosea 6:6; Jeremiah 33:18; Exodus 20:5"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--war-the-bible-commands-killing-infants-islam-for",
+   "snippet": "Islamic law forbids killing non-combatants and commands proportion and peace when the enemy inclines to it",
+   "status": "misleading",
+   "problem": "Forbids deliberately killing non-combatants, but Bukhari 3012-3013 records that women and children killed in a night raid were \"from them\", and jurists allow killing if they fight.",
+   "correction": "Islamic law forbids deliberately killing non-combatants and commands proportion and peace when the enemy inclines to it",
+   "sources": [
+    "Sahih al-Bukhari 3012-3013, 3015"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--war-the-bible-commands-killing-infants-islam-for",
+   "snippet": "Abu Bakr's instructions to his army",
+   "status": "weak_source",
+   "problem": "The instructions are in Malik's Muwatta (Jihad 10) and al-Bayhaqi with a mursal/broken chain, not in Bukhari; cite the source.",
+   "correction": "Abu Bakr's instructions to his army (Muwatta Malik, Book of Jihad)",
+   "sources": [
+    "Muwatta Malik, Book 21, no. 10; al-Bayhaqi, Sunan al-Kubra 9/85"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--war-the-bible-commands-killing-infants-islam-for",
+   "snippet": "This also contradicts Deuteronomy 24:16",
+   "status": "misleading",
+   "problem": "Deut 24:16 governs human courts; Deut 25:17-19 itself commands blotting out Amalek, so \"contradicts\" is an interpretation.",
+   "correction": "This sits uneasily with Deuteronomy 24:16",
+   "sources": [
+    "Deuteronomy 24:16; 25:17-19"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--war-the-bible-commands-killing-infants-islam-for",
+   "snippet": "\"Blessed shall he be who takes your little ones and dashes them against the rock\" (Ps 137:9)",
+   "status": "misleading",
+   "problem": "Ps 137:9 is an imprecation and Hos 13:16 a prediction, not commands; P2 lists only 1 Sam 15:3, Num 31, Deut 20:16 as commands.",
+   "correction": "\"Blessed shall he be who takes your little ones and dashes them against the rock\" (Ps 137:9, a curse, not a command)",
+   "sources": [
+    "Psalm 137:9; Hosea 13:16"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--marriage-women-and-modesty-in-christian-traditio",
+   "snippet": "called lawful by Tertullian and Luther",
+   "status": "misleading",
+   "problem": "Tertullian (To His Wife 1.2) says it was permitted in OT times but forbids it to Christians; calling him a supporter is misleading.",
+   "correction": "allowed in the OT according to Tertullian (who forbade it to Christians), and not forbidden by Scripture according to Luther",
+   "sources": [
+    "Tertullian, To His Wife 1.2"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--marriage-women-and-modesty-in-christian-traditio",
+   "snippet": "Josephus says the Pharisees did not accept women's testimony ( Antiquities 4.219)",
+   "status": "error",
+   "problem": "Antiquities 4.219 gives Josephus's own paraphrase of the law: women's testimony not admitted \"on account of the levity and boldness of their sex\". It does not mention Pharisees.",
+   "correction": "Josephus says that women's testimony was not admitted \"on account of the levity and boldness of their sex\" (Antiquities 4.219)",
+   "sources": [
+    "https://lexundria.com/j_aj/4.219/wst"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--marriage-women-and-modesty-in-christian-traditio",
+   "snippet": "No NT verse forbids it for ordinary believers",
+   "status": "misleading",
+   "problem": "1 Cor 7:2 (\"each man should have his own wife\") and Matt 19:4-6 are read as implying monogamy; 1 Tim 3:2 \"husband of one wife\" is read as faithfulness or no remarriage. Say \"no verse explicitly forbids\".",
+   "correction": "No NT verse explicitly forbids it for ordinary believers",
+   "sources": [
+    "1 Corinthians 7:2; Matthew 19:4-6; 1 Timothy 3:2"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--the-church-s-own-moral-record",
+   "snippet": "consigned unbaptised infants to hell",
+   "status": "misleading",
+   "problem": "Augustine taught unbaptised infants are condemned, but to the mildest punishment (Enchiridion 93); the Catholic Church never defined this doctrine, and CCC 1261 entrusts them to God's mercy.",
+   "correction": "taught that unbaptised infants are damned (Augustine) and left to a limbo theory",
+   "sources": [
+    "Augustine, Enchiridion 93; CCC 1261"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--the-church-s-own-moral-record",
+   "snippet": "These were official teachings, not individual lapses.",
+   "status": "misleading",
+   "problem": "Indulgence sales were papal policy, but Augustine's and Aquinas' views were theological opinions, not defined dogma. Leo X's Exsurge Domine (1520) condemned the proposition that burning heretics is against the Spirit.",
+   "correction": "Indulgence sales were papal policy, and infant damnation and the death of heretics were taught by Augustine and Aquinas, though Aquinas' view was also condemned in effect by Exsurge Domine (1520)",
+   "sources": [
+    "Leo X, Exsurge Domine (1520), proposition 33"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--the-church-s-own-moral-record",
+   "snippet": "launched wars that killed millions",
+   "status": "unverifiable",
+   "problem": "Estimates of Crusade deaths vary widely (often 1 to 3 million) and are contested.",
+   "correction": null,
+   "sources": [
+    "Standard Crusades historiography (Riley-Smith)"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--the-church-s-own-moral-record",
+   "snippet": "medieval bishops drew income from brothels",
+   "status": "misleading",
+   "problem": "Documented for specific bishops (e.g. the Bishop of Winchester and the Southwark stews), not all medieval bishops.",
+   "correction": "some medieval bishops (e.g. the Bishop of Winchester) drew income from brothels",
+   "sources": [
+    "Southwark stews, Bishop of Winchester"
+   ]
+  },
+  {
+   "arg_id": "s-xn-morality--allah-does-not-love-the-disbelievers-and-the-bib",
+   "snippet": "The Bible says exactly that, in both Testaments.",
+   "status": "misleading",
+   "problem": "The same Bible says God loves the world and his enemies (John 3:16; Matt 5:44-45; Rom 5:8; 1 John 4:8). The verses cited show that the Bible says God hates the wicked, but not \"exactly that\" and nothing else.",
+   "correction": "The Bible also says that, in both Testaments, alongside verses that God loves sinners (John 3:16; Rom 5:8).",
+   "sources": [
+    "John 3:16; Romans 5:8; Matthew 5:44-45"
+   ]
+  },
+  {
+   "arg_id": "s-xn-miracles--what-a-miracle-can-and-cannot-prove",
+   "snippet": "have no prophet claiming a new message",
+   "status": "error",
+   "problem": "The Fatima seers announced the miracle of the sun in advance and delivered messages and secrets (prayers, penance, devotions). It is wrong to say there was no message; the better point is that the message is not a new revelation.",
+   "correction": "have no prophet claiming a new revelation (Fatima had messages, but none that claimed to supersede the Gospel)",
+   "sources": [
+    "Fatima apparitions 1917; Kevin McClure, The Evidence for Visions of the Virgin Mary"
+   ]
+  }
+ ]
+}
