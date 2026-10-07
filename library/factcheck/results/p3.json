@@ -1,0 +1,456 @@
+{
+ "part": "p3",
+ "arguments_checked": 16,
+ "findings": [
+  {
+   "arg_id": "s-ot-history--solomon-s-temple-a-huge-workforce-for-a-small-bu",
+   "snippet": "archaeologists estimate the whole population of Judah in the 10th century BCE at only a few tens of thousands",
+   "status": "misleading",
+   "problem": "The argument's own evidence cites Finkelstein/Silberman at about 5,000 for the Judean highlands, so 'a few tens of thousands' contradicts it and no source is given for that figure. Estimates vary widely by scholar.",
+   "correction": "archaeologists estimate the population of Judah in the 10th century BCE at anywhere from a few thousand (Finkelstein) to perhaps tens of thousands",
+   "sources": [
+    "Finkelstein & Silberman, The Bible Unearthed (2001), ch. 5 (not opened directly; figure not confirmed in search)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--solomon-s-temple-a-huge-workforce-for-a-small-bu",
+   "snippet": "The text ties the levy specifically to the Temple (1 Kgs 5:5, 17-18).",
+   "status": "misleading",
+   "problem": "1 Kgs 9:15 says the levy was raised for the Temple, Solomon's palace, the Millo, the Jerusalem wall, Hazor, Megiddo and Gezer, and 5:13 describes the Israelite levy as rotating (10,000 a month, 1 Kgs 5:14). So the text does not tie all 183,300 to the Temple alone.",
+   "correction": "The text ties the Temple work to the levy (1 Kgs 5:5, 13-18), but 1 Kgs 9:15 says the levy also built the palace, the Millo, the wall of Jerusalem, Hazor, Megiddo and Gezer.",
+   "sources": [
+    "1 Kings 5:13-14; 9:15"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--solomon-s-temple-a-huge-workforce-for-a-small-bu",
+   "snippet": "1 Kings says Solomon used more than 180,000 workers for seven years",
+   "status": "misleading",
+   "problem": "Kings says 30,000 were Israelite levies working in rotating shifts (10,000 a month, one month on and two at home, 5:14); the 150,000 burden-bearers and stonecutters are not said to be a single seven-year workforce of Israelites. 'More than 180,000 for seven years' is a simplification that opponents will exploit.",
+   "correction": "1 Kings lists 183,300 men (including a rotating levy of 30,000) for Solomon's building work, with the Temple taking seven years",
+   "sources": [
+    "1 Kings 5:13-18; 6:38"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--solomon-s-temple-a-huge-workforce-for-a-small-bu",
+   "snippet": "Even the higher estimates of other archaeologists cannot supply 183,000 labourers.",
+   "status": "unverifiable",
+   "problem": "No named higher estimate is given. Some scholars (e.g. Amihai Mazar, Avraham Faust) propose populations for Judah in the tens of thousands, which would still be small, but the strong claim is unsourced.",
+   "correction": "Even the higher estimates of other archaeologists (tens of thousands for Judah) fall well short of 183,000 labourers.",
+   "sources": [
+    "Faust, Judah in the Neo-Assyrian Period (2012) for population debate (not verified here)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--the-exodus-and-the-wilderness-leave-no-trace",
+   "snippet": "more than the estimated population of Egypt at the time",
+   "status": "unverifiable",
+   "problem": "Estimates of New Kingdom Egypt's population range roughly 2 to 4+ million, so '2-3 million exceeds Egypt's population' is not safe as a flat claim. I could not confirm a standard figure.",
+   "correction": "comparable to, or a large share of, the estimated population of Egypt at the time",
+   "sources": [
+    "demographic estimates for New Kingdom Egypt (Butzer and others), not verified directly"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--the-exodus-and-the-wilderness-leave-no-trace",
+   "snippet": "Kadesh-barnea, where Israel stayed 38 years",
+   "status": "misleading",
+   "problem": "The Bible does not say Israel stayed 38 years at Kadesh. Numbers 20 has them at Kadesh at the start and the end of the wandering; Deut 1:46 says 'many days' and Deut 2:14 says 38 years passed between leaving Kadesh-barnea and crossing the Zered. The identification of Tell el-Qudeirat with Kadesh-barnea is also a standard but not universal one.",
+   "correction": "Kadesh-barnea, the main base of the wandering tradition (Num 13:26; 20:1; Deut 1:46)",
+   "sources": [
+    "Numbers 13:26; 20:1; Deut 1:46; 2:14"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--the-exodus-and-the-wilderness-leave-no-trace",
+   "snippet": "found no remains earlier than the 10th century BCE",
+   "status": "misleading",
+   "problem": "Cohen's final report (IAA Reports 34, 2007) dates the earliest fortress phase to the Iron Age IIA, 10th century, but the earliest phase has few remains and uncertain dating, and the site also has Middle Bronze I material and earlier surface finds in the area. The point holds for Late Bronze/Iron I, but 'nothing earlier' is too broad.",
+   "correction": "found no Late Bronze or Iron I settlement; the earliest fortress there dates to the 10th century BCE",
+   "sources": [
+    "Cohen & Bernick-Greenberg (eds.), Excavations at Kadesh-barnea (Tell el-Qudeirat) 1976-1982, IAA Reports 34 (2007); AJA book review 113.2 (2009)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--the-conquest-of-canaan-jericho-and-ai",
+   "snippet": "Ai, \"the ruin\", was a ruin for a thousand years",
+   "status": "misleading",
+   "problem": "From about 2400 BCE to about 1200 BCE is roughly 1,200 years and there was an Iron I village, so 'a ruin for a thousand years' is rounded. Fine, but wording should say 'over a thousand years' and 'abandoned' rather than 'ruin' with no occupation.",
+   "correction": "Ai, \"the ruin\", lay abandoned for over a thousand years before the Iron I village",
+   "sources": [
+    "Callaway, Ai (et-Tell) excavations 1964-72; Marquet-Krause 1933-35"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--the-conquest-of-canaan-jericho-and-ai",
+   "snippet": "That is a minority proposal; et-Tell fits the Bible's geography (east of Bethel).",
+   "status": "misleading",
+   "problem": "Khirbet el-Maqatir is also east of Bethel (Beitin), so 'east of Bethel' does not favour et-Tell. The identification of Ai is genuinely disputed and et-Tell's fit is a majority-but-contested position.",
+   "correction": "That is a minority proposal; most archaeologists accept et-Tell, though Maqatir is also east of Bethel and the identification is debated.",
+   "sources": [
+    "Joshua 7:2; 8:9"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--camels-philistines-and-chaldeans-in-the-time-of",
+   "snippet": "Claus Westermann ( Genesis 12-36 ) notes the anachronism.",
+   "status": "unverifiable",
+   "problem": "I could not open Westermann's commentary to confirm he explicitly calls the Philistine reference an anachronism. Most critical commentators do, but the attribution is unchecked.",
+   "correction": "Many commentators note the anachronism (e.g. Westermann, Genesis 12-36, on Gen 21:22-34; page reference to be checked).",
+   "sources": [
+    "Westermann, Genesis 12-36 (1985), not opened"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--camels-philistines-and-chaldeans-in-the-time-of",
+   "snippet": "which only makes sense once Israel had kings, long after Moses",
+   "status": "misleading",
+   "problem": "Traditional and critical readers differ: Genesis already promises kings to Abraham and Jacob (Gen 17:6; 35:11) and Deut 17:14-20 anticipates a king, so the phrase can be read as prophetic. Ibn Ezra hinted at a later addition, but 'only makes sense' overstates it.",
+   "correction": "which most critical scholars read as written after Israel had kings (traditional readers take it as anticipating the monarchy, Gen 17:6; Deut 17:14-20)",
+   "sources": [
+    "Genesis 17:6; 35:11; 36:31; Deut 17:14-20"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--daniel-and-esther-get-the-persian-and-babylonian",
+   "snippet": "Belshazzar was the son of Nabonidus, who was not related to Nebuchadnezzar",
+   "status": "misleading",
+   "problem": "Belshazzar as son of Nabonidus is secure. But some scholars (and Herodotus's Nitocris tradition) argue Nabonidus married a Nebuchadnezzar daughter, which would make Belshazzar a descendant; 'not related' is stated as settled while it is debated, and 'father' can mean ancestor in Semitic usage.",
+   "correction": "Belshazzar was the son of Nabonidus, who was not Nebuchadnezzar's son (a family link through marriage is disputed)",
+   "sources": [
+    "Nabonidus Chronicle; Verse Account of Nabonidus; Dougherty, Nabonidus and Belshazzar (1929)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--daniel-and-esther-get-the-persian-and-babylonian",
+   "snippet": "Mordecai is said to have been carried away from Jerusalem with King Jeconiah (Esth 2:5-6), which happened in 597 BCE.",
+   "status": "misleading",
+   "problem": "The Hebrew relative clause in Esth 2:6 is ambiguous: the subject exiled may be Kish (Mordecai's ancestor) rather than Mordecai, and NRSV/NJB read it as Kish. So the 110+ years age problem depends on one reading.",
+   "correction": "Esth 2:5-6 can be read to say Mordecai himself was carried away with Jeconiah in 597 BCE, which would make him over 110 under Xerxes (though the Hebrew may refer to his ancestor Kish).",
+   "sources": [
+    "Esther 2:5-6; SIL translator notes on Esther 2:6 (tips.translation.bible); NRSV, NJB"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--daniel-and-esther-get-the-persian-and-babylonian",
+   "snippet": "Persian law did not limit the queen to Persian noblewomen as the story requires",
+   "status": "error",
+   "problem": "Backwards. Herodotus 3.84 says the seven conspirators decreed that the king could marry only from the families of the conspirators (the seven noble houses). That rule, if historical, is what conflicts with a Jewish queen.",
+   "correction": "Herodotus (3.84) says Persian kings were to marry only into the seven noble families, which does not fit a Jewish commoner becoming queen.",
+   "sources": [
+    "https://lexundria.com/hdt/3.84/mcly (Histories 3.84)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--daniel-and-esther-get-the-persian-and-babylonian",
+   "snippet": "none has inscriptional support",
+   "status": "misleading",
+   "problem": "Gubaru/Gobryas is a real figure in the Nabonidus Chronicle (governor who entered Babylon and died soon after), so the Gubaru identification has some inscriptional basis even if the equation with Darius is unproven. Wiseman also reads Dan 6:28 as 'Darius, that is the reign of Cyrus'.",
+   "correction": "none is proven; Gubaru is attested in the Nabonidus Chronicle as a governor, but nothing calls him king or 'Darius'",
+   "sources": [
+    "Nabonidus Chronicle; Wiseman, Notes on Some Problems in the Book of Daniel (1965)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--daniel-and-esther-get-the-persian-and-babylonian",
+   "snippet": "The same inscriptions prove Daniel wrong on both points.",
+   "status": "misleading",
+   "problem": "Overreach. The inscriptions show Belshazzar was Nabonidus's son and acted as crown prince with delegated kingship; whether Daniel's 'father' and 'king' are errors or loose usage is a matter of interpretation, not proof.",
+   "correction": "The same inscriptions are hard to square with Daniel's wording on both points.",
+   "sources": [
+    "Verse Account of Nabonidus; Nabonidus Chronicle"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--impossible-numbers-in-kings-and-chronicles",
+   "snippet": "in kingdoms whose total populations archaeologists estimate in the low hundreds of thousands at most",
+   "status": "unverifiable",
+   "problem": "No source is given. Estimates for Israel (c. 9th century) and Judah are often 100,000 to 400,000 combined and lower for the 10th century, but this is an estimate range not a settled number.",
+   "correction": "in kingdoms whose populations archaeologists generally estimate at no more than a few hundred thousand",
+   "sources": [
+    "population estimates in Broshi & Finkelstein, BASOR 287 (1992) (not opened)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-history--impossible-numbers-in-kings-and-chronicles",
+   "snippet": "which Kings and Chronicles contradict each other on (800,000 vs 1,100,000)",
+   "status": "error",
+   "problem": "The 800,000 and 1,100,000 figures are from 2 Samuel 24:9 and 1 Chronicles 21:5, not from Kings.",
+   "correction": "which Samuel and Chronicles contradict each other on (800,000 vs 1,100,000)",
+   "sources": [
+    "2 Samuel 24:9; 1 Chronicles 21:5"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--joseph-sold-by-ishmaelites-or-midianites-genesis",
+   "snippet": "Reuben apparently knows nothing of a sale, though he was with the brothers.",
+   "status": "error",
+   "problem": "Gen 37:29 says Reuben 'returned to the pit', implying he was away when the pit was emptied, which is the usual harmonisation. The text does not say he was present.",
+   "correction": "Reuben apparently knows nothing of a sale; the text says he 'returned to the pit', so he was away at the time.",
+   "sources": [
+    "Genesis 37:29-30"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--joseph-sold-by-ishmaelites-or-midianites-genesis",
+   "snippet": "\"Meanwhile the Midianites had sold him in Egypt to Potiphar\" (37:36).",
+   "status": "misleading",
+   "problem": "In the Masoretic Text 37:36 reads 'Medanites' (Medan was another son of Keturah); the Samaritan Pentateuch, Septuagint, Vulgate and Syriac read 'Midianites'. Standard translations (ESV, NIV) follow the variant, so the Hebrew point should be noted before quoting.",
+   "correction": "\"Meanwhile the Midianites [Hebrew: Medanites] had sold him in Egypt to Potiphar\" (37:36).",
+   "sources": [
+    "Genesis 37:36 textual note (ESV footnote); intertextual.bible/p/4153"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--joseph-sold-by-ishmaelites-or-midianites-genesis",
+   "snippet": "In Genesis they are different peoples",
+   "status": "misleading",
+   "problem": "Judges 8:24 explicitly calls Midianites 'Ishmaelites', and the Joseph story itself mixes the terms, so many scholars read 'Ishmaelite' as a trader label. The rebuttal ignores the very verse the objector cited.",
+   "correction": "In Genesis they descend from different sons of Abraham, but Judges 8:24 shows the names could overlap, so the argument rests on 37:28-36 reading as two groups.",
+   "sources": [
+    "Judges 8:24; Genesis 25:2"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--joseph-sold-by-ishmaelites-or-midianites-genesis",
+   "snippet": "Even traditional Jewish commentators (Rashi) had to suggest Joseph was sold several times to make the text work.",
+   "status": "unverifiable",
+   "problem": "Rashi on 37:28, drawing on midrash, does describe successive sales (brothers to Ishmaelites, Ishmaelites to Midianites, Midianites to Egypt). I could not open Sefaria to confirm the wording, so 'had to' is interpretive.",
+   "correction": "Rashi (Gen 37:28) follows a midrash in which Joseph was sold more than once.",
+   "sources": [
+    "Rashi on Genesis 37:28 (Sefaria), not opened"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--the-flood-how-many-animals-how-long",
+   "snippet": "which many scholars read as two versions of the same scene",
+   "status": "unverifiable",
+   "problem": "The raven/dove sequence is generally treated as a single narrative in the J source; I found no standard source-critical position that it is two versions.",
+   "correction": "which some scholars treat as an expanded J episode",
+   "sources": [
+    "Friedman, The Bible with Sources Revealed (2003) (not opened)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--who-killed-goliath-how-did-saul-die-when-did-dav",
+   "snippet": "showing that the second version was a separate story added to the Hebrew",
+   "status": "misleading",
+   "problem": "Scholars are divided: many (e.g. Tov, Barthelemy-type approaches) treat the shorter LXX as the older text, others argue the LXX translator or tradition harmonised by omission. The Dead Sea 4QSama also does not settle it.",
+   "correction": "suggesting to many scholars that the second version may be a later addition to the Hebrew (others think the Greek omitted it to harmonise)",
+   "sources": [
+    "Tov, Textual Criticism of the Hebrew Bible; Lust, ed., The Story of David and Goliath (1986)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--who-killed-goliath-how-did-saul-die-when-did-dav",
+   "snippet": "The Philistines had struck down Saul on Gilboa\" (2 Sam 21:12)",
+   "status": "misleading",
+   "problem": "2 Sam 21:12 mentions in passing that the Philistines killed Saul at Gilboa, which is compatible with 1 Sam 31 (Saul was wounded by archers and died by his own sword while the Philistines overran Israel). It is not clearly a rival account.",
+   "correction": "The Philistines had struck down Saul on Gilboa\" (2 Sam 21:12), a passing remark that is compatible with 1 Sam 31 on a loose reading",
+   "sources": [
+    "2 Samuel 21:12; 1 Samuel 31:3-4"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--more-contradictions-in-names-ages-and-events",
+   "snippet": "and Chronicles adds that this 8-year-old \"did what was evil in the sight of the LORD\"",
+   "status": "error",
+   "problem": "Kings has the same verdict for Jehoiachin (2 Kgs 24:9). Chronicles does not add it. Also several Hebrew manuscripts, the Syriac and some LXX witnesses read 18 in 2 Chr 36:9, so 8 is not uniformly attested.",
+   "correction": "and Chronicles (like Kings, 2 Kgs 24:9) says he \"did what was evil in the sight of the LORD\", though at 8 in the Masoretic reading (some manuscripts have 18)",
+   "sources": [
+    "2 Kings 24:8-9; 2 Chronicles 36:9"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--more-contradictions-in-names-ages-and-events",
+   "snippet": "Moses' father-in-law is called Reuel (Exod 2:18), Jethro (Exod 3:1) and Hobab (Judg 4:11).",
+   "status": "misleading",
+   "problem": "Num 10:29 calls Hobab 'the son of Reuel the Midianite' and the Hebrew word chotein (father-in-law) can mean in-law generally, so Hobab can be Moses's brother-in-law. Reuel/Jethro as two names is the stronger point.",
+   "correction": "Moses' father-in-law is called Reuel (Exod 2:18) and Jethro (Exod 3:1); Judg 4:11 calls Hobab his father-in-law, though Num 10:29 makes Hobab Reuel's son.",
+   "sources": [
+    "Numbers 10:29; Judges 4:11"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--more-contradictions-in-names-ages-and-events",
+   "snippet": "like two Goliaths or a Jehoiachin who was co-regent at 8",
+   "status": "unverifiable",
+   "problem": "Archer's Encyclopedia of Bible Difficulties, as far as I recall, treats the Samuel text as a copyist error for 'brother of Goliath' rather than arguing for two Goliaths. I could not open the book to confirm either point.",
+   "correction": "like reading 2 Samuel 21:19 as a scribal slip for \"the brother of Goliath\" or a Jehoiachin who was co-regent at 8",
+   "sources": [
+    "Archer, Encyclopedia of Bible Difficulties (1982), not opened"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--what-the-contradictions-show",
+   "snippet": "The Quran's stories of Joseph, Noah, Moses and Saul (Talut) have no such doublets",
+   "status": "misleading",
+   "problem": "The Quran retells Moses, Noah and others several times with variant details (e.g. the staff is called a 'serpent' hayya in 20:20, 'thu'ban' in 7:107 and 'jann' in 27:10), and critics cite these as doublets. Muslims explain them as complementary narration, so 'no such doublets' is stronger than it should be.",
+   "correction": "The Quran's stories of Joseph, Noah, Moses and Saul (Talut) do not contain Genesis-style contradictory accounts within a single narrative (the Quran does retell stories with differing emphasis)",
+   "sources": [
+    "Quran 20:20; 7:107; 27:10"
+   ]
+  },
+  {
+   "arg_id": "s-ot-incoherence--what-the-contradictions-show",
+   "snippet": "the People of the Book wrote with their own hands (2:79)",
+   "status": "misleading",
+   "problem": "2:79 says 'woe to those who write the scripture with their own hands and then say this is from God', referring to some of them, not all the People of the Book or the whole text.",
+   "correction": "some of the People of the Book wrote with their own hands and attributed it to God (2:79)",
+   "sources": [
+    "Quran 2:79 (quran.com/2/79)"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--the-quran-answers-rabbinic-teachings-precisely",
+   "snippet": "The Mishnah ( Sanhedrin 4:5) teaches the same as the lesson of Adam's creation.",
+   "status": "misleading",
+   "problem": "The Mishnah says the person who destroys one soul is treated as if he destroyed a whole 'world' (olam), not 'all mankind'; the wording and context (witness testimony in capital cases) differ from Quran 5:32. Claiming it 'teaches the same' overstates the parallel.",
+   "correction": "The Mishnah (Sanhedrin 4:5) has a similar saying, that whoever destroys one soul is treated as if he destroyed a whole world, in the context of the creation of Adam.",
+   "sources": [
+    "Mishnah Sanhedrin 4:5 (Sefaria, not opened)"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--the-quran-answers-rabbinic-teachings-precisely",
+   "snippet": "but the oldest manuscripts (such as the Kaufmann manuscript) lack \"of Israel\", and scholars regard it as a later addition.",
+   "status": "unverifiable",
+   "problem": "Sources I could reach confirm that some manuscripts and parallels lack 'of Israel', but I could not open the Kaufmann manuscript or a critical apparatus to confirm its reading, nor find a scholarly consensus that 'of Israel' is a later addition.",
+   "correction": "but several manuscripts and the Yerushalmi parallel lack \"of Israel\" (check the Kaufmann reading against the manuscript or Sefaria apparatus before quoting)",
+   "sources": [
+    "Mishnah Sanhedrin 4:5; Yerushalmi Sanhedrin 4:9 (22a); Kaufmann MS A50 (not directly checked)"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--the-quran-answers-rabbinic-teachings-precisely",
+   "snippet": "José Costa has studied the parallels.",
+   "status": "unverifiable",
+   "problem": "I could not find a José Costa work on Gehinnom parallels with Quran 2:80. No title is given.",
+   "correction": "José Costa has studied the parallels (give title, e.g. his article on Quran and rabbinic Gehinnom, if confirmed).",
+   "sources": [
+    "not found"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--the-quran-answers-rabbinic-teachings-precisely",
+   "snippet": "The Talmud ( Eruvin 19a) says Abraham will bring the sinners of Israel up out of Gehinnom",
+   "status": "misleading",
+   "problem": "Eruvin 19a says Abraham sits at the gate of Gehinnom and does not let circumcised Jews go down, with exceptions (e.g. adulterers). It is not a simple release of all sinners. The twelve-month limit is from Mishnah Eduyot 2:10 and Rosh Hashanah 17a, not this text.",
+   "correction": "The Talmud (Eruvin 19a) says Abraham sits at the gate of Gehinnom and rescues circumcised Israelites, and the Mishnah (Eduyot 2:10) limits the judgment of the wicked in Gehinnom to twelve months.",
+   "sources": [
+    "Eruvin 19a; Mishnah Eduyot 2:10; Rosh Hashanah 17a (Sefaria)"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--the-quran-answers-rabbinic-teachings-precisely",
+   "snippet": "describe God's right hand bound behind Him in exile",
+   "status": "weak_source",
+   "problem": "The link between Quran 5:64 and a piyyut of Kalir is a scholarly proposal (Shari Lowin) not an established fact; the piyyut is for Tisha B'Av but the 'bound behind Him' wording was not confirmed.",
+   "correction": "describe God's right hand held back or bound in exile, which one scholar (Shari Lowin) proposes lies behind Quran 5:64",
+   "sources": [
+    "Lowin, 'The Jews Say the Hand of God is Chained: Q. 5:64 as a response to a midrash in a piyyut by R. El'azar ha-Kallir'"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--jewish-thought-allows-a-later-prophet-to-change",
+   "snippet": "The midrash ( Vayikra Rabbah 13:3, Rabbi Avin) reads it as \"a new Torah will go forth from Me\".",
+   "status": "misleading",
+   "problem": "Vayikra Rabbah 13:3 (Torah chadasha me'iti teitzei) is generally read as new interpretations or a future revelation of Torah, not replacement of the commandments. Midrashic sources on festivals being abolished (Purim) sit beside others stating the Torah will never be abolished (Yerushalmi Megillah 1:5), so quoting only one side is selective.",
+   "correction": "The midrash (Vayikra Rabbah 13:3, Rabbi Avin) reads it as \"a new Torah will go forth from Me\", which Jewish tradition usually takes as new teaching of the same Torah.",
+   "sources": [
+    "Vayikra Rabbah 13:3; Yerushalmi Megillah 1:5 (Sefaria)"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--jewish-thought-allows-a-later-prophet-to-change",
+   "snippet": "Joseph Albo ( Sefer ha-Ikkarim 3.13-16, 15th century) argued it is possible in principle for a later prophet to change some commandments",
+   "status": "misleading",
+   "problem": "Albo did argue it is permissible in principle for a later divine law to replace the Torah, unlike Maimonides, but he held that the Torah of Moses will not in fact be replaced. Also I could not confirm the chapter range 3.13-16. A debater must not imply Albo accepted a later prophet like Muhammad.",
+   "correction": "Joseph Albo (Sefer ha-Ikkarim, book 3, 15th century) held that it is possible in principle for a divine law to be replaced, but he held that the Torah of Moses will not in fact be replaced.",
+   "sources": [
+    "Sefer ha-Ikkarim book 3 (chapters to be checked); Jewish Encyclopedia, 'Albo, Joseph' (not opened)"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--jewish-thought-allows-a-later-prophet-to-change",
+   "snippet": "Abraham's descendants ate what Moses later forbade",
+   "status": "unverifiable",
+   "problem": "Unclear claim. The patriarchs are not described eating forbidden meats; the examples usually given are marriage of sisters and half-sisters (Abraham and Sarah, Amram and Jochebed) and the sciatic nerve (Gen 32:32).",
+   "correction": "Abraham married his half-sister Sarah, which Leviticus 18:9 and 20:17 later forbade.",
+   "sources": [
+    "Genesis 20:12; Leviticus 18:9"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--rabbis-recognised-muslims-as-true-monotheists-an",
+   "snippet": "In the Samaritan Pentateuch, Deuteronomy 34:10 reads \"no prophet will arise like Moses\", in the future tense, which shows how the \"prophet like Moses\" was read as still to come.",
+   "status": "error",
+   "problem": "The logic is backwards: a future 'no prophet will ever arise like Moses' denies another prophet like Moses, so it cannot support Deut 18:18 pointing to a later prophet. The Samaritans themselves expect the Taheb as a restorer, not as a prophet greater than or equal to Moses. I could not confirm the Samaritan future-tense reading from a critical edition.",
+   "correction": "Delete this sentence. If used, say the Samaritan text emphasises that no prophet will ever equal Moses, which cuts against the argument.",
+   "sources": [
+    "Samaritan Pentateuch Deut 34:10 (apparatus not opened); Samaritan Studies, Bowman (BJRL 40, 1958)"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--rabbis-recognised-muslims-as-true-monotheists-an",
+   "snippet": "The Ishmaelites are called the \"brothers\" of Israel (Gen 16:12; 25:18).",
+   "status": "misleading",
+   "problem": "In those verses the Hebrew 'brothers' refers to Ishmael's own kinsmen, and Deut 17:15 uses 'from among your brothers' for fellow Israelites. The Jewish reading of 'their brothers' in Deut 18:18 is therefore usually Israelites or Levites.",
+   "correction": "Gen 16:12 and 25:18 speak of Ishmael dwelling 'over against all his brothers', and Muslim readers take 'their brothers' in Deut 18:18 as including Ishmael's line (Jews read it as Israelites, cf. Deut 17:15).",
+   "sources": [
+    "Genesis 16:12; 25:18; Deut 17:15; 18:18"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--rabbis-recognised-muslims-as-true-monotheists-an",
+   "snippet": "and his message is the pure monotheism Maimonides praised",
+   "status": "misleading",
+   "problem": "Maimonides ruled Muslims are not idolaters but also called Muhammad a madman and false prophet in the Epistle to Yemen; he did not endorse Muhammad's message.",
+   "correction": "and Islam's monotheism is the kind Maimonides ruled to be a proper unity, though he rejected Muhammad's prophethood",
+   "sources": [
+    "Maimonides, Responsum to Obadiah the Proselyte (Blau 448); Epistle to Yemen"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--rabbis-recognised-muslims-as-true-monotheists-an",
+   "snippet": "Job and his friends, in Jewish tradition, were non-Israelites who received revelation",
+   "status": "weak_source",
+   "problem": "Talmud (Bava Batra 15a-b) records disagreement: some rabbis say Job was an Israelite, others a gentile, or that he never existed. 'In Jewish tradition' as a single view overstates it.",
+   "correction": "Some rabbis (Bava Batra 15a-b) held Job to be a gentile prophet; others disagreed.",
+   "sources": [
+    "Bava Batra 15a-b (Sefaria)"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--the-torah-s-own-text-authorship-variants-and-edi",
+   "snippet": "The Samaritan Pentateuch removes or softens anthropomorphic expressions (for example in Exod 15:8 and Deut 32:6)",
+   "status": "unverifiable",
+   "problem": "I could not confirm that the Samaritan Pentateuch differs from the Masoretic Text at Exod 15:8 or Deut 32:6, and the cited Anderson and Giles work was not opened. Known SP changes include the Gerizim insertion and tense changes in the 'chosen place' formula.",
+   "correction": "The Samaritan Pentateuch has deliberate theological changes, such as the Gerizim insertion in the Ten Commandments and the past-tense 'the place the LORD has chosen' (check specific anthropomorphism examples in Anderson and Giles before quoting).",
+   "sources": [
+    "Anderson & Giles, The Samaritan Pentateuch (SBL, 2012), not opened"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--the-torah-s-own-text-authorship-variants-and-edi",
+   "snippet": "The Samaritan Pentateuch and Masoretic Text differ on dozens of points",
+   "status": "misleading",
+   "problem": "The SP and MT differ in around 6,000 places (mostly spelling or grammar) and about 1,900 agree with the Septuagint against the MT; the practice section says 'thousands', so the two sections are inconsistent.",
+   "correction": "The Samaritan Pentateuch and Masoretic Text differ in several thousand places, a few dozen of them theologically significant",
+   "sources": [
+    "Tov, Textual Criticism of the Hebrew Bible (3rd ed.), ch. on the Samaritan Pentateuch"
+   ]
+  },
+  {
+   "arg_id": "s-judaism--the-torah-s-own-text-authorship-variants-and-edi",
+   "snippet": "the Dead Sea Scrolls show the Masoretic Text's own changes (Deut 32:8)",
+   "status": "misleading",
+   "problem": "4QDeut-j reads 'sons of God' where the MT reads 'sons of Israel' (LXX 'angels of God'), and most scholars take the MT as the changed reading, but this is an interpretation. Better to say the Scrolls preserve a variant that most scholars regard as older.",
+   "correction": "the Dead Sea Scrolls preserve a different reading at Deut 32:8 (\"sons of God\"), which most scholars regard as older than the MT's \"sons of Israel\"",
+   "sources": [
+    "4QDeut-j; Tov, Textual Criticism of the Hebrew Bible"
+   ]
+  }
+ ]
+}
