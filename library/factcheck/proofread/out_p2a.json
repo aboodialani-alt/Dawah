@@ -1,0 +1,184 @@
+[
+ {
+  "n": 102,
+  "arg_id": "s-notgod--those-who-knew-jesus-called-him-a-man-and-a-prop",
+  "find": " James Dunn, a believing Christian scholar, concludes that there is no clear indication in the earliest traditions that Jesus thought of himself as divine, and that the",
+  "replace": " James Dunn, a believing Christian scholar, adds that the",
+  "note": "duplicated clause"
+ },
+ {
+  "n": 109,
+  "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+  "find": ", i.e. His own Son, that is His own Son, just as",
+  "replace": ", that is His own Son, just as",
+  "note": "duplicate"
+ },
+ {
+  "n": 110,
+  "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+  "find": "doxology to the Father, which the original manuscripts did not have. The RSV and others punctuate it as a separate praise of the Father:",
+  "replace": "doxology to the Father. The RSV reads:",
+  "note": "duplicate/old claim"
+ },
+ {
+  "n": 111,
+  "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+  "find": "John 1:18. Manuscripts divide between \"the only-begotten Son\" and \"the only-begotten God\". Manuscripts divide",
+  "replace": "John 1:18. Manuscripts divide",
+  "note": "duplicate sentence"
+ },
+ {
+  "n": 117,
+  "arg_id": "s-notgod--before-abraham-was-i-am-john-8-58-is-not-a-claim",
+  "find": "Evidence in the Septuagint",
+  "replace": "Evidence In the Septuagint",
+  "note": "capitalisation"
+ },
+ {
+  "n": 117,
+  "arg_id": "s-notgod--before-abraham-was-i-am-john-8-58-is-not-a-claim",
+  "find": "is ho ōn (\"the One who is\"), not ego eimi.",
+  "replace": "is ho ōn (\"the One who is\"), not ego eimi alone.",
+  "note": "neighbour contradiction"
+ },
+ {
+  "n": 119,
+  "arg_id": "s-notgod--before-abraham-was-i-am-john-8-58-is-not-a-claim",
+  "find": "; his reply (10:34-36) appeals to Psalm 82, and Jesus' own answer then was Psalm 82 and \"Son of God\", not",
+  "replace": "; his reply (10:34-36) appeals to Psalm 82 and \"Son of God\", not",
+  "note": "duplicate"
+ },
+ {
+  "n": 124,
+  "arg_id": "s-notgod--philippians-2-6-11-the-second-adam-not-god-incar",
+  "find": "Evidencesome scholars",
+  "replace": "EvidenceSome scholars",
+  "note": "capitalisation"
+ },
+ {
+  "n": 126,
+  "arg_id": "s-notgod--the-divine-acts-of-jesus-were-done-by-prophets-t",
+  "find": ", and Elisha made iron float (2 Kgs 6:6); Moses",
+  "replace": "; Moses",
+  "note": "duplicate"
+ },
+ {
+  "n": 130,
+  "arg_id": "s-ot-trinity--the-angel-of-the-lord-is-god-s-messenger-not-god",
+  "find": "(Gen 32:30), while the Angel",
+  "replace": "(Gen 32:30). The Angel",
+  "note": "clause join"
+ },
+ {
+  "n": 131,
+  "arg_id": "s-ot-trinity--plural-words-elohim-let-us-do-not-mean-plural-pe",
+  "find": ", and Artaxerxes writes \"the letter you sent us\" (Ezra 4:18)",
+  "replace": "",
+  "note": "duplicate"
+ },
+ {
+  "n": 135,
+  "arg_id": "s-ot-trinity--isaiah-9-6-48-16-and-63-9",
+  "find": "\"sent me and his spirit\", as scholars like Childs, Blenkinsopp and Goldingay translate: \"has sent me with His Spirit\"",
+  "replace": "\"sent me and his spirit\"",
+  "note": "duplicate"
+ },
+ {
+  "n": 143,
+  "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+  "find": "(De Principiis 1.2.9). (Commentary on John 2.6); the Father's",
+  "replace": "(De Principiis 1.2.9; Commentary on John 2.6). The Father's",
+  "note": "dangling fragment"
+ },
+ {
+  "n": 145,
+  "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+  "find": "4-18).… alien",
+  "replace": "4-18). He also wrote that the Son is \"alien",
+  "note": "dangling fragment"
+ },
+ {
+  "n": 154,
+  "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+  "find": "though these verses do not say anyone denied the crucifixion when they turn away from",
+  "replace": "though that verse does not say anyone denied the crucifixion. He says believers turn away from",
+  "note": "broken syntax"
+ },
+ {
+  "n": 157,
+  "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+  "find": "Basilides (early 2nd century), as reported by Irenaeus (Against Heresies 1.24.4), though Hippolytus' account differs: Simon of Cyrene was crucified in Jesus' likeness while Jesus stood by.",
+  "replace": "Basilides (early 2nd century), as reported by Irenaeus (Against Heresies 1.24.4): Simon of Cyrene was crucified in Jesus' likeness while Jesus stood by. Hippolytus' account differs.",
+  "note": "grammar"
+ },
+ {
+  "n": 161,
+  "arg_id": "s-cross--the-independent-non-christian-witnesses-are-late",
+  "find": "Messiah. (a crucified",
+  "replace": "Messiah (a crucified",
+  "note": "stray period"
+ },
+ {
+  "n": 162,
+  "arg_id": "s-cross--the-bible-promised-the-righteous-one-would-be-re",
+  "find": "\"to Him who was able to save him from death\" (Greek ek thanatou, which most commentators take to mean out of death by resurrection) and supplications, with loud cries and tears, to Him who was able to save him from death, and",
+  "replace": "\"…and supplications, with loud cries and tears, to Him who was able to save him from death (Greek ek thanatou, which most commentators take to mean out of death by resurrection), and",
+  "note": "duplicate quote"
+ },
+ {
+  "n": 163,
+  "arg_id": "s-cross--the-bible-promised-the-righteous-one-would-be-re",
+  "find": "( Against the Jews 9)",
+  "replace": "(Against the Jews 9)",
+  "note": "spacing"
+ },
+ {
+  "n": 164,
+  "arg_id": "s-cross--the-bible-promised-the-righteous-one-would-be-re",
+  "find": "to Christ, Wisdom",
+  "replace": "to Christ. Wisdom",
+  "note": "comma splice"
+ },
+ {
+  "n": 165,
+  "arg_id": "s-cross--the-shroud-the-swoon-theory-and-the-nazareth-ins",
+  "find": "claiming it was painted to Pope Clement VII saying an earlier bishop",
+  "replace": "claiming it was painted. The memo was addressed to Pope Clement VII and said an earlier bishop",
+  "note": "broken syntax"
+ },
+ {
+  "n": 170,
+  "arg_id": "s-cross--mutawaffika-3-55-does-not-mean-jesus-died",
+  "find": " for taking souls in sleep (6:60; 39:42), and the Quran uses tawaffa for both",
+  "replace": " for both",
+  "note": "duplicate"
+ },
+ {
+  "n": 171,
+  "arg_id": "s-jewish-xn--son-of-god-and-father-are-titles-of-closeness-no",
+  "find": "\"Jesus speaks of \"my Father",
+  "replace": "Jesus speaks of \"my Father",
+  "note": "stray quote"
+ },
+ {
+  "n": 176,
+  "arg_id": "s-jewish-xn--jesus-practised-islam-submission-to-the-one-god",
+  "find": "; Matt 5:3 and James 2:5; Matt 5:34-37 and James 5:12)",
+  "replace": ")",
+  "note": "duplicate"
+ },
+ {
+  "n": 178,
+  "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+  "find": "\"the gospel that was preached",
+  "replace": "\"…the gospel that was preached",
+  "note": "mid-quote start"
+ },
+ {
+  "n": 179,
+  "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+  "find": " \"those who seemed to be something; what they were makes no difference to me\" (Gal 2:6)",
+  "replace": " (Gal 2:6)",
+  "note": "duplicate"
+ }
+]
