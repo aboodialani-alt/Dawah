@@ -1,0 +1,191 @@
+[
+ {
+  "n": 382,
+  "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+  "find": "(a claim or its negation is true (excluded middle; classical logic also assumes every claim is true or false, bivalence))",
+  "replace": "(a claim or its negation is true; classical logic also assumes every claim is true or false, which is bivalence)",
+  "note": "nested duplicate"
+ },
+ {
+  "n": 384,
+  "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+  "find": "They are formal systems designed to avoid \"explosion\" in inconsistent data sets; ",
+  "replace": "",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 386,
+  "arg_id": "s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to",
+  "find": "rule::",
+  "replace": "rule:",
+  "note": "double colon"
+ },
+ {
+  "n": 391,
+  "arg_id": "s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo",
+  "find": "(Aquinas, (Aquinas, and",
+  "replace": "(Aquinas and",
+  "note": "duplicate"
+ },
+ {
+  "n": 394,
+  "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+  "find": "being;; finite",
+  "replace": "being; finite",
+  "note": "double semicolon"
+ },
+ {
+  "n": 405,
+  "arg_id": "s-resources--the-quran-preservation-text-and-its-challenge",
+  "find": "mutawatir and The Second",
+  "replace": "mutawatir, and The Second",
+  "note": "punctuation"
+ },
+ {
+  "n": 414,
+  "arg_id": "s-resources--agnosticism-and-the-divine-attributes",
+  "find": "from each proof al-Ghazali",
+  "replace": "from each proof. al-Ghazali",
+  "note": "missing period"
+ },
+ {
+  "n": 417,
+  "arg_id": "s-gender--what-feminism-got-right-and-where-islam-differs",
+  "find": "(53:45) and treats sex as real and meaningful (see the section on sexuality and gender)",
+  "replace": "(53:45; see the section on sexuality and gender)",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 418,
+  "arg_id": "s-gender--marriage-consent-the-dowry-and-a-wife-s-way-out",
+  "find": "her husband Thabit ibn Qays’s character",
+  "replace": "her husband’s character",
+  "note": "repeated name"
+ },
+ {
+  "n": 420,
+  "arg_id": "s-lgbt--born-this-way-does-not-settle-the-moral-question",
+  "find": "(Psychological Science in the Public Interest, 2016) Bailey and colleagues (Psychological Science in the Public Interest, 2016) concluded",
+  "replace": "(Psychological Science in the Public Interest, 2016) concluded",
+  "note": "duplicate"
+ },
+ {
+  "n": 421,
+  "arg_id": "s-lgbt--sex-gender-and-the-categories-islamic-law-uses",
+  "find": "The Prophet ﷺ the Prophet ﷺ ordered",
+  "replace": "The Prophet ﷺ ordered",
+  "note": "duplicate"
+ },
+ {
+  "n": 422,
+  "arg_id": "s-lgbt--the-revisionist-reading-of-lot-s-people",
+  "find": ", and mainstream scholars in every school reject it because it must set aside the explicit wording",
+  "replace": "",
+  "note": "duplicate clause"
+ },
+ {
+  "n": 432,
+  "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+  "find": "offence, which Ireland abolished by",
+  "replace": "offence, and Ireland abolished its own blasphemy offence by",
+  "note": "wrong referent"
+ },
+ {
+  "n": 433,
+  "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+  "find": ", though later Hanafi jurists allowed discretionary death for repeat offences, and that a Muslim who does so is an apostate",
+  "replace": ", and that a Muslim who does so is an apostate, though later Hanafi jurists allowed discretionary death for repeat offences",
+  "note": "dangling clause"
+ },
+ {
+  "n": 438,
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "find": "it is dated by radiocarbon to between 578 and 669 CE (parchment), i.e. no later",
+  "replace": "the parchment is dated by radiocarbon to between 578 and 669 CE, which is no later",
+  "note": "editor i.e."
+ },
+ {
+  "n": 439,
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "find": "acknowledge The Islamic",
+  "replace": "acknowledge. The Islamic",
+  "note": "missing period"
+ },
+ {
+  "n": 441,
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "find": "The sources report that ... (Bukhari 4987 for Hudhayfa and the copies; Ibn Abi Dawud's al-Masahif for the other codices)",
+  "replace": "The sources are Bukhari 4987 for Hudhayfa and the copies, and Ibn Abi Dawud's al-Masahif for the other codices",
+  "note": "placeholder ellipsis"
+ },
+ {
+  "n": 444,
+  "arg_id": "s-text--uthman-s-standardisation-what-it-did-and-did-not-d",
+  "find": "number of copies Consent",
+  "replace": "number of copies. Consent",
+  "note": "missing period"
+ },
+ {
+  "n": 449,
+  "arg_id": "s-sources--the-teacher-claims-bahira-waraqa-and-the-foreign-t",
+  "find": "Moses, he died soon after",
+  "replace": "Moses. He died soon after",
+  "note": "comma splice"
+ },
+ {
+  "n": 454,
+  "arg_id": "s-revision--the-petra-qibla-theory",
+  "find": "said: ““What",
+  "replace": "said: “What",
+  "note": "doubled quote"
+ },
+ {
+  "n": 455,
+  "arg_id": "s-revision--the-petra-qibla-theory",
+  "find": "said: ““What",
+  "replace": "said: “What",
+  "note": "doubled quote"
+ },
+ {
+  "n": 456,
+  "arg_id": "s-revision--the-petra-qibla-theory",
+  "find": "and had greatly declined by the seventh century",
+  "replace": "and by the seventh century was greatly reduced",
+  "note": "repeated decline"
+ },
+ {
+  "n": 459,
+  "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+  "find": "was left)P2",
+  "replace": "was left).P2",
+  "note": "missing period"
+ },
+ {
+  "n": 460,
+  "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+  "find": "Evidence the Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik; the foundation inscription gives the date 72 AH (691-2 CE) but now carries the name of the Abbasid al-Ma'mun, who substituted it It is one",
+  "replace": "Evidence The Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik; the foundation inscription gives the date 72 AH (691-2 CE) but now carries the name of the Abbasid al-Ma'mun, who substituted it. The Dome is one",
+  "note": "case, period"
+ },
+ {
+  "n": 463,
+  "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+  "find": "(13:31, 24:27) are collected",
+  "replace": "(13:31, 24:27); all are collected",
+  "note": "agreement"
+ },
+ {
+  "n": 464,
+  "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+  "find": "so scholars rejected it on grounds",
+  "replace": "so scholars rejected the Aisha report on grounds",
+  "note": "dangling it"
+ },
+ {
+  "n": 465,
+  "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+  "find": "meaning, and the most natural",
+  "replace": "meaning; the most natural",
+  "note": "punctuation"
+ }
+]

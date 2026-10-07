@@ -1,0 +1,102 @@
+{
+  "id": "s-revision",
+  "title": "Revisionist claims about Mecca and the early history",
+  "intro": "These claims circulate mostly online: that the first qibla was Petra, that Mecca was a small or even non-existent place, and that the Quran was composed generations after Muhammad ﷺ. Part I already presents the pre-Islamic evidence for Mecca and the non-Muslim sources that name Muhammad within years of his death (<a href=\"p1.html#s-history\">Historical accuracies &amp; early attestation</a>). This section answers the Petra theory in detail, separates the real scholarly debate on Meccan trade from the popular claim that Mecca did not exist, and adds a piece of early evidence the other sections do not use: the Quran in stone in Jerusalem in 691. The rule here is to separate academic scholarship, which debates real questions, from popular theories, which most specialists reject.",
+  "args": [
+    {
+      "title": "The Petra qibla theory",
+      "thesis": "Dan Gibson argues that the earliest mosques faced Petra and that Mecca was a later construction. Specialists reject the theory, because early qibla orientations were approximate, the Quran’s description of Mecca does not fit Petra, and the argument has no textual support.",
+      "premises": [
+        "A claim that early Muslims faced a different city must explain the Quran’s own geography as well as mosque orientations.",
+        "Early mosque orientations were set by approximate methods and vary widely, so a spread of directions is expected.",
+        "The Quran describes a valley without cultivation beside a sacred house, which does not describe Petra."
+      ],
+      "conclusion": "The Petra theory depends on a selective reading of imprecise orientations and conflicts with the Quran’s geography and with Islamic and non-Islamic sources. It is not accepted by historians of early Islam, Muslim or not.",
+      "evidence": [
+        "<strong>The claim.</strong> Dan Gibson (<em>Qur’anic Geography</em>, 2011; <em>Early Islamic Qiblas</em>, 2017) argues that the first Muslims prayed towards Petra, that a Nabataean sanctuary there was the original sacred site, and that Mecca replaced it later. He is a Canadian researcher and filmmaker, not a specialist in Arabic or early Islamic history.",
+        "<strong>The Quran’s geography.</strong> “Our Lord, I have settled some of my descendants in a valley without cultivation near Your sacred House” (14:37). Petra, by contrast, had one of the most sophisticated water systems of the ancient world. The Quran names Bakka (3:96), mentions Mecca (48:24), Safa and Marwa (2:158) and the Hajj sites (2:196-203).",
+        "<strong>Qibla was approximate.</strong> The Prophet ﷺ told the people of Medina: “What is between the east and the west is a qibla” (Tirmidhi 342; Ibn Majah 1011). The history of science on this topic (David King, <em>World-Maps for Finding the Direction and Distance to Mecca</em>) shows that Muslims used rough methods, such as winds and the rising of stars, and that orientations varied between regions for centuries.",
+        "<strong>Petra’s history.</strong> The Nabataean city declined after the earthquake of 363 CE and was a small settlement by the seventh century. A pilgrimage centre there would have left evidence in the Byzantine and Muslim records, and none exists.",
+        "<strong>The sources.</strong> The conquest accounts, the Hudaybiyyah treaty and the early histories all place the events at Mecca, Medina and nearby sites, and Muslims, Jews and Christians of the period referred to the same places."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“The orientation of early mosques shows they did not face Mecca.”", "a": "It shows that early builders did not have accurate methods. Early mosques are off by many degrees in many directions, and a spread of orientations is the expected result of estimating from local custom."},
+        {"q": "“Hagarism argued something similar in the 1970s.”", "a": "Patricia Crone and Michael Cook’s <em>Hagarism</em> (1977) proposed that the early Muslims’ sanctuary lay in north-west Arabia. Crone’s own later book on Meccan trade treated Mecca and its tribe Quraysh as historical, and the manuscripts and inscriptions found since then do not support the northern-sanctuary idea. It is a historical hypothesis that did not survive the evidence."}
+      ],
+      "practice": {
+        "q": "The first Muslims prayed towards Petra, and Mecca was invented later.",
+        "a": "The Quran describes a valley without cultivation beside the sacred house (14:37), and Petra was famous for its water engineering. The Prophet ﷺ told Medinans that what lies between east and west is a qibla (Tirmidhi 342), and historians of science show that early orientations were approximate, so scatter is expected. Gibson is not a specialist and historians of early Islam, including non-Muslim ones, do not accept the theory."
+      },
+      "summary": "The Petra theory conflicts with the Quran’s description of Mecca (14:37), ignores that early qibla finding was approximate (Tirmidhi 342), and is rejected by specialists."
+    },
+    {
+      "title": "From the Meccan trade debate to “Mecca did not exist”",
+      "thesis": "The serious scholarly debate was whether Mecca was a major long-distance trading hub, not whether it existed. The popular claim that Mecca did not exist turns a narrow academic argument into a different one that nobody in the field makes.",
+      "premises": [
+        "A claim should be answered in the form its scholarly source actually made it.",
+        "Patricia Crone argued that Mecca was not a major spice-route hub, and she did not argue that it did not exist.",
+        "A small commercial town can still be a sanctuary and the birthplace of a prophet."
+      ],
+      "conclusion": "The academic debate leaves Mecca’s existence, its sanctuary and the Quran’s picture intact, and the Quran’s own description of Mecca as a modest valley town fits the more modest reconstructions.",
+      "evidence": [
+        "<strong>The thesis.</strong> Patricia Crone’s <em>Meccan Trade and the Rise of Islam</em> (1987) argued that Mecca was not a major node in the spice trade and that earlier historians had overstated it. Her target was the theory that Islam arose from a trade crisis, not the existence of Mecca.",
+        "<strong>The responses.</strong> R.B. Serjeant (<em>Journal of the American Oriental Society</em>, 1990, “Meccan trade and the rise of Islam: misconceptions and flawed polemics”) and others argued that Mecca’s trade in local goods and its role in the pilgrimage season is well supported by the Quran and early sources.",
+        "<strong>The Quran.</strong> It refers to the trading journeys of Quraysh in winter and summer (106:1-2) and to trade during the Hajj season (2:198). It also calls Mecca “the mother of towns” (6:92; 42:7), a local centre, and describes its valley as barren (14:37).",
+        "<strong>Evidence of antiquity.</strong> Diodorus Siculus’s account of a revered Arabian temple and Ptolemy’s “Macoraba” are discussed in Part I. Treat these as suggestive, since Arabia is the least excavated region of the Near East.",
+        "<strong>The inference.</strong> “Not a global trade hub” does not entail “did not exist”. Even on Crone’s own picture the town had a sanctuary and a tribe."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“Crone proved the Meccan trade story was a myth.”", "a": "She argued that the stories of vast spice trade were overstated, and her work forced a better-grounded picture. That does not make the Quran’s account of a trading and pilgrimage town false, and her thesis was challenged by Serjeant and others on the evidence of the Quran and the early sources."},
+        {"q": "“No Greek or Syriac source names Mecca before Islam.”", "a": "Absence from the surviving sources of a small Arabian town is expected, as Arabia was outside the empires’ records, and Part I gives the candidate references. It is an argument from silence about a region that has hardly been excavated."}
+      ],
+      "practice": {
+        "q": "Scholars have shown Mecca was a nothing town on no trade route, so the Islamic story is invented.",
+        "a": "What Crone argued in 1987 is that Mecca was not a major spice-trade hub. She did not argue it did not exist, and Serjeant and others replied with the Quran’s own evidence of local trade and the pilgrimage season (106:1-2, 2:198). The Quran calls Mecca ‘the mother of towns’ and a barren valley (14:37), which is a modest place. A modest town can be a sanctuary and a birthplace of a prophet, so that debate does not touch the Islamic account."
+      },
+      "summary": "Crone argued Mecca was not a major spice-trade hub, not that it did not exist; the Quran’s picture of a modest sanctuary town (6:92, 14:37, 106) fits even her reconstruction."
+    },
+    {
+      "title": "The Quran in stone: the Dome of the Rock inscriptions (691 CE)",
+      "thesis": "The Dome of the Rock in Jerusalem, completed in 72 AH/691-2 CE, carries long inscriptions that quote Quranic verses closely. This is monumental evidence of the Quran’s text within about sixty years of the Prophet’s death, and it also contradicts the idea that the Quran was composed in the eighth or ninth century.",
+      "premises": [
+        "Dated public inscriptions are among the strongest kinds of historical evidence, since they cannot be revised later.",
+        "The Dome of the Rock carries a dated inscription that quotes passages found in our Quran.",
+        "A text that was composed generations later could not be quoted in a monument from 691."
+      ],
+      "conclusion": "By 691 the Quranic text, with the Prophet ﷺ named as God’s messenger, was already authoritative enough to be inscribed on the most prominent monument of the empire.",
+      "evidence": [
+        "<strong>The monument.</strong> The Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik, and the inscription gives the date as 72 AH (691-2 CE). It is one of the oldest surviving Islamic monuments and carries a long inscription.",
+        "<strong>The text.</strong> The mosaic inscriptions around the inner arcade quote Surat al-Ikhlas (112), 4:171-172, 19:33-36, 3:18-19 and other verses, together with the formula that Muhammad is the messenger of God. The quotations closely follow the text we have, and scholars such as Oleg Grabar (<em>The Shape of the Holy</em>, 1996) have studied them.",
+        "<strong>The message.</strong> The inscription’s central statements are the Quran’s: that God is One, that Jesus is the messenger of God and not His son (4:171), and that “the religion with God is Islam” (3:19).",
+        "<strong>Other early evidence.</strong> Coins and the Hisma inscription also name the Prophet ﷺ (see Part I), and the Birmingham, Tübingen and Sana’a manuscripts date from the same period (see Section A).",
+        "<strong>The inference.</strong> If the Quran had been composed gradually in the eighth and ninth centuries, as the late-composition theories (Wansbrough; the <em>Hagarism</em> school) proposed, a monument of 691 could not quote it."
+      ],
+      "arabic": [
+        {"text": "قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ", "cite": "112:1-4"}
+      ],
+      "objections": [
+        {"q": "“The inscription differs from the standard text in places.”", "a": "Some scholars note small differences in wording or selection, which is expected when verses are chosen and combined for a building and when the text was still in an oral and early written phase. The point stands: the passages, themes and wording are those of our Quran, and a building of 691 relies on them as already authoritative."},
+        {"q": "“Abd al-Malik’s Dome is political propaganda.”", "a": "It may well be, since it asserts Islam in a city full of Christian monuments. But propaganda quotes an existing text, and it needs its audience to recognise the verses as authoritative. That is the evidence that the Quran existed and was known."}
+      ],
+      "practice": {
+        "q": "The Quran was put together in the 8th or 9th century.",
+        "a": "The Dome of the Rock was completed in 72 AH/691-2 CE, and its inscriptions quote Surat al-Ikhlas, 4:171, 19:33-36 and 3:18-19 closely and name Muhammad ﷺ as God’s messenger. So by 691 the text was known and authoritative enough to be inscribed in the most prominent monument of the empire. The Birmingham, Tübingen and Sana’a manuscripts also date within the first century. A text composed in the 700s cannot appear in a building of 691."
+      },
+      "summary": "The Dome of the Rock (72 AH/691-2) quotes the Quran closely on its walls, so the text was authoritative within about sixty years of the Prophet’s death, long before any “late composition” could have happened."
+    }
+  ],
+  "cards": [
+    ["Who argued that the first qibla was Petra?", "Dan Gibson (Qur’anic Geography, 2011)"],
+    ["Which verse describes a valley without cultivation near the sacred house?", "14:37"],
+    ["What did the Prophet ﷺ tell the people of Medina about the qibla?", "“What is between the east and the west is a qibla” (Tirmidhi 342)"],
+    ["Who wrote Meccan Trade and the Rise of Islam?", "Patricia Crone (1987)"],
+    ["Who replied to Crone in the Journal of the American Oriental Society (1990)?", "R.B. Serjeant"],
+    ["Which surah mentions the winter and summer journeys of Quraysh?", "Surat Quraysh (106)"],
+    ["Which verse calls Mecca the “mother of towns”?", "6:92 and 42:7"],
+    ["When was the Dome of the Rock completed?", "72 AH / 691-2 CE, under ‘Abd al-Malik"],
+    ["Which Quranic passages appear in the Dome’s inscriptions?", "112, 4:171-172, 19:33-36, 3:18-19 and others"],
+    ["Who wrote The Shape of the Holy (1996)?", "Oleg Grabar"]
+  ]
+}

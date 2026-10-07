@@ -1,0 +1,1480 @@
+{
+ "part": "p1",
+ "arguments_checked": 44,
+ "findings": [
+  {
+   "arg_id": "s-quran--the-quran-was-preserved-through-two-independent",
+   "snippet": "a tombstone in Egypt is dated Ramadan 29 AH",
+   "status": "error",
+   "problem": "The tombstone of 'Urwa b. Thabit dated Ramadan 29 AH (650 CE) is reported from Cyprus, not Egypt. The earliest dated Egyptian tombstone is a different one (Aswan, 31 AH).",
+   "correction": "a tombstone in Cyprus is dated Ramadan 29 AH",
+   "sources": [
+    "https://www.islamic-awareness.org/history/islam/inscriptions/urwa (An Arabic Inscription From Cyprus, 29 AH / 650 CE; Elad)"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-quran-was-preserved-through-two-independent",
+   "snippet": "show the same surah text in the first Islamic century",
+   "status": "misleading",
+   "problem": "The Sana'a palimpsest lower text contains many variants from the standard Uthmanic text (Sadeghi and Bergmann, Arabica 57, 2010), and the Birmingham folios are only a small portion. Saying they show \"the same text\" overstates it.",
+   "correction": "show a text that is, in the portions preserved, very close to today's Quran. The Sana'a lower text does contain variants, which scholars debate",
+   "sources": [
+    "Sadeghi & Bergmann, \"The Codex of a Companion of the Prophet and the Qur'an of the Prophet\", Arabica 57 (2010) 343-436"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-quran-was-preserved-through-two-independent",
+   "snippet": "Zayd ibn Thabit accepted a passage only if it was found in writing and confirmed by memorisers (Bukhari 4986)",
+   "status": "weak_source",
+   "problem": "Bukhari 4986 narrates the collection and the finding of the last verses of al-Tawba with Abu Khuzayma. The two-witness (written plus memorised) rule is from later sources such as Ibn Abi Dawud and Ibn Hajar (Fath al-Bari 8/437), not stated in this hadith.",
+   "correction": "Zayd collected the Quran from written fragments and from memorisers (Bukhari 4986); later scholars such as Ibn Hajar explain that he required two witnesses for each verse",
+   "sources": [
+    "Sahih al-Bukhari 4986",
+    "Ibn Hajar, Fath al-Bari 8/437"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-quran-was-preserved-through-two-independent",
+   "snippet": "Not one Companion accused Uthman of changing the Quran, even though some of them later fought against him politically.",
+   "status": "misleading",
+   "problem": "Ibn Mas'ud objected strongly to the burning of his codex and to Zayd being preferred (reported in Bukhari 4987-4988 context and Ibn Abi Dawud, Masahif). He did not accuse Uthman of changing a verse, but \"not one Companion objected\" is too strong.",
+   "correction": "No Companion is reported to have accused Uthman of adding or removing a verse, although Ibn Mas'ud objected to the burning of his own codex and to the choice of Zayd",
+   "sources": [
+    "Ibn Abi Dawud, Kitab al-Masahif",
+    "Sahih al-Bukhari 4987"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-quran-was-preserved-through-two-independent",
+   "snippet": "No other ancient scripture has both an unbroken oral chain and dated manuscripts from the generation of its founder.",
+   "status": "misleading",
+   "problem": "Universal claim that cannot be verified (Vedic oral tradition, Avesta and other scriptures have oral chains). The Birmingham folios are dated by radiocarbon of the parchment, with a range up to 645 CE, which does not itself date the text as an Uthmanic text.",
+   "correction": "Few ancient scriptures combine a continuous oral recitation tradition with manuscripts radiocarbon-dated to within decades of the founder.",
+   "sources": [
+    "Radiocarbon dating of Birmingham Mingana 1572a/Parisino-Petropolitanus: 568-645 CE (95.4%)"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-quran-was-preserved-through-two-independent",
+   "snippet": "Seyfeddin Kara ( The Integrity of the Qur'an ) concludes the codex can be dated with certainty to before Umar's death (23/644).",
+   "status": "unverifiable",
+   "problem": "Could not open the book (Edinburgh University Press, open access) to confirm the wording. Kara uses isnad-cum-matn analysis of hadith to argue for early codification; \"with certainty\" looks stronger than a hadith-based dating can claim.",
+   "correction": "Seyfeddin Kara (The Integrity of the Qur'an) argues from isnad-cum-matn analysis that the codification dates to the earliest period, before Uthman.",
+   "sources": [
+    "https://edinburghuniversitypress.com/book-the-integrity-of-the-qur-an.html"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-quran-was-preserved-through-two-independent",
+   "snippet": "notes that newly found fragments support an early fixed text and that the \"revisionist\" theories of a late, evolving Quran have failed",
+   "status": "unverifiable",
+   "problem": "Neuwirth (Cambridge Companion, 2006, ch. \"Structural, linguistic and literary features\") does not, as far as could be confirmed, say this. Neuwirth sees the Quran as a text that grew within the Prophet's community over his lifetime and is itself critical of the traditional account. Quote not found.",
+   "correction": "Angelika Neuwirth, in the Cambridge Companion to the Qur'an, treats the Quran as a text that took shape in the Prophet's own community, and rejects late-dating theories such as Wansbrough's (verify wording and page before quoting)",
+   "sources": [
+    "Cambridge Companion to the Qur'an (2006), ed. McAuliffe"
+   ]
+  },
+  {
+   "arg_id": "s-quran--non-muslim-scholars-concede-the-quran-s-integrit",
+   "snippet": "\"There is probably no other book in the world which has remained twelve centuries with so pure a text.\"",
+   "status": "error",
+   "problem": "Muir's words (Life of Mahomet, introduction) are \"There is probably in the world no other book which has remained twelve centuries with so pure a text.\" Word order is altered in a quotation. Muir also held that this purity referred to the Uthmanic text and that Muhammad was not the sole source.",
+   "correction": "\"There is probably in the world no other book which has remained twelve centuries with so pure a text.\"",
+   "sources": [
+    "William Muir, The Life of Mahomet (1858-61), introductory chapters"
+   ]
+  },
+  {
+   "arg_id": "s-quran--non-muslim-scholars-concede-the-quran-s-integrit",
+   "snippet": "Andrew Rippin , Neal Robinson , H.A.R. Gibb , R.V.C. Bodley , C.C. Torrey , Denise Masson and Laura Veccia Vaglieri all make similar statements.",
+   "status": "misleading",
+   "problem": "Rippin is a leading sceptic of early Quran history and does not say the text is unaltered. Torrey argued the Quran was fixed by Muhammad himself but had other views on Muhammad's sources. A blanket \"all make similar statements\" is not supported.",
+   "correction": "Neal Robinson, H.A.R. Gibb, R.V.C. Bodley, C.C. Torrey, Denise Masson and Laura Veccia Vaglieri make similar statements (check each citation before quoting; Rippin should be removed).",
+   "sources": [
+    "Rippin, The Qur'an and its Interpretative Tradition; Companion to the Qur'an (Blackwell)"
+   ]
+  },
+  {
+   "arg_id": "s-quran--non-muslim-scholars-concede-the-quran-s-integrit",
+   "snippet": "Neuwirth and Sinai, who are mainstream academics, now treat an early fixed text as the starting point.",
+   "status": "misleading",
+   "problem": "Neuwirth and Sinai accept that the Quran largely goes back to Muhammad's time, but both describe a text that developed (Neuwirth: community-shaped, multi-stage; Sinai: some post-Muhammadan editing). Neither says the text is \"unaltered\".",
+   "correction": "Neuwirth and Sinai, who are mainstream academics, accept that most of the Quran goes back to Muhammad's lifetime, while still describing a text that developed within his community.",
+   "sources": [
+    "Sinai, The Qur'an: A Historical-Critical Introduction (2017)"
+   ]
+  },
+  {
+   "arg_id": "s-quran--non-muslim-scholars-concede-the-quran-s-integrit",
+   "snippet": "scholars who have no stake in defending Islam agree the Quran has not been altered",
+   "status": "misleading",
+   "problem": "Overreach: the cited scholars concede early origin and reliability of the consonantal text, not unanimous agreement that nothing changed. Several (Sinai, Neuwirth, Rippin) describe editing or development.",
+   "correction": "scholars who have no stake in defending Islam increasingly accept that the Quran text goes back to Muhammad's generation",
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran--the-qira-at-are-revealed-readings-not-copying-er",
+   "snippet": "Ibn Mujahid's survey found that only about 700 of the Quran's roughly 77,000 words differ between the readings",
+   "status": "unverifiable",
+   "problem": "No source found for Ibn Mujahid counting 700 differing words; his Kitab al-Sab'a lists the seven readers and their differences but not this total. The 1% figure is circulated without citation.",
+   "correction": "Ibn Mujahid's Kitab al-Sab'a records that the differences between the canonical readings affect a small fraction of the Quran's words, mostly vowels and verb forms.",
+   "sources": [
+    "Ibn Mujahid, Kitab al-Sab'a fi al-Qira'at"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-qira-at-are-revealed-readings-not-copying-er",
+   "snippet": "Each canonical reading needs a mass-transmitted (mutawatir) chain to the Prophet",
+   "status": "misleading",
+   "problem": "Ibn al-Jazari's widely used criteria require a sound (sahih) chain, agreement with the Uthmanic outline and Arabic grammar. Mutawatir is the stricter condition held by some scholars (e.g. al-Suyuti discusses both). Stated as settled when it is disputed.",
+   "correction": "Each canonical reading needs a sound chain to the Prophet (many scholars require mass transmission), must fit the Uthmanic consonantal outline, and must be correct Arabic.",
+   "sources": [
+    "Ibn al-Jazari, al-Nashr fi al-Qira'at al-'Ashr"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-qira-at-are-revealed-readings-not-copying-er",
+   "snippet": "both taught by the Prophet ﷺ (Bukhari 2419)",
+   "status": "misleading",
+   "problem": "The seven ahruf of Bukhari 2419 and the canonical qira'at are not the same thing in classical scholarship; the exact relation between ahruf and the ten readings is disputed (some say ahruf are not the qira'at at all).",
+   "correction": "The Prophet approved different recitations (the seven ahruf), and the canonical qira'at are held by scholars to preserve authorised recitations; how exactly the ahruf relate to the qira'at is discussed among scholars.",
+   "sources": [
+    "Sahih al-Bukhari 2419; Ibn Jarir al-Tabari, Tafsir intro on the seven ahruf"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-missing-verses-reports-answered",
+   "snippet": "graded weak by al-Arna'ut",
+   "status": "unverifiable",
+   "problem": "Ibn Majah 1944 is graded hasan by al-Albani and the sheep detail is criticised by others. The specific grading by al-Arna'ut could not be confirmed. The claim that only Ibn Ishaq narrates the sheep is made by critics of the report.",
+   "correction": "(graded hasan by al-Albani; some scholars regard the sheep detail as weak because it comes only through Ibn Ishaq)",
+   "sources": [
+    "Sunan Ibn Majah 1944 (gradings on sunnah.com)"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-missing-verses-reports-answered",
+   "snippet": "\"If the son of Adam had a valley of gold…\" Ibn Abbas said he did not know whether it was from the Quran. Ubayy said they thought it was until Surah al-Takathur was revealed (Bukhari 6440)",
+   "status": "weak_source",
+   "problem": "On sunnah.com, Bukhari 6437 is the Ibn Abbas narration, 6438 has Ubayy's statement and 6440 is Anas. Citing only 6440 is imprecise.",
+   "correction": "(Bukhari 6437, 6438, 6440)",
+   "sources": [
+    "Sahih al-Bukhari 6437-6440"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-missing-verses-reports-answered",
+   "snippet": "Ibn Mas'ud called al-Fatiha \"the seven oft-repeated\" and urged reciting the two Mu'awwidhatayn.",
+   "status": "misleading",
+   "problem": "Reports that Ibn Mas'ud did not write the Mu'awwidhatayn in his codex are in Musnad Ahmad and Bukhari 4977 (Ubayy's report) and graded sound; saying he \"urged\" reciting them needs a cited source. The paragraph handles this with \"At most, he did not write\", but the first sentence should not imply there is no report.",
+   "correction": "Ibn Mas'ud is reported not to have written the two Mu'awwidhatayn in his personal codex (Musnad Ahmad; see Bukhari 4977), and scholars explain this as his view that they were protective prayers or that they needed no writing.",
+   "sources": [
+    "Sahih al-Bukhari 4977; Ibn Hajar, Fath al-Bari 8/741"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-missing-verses-reports-answered",
+   "snippet": "Ubayy himself dictated to Zayd during Uthman's compilation (Kanz al-'Ummal 4789)",
+   "status": "unverifiable",
+   "problem": "Could not verify the Kanz al-Ummal number 4789. The report that Ubayy dictated is in Ibn Abi Dawud, Kitab al-Masahif and cited elsewhere.",
+   "correction": "Ubayy is reported to have dictated to Zayd during Uthman's compilation (Ibn Abi Dawud, Kitab al-Masahif)",
+   "sources": [
+    "Ibn Abi Dawud, Kitab al-Masahif"
+   ]
+  },
+  {
+   "arg_id": "s-quran--the-missing-verses-reports-answered",
+   "snippet": "The reports in Musnad Ahmad run through Yazid ibn Abi Ziyad and 'Asim, whose memory was criticised",
+   "status": "unverifiable",
+   "problem": "Musnad Ahmad's narration on al-Ahzab's length (from Ubayy) runs through Zirr and 'Asim ibn Bahdala; Yazid ibn Abi Ziyad is on a different narration. Could not confirm both are in the same chain.",
+   "correction": "The reports in Musnad Ahmad run through 'Asim ibn Bahdala, whose memory was criticised, and through other chains with their own weaknesses",
+   "sources": [
+    "Musnad Ahmad 21206-21207"
+   ]
+  },
+  {
+   "arg_id": "s-history--the-argument-from-historical-precision",
+   "snippet": "Before that, no one in the world, Muslim, Jewish or Christian, could read an Egyptian royal title or funerary text.",
+   "status": "misleading",
+   "problem": "Medieval Arabic writers such as Ibn Wahshiyya (Shawq al-Mustaham, 10th century) and Dhul-Nun al-Misri claimed to decipher hieroglyphs, and Coptic speakers retained some knowledge. Their decipherments were largely wrong, but \"no one could read\" the language is too strong.",
+   "correction": "Before 1822, nobody could correctly read Egyptian royal titles or funerary texts, although medieval Arabic authors such as Ibn Wahshiyya attempted to decipher hieroglyphs.",
+   "sources": [
+    "Okasha El Daly, Egyptology: The Missing Millennium (2005)"
+   ]
+  },
+  {
+   "arg_id": "s-history--the-argument-from-historical-precision",
+   "snippet": "On several of them (Pharaoh's title, the size of the Exodus, the creator-claim of Pharaoh) the Bible actually says the opposite.",
+   "status": "misleading",
+   "problem": "The Bible does not give a creator-claim of Pharaoh in the Moses story (Ezek 29:3 is a later prophetic oracle). Also, many scholars regard the Hyksos/Joseph identification and the Exodus date as uncertain, so \"confirmed by archaeology\" is overstated.",
+   "correction": "On several of them (Pharaoh's title, the size of the Exodus), the Bible differs from the Quran.",
+   "sources": [
+    "Ezekiel 29:3"
+   ]
+  },
+  {
+   "arg_id": "s-history--the-argument-from-historical-precision",
+   "snippet": "Every detail below was confirmed only after those decipherments.",
+   "status": "misleading",
+   "problem": "Several of the details listed are not archaeologically confirmed (Joseph's date under the Hyksos, Moses' Ramesside date) and some, such as fired brick, have earlier Egyptian attestation. This is stated as settled.",
+   "correction": "Several details below have been argued to fit evidence uncovered after those decipherments.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--king-in-joseph-s-time-pharaoh-in-moses-time",
+   "snippet": "This matches Egyptian history exactly, while the Bible uses \"Pharaoh\" anachronistically for both.",
+   "status": "misleading",
+   "problem": "Whether the Bible's \"Pharaoh\" in Genesis is anachronistic is disputed (K. Kitchen argues the title was already used by the narrator's time), and linking Joseph to the Hyksos is a hypothesis. \"Exactly\" overstates it.",
+   "correction": "This fits the Egyptian use of \"pharaoh\" as a royal title from the New Kingdom, while the Bible uses \"Pharaoh\" for Joseph's ruler. (Many Egyptologists call the biblical usage retrospective.)",
+   "sources": [
+    "Shaw & Nicholson, British Museum Dictionary of Ancient Egypt",
+    "K. A. Kitchen, On the Reliability of the Old Testament (2003)"
+   ]
+  },
+  {
+   "arg_id": "s-history--king-in-joseph-s-time-pharaoh-in-moses-time",
+   "snippet": "Joseph lived well before that, plausibly under the Hyksos",
+   "status": "unverifiable",
+   "problem": "The historicity and date of Joseph are not established; the Hyksos placement is one conjecture among several (Middle Kingdom, Hyksos, Amarna).",
+   "correction": "Joseph is placed by some scholars well before the New Kingdom, plausibly under the Hyksos, but his date is uncertain.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--king-in-joseph-s-time-pharaoh-in-moses-time",
+   "snippet": "Alan Gardiner ( Egyptian Grammar , p.75) and W.V. Davies ( Egyptian Hieroglyphs , p.45) give the same dating.",
+   "status": "unverifiable",
+   "problem": "Page numbers could not be checked against the editions. Gardiner's Egyptian Grammar discusses per-aa under the sign for house, in the 3rd edition near p.75, but the exact claim (\"from the New Kingdom, especially Thutmose III\") should be checked.",
+   "correction": "Alan Gardiner (Egyptian Grammar) and W.V. Davies (Egyptian Hieroglyphs) give a similar dating (check edition and page).",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--king-in-joseph-s-time-pharaoh-in-moses-time",
+   "snippet": "it calls Moses' ruler Pharaoh 74 times",
+   "status": "unverifiable",
+   "problem": "The commonly cited count is 74 but depends on how verses are counted; varies by source (about 73-74).",
+   "correction": "it calls Moses' ruler Pharaoh dozens of times (about 74)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--pharaoh-s-tower-of-baked-brick",
+   "snippet": "Baked brick was rare in Egypt and appears in the Ramesside period, which is Moses' era.",
+   "status": "error",
+   "problem": "Fired brick is attested in Egypt before the Ramesside period: in Middle Kingdom Nubian fortresses (Buhen etc.) and in the New Kingdom at Thebes. Petrie's Nebesheh and Defenneh evidence is one example, not the first appearance. The Ramesside date of Moses is also only one of several proposals (an earlier date is argued by others).",
+   "correction": "Baked brick was rare in Egypt, though it is attested in Middle Kingdom Nubian forts and in New Kingdom Thebes, and Petrie found Ramesside examples at Nebesheh. Many place Moses in the Ramesside era, but this is debated.",
+   "sources": [
+    "Spencer, Brick Architecture in Ancient Egypt (1979)",
+    "Petrie, Tanis Part II (1888)"
+   ]
+  },
+  {
+   "arg_id": "s-history--pharaoh-s-tower-of-baked-brick",
+   "snippet": "in the one era where Egyptology finds it",
+   "status": "error",
+   "problem": "Egyptology also finds fired brick in the Middle Kingdom (Nubia) and the New Kingdom (Thebes).",
+   "correction": "in an era where Egyptology finds it",
+   "sources": [
+    "Spencer, Brick Architecture in Ancient Egypt (1979)"
+   ]
+  },
+  {
+   "arg_id": "s-history--pharaoh-s-tower-of-baked-brick",
+   "snippet": "Petrie's excavations found fired brick introduced in Ramesside times in the Delta, in a tomb bearing a cartouche of Ramesses II.",
+   "status": "weak_source",
+   "problem": "Petrie (Tanis II, 1888) reports burnt brick at Nebesheh and Defenneh in the Delta in the Ramesside era; the \"introduced\" wording is the argument's, not Petrie's. Could not open the Heidelberg scan to confirm the cartouche detail.",
+   "correction": "Petrie found burnt brick in the Ramesside Delta (Nebesheh) in a tomb bearing Ramesside names.",
+   "sources": [
+    "Petrie, Tanis Part II: Nebesheh and Defenneh (1888)"
+   ]
+  },
+  {
+   "arg_id": "s-history--abraham-and-the-astral-triad",
+   "snippet": "In Abraham's Mesopotamia (early 2nd millennium BCE), the leading cosmic gods were Ishtar (Venus), Sin (the moon) and Shamash (the sun), shown together on kudurru boundary stones and seals.",
+   "status": "misleading",
+   "problem": "Kudurru boundary stones are Kassite (c. 1500-1100 BCE), several centuries after the early 2nd millennium BCE date given for Abraham. The Sin, Shamash, Ishtar triad is attested earlier on seals, but the kudurru evidence is later. The order and identification of the Quranic \"star\" as Venus is a tafsir opinion.",
+   "correction": "In Mesopotamia from the 3rd millennium onward the Moon-god Sin, Sun-god Shamash and Ishtar (Venus) were prominent, and they appear together on seals and on Kassite kudurru stones (later 2nd millennium BCE).",
+   "sources": [
+    "Pizzimenti, The Astral Family in Kassite Kudurrus Reliefs"
+   ]
+  },
+  {
+   "arg_id": "s-history--abraham-and-the-astral-triad",
+   "snippet": "The Quran reflects the actual religion of Abraham's world, which was rediscovered only by modern Assyriology.",
+   "status": "misleading",
+   "problem": "The Quran does not name Ishtar, Sin or Shamash, and Abraham's historicity and date are not established by archaeology. \"Rediscovered only by modern Assyriology\" overlooks that Greek/Jewish/Muslim writers already knew Mesopotamian astral worship (e.g. Sabians of Harran, Ibn Kathir).",
+   "correction": "The Quran's sequence star, moon, sun is consistent with the astral worship of Mesopotamia and Harran.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--abraham-and-the-astral-triad",
+   "snippet": "Ibn Kathir already explained the kawkab as Venus",
+   "status": "unverifiable",
+   "problem": "Could not confirm Ibn Kathir's wording on 6:76; al-Tabari and others list opinions (e.g. Zuhra/Venus, Jupiter), and Ibn Kathir reports differing views.",
+   "correction": "Some early commentators, including those recorded by Ibn Kathir and al-Tabari, said the kawkab was Venus (al-Zuhra)",
+   "sources": [
+    "Ibn Kathir, Tafsir on 6:76"
+   ]
+  },
+  {
+   "arg_id": "s-history--abraham-and-the-astral-triad",
+   "snippet": "Dating Abraham to the beginning of the 2nd millennium BC is \"sustainable\"",
+   "status": "weak_source",
+   "problem": "Scholars of the Bible and Near East (e.g. Finkelstein, Van Seters) doubt Abraham's historicity; \"sustainable\" is a conservative evangelical position, not a consensus.",
+   "correction": "Some scholars regard dating Abraham to the beginning of the 2nd millennium BC as sustainable, though many scholars doubt he is a historical figure.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--abraham-and-the-astral-triad",
+   "snippet": "fire, water and earth (Apocalypse of Abraham 7)",
+   "status": "unverifiable",
+   "problem": "The Apocalypse of Abraham ch. 7 reasons through fire, water, earth, sun and moon in turn, so the list is incomplete; verify against a translation.",
+   "correction": "fire, water, earth, sun and moon (Apocalypse of Abraham 7)",
+   "sources": [
+    "Apocalypse of Abraham 7"
+   ]
+  },
+  {
+   "arg_id": "s-history--more-egyptian-details-the-bible-lacks",
+   "snippet": "\"Neither heaven nor earth wept for them\" (44:29). Egyptian funerary texts promise the dead king that \"the sky weeps for thee, the earth trembles\" (Pyramid Text Utterance 553)",
+   "status": "unverifiable",
+   "problem": "Could not verify the utterance number or wording in Faulkner. The \"Songs of Isis and Nephthys\" quotation was also not verified. Also, 44:29 is a statement, not clearly an \"inversion\" of a formula.",
+   "correction": "Egyptian funerary texts speak of heaven and earth mourning for the dead (verify Pyramid Text utterance number against Faulkner before quoting)",
+   "sources": [
+    "Faulkner, Ancient Egyptian Pyramid Texts"
+   ]
+  },
+  {
+   "arg_id": "s-history--more-egyptian-details-the-bible-lacks",
+   "snippet": "In Ezekiel 29:3 Pharaoh says \"My Nile is my own; I made it \", a creator claim with no Egyptian parallel.",
+   "status": "misleading",
+   "problem": "Egyptian royal ideology did claim the king's control over the Nile's inundation and kings were hymned as creators; \"no Egyptian parallel\" is unsupported.",
+   "correction": "In Ezekiel 29:3 Pharaoh says \"My Nile is my own; I made it\", a creator claim.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--more-egyptian-details-the-bible-lacks",
+   "snippet": "The Bible has 600,000 men, about two million people, leaving Egypt, which archaeology cannot find any trace of.",
+   "status": "misleading",
+   "problem": "The mainstream view is that there is no archaeological evidence for an exodus of that size. But the Quran gives no number, and its \"small band\" (26:54) is Pharaoh's description of the Israelites, not a claim about the real number.",
+   "correction": "The Bible has 600,000 men leaving Egypt, a number archaeology has found no trace of. The Quran gives no number but quotes Pharaoh describing them as a \"small band\".",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--more-egyptian-details-the-bible-lacks",
+   "snippet": "But Egyptian shemer means \"foreigner/stranger\" (Budge, Hieroglyphic Dictionary II p.741), which fits a foreign agitator",
+   "status": "weak_source",
+   "problem": "Budge's Egyptian Hieroglyphic Dictionary (1920) is outdated and this reading of the Samiri name is not supported by modern Egyptology; Egyptian lexica (Erman-Grapow, Wb) do not list this meaning. Other proposals: Hebrew shomer, Samaritan.",
+   "correction": "The Samiri's identity is debated; some proposals derive it from Hebrew shomer or from an Egyptian term (Budge, Hieroglyphic Dictionary, a dated source).",
+   "sources": [
+    "E. A. Wallis Budge, An Egyptian Hieroglyphic Dictionary (1920)"
+   ]
+  },
+  {
+   "arg_id": "s-history--more-egyptian-details-the-bible-lacks",
+   "snippet": "the name is plausibly an Egyptian title (see Silverstein, JSAI 34)",
+   "status": "error",
+   "problem": "Adam Silverstein's article \"Haman's Transition from Jahiliyya to Islam\" (JSAI 34, 2008, 285-308) argues the Quranic Haman has its origin in the biblical Haman of Esther, the opposite of the claim.",
+   "correction": "the name is argued by some to be an Egyptian title (Muhammad Asad, Hamen/Hmn), a view Silverstein rejects in JSAI 34, where he derives the Quranic Haman from the Book of Esther",
+   "sources": [
+    "Silverstein, \"Haman's Transition from Jahiliyya to Islam\", JSAI 34 (2008) 285-308"
+   ]
+  },
+  {
+   "arg_id": "s-history--muhammad-is-attested-by-outsiders-within-years-o",
+   "snippet": "Thomas the Presbyter (c. 640) : names \"the Arabs of Muhammad\".",
+   "status": "weak_source",
+   "problem": "Thomas the Presbyter is dated to c. 640 and mentions \"tayyaye d-Mhmt\"; some scholars read Mhmt as a title, not a name. Doctrina Jacobi does not name Muhammad, only \"a prophet\"; P2 says all these name him.",
+   "correction": "Thomas the Presbyter (c. 640): mentions \"the Arabs of Muhammad\" (Mhmt, which some read as a title).",
+   "sources": [
+    "Hoyland, Seeing Islam as Others Saw It, pp. 116-117"
+   ]
+  },
+  {
+   "arg_id": "s-history--muhammad-is-attested-by-outsiders-within-years-o",
+   "snippet": "The Khuzistan Chronicle (c. 660) : the Arabs led by MHMD conquered Persia.",
+   "status": "unverifiable",
+   "problem": "Could not confirm that the Khuzistan Chronicle names Muhammad as \"MHMD\"; check Greatrex & Lieu / Hoyland.",
+   "correction": null,
+   "sources": [
+    "Hoyland, Seeing Islam as Others Saw It; Greatrex & Lieu, The Roman Eastern Frontier"
+   ]
+  },
+  {
+   "arg_id": "s-history--muhammad-is-attested-by-outsiders-within-years-o",
+   "snippet": "Chinese sources : the Tang dynasty's account and Du Huan (750s) describe the prayers, fasting, the ban on wine and the Friday sermon.",
+   "status": "weak_source",
+   "problem": "Du Huan's Jingxingji survives only in fragments quoted in the Tongdian; it does describe the Arab religion, but the claim that it names a \"Friday sermon\" etc. should be quoted from Hoyland's translation.",
+   "correction": "Chinese sources: the Tang account and Du Huan (750s) describe the Arab religion, including prayer and a ban on wine (check Hoyland for the exact items).",
+   "sources": [
+    "Hoyland, Seeing Islam as Others Saw It, ch. on Chinese sources"
+   ]
+  },
+  {
+   "arg_id": "s-history--muhammad-is-attested-by-outsiders-within-years-o",
+   "snippet": "The Arab-Sassanian coin of Bishapur/Kirman, 66-70 AH, reads \"Muhammad is the messenger of God\".",
+   "status": "weak_source",
+   "problem": "The Arab-Sasanian \"Muhammad rasul Allah\" coins are usually attributed to Bishapur (66 AH); the Kirman coin is later. Present as approximate.",
+   "correction": "The Arab-Sasanian coins of Bishapur (66 AH) and later issues read \"Muhammad is the messenger of God\" in Pahlavi.",
+   "sources": [
+    "Ashmolean HCR coin catalogue"
+   ]
+  },
+  {
+   "arg_id": "s-history--muhammad-is-attested-by-outsiders-within-years-o",
+   "snippet": "Sinai's verdict above is now the mainstream view",
+   "status": "misleading",
+   "problem": "Sinai says Muhammad's prophethood as a late-7th-century invention is improbable; \"mainstream\" is a fair description but revisionist views have not disappeared. Stated more strongly than the source.",
+   "correction": "Sinai's verdict above is now widely held.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--the-quran-s-stories-are-not-copied-from-late-leg",
+   "snippet": "Pre-Islamic Arab poets already knew a Dhul-Qarnayn (Ibn Hajar, Fath al-Bari )",
+   "status": "weak_source",
+   "problem": "The reports of Tubba' al-Himyari poetry about Dhul-Qarnayn are in Ibn Hisham and Ibn Hajar but disputed. Also does not answer the Alexander connection.",
+   "correction": null,
+   "sources": [
+    "Ibn Hajar, Fath al-Bari (on 18:83)"
+   ]
+  },
+  {
+   "arg_id": "s-history--the-quran-s-stories-are-not-copied-from-late-leg",
+   "snippet": "The Syriac Alexander Legend is dated after 628, while Surah al-Kahf is Meccan (before 622)",
+   "status": "misleading",
+   "problem": "The Syriac Alexander Legend (c. 629-636) is later than the surah on the Meccan dating, but it draws on earlier Alexander material, especially the homily of Jacob of Serugh (d. 521) which already has Alexander, the gate against Gog and Magog. The argument omits this earlier source.",
+   "correction": "The Syriac Alexander Legend is dated c. 629-636, but earlier material, including Jacob of Serugh's Alexander homily (d. 521), already links Alexander to the gate against Gog and Magog.",
+   "sources": [
+    "Reinink, Die syrische Alexanderlegende",
+    "Jacob of Serugh, Homily on Alexander"
+   ]
+  },
+  {
+   "arg_id": "s-history--the-quran-s-stories-are-not-copied-from-late-leg",
+   "snippet": "Scholars such as François de Blois and Oliver Leaman warn that in the vast literature of late antiquity, parallels are \"almost too easy to find\"",
+   "status": "unverifiable",
+   "problem": "Quote not located in de Blois or Leaman. Source unknown.",
+   "correction": "Scholars warn that parallels in late antique literature are easy to find and similarity does not prove influence.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--the-quran-s-stories-are-not-copied-from-late-leg",
+   "snippet": "as Michael Pregill and Nicolai Sinai have noted",
+   "status": "unverifiable",
+   "problem": "Could not confirm that Pregill and Sinai make this point about Pirqe de-Rabbi Eliezer specifically.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-history--the-quran-s-stories-are-not-copied-from-late-leg",
+   "snippet": "Genesis Rabbah (38:13, 5th century, Palestine) has a version in which Abraham breaks the idols in his father's shop",
+   "status": "misleading",
+   "problem": "Earlier Jewish texts have Abraham destroying idols: Jubilees 12 (2nd century BCE) has Abraham burn the house of idols, and the Apocalypse of Abraham 1-8 (1st century CE) has Terah's idols broken. Genesis Rabbah is not the earliest parallel; this undermines the point that sources are later.",
+   "correction": "Earlier Jewish texts already have Abraham attacking idols (Jubilees 12; Apocalypse of Abraham 1-8); Genesis Rabbah 38:13 (5th century) has the idols broken in his father's shop.",
+   "sources": [
+    "Jubilees 12:12-14",
+    "Apocalypse of Abraham 1-8"
+   ]
+  },
+  {
+   "arg_id": "s-history--answers-to-anachronism-charges",
+   "snippet": "Jesus and the apostles married (Peter, 1 Cor 9:5)",
+   "status": "error",
+   "problem": "The New Testament never says Jesus married; 1 Cor 9:5 says Peter and other apostles had wives.",
+   "correction": "Peter and other apostles were married (1 Cor 9:5; Mark 1:30)",
+   "sources": [
+    "1 Corinthians 9:5",
+    "Mark 1:30"
+   ]
+  },
+  {
+   "arg_id": "s-history--answers-to-anachronism-charges",
+   "snippet": "Dirham here means a weight of silver ( Lisan al-'Arab : \"a dirham of weight\"), and payment in weighed silver is attested in Middle Kingdom Egypt.",
+   "status": "misleading",
+   "problem": "The Arabic dirham derives from the Greek drachma, so the word itself post-dates Joseph; the answer shows the unit can mean weight but not that the term existed in his time. Silver by weight is attested in Egypt (deben), but Middle Kingdom evidence is thin.",
+   "correction": "\"Dirham\" in 12:20 can be read as a weight of silver (Lisan al-Arab), and silver by weight (the deben) was used in Egyptian payments; critics note that the word dirham comes from Greek drachma.",
+   "sources": [
+    "Lisan al-Arab, d-r-h-m"
+   ]
+  },
+  {
+   "arg_id": "s-history--answers-to-anachronism-charges",
+   "snippet": "impalement is attested in New Kingdom Egypt",
+   "status": "weak_source",
+   "problem": "Impalement of enemies is attested (Karnak inscription of Merneptah/Ramesses III); say \"attested as a punishment\" and avoid implying crucifixion.",
+   "correction": "impalement of enemies and criminals is attested in New Kingdom Egypt",
+   "sources": [
+    "Samuelsson, Crucifixion in Antiquity (2011)"
+   ]
+  },
+  {
+   "arg_id": "s-history--the-splitting-of-the-moon",
+   "snippet": "Ibn Kathir and al-Kattani class it as mutawatir",
+   "status": "weak_source",
+   "problem": "The Kattani classification (Nazm al-mutanathir) lists it as mutawatir; some scholars dispute and some modern writers read 54:1 as eschatological. Gradings by Hudhayfa and Ali chains are not in Bukhari or Muslim.",
+   "correction": "Ibn Kathir and al-Kattani class it as mutawatir (some scholars read 54:1 as eschatological)",
+   "sources": [
+    "Ibn Kathir, Tafsir on 54:1",
+    "al-Kattani, Nazm al-Mutanathir"
+   ]
+  },
+  {
+   "arg_id": "s-history--mecca-s-antiquity-and-the-people-of-the-ditch",
+   "snippet": "Diodorus Siculus (1st century BCE, Library of History 3.44) describes a temple in western Arabia \"very holy and exceedingly revered by all Arabians\"; Edward Gibbon read it as the Kaaba.",
+   "status": "misleading",
+   "problem": "Diodorus places the temple among the Banizomenes on the coast, with uncertain location; Patricia Crone argued it is not Mecca. Gibbon accepted the identification with Mecca, but scholarly consensus is split. The page itself says \"use with care\".",
+   "correction": "Diodorus Siculus (Library of History 3.44) describes a very holy temple among the Banizomenes of western Arabia; Gibbon read it as the Kaaba, though others dispute the location.",
+   "sources": [
+    "Diodorus Siculus 3.44",
+    "Crone, Meccan Trade and the Rise of Islam (1987)"
+   ]
+  },
+  {
+   "arg_id": "s-history--mecca-s-antiquity-and-the-people-of-the-ditch",
+   "snippet": "Ptolemy's 2nd-century map lists \"Macoraba\" in western Arabia, which many scholars (such as Philip Hitti) identify with Mecca.",
+   "status": "misleading",
+   "problem": "The identification of Macoraba with Mecca is disputed (Crone). The word could be South Arabian mikrab, \"temple\".",
+   "correction": "Ptolemy's 2nd-century map lists \"Macoraba\" in western Arabia, which some scholars (such as Philip Hitti) identify with Mecca; others (such as Patricia Crone) doubt it.",
+   "sources": [
+    "Crone, Meccan Trade and the Rise of Islam (1987)"
+   ]
+  },
+  {
+   "arg_id": "s-history--mecca-s-antiquity-and-the-people-of-the-ditch",
+   "snippet": "the Syriac Book of the Himyarites (a damaged 12th-century manuscript)",
+   "status": "unverifiable",
+   "problem": "The only manuscript is damaged and was recovered from the binding of a codex bound in 1469; its date was not confirmed as 12th century. The text itself is 6th century.",
+   "correction": "the Syriac Book of the Himyarites (a damaged manuscript of a 6th-century text)",
+   "sources": [
+    "Moberg, The Book of the Himyarites (1924)"
+   ]
+  },
+  {
+   "arg_id": "s-history--mecca-s-antiquity-and-the-people-of-the-ditch",
+   "snippet": "in the Greek Martyrdom of Arethas the persecutors ask them only to deny \"the man called Jesus\", not God",
+   "status": "unverifiable",
+   "problem": "Could not verify this wording; other accounts (Letter of Simeon of Beth Arsham) record the demand \"Deny Christ and the cross and become Jewish\". Quoting it as \"only\" is unsupported.",
+   "correction": null,
+   "sources": [
+    "Letter of Simeon of Beth Arsham",
+    "Martyrdom of Arethas"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--what-makes-a-prophecy-count",
+   "snippet": "The prophecies below meet all four.",
+   "status": "misleading",
+   "problem": "The prophecies in this section are drawn from hadith, which were transmitted orally and written down later; \"recorded before the event\" is not demonstrated for all of them (e.g., the Mongols, Hijaz fire).",
+   "correction": "Some of the prophecies below meet these four tests; others are weaker and should be used with care.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophecy--what-makes-a-prophecy-count",
+   "snippet": "Within a generation all three fell in that order (Musnad Ahmad).",
+   "status": "error",
+   "problem": "Yemen accepted Islam in the Prophet's lifetime (c. 10 AH), before Syria (Yarmuk 636) and Persia (Qadisiyya and Mada'in 636-637), so \"in that order\" is wrong.",
+   "correction": "Within a generation all three came under Muslim rule: Yemen in the Prophet's lifetime, then Syria (636) and Persia (637) (Musnad Ahmad).",
+   "sources": [
+    "Musnad Ahmad (Bara' ibn Azib narration); Tabari"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-romans-will-be-victorious-30-2-5",
+   "snippet": "Heraclius' counter-offensive began in 622 and destroyed the Persian army at Nineveh in 627, within the stated range.",
+   "status": "error",
+   "problem": "If the verses date to about 614-615, the battle of Nineveh in December 627 is about 12 years later, outside \"three to nine\" (bid'). The Roman victories within the range are Heraclius' campaigns of 622-625 (Issus 622, Armenia/Azerbaijan 624-625).",
+   "correction": "Heraclius' counter-offensive began in 622 and his victories of 622-625 fall within the stated range; the Persian army was finally destroyed at Nineveh in 627, about 12 years after the verses.",
+   "sources": [
+    "Gibbon, Decline and Fall ch. 46",
+    "Tesei, \"The Romans Will Win!\" Der Islam 95 (2018)"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-romans-will-be-victorious-30-2-5",
+   "snippet": "Heraclius did, at Nineveh in 627",
+   "status": "error",
+   "problem": "Same chronology problem: Nineveh (627) is outside 3-9 years from c. 615.",
+   "correction": "Heraclius won key victories by 622-625 and at Nineveh in 627",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophecy--the-romans-will-be-victorious-30-2-5",
+   "snippet": "Even sceptical academics accept the prediction and can only dispute its date.",
+   "status": "misleading",
+   "problem": "Tesei argues the passage was composed after Heraclius' victories (ex eventu), and there is a variant reading (ghalabat/sayughlabun vs ghulibat/sayaghlibun) disputed in the tradition, so \"accepting the prediction\" is not the only position.",
+   "correction": "Some sceptical academics read the verses as a prediction of a Roman victory but argue they were edited after the event, and a variant reading of the verbs exists.",
+   "sources": [
+    "Tesei, \"The Romans Will Win!\" Der Islam 95 (2018)"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-romans-will-be-victorious-30-2-5",
+   "snippet": "Edward Gibbon, no friend of Islam, wrote: \"At the time when this prediction is said to have been delivered",
+   "status": "weak_source",
+   "problem": "Quote is accurate (Decline and Fall ch. 46), but Gibbon says the prediction is \"said to have been delivered\" and is writing ironically; the argument relies on a source that doubts the dating.",
+   "correction": "Edward Gibbon wrote (Decline and Fall ch. 46) that \"at the time when this prediction is said to have been delivered, no prophecy could be more distant from its accomplishment",
+   "sources": [
+    "Gibbon, Decline and Fall ch. 46"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-fire-of-the-hijaz-1256-ce",
+   "snippet": "Al-Nawawi called the reports mutawatir (mass-transmitted).",
+   "status": "unverifiable",
+   "problem": "Could not find Nawawi's wording; he says the fire appeared in Medina in 654 AH and that it was reported by trusted narrators.",
+   "correction": "Al-Nawawi recorded that the fire appeared in Medina in 654 AH (Sharh Sahih Muslim).",
+   "sources": [
+    "Nawawi, Sharh Sahih Muslim on 2902"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-fire-of-the-hijaz-1256-ce",
+   "snippet": "Ibn Taymiyya, Ibn Kathir and al-Dhahabi confirmed that its light reached Busra.",
+   "status": "misleading",
+   "problem": "Ibn Taymiyya (b. 661), Ibn Kathir (b. 701) and al-Dhahabi (b. 673) were born after the event and are not eyewitnesses; the page also lists Ibn Taymiyya's date as 655 AH while the thesis says 654 AH. The thesis \"recorded by eyewitnesses\" refers only to Abu Shama and the Medina letters.",
+   "correction": "Ibn Taymiyya, Ibn Kathir and al-Dhahabi, who wrote after the event, repeated that its light reached Busra.",
+   "sources": [
+    "Ibn Kathir, al-Bidaya wa al-Nihaya, 654 AH"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-fire-of-the-hijaz-1256-ce",
+   "snippet": "A study by El-Masry et al. (\"Historical accounts of the AD 1256 eruption near Al-Madinah\")",
+   "status": "unverifiable",
+   "problem": "Could not locate a paper with this exact title and authors. Camp, Hooper and Roobol (1987) and the Smithsonian GVP are verifiable sources.",
+   "correction": "A study of the 1256 Medina eruption (Camp, Hooper and Roobol 1987) and the Smithsonian GVP record the eruption.",
+   "sources": [
+    "Smithsonian Global Volcanism Program, Harrat Rahat; Camp et al. 1987"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-fire-of-the-hijaz-1256-ce",
+   "snippet": "Volcanic eruptions in the Hijaz are rare, and Medina has no other recorded historical eruption.",
+   "status": "misleading",
+   "problem": "Some scholars note Harrat Rahat has had many eruptions (about 10 in the last 4,500 years) and a possible 641 CE eruption; there are no documented historic eruptions other than 1256, but \"rare\" is true only on a human timescale.",
+   "correction": "Harrat Rahat has had eruptions in the past few thousand years, but 1256 is its only well-documented historical eruption.",
+   "sources": [
+    "Smithsonian Global Volcanism Program, Harrat Rahat"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-mongols-and-the-fall-of-baghdad",
+   "snippet": "Abu Dawud 4306 (graded hasan) describes a great city \"by a river called the Tigris, with a bridge\", called \"Basra\"",
+   "status": "misleading",
+   "problem": "The hadith names the city \"Basra\", an Iraqi city founded in 14 AH, and the Mongols did not sack Basra. Identifying it as Baghdad (Bab al-Basra) is an interpretation. Al-Albani graded it hasan; Sa'id ibn Jumhan is criticised by some (Bukhari: \"fihi nazar\").",
+   "correction": "Abu Dawud 4306 (graded hasan by al-Albani) mentions a city on the Tigris with a bridge, named \"Basra\" in the text, which some commentators identify with Baghdad.",
+   "sources": [
+    "Sunan Abi Dawud 4306"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-mongols-and-the-fall-of-baghdad",
+   "snippet": "had over a million people",
+   "status": "unverifiable",
+   "problem": "Estimates of Baghdad's population before 1258 range from 200,000 to over 1,000,000; \"over a million\" is the high end.",
+   "correction": "had a population estimated at several hundred thousand to a million",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophecy--the-mongols-and-the-fall-of-baghdad",
+   "snippet": "Ibn Taymiyya, who lived through the Mongol invasions, said that anyone who had seen Genghis Khan's and Hülegü's armies could not have described them more accurately than the Prophet ﷺ did over 600 years earlier (al-Jawab al-Sahih 2/171).",
+   "status": "unverifiable",
+   "problem": "Could not verify the quote or volume/page (al-Jawab al-Sahih). Also Ibn Taymiyya was born in 1263, after Hulegu's sack of Baghdad; Genghis (d. 1227) was before his birth.",
+   "correction": "Ibn Taymiyya, who lived through the Mongol invasions of Syria, compared the Mongols to the Prophet's description (check al-Jawab al-Sahih for the exact quotation).",
+   "sources": [
+    "Ibn Taymiyya, al-Jawab al-Sahih"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--barefoot-shepherds-competing-in-tall-buildings",
+   "snippet": "In the 7th century, and for 1,300 years after, the Bedouins of Arabia were among the poorest people on earth and lived in tents.",
+   "status": "misleading",
+   "problem": "Arabia included wealthy trading cities (Mecca, Medina, Yemen), and the hadith speaks of shepherds, not all Bedouin. \"Among the poorest on earth\" is a generalisation.",
+   "correction": "In the 7th century and for centuries after, many Bedouin of Arabia were poor herders who lived in tents.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophecy--barefoot-shepherds-competing-in-tall-buildings",
+   "snippet": "A related report in Ibn Abi Shayba mentions buildings in Mecca surpassing its mountains",
+   "status": "unverifiable",
+   "problem": "No grading or text of the Ibn Abi Shayba report was found.",
+   "correction": null,
+   "sources": [
+    "Ibn Abi Shayba, al-Musannaf"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--barefoot-shepherds-competing-in-tall-buildings",
+   "snippet": "Al-Nawawi (d. 1277) said the prophecy was not yet fulfilled in his time",
+   "status": "unverifiable",
+   "problem": "Could not verify this statement from Nawawi's Sharh Sahih Muslim.",
+   "correction": null,
+   "sources": [
+    "Nawawi, Sharh Sahih Muslim on hadith 8"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--barefoot-shepherds-competing-in-tall-buildings",
+   "snippet": "the Jeddah Tower is under construction",
+   "status": "weak_source",
+   "problem": "As of 2026 the Jeddah Tower's construction status varies (resumed 2023); check before use.",
+   "correction": "the Jeddah Tower is under construction (check the current status)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophecy--arabia-will-return-to-meadows-and-rivers",
+   "snippet": "The word return implies Arabia was once green, which modern palaeoclimatology has confirmed.",
+   "status": "misleading",
+   "problem": "In Arabic \"ta'ud\" (from 'ada) is often used to mean \"become\" without a prior state, and this reading cannot show the Prophet knew a prior green state. The page's own premise \"return\" is a linguistic inference.",
+   "correction": "The word translated \"returns\" can imply that Arabia was once green, and palaeoclimatology has found that it was.",
+   "sources": [
+    "Lane, Arabic-English Lexicon, '-w-d"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--arabia-will-return-to-meadows-and-rivers",
+   "snippet": "Classical commentators (Ibn al-Malik al-Karmani, Muzhir al-Din al-Zaydani) read it exactly that way.",
+   "status": "unverifiable",
+   "problem": "Could not verify these commentators' wording; Ibn al-Malik (d. 854/1450) and al-Kirmani are distinct; the identification is unclear.",
+   "correction": null,
+   "sources": [
+    "Muzhir al-Din al-Zaydani, al-Mafatih fi Sharh al-Masabih"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--arabia-will-return-to-meadows-and-rivers",
+   "snippet": "The Palaeodeserts Project (Michael Petraglia) and earlier work (McClure, 1984) found thousands of ancient lakes and river systems",
+   "status": "misleading",
+   "problem": "The Palaeodeserts Project found thousands of palaeolakes (Breeze et al. 2016); McClure's 1984 thesis studied lakes in the Rub' al-Khali. Fine, but \"ancient lakes\" does not by itself fit the hadith's Hour-related context.",
+   "correction": "The Palaeodeserts Project (Michael Petraglia) and earlier work (McClure, 1984) found thousands of ancient lakes and river systems",
+   "sources": [
+    "Breeze et al., Scientific Reports 2016 / Quaternary Science Reviews"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--idolatry-returns-to-dhul-khalasa",
+   "snippet": "This happened in the 19th century.",
+   "status": "misleading",
+   "problem": "The thesis says 19th century while P3 says the idol was demolished in 1925; sources report that Daws revived worship at Dhu al-Khalasa and Saudi forces demolished it (1920s). The relationship with Ibn Bishr (d. 1873) is unclear.",
+   "correction": "This happened by the 19th century and the idol was demolished in the 1920s.",
+   "sources": [
+    "Ibn Bishr, 'Unwan al-Majd"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--idolatry-returns-to-dhul-khalasa",
+   "snippet": "Najdi historians record that Daws revived worship at Dhul-Khalasa until it was demolished in 1925.",
+   "status": "unverifiable",
+   "problem": "Could not verify Ibn Bishr's account directly; secondary sources report the story with different dates. Ibn Bishr died in 1873 so he cannot have reported a demolition in 1925.",
+   "correction": "Najdi sources report that the Daws revived worship at Dhul-Khalasa (verify the Ibn Bishr passage and the demolition date).",
+   "sources": [
+    "Ibn Bishr, 'Unwan al-Majd fi Tarikh Najd"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--idolatry-returns-to-dhul-khalasa",
+   "snippet": "in a land that had been Muslim for over a thousand years. Najdi historians record exactly this revival in the 19th century",
+   "status": "misleading",
+   "problem": "Inconsistent with the thesis, which places the demolition in 1925, and Najd was not uniformly Muslim in practice (the Wahhabi reform movement itself charged widespread shirk).",
+   "correction": "in a land that had been Muslim for over a thousand years.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophecy--the-trench-keys-to-syria-persia-and-yemen",
+   "snippet": "All three were conquered within about fifteen years.",
+   "status": "misleading",
+   "problem": "Yemen was not conquered; it accepted Islam in 10 AH (Badhan and the Persian community in San'a). Syria 636, Mada'in 637, so \"within fifteen years\" holds for Syria and Persia but the Yemen claim is misdescribed.",
+   "correction": "Syria and Persia were conquered within about fifteen years, and Yemen accepted Islam in the Prophet's lifetime.",
+   "sources": [
+    "Tabari, History"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-trench-keys-to-syria-persia-and-yemen",
+   "snippet": "(Musnad Ahmad; al-Nasa'i)",
+   "status": "weak_source",
+   "problem": "Gradings differ: the Ahmad chain includes Maymun b. Abi Shabib and is graded hasan by some, weak by others; not given on the page.",
+   "correction": "(Musnad Ahmad; al-Nasa'i; gradings differ)",
+   "sources": [
+    "Musnad Ahmad 18694; Sunan al-Nasa'i 3176"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-spread-of-islam-from-east-to-west",
+   "snippet": "The Cambridge History of Christianity says the speed of the Byzantine collapse \"remains to be explained\"",
+   "status": "unverifiable",
+   "problem": "Could not locate this quotation in the Cambridge History of Christianity.",
+   "correction": null,
+   "sources": [
+    "Cambridge History of Christianity"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-spread-of-islam-from-east-to-west",
+   "snippet": "Barnaby Rogerson compared the Arabs taking on Byzantium and Persia at once to a tiny nation defeating two superpowers simultaneously.",
+   "status": "unverifiable",
+   "problem": "Quote not located in Rogerson's The Heirs of the Prophet Muhammad.",
+   "correction": null,
+   "sources": [
+    "Rogerson, The Heirs of the Prophet Muhammad (2006)"
+   ]
+  },
+  {
+   "arg_id": "s-prophecy--the-spread-of-islam-from-east-to-west",
+   "snippet": "a speed historians still find hard to explain",
+   "status": "misleading",
+   "problem": "Historians (Kennedy, Donner, Hoyland) give explanations (exhaustion after the Roman-Persian war, plague, Arab military mobility); \"hard to explain\" is overstated.",
+   "correction": "a speed historians explain by the exhaustion of Byzantium and Persia and Arab mobility, but which still impresses them",
+   "sources": [
+    "Hugh Kennedy, The Great Arab Conquests (2007)"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+   "snippet": "For over two thousand years after Abraham, the Arabs had no prophet, no revealed law and no unified monotheism.",
+   "status": "error",
+   "problem": "Contradicts Islamic teaching: Ishmael was a prophet, and the Quran lists Arab prophets Hud, Salih and Shu'ayb (7:65-93). The claim is also unsupported for Arab history.",
+   "correction": "For centuries after Abraham, the Arabs had no prophet and no revealed law to unify them, according to the Quran (28:46, 32:3).",
+   "sources": [
+    "Quran 7:65-93; 19:54"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+   "snippet": "that Ishmael's line would bear the blessing of Abraham's seed (Gen 21:13)",
+   "status": "misleading",
+   "problem": "Gen 21:13 says \"I will make a nation of the son of the slave woman also, because he is your offspring\". It does not say Ishmael's line bears the blessing of Abraham's seed.",
+   "correction": "that Ishmael would also be made a nation, \"because he is your offspring\" (Gen 21:13)",
+   "sources": [
+    "Genesis 21:13"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+   "snippet": "who was a descendant of Ishmael through Kedar",
+   "status": "misleading",
+   "problem": "Islamic genealogy links Muhammad to Ishmael through Adnan; the link to Kedar is argued but not established, and the chain between Adnan and Ishmael is uncertain.",
+   "correction": "who was a descendant of Ishmael through Adnan (some link this line to Kedar)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+   "snippet": "Jewish commentators read \"great\" in a moral sense. Ibn Ezra says it means \"great in [God-fearing] people\", and Rabbeinu Bahya recorded that it took 2,337 years",
+   "status": "unverifiable",
+   "problem": "Could not verify Ibn Ezra or Rabbeinu Bahya wording; the 2,337-year claim circulates in online apologetics without a traceable passage.",
+   "correction": null,
+   "sources": [
+    "Ibn Ezra on Gen 17:20; Rabbeinu Bahya on Gen 17:20"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+   "snippet": "The Catholic Abbé de Broglie said the progress of Islam fulfils the promise to Abraham.",
+   "status": "unverifiable",
+   "problem": "Source not found.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+   "snippet": "admits the Muslim empire fulfilled \"I will make him a great nation\"",
+   "status": "weak_source",
+   "problem": "Anis Shorrosh, Islam Revealed (1988) is a polemical source and the passage could not be verified; Shorrosh would not endorse Islam as fulfilment of a promise.",
+   "correction": null,
+   "sources": [
+    "Anis Shorrosh, Islam Revealed (1988)"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+   "snippet": "The Samaritan Torah even reads \"he will be fertile of man\"",
+   "status": "unverifiable",
+   "problem": "Could not confirm the Samaritan reading; the Samaritan Targum and Pentateuch use the same consonants as the Hebrew with a different tradition of vocalisation.",
+   "correction": null,
+   "sources": [
+    "Samaritan Pentateuch, Gen 16:12"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+   "snippet": "The verse goes on to say he will \"dwell in the presence of all his brethren\", which is a blessing of independence.",
+   "status": "misleading",
+   "problem": "The Hebrew 'al penei kol-echav yishkon is translated variously (\"dwell in hostility toward all his kin\", NIV), so this is not clearly a blessing.",
+   "correction": "The verse goes on to say he will \"dwell over against all his brethren\" (translations differ).",
+   "sources": [
+    "Genesis 16:12"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--deuteronomy-18-a-prophet-like-moses-from-among-t",
+   "snippet": "Peter applies it to a future return (Acts 3:20-21), not to Jesus' first coming",
+   "status": "misleading",
+   "problem": "Acts 3:22-26 applies Deut 18:15-18 to Jesus: \"God raised up his servant\" (3:26). 3:20-21 speaks of his future return, but it does not deny that 3:22 applies to him.",
+   "correction": "Peter applies Deut 18:15-18 to Jesus (Acts 3:22-26), while also speaking of his future return (3:20-21).",
+   "sources": [
+    "Acts 3:20-26"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--deuteronomy-18-a-prophet-like-moses-from-among-t",
+   "snippet": "Rabbi Moshe Greenberg, a leading Bible scholar, observed: \"The best analogue to Moses in the history of religions, Muhammad",
+   "status": "unverifiable",
+   "problem": "Could not locate this quotation in Greenberg's writings.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--deuteronomy-18-a-prophet-like-moses-from-among-t",
+   "snippet": "the Samaritan Torah reads \"never will arise\"",
+   "status": "unverifiable",
+   "problem": "Could not verify the Samaritan Pentateuch reading of Deut 34:10.",
+   "correction": null,
+   "sources": [
+    "Samaritan Pentateuch, Deut 34:10"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--deuteronomy-18-a-prophet-like-moses-from-among-t",
+   "snippet": "Muhammad ﷺ matches Moses on every point",
+   "status": "misleading",
+   "problem": "Overstated: Moses did not found a state or fight wars of conquest in the same sense, and Moses' parentage and death differ. Some scholars argue the \"prophet like Moses\" is a line of prophets.",
+   "correction": "Muhammad ﷺ matches Moses on many points",
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--isaiah-42-the-servant-whom-kedar-praises",
+   "snippet": "the Quraysh descend from him",
+   "status": "misleading",
+   "problem": "The Quraysh descent from Kedar is traditional but not established. Qaydar as an ancestor appears in later genealogies.",
+   "correction": "the Quraysh are traditionally said to descend from him",
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--isaiah-42-the-servant-whom-kedar-praises",
+   "snippet": "Sela is plausibly Mount Sal' beside the Prophet's mosque in Medina",
+   "status": "misleading",
+   "problem": "Most scholars identify Sela with Petra (Edom) or a rock in Edom; Mount Sal' is a Muslim proposal.",
+   "correction": "Sela is identified by most scholars with Petra, though some Muslim writers propose Mount Sal' in Medina",
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--isaiah-42-the-servant-whom-kedar-praises",
+   "snippet": "quoted the Prophet's description \"in the Torah\" in the words of Isaiah 42: \"not harsh, not loud in the markets, … not dying until he straightens the crooked religion\" (Bukhari 2125)",
+   "status": "misleading",
+   "problem": "In Bukhari 2125 the quoted words are Quran 33:45 and a description of the Prophet, \"in the Torah\" with some Quranic attributes; the identification of the wording with Isaiah 42 is an inference by modern apologists, not stated in the hadith.",
+   "correction": "quoted a description of the Prophet that is \"in the Torah\" (Bukhari 2125); some Muslim writers compare its wording to Isaiah 42",
+   "sources": [
+    "Sahih al-Bukhari 2125"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--isaiah-29-12-read-i-cannot-read",
+   "snippet": "In the Septuagint text of Codex Sinaiticus, the original scribe wrote ΧΙΡΑ, which is how Greek renders \"Hira\". A later corrector changed it to ΧΕΙΡΑΣ (\"hands\").",
+   "status": "error",
+   "problem": "The Septuagint of Isa 29:12 has \"into the hands (cheiras) of a man who knows letters\"; Greek scribes of Sinaiticus regularly spell ει as ι (itacism). ΧΙΡΑΣ is a spelling variant of χεῖρας \"hands\", not the name Hira, and the corrector's change is orthographic. The Septuagint also differs from the Hebrew (\"knows letters\"), so it is not the same reading.",
+   "correction": "In Codex Sinaiticus the word for \"hands\" in Isa 29:12 is spelled ΧΙΡΑΣ by the first hand (a common itacistic spelling of ΧΕΙΡΑΣ), which was later corrected; it is a spelling variant, not the name Hira.",
+   "sources": [
+    "Milne & Skeat, Scribes and Correctors of the Codex Sinaiticus (1938)",
+    "Jongkind, Scribal Habits of Codex Sinaiticus (2007)"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--isaiah-29-12-read-i-cannot-read",
+   "snippet": "and the original hand of Codex Sinaiticus even reads \"Hira\"",
+   "status": "error",
+   "problem": "Same issue: it is an itacistic spelling of \"hands\", not \"Hira\".",
+   "correction": "and the original hand of Codex Sinaiticus spells the word \"hands\" in a way that resembles \"Hira\" (an itacism)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--isaiah-29-12-read-i-cannot-read",
+   "snippet": "and Sinaiticus' first hand writes \"Hira\"",
+   "status": "error",
+   "problem": "Same issue.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+   "snippet": "C.K. Barrett and George Johnston consider \"holy\" a possible harmonisation.",
+   "status": "unverifiable",
+   "problem": "Could not verify that these two scholars say this; Barrett notes the Sinaitic Syriac variant but does not call it a harmonisation.",
+   "correction": null,
+   "sources": [
+    "C. K. Barrett, The Gospel According to St John"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+   "snippet": "Robert Price admits the Muslim argument is strong.",
+   "status": "weak_source",
+   "problem": "Source for Price's statement not found; Price is a Christ-myth writer whose comment is a poor basis for a claim about NT scholarship.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+   "snippet": "Para can mean \"in excess\" and klētos is related to kleos",
+   "status": "error",
+   "problem": "Parakletos derives from parakaleo (\"to call alongside\"); klētos is from kaleo (\"to call\"), not from kleos (\"glory\"). The \"periklytos\" reading is not attested in Greek manuscripts of John.",
+   "correction": "The Greek parakletos derives from parakaleo, \"to call alongside\". Some Muslim writers propose it was originally periklytos, \"praised\", but no Greek manuscript has that reading.",
+   "sources": [
+    "BDAG, parakletos"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+   "snippet": "Ibn Ishaq (d. 150 AH) quotes John 15:23-16:1 from a Palestinian Syriac Gospel.",
+   "status": "misleading",
+   "problem": "Ibn Ishaq cites the passage as \"from the Gospel\" in Ibn Hisham's Sira; Syriac menahhemana means \"comforter\", which is a translation of paraclete. The claim that it is Palestinian Syriac is the modern argument's, not Ibn Ishaq's.",
+   "correction": "Ibn Ishaq (d. 150 AH) quotes John 15:23-16:1 and says Munahhemana is \"Muhammad in Syriac\" (the Syriac word means \"comforter\").",
+   "sources": [
+    "Ibn Hisham, al-Sira al-Nabawiyya"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+   "snippet": "Muqatil ibn Sulayman says the same.",
+   "status": "unverifiable",
+   "problem": "Could not verify Muqatil's passage.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+   "snippet": "The Coptic commentator Bakhum Habib notes the reading \"Periklytos, the praised\".",
+   "status": "unverifiable",
+   "problem": "Could not identify this commentator or the quoted reading.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+   "snippet": "and the Assumption of Moses even calls Moses a \"holy spirit\"",
+   "status": "unverifiable",
+   "problem": "Could not verify the phrase in the Assumption of Moses (11:16).",
+   "correction": null,
+   "sources": [
+    "Assumption of Moses"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+   "snippet": "(16:13, exactly Deut 18:18)",
+   "status": "misleading",
+   "problem": "John 16:13 and Deut 18:18 are similar but not identical in wording (\"put my words in his mouth\"). \"Exactly\" overstates it.",
+   "correction": "(16:13, which echoes Deut 18:18)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+   "snippet": "Paran is where Ishmael lived (Gen 21:21), and Eusebius located it south of Aila (Aqaba).",
+   "status": "unverifiable",
+   "problem": "Could not verify the Eusebius Onomasticon location; Paran is generally placed in the Sinai/Negev.",
+   "correction": "Paran is where Ishmael lived (Gen 21:21); the wilderness of Paran is generally placed in the Sinai/Negev region.",
+   "sources": [
+    "Eusebius, Onomasticon"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+   "snippet": "The Prophet ﷺ conquered Mecca with 10,000 Companions (Bukhari 4276).",
+   "status": "unverifiable",
+   "problem": "Could not confirm the hadith number; the conquest of Mecca hadiths are in Bukhari 4274-4313.",
+   "correction": "The Prophet ﷺ conquered Mecca with about 10,000 men (Bukhari, Book of Maghazi).",
+   "sources": [
+    "Sahih al-Bukhari, Book of Maghazi"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+   "snippet": "The Battle of Badr came within about a year of the Hijra",
+   "status": "error",
+   "problem": "Badr (Ramadan 2 AH, March 624) was about eighteen months after the Hijra (September 622).",
+   "correction": "The Battle of Badr came about eighteen months after the Hijra",
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+   "snippet": "which Maimonides read as Jesus and Muhammad",
+   "status": "error",
+   "problem": "No source found for Maimonides reading Isa 21:7 this way; Maimonides in the Epistle to Yemen discusses Jesus and Muhammad as false prophets, not as fulfilments of Isaiah.",
+   "correction": "which some later writers read as Jesus and Muhammad",
+   "sources": [
+    "Maimonides, Epistle to Yemen"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+   "snippet": "Haggai 2:7. \"The hemdat (desired one) of all nations shall come.\"",
+   "status": "misleading",
+   "problem": "The verb \"will come\" is plural in Hebrew, so hemdat is understood as \"treasures\" of the nations (the Septuagint has \"the choice things\"). The singular \"desired one\" is a Vulgate-based reading.",
+   "correction": "Haggai 2:7. \"The hemdat (desired things) of all nations shall come\" (the verb is plural).",
+   "sources": [
+    "Haggai 2:7 (Hebrew)"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+   "snippet": "John J. Collins notes that later rabbis merged Greece and Rome to make room for Islam as the fourth beast.",
+   "status": "unverifiable",
+   "problem": "Could not verify this claim in Collins' commentary; the historical-critical view is that the fourth kingdom of Daniel is Greece, with Islam not in view.",
+   "correction": null,
+   "sources": [
+    "John J. Collins, Daniel (Hermeneia)"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+   "snippet": "read by some scholars (Taghavi & Heidari, Studia Islamica 2026)",
+   "status": "unverifiable",
+   "problem": "Could not locate this article or confirm the reading of \"mḥmd\" in the Bi'r Hima inscription.",
+   "correction": null,
+   "sources": [
+    "Bi'r Hima inscriptions Ry 507 / Ja 1028"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+   "snippet": "Song of Songs 5:16, the beloved \"chief among ten thousand\"",
+   "status": "weak_source",
+   "problem": "\"Chief among ten thousand\" is Song 5:10; \"mahamaddim\" is in 5:16.",
+   "correction": "In the Song of Songs 5:10 and 5:16 the beloved is \"chief among ten thousand\" and \"altogether desirable\" (mahamaddim)",
+   "sources": [
+    "Song of Songs 5:10, 5:16"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-jews-and-christians-of-the-time-recognised-h",
+   "snippet": "Heraclius , according to a contemporary Byzantine tradition preserved in later Christian writers",
+   "status": "weak_source",
+   "problem": "No contemporary source is identified; the story of Heraclius and God's promise to Ishmael comes from later sources (Michael the Syrian, 12th century) and is not a contemporary Byzantine tradition.",
+   "correction": "Heraclius, according to later Christian chronicles (such as Michael the Syrian, 12th century),",
+   "sources": [
+    "Michael the Syrian, Chronicle"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-jews-and-christians-of-the-time-recognised-h",
+   "snippet": "such as the banquet on the Leviathan's liver (Leviticus Rabbah)",
+   "status": "unverifiable",
+   "problem": "Leviticus Rabbah (13:3, 22:10) speaks of a banquet of Leviathan; the \"liver\" detail was not verified.",
+   "correction": "such as the banquet on the Leviathan (Leviticus Rabbah)",
+   "sources": [
+    "Leviticus Rabbah 13:3"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--the-jews-and-christians-of-the-time-recognised-h",
+   "snippet": "the chief rabbi of the Banu Qaynuqa'",
+   "status": "weak_source",
+   "problem": "Ibn Salam is described as a learned rabbi or leader of Banu Qaynuqa'; \"chief rabbi\" is not an attested office.",
+   "correction": "a leading rabbi of the Banu Qaynuqa'",
+   "sources": []
+  },
+  {
+   "arg_id": "s-bible-muhammad--more-passages-and-the-expectation-of-an-arabian",
+   "snippet": "Justin Martyr argued it was not about Solomon, who fell into idolatry (1 Kgs 11).",
+   "status": "misleading",
+   "problem": "Justin (Dialogue with Trypho 34) argued Psalm 72 refers to Christ, so citing him as support for an Islamic reading is misleading.",
+   "correction": "Justin Martyr argued it was not about Solomon but about Christ.",
+   "sources": [
+    "Justin Martyr, Dialogue with Trypho 34"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--more-passages-and-the-expectation-of-an-arabian",
+   "snippet": "says from Moses' death \"until his advent there will be 250 times\" (10:12). Read as 250 weeks of years (1,750 years) from an Exodus around 1250 BCE, it points to around 500 CE.",
+   "status": "weak_source",
+   "problem": "The Assumption of Moses is a 1st-century CE text (not 6th century; the manuscript is 6th century) and the 250 \"times\" refers to the advent of God's kingdom in its own context. The conversion into 1,750 years is a speculative reading.",
+   "correction": "The Assumption of Moses (a 1st-century CE text, surviving in a 6th-century Latin manuscript) says from Moses' death \"until his advent there will be 250 times\" (10:12); some read this as pointing to the 6th century CE, a speculative reading.",
+   "sources": [
+    "Assumption of Moses 10:12"
+   ]
+  },
+  {
+   "arg_id": "s-bible-muhammad--more-passages-and-the-expectation-of-an-arabian",
+   "snippet": "The Syriac Chronicle of Pseudo-Zachariah (536-537) records Christians awaiting a coming figure.",
+   "status": "unverifiable",
+   "problem": "Could not verify this in Pseudo-Zachariah; the chronicle (c. 569) covers 450-569.",
+   "correction": null,
+   "sources": [
+    "Pseudo-Zachariah Rhetor, Syriac Chronicle"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--the-quran-s-literary-challenge-has-never-been-me",
+   "snippet": "The best witness is al-Walid ibn al-Mughira, the most respected literary judge of Quraysh.",
+   "status": "weak_source",
+   "problem": "The al-Walid narration is in al-Hakim and al-Bayhaqi through Ikrima/Ibn Abbas and has been questioned for its chain; the page treats it as a certain fact.",
+   "correction": "The best-known account is that of al-Walid ibn al-Mughira, reported in al-Hakim and al-Bayhaqi (the chain is disputed).",
+   "sources": [
+    "al-Bayhaqi, Dala'il al-Nubuwwa"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--the-quran-s-literary-challenge-has-never-been-me",
+   "snippet": "the Legacy of Islam (p. 321) describes the Quran as the standard for Arabic grammar and literary theory",
+   "status": "unverifiable",
+   "problem": "Could not verify the page number or edition.",
+   "correction": null,
+   "sources": [
+    "The Legacy of Islam (1931/1974)"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--the-quran-s-literary-challenge-has-never-been-me",
+   "snippet": "The challenge is narrowed step by step. First the whole Quran (17:88",
+   "status": "misleading",
+   "problem": "The standard order is 17:88, then 11:13, then 10:38, then 2:23; but 52:33-34 (\"produce a discourse like it\") is not mentioned, and the order of Meccan chronology is debated.",
+   "correction": "The challenge is narrowed step by step. First the whole Quran (17:88",
+   "sources": []
+  },
+  {
+   "arg_id": "s-miracles--the-prophet-refused-to-exploit-the-eclipse-an-ar",
+   "snippet": "astronomical tables (NASA's eclipse catalogue) record an annular solar eclipse visible over Medina on 27 January 632 CE, matching the date in the reports. So this is not a pious legend built after the fact; it is a datable event.",
+   "status": "misleading",
+   "problem": "The eclipse (27 Jan 632) is real, but the date of Ibrahim's death is disputed in the sources (some give Rabi' al-Awwal 10 AH or different years), and historians (such as Ibn Sa'd, al-Tabari) do not agree on the date. Modern historians argue the death and eclipse stories were joined later. Medina probably saw it as partial or near-annular, not clearly annular.",
+   "correction": "The eclipse of 27 January 632 CE is attested in the astronomical records, and some Muslim sources place Ibrahim's death on that day, though the date of his death is disputed.",
+   "sources": [
+    "NASA Five Millennium Catalog of Solar Eclipses",
+    "Ibn Sa'd, Tabaqat"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--the-prophet-refused-to-exploit-the-eclipse-an-ar",
+   "snippet": "W. Montgomery Watt argued that his readiness to suffer persecution",
+   "status": "weak_source",
+   "problem": "Watt's argument is in Muhammad at Mecca (1953); it is a paraphrase but credible. Check page number before quoting.",
+   "correction": null,
+   "sources": [
+    "Watt, Muhammad at Mecca (1953)"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--prohibitions-vindicated-alcohol",
+   "snippet": "Alcohol is involved in roughly 40% of violent crime and in a majority of domestic-violence incidents in many studies.",
+   "status": "weak_source",
+   "problem": "The 40% figure comes from US Bureau of Justice Statistics data (offenders who had been drinking) and \"a majority of domestic-violence incidents\" is not supported by a cited source.",
+   "correction": "Alcohol is involved in roughly 40% of violent crime in US Bureau of Justice Statistics surveys (offenders who had been drinking).",
+   "sources": [
+    "Bureau of Justice Statistics, Alcohol and Crime (1998/2011)"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--prohibitions-vindicated-alcohol",
+   "snippet": "Those studies have largely collapsed",
+   "status": "misleading",
+   "problem": "The J-curve is contested; some meta-analyses (Zhao 2023) find no protective effect, but others still report small effects, so \"collapsed\" overstates.",
+   "correction": "Those studies have been widely challenged",
+   "sources": [
+    "Zhao et al., JAMA Network Open 2023"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--prohibitions-vindicated-alcohol",
+   "snippet": "In the US, about 30% of traffic deaths involve an alcohol-impaired driver (CDC: 11,654 deaths in 2020).",
+   "status": "weak_source",
+   "problem": "11,654 is the NHTSA figure for 2020 (about 30%), cited by the CDC.",
+   "correction": "In the US, about 30% of traffic deaths involve an alcohol-impaired driver (NHTSA: 11,654 deaths in 2020, cited by the CDC).",
+   "sources": [
+    "NHTSA Traffic Safety Facts 2020"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--zakat-and-the-economics-of-mercy",
+   "snippet": "sources report that collectors could find no poor people to receive zakat",
+   "status": "misleading",
+   "problem": "The report about Umar ibn Abd al-Aziz comes from Ibn Abd al-Hakam's Sirat Umar (3rd century AH) and refers to Africa (Yahya ibn Sa'id), a single late source. Stated more strongly in the thesis \"history records periods where it virtually eliminated poverty\".",
+   "correction": "a later source (Ibn Abd al-Hakam's Sirat Umar) reports that collectors could find no poor people to receive zakat in North Africa under Umar ibn Abd al-Aziz",
+   "sources": [
+    "Ibn Abd al-Hakam, Sirat Umar ibn Abd al-Aziz"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--zakat-and-the-economics-of-mercy",
+   "snippet": "history records periods where it virtually eliminated poverty",
+   "status": "misleading",
+   "problem": "Supported only by single late reports; not corroborated.",
+   "correction": "history reports periods in which zakat is said to have nearly eliminated poverty",
+   "sources": []
+  },
+  {
+   "arg_id": "s-miracles--zakat-and-the-economics-of-mercy",
+   "snippet": "Modern states arrived at taxation-for-welfare in the 19th and 20th centuries. Islam legislated it in the 7th",
+   "status": "misleading",
+   "problem": "The Torah already required tithes and gleanings for the poor (Deut 14:28-29; Lev 19:9-10), Roman and Byzantine states had grain distributions, and the English Poor Law dates from 1601. \"Where a 7th-century Arabian got it\" ignores these precedents.",
+   "correction": "Modern states arrived at taxation-for-welfare in the 19th and 20th centuries, though earlier systems (the Torah's poor tithes, Roman grain doles, the English Poor Law of 1601) existed. Islam made it a fixed religious obligation in the 7th",
+   "sources": [
+    "Deuteronomy 14:28-29"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--zakat-and-the-economics-of-mercy",
+   "snippet": "T.W. Arnold's The Preaching of Islam (pp. 54, 117) records that dhimmi communities prospered under Muslim rule.",
+   "status": "unverifiable",
+   "problem": "Page numbers and claim not verified against the edition.",
+   "correction": null,
+   "sources": [
+    "T. W. Arnold, The Preaching of Islam"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--the-360-joints-and-the-medical-hadith-use-with-c",
+   "snippet": "(Vizniak gives about 472)",
+   "status": "unverifiable",
+   "problem": "Could not verify the Vizniak figure.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-miracles--the-360-joints-and-the-medical-hadith-use-with-c",
+   "snippet": "a 2023 review of Musca domestica antimicrobial peptides, PubMed 36619234",
+   "status": "unverifiable",
+   "problem": "Could not confirm the PubMed identifier.",
+   "correction": null,
+   "sources": [
+    "PubMed 36619234"
+   ]
+  },
+  {
+   "arg_id": "s-miracles--the-fastest-growing-religion-is-not-a-proof",
+   "snippet": "Pew Research Center's report on 2010-2020 found Muslims were the fastest-growing major religious group, adding about 347 million people.",
+   "status": "weak_source",
+   "problem": "Pew's 2025 report \"How the Global Religious Landscape Changed From 2010 to 2020\" gives these figures; could not open the page to confirm the exact numbers and wording.",
+   "correction": "Pew Research Center's report on 2010-2020 found that Muslims were the fastest-growing major religious group (verify the 347 million figure at pewresearch.org).",
+   "sources": [
+    "https://www.pewresearch.org/religion/2025/06/09/how-the-global-religious-landscape-changed-from-2010-to-2020/"
+   ]
+  },
+  {
+   "arg_id": "s-intertext--the-quran-removes-human-weaknesses-the-bible-att",
+   "snippet": "The word choice in 50:38 reads like a direct reply.",
+   "status": "misleading",
+   "problem": "Speculative: 50:38 is a generic denial of fatigue (lughub) and is not clearly a reply to the Hebrew wayyinnafash. Also Isa 40:28 and Ps 121:4 say God does not tire or sleep, so the Bible is not univocal.",
+   "correction": "The wording of 50:38 contrasts with Exodus 31:17, though it also agrees with Isaiah 40:28 and Psalm 121:4.",
+   "sources": [
+    "Isaiah 40:28",
+    "Psalm 121:4"
+   ]
+  },
+  {
+   "arg_id": "s-intertext--the-quran-removes-human-weaknesses-the-bible-att",
+   "snippet": "(Metzger dates the earliest Arabic translations to the 8th century)",
+   "status": "weak_source",
+   "problem": "Metzger (The Early Versions of the New Testament, 1977) says the earliest Arabic translations are probably 8th-9th century; check wording.",
+   "correction": "(Metzger dates the earliest Arabic translations to the 8th or 9th century)",
+   "sources": [
+    "Metzger, The Early Versions of the New Testament (1977)"
+   ]
+  },
+  {
+   "arg_id": "s-intertext--the-quran-restores-the-honour-of-the-prophets",
+   "snippet": "Isaiah walking naked. Isaiah 20:2-3 has God command Isaiah to walk \"naked and barefoot\" for three years. The Quran: \"Allah does not command indecency\" (7:28).",
+   "status": "misleading",
+   "problem": "Quran 7:28 addresses the idolaters' circumambulating the Kaaba naked, not Isaiah; the pairing is the argument's own.",
+   "correction": "Isaiah walking naked. Isaiah 20:2-3 has God command Isaiah to walk \"naked and barefoot\" for three years, which Muslim writers contrast with the principle \"Allah does not command indecency\" (7:28, in a different context).",
+   "sources": [
+    "Quran 7:28"
+   ]
+  },
+  {
+   "arg_id": "s-intertext--the-quran-restores-the-honour-of-the-prophets",
+   "snippet": "Aaron was the high priest God appointed",
+   "status": "misleading",
+   "problem": "At the time of the calf the priesthood had not yet been formally instituted (Exod 28-29, Lev 8).",
+   "correction": "Aaron was the man God appointed to speak for Moses",
+   "sources": []
+  },
+  {
+   "arg_id": "s-intertext--the-quran-corrects-historical-and-narrative-deta",
+   "snippet": "The Arabic is a pointed play on the Hebrew: 'asinu (we will do) becomes 'asayna (we disobeyed)",
+   "status": "misleading",
+   "problem": "Hebrew 'asinu is from 'asah (\"to do\"), while Arabic 'asayna is from 'asa (\"to disobey\"); they are different roots, so it is not a pun on the same word. \"No one in Mecca could have constructed\" is speculation.",
+   "correction": "The Arabic sami'na wa-'asayna sounds like the Hebrew shama'nu ve-'asinu, though the roots differ ('asah vs 'asa)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-intertext--the-quran-corrects-historical-and-narrative-deta",
+   "snippet": "Read literally, the serpent was right and God was wrong.",
+   "status": "misleading",
+   "problem": "Most Jewish and Christian interpreters read \"die\" as spiritual death or mortality, so the \"literal\" reading is disputed; it is not an established contradiction.",
+   "correction": "Read literally, the serpent seems right (a reading disputed by Jewish and Christian interpreters).",
+   "sources": []
+  },
+  {
+   "arg_id": "s-intertext--the-quran-corrects-historical-and-narrative-deta",
+   "snippet": "Classical commentators such as al-Samarqandi call it a miracle, not a punishment.",
+   "status": "unverifiable",
+   "problem": "Could not verify al-Samarqandi's wording.",
+   "correction": null,
+   "sources": [
+    "al-Samarqandi, Bahr al-'Ulum"
+   ]
+  },
+  {
+   "arg_id": "s-intertext--the-quran-shows-knowledge-of-the-scriptures-and",
+   "snippet": "This is the only place where the Quran explicitly quotes a named book",
+   "status": "error",
+   "problem": "Quran 5:45 explicitly says \"We ordained for them therein (the Torah): a life for a life...\". The Quran also names the \"scrolls of Moses and Abraham\" (53:36-41).",
+   "correction": "This is the only place where the Quran explicitly quotes the Psalms by name (compare 5:45, which quotes the Torah).",
+   "sources": [
+    "Quran 5:45; 53:36-41"
+   ]
+  },
+  {
+   "arg_id": "s-intertext--the-quran-shows-knowledge-of-the-scriptures-and",
+   "snippet": "It has no birth narrative of a divine Son and no atonement theology. This is the Jesus of the Quran.",
+   "status": "misleading",
+   "problem": "Q presents Jesus as the Son of Man who will judge (Q 12:8-9) and contains high claims (Q 10:22), and its eschatological Jesus differs from the Quran's. \"This is the Jesus of the Quran\" is the argument's own comparison.",
+   "correction": "It has no birth narrative and no atonement theology, but it presents Jesus as the apocalyptic Son of Man, unlike the Quran.",
+   "sources": [
+    "Kloppenborg, Excavating Q (2000)"
+   ]
+  },
+  {
+   "arg_id": "s-intertext--the-quran-shows-knowledge-of-the-scriptures-and",
+   "snippet": "Even setting Q aside, Mark and James give the same picture of a Law-observant Jesus without a divine-Son theology.",
+   "status": "error",
+   "problem": "Mark presents Jesus as Son of God (1:1, 15:39) and has the narrator declare all foods clean (7:19), so it does not give a Law-observant Jesus without a divine-Son theology.",
+   "correction": "Even setting Q aside, James gives a picture of a Law-observant community without divine-Son theology.",
+   "sources": [
+    "Mark 1:1; 7:19; 15:39"
+   ]
+  },
+  {
+   "arg_id": "s-intertext--the-quran-shows-knowledge-of-the-scriptures-and",
+   "snippet": "Correcting Paul. In Acts 17:28 Paul quotes the pagan poet Aratus, \"we are His offspring\", a line originally about Zeus. The Quran: \"He neither begets nor is begotten\" (112:3).",
+   "status": "misleading",
+   "problem": "Acts 17:28 does not claim a divine begetting, and 112:3 is not a reply to it; the \"Correcting Paul\" framing is the author's, not supported by the Quran.",
+   "correction": "Muslim writers contrast Paul's quotation of Aratus in Acts 17:28 (\"we are His offspring\") with the Quran's \"He neither begets nor is begotten\" (112:3).",
+   "sources": []
+  },
+  {
+   "arg_id": "s-intertext--the-torah-s-own-history-records-loss-rewriting-a",
+   "snippet": "it cites about twenty books that no longer exist",
+   "status": "misleading",
+   "problem": "The text itself says \"about two dozen works\" below, so the counts are inconsistent; scholars count roughly twenty cited sources.",
+   "correction": "it cites about two dozen works that no longer exist",
+   "sources": []
+  },
+  {
+   "arg_id": "s-intertext--the-torah-s-own-history-records-loss-rewriting-a",
+   "snippet": "In other words, the central law had been lost or ignored for centuries.",
+   "status": "misleading",
+   "problem": "Interpretive: 2 Kings 22 says the book was found; the mainstream view is that it was Deuteronomy (or a form of it) and whether it was lost or newly composed is debated.",
+   "correction": "In other words, the book of the law had been lost or neglected before Josiah's time (some scholars think it was newly composed).",
+   "sources": [
+    "2 Kings 22:8-13"
+   ]
+  },
+  {
+   "arg_id": "s-intertext--the-torah-s-own-history-records-loss-rewriting-a",
+   "snippet": "The prophets appear not to know the Levitical code as Mosaic.",
+   "status": "misleading",
+   "problem": "Jer 7:22 and Amos 5:25 are debated: many interpret them as rhetorical (God's priority was obedience over sacrifice), not as ignorance of Levitical law.",
+   "correction": "Jer 7:22 and Amos 5:25 have been read by some as denying that sacrifice was commanded in the wilderness.",
+   "sources": [
+    "Jeremiah 7:22-23; Amos 5:25"
+   ]
+  }
+ ]
+}

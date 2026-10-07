@@ -1,0 +1,412 @@
+{
+ "part": "p6p7",
+ "arguments_checked": 23,
+ "findings": [
+  {
+   "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+   "snippet": "Anyone who denies them must use them to make the denial, so they can never be escaped.",
+   "status": "misleading",
+   "problem": "Overstated. Intuitionistic logic rejects excluded middle, and dialetheists (Graham Priest) accept some true contradictions, so serious logicians do deny these laws; the argument only works as a transcendental point about ordinary assertion.",
+   "correction": "Almost every meaningful assertion presupposes them, and anyone who denies them in ordinary reasoning still relies on them to make the denial.",
+   "sources": [
+    "https://plato.stanford.edu/entries/dialetheism/",
+    "https://plato.stanford.edu/entries/logic-intuitionistic/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+   "snippet": "a claim is either true or false",
+   "status": "misleading",
+   "problem": "This is bivalence, not the law of excluded middle (P or not-P), and the two come apart in many-valued and intuitionistic logics.",
+   "correction": "a claim or its negation is true (excluded middle; classical logic also assumes every claim is true or false, bivalence)",
+   "sources": [
+    "https://plato.stanford.edu/entries/logic-manyvalued/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+   "snippet": "This is the law you use against the Trinity's",
+   "status": "misleading",
+   "problem": "Whether the Trinity formula is a formal contradiction is disputed: Trinitarians say 'is' is used in different senses (identity vs predication/constitution), so non-contradiction only bites if one reads all 'is' as identity. Present it as 'on the strict-identity reading it is contradictory'.",
+   "correction": "This is the law you use against the Trinity's formula when the 'is' is read as strict identity (Trinitarians reply that 'is' differs in sense):",
+   "sources": [
+    "https://plato.stanford.edu/entries/trinity/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+   "snippet": "their own proponents don't hold that God both exists and doesn't",
+   "status": "misleading",
+   "problem": "Paraconsistency does not entail dialetheism, but dialetheists (Priest) do hold some contradictions true (e.g. the Liar). The reply is true of God-claims in practice but the blanket wording about proponents is loose.",
+   "correction": "Paraconsistent logics are formal systems built to avoid 'explosion' when inconsistent information is present; even dialetheists restrict true contradictions to special cases like the Liar paradox, not ordinary claims like God's existence.",
+   "sources": [
+    "https://plato.stanford.edu/entries/logic-paraconsistent/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--how-arguments-work-validity-soundness-and-the-th",
+   "snippet": "the fitrah studies across 20 countries",
+   "status": "weak_source",
+   "problem": "The Oxford Cognition, Religion and Theology Project (2011, Barrett/Trigg) did run 40+ studies in 20 countries, but it found humans predisposed to belief in gods/afterlife, not 'the fitrah'. No source is named in the page, and the studies are not a strict inductive proof of a fitrah.",
+   "correction": "the Oxford Cognition, Religion and Theology Project's studies in 20 countries on natural predispositions to belief",
+   "sources": [
+    "https://www.christiantoday.com/news/oxford-study-belief-in-god-is-natural"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to",
+   "snippet": "Islamic jurisprudence has the same principle",
+   "status": "misleading",
+   "problem": "The hadith 'the evidence is on the claimant and the oath on the one who denies' (Bayhaqi, al-Sunan al-Kubra; also Tirmidhi) is a rule of litigation about rights/claims, not an epistemic rule that every assertion (incl. negative ones) carries a burden. Philosophers also dispute that negative claims always carry equal burden (Flew's presumption of atheism).",
+   "correction": "Islamic jurisprudence has an analogous litigation rule:",
+   "sources": [
+    "https://plato.stanford.edu/entries/burden-of-proof/ (see also Steven Hales, 'Why Every Theory of Burden of Proof Is Wrong', Synthese 2005)"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it",
+   "snippet": "Radical scepticism (\"we can't know anything\") refutes itself: it claims to know that knowledge is impossible.",
+   "status": "misleading",
+   "problem": "True only of dogmatic scepticism. Pyrrhonian sceptics suspend judgment and do not assert that knowledge is impossible, so the self-refutation charge does not touch them.",
+   "correction": "Dogmatic scepticism (\"we can't know anything\") refutes itself, since it claims to know that knowledge is impossible; Pyrrhonian scepticism avoids this by suspending judgment, so press it on why we should doubt reliable faculties.",
+   "sources": [
+    "https://plato.stanford.edu/entries/skepticism-ancient/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--epistemology-what-knowledge-is-and-how-we-get-it",
+   "snippet": "give certain knowledge",
+   "status": "misleading",
+   "problem": "Usul scholars disagreed whether mutawatir yields necessary (daruri) or acquired (nazari) knowledge, and a few rejected certainty claims; 'certain' is the majority position, not unanimous. Also 'the same principle by which we know cities' is analogy, not proof that the isnad conditions are met for every Quranic reading.",
+   "correction": "give certain knowledge on the majority view of the usul scholars",
+   "sources": [
+    "https://plato.stanford.edu/entries/arabic-islamic-language/ (general); Shady Nasser, The Transmission of the Variant Readings of the Qur'an (Brill 2013)"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo",
+   "snippet": "For any created thing, what it is doesn't include that it is",
+   "status": "misleading",
+   "problem": "This is Avicenna's (and Aquinas's) real distinction between essence and existence. It is contested in Islamic thought: Ibn Rushd attacked it, Ash'aris identify existence with the existent, and Ibn Taymiyya called it a mental distinction only.",
+   "correction": "On Avicenna's view, for any created thing what it is doesn't include that it is (a distinction Ibn Rushd and Ibn Taymiyya reject)",
+   "sources": [
+    "https://plato.stanford.edu/entries/ibn-sina/",
+    "https://plato.stanford.edu/entries/ibn-taymiyya/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo",
+   "snippet": "The theologians' triad: wajib al-wujud (must exist), mumkin al-wujud (can exist or not, so needs a cause), mustahil (cannot exist, like a square circle).",
+   "status": "misleading",
+   "problem": "The standard kalam triad is wajib, mustahil, ja'iz (the three rational judgments). Wajib al-wujud/mumkin al-wujud is Avicenna's falsafa vocabulary, which Ash'aris later adapted.",
+   "correction": "The rational categories: wajib (must exist), ja'iz/mumkin (can exist or not, so needs a cause), mustahil (cannot exist, like a square circle); Avicenna's wajib al-wujud/mumkin al-wujud sharpened the first two.",
+   "sources": [
+    "https://plato.stanford.edu/entries/ibn-sina/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo",
+   "snippet": "Ibn Taymiyya's dependence argument) concern sustaining causes, which can't regress infinitely",
+   "status": "misleading",
+   "problem": "Ibn Taymiyya accepted an infinite succession of past created events (tasalsul fi'l-hawadith) while rejecting a regress of essential dependence; presenting him alongside Aquinas as a 'sustaining cause' argument is fair only for the essential-dependence part.",
+   "correction": "(Aquinas, and Ibn Taymiyya's argument from essential dependence) concern sustaining causes, which can't regress infinitely (Ibn Taymiyya allowed an endless past series of events, so the kalam beginning-argument is not his)",
+   "sources": [
+    "https://plato.stanford.edu/entries/ibn-taymiyya/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+   "snippet": "The logical version fails (Mackie conceded)",
+   "status": "error",
+   "problem": "Mackie did not concede the logical problem. It is widely held that Plantinga's free will defense defeated it, but in The Miracle of Theism (1982) Mackie still maintained that the free-will defense fails to show omnipotence and perfect goodness are compatible with evil. 'Mackie conceded' would be challenged live.",
+   "correction": "The logical version is widely regarded as defeated by Plantinga's free will defense (even atheists such as William Rowe concede this).",
+   "sources": [
+    "https://plato.stanford.edu/entries/evil/",
+    "https://en.wikipedia.org/wiki/Alvin_Plantinga%27s_free-will_defense"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+   "snippet": "Natural, universal belief (Barrett)",
+   "status": "misleading",
+   "problem": "Barrett's work argues belief in gods is natural (cognitively easy), not universal or innate in every person.",
+   "correction": "Natural, widespread belief (Barrett)",
+   "sources": [
+    "https://www.christiantoday.com/news/oxford-study-belief-in-god-is-natural"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+   "snippet": "The arguments prove one necessary, perfect being",
+   "status": "misleading",
+   "problem": "Cosmological arguments are contested by most philosophers, and even defenders (Feser, Craig, Swinburne) need extra steps for uniqueness and perfection. 'Prove' is too strong for live debate.",
+   "correction": "The arguments, if sound, lead to one necessary, perfect being;",
+   "sources": [
+    "https://plato.stanford.edu/entries/cosmological-argument/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+   "snippet": "the idea of a maximally great being implies its existence",
+   "status": "misleading",
+   "problem": "Plantinga's modal version needs the premise that a maximally great being is possible; Plantinga himself says it shows belief in God rational, not that it is a proof.",
+   "correction": "a maximally great being is possible, and if possible then actual (Plantinga says this makes theism rational, not that it compels belief)",
+   "sources": [
+    "https://plato.stanford.edu/entries/ontological-arguments/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--ethics-what-grounds-right-and-wrong",
+   "snippet": "leads to Singer's conclusions on infanticide",
+   "status": "misleading",
+   "problem": "Singer's position follows from his preference utilitarianism and personhood theory, not from consequentialism as such; most consequentialists reject it.",
+   "correction": "can lead to conclusions such as Peter Singer's on infanticide, given his preference utilitarianism",
+   "sources": [
+    "https://plato.stanford.edu/entries/consequentialism/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--ethics-what-grounds-right-and-wrong",
+   "snippet": "Good and evil are grounded in Allah's wise and perfect nature and expressed in His commands;",
+   "status": "misleading",
+   "problem": "This is the Maturidi/Ibn Taymiyya-style view. Classical Ash'aris held that good and evil are defined by the divine command (hasan = what the Law commands), not by God's nature, and Mu'tazila grounded them in rational value independent of command. Presented as 'the Islamic position' it hides a three-way dispute listed later in the same paragraph.",
+   "correction": "On the view of Maturidis and Ibn Taymiyya, good and evil are grounded in Allah's wise and perfect nature and expressed in His commands;",
+   "sources": [
+    "https://plato.stanford.edu/entries/ethics-islamic/ (see also Euthyphro in Islamic theology)"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--ethics-what-grounds-right-and-wrong",
+   "snippet": "the Ash'aris said moral obligation comes from revelation",
+   "status": "misleading",
+   "problem": "The classical Ash'ari position (al-Juwayni, al-Ghazali) is stronger: good and evil themselves, not only obligation, are known through revelation. The Maturidis, omitted here, held that reason can know good and evil.",
+   "correction": "the Ash'aris said good, evil and obligation are known and fixed by revelation, the Maturidis sided with reason on knowing good and evil",
+   "sources": [
+    "https://plato.stanford.edu/entries/ethics-islamic/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--philosophy-of-science-what-science-can-and-can-t",
+   "snippet": "Underdetermination and theory change (Thomas Kuhn)",
+   "status": "error",
+   "problem": "Underdetermination of theory by evidence is associated with Duhem and Quine; Kuhn is known for paradigm shifts and theory change. Attributing underdetermination to Kuhn misattributes it.",
+   "correction": "Underdetermination (Duhem and Quine) and theory change (Thomas Kuhn)",
+   "sources": [
+    "https://plato.stanford.edu/entries/scientific-underdetermination/",
+    "https://plato.stanford.edu/entries/thomas-kuhn/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--philosophy-of-mind-and-the-self",
+   "snippet": "eliminativism (consciousness doesn't really exist, Paul and Patricia Churchland; Daniel Dennett's \"illusionism\")",
+   "status": "error",
+   "problem": "The Churchlands' eliminative materialism targets folk-psychological beliefs and desires (propositional attitudes), not consciousness; they do not deny experience. 'Illusionism' is Keith Frankish's term (2016); Dennett endorses a similar view but did not coin it.",
+   "correction": "eliminativism (folk-psychological states like belief and desire do not really exist, Paul and Patricia Churchland; illusionism about consciousness, Keith Frankish and Daniel Dennett)",
+   "sources": [
+    "https://plato.stanford.edu/entries/materialism-eliminative/",
+    "https://plato.stanford.edu/entries/consciousness-illusionism/ (see Frankish, Illusionism as a Theory of Consciousness, 2016)"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--philosophy-of-mind-and-the-self",
+   "snippet": "Jackson's Mary knows every physical fact about colour and still learns something new when she sees it. That suggests",
+   "status": "misleading",
+   "problem": "Frank Jackson (1982) later abandoned the knowledge argument and became a physicalist (1998, 2003). An opponent may say so; debaters should present it as an argument others still defend, not Jackson's current view.",
+   "correction": "Jackson's Mary argument (1982; Jackson later gave it up, but many still defend it) says she learns something new when she sees red. That suggests",
+   "sources": [
+    "https://plato.stanford.edu/entries/qualia-knowledge/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--islam-and-philosophy-what-muslim-scholars-accept",
+   "snippet": "Al-Ghazali was a philosopher who mastered and used logic",
+   "status": "misleading",
+   "problem": "Ghazali is usually classed as a theologian-jurist-Sufi who mastered falsafa to refute it; calling him 'a philosopher' is arguable (he said so himself in the Munqidh only as a student of it).",
+   "correction": "Al-Ghazali mastered philosophy and used logic",
+   "sources": [
+    "https://plato.stanford.edu/entries/al-ghazali/"
+   ]
+  },
+  {
+   "arg_id": "s-philosophy--islam-and-philosophy-what-muslim-scholars-accept",
+   "snippet": "criticised Aristotelian logic's claims (for example, that definitions are the only path to concepts)",
+   "status": "weak_source",
+   "problem": "Broadly accurate (Ibn Taymiyya rejected that the hadd/definition is the only route to a concept), but the page gives no source and the claim is technical. Cite Hallaq's translation or Hassan Ansari/Sabine Schmidtke.",
+   "correction": "criticised Aristotelian logic's claims (for example, that real definitions are the only path to concepts, see Hallaq, Ibn Taymiyya Against the Greek Logicians)",
+   "sources": [
+    "https://academic.oup.com/book/34793"
+   ]
+  },
+  {
+   "arg_id": "s-resources--the-quran-preservation-text-and-its-challenge",
+   "snippet": "Behnam Sadeghi & Mohsen Goudarzi",
+   "status": "misleading",
+   "problem": "This article argues the lower text of Sana'a 1 is a pre-'Uthmanic, non-canonical Quran codex with variants, so it cuts against the claim of one uniform text and sits awkwardly under 'preservation'. The list should say what it argues.",
+   "correction": "Behnam Sadeghi & Mohsen Goudarzi (they argue the lower text is a pre-'Uthmanic codex; read it critically)",
+   "sources": [
+    "https://brill.com/view/journals/islam/87/1-2/article-p1_1.xml"
+   ]
+  },
+  {
+   "arg_id": "s-resources--the-quran-preservation-text-and-its-challenge",
+   "snippet": "Shady Nasser, The Transmission of the Variant Readings of the Qur'an (2013)",
+   "status": "misleading",
+   "problem": "Nasser's book argues that the readings were not transmitted by tawatur in the strict sense (Ibn Mujahid canonised later); it challenges the tawatur claim made elsewhere in this library, so the list should flag it.",
+   "correction": "Shady Nasser, The Transmission of the Variant Readings of the Qur'an (2013), which argues the readings were not strictly mutawatir",
+   "sources": [
+    "https://brill.com/display/title/24877"
+   ]
+  },
+  {
+   "arg_id": "s-resources--the-quran-preservation-text-and-its-challenge",
+   "snippet": "Daniel Brubaker, Corrections in Early Qur'an Manuscripts (2019)",
+   "status": "weak_source",
+   "problem": "Full title is Corrections in Early Qur'an Manuscripts: Twenty Examples (Think and Tell Press, 2019), a small-press book by a non-specialist; Muslim academics have published rebuttals (e.g. Altikulac).",
+   "correction": "Daniel Brubaker, Corrections in Early Qur'an Manuscripts: Twenty Examples (2019)",
+   "sources": [
+    "https://journals.library.columbia.edu/index.php/alusur/article/view/6788"
+   ]
+  },
+  {
+   "arg_id": "s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl",
+   "snippet": "Sami Ameri, Hunting for the Word of God (2013). Compares the textual criticism of the New Testament and the Quran.",
+   "status": "unverifiable",
+   "problem": "I could not find a publisher, ISBN or library record; search results only confirm that a 2013 book by Sami Ameri/Amiri on Biblical text and Quran preservation exists. A Muslim apologetic work, not academic.",
+   "correction": "Sami Ameri, Hunting for the Word of God (circa 2013). A Muslim apologetic comparison of Biblical and Quranic preservation (verify edition before citing).",
+   "sources": [
+    "https://www.goodreads.com/search?q=Hunting+for+the+Word+of+God"
+   ]
+  },
+  {
+   "arg_id": "s-resources--muhammad-in-earlier-scripture-and-the-quran-bibl",
+   "snippet": "The classic response to the missionaries: textual corruption, contradictions and prophecies.",
+   "status": "weak_source",
+   "problem": "Izhar al-Haqq was written in 1864 and draws on 19th-century German higher criticism (e.g. Strauss, Eichhorn) that is now dated; its authors' view of the Bible is not current academic consensus.",
+   "correction": "The classic 19th-century response to the missionaries (note its sources are dated): textual corruption, contradictions and prophecies.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rahmatullah_Kairanawi"
+   ]
+  },
+  {
+   "arg_id": "s-resources--christianity-jesus-the-trinity-paul-and-the-new",
+   "snippet": "Gerald Sigal, The Virgin Birth Myth (2016).",
+   "status": "unverifiable",
+   "problem": "I could not verify publisher or year of this title; Sigal is a polemicist (Jewish anti-missionary), and his other books are self-published/small press.",
+   "correction": "Gerald Sigal, The Virgin Birth Myth (verify details; polemical, not academic).",
+   "sources": [
+    "https://www.worldcat.org/search?q=Sigal+Virgin+Birth+Myth"
+   ]
+  },
+  {
+   "arg_id": "s-resources--christianity-jesus-the-trinity-paul-and-the-new",
+   "snippet": "Dale Tuggy, What is the Trinity? (2017).",
+   "status": "misleading",
+   "problem": "Full title is What is the Trinity? Thinking About the Father, Son, and Holy Spirit (CreateSpace, 2017), a self-published book.",
+   "correction": "Dale Tuggy, What is the Trinity? Thinking About the Father, Son, and Holy Spirit (2017, self-published).",
+   "sources": [
+    "https://www.goodreads.com/book/show/35177385"
+   ]
+  },
+  {
+   "arg_id": "s-resources--christianity-jesus-the-trinity-paul-and-the-new",
+   "snippet": "H.J. Schoeps, Jewish Christianity (1969).",
+   "status": "weak_source",
+   "problem": "Schoeps's reconstruction of Ebionite theology is treated as largely outdated by current scholars; fine for history of scholarship, risky as support.",
+   "correction": "H.J. Schoeps, Jewish Christianity (1969; dated, read as history of scholarship).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hans-Joachim_Schoeps"
+   ]
+  },
+  {
+   "arg_id": "s-resources--judaism",
+   "snippet": "Tovia Singer, Let's Get Biblical (2 vols., 2014).",
+   "status": "unverifiable",
+   "problem": "Volume 1 is dated March 2014; I could not confirm 2014 for Volume 2. Subtitle is Why Doesn't Judaism Accept the Christian Messiah? Published by Outreach Judaism, his own organisation.",
+   "correction": "Tovia Singer, Let's Get Biblical! Why Doesn't Judaism Accept the Christian Messiah? (2 vols., Outreach Judaism, vol. 1 2014).",
+   "sources": [
+    "https://outreachjudaism.org/shop/lets-get-biblical-volume-1-study-guide/"
+   ]
+  },
+  {
+   "arg_id": "s-resources--atheism-arguments-for-god-and-science",
+   "snippet": "The best single Muslim book against atheism.",
+   "status": "weak_source",
+   "problem": "Superlative opinion stated as fact. The author is a controversial public figure (e.g. earlier statements that drew public criticism) and the book is published by Lion Rock Publishing (2019), a small press; some philosophers criticise its arguments.",
+   "correction": "A widely read Muslim book against atheism.",
+   "sources": [
+    "https://iera.org/shop/the-divine-reality-god-islam-and-the-mirage-of-atheism-newly-revised-edition"
+   ]
+  },
+  {
+   "arg_id": "s-resources--atheism-arguments-for-god-and-science",
+   "snippet": "Antony Flew, There Is a God (2007). The leading atheist philosopher who changed his mind.",
+   "status": "error",
+   "problem": "Flew became a deist (Aristotelian God), not a theist of any revealed religion. The book was written largely by Roy Abraham Varghese (admitted to the New York Times, 2010), and Flew was 84 and in decline; critics will attack it.",
+   "correction": "Antony Flew, There Is a God (2007, written with Roy Abraham Varghese). Flew, a famous atheist philosopher, became a deist; critics dispute how much of the book is his own work.",
+   "sources": [
+    "https://www.britannica.com/biography/Antony-Flew",
+    "https://christianethicstoday.com/wp/there-is-a-god-how-the-worlds-most-notorious-atheist-changed-his-mind/"
+   ]
+  },
+  {
+   "arg_id": "s-resources--atheism-arguments-for-god-and-science",
+   "snippet": "Fine-tuning by two cosmologists.",
+   "status": "misleading",
+   "problem": "Barnes and Lewis do not argue for God; the book presents fine-tuning as a scientific problem and discusses multiverse and other explanations. Debaters should not imply it supports theism.",
+   "correction": "Fine-tuning by two cosmologists (they do not draw a theistic conclusion).",
+   "sources": [
+    "https://www.cambridge.org/core/books/fortunate-universe/"
+   ]
+  },
+  {
+   "arg_id": "s-resources--atheism-arguments-for-god-and-science",
+   "snippet": "Fitrah research.",
+   "status": "misleading",
+   "problem": "Barrett's book is cognitive science of religion and never uses the Islamic concept of fitrah; the link is an interpretation by Muslim apologists.",
+   "correction": "Cognitive science of children's religious belief, which Muslim authors relate to the fitrah.",
+   "sources": [
+    "https://www.christiantoday.com/news/oxford-study-belief-in-god-is-natural"
+   ]
+  },
+  {
+   "arg_id": "s-resources--agnosticism-and-the-divine-attributes",
+   "snippet": "Its chapter on the divine attributes shows how oneness, eternity, knowledge, will and power follow from a first cause.",
+   "status": "misleading",
+   "problem": "Feser's book has no standalone chapter on the attributes; he derives them within each proof's chapter and the list he gives is unity, simplicity, eternity, omnipotence, omniscience, perfect goodness, and so on. Feser is a Catholic Thomist and the attributes he derives include divine simplicity.",
+   "correction": "Its chapters derive the divine attributes (unity, simplicity, eternity, omnipotence, omniscience, perfect goodness) from each proof.",
+   "sources": [
+    "https://www.tumblarhouse.com/products/five-proofs-of-the-existence-of-god-edward-feser"
+   ]
+  },
+  {
+   "arg_id": "s-resources--philosophy-logic-fallacies-and-the-main-fields",
+   "snippet": "Wael Hallaq, Ibn Taymiyya Against the Greek Logicians (1993). A translation of Ibn Taymiyya's critique of Aristotelian logic.",
+   "status": "error",
+   "problem": "Hallaq translates Suyuti's abridgement (Jahd al-Qariha fi Tajrid al-Nasiha) of Ibn Taymiyya's al-Radd 'ala al-Mantiqiyyin, not the full original. Published by Oxford University Press (Clarendon), 1993.",
+   "correction": "Wael Hallaq, Ibn Taymiyya Against the Greek Logicians (Clarendon Press, 1993). A translation of al-Suyuti's abridgement of Ibn Taymiyya's critique of Aristotelian logic.",
+   "sources": [
+    "https://academic.oup.com/book/34793"
+   ]
+  },
+  {
+   "arg_id": "s-resources--online-tools",
+   "snippet": "isnad.io",
+   "status": "unverifiable",
+   "problem": "I could not reach isnad.io (blocked) and search found no confirmation of a hadith tool at that domain; remove it or confirm manually.",
+   "correction": "(remove or confirm before use)",
+   "sources": [
+    "https://isnad.io"
+   ]
+  },
+  {
+   "arg_id": "s-resources--online-tools",
+   "snippet": "Corpus Coranicum (compare any verse across early manuscripts)",
+   "status": "misleading",
+   "problem": "Corpus Coranicum (Berlin-Brandenburg Academy) covers manuscripts, variant readings and parallel texts, but manuscript coverage is selective and not every verse is available in every early manuscript.",
+   "correction": "Corpus Coranicum (manuscripts, variant readings and late-antique parallel texts for the Quran)",
+   "sources": [
+    "https://corpuscoranicum.de"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,740 @@
+[
+ {
+  "n": 3,
+  "arg_id": "s-quran--the-quran-was-preserved-through-two-independent",
+  "find": "choice of Zayd If a verse",
+  "replace": "choice of Zayd. If a verse"
+ },
+ {
+  "n": 6,
+  "arg_id": "s-quran--non-muslim-scholars-concede-the-quran-s-integrit",
+  "find": " (check each citation before quoting; Rippin should be removed).",
+  "replace": "."
+ },
+ {
+  "n": 9,
+  "arg_id": "s-quran--the-qira-at-are-revealed-readings-not-copying-er",
+  "find": ", must fit the Uthmanic consonantal outline, and must be correct Arabic. The Prophet",
+  "replace": ". The Prophet"
+ },
+ {
+  "n": 10,
+  "arg_id": "s-quran--the-qira-at-are-revealed-readings-not-copying-er",
+  "find": "readings, the Prophet approved different recitations (the seven ahruf), and the canonical qira'at are held by scholars to preserve authorised recitations; how exactly the ahruf relate to the qira'at is discussed among scholars, on the same consonantal text, differing",
+  "replace": "readings. The Prophet approved different recitations (the seven ahruf), and the canonical qira'at are held by scholars to preserve authorised recitations; how exactly the ahruf relate to the qira'at is discussed among scholars. They share the same consonantal text, differing"
+ },
+ {
+  "n": 16,
+  "arg_id": "s-history--king-in-joseph-s-time-pharaoh-in-moses-time",
+  "find": "(Many Egyptologists call the biblical usage retrospective.)",
+  "replace": "Many Egyptologists call the biblical usage retrospective."
+ },
+ {
+  "n": 22,
+  "arg_id": "s-history--abraham-and-the-astral-triad",
+  "find": "Source some scholars regard",
+  "replace": "Source Some scholars regard"
+ },
+ {
+  "n": 24,
+  "arg_id": "s-history--more-egyptian-details-the-bible-lacks",
+  "find": "The Quran gives no number but quotes Pharaoh describing them as a \"small band\". The Quran's number is the plausible one.",
+  "replace": "The Quran gives no number, and its \"small band\" is the more plausible picture."
+ },
+ {
+  "n": 25,
+  "arg_id": "s-history--more-egyptian-details-the-bible-lacks",
+  "find": "derive it from Hebrew shomer or from an Egyptian term (Budge, Hieroglyphic Dictionary, a dated source) who led the Israelites",
+  "replace": "derive the name from Hebrew shomer or from an Egyptian term (Budge, Hieroglyphic Dictionary, a dated source). He led the Israelites"
+ },
+ {
+  "n": 28,
+  "arg_id": "s-history--muhammad-is-attested-by-outsiders-within-years-o",
+  "find": " (check Hoyland for the exact items)",
+  "replace": ""
+ },
+ {
+  "n": 44,
+  "arg_id": "s-prophecy--the-romans-will-be-victorious-30-2-5",
+  "find": "accomplishment, no prophecy could be more distant from its accomplishment, since",
+  "replace": "accomplishment, since"
+ },
+ {
+  "n": 49,
+  "arg_id": "s-prophecy--barefoot-shepherds-competing-in-tall-buildings",
+  "find": " (check the current status)",
+  "replace": ""
+ },
+ {
+  "n": 57,
+  "arg_id": "s-bible-muhammad--the-promise-to-ishmael-a-great-nation-that-only",
+  "find": "They gained all three only through",
+  "replace": "They gained a prophet and a revealed law only through"
+ },
+ {
+  "n": 66,
+  "arg_id": "s-bible-muhammad--isaiah-29-12-read-i-cannot-read",
+  "find": ", down to a manuscript that names the cave.",
+  "replace": "."
+ },
+ {
+  "n": 68,
+  "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+  "find": "has that reading, \"praise/glory\" (as in Kleopatra and Periklytos).",
+  "replace": "has that reading. The suggested root means \"praise/glory\" (as in Kleopatra and Periklytos)."
+ },
+ {
+  "n": 69,
+  "arg_id": "s-bible-muhammad--the-paraclete-john-14-16",
+  "find": "He gives the word as Munahhemana, saying \"in Syriac",
+  "replace": "He adds that \"in Syriac"
+ },
+ {
+  "n": 74,
+  "arg_id": "s-bible-muhammad--supporting-prophecies-the-cumulative-case",
+  "find": "In the in the Song of Songs 5:10 and 5:16 the beloved is \"chief among ten thousand\" and \"altogether desirable\" (mahamaddim) is kullo mahmaddim, \"altogether desirable\".",
+  "replace": "In the Song of Songs 5:10 and 5:16 the beloved is \"chief among ten thousand\" and \"altogether desirable\" (mahamaddim)."
+ },
+ {
+  "n": 75,
+  "arg_id": "s-bible-muhammad--the-jews-and-christians-of-the-time-recognised-h",
+  "find": "century),, ordered",
+  "replace": "century), ordered"
+ },
+ {
+  "n": 78,
+  "arg_id": "s-bible-muhammad--more-passages-and-the-expectation-of-an-arabian",
+  "find": "The Assumption of Moses (a Jewish text surviving in a 6th-century Latin manuscript) The Assumption",
+  "replace": "The Assumption"
+ },
+ {
+  "n": 81,
+  "arg_id": "s-miracles--the-prophet-refused-to-exploit-the-eclipse-an-ar",
+  "find": "records, and some Muslim sources",
+  "replace": "records; some Muslim sources"
+ },
+ {
+  "n": 85,
+  "arg_id": "s-miracles--zakat-and-the-economics-of-mercy",
+  "find": "Africa under Umar ibn Abd al-Aziz.",
+  "replace": "Africa under him."
+ },
+ {
+  "n": 87,
+  "arg_id": "s-miracles--zakat-and-the-economics-of-mercy",
+  "find": "in the 7th, tied",
+  "replace": "in the 7th century, tied"
+ },
+ {
+  "n": 88,
+  "arg_id": "s-miracles--the-fastest-growing-religion-is-not-a-proof",
+  "find": " (verify the 347 million figure at pewresearch.org)",
+  "replace": ""
+ },
+ {
+  "n": 93,
+  "arg_id": "s-intertext--the-quran-corrects-historical-and-narrative-deta",
+  "find": "vs 'asa), summarising their record",
+  "replace": "vs 'asa). The Quranic phrase summarises their record"
+ },
+ {
+  "n": 102,
+  "arg_id": "s-notgod--those-who-knew-jesus-called-him-a-man-and-a-prop",
+  "find": " James Dunn, a believing Christian scholar, concludes that there is no clear indication in the earliest traditions that Jesus thought of himself as divine, and that the",
+  "replace": " James Dunn, a believing Christian scholar, adds that the"
+ },
+ {
+  "n": 109,
+  "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+  "find": ", i.e. His own Son, that is His own Son, just as",
+  "replace": ", that is His own Son, just as"
+ },
+ {
+  "n": 110,
+  "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+  "find": "doxology to the Father, which the original manuscripts did not have. The RSV and others punctuate it as a separate praise of the Father:",
+  "replace": "doxology to the Father. The RSV reads:"
+ },
+ {
+  "n": 111,
+  "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+  "find": "John 1:18. Manuscripts divide between \"the only-begotten Son\" and \"the only-begotten God\". Manuscripts divide",
+  "replace": "John 1:18. Manuscripts divide"
+ },
+ {
+  "n": 117,
+  "arg_id": "s-notgod--before-abraham-was-i-am-john-8-58-is-not-a-claim",
+  "find": "is ho ōn (\"the One who is\"), not ego eimi.",
+  "replace": "is ho ōn (\"the One who is\"), not ego eimi alone."
+ },
+ {
+  "n": 119,
+  "arg_id": "s-notgod--before-abraham-was-i-am-john-8-58-is-not-a-claim",
+  "find": "; his reply (10:34-36) appeals to Psalm 82, and Jesus' own answer then was Psalm 82 and \"Son of God\", not",
+  "replace": "; his reply (10:34-36) appeals to Psalm 82 and \"Son of God\", not"
+ },
+ {
+  "n": 126,
+  "arg_id": "s-notgod--the-divine-acts-of-jesus-were-done-by-prophets-t",
+  "find": ", and Elisha made iron float (2 Kgs 6:6); Moses",
+  "replace": "; Moses"
+ },
+ {
+  "n": 130,
+  "arg_id": "s-ot-trinity--the-angel-of-the-lord-is-god-s-messenger-not-god",
+  "find": "(Gen 32:30), while the Angel",
+  "replace": "(Gen 32:30). The Angel"
+ },
+ {
+  "n": 131,
+  "arg_id": "s-ot-trinity--plural-words-elohim-let-us-do-not-mean-plural-pe",
+  "find": ", and Artaxerxes writes \"the letter you sent us\" (Ezra 4:18)",
+  "replace": ""
+ },
+ {
+  "n": 135,
+  "arg_id": "s-ot-trinity--isaiah-9-6-48-16-and-63-9",
+  "find": "\"sent me and his spirit\", as scholars like Childs, Blenkinsopp and Goldingay translate: \"has sent me with His Spirit\"",
+  "replace": "\"sent me and his spirit\""
+ },
+ {
+  "n": 143,
+  "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+  "find": "(De Principiis 1.2.9). (Commentary on John 2.6); the Father's",
+  "replace": "(De Principiis 1.2.9; Commentary on John 2.6). The Father's"
+ },
+ {
+  "n": 145,
+  "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+  "find": "4-18).… alien",
+  "replace": "4-18). He also wrote that the Son is \"alien"
+ },
+ {
+  "n": 154,
+  "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+  "find": "though these verses do not say anyone denied the crucifixion when they turn away from",
+  "replace": "though that verse does not say anyone denied the crucifixion. He says believers turn away from"
+ },
+ {
+  "n": 157,
+  "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+  "find": "Basilides (early 2nd century), as reported by Irenaeus (Against Heresies 1.24.4), though Hippolytus' account differs: Simon of Cyrene was crucified in Jesus' likeness while Jesus stood by.",
+  "replace": "Basilides (early 2nd century), as reported by Irenaeus (Against Heresies 1.24.4): Simon of Cyrene was crucified in Jesus' likeness while Jesus stood by. Hippolytus' account differs."
+ },
+ {
+  "n": 161,
+  "arg_id": "s-cross--the-independent-non-christian-witnesses-are-late",
+  "find": "Messiah. (a crucified",
+  "replace": "Messiah (a crucified"
+ },
+ {
+  "n": 162,
+  "arg_id": "s-cross--the-bible-promised-the-righteous-one-would-be-re",
+  "find": "\"to Him who was able to save him from death\" (Greek ek thanatou, which most commentators take to mean out of death by resurrection) and supplications, with loud cries and tears, to Him who was able to save him from death, and",
+  "replace": "\"…and supplications, with loud cries and tears, to Him who was able to save him from death (Greek ek thanatou, which most commentators take to mean out of death by resurrection), and"
+ },
+ {
+  "n": 163,
+  "arg_id": "s-cross--the-bible-promised-the-righteous-one-would-be-re",
+  "find": "( Against the Jews 9)",
+  "replace": "(Against the Jews 9)"
+ },
+ {
+  "n": 164,
+  "arg_id": "s-cross--the-bible-promised-the-righteous-one-would-be-re",
+  "find": "to Christ, Wisdom",
+  "replace": "to Christ. Wisdom"
+ },
+ {
+  "n": 165,
+  "arg_id": "s-cross--the-shroud-the-swoon-theory-and-the-nazareth-ins",
+  "find": "claiming it was painted to Pope Clement VII saying an earlier bishop",
+  "replace": "claiming it was painted. The memo was addressed to Pope Clement VII and said an earlier bishop"
+ },
+ {
+  "n": 170,
+  "arg_id": "s-cross--mutawaffika-3-55-does-not-mean-jesus-died",
+  "find": " for taking souls in sleep (6:60; 39:42), and the Quran uses tawaffa for both",
+  "replace": " for both"
+ },
+ {
+  "n": 171,
+  "arg_id": "s-jewish-xn--son-of-god-and-father-are-titles-of-closeness-no",
+  "find": "\"Jesus speaks of \"my Father",
+  "replace": "Jesus speaks of \"my Father"
+ },
+ {
+  "n": 176,
+  "arg_id": "s-jewish-xn--jesus-practised-islam-submission-to-the-one-god",
+  "find": "; Matt 5:3 and James 2:5; Matt 5:34-37 and James 5:12)",
+  "replace": ")"
+ },
+ {
+  "n": 178,
+  "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+  "find": "\"the gospel that was preached",
+  "replace": "\"…the gospel that was preached"
+ },
+ {
+  "n": 179,
+  "arg_id": "s-paul--paul-s-authority-rests-on-a-private-vision-and-w",
+  "find": " \"those who seemed to be something; what they were makes no difference to me\" (Gal 2:6)",
+  "replace": " (Gal 2:6)"
+ },
+ {
+  "n": 182,
+  "arg_id": "s-paul--paul-contradicted-jesus-and-the-torah-on-the-law",
+  "find": "adds, adds",
+  "replace": "adds"
+ },
+ {
+  "n": 184,
+  "arg_id": "s-paul--paul-s-methods-all-things-to-all-men",
+  "find": "struggle and describes himself as unable to stop doing what he hates (Rom 7:14-24), yet",
+  "replace": "struggle (Rom 7:14-24), yet"
+ },
+ {
+  "n": 188,
+  "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+  "find": "Pindar, where the god Dionysus says it to his persecutor.",
+  "replace": "Pindar."
+ },
+ {
+  "n": 189,
+  "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+  "find": "similar in wording to Philippians 2:7, though many scholars read that hymn against Jewish backgrounds, \"being made in the likeness of men\"",
+  "replace": "similar in wording to \"being made in the likeness of men\" (Philippians 2:7), though many scholars read that hymn against Jewish backgrounds"
+ },
+ {
+  "n": 190,
+  "arg_id": "s-paul--paul-s-christ-owes-much-to-greek-religion-yet-st",
+  "find": "(112:3): \"He neither begets nor is begotten\" (112:3)",
+  "replace": "(112:3)"
+ },
+ {
+  "n": 191,
+  "arg_id": "s-paul--beware-of-false-prophets-ravenous-wolves-and-the",
+  "find": "\"make no distinction between the holy and the common\" (22:26), \"make no distinction between the holy and the common, clean and unclean\"",
+  "replace": "\"make no distinction between the holy and the common, clean and unclean\" (22:26)"
+ },
+ {
+  "n": 192,
+  "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+  "find": "Mark and Matthew, they were",
+  "replace": "Mark and Matthew, and they were"
+ },
+ {
+  "n": 195,
+  "arg_id": "s-corruption--the-gospels-are-anonymous-and-not-eyewitness-acc",
+  "find": "events and are not eyewitness accounts",
+  "replace": "events. They are not eyewitness accounts"
+ },
+ {
+  "n": 200,
+  "arg_id": "s-corruption--major-passages-were-added-later",
+  "find": "(7:10). scribes changed it to \"not yet\" (already found in P66 and P75, earlier than Porphyry's criticism), while Epiphanius, Jerome and others knew the reading \"not\" \"not yet\" (P66, P75), while Epiphanius, Chrysostom and Augustine knew \"not\".",
+  "replace": "(7:10). Scribes changed it to \"not yet\" (already found in P66 and P75, earlier than Porphyry's criticism), while Epiphanius, Jerome and others knew the reading \"not\"."
+ },
+ {
+  "n": 201,
+  "arg_id": "s-corruption--major-passages-were-added-later",
+  "find": "\"two others, criminals\", which could imply Jesus was a criminal; scribes reordered the words",
+  "replace": "\"two others, criminals\""
+ },
+ {
+  "n": 205,
+  "arg_id": "s-corruption--major-passages-were-added-later",
+  "find": "is \"unheard of anywhere in the NT\", is attested in Matthew 28:19 itself and in the Didache (7.1), and is",
+  "replace": "is \"unheard of anywhere in the NT\" apart from Matthew 28:19 itself and the Didache (7.1), and is"
+ },
+ {
+  "n": 207,
+  "arg_id": "s-corruption--the-hebrew-bible-shows-deliberate-theological-ch",
+  "find": " In this quotation Mark follows the Greek (Septuagint) wording.",
+  "replace": ""
+ },
+ {
+  "n": 213,
+  "arg_id": "s-messianic--isaiah-53-the-suffering-servant-is-israel",
+  "find": "takes it as Israel; others, such as Targum Jonathan and b. Sanhedrin 98b, take it as the Messiah Origen",
+  "replace": "takes the passage as Israel; others, such as Targum Jonathan and b. Sanhedrin 98b, take it as the Messiah. Origen"
+ },
+ {
+  "n": 215,
+  "arg_id": "s-messianic--isaiah-7-14-a-sign-for-king-ahaz",
+  "find": "usually read as already pregnant: a specific woman, already pregnant.",
+  "replace": "usually read as describing a specific woman who is already pregnant."
+ },
+ {
+  "n": 217,
+  "arg_id": "s-messianic--zechariah-and-daniel-zerubbabel-the-pierced-and",
+  "find": "called \"the Branch\" (3:8), and in the received text of 6:11-12 the crown is set on Joshua the high priest and God's \"signet ring\" (Hag 2:23)",
+  "replace": "called \"the Branch\" (3:8) and God's \"signet ring\" (Hag 2:23), and in the received text of 6:11-12 the crown is set on Joshua the high priest"
+ },
+ {
+  "n": 218,
+  "arg_id": "s-messianic--zechariah-and-daniel-zerubbabel-the-pierced-and",
+  "find": "near Jesus Christian",
+  "replace": "near Jesus. Christian"
+ },
+ {
+  "n": 221,
+  "arg_id": "s-messianic--the-jews-expected-a-messiah-who-would-live-and-t",
+  "find": "(Matt 4:6) Jesus replies by quoting Deuteronomy 6:16 against that use of Psalm 91 (Matt 4:7), promises",
+  "replace": "(Matt 4:6), though Jesus replies by quoting Deuteronomy 6:16 against that use (Matt 4:7), promises"
+ },
+ {
+  "n": 232,
+  "arg_id": "s-pagan--eating-a-god-s-flesh-and-drinking-his-blood",
+  "find": "\"received from the Lord\", which he says he \"received from the Lord\" (a phrase",
+  "replace": "\"received from the Lord\" (a phrase"
+ },
+ {
+  "n": 247,
+  "arg_id": "s-dilemmas--the-prophets-say-sacrifices-continue-in-the-mess",
+  "find": "is not named A sinless",
+  "replace": "is not named. A sinless"
+ },
+ {
+  "n": 254,
+  "arg_id": "s-xn-morality--marriage-women-and-modesty-in-christian-traditio",
+  "find": "Law, and allowed",
+  "replace": "Law, allowed"
+ },
+ {
+  "n": 255,
+  "arg_id": "s-xn-morality--marriage-women-and-modesty-in-christian-traditio",
+  "find": ", and Jesus told his followers",
+  "replace": ". Jesus told his followers"
+ },
+ {
+  "n": 258,
+  "arg_id": "s-xn-morality--the-church-s-own-moral-record",
+  "find": "Indulgences were papal policy, infant damnation was Augustine's doctrine, and the death of heretics was Aquinas' theology. Indulgence sales",
+  "replace": "Indulgence sales"
+ },
+ {
+  "n": 260,
+  "arg_id": "s-xn-morality--allah-does-not-love-the-disbelievers-and-the-bib",
+  "find": "says that, in both Testaments, alongside verses that God loves sinners",
+  "replace": "says, alongside such verses and in both Testaments, that God loves sinners"
+ },
+ {
+  "n": 264,
+  "arg_id": "s-ot-history--solomon-s-temple-a-huge-workforce-for-a-small-bu",
+  "find": "with the Temple taking seven years to build a temple roughly",
+  "replace": "with seven years spent on a temple roughly"
+ },
+ {
+  "n": 267,
+  "arg_id": "s-ot-history--the-conquest-of-canaan-jericho-and-ai",
+  "find": "before the Iron I village before Joshua's time",
+  "replace": "before the Iron I village, and was already a ruin before Joshua's time"
+ },
+ {
+  "n": 271,
+  "arg_id": "s-ot-history--daniel-and-esther-get-the-persian-and-babylonian",
+  "find": "in 597 BCE, which would make him over 110 under Xerxes (though the Hebrew may refer to his ancestor Kish). Esther is set under Ahasuerus (Xerxes I, 486-465 BCE), which would make Mordecai well over 110",
+  "replace": "in 597 BCE (though the Hebrew may refer to his ancestor Kish). Esther is set under Ahasuerus (Xerxes I, 486-465 BCE), which on that reading would make Mordecai well over 110"
+ },
+ {
+  "n": 273,
+  "arg_id": "s-ot-history--daniel-and-esther-get-the-persian-and-babylonian",
+  "find": "text; none is proven; Gubaru is attested in the Nabonidus Chronicle as a governor, but nothing calls him king or 'Darius', and Daniel",
+  "replace": "text, and none is proven. Gubaru is attested in the Nabonidus Chronicle as a governor, but nothing calls him king or 'Darius'. Daniel"
+ },
+ {
+  "n": 275,
+  "arg_id": "s-ot-history--impossible-numbers-in-kings-and-chronicles",
+  "find": "which Samuel and Chronicles contradict each other on (800,000 vs 1,100,000)",
+  "replace": "and Samuel and Chronicles give different census totals (800,000 vs 1,100,000)"
+ },
+ {
+  "n": 278,
+  "arg_id": "s-ot-incoherence--joseph-sold-by-ishmaelites-or-midianites-genesis",
+  "find": "two groups: Ishmael is",
+  "replace": "two groups. Ishmael is"
+ },
+ {
+  "n": 281,
+  "arg_id": "s-ot-incoherence--more-contradictions-in-names-ages-and-events",
+  "find": "or 8 (2 Chr 36:9); and Chronicles (like Kings, 2 Kgs 24:9) says he \"did what was evil in the sight of the LORD\", though at 8 in the Masoretic reading (some manuscripts have 18).",
+  "replace": "or 8 (2 Chr 36:9) in the Masoretic reading (some manuscripts have 18). Chronicles, like Kings (2 Kgs 24:9), says he \"did what was evil in the sight of the LORD\"."
+ },
+ {
+  "n": 286,
+  "arg_id": "s-judaism--the-quran-answers-rabbinic-teachings-precisely",
+  "find": ", and rabbinic texts limit punishment in Gehinnom to twelve months",
+  "replace": ""
+ },
+ {
+  "n": 289,
+  "arg_id": "s-judaism--jewish-thought-allows-a-later-prophet-to-change",
+  "find": "be replaced, but he held that the Torah of Moses will not in fact be replaced, since the Law was given to suit the people at a particular time.",
+  "replace": "be replaced, since a law may be given to suit the people at a particular time, but that the Torah of Moses will not in fact be replaced."
+ },
+ {
+  "n": 290,
+  "arg_id": "s-judaism--rabbis-recognised-muslims-as-true-monotheists-an",
+  "find": "Delete this sentence. If used, say the Samaritan text emphasises that no prophet will ever equal Moses, which cuts against the argument. ",
+  "replace": ""
+ },
+ {
+  "n": 296,
+  "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+  "find": "Jarnefelt, Canfield",
+  "replace": "Järnefelt, Canfield"
+ },
+ {
+  "n": 298,
+  "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+  "find": ", which they did not show for neutral statements",
+  "replace": ""
+ },
+ {
+  "n": 302,
+  "arg_id": "s-atheism--the-universe-is-fine-tuned-for-life",
+  "find": "A slightly larger value would have blown matter apart; A slightly",
+  "replace": "A slightly"
+ },
+ {
+  "n": 304,
+  "arg_id": "s-atheism--the-universe-is-fine-tuned-for-life",
+  "find": "The strength of the strong nuclear force: The strength",
+  "replace": "The strength"
+ },
+ {
+  "n": 307,
+  "arg_id": "s-atheism--consciousness-points-beyond-matter",
+  "find": "You did\". He concluded",
+  "replace": "You did\". Penfield concluded"
+ },
+ {
+  "n": 316,
+  "arg_id": "s-atheism--religion-and-islam-in-particular-makes-for-healt",
+  "find": "(not individuals) found",
+  "replace": "(not individuals) and found"
+ },
+ {
+  "n": 321,
+  "arg_id": "s-science--the-quran-and-muslim-scholars-held-the-earth-to",
+  "find": "round earth Ibn Hazm cited it for the earth's roundness.",
+  "replace": "round earth."
+ },
+ {
+  "n": 322,
+  "arg_id": "s-science--the-quran-did-not-copy-greek-embryology",
+  "find": ", and it was full of errors",
+  "replace": ". Greek medicine was full of errors"
+ },
+ {
+  "n": 326,
+  "arg_id": "s-agnosticism--why-the-first-cause-must-be-one",
+  "find": "The philosophical version. are used to argue that what",
+  "replace": "The philosophical version argues that what"
+ },
+ {
+  "n": 335,
+  "arg_id": "s-main--the-quran-s-torah-and-injil-are-revelations-not",
+  "find": ", though this is a hypothesis, a single harmonised Gospel that dominated Syriac churches until the 5th century.",
+  "replace": ", a single harmonised Gospel that dominated Syriac churches until the 5th century, though this is a hypothesis."
+ },
+ {
+  "n": 336,
+  "arg_id": "s-main--the-quran-did-not-copy-the-apocrypha",
+  "find": "the Qur'an and Its",
+  "replace": "The Qur'an and Its"
+ },
+ {
+  "n": 338,
+  "arg_id": "s-quran-obj--mary-and-the-trinity-5-116-5-73",
+  "find": "626, and when Constantinople was besieged in 626 Patriarch Sergius",
+  "replace": "626, when Patriarch Sergius"
+ },
+ {
+  "n": 341,
+  "arg_id": "s-quran-obj--mary-and-the-trinity-5-116-5-73",
+  "find": " whatever the official term",
+  "replace": ""
+ },
+ {
+  "n": 343,
+  "arg_id": "s-quran-obj--the-names-yahya-and-isa",
+  "find": "Ahmad al-Jallad has proposed that a pre-Islamic Safaitic (North Arabian) inscription,",
+  "replace": "Ahmad al-Jallad cites a pre-Islamic Safaitic (North Arabian) inscription,"
+ },
+ {
+  "n": 357,
+  "arg_id": "s-prophet-obj--the-satanic-verses-story-is-not-authentic",
+  "find": "; scholars from Ibn Kathir to al-Albani rejected it.",
+  "replace": "."
+ },
+ {
+  "n": 358,
+  "arg_id": "s-prophet-obj--islam-is-not-racist",
+  "find": "Dhu al-Thudayya, the Kharijite leader, was a Kharijite figure, identified in some sources as Hurqus ibn Zuhayr (the identification is disputed), an Arab.",
+  "replace": "Dhu al-Thudayya was a Kharijite figure, identified in some sources as Hurqus ibn Zuhayr (the identification is disputed). He was an Arab."
+ },
+ {
+  "n": 362,
+  "arg_id": "s-hadith-obj--other-hadith-objections-answered",
+  "find": ", and Jarir heard from him late; the chain also has a break (Ibn 'Ubayd from his father).",
+  "replace": "."
+ },
+ {
+  "n": 364,
+  "arg_id": "s-morality--4-34-and-domestic-violence",
+  "find": "hurt her, and Aisha herself reported",
+  "replace": "hurt her. She also reported"
+ },
+ {
+  "n": 370,
+  "arg_id": "s-morality--non-muslims-under-islamic-rule",
+  "find": "free them from the Romans",
+  "replace": "free Christians from the Romans"
+ },
+ {
+  "n": 378,
+  "arg_id": "s-aisha--65-4-those-who-have-not-menstruated",
+  "find": "It sets the waiting period for women who do not menstruate. Classical",
+  "replace": "Classical"
+ },
+ {
+  "n": 379,
+  "arg_id": "s-sects--the-quran-itself-requires-the-sunnah-against-qur",
+  "find": ") (6:38 speaks of animals and birds).",
+  "replace": "), and 6:38 speaks of animals and birds."
+ },
+ {
+  "n": 380,
+  "arg_id": "s-sects--creed-points-for-debates-with-christians",
+  "find": " (begotten, proceeding)",
+  "replace": ""
+ },
+ {
+  "n": 382,
+  "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+  "find": "(a claim or its negation is true (excluded middle; classical logic also assumes every claim is true or false, bivalence))",
+  "replace": "(a claim or its negation is true; classical logic also assumes every claim is true or false, which is bivalence)"
+ },
+ {
+  "n": 384,
+  "arg_id": "s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+  "find": "They are formal systems designed to avoid \"explosion\" in inconsistent data sets; ",
+  "replace": ""
+ },
+ {
+  "n": 386,
+  "arg_id": "s-philosophy--burden-of-proof-and-what-you-can-hold-someone-to",
+  "find": "rule::",
+  "replace": "rule:"
+ },
+ {
+  "n": 391,
+  "arg_id": "s-philosophy--metaphysics-the-concepts-behind-the-arguments-fo",
+  "find": "(Aquinas, (Aquinas, and",
+  "replace": "(Aquinas and"
+ },
+ {
+  "n": 394,
+  "arg_id": "s-philosophy--philosophy-of-religion-the-map-of-the-debate-abo",
+  "find": "being;; finite",
+  "replace": "being; finite"
+ },
+ {
+  "n": 405,
+  "arg_id": "s-resources--the-quran-preservation-text-and-its-challenge",
+  "find": "mutawatir and The Second",
+  "replace": "mutawatir, and The Second"
+ },
+ {
+  "n": 417,
+  "arg_id": "s-gender--what-feminism-got-right-and-where-islam-differs",
+  "find": "(53:45) and treats sex as real and meaningful (see the section on sexuality and gender)",
+  "replace": "(53:45; see the section on sexuality and gender)"
+ },
+ {
+  "n": 418,
+  "arg_id": "s-gender--marriage-consent-the-dowry-and-a-wife-s-way-out",
+  "find": "her husband Thabit ibn Qays’s character",
+  "replace": "her husband’s character"
+ },
+ {
+  "n": 420,
+  "arg_id": "s-lgbt--born-this-way-does-not-settle-the-moral-question",
+  "find": "(Psychological Science in the Public Interest, 2016) Bailey and colleagues (Psychological Science in the Public Interest, 2016) concluded",
+  "replace": "(Psychological Science in the Public Interest, 2016) concluded"
+ },
+ {
+  "n": 421,
+  "arg_id": "s-lgbt--sex-gender-and-the-categories-islamic-law-uses",
+  "find": "The Prophet ﷺ the Prophet ﷺ ordered",
+  "replace": "The Prophet ﷺ ordered"
+ },
+ {
+  "n": 422,
+  "arg_id": "s-lgbt--the-revisionist-reading-of-lot-s-people",
+  "find": ", and mainstream scholars in every school reject it because it must set aside the explicit wording",
+  "replace": ""
+ },
+ {
+  "n": 432,
+  "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+  "find": "offence, which Ireland abolished by",
+  "replace": "offence, and Ireland abolished its own blasphemy offence by"
+ },
+ {
+  "n": 433,
+  "arg_id": "s-apostasy--blasphemy-classical-rulings-patience-and-the-free",
+  "find": ", though later Hanafi jurists allowed discretionary death for repeat offences, and that a Muslim who does so is an apostate",
+  "replace": ", and that a Muslim who does so is an apostate, though later Hanafi jurists allowed discretionary death for repeat offences"
+ },
+ {
+  "n": 438,
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "find": "it is dated by radiocarbon to between 578 and 669 CE (parchment), i.e. no later",
+  "replace": "the parchment is dated by radiocarbon to between 578 and 669 CE, which is no later"
+ },
+ {
+  "n": 441,
+  "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+  "find": "The sources report that ... (Bukhari 4987 for Hudhayfa and the copies; Ibn Abi Dawud's al-Masahif for the other codices)",
+  "replace": "The sources are Bukhari 4987 for Hudhayfa and the copies, and Ibn Abi Dawud's al-Masahif for the other codices"
+ },
+ {
+  "n": 449,
+  "arg_id": "s-sources--the-teacher-claims-bahira-waraqa-and-the-foreign-t",
+  "find": "Moses, he died soon after",
+  "replace": "Moses. He died soon after"
+ },
+ {
+  "n": 454,
+  "arg_id": "s-revision--the-petra-qibla-theory",
+  "find": "said: ““What",
+  "replace": "said: “What"
+ },
+ {
+  "n": 456,
+  "arg_id": "s-revision--the-petra-qibla-theory",
+  "find": "and had greatly declined by the seventh century",
+  "replace": "and by the seventh century was greatly reduced"
+ },
+ {
+  "n": 463,
+  "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+  "find": "(13:31, 24:27) are collected",
+  "replace": "(13:31, 24:27); all are collected"
+ },
+ {
+  "n": 464,
+  "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+  "find": "so scholars rejected it on grounds",
+  "replace": "so scholars rejected the Aisha report on grounds"
+ },
+ {
+  "n": 465,
+  "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+  "find": "meaning, and the most natural",
+  "replace": "meaning; the most natural"
+ }
+]

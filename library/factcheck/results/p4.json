@@ -1,0 +1,366 @@
+{
+ "part": "p4",
+ "arguments_checked": 22,
+ "findings": [
+  {
+   "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+   "snippet": "even atheist scientists under time pressure judge nature as designed",
+   "status": "misleading",
+   "problem": "The 2015 Cognition paper (Jarnefelt, Canfield, Kelemen) tested non-religious adults in general (not scientists) and measured intuitions that nature is purposefully created under processing constraints. The 'scientists' study is Kelemen et al. 2013 (Psychological Science) and measured teleological (purpose) explanations, not 'designed by a mind'.",
+   "correction": "even non-religious adults, when forced to answer quickly, are more likely to endorse the idea that nature was purposefully created (Jarnefelt, Canfield and Kelemen 2015); physical scientists under time pressure also accept purpose-based explanations of nature (Kelemen et al. 2013)",
+   "sources": [
+    "https://www.sciencedirect.com/science/article/abs/pii/S0010027715000293",
+    "https://philpapers.org/rec/JRNTDM"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+   "snippet": "found that even atheist scientists, when forced to answer quickly, endorsed design explanations of nature",
+   "status": "misleading",
+   "problem": "Same issue: the 2015 paper studied non-religious adults (including atheists and others), not atheist scientists, and the finding concerns intuitions of purposeful creation under cognitive constraint.",
+   "correction": "found that even non-religious adults, when forced to answer quickly, endorsed the view that nature was purposefully created",
+   "sources": [
+    "https://philpapers.org/rec/JRNTDM"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+   "snippet": "A Finnish study found atheists daring God to harm their loved ones showed the same physiological stress as believers",
+   "status": "misleading",
+   "problem": "Real study (Lindeman et al., Univ. of Helsinki, 2013) but tiny (17 Finns in the first experiment). Atheists showed the same skin-conductance pattern as believers for God-dares AND other disturbing statements; the author-year and sample size should be given and the claim not oversold. Also the text says stress 'which they did not show for neutral statements', fine.",
+   "correction": "A small Finnish study (Lindeman et al., Helsinki, 2013; 17 participants in the first experiment) found atheists' skin-conductance arousal when reading dares to God to harm loved ones matched that of believers, and was higher than for neutral statements",
+   "sources": [
+    "https://psmag.com/?p=39511"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+   "snippet": "Olivera Petrovich (Oxford) found preschool children far more likely to say God made natural things than people did",
+   "status": "weak_source",
+   "problem": "Petrovich's 1997 studies concerned children's understanding of the origin of natural objects; the wording 'far more likely ... than people did' is vague and not verified in a cited paper. Give year/journal or soften.",
+   "correction": "Olivera Petrovich's developmental studies at Oxford found young children readily attribute the origin of natural things to a creator rather than to humans",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--fitrah-belief-in-a-creator-is-natural-not-taught",
+   "snippet": "Jong and colleagues (2012) found that reminders of death make atheists less confident of their unbelief at an unconscious level",
+   "status": "misleading",
+   "problem": "Jong, Halberstadt and Bluemke (2012, J. Exp. Social Psychology, 'Foxhole atheism, revisited') found mortality salience raised implicit (measured by reaction-time test) belief in God among atheists. 'Less confident' overstates; the explicit unbelief did not change.",
+   "correction": "Jong, Halberstadt and Bluemke (2012) found that reminders of death raised atheists' implicit (reaction-time) belief in God, though not their stated belief",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--dependent-things-need-an-independent-cause",
+   "snippet": "The soldier analogy (from Ibn Taymiyya's reasoning on regress)",
+   "status": "unverifiable",
+   "problem": "I could not find the soldier-permission analogy in Ibn Taymiyya's works; it is a modern popularisation (it resembles Hamza Tzortzis style presentations). Also Ibn Taymiyya accepted an infinite chain of past events (tasalsul al-hawadith), rejecting only an essentially ordered infinite regress, so attributing it simply as 'his reasoning on regress' is imprecise.",
+   "correction": "The soldier analogy (a modern illustration of the argument against an infinite chain of essentially dependent causes)",
+   "sources": [
+    "https://islamicdiscourse.substack.com/p/perpetual-creation-volitional-attributes"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--dependent-things-need-an-independent-cause",
+   "snippet": "Modern cosmology agrees that the universe had a beginning (the Big Bang, about 13.8 billion years ago)",
+   "status": "misleading",
+   "problem": "Standard cosmology dates the hot dense expansion to about 13.8 billion years ago, but cosmologists dispute whether that was an absolute beginning (inflationary, cyclic, Hartle-Hawking and quantum-gravity models). The Borde-Guth-Vilenkin theorem says inflationary spacetimes are past-incomplete, not that time began.",
+   "correction": "Modern cosmology dates the expansion of the observable universe from a hot, dense state to about 13.8 billion years ago; whether that was an absolute beginning is debated, though most models still point to a past boundary",
+   "sources": [
+    "https://arxiv.org/abs/gr-qc/0110012"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--the-universe-is-fine-tuned-for-life",
+   "snippet": "must be tuned to roughly one part in 10^120 for galaxies and stars to form",
+   "status": "error",
+   "problem": "The 10^120 figure is the mismatch between naive quantum-field-theory estimates of vacuum energy and the observed value (a theoretical cancellation problem). The anthropic range for galaxy formation is much wider: Weinberg's 1987 bound allows values only about 100-500 times the observed matter density, i.e. a couple of orders of magnitude, not 120.",
+   "correction": "is about 10^120 times smaller than naive quantum-field-theory estimates of vacuum energy, and anthropic arguments (Weinberg 1987) show it could not be more than a few hundred times its observed value without preventing galaxy formation",
+   "sources": [
+    "https://arxiv.org/pdf/astro-ph/0407586",
+    "https://arxiv.org/pdf/2110.07783"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--the-universe-is-fine-tuned-for-life",
+   "snippet": "a smaller one would have collapsed it",
+   "status": "error",
+   "problem": "A smaller positive cosmological constant would not collapse the universe; only a large negative value would recollapse it quickly. Anthropic bounds are on the large positive side (and a large negative side).",
+   "correction": "A slightly larger positive value would have blown matter apart before galaxies formed; a large negative value would have caused recollapse",
+   "sources": [
+    "https://arxiv.org/pdf/astro-ph/0407586"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--the-universe-is-fine-tuned-for-life",
+   "snippet": "a few per cent different and either no elements beyond hydrogen form, or no hydrogen survives",
+   "status": "misleading",
+   "problem": "This is Rees's nuclear-fusion efficiency epsilon = 0.007 (0.006 gives only hydrogen; 0.008 leaves no hydrogen), about 14 percent either way, and it depends on the strong force but is not the strong coupling itself. 'A few per cent' is loose.",
+   "correction": "The strength of the strong nuclear force: Rees notes the fusion efficiency 0.007 cannot be much lower than 0.006 (no atoms beyond hydrogen) or higher than 0.008 (no hydrogen left)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--the-universe-is-fine-tuned-for-life",
+   "snippet": "a mechanism that produces universes would itself need fine-tuning",
+   "status": "misleading",
+   "problem": "Stated as settled; it is a contested argument (Collins, Craig make it; many physicists dispute that inflation or string landscape generators need fine-tuning).",
+   "correction": "Some philosophers argue that a mechanism that produces universes would itself need fine-tuning",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--consciousness-points-beyond-matter",
+   "snippet": "stimulating the brain produces movements and sensations, but not decisions",
+   "status": "misleading",
+   "problem": "Desmurget et al. (Science 2009) found stimulating parietal cortex produced a conscious desire/intention to move, and stronger stimulation the illusion of having moved. So the claim that stimulation never produces will or intention is outdated.",
+   "correction": "Penfield's stimulation experiments produced movements and sensations but not the sense of deciding; later work (Desmurget et al. 2009) found stimulation of parietal cortex can induce an urge to move, which critics cite against this point",
+   "sources": [
+    "https://www.discovermagazine.com/mind/found-a-part-of-the-brain-that-makes-you-want-to-move"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--consciousness-points-beyond-matter",
+   "snippet": "Patients would say \"you made me do that\"",
+   "status": "weak_source",
+   "problem": "Penfield reported patients saying words like 'I didn't do that. You did.' (when he moved their arm); the quoted wording is a paraphrase and not from a cited page.",
+   "correction": "Patients would say \"I didn't do that. You did\"",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--objective-morality-needs-god",
+   "snippet": "Nietzsche , the most consistent atheist philosopher",
+   "status": "misleading",
+   "problem": "'Most consistent atheist philosopher' is an opinion presented as fact; and the quoted Twilight of the Idols passage (Skirmishes 5) is real, but Nietzsche's point is that Christian morality falls without Christianity, not that objective morality needs God, and he did not himself endorse that conclusion as an argument for theism.",
+   "correction": "Nietzsche, an atheist philosopher who saw the consequences of atheism clearly",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--objective-morality-needs-god",
+   "snippet": "argued that some sexual acts with animals are not necessarily wrong",
+   "status": "misleading",
+   "problem": "Singer's 2001 review 'Heavy Petting' argued that sex with animals need not always involve cruelty and is not in itself a serious ethical offence; he did not approve all such acts. 'Conclusions ... which follow from his premises' is also an interpretive claim.",
+   "correction": "argued in his 2001 essay 'Heavy Petting' that sex with animals is not always abusive and not necessarily seriously wrong",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--objective-morality-needs-god",
+   "snippet": "In a debate with Mohammed Hijab, the Norwegian philosopher Lars Gule struggled to say incest between consenting adults is objectively wrong.",
+   "status": "unverifiable",
+   "problem": "I found no record (date, venue, recording) of this debate through search. Needs a link or timestamp, and 'struggled' is subjective.",
+   "correction": "In a debate with Mohammed Hijab (give date and link), Lars Gule ...",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--the-problem-of-evil-and-suffering",
+   "snippet": "The logical version is dead.",
+   "status": "misleading",
+   "problem": "Mackie did concede in The Miracle of Theism (1982, p. 154) that the problem of evil does not show the central doctrines of theism to be logically inconsistent, but immediately added that whether this offers a real solution is another question, and he maintained the evidential argument. 'Dead' should be 'widely regarded as defeated'.",
+   "correction": "The logical version is widely regarded as defeated.",
+   "sources": [
+    "https://iep.utm.edu/evil-log/"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--the-problem-of-evil-and-suffering",
+   "snippet": "Robin Collins' analogy: you can't conclude there is no snake in a garden",
+   "status": "unverifiable",
+   "problem": "The 'noseeum' garden/snake analogy is not clearly Collins'; the standard form of the argument is Stephen Wykstra's (CORNEA, 1984) and Alston's. I could not confirm Collins as author.",
+   "correction": "The skeptical-theism analogy (Wykstra, Alston): you can't conclude there is no snake in a garden",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--the-problem-of-evil-and-suffering",
+   "snippet": "Children who die are in Paradise (the Prophet's ﷺ dream of Abraham surrounded by them, Bukhari 7047)",
+   "status": "misleading",
+   "problem": "Bukhari 7047 is real (Abraham surrounded by children), but scholars differ on the fate of children of non-Muslims; the report says 'children' generally and is a dream, so the blanket claim is stronger than the evidence.",
+   "correction": "Children of believers who die are in Paradise (see the Prophet's dream of Abraham surrounded by children, Bukhari 7047); scholars differ on the children of non-Muslims",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--free-will-and-divine-decree-qadar",
+   "snippet": "Ibn al-Qayyim : two independent, complete agents for one act is impossible",
+   "status": "unverifiable",
+   "problem": "Page presents this as Ibn al-Qayyim's view with no work cited; also 'kasb' is the Ash'ari doctrine and Ibn al-Qayyim criticised it, so linking the two in one argument is unfaithful.",
+   "correction": "Ibn al-Qayyim (Shifa al-Alil): two independent, complete agents for one act is impossible",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--darwinism-as-an-atheist-worldview",
+   "snippet": "Gerd Müller spoke of the \"explanatory deficits\" of the Modern Synthesis, especially the origin of complexity and novelty, and noted a growing literature calling for its revision or replacement.",
+   "status": "misleading",
+   "problem": "Müller's 'explanatory deficits' wording is real, but the Royal Society meeting was about extending the synthesis (the extended evolutionary synthesis), and most speakers did not call for replacing natural selection. The heading 'calls to revise or replace' overstates.",
+   "correction": "Gerd Müller spoke of the 'explanatory deficits' of the Modern Synthesis, especially the origin of complexity and novelty, and argued for extending it",
+   "sources": [
+    "https://royalsociety.org/science-events-and-lectures/2016/11/evolutionary-biology/"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--darwinism-as-an-atheist-worldview",
+   "snippet": "A US$10 million prize for explaining the natural origin of the genetic code remains unclaimed.",
+   "status": "weak_source",
+   "problem": "This is the privately-funded 'Evolution 2.0' prize of Perry Marshall, run by an ID-sympathetic businessman and not a scientific body; its criteria are self-defined. Name the sponsor.",
+   "correction": "A US$10 million prize offered by businessman Perry Marshall (Evolution 2.0 Prize) for explaining the natural origin of the genetic code remains unclaimed, though it is a private, non-scientific prize",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--darwinism-as-an-atheist-worldview",
+   "snippet": "\"Nebraska Man\" was built from a peccary's tooth",
+   "status": "misleading",
+   "problem": "True (Hesperopithecus, 1922), but it was retracted by 1927 and never widely accepted by anthropologists; it is not comparable to Piltdown.",
+   "correction": "\"Nebraska Man\" (1922) was built from a peccary's tooth and was retracted within five years",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--darwinism-as-an-atheist-worldview",
+   "snippet": "all agree that Allah created Adam",
+   "status": "misleading",
+   "problem": "Some Muslim thinkers accept human common descent while holding Adam a special creation, others do not; 'all agree' overstates.",
+   "correction": "most Muslim scholars hold that Allah created Adam",
+   "sources": []
+  },
+  {
+   "arg_id": "s-atheism--religion-and-islam-in-particular-makes-for-healt",
+   "snippet": "found suicide rates lowest in Muslim-majority populations and highest among those with no religion",
+   "status": "misleading",
+   "problem": "The Bertolote & Fleischmann 2002 (Suicidologi 7(2):6-8) chart compares countries by predominant religion, not individuals; it is ecological, and suicide is under-reported in many Muslim-majority countries. Highest rates were in countries labeled 'other/none' (post-communist states). Individual-level meta-analyses show religiosity is protective generally.",
+   "correction": "compared countries by predominant religion (not individuals) found the lowest recorded suicide rates in Muslim-majority countries, though suicide is under-reported there",
+   "sources": [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4482518/"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--religion-and-islam-in-particular-makes-for-healt",
+   "snippet": "found Muslims the least likely to report premarital or extramarital sex",
+   "status": "error",
+   "problem": "Adamczyk & Hayes (ASR 77(5), 2012; 31 developing countries, DHS data) found Muslims least likely to report extramarital sex, but for premarital sex Hindus were lowest (about 19% vs Muslims 43%).",
+   "correction": "found Muslims the least likely to report extramarital sex, and Hindus and Muslims less likely than Christians and Jews to report premarital sex",
+   "sources": [
+    "https://sciencedaily.com/releases/2012/10/121017091307.htm"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--religion-and-islam-in-particular-makes-for-healt",
+   "snippet": "A study on beliefs in oneness and life satisfaction found Muslim respondents scored highest.",
+   "status": "misleading",
+   "problem": "The study (Erdinger-Schons, Univ. Mannheim, 2019, Psychology of Religion and Spirituality; German sample of about 67,000) found Muslims had the highest oneness beliefs; oneness beliefs predicted life satisfaction better than religion. It did not find Muslims had the highest life satisfaction.",
+   "correction": "A German study (Erdinger-Schons, 2019) found Muslims scored highest on beliefs in oneness, and that oneness beliefs predicted higher life satisfaction",
+   "sources": [
+    "https://www.newarab.com/news/muslims-have-highest-life-satisfaction-due-oneness?amp"
+   ]
+  },
+  {
+   "arg_id": "s-atheism--religion-and-islam-in-particular-makes-for-healt",
+   "snippet": "the Islamic ban made alcoholism rare in Muslim societies",
+   "status": "misleading",
+   "problem": "Abstention is high but alcohol use disorders exist in Muslim societies and rates are rising; 'rare' is uncited.",
+   "correction": "the Islamic ban is associated with much lower alcohol consumption in Muslim societies",
+   "sources": []
+  },
+  {
+   "arg_id": "s-science--the-quran-and-muslim-scholars-held-the-earth-to",
+   "snippet": "fits a round, rotating world",
+   "status": "misleading",
+   "problem": "Classical scholars cited did not hold earth rotation; falak refers to sun and moon orbits (21:33). Claiming the Quran fits a rotating earth is the author's reading, not the classical consensus.",
+   "correction": "fits a round world",
+   "sources": []
+  },
+  {
+   "arg_id": "s-science--the-quran-and-muslim-scholars-held-the-earth-to",
+   "snippet": "The verb yukawwir comes from the same root as kura , \"ball\"; it describes winding something around a round object, as a turban is wound.",
+   "status": "misleading",
+   "problem": "The root k-w-r does give both kawr (wind a turban) and kura (ball), but the verb means to wrap/fold; that it implies a spherical earth is Ibn Hazm's inference and disputed by modern lexicographers.",
+   "correction": "The verb yukawwir means to wind or wrap, as a turban is wound around the head; Ibn Hazm took it to imply a round earth",
+   "sources": []
+  },
+  {
+   "arg_id": "s-science--the-quran-and-muslim-scholars-held-the-earth-to",
+   "snippet": "Even al-Suyuti acknowledged the reports of consensus",
+   "status": "unverifiable",
+   "problem": "Al-Suyuti is known to have argued for a flat or non-spherical cosmology in al-Hay'a al-Saniyya; I could not verify that he acknowledged the consensus. Also 'consensus' reported by Ibn Taymiyya is contested by dissenting scholars.",
+   "correction": "Al-Suyuti is a classical scholar who argued otherwise, showing the consensus was not unanimous",
+   "sources": []
+  },
+  {
+   "arg_id": "s-science--the-sun-setting-in-a-muddy-spring-18-86",
+   "snippet": "five stronger narrators (al-A'mash, Yunus ibn 'Ubayd, Musa ibn al-Musayyab, Harun ibn Sa'd and 'Abd al-A'la)",
+   "status": "unverifiable",
+   "problem": "Hadith-chain detail not verifiable here against sunnah.com or a takhrij source; needs a citation (Abu Dawud 4002, Ahmad 21552, Bukhari 3199 for the version without addition).",
+   "correction": "five other narrators (give names and references)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-science--between-the-backbone-and-the-ribs-86-6-7",
+   "snippet": "Ibn 'Atiyya ( al-Muharrar al-Wajiz 5/465), al-Mahdawi, Makki and al-Qurtubi record the view that it refers to man.",
+   "status": "unverifiable",
+   "problem": "Plausible but I could not open the editions to confirm volume/page or that each scholar records this view; verify before quoting.",
+   "correction": "Some classical commentators record the view that it refers to man (verify citations)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-science--between-the-backbone-and-the-ribs-86-6-7",
+   "snippet": "M.A.S. Abdel Haleem shows the surah is about resurrection",
+   "status": "unverifiable",
+   "problem": "Could not locate the Abdel Haleem work stating this; cite title and page.",
+   "correction": "The surah's theme is resurrection (86:8), as several commentators note",
+   "sources": []
+  },
+  {
+   "arg_id": "s-science--the-quran-did-not-copy-greek-embryology",
+   "snippet": "Greek medicine was not available in Arabic in the Prophet's time",
+   "status": "misleading",
+   "problem": "True for Arabic translation, but Greek medicine was practised in the region through Syriac and Persian Jundishapur; al-Harith ibn Kalada of Taif (a contemporary) studied there. A debater should expect this objection and not claim no access.",
+   "correction": "Greek medical works were not yet translated into Arabic in the Prophet's time, though Greek-trained physicians such as al-Harith ibn Kalada were known in Arabia",
+   "sources": []
+  },
+  {
+   "arg_id": "s-science--the-quran-did-not-copy-greek-embryology",
+   "snippet": "Dioscorides' screaming mandrake root",
+   "status": "error",
+   "problem": "The screaming mandrake is not in Dioscorides (who describes mandrake as an anaesthetic); the legend appears in Theophrastus/Pliny-era lore and especially medieval herbals.",
+   "correction": "the screaming mandrake legend (Pliny and medieval herbals)",
+   "sources": [
+    "https://wellcomecollection.org/stories/mandrake-medicine-and-myths"
+   ]
+  },
+  {
+   "arg_id": "s-science--the-quran-did-not-copy-greek-embryology",
+   "snippet": "Arabs commonly believed the mother was only a vessel.",
+   "status": "unverifiable",
+   "problem": "No source given; the 'mother as vessel' view is Aristotelian rather than documented Arab belief.",
+   "correction": "Aristotle held the mother contributed only matter (menstrual blood)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-science--the-seven-earths-65-12",
+   "snippet": "Al-Bayhaqi graded the Ibn Abbas report's chain sound, while some scholars considered its content unusual.",
+   "status": "misleading",
+   "problem": "Bayhaqi (Asma wa al-Sifat) said the chain is sound but the text is shadh, not supported by anything else; Ibn Kathir considered it likely from Isra'iliyyat. So the critics include al-Bayhaqi himself.",
+   "correction": "Al-Bayhaqi said the chain is sound but the text is unsupported (shadh), and Ibn Kathir thought it may be from Isra'iliyyat",
+   "sources": [
+    "https://hadithanswers.com/seven-earths-and-seven-nabis/"
+   ]
+  },
+  {
+   "arg_id": "s-science--the-seven-earths-65-12",
+   "snippet": "Qatada said there are creatures and commands in every earth.",
+   "status": "unverifiable",
+   "problem": "Could not confirm this report in primary tafsir sources.",
+   "correction": "Qatada said there are creatures in every earth (verify in al-Tabari)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-agnosticism--answering-the-agnostic-s-favourite-objections",
+   "snippet": "the major religions largely agree on a Creator",
+   "status": "misleading",
+   "problem": "Buddhism and Jainism (major religions) reject a creator god, and many Hindu schools differ.",
+   "correction": "the major theistic religions largely agree on a Creator",
+   "sources": []
+  },
+  {
+   "arg_id": "s-agnosticism--why-the-first-cause-must-be-one",
+   "snippet": "Avicenna's \"proof of the truthful\" ( burhan al-siddiqin ) and later Thomist arguments (Feser, Five Proofs ) show that",
+   "status": "misleading",
+   "problem": "'Show' states as settled; these are contested arguments. Avicenna's proof (Isharat) is real and Feser's Five Proofs (2017) is real.",
+   "correction": "are used to argue that",
+   "sources": []
+  }
+ ]
+}

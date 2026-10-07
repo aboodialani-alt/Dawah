@@ -1,0 +1,73 @@
+{
+  "id": "s-grammar",
+  "title": "Grammar, scribal errors and abrogation",
+  "intro": "Two textual charges come up constantly after the manuscript questions: that the Quran contains grammatical mistakes and scribal slips, and that abrogation shows God changing His mind. Both can be answered from the sources, and in both cases the right approach is to say what the verse says, what the grammarians and commentators said about it from the beginning, and what the critic’s standard assumes. Do not claim that nobody ever reported a scribal error. Say that the reports are weak or were understood as describing permitted variation, and show why.",
+  "args": [
+    {
+      "title": "“Grammatical errors” (20:63, 4:162, 5:69) and the reports of scribal mistakes",
+      "thesis": "The verses cited as grammatical errors have established explanations from the earliest grammarians and readers, and the reports that Aisha or Uthman acknowledged scribal mistakes are weak or were read by the scholars as describing dialect and permitted variation.",
+      "premises": [
+        "The rules of Arabic grammar were systematised after the Quran and were drawn in part from it and from the speech of the Arabs.",
+        "Each verse the critic cites has a recognised explanation in dialect, in rhetorical construction or in an alternative canonical reading.",
+        "The reports of scribal errors have weak chains or were interpreted by the scholars as referring to something else."
+      ],
+      "conclusion": "The “errors” are features the early grammarians already knew and explained, and the reports of scribal mistakes do not establish an error in the text.",
+      "evidence": [
+        "<strong>20:63.</strong> “Inna hadhani lasahirani” has the dual noun in the nominative where standard grammar would expect the accusative. Hafs and Ibn Kathir read it as <em>in hadhani</em> with a light <em>in</em> (“these two are sorcerers”), which is regular. Abu ‘Amr reads <em>inna hadhayni</em>, also regular. For the majority reading, the grammarians cite the dialect of Kinana and the Harith ibn Ka‘b tribe, which keeps the dual in <em>-ani</em> in all cases.",
+        "<strong>4:162.</strong> “<em>wa al-muqimina al-salata</em>” has the accusative where the nominative is expected. Sibawayh explained it as an accusative of praise, in which the speaker breaks the construction to emphasise a group (“I single out the establishers of prayer”). This construction is well attested in Arabic.",
+        "<strong>5:69.</strong> “<em>wa al-sabi’un</em>” in the nominative. Sibawayh and later grammarians explained this as a postponed subject (<em>ta’khir</em>) whose predicate is understood earlier in the sentence.",
+        "<strong>The order of discovery.</strong> The early grammarians (Abu al-Aswad al-Du’ali, then Sibawayh in the later eighth century) collected their rules from the Quran, poetry and the Bedouin, so where the Quran departed from a later rule, the rule was adjusted to the Quran and not the reverse.",
+        "<strong>The reports.</strong> Reports attributed to Aisha, Uthman and Ibn Abbas that scribes made a <em>lahn</em> (“mistake”) in these verses are collected in Ibn Abi Dawud’s <em>al-Masahif</em>. Their chains are broken or disputed, and al-Suyuti and Ibn Hajar understood <em>lahn</em> here as meaning dialect, style or a permitted variant, not an error. Compare the transmission by mass-reciters in Section A."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“Even the reports admit the scribes made mistakes.”", "a": "The reports are weak by their chains, and the most natural reading of <em>lahn</em> in early usage is dialect or style. They are also at odds with the claim attributed to the same figures that the text was recited by many Companions, who would have corrected an error. Nothing in the manuscripts shows these words differently."},
+        {"q": "“If the Quran is perfect Arabic, why do its words break the rules?”", "a": "It does not break rules, it breaks the later simplified rule the critic is applying. Arabic had dialects and rhetorical constructions, and the grammarians who built the rules treated the Quran as a primary authority on correct usage."}
+      ],
+      "practice": {
+        "q": "The Quran says ‘inna hadhani lasahirani’, which is bad grammar. Even Aisha said the scribes made a mistake.",
+        "a": "Hafs reads it as ‘in hadhani’ with a light ‘in’, which is regular, and Abu ‘Amr reads ‘inna hadhayni’; the majority reading follows the dialect of Kinana. Sibawayh, who wrote the first grammar of Arabic, explained the other cases in 4:162 and 5:69 as well-known constructions. The report about Aisha has a disputed chain, and al-Suyuti and Ibn Hajar read ‘lahn’ as dialect, not error. Grammar was written after the Quran and took the Quran as evidence."
+      },
+      "summary": "The cited “errors” have established explanations in dialect, rhetorical constructions and alternative readings, and the reports of scribal mistakes are weak or describe permitted variation."
+    },
+    {
+      "title": "Abrogation (naskh) is not God changing His mind",
+      "thesis": "The Quran says that God replaces some rulings with better or equal ones (2:106). Abrogation is a feature of progressive revelation, it covers a small and carefully studied set of cases, and it appears in the Bible too. It does not imply that God learned something new.",
+      "premises": [
+        "A change of ruling does not mean a change of knowledge, since a wise lawgiver can know in advance that a rule is temporary.",
+        "The Quran announces abrogation and the early community practised it, in a limited and documented set of cases.",
+        "Earlier revelation also replaced rulings, and the New Testament says so."
+      ],
+      "conclusion": "Naskh is graded revelation fitted to the stage of a community, announced in the text, limited in scope and no more a sign of ignorance than the replacement of the Mosaic law in the Gospels.",
+      "evidence": [
+        "<strong>The text.</strong> “We do not abrogate a verse or cause it to be forgotten except that We bring one better than it or similar to it. Do you not know that Allah is over all things competent?” (2:106). Also 16:101 and 13:39.",
+        "<strong>Clear examples.</strong> Wine was restricted in stages (2:219; 4:43; 5:90-91). The qibla changed from Jerusalem to the Ka‘ba (2:142-150). The widow’s waiting period of a year (2:240) was replaced by four months and ten days (2:234). The requirement to give charity before consulting the Prophet ﷺ (58:12) was lifted in the next verse (58:13).",
+        "<strong>The scope.</strong> The scholars differ on how many verses are abrogated. Al-Suyuti accepted about twenty, and Shah Waliullah al-Dihlawi reduced the number to five. Abu Muslim al-Isfahani went further and denied abrogation of Quranic verses by other verses. The disagreement shows that this is a controlled technical discipline, not an open licence.",
+        "<strong>It is also biblical.</strong> Jesus says “You have heard it said… but I say to you” on retaliation and oaths (Matthew 5:21-22, 38-39), Mark 7:19 declares all foods clean, Acts 10 ends the food laws, and Hebrews 8:13 says that by calling a covenant new, God “has made the first one obsolete”.",
+        "<strong>The analogy.</strong> A physician who changes the prescription as the patient improves does not show he was wrong at first, since the treatment suited the stage."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“A perfect God would not need to revise.”", "a": "Revising a rule does not mean the lawgiver did not know. Any wise teacher who gives a student a graded course knows from the start that the early steps will be replaced. 2:106 itself says God knows and has power over all things. The Gospels make the same move when they replace Mosaic rulings, and the objection would apply to them as well."},
+        {"q": "“Naskh was invented by jurists to cover contradictions.”", "a": "The principle is announced in the Quran (2:106; 16:101) and the cases of wine, the qibla and the waiting period are clear in the text and the early sources. The jurists’ own long disputes over how many cases exist show a discipline that was restricted, not invented to hide contradictions."}
+      ],
+      "practice": {
+        "q": "Allah changes His mind in the Quran, so He cannot be all-knowing.",
+        "a": "A change in ruling is not a change in knowledge. The Quran announces the principle (2:106) and the clear cases are gradual: wine in three stages, the qibla, the widow’s waiting period. Scholars disagree on how many verses are abrogated, from about twenty to five, so it is a limited, studied discipline. The Gospels do the same: ‘You have heard it said… but I say to you’ (Matthew 5), all foods clean (Mark 7:19), the first covenant made obsolete (Hebrews 8:13). If that shows ignorance in God, it would show it in the Bible too."
+      },
+      "summary": "Abrogation is graded revelation announced in 2:106, limited to a studied set of cases (twenty by al-Suyuti, five by Shah Waliullah), and mirrored in the Gospels and Hebrews. It is not a change of divine knowledge."
+    }
+  ],
+  "cards": [
+    ["How do Hafs and Ibn Kathir read 20:63?", "“In hadhani” with a light in"],
+    ["Which tribe’s dialect keeps the dual in -ani in all cases?", "Kinana and the Harith ibn Ka‘b (as cited by the grammarians)"],
+    ["Who explained 4:162 as an accusative of praise?", "Sibawayh"],
+    ["Which book collects reports of “lahn” in the codices?", "Ibn Abi Dawud’s al-Masahif"],
+    ["What did al-Suyuti and Ibn Hajar take “lahn” to mean?", "Dialect, style or a permitted variant, not an error"],
+    ["Which verse announces abrogation?", "2:106 (also 16:101)"],
+    ["Give three clear cases of abrogation.", "Wine in stages, the change of qibla, the widow’s waiting period"],
+    ["How many abrogated verses did al-Suyuti accept?", "About twenty (Shah Waliullah: five)"],
+    ["Which scholar denied Quranic verse-by-verse abrogation?", "Abu Muslim al-Isfahani"],
+    ["Which New Testament verse calls the first covenant obsolete?", "Hebrews 8:13"]
+  ]
+}

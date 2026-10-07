@@ -1,0 +1,132 @@
+{
+  "id": "s-lgbt",
+  "title": "Sexuality, gender identity and LGBT questions",
+  "intro": "This is where most debates now turn hostile, so precision matters more than anywhere else. Islam’s position is a position on acts, it applies to everyone who feels desire outside marriage, and it is held by all four Sunni schools and the Shia schools alike. State it plainly. Do not retreat into vagueness, and do not claim more than the sources say. Two things keep the conversation honest: the difference between a desire and an act, and the difference between what a Muslim believes and what a state may enforce. The Quran’s own words on Lot’s people are the strongest ground you have, so learn them well. Never use dehumanising language, never justify vigilantism, and remember that you are speaking to a person.",
+  "args": [
+    {
+      "title": "What Islam says, and what it does not",
+      "thesis": "Islam prohibits same-sex sexual acts, as Judaism and Christianity historically did, and judges them as acts, not as an identity. The same limit on sexual conduct binds every person, including heterosexuals outside marriage.",
+      "premises": [
+        "Muslims believe God’s guidance includes limits on sexual conduct, and that these limits apply to all people alike.",
+        "The limit is placed on acts (zina and the act of the people of Lot are both prohibited), not on having an inclination, and heterosexual desire outside marriage is bounded in the same way.",
+        "Islamic law forbids spying on private conduct and sets very high evidentiary bars, so it gives no licence to hunt people down."
+      ],
+      "conclusion": "Islam’s position is a universal rule on acts. It is not a verdict that anyone is less than human, and it gives no warrant for harassment or violence.",
+      "evidence": [
+        "<strong>The Quran.</strong> “Indeed you approach men with desire instead of women. Rather, you are a transgressing people” (7:81). See also 26:165-166, 27:54-55 and 29:28-29.",
+        "<strong>The consensus.</strong> The four Sunni schools and the Shia jurists agree the act is forbidden. They differ on penalties: some treat it as a fixed punishment, Abu Hanifa as a discretionary matter (ta‘zir). The report that prescribes death (Abu Dawud 4462) is disputed in grading, so do not build your case on it; the prohibition rests on the Quran and the consensus.",
+        "<strong>Same standard as zina.</strong> The same sexual ethic forbids sex outside marriage between a man and a woman, and zina carries a more clearly stated penalty in the Quran (24:2). The rule is about the act and not about the person’s orientation.",
+        "<strong>No spying, high proof.</strong> “Do not spy on one another” (49:12). A hadd offence needs a confession or four eyewitnesses to the act itself (24:4, 24:13 for zina), and the Prophet ﷺ urged concealing others’ sins (Bukhari 2442). In practice, private conduct was almost never prosecuted.",
+        "<strong>Vigilantism is forbidden.</strong> Only a court may impose a fixed penalty, and a private person who attacks another commits a grave wrong (5:32)."
+      ],
+      "arabic": [
+        {"text": "إِنَّكُمْ لَتَأْتُونَ الرِّجَالَ شَهْوَةً مِّن دُونِ النِّسَاءِ ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ", "cite": "7:81"}
+      ],
+      "objections": [
+        {"q": "“So you think gay people are evil.”", "a": "No. Islam does not call a person evil for feeling an attraction; it asks every believer to refrain from certain acts, the unmarried heterosexual included. People are judged on their conduct and their effort, and God alone knows the heart. Mocking, shaming or harming anyone is itself forbidden."},
+        {"q": "“Your position leads to violence against gay people.”", "a": "Violence by individuals is forbidden in Islamic law, and no jurist allows a private person to punish. Where violence occurs it is a crime, as when any group is attacked. A moral belief that a practice is wrong is not an incitement to attack people, and neither is believing that adultery is wrong."},
+        {"q": "“A Muslim minority in the West should therefore want such acts banned.”", "a": "Muslims living in a non-Muslim country are bound by their agreements with their society and have no duty to impose their ethics by force. They can hold a belief and argue for it by persuasion while obeying the law of the land."}
+      ],
+      "practice": {
+        "q": "Do you really believe that being gay is a sin?",
+        "a": "I believe Islam forbids same-sex sexual acts, as it forbids all sex outside marriage, and as Judaism and Christianity historically did. It does not say that a person is sinful for an attraction. The rule is about conduct and it applies to everyone. Nobody has the right to harass or harm anyone over it, and Islamic law forbids spying on people’s private lives."
+      },
+      "summary": "Islam forbids same-sex acts as it forbids all sex outside marriage, judges acts and not persons, forbids spying, vigilantism and harassment, and demands very high proof for any legal penalty."
+    },
+    {
+      "title": "“Born this way” does not settle the moral question",
+      "thesis": "Even if sexual orientation is partly innate, it does not follow that acting on it is permissible. People accept that inclinations they did not choose still may need restraint, and Islam treats such inclinations as a test, not as a verdict.",
+      "premises": [
+        "From the claim that a trait is natural or innate it does not follow that acting on it is right (the is-ought gap).",
+        "Many predispositions that people did not choose, such as aggression, addiction proneness or attraction outside a committed relationship, are rightly restrained.",
+        "Islam teaches that God tests people through desires and hardships and does not burden anyone beyond capacity (2:286)."
+      ],
+      "conclusion": "“Born this way” cannot settle whether an act is permitted. What settles it is what God has permitted, and Islam answers that with a rule for acts and a promise of reward for the restraint it asks.",
+      "evidence": [
+        "<strong>The is-ought gap.</strong> David Hume’s point that moral conclusions do not follow from facts alone is accepted across moral philosophy. Natural does not equal good, and the reverse also fails.",
+        "<strong>The science is not what the slogan claims.</strong> A large 2019 genome-wide study of nearly half a million people (Ganna et al., <em>Science</em>) found no single “gay gene”, with common genetic variants together accounting for roughly 8 to 25 percent of the variation in same-sex behaviour. A review by Bailey and colleagues (<em>Psychological Science in the Public Interest</em>, 2016) concluded that orientation is shaped by several factors, none individually decisive.",
+        "<strong>Islam’s framework.</strong> “He who created death and life to test you as to which of you is best in deed” (67:2). “Hell is surrounded by desires and Paradise is surrounded by hardships” (Muslim 2822). “Allah does not burden a soul beyond its capacity” (2:286).",
+        "<strong>The unmarried.</strong> Islam asks every unmarried person to restrain sexual desire. The Prophet ﷺ told young men who could not marry to fast (Bukhari 5066), and the Quran praises Yahya (John) as <em>hasur</em>, one who restrained himself (3:39).",
+        "<strong>Complementarity.</strong> The Quran presents the male-female pairing as part of creation: “And of everything We created two mates” (51:49), and marriage as a source of tranquillity (30:21)."
+      ],
+      "arabic": [
+        {"text": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا", "cite": "2:286"}
+      ],
+      "objections": [
+        {"q": "“If God made them this way, why would He forbid it?”", "a": "The same question applies to anyone with a strong desire they are asked to restrain, whether it is for sex outside marriage, for revenge or for another person’s property. The Islamic answer is that life is a test, that restraint is rewarded, and that God does not impose what a person cannot bear (2:286)."},
+        {"q": "“That is cruel. It asks people to be alone.”", "a": "Islam asks all unmarried people to refrain until marriage, and for some of them that lasts a lifetime. It values celibacy, forbids shaming those who struggle, and places a heavy duty on the community to support them. The difficulty of a rule is a reason for compassion in applying it, not proof that it is false."}
+      ],
+      "practice": {
+        "q": "People do not choose their orientation, so condemning acting on it is bigotry.",
+        "a": "Whether it is chosen is one question and whether it is right to act on it is another. Plenty of things people did not choose, like a quick temper or a desire for many partners, are still things we ask them to restrain. The research shows influences and not a single cause, and it cannot tell us what is permitted. Islam’s answer is that God tests us with desires and does not burden anyone beyond capacity, and that applies to every Muslim, whatever their desire."
+      },
+      "summary": "Innate does not mean permitted: the is-ought gap applies, the science shows influences and no single cause, and Islam treats inclinations as a test that every believer faces and that God does not make unbearable."
+    },
+    {
+      "title": "The revisionist reading of Lot’s people",
+      "thesis": "Some claim the story of Lot is about rape or inhospitality and not about same-sex relations. The Quran’s own wording rules that out, and every major classical commentary reads it the same way.",
+      "premises": [
+        "If the sin were only violence or inhospitality, the rebuke would be about violence or inhospitality.",
+        "The Quran’s rebuke names the act itself: approaching men “with desire instead of women” (7:81) and leaving “what your Lord has created for you of your wives” (26:165-166).",
+        "A reading that has to ignore these phrases is reading the present into the text."
+      ],
+      "conclusion": "The text identifies same-sex relations as the offence, together with other crimes of the people, and the revisionist reading does not survive the wording.",
+      "evidence": [
+        "<strong>The wording.</strong> “Do you approach males among the worlds and leave what your Lord has created for you of your wives? Rather, you are a people transgressing” (26:165-166). “You approach men with desire instead of women” (7:81). The Quran calls it <em>fahisha</em>, “an immorality no one in the worlds preceded you in” (7:80).",
+        "<strong>The revisionist point.</strong> 29:29 adds that they “cut the road” and commit “evil in your gatherings”, and revisionists argue that the real crime was highway robbery and assault. But the verse begins with the act (“Do you approach men…?”) and lists other crimes in addition to it, so the act is not erased.",
+        "<strong>Lot’s offer.</strong> “These are my daughters; they are purer for you” (11:78; 15:71). The commentators (Tabari, Ibn Kathir) read this as an appeal to lawful marriage, which makes sense only if the issue is the kind of relation sought, not rape of anyone.",
+        "<strong>Across scripture.</strong> The same story and the same prohibition appear in Genesis 19, Leviticus 18:22 and 20:13 and Jude 7. Muslims, Jews and Christians read these as condemning the act for most of their history.",
+        "<strong>The revisionists.</strong> The best-known contemporary argument is Scott Siraj al-Haqq Kugle’s <em>Homosexuality in Islam</em> (2010). It starts from modern values and re-reads the text to fit them, and mainstream scholars in every school reject it because it must set aside the explicit wording."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“The Quran never mentions lesbians or consensual same-sex love.”", "a": "The Quran’s statements on this are addressed to the act in general terms, and the jurists derived the prohibition from them and from the Prophetic rulings on sexual conduct. The absence of a modern category in a seventh-century text is not an absence of a ruling on the act."},
+        {"q": "“Kugle is a scholar and you are not.”", "a": "He is entitled to his views, but the Quranic text he is reinterpreting can be read by anyone who reads Arabic, and the phrase “instead of women” cannot be explained as a reference to rape. A scholar’s argument must be judged on whether it fits the evidence, and this one does not."}
+      ],
+      "practice": {
+        "q": "Lot’s people were destroyed for rape and inhospitality, not for being gay.",
+        "a": "Read what God says to them: “You approach men with desire instead of women” (7:81) and “Do you approach males and leave what your Lord created for you of your wives?” (26:165-166). That names the act itself. 29:29 lists other crimes as well, but it does not erase the first. If the sin were only rape, God’s rebuke would have no reason to compare men with wives. Tabari, Qurtubi and Ibn Kathir all read it this way, and so did Jews and Christians reading the same story."
+      },
+      "summary": "The Quran names the act (7:81, 26:165-166), the other crimes in 29:29 are additional and not a replacement, and every major commentary reads the story the same way."
+    },
+    {
+      "title": "Sex, gender and the categories Islamic law uses",
+      "thesis": "Islamic law treats male and female as real and meaningful categories, recognises the rare intersex condition (khuntha) with detailed rulings, and forbids imitation of the other sex. A person’s felt identity is not treated as changing their legal sex, though scholars differ on some medical questions.",
+      "premises": [
+        "Law needs categories, and Islamic law has long had a category for the exceptional case of ambiguous sex.",
+        "The existence of a recognised exception (khuntha) presupposes, and does not erase, the normal male-female binary.",
+        "The Prophet ﷺ cursed men who imitate women and women who imitate men."
+      ],
+      "conclusion": "Islam’s framework is a binary with a defined exception for intersex people, and it rejects the idea that gender is self-defined. Contemporary rulings on surgery differ and should be stated as differing, not as a single position.",
+      "evidence": [
+        "<strong>The categories.</strong> “He created the two mates, the male and the female” (53:45). Classical fiqh devotes chapters to the <em>khuntha</em>, the person of ambiguous sex, with rulings on prayer rows, inheritance and marriage, and the jurists assign the person to a sex by physical signs wherever these exist, which presupposes the two categories.",
+        "<strong>The hadith.</strong> “The Messenger of Allah ﷺ cursed men who imitate women and women who imitate men” (Bukhari 5885, from Ibn Abbas).",
+        "<strong>The mukhannathun.</strong> The Prophet ﷺ ordered men who deliberately imitated women to be kept out of women’s quarters (Bukhari 5235), which shows he drew a line between sex and social role.",
+        "<strong>Medical rulings differ.</strong> Contemporary scholars generally allow surgery to correct a physical ambiguity in intersex people. Rulings on sex reassignment for people without a physical ambiguity differ: many bodies, including councils of fiqh scholars, forbid it, while a few authorities (for example, a 1980s ruling associated with Ayatollah Khomeini in Iran) permitted it in some cases.",
+        "<strong>Pastoral note.</strong> Islamic law protects the dignity of all people, forbids insults, and requires equal justice in courts, whatever a person’s status."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“Intersex people prove sex is not binary.”", "a": "Intersex conditions are rare variations in development, and classical Islamic law, like modern medicine, treats them as exceptions needing their own rulings. A rare exception does not turn a binary into a spectrum, just as the existence of people born with six fingers does not mean humans have a variable number of fingers."},
+        {"q": "“Different Muslim scholars disagree about transition, so Islam has no position.”", "a": "They disagree on the medical question of surgery, but they do not disagree that God created male and female and that men and women should not imitate each other’s sex. Distinguish a disagreement on details from the absence of any position."}
+      ],
+      "practice": {
+        "q": "Gender is an identity, not biology. Who are you to say what anyone is?",
+        "a": "Islamic law works with male and female as real categories, and has always had a special rule for the rare intersex person, which only makes sense if the two categories are real. Muslims believe that is how God created humanity (53:45). That does not mean anyone may mock or mistreat another person. Muslim scholars differ on questions of surgery, and I would tell you that honestly, but none of them says identity alone changes someone’s legal sex."
+      },
+      "summary": "Islamic law recognises male, female and the rare intersex exception, forbids imitation of the other sex (Bukhari 5885), and does not treat self-defined identity as changing legal sex; rulings on surgery differ."
+    }
+  ],
+  "cards": [
+    ["Which verse says “you approach men with desire instead of women”?", "7:81"],
+    ["Which verse rebukes leaving “what your Lord created for you of your wives”?", "26:165-166"],
+    ["Which verse forbids spying?", "49:12"],
+    ["What did Ganna et al. (Science, 2019) find?", "No single gay gene; common variants explain roughly 8 to 25 percent of the variation"],
+    ["What is the is-ought gap?", "A fact about what is natural does not by itself tell you what is right"],
+    ["Which hadith says Paradise is surrounded by hardships?", "Muslim 2822"],
+    ["Who does the Quran praise as hasur, one who restrained himself?", "Yahya (John), 3:39"],
+    ["Which hadith curses men imitating women and women imitating men?", "Bukhari 5885"],
+    ["What is a khuntha?", "A person of ambiguous sex, with specific rulings in fiqh"],
+    ["Why can the Lot story not be reduced to rape?", "The text names approaching men “instead of women” (7:81, 26:165-166) and 29:29 adds other crimes without removing this one"]
+  ]
+}

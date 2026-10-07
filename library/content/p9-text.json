@@ -1,0 +1,128 @@
+{
+  "id": "s-text",
+  "title": "Manuscripts and the history of the text",
+  "intro": "The attack on the text now comes in an academic form: the readings (qira’at), the Sana’a palimpsest, radiocarbon dates and the claim that the standard text is a later construction. Part I already answers the basic charge that the readings are copying errors (<a href=\"p1.html#s-quran\">Preservation of the Quran</a>) and gives the scholars’ concessions. This section adds the pieces that come up next: what the technical terms actually mean, what the Sana’a palimpsest shows and does not show, what the radiocarbon dates can and cannot prove, and what Uthman’s standardisation did. Be exact about the evidence and do not claim more than it shows. The strongest position is that the manuscripts confirm the Islamic account, including its admission that variant Companion codices existed.",
+  "args": [
+    {
+      "title": "Seven ahruf, seven readings, ten readings: three different things",
+      "thesis": "Critics often run together three different terms: the seven ahruf of the hadith, the seven or ten canonical readings (qira’at), and the Uthmanic text itself. Keeping them apart removes most of the force of the “seven versions of the Quran” charge.",
+      "premises": [
+        "An argument built on a confusion of terms fails once the terms are separated.",
+        "The seven ahruf are a Prophetic permission for variation in recitation, the qira’at are the later systematised readings that survive within the Uthmanic outline, and the Uthmanic text is the written standard.",
+        "The ten canonical readings are variations on one text and one set of consonants, and the Quran has not been transmitted as ten different books."
+      ],
+      "conclusion": "There is one Quran written in one consonantal outline, with a bounded set of authorised variations in recitation, and the claim of seven or ten Qurans comes from conflating terms.",
+      "evidence": [
+        "<strong>The ahruf.</strong> “The Quran was revealed in seven ahruf, so recite whichever is easy for you” (Bukhari 2419, 4992; Muslim 818). The word <em>harf</em> means “mode” or “manner”. Scholars have proposed many meanings (dialects, synonyms, types of variation), and a classical view held that the permission narrowed after Uthman’s standardisation.",
+        "<strong>The readings.</strong> Ibn Mujahid (d. 324 AH/936 CE) selected seven leading readers of the early centuries, and later Ibn al-Jazari (d. 833 AH/1429 CE) set out ten, with three conditions: an authentic chain back to the Prophet ﷺ, conformity with Arabic, and agreement with one of the Uthmanic copies. A reading that fails any of the three is not canonical.",
+        "<strong>The text.</strong> All ten readings share the same Uthmanic consonantal outline and differ mainly in vowels, in whether a letter is pointed one way or another, and in a limited number of word forms.",
+        "<strong>Not seven books.</strong> The hadith of Bukhari 2419 shows the Prophet ﷺ affirming two recitations of one surah as both revealed. It does not describe seven different Qurans.",
+        "<strong>Comparison.</strong> The New Testament exists in more than five thousand Greek manuscripts whose variants are counted in the hundreds of thousands (estimates differ), with several passages disputed even by conservative editors. The variants of the Quran are a fixed, listed set transmitted by named readers."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“Uthman burned six of the seven ahruf and kept one.”", "a": "That was the view of al-Tabari and some others. Many scholars, such as Ibn al-Jazari, hold instead that the Uthmanic outline preserves the readings confirmed in the Prophet’s ﷺ final recitation of the Quran to Gabriel (the ‘ardah al-akhira), which is why more than one reading fits it. Scholars differ on this point, so present it as a scholarly debate and not as a settled fact."},
+        {"q": "“Different readings mean the text was not fixed.”", "a": "They mean the recitation was transmitted with authorised variations. The text, in the sense of its consonantal skeleton and the content, is the same. The existence of an authorised variation is a feature of the revelation as the sources describe it, not a defect in preservation."}
+      ],
+      "practice": {
+        "q": "Muslims admit there are seven versions of the Quran, so it cannot be one preserved book.",
+        "a": "Three different things are being run together. The seven ahruf are a Prophetic permission for variation in recitation. The readings are the later canonical systems, seven or ten depending on the list, each with an unbroken chain to the Prophet ﷺ and each fitting the same written outline. The written text is a single one. The differences are listed, small and transmitted by name, which is the opposite of a text drifting through copying errors."
+      },
+      "summary": "The ahruf, the qira’at and the Uthmanic text are three distinct things. The ten readings share one written outline and a listed set of authorised variants, so “seven Qurans” is a confusion of terms."
+    },
+    {
+      "title": "The Sana’a palimpsest: what it shows and what it does not",
+      "thesis": "The Sana’a palimpsest has a lower text with variants from the standard text, and it is often presented as proof that the Quran evolved. On the researchers’ own account, the lower text is overwhelmingly the same Quran, it is dated to the first generation after the Prophet ﷺ, and a codex that differs from the standard text is exactly what the Islamic account of the Companion codices predicts.",
+      "premises": [
+        "To count against preservation, a manuscript must show that the text was substantially different, or that the Islamic account of its history is false.",
+        "The lower text of the palimpsest agrees with the standard text in the great majority of its wording, and its variants resemble those the Islamic sources report for the Companions’ private codices.",
+        "The Islamic sources say that such codices existed and that Uthman standardised the text, so finding one confirms the account."
+      ],
+      "conclusion": "The palimpsest is evidence that a Companion-type codex existed in the first century, which the tradition already says. It is not evidence that the Quran was composed later or that its content was different.",
+      "evidence": [
+        "<strong>What it is.</strong> A set of parchment leaves found in the Great Mosque of Sana’a in 1972, in which an earlier Quranic text was washed off and a later Quranic text was written over it (the upper text is close to the standard Uthmanic text). The scholars Behnam Sadeghi and Mohsen Goudarzi published the lower text in 2012 (“Ṣanʿāʾ 1 and the Origins of the Qurʾān”, <em>Der Islam</em>).",
+        "<strong>Its date.</strong> Sadeghi and Uwe Bergmann’s radiocarbon dating of the parchment (<em>Arabica</em>, 2010) placed it, with 95 percent probability, roughly between 578 and 669 CE, which means the first half-century or so after the Prophet’s death.",
+        "<strong>What the lower text shows.</strong> According to Sadeghi and Goudarzi, the lower text is a non-Uthmanic codex that contains the same Quran with differences in wording and a different order of some surahs. Their own conclusion is that it is close to the codices the sources attribute to the Companions.",
+        "<strong>The Islamic account.</strong> The sources report that Ibn Mas‘ud, Ubayy and others had private codices with variant wording and a different surah order, that this alarmed Hudhayfa, and that Uthman had a standard copy written and sent to the main cities (Bukhari 4987). A palimpsest that preserves an earlier text type is what that account predicts.",
+        "<strong>Why it was erased.</strong> Scholars suggest it was washed because it no longer matched the standard text, which fits the report that non-standard copies were retired after Uthman’s standardisation."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“The variants show the Quran was changed after Muhammad.”", "a": "The variants show that one early codex differed in some wording and surah order from the standard. The sources already say that such codices existed. What the palimpsest does not show is a different message, different laws, a different narrative or a text that was composed in the next century. Even its editors describe it as the same Quran with variations."},
+        {"q": "“The material has been kept secret.”", "a": "Sadeghi and Goudarzi’s 2012 article transcribes the lower text of Sana’a 1 and reproduces images, and Asma Hilali’s <em>The Sanaa Palimpsest</em> (Oxford, 2017) studies the whole palimpsest. Early press claims about it were often exaggerated, so rely on the specialists’ published work."}
+      ],
+      "practice": {
+        "q": "The Sana’a palimpsest proves the Quran was edited after Muhammad.",
+        "a": "It proves that one early codex had some different wording and surah order, which is exactly what the Islamic sources say about the Companions’ codices and about Uthman’s standardisation (Bukhari 4987). Radiocarbon puts the parchment in the first half-century after the Prophet’s death, and the scholars who edited it describe a text that is, apart from limited variants, the same Quran. It confirms the story rather than contradicting it."
+      },
+      "summary": "The Sana’a lower text is an early Companion-type codex, dated to the first generation, overwhelmingly the same Quran with variants in wording and order, which is what the Islamic account already says existed."
+    },
+    {
+      "title": "Birmingham, Tübingen and the radiocarbon dates",
+      "thesis": "Radiocarbon dating of early Quran manuscripts places them in the lifetime of the Prophet’s Companions. The dates are ranges for the animal skin, not for the writing, so they should be presented carefully, and critics who claim a date before Muhammad are reading the range wrongly.",
+      "premises": [
+        "A radiocarbon date gives a range for when the animal died, and the writing is the same age or later.",
+        "The best-known dated manuscripts fall in ranges that overlap the first decades of Islam.",
+        "A range whose lower edge touches the Prophet’s birth does not show the text existed before him."
+      ],
+      "conclusion": "The early manuscripts show a Quran in written circulation within the first generation, consistent with the Islamic account, and the arguments for a pre-Muhammad or much later text both misread the evidence.",
+      "evidence": [
+        "<strong>Birmingham (Mingana 1572a with Paris BnF Arabe 328c).</strong> Two leaves with parts of Surahs 18-20 in Hijazi script. The Oxford Radiocarbon Accelerator Unit dated the parchment in 2015 to 568-645 CE with 95.4 percent probability. The Prophet ﷺ was born around 570 and died in 632.",
+        "<strong>Tübingen (Ma VI 165).</strong> A manuscript that covers 17:36 to 36:57, dated by radiocarbon (2014) to 649-675 CE with 95.4 percent probability.",
+        "<strong>Others.</strong> The Sana’a leaves (see the previous argument), and manuscripts such as Paris BnF Arabe 328a and British Library Or. 2165, belong to the same early Hijazi tradition and are dated by palaeography to the first and early second centuries of Islam.",
+        "<strong>The comparison.</strong> The oldest New Testament fragment (P52, a few verses of John) is dated by palaeography to the second century CE, and the oldest complete New Testament manuscripts are from the fourth century. The Quran has substantial parts in manuscripts within a century at most of its revelation, and the oral chain was running from the beginning.",
+        "<strong>The caution.</strong> The date refers to the skin. The parchment can be older than the ink by years or decades, or reused. State the ranges as they are and avoid saying that “the manuscript is from the Prophet’s time”."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“568 is before Muhammad was born, so the Quran predates him.”", "a": "The range is for the death of the animal, which is the earliest the writing could be, and the probability is not spread evenly across it. A parchment is normally written on within years or decades of preparation. A range that reaches back to 568 and forward to 645 includes the whole lifetime of the Prophet ﷺ and the early caliphate, and Surahs 18-20 are Meccan, revealed from the early years of his mission."},
+        {"q": "“Scholars like Alba Fedeli say the Birmingham leaves are a palimpsest, so they were rewritten.”", "a": "Fedeli’s proposal about a possible earlier layer is debated. In any case a palimpsest shows that parchment was reused, which would make the writing later than the skin, still within the early period and still the same Quranic text. The dating tells us the text in those surahs was in circulation very early."}
+      ],
+      "practice": {
+        "q": "Radiocarbon dates show the Quran existed before Muhammad was born.",
+        "a": "They give a range for when the animal died, and the writing is the same age or later. The Birmingham range is 568-645 CE, and it starts two years before the Prophet’s birth and includes his entire life and the caliphate of Abu Bakr and Umar. The probability is not flat across the range, and the Hijazi script and the Meccan surahs on the leaves fit the first generation. Tübingen is 649-675, and Sana’a around 578-669. All point to a written Quran inside the lifetimes of the Companions."
+      },
+      "summary": "Birmingham (568-645), Tübingen (649-675) and Sana’a (about 578-669) put written Quranic text within the Companions’ lifetimes. The dates are for the skin, and claims of a pre-Muhammad text misread the range."
+    },
+    {
+      "title": "Uthman’s standardisation: what it did and did not do",
+      "thesis": "The Islamic sources describe the Uthmanic recension as a public, consultative standardisation of a text that already existed in written and memorised form, accepted by the Companions. It neither created the Quran nor silenced all other readings.",
+      "premises": [
+        "A standardisation presupposes an existing text and shows an effort to keep it intact.",
+        "The sources state who did it, why, how, and that the leading Companions agreed.",
+        "The readings of the Companions whose codices were retired survive in the canonical tradition."
+      ],
+      "conclusion": "Uthman’s action is evidence of how seriously the early community guarded the text, and the charge of suppression is not supported by the sources or by the survival of the readings.",
+      "evidence": [
+        "<strong>The first collection.</strong> After the Battle of Yamama, Abu Bakr asked Zayd ibn Thabit, a scribe of the Prophet ﷺ who had memorised the Quran, to collect the text, which he did from writings and from memories (Bukhari 4986-4987). The sheets passed to Umar and then to Hafsa.",
+        "<strong>The second step.</strong> Hudhayfa ibn al-Yaman saw people differing in recitation on the campaign in Armenia and Azerbaijan and urged Uthman to act. Uthman asked Hafsa for the sheets and appointed Zayd, Abdullah ibn al-Zubayr, Sa‘id ibn al-As and ‘Abd al-Rahman ibn al-Harith, telling them that where they differed they should write in the dialect of Quraysh, in which it was revealed (Bukhari 4987).",
+        "<strong>Distribution.</strong> Copies were sent to the main centres such as Kufa, Basra and Damascus, one was kept in Medina, and other copies and sheets were retired (Bukhari 4987).",
+        "<strong>Consent.</strong> Ali is reported to have said that Uthman acted on the Mushaf with the agreement of the Companions (Ibn Abi Dawud, <em>al-Masahif</em>).",
+        "<strong>The other readings survive.</strong> The reading of ‘Asim, which gives us the Hafs text most Muslims recite today, passes through readers who learned from Ibn Mas‘ud and Ali, so the supposedly suppressed Kufan tradition is part of the canon.",
+        "<strong>Compare.</strong> The Church’s canon was shaped over centuries by councils and regional practice, and no single recension ever fixed the New Testament text."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“Ibn Mas‘ud was angry about the burning of his codex.”", "a": "The sources do report his objection, and a debater should say so. They also report that the Companions as a body supported the decision, that Ibn Mas‘ud’s readings were taught through Kufa and survive in the reading of ‘Asim, and that no early Muslim community produced a rival text of the Quran. A disagreement about method, voiced and recorded, is not evidence of a corrupted text."},
+        {"q": "“Burning copies is destroying evidence.”", "a": "The aim was to stop a dispute over recitation in the army. It was done in public with the main Companions present, and the content of the retired codices is known from the reports, which still circulate. Compare Part I on the “missing verses” reports."}
+      ],
+      "practice": {
+        "q": "Uthman burned every copy that disagreed with him, so the Quran is just his version.",
+        "a": "The sources say that Uthman used a text collected under Abu Bakr from the Prophet’s scribes and from memorisers, that he did it in public with a committee headed by Zayd, and that the Companions agreed. The disputed readings were retired, but the reading of Ibn Mas‘ud and Ali survives through ‘Asim, so nothing important was lost. And the oldest manuscripts we have match this text, with only the limited variants the sources themselves describe."
+      },
+      "summary": "Uthman’s standardisation was a public, consultative step based on an existing text, accepted by the Companions, and the readings of those whose codices were retired survive in the canon."
+    }
+  ],
+  "cards": [
+    ["What does “harf” mean in the hadith of seven ahruf?", "A mode or manner of recitation; scholars proposed many meanings"],
+    ["Which hadith records Umar and Hisham reciting Surat al-Furqan differently?", "Bukhari 2419"],
+    ["Who set out the three conditions for a canonical reading?", "Ibn al-Jazari (authentic chain, Arabic grammar, agreement with an Uthmanic copy)"],
+    ["Who selected the seven readers?", "Ibn Mujahid (d. 324 AH)"],
+    ["Where was the Sana’a palimpsest found?", "In the Great Mosque of Sana’a, 1972"],
+    ["Who published the lower text of Sana’a 1 in 2012?", "Behnam Sadeghi and Mohsen Goudarzi"],
+    ["What is the radiocarbon range of the Birmingham leaves?", "568-645 CE (95.4 percent), Surahs 18-20"],
+    ["What is the radiocarbon range of the Tübingen manuscript?", "649-675 CE (95.4 percent)"],
+    ["Which hadith describes Uthman’s standardisation?", "Bukhari 4987"],
+    ["Who led Uthman’s committee?", "Zayd ibn Thabit"]
+  ]
+}

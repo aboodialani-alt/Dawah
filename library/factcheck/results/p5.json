@@ -1,0 +1,858 @@
+{
+ "part": "p5",
+ "arguments_checked": 45,
+ "findings": [
+  {
+   "arg_id": "s-main--confirming-means-affirming-what-god-revealed-not",
+   "snippet": "Key Terms of the Qur'an , p. 707",
+   "status": "unverifiable",
+   "problem": "Sinai's Key Terms of the Qur'an (Princeton, 2023, about 840 pp.) is real, but the page number and the quoted phrases 'ultimate arbiter' and 'authoritative modification and rectification' could not be checked.",
+   "correction": null,
+   "sources": [
+    "https://readingreligion.org/9780691241319/key-terms-of-the-quran"
+   ]
+  },
+  {
+   "arg_id": "s-main--confirming-means-affirming-what-god-revealed-not",
+   "snippet": "as Joseph calls the idols \"lords\" when addressing his fellow prisoners (12:39)",
+   "status": "misleading",
+   "problem": "In 12:39 Joseph asks rhetorically whether 'many separate lords' are better than Allah; he does not himself call the idols lords in his own voice.",
+   "correction": "as Joseph speaks of 'many separate lords' when addressing his fellow prisoners (12:39)",
+   "sources": [
+    "https://quran.com/12:39"
+   ]
+  },
+  {
+   "arg_id": "s-main--the-quran-describes-the-earlier-scriptures-as-al",
+   "snippet": "Five kinds of tahrif in the Quran.",
+   "status": "misleading",
+   "problem": "The heading says five but six patterns are listed (concealment, tongue-twisting, writing by hand, exchanging words, moving words, and scripture made into pages in 6:91).",
+   "correction": "Six patterns of tahrif in the Quran.",
+   "sources": [
+    "https://quran.com/6:91"
+   ]
+  },
+  {
+   "arg_id": "s-main--the-quran-describes-the-earlier-scriptures-as-al",
+   "snippet": "Al-Jahiz noted that two of the four Evangelists were not disciples",
+   "status": "unverifiable",
+   "problem": "No source is given for this attribution to al-Jahiz and it could not be traced.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--the-quran-describes-the-earlier-scriptures-as-al",
+   "snippet": "Al-Qadi Isma'il ibn Ishaq explained the difference",
+   "status": "unverifiable",
+   "problem": "The attribution of the 5:44 'ustuhfizu' versus 15:9 argument to al-Qadi Isma'il could not be traced to a named work.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--the-quran-describes-the-earlier-scriptures-as-al",
+   "snippet": "The list includes Umar, Ibn Mas'ud, Ka'b, Muqatil, Tabari, Ibn Hazm, al-Juwayni, al-Razi and al-Qurtubi.",
+   "status": "unverifiable",
+   "problem": "No works are cited. Umar and Ka'b are better known for reports about consulting the People of the Book than for clear statements of textual tahrif, and the claims for al-Juwayni and Ibn Mas'ud are unsourced.",
+   "correction": "The list reportedly includes Ibn Hazm, al-Razi, al-Qurtubi and Tabari (cite the specific tafsir passages before quoting this live).",
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--the-quran-describes-the-earlier-scriptures-as-al",
+   "snippet": "A 7th-century Syriac dispute between the patriarch John of Sedra and an Arab emir (c. 644) already shows the Muslim side questioning the Gospels.",
+   "status": "misleading",
+   "problem": "The Disputation of John and the Emir is set on 9 May 644 but survives in a manuscript of 874, and when it was composed is debated. The emir does raise the integrity of the Bible, but dating it as a 644 witness is stronger than the evidence allows.",
+   "correction": "The Syriac Disputation of John and the Emir, set on 9 May 644 (preserved in an 874 manuscript; its date of composition is debated), has the emir question the integrity of the Gospel.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/John_III_of_the_Sedre",
+    "Hoyland, Seeing Islam as Others Saw It"
+   ]
+  },
+  {
+   "arg_id": "s-main--the-quran-describes-the-earlier-scriptures-as-al",
+   "snippet": "its chain includes the criticised Hisham ibn Sa'd",
+   "status": "weak_source",
+   "problem": "Albani graded Abu Dawud 4449 hasan, which an opponent will cite. The stronger points are that the wording is absent from Bukhari and Muslim and that Hisham ibn Sa'd was weakened by Ahmad, al-Nasa'i, Ibn Hibban, Abu Hatim and Ibn Hajar.",
+   "correction": "its chain includes Hisham ibn Sa'd, whom Ahmad, al-Nasa'i, Ibn Hibban and Ibn Hajar weakened (al-Albani nonetheless graded it hasan)",
+   "sources": [
+    "https://www.alim.org/hadith/sunan-of-abu-dawood/40/4449"
+   ]
+  },
+  {
+   "arg_id": "s-main--10-94-ask-those-who-read-the-book-before-you",
+   "snippet": "The grammarians Tha'lab and al-Mubarrad, and al-Qurtubi, explain",
+   "status": "unverifiable",
+   "problem": "The attribution to Tha'lab and al-Mubarrad has no cited source and could not be confirmed.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--let-the-people-of-the-gospel-judge-by-what-allah",
+   "snippet": "(al-Darimi)",
+   "status": "weak_source",
+   "problem": "The 'if Moses were alive he would have to follow me' report (Ahmad, al-Darimi, from Jabir) has a disputed chain; some graders call it hasan through supporting reports, others weaken it. It should not be presented without a grading.",
+   "correction": "(Ahmad and al-Darimi, from Jabir; the chain is disputed and some graders accept it as hasan through supporting reports)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--let-the-people-of-the-gospel-judge-by-what-allah",
+   "snippet": "The commentator Muqatil explains this as the true commands within it",
+   "status": "unverifiable",
+   "problem": "No source for this Muqatil attribution (including the 'pardon a killer' example) could be found.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--let-the-people-of-the-gospel-judge-by-what-allah",
+   "snippet": "Some form of the Christian Gospel existed (likely the Diatessaron",
+   "status": "misleading",
+   "problem": "That the Gospel known to Arabic speakers was the Diatessaron is a hypothesis, not an established finding.",
+   "correction": "Some form of the Christian Gospel existed (possibly the Diatessaron",
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--the-quran-s-torah-and-injil-are-revelations-not",
+   "snippet": "The oldest dated Arabic Gospel manuscript, Vatican Arabic 13, is from the 9th century.",
+   "status": "error",
+   "problem": "Vatican Arabic 13 is undated and assigned to the 9th century on palaeographic grounds. The oldest dated Arabic New Testament manuscript is Sinai Arabic 151 (867, Acts and Epistles), and the oldest dated Gospel manuscript is Sinai Arabic 72 (897).",
+   "correction": "Among the earliest Arabic Gospel manuscripts are Vatican Arabic 13 (undated, 9th century) and Sinai Arabic 72 (dated 897).",
+   "sources": [
+    "https://www.arabicbible.com/codex-151.html",
+    "https://app.biblia-arabica.com/bibl/THDFK36D"
+   ]
+  },
+  {
+   "arg_id": "s-main--the-quran-s-torah-and-injil-are-revelations-not",
+   "snippet": "The Bible in Translation , p. 46",
+   "status": "unverifiable",
+   "problem": "The page reference could not be checked. Metzger's The Early Versions of the New Testament (1977) is the standard source for the Arabic versions.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--the-quran-s-torah-and-injil-are-revelations-not",
+   "snippet": "notes that the Hijaz shows no evidence of a Christian presence",
+   "status": "misleading",
+   "problem": "Overbroad. Christians are attested in Najran on the Hijaz border, and Muslim sources place individuals such as Waraqa in Mecca. Shoemaker's claim is better stated as little or no evidence of an organised Christian community.",
+   "correction": "notes that the Hijaz shows little or no evidence of an organised Christian community",
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--the-quran-s-torah-and-injil-are-revelations-not",
+   "snippet": "was probably Tatian's Diatessaron (c. 170)",
+   "status": "misleading",
+   "problem": "Bukhari 3 says Waraqa wrote the Gospel in Hebrew. Linking him to the Diatessaron is a hypothesis.",
+   "correction": "may have been Tatian's Diatessaron (c. 170), though this is a hypothesis",
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--the-quran-did-not-copy-the-apocrypha",
+   "snippet": "The Qur'an in Its Context",
+   "status": "error",
+   "problem": "Reynolds' monograph is The Qur'an and Its Biblical Subtext (Routledge, 2010). The Qur'an in Its Historical Context (2008) is an edited volume. The claim that Reynolds says the Jacob details come only from later commentaries was not verified.",
+   "correction": "The Qur'an and Its Biblical Subtext",
+   "sources": [
+    "https://www.christiancentury.org/review/books/remarkable-commentary-qur-and-bible"
+   ]
+  },
+  {
+   "arg_id": "s-main--the-quran-did-not-copy-the-apocrypha",
+   "snippet": "Even the critic Sean Anthony concedes the Quran did not copy the Infancy Gospel.",
+   "status": "unverifiable",
+   "problem": "No statement by Sean Anthony to this effect could be found, so attributing a concession to him risks misrepresenting him. Give a page reference or drop the claim.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-main--the-quran-did-not-copy-the-apocrypha",
+   "snippet": "The Encyclopaedia of Islam describes Central Arabia as \"hermetically sealed\"",
+   "status": "unverifiable",
+   "problem": "The quotation and its entry could not be located.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--the-jews-say-ezra-is-the-son-of-god-9-30",
+   "snippet": "you shall be taken up from among men, and henceforth you shall live with My Son",
+   "status": "misleading",
+   "problem": "4 Ezra 14:9 does speak of Ezra living with God's Son, but in 4 Ezra the Son is the Messiah (7:28; 13). It shows Ezra's exaltation, not a belief that Ezra was the son of God. It also dates to about 100 CE, not the 7th century.",
+   "correction": "you shall be taken up from among men, and henceforth you shall live with My Son (the Messiah in 4 Ezra's usage)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Uzair"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--the-jews-say-ezra-is-the-son-of-god-9-30",
+   "snippet": "Jewish tradition fused the figure of the inspired Scribe",
+   "status": "unverifiable",
+   "problem": "The Ezra/Enoch/Metatron fusion is a modern hypothesis. 3 Enoch (about 5th-6th c.) identifies Enoch, not Ezra, with Metatron.",
+   "correction": "Some scholars suggest the figure of the inspired scribe (Ezra/Enoch) was elevated to angelic status",
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--the-jews-say-ezra-is-the-son-of-god-9-30",
+   "snippet": "Reuven Firestone finds it plausible",
+   "status": "unverifiable",
+   "problem": "Firestone's statement could not be verified. Newby's suggestion is confirmed in secondary literature.",
+   "correction": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Uzair"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--the-jews-say-ezra-is-the-son-of-god-9-30",
+   "snippet": "Ibn Abbas reports that Jewish leaders of Medina",
+   "status": "weak_source",
+   "problem": "This is a tafsir report of Ibn Ishaq through Ibn Abbas with a weak chain, so it is not strong evidence of what Medinan Jews said. The 'they never objected' point is an argument from silence.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--mary-and-the-trinity-5-116-5-73",
+   "snippet": "and Heraclius sailed with her icons on his ships",
+   "status": "misleading",
+   "problem": "Heraclius sailed against Phocas with an icon of the Theotokos in 610. In 626 he was on the Persian front, and Patriarch Sergius and Bonus led the defence with the icon.",
+   "correction": "and when Constantinople was besieged in 626 Patriarch Sergius carried her icon on the walls (Heraclius had sailed with a Marian icon in 610)",
+   "sources": [
+    "https://orthodoxwiki.org/Sergius_I_of_Constantinople"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--mary-and-the-trinity-5-116-5-73",
+   "snippet": "(the Akathistos hymn)",
+   "status": "misleading",
+   "problem": "Linking the Akathistos to the 626 deliverance is traditional, but its composition is disputed and may predate 626.",
+   "correction": "(the Akathistos tradition, traditionally linked to 626)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--mary-and-the-trinity-5-116-5-73",
+   "snippet": "Alphonsus Liguori's The Glories of Mary says",
+   "status": "misleading",
+   "problem": "'All obey the command of Mary, even God' is Bernardine of Siena, which Liguori quotes approvingly in The Glories of Mary.",
+   "correction": "Alphonsus Liguori's The Glories of Mary quotes Bernardine of Siena",
+   "sources": [
+    "https://www.gutenberg.org/ebooks/72411"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--mary-and-the-trinity-5-116-5-73",
+   "snippet": "she is being treated as divine in practice",
+   "status": "misleading",
+   "problem": "Catholic and Orthodox teaching distinguishes veneration (hyperdulia) from the worship due to God (latria). 'Treated as divine in practice' is a polemical judgement stated as fact.",
+   "correction": "critics argue that this practice amounts to treating her as divine, though Catholic doctrine distinguishes veneration from worship",
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--o-sister-of-aaron-19-28",
+   "snippet": "Michael Marx read 19:28 as deliberate typology",
+   "status": "unverifiable",
+   "problem": "Marx's reading of 19:28 was not confirmed.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--the-names-yahya-and-isa",
+   "snippet": "which matches Luke",
+   "status": "misleading",
+   "problem": "Luke 1:61 says none of his relatives bore the name, a narrower claim than 19:7, which says no one had borne it. Yohanan was a common Jewish name, so the parallel is partial.",
+   "correction": "which parallels, only in part, Luke's note that none of his relatives bore the name",
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--the-names-yahya-and-isa",
+   "snippet": "Arthur Jeffery admits the name Yahya has no trace in earlier literature",
+   "status": "unverifiable",
+   "problem": "Jeffery's Foreign Vocabulary is cited selectively, and Jeffery treats Yahya as a form of foreign (Yohanan) origin. The statement could not be confirmed as worded.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--the-names-yahya-and-isa",
+   "snippet": "Ahmad al-Jallad has identified the name in a pre-Islamic Safaitic",
+   "status": "misleading",
+   "problem": "Al-Jallad (with Al-Manaser) proposes that a new Safaitic inscription, probably 4th century CE, invokes a divine name ʿsy that is likely Jesus. It is a proposal, not a settled identification.",
+   "correction": "Ahmad al-Jallad has proposed that a pre-Islamic Safaitic",
+   "sources": [
+    "https://lockwoodonlinejournals.com/index.php/jiqsa/article/view/2055"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--the-names-yahya-and-isa",
+   "snippet": "Sidney Griffith calls the Syriac origin",
+   "status": "unverifiable",
+   "problem": "The quoted phrase 'the most reasonable explanation' could not be located.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--the-story-of-the-cow-2-67-74",
+   "snippet": "It then moves, as Numbers does, from the cow to water from the rock.",
+   "status": "error",
+   "problem": "In the Quran the water-from-the-rock episode comes first (2:60), before the cow (2:67-73). Only 2:74 echoes the rock. The Quran does not follow Numbers' order cow then rock. The same claim recurs in the thesis and 'In one breath'.",
+   "correction": "Only the closing image (2:74, stones from which rivers gush) echoes the rock of Numbers 20; the rock episode itself is at 2:60.",
+   "sources": [
+    "https://quran.com/2:60"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--inheritance-the-shares-and-the-fractions-4-11-12",
+   "snippet": "The Caliph Umar applied this with the Companions' agreement.",
+   "status": "misleading",
+   "problem": "Umar introduced 'awl, but Ibn Abbas rejected it, so the Companions did not agree unanimously. Sunni schools later adopted it.",
+   "correction": "The Caliph Umar introduced this, and the Sunni schools later adopted it (Ibn Abbas dissented).",
+   "sources": [
+    "https://majalla.org/ilm/awl/"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--inheritance-the-shares-and-the-fractions-4-11-12",
+   "snippet": "Radd. When shares add up to less, the remainder returns to the heirs proportionally (or to residuary heirs).",
+   "status": "misleading",
+   "problem": "Radd is disputed. Hanafis and Hanbalis (and later Shafi'is) apply it, excluding spouses, but Malikis and early Shafi'is send the surplus to the public treasury (bayt al-mal).",
+   "correction": "Radd. When shares add up to less, most schools (Hanafi, Hanbali, later Shafi'i) return the remainder to the share-holders other than spouses; Malikis and early Shafi'is send it to the public treasury.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--the-severed-aorta-69-44-46",
+   "snippet": "uses \"as if\" to express pain",
+   "status": "misleading",
+   "problem": "The Arabic of Bukhari 4428 is 'wajadtu inqita' abhari' (I find the severing of my abhar), with no 'as if'; that is the translator's gloss. The word is abhar, not the Quran's watin. The 'idiom' argument should not rest on the English.",
+   "correction": "uses an expression of severe pain (abhar, not the Quran's watin)",
+   "sources": [
+    "https://en.tohed.com/hadith/bukhari/4428"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--the-war-verses-do-not-cancel-the-peace-verses",
+   "snippet": "The majority of jurists held that non-Muslims are fought for aggression, not disbelief.",
+   "status": "misleading",
+   "problem": "Hanafi, Maliki and Hanbali jurists made the cause 'harb' (being a combatant or in enemy territory), which did not require an actual attack. Shafi'is held it was disbelief. Classical law upheld offensive campaigns against the dar al-harb.",
+   "correction": "Most classical jurists (Hanafi, Maliki, Hanbali) held that the cause of fighting is being a combatant or belonging to a hostile polity, not disbelief itself; Shafi'is disagreed.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--the-war-verses-do-not-cancel-the-peace-verses",
+   "snippet": "Ibn Kathir and al-Zarkashi ( al-Burhan 1/48) say the same.",
+   "status": "unverifiable",
+   "problem": "Ibn Kathir calls the abrogation claim questionable and allows treaties in the Muslims' interest, which is weaker than 'the same'. The al-Burhan reference could not be confirmed.",
+   "correction": "Ibn Kathir treats the abrogation claim as doubtful and permits peace when it serves the Muslims.",
+   "sources": [
+    "https://seekersguidance.org/answers/is-verse-861-abrogated/"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--the-war-verses-do-not-cancel-the-peace-verses",
+   "snippet": "Muhammad Sa'id Ramadan al-Buti ( al-Jihad fi al-Islam , p. 94)",
+   "status": "unverifiable",
+   "problem": "The page and the 'majority' claim could not be checked.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-quran-obj--quick-answers-to-smaller-objections",
+   "snippet": "Jesus is a \"sign\" ( 'alam ) of the Hour (43:61)",
+   "status": "misleading",
+   "problem": "The standard reading of 43:61 is 'ilm ('a knowledge/means of knowing of the Hour'); 'alam ('sign') is a variant reading.",
+   "correction": "Jesus is 'a knowledge' or 'sign' of the Hour (43:61, read 'ilm or 'alam)",
+   "sources": [
+    "https://quran.com/43:61"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--quick-answers-to-smaller-objections",
+   "snippet": "was a sign revealed to him (5:110)",
+   "status": "error",
+   "problem": "The food-and-storage sign is in 3:49, not 5:110, which lists other signs by God's leave.",
+   "correction": "was a sign by God's leave (3:49)",
+   "sources": [
+    "https://quran.com/3:49"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--quick-answers-to-smaller-objections",
+   "snippet": "Noah, then 'Ad, then Thamud, 7:69-74",
+   "status": "error",
+   "problem": "The order runs Noah (7:59), 'Ad (7:65), Thamud (7:73).",
+   "correction": "Noah, then 'Ad, then Thamud, 7:59-73",
+   "sources": [
+    "https://quran.com/7"
+   ]
+  },
+  {
+   "arg_id": "s-quran-obj--quick-answers-to-smaller-objections",
+   "snippet": "Arabic Gospel manuscripts render \"pray for those who persecute you\" (Matt 5:44) as sallu 'ala",
+   "status": "unverifiable",
+   "problem": "No manuscript is cited.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--the-experience-of-revelation-was-not-epilepsy-or",
+   "snippet": "(Bukhari 4602)",
+   "status": "error",
+   "problem": "The report of the Prophet's face reddening and breathing heavily is the Ya'la ibn Umayya hadith at Bukhari 4985 (also 1536 and 1789), not 4602.",
+   "correction": "(Bukhari 4985)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--the-experience-of-revelation-was-not-epilepsy-or",
+   "snippet": "Muhammad at Mecca , p. 57",
+   "status": "unverifiable",
+   "problem": "Watt's rejection of epilepsy is accurate in substance, but the page number could not be checked.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--the-experience-of-revelation-was-not-epilepsy-or",
+   "snippet": "(al-Bidaya 3/21)",
+   "status": "weak_source",
+   "problem": "The report of Gabriel greeting him as Messenger of Allah in al-Bidaya comes from Ibn Ishaq-type reports with a weak (mursal) chain.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--allah-is-not-hubal-or-a-moon-god",
+   "snippet": "the Sabaean god Almaqah may well have been a sun-related deity",
+   "status": "misleading",
+   "problem": "Almaqah is traditionally taken as a moon-associated deity and his nature is debated. The text presents the sun-god reading as a likely alternative without a source.",
+   "correction": "the nature of the Sabaean god Almaqah is debated and the claim that he was a moon god is not secure",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--allah-is-not-hubal-or-a-moon-god",
+   "snippet": "The crescent became an Islamic symbol only in Ottoman times.",
+   "status": "misleading",
+   "problem": "The crescent appears on earlier Islamic-era coins and banners, and as a pre-Islamic motif in Byzantium and Persia. It became a general emblem of Islam only in the late Ottoman and modern period.",
+   "correction": "The crescent became a general emblem of Islam only in late Ottoman and modern times.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--allah-is-not-hubal-or-a-moon-god",
+   "snippet": "is dated 29 AH",
+   "status": "weak_source",
+   "problem": "The Cyprus epitaph of 'Urwa ibn Thabit (Ramadan 29 AH, 650 CE) is real, but the main source for it is an apologetic site and it is not clearly relevant to Arab Christians' use of 'Allah'.",
+   "correction": null,
+   "sources": [
+    "https://islamic-awareness.org/history/islam/inscriptions/urwa"
+   ]
+  },
+  {
+   "arg_id": "s-prophet-obj--the-kaaba-and-hajj-restore-abraham-s-worship",
+   "snippet": "Ptolemy's map shows \"Macoraba\", often identified with Mecca.",
+   "status": "misleading",
+   "problem": "The Macoraba-Mecca identification is disputed (Crone and others reject it) and is not evidence about Zamzam.",
+   "correction": "Ptolemy lists a place 'Macoraba', which some have identified with Mecca (the identification is disputed).",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--the-kaaba-and-hajj-restore-abraham-s-worship",
+   "snippet": "Ibn Ezra says the well of Hagar (Gen 21:19)",
+   "status": "unverifiable",
+   "problem": "The Ibn Ezra and John Gill claim could not be located.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--the-satanic-verses-story-is-not-authentic",
+   "snippet": "Al-Razi reports that Ibn Ishaq called it a fabrication of heretics.",
+   "status": "error",
+   "problem": "The report is from Ibn Khuzayma (Muhammad ibn Ishaq ibn Khuzayma, d. 311 AH), not Ibn Ishaq the biographer (d. 150 AH).",
+   "correction": "Al-Razi reports that Ibn Khuzayma called it a fabrication of heretics (zanadiqa).",
+   "sources": [
+    "https://www.islamweb.net/en/printfatwa.php?id=307792"
+   ]
+  },
+  {
+   "arg_id": "s-prophet-obj--the-satanic-verses-story-is-not-authentic",
+   "snippet": "Every chain of the gharaniq story is mursal (missing the Companion) or otherwise broken",
+   "status": "misleading",
+   "problem": "Some chains reach Ibn Abbas (who did not witness the event) and are weak. Ibn Hajar, in Fath al-Bari, held that the many chains show the story has some basis, in a reinterpreted form. 'Rejected by the major scholars' omits this.",
+   "correction": "Every chain of the gharaniq story is mursal or weak, none reaches a Companion who witnessed the event, and Ibn Kathir, Ibn Khuzayma, al-Albani and others rejected it (Ibn Hajar thought it had some basis in a reinterpreted form)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--the-satanic-verses-story-is-not-authentic",
+   "snippet": "al-Baghawi, al-Razi, Ibn 'Atiyya, al-Zamakhshari, al-Qadi 'Iyad, Ibn al-Jawzi and Ibn Hazm",
+   "status": "unverifiable",
+   "problem": "Al-Zamakhshari reports the story in the Kashshaf, so listing him among rejectors is doubtful. The others were not individually checked.",
+   "correction": "al-Razi, al-Qadi 'Iyad, Ibn Hazm, Ibn Khuzayma and al-Bayhaqi",
+   "sources": []
+  },
+  {
+   "arg_id": "s-prophet-obj--islam-is-not-racist",
+   "snippet": "was Harqus ibn Zuhayr al-Bajali",
+   "status": "misleading",
+   "problem": "Sources usually give Hurqus ibn Zuhayr as al-Sa'di al-Tamimi, identified with Dhu'l-Khuwaysira. Dhu'l-Thudayya, killed at Nahrawan, is a separate figure. The identification is disputed.",
+   "correction": "was a Kharijite figure, identified in some sources as Hurqus ibn Zuhayr (the identification is disputed)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hurqus_ibn_Zuhayr_as-Sa%27di"
+   ]
+  },
+  {
+   "arg_id": "s-hadith-obj--hadith-criticism-is-rigorous-even-about-the-sahi",
+   "snippet": "showed that material can be dated reliably to the first Islamic century",
+   "status": "misleading",
+   "problem": "Motzki argued that much of the Musannaf material can be traced to the late first and early second Islamic century. 'Reliably' goes further than his claim, and other scholars dispute it.",
+   "correction": "argued that much of the material can be traced to the late first or early second Islamic century",
+   "sources": []
+  },
+  {
+   "arg_id": "s-hadith-obj--hadith-criticism-is-rigorous-even-about-the-sahi",
+   "snippet": "Ibn Taymiyya ( Majmu' 17/235)",
+   "status": "unverifiable",
+   "problem": "The volume and page reference could not be confirmed.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-hadith-obj--the-assassinations-attributed-to-the-prophet",
+   "snippet": "whom Bukhari, Ibn Ma'in and al-Daraqutni called a liar",
+   "status": "unverifiable",
+   "problem": "Ibn Ma'in's criticism is known, but the specific attributions to Bukhari and al-Daraqutni could not be confirmed.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-hadith-obj--the-assassinations-attributed-to-the-prophet",
+   "snippet": "the issue was incitement to fight, not poetry.",
+   "status": "misleading",
+   "problem": "The Abu 'Afak report comes from Ibn Sa'd and al-Waqidi without a reliable chain and describes verses against the Prophet. 'Incitement' is an interpretation, and the report is weak.",
+   "correction": "the reports are weak and describe him as composing verses against the Prophet; defenders read this as incitement to war",
+   "sources": []
+  },
+  {
+   "arg_id": "s-hadith-obj--other-hadith-objections-answered",
+   "snippet": "The narrator 'Ubaydullah ibn 'Abd al-Rahman ibn Rafi' is unknown.",
+   "status": "error",
+   "problem": "The Buda'ah hadith (Abu Dawud 66-67, Tirmidhi 66) is graded sahih or hasan by Ahmad, Tirmidhi, al-Albani and Ahmad Shakir. Claiming an unknown narrator will be rebutted. The answer should be that it is authentic and means water stays pure unless altered.",
+   "correction": "The hadith is graded sahih or hasan (Ahmad, Tirmidhi, al-Albani) and states a purity rule, so the answer is to explain it.",
+   "sources": [
+    "https://www.alim.org/hadith/sunan-of-abu-dawood/1/67",
+    "https://parallelquran.com/hadith/sunan-abi-dawud-66/"
+   ]
+  },
+  {
+   "arg_id": "s-hadith-obj--other-hadith-objections-answered",
+   "snippet": "The narrator 'Ata' ibn al-Sa'ib's memory became confused",
+   "status": "misleading",
+   "problem": "The 'touching the Black Stone expiates sins' report (Tirmidhi 959, from Ibn Umar) is graded hasan by Tirmidhi and sahih by al-Albani. Calling it weak will be rebutted.",
+   "correction": "The Black Stone report (Tirmidhi 959) is graded hasan by Tirmidhi and sahih by al-Albani, so the answer is to explain it as expiation through obedience, not worship of the stone.",
+   "sources": [
+    "https://islamqa.info/en/answers/247163"
+   ]
+  },
+  {
+   "arg_id": "s-morality--4-34-and-domestic-violence",
+   "snippet": "a symbolic strike that may not cause pain, mark or injury",
+   "status": "misleading",
+   "problem": "Classical jurists required a non-severe strike (ghayr mubarrih) that does not injure, break skin or leave a mark, not that it cause no pain at all.",
+   "correction": "a light, non-injurious strike (ghayr mubarrih) that may not injure, break skin or leave a mark",
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--4-34-and-domestic-violence",
+   "snippet": "It was not a blow",
+   "status": "misleading",
+   "problem": "Muslim 974 says lahadani lahdatan awja'atni, a push on the chest that hurt her. It was a push, but 'no pain' is not in the text.",
+   "correction": "It was a push on the chest, not a blow with the hand, though Aisha says it hurt her",
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--4-34-and-domestic-violence",
+   "snippet": "Basil of Caesarea advised a wife to endure her husband's abuse rather than separate.",
+   "status": "unverifiable",
+   "problem": "No Basil source was found. The standard citation is Monica's counsel to wives in Augustine, Confessions 9.9, and Basil's canons concern adultery.",
+   "correction": "Augustine records that his mother Monica advised abused wives to endure (Confessions 9.9).",
+   "sources": [
+    "https://christianhistoryinstitute.org/magazine/article/women-archives-monica-faithful-mother"
+   ]
+  },
+  {
+   "arg_id": "s-morality--4-34-and-domestic-violence",
+   "snippet": "al-Zamakhshari called it \"the interpretation of the ignorant\"",
+   "status": "unverifiable",
+   "problem": "This quotation could not be located. Tabari's reading of hajr as binding was confirmed in secondary literature.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--slavery-regulated-toward-abolition",
+   "snippet": "No society abolished slavery until the 19th century.",
+   "status": "error",
+   "problem": "Sweden ended thralldom in 1335, revolutionary France abolished slavery in 1794, and Haiti in 1804. Several northern US states began gradual abolition in the 1780s.",
+   "correction": "No society abolished slavery at scale until the late 18th and 19th centuries.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--slavery-regulated-toward-abolition",
+   "snippet": "and forbade forced intercourse",
+   "status": "misleading",
+   "problem": "The dominant classical position gave owners sexual access (milk al-yamin). 24:33 forbids forcing slave women into prostitution, and some jurists disapproved of compelled intercourse, but 'forbade' overstates the law.",
+   "correction": "and forbade forcing slave women into prostitution (24:33), with some jurists objecting to compelled intercourse",
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--slavery-regulated-toward-abolition",
+   "snippet": "Ibn Taymiyya and Ibn al-Qayyim held that forcing a slave woman into intercourse is a form of mutilation that frees her",
+   "status": "unverifiable",
+   "problem": "The ruling could not be traced to a passage in either author.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--slavery-regulated-toward-abolition",
+   "snippet": "at Badr the ransom for some literate captives was teaching Muslims to read",
+   "status": "weak_source",
+   "problem": "This is reported in Ahmad 2216, whose chain is graded da'if by some.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--slavery-regulated-toward-abolition",
+   "snippet": "At the conquest of Mecca he said: \"Go, you are free.\"",
+   "status": "weak_source",
+   "problem": "The 'idhhabu fa-antum al-tulaqa'' wording is from Ibn Ishaq and al-Bayhaqi without a sound chain and is graded weak by some.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--slavery-regulated-toward-abolition",
+   "snippet": "Ibn Qudama: the elderly, sick, blind and monks may not be captured.",
+   "status": "misleading",
+   "problem": "The Hanbali rulings say these may not be killed. Whether they may be enslaved was debated.",
+   "correction": "Ibn Qudama: the elderly, sick, blind and monks may not be killed.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--non-muslims-under-islamic-rule",
+   "snippet": "Historians agree they fared far better than minorities under medieval Christian rule.",
+   "status": "misleading",
+   "problem": "Mark Cohen rejects the 'interfaith utopia' picture and records the Almohad forced conversions and other persecutions. Historians generally find Jews fared better on balance, but 'far better' and 'agree' overstate it.",
+   "correction": "Historians such as Mark Cohen find that Jews generally fared better under Islam than under medieval Christendom, though it was far from an interfaith utopia.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--non-muslims-under-islamic-rule",
+   "snippet": "Christian sources of the 7th century describe Arab rule as a relief",
+   "status": "misleading",
+   "problem": "Some 7th-century sources (Sophronius, the Maronite Chronicle, Sebeos, John bar Penkaye) are hostile or apocalyptic. Michael the Syrian is 12th century. Relief from Byzantium is a view of some Miaphysite and East Syrian authors.",
+   "correction": "Some Christian sources describe Arab rule as a relief from Byzantine persecution, while others are hostile",
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--non-muslims-under-islamic-rule",
+   "snippet": "Michael the Syrian recorded that God sent the sons of Ishmael to free them from the Romans",
+   "status": "misleading",
+   "problem": "Michael the Syrian wrote in the 12th century, about 500 years after the conquest.",
+   "correction": "Michael the Syrian, writing in the 12th century, recorded that God sent the sons of Ishmael to free them from the Romans",
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--non-muslims-under-islamic-rule",
+   "snippet": "are not enemies to Christianity… they honour our priests and saints and give gifts to churches and monasteries",
+   "status": "misleading",
+   "problem": "The quoted words paraphrase the letter. The standard rendering is 'they do not persecute the Christian religion; on the contrary they favour it, honour our priests and the saints of the Lord and confer benefits on churches and monasteries'.",
+   "correction": "do not persecute the Christian religion; on the contrary they favour it, honour our priests and the saints of the Lord and confer benefits on churches and monasteries",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ishoyahb_III"
+   ]
+  },
+  {
+   "arg_id": "s-morality--non-muslims-under-islamic-rule",
+   "snippet": "(Coptic Synaxarium; John of Nikiou)",
+   "status": "error",
+   "problem": "The restoration of Benjamin by 'Amr is from the History of the Patriarchs of Alexandria and the Synaxarium. John of Nikiou's Chronicle blames Heraclius and Cyrus for the conquest and does not report this.",
+   "correction": "(History of the Patriarchs of Alexandria; Coptic Synaxarium)",
+   "sources": [
+    "https://copticchurch.net/synaxarium/saints/benjamen.html"
+   ]
+  },
+  {
+   "arg_id": "s-morality--banu-qurayza",
+   "snippet": "only their fighting men were executed",
+   "status": "misleading",
+   "problem": "Sources say one woman was also executed (Abu Dawud 2671) and that youths were killed if they had grown pubic hair.",
+   "correction": "the men were executed, including adolescents judged to have reached puberty, and one woman is reported killed",
+   "sources": [
+    "https://sunnah.com/abudawud:2671"
+   ]
+  },
+  {
+   "arg_id": "s-morality--banu-qurayza",
+   "snippet": "according to the law of their own Torah",
+   "status": "misleading",
+   "problem": "No early source says Sa'd cited Deuteronomy. The match with Deut 20:12-14 is an apologetic inference. Historians such as Arafat and Barakat Ahmad also doubt the traditional account.",
+   "correction": "in a way that matches Deuteronomy 20:12-14, though no early source says Sa'd cited it",
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--banu-qurayza",
+   "snippet": "Freedman and McClymond ( The Rivers of Paradise ) note the parallel.",
+   "status": "unverifiable",
+   "problem": "The passage in The Rivers of Paradise could not be located.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--hijab-and-modesty",
+   "snippet": "Clement of Alexandria said women should go out \"with face covered\"; Jerome advised covering all but the eyes",
+   "status": "unverifiable",
+   "problem": "The Clement wording and the Jerome claim could not be confirmed.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-morality--the-prophet-did-not-use-revelation-for-personal",
+   "snippet": "The \"convenient revelation\" theory doesn't fit his life.",
+   "status": "misleading",
+   "problem": "The poverty and worship evidence does not answer the verses critics actually cite (33:37, 33:50-52, 66:1), and the page does not discuss them.",
+   "correction": "The poverty and worship record counts against the 'convenient revelation' theory, and the verses critics cite (33:37, 33:50-52, 66:1) need their own answers.",
+   "sources": []
+  },
+  {
+   "arg_id": "s-aisha--the-authentic-reports-put-aisha-s-age-at-marriag",
+   "snippet": "Abu Dawud 4937",
+   "status": "unverifiable",
+   "problem": "Abu Dawud 4937 could not be matched to the Yahya ibn Abd al-Rahman ibn Hatib report. Abu Dawud 2121 gives 'seven or six' and nine, and the dolls report is 4931.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-aisha--the-authentic-reports-put-aisha-s-age-at-marriag",
+   "snippet": "Ibn Hazm said it was",
+   "status": "unverifiable",
+   "problem": "The quotations from Ibn Hazm, Ibn Kathir and Ibn Abd al-Barr, and Ahmad Shakir's comment, could not be confirmed.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-aisha--the-authentic-reports-put-aisha-s-age-at-marriag",
+   "snippet": "fits a girl of about four or five",
+   "status": "unverifiable",
+   "problem": "With Aisha born about 614 CE, Surah 54 (traditionally revealed about 4-5 years before the Hijra) would make her a toddler of about two to four, not four or five. The age figure is unsourced.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-aisha--the-authentic-reports-put-aisha-s-age-at-marriag",
+   "snippet": "children like Ibn Abbas narrated events from age three",
+   "status": "unverifiable",
+   "problem": "No source. The standard example is Mahmud ibn al-Rabi' recalling at five (Bukhari 77). Ibn Abbas was about 13 at the Prophet's death.",
+   "correction": "children like Mahmud ibn al-Rabi' recalled events from age five (Bukhari 77)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-aisha--the-marriage-judged-by-its-own-time-and-by-its-o",
+   "snippet": "No enemy of the Prophet, among the Quraysh, the hypocrites or the Jews of Medina, who attacked him on every point, objected to this marriage.",
+   "status": "misleading",
+   "problem": "This is an argument from silence. Our sources are Muslim compilations written generations later, so the absence of a recorded objection is weak evidence.",
+   "correction": "No objection to this marriage from the Quraysh, hypocrites or Jews of Medina is recorded in our sources (an argument from silence, so weak evidence).",
+   "sources": []
+  },
+  {
+   "arg_id": "s-aisha--the-marriage-judged-by-its-own-time-and-by-its-o",
+   "snippet": "Geza Vermes thought Mary was likely about twelve",
+   "status": "unverifiable",
+   "problem": "Vermes's statement could not be located.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-aisha--the-marriage-judged-by-its-own-time-and-by-its-o",
+   "snippet": "Aisha said, \"When a girl reaches nine, she is a woman\" (Tirmidhi).",
+   "status": "weak_source",
+   "problem": "Tirmidhi 1109 reports this as a comment attributed to Aisha without a connected chain.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-aisha--the-marriage-judged-by-its-own-time-and-by-its-o",
+   "snippet": "some US states still have no minimum marriage age",
+   "status": "misleading",
+   "problem": "As of mid-2026 only three states (California, until a ban takes effect on 1 January 2027, Mississippi and New Mexico) lack a statutory minimum once exceptions are counted.",
+   "correction": "a few US states had no statutory minimum marriage age as recently as 2026",
+   "sources": [
+    "https://www.kotatv.com/2026/08/07/more-states-ban-child-marriage-though-its-still-legal-most-us/"
+   ]
+  },
+  {
+   "arg_id": "s-aisha--65-4-those-who-have-not-menstruated",
+   "snippet": "It covers women whose periods are delayed or absent for any reason, and does not authorise intercourse with prepubescent girls.",
+   "status": "misleading",
+   "problem": "Classical commentators (Tabari, Ibn Kathir) read 'those who have not menstruated' as including girls too young to menstruate. 33:49 gives no waiting period before consummation, so a 65:4 waiting period presupposes consummation. The widow comparison (2:234) does not answer that.",
+   "correction": "It sets the waiting period for women who do not menstruate. Classical tafsir includes young girls in this category, and the verse does not itself authorise intercourse, which is governed by separate rules on capacity and harm.",
+   "sources": [
+    "https://quran.com/65:4",
+    "https://quran.com/33:49"
+   ]
+  },
+  {
+   "arg_id": "s-aisha--the-end-of-surah-at-tawbah-9-128-129",
+   "snippet": "No manuscript ends Surah at-Tawbah at 9:127.",
+   "status": "unverifiable",
+   "problem": "This universal claim about all manuscripts was not checked, and the folio detail for BnF Arabe 328a could not be verified.",
+   "correction": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Codex_Parisino-petropolitanus"
+   ]
+  },
+  {
+   "arg_id": "s-sects--the-quran-itself-requires-the-sunnah-against-qur",
+   "snippet": "In context, the \"Book\" is the decree in which Allah has recorded every creature",
+   "status": "misleading",
+   "problem": "Commentators disagree on whether 'the Book' in 6:38 means the Preserved Tablet or the Quran, so presenting one reading as settled is overconfident.",
+   "correction": "Many commentators take the 'Book' to be the Preserved Tablet (others say the Quran)",
+   "sources": []
+  },
+  {
+   "arg_id": "s-sects--rashad-khalifa-and-code-19",
+   "snippet": "which are in the earliest manuscripts",
+   "status": "unverifiable",
+   "problem": "See the Surah at-Tawbah argument. The manuscript claim has not been verified and 'first-century' should say first century AH (7th century CE).",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-sects--no-prophet-after-muhammad-against-ahmadis",
+   "snippet": "Mirza Ghulam Ahmad called it authentic and early",
+   "status": "unverifiable",
+   "problem": "The claim that Jesus in India calls the Gospel of Barnabas authentic and early could not be confirmed, and the thesis says Ahmadi claims 'rely' on it.",
+   "correction": null,
+   "sources": [
+    "https://files.alislam.cloud/pdf/Jesus-in-India.pdf"
+   ]
+  },
+  {
+   "arg_id": "s-sects--no-prophet-after-muhammad-against-ahmadis",
+   "snippet": "the report from Ibn Abbas glossing it as \"I will cause you to die\" comes through Ali ibn Abi Talha",
+   "status": "misleading",
+   "problem": "Bukhari also gives mumituka as Ibn Abbas's gloss (as a mu'allaq report). Opponents will cite that, so the answer should address it.",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-sects--the-companions-are-praised-by-the-quran-against",
+   "snippet": "a Shia source says all the scholars of Qum except Ibn Babawayh were anthropomorphists",
+   "status": "unverifiable",
+   "problem": "The source is not named. The Nawbakhti attribution of 'a body unlike bodies' to Hisham ibn al-Hakam is also not confirmed (it is usually from al-Ash'ari's Maqalat).",
+   "correction": null,
+   "sources": []
+  },
+  {
+   "arg_id": "s-sects--creed-points-for-debates-with-christians",
+   "snippet": "In Nicene theology the Son and the Spirit are caused by the Father",
+   "status": "misleading",
+   "problem": "Nicene theology speaks of eternal generation and procession, which Christians distinguish from creation or causation in time. The Ikhlas-based inference that they are not God rests on a contested reading.",
+   "correction": "In Nicene theology the Son is eternally begotten and the Spirit eternally proceeds from the Father",
+   "sources": []
+  },
+  {
+   "arg_id": "s-sects--creed-points-for-debates-with-christians",
+   "snippet": "\"wondered that there was no one to intercede\" (Isa 59:16)",
+   "status": "misleading",
+   "problem": "Isa 59:16 reads 'wondered' in the KJV but 'appalled' or 'astonished' in most modern translations.",
+   "correction": null,
+   "sources": []
+  }
+ ]
+}

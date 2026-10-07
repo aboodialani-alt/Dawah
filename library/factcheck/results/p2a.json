@@ -1,0 +1,1152 @@
+{
+ "part": "p2a",
+ "arguments_checked": 34,
+ "findings": [
+  {
+   "arg_id": "s-notgod--those-who-knew-jesus-called-him-a-man-and-a-prop",
+   "snippet": "Mainstream scholarship agrees that the Synoptic Gospels do not present Jesus as God.",
+   "status": "misleading",
+   "problem": "Overstated as consensus. Many mainstream scholars (Bauckham, Hurtado, Wright, Dunn on some points) hold that the Synoptics present Jesus in divine-identity terms (Mark 2:5-7, 4:41, 6:48-50) even if they rarely use the word \"God\" of him. Dunn is cited for a narrower point.",
+   "correction": "Many scholars (Dunn among them) hold that the Synoptic Gospels never explicitly call Jesus \"God\" and that there is no clear sign Jesus thought of himself as divine, though others dispute this.",
+   "sources": [
+    "Dunn, Did the First Christians Worship Jesus? (2010)",
+    "Bauckham, Jesus and the God of Israel (2008)"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--those-who-knew-jesus-called-him-a-man-and-a-prop",
+   "snippet": "\"bowed down and paid homage to the LORD and to the king\" (1 Chr 29:20, same verb in the Greek)",
+   "status": "weak_source",
+   "problem": "The quoted wording is not from NRSV/ESV/RSV (RSV: \"bowed their heads and worshiped the LORD, and the king\"; NRSV: \"bowed their heads and prostrated themselves before the LORD and the king\"). LXX proskuneo is correct, but a debater quoting these words will be challenged on the translation.",
+   "correction": "\"bowed their heads and worshiped the LORD, and the king\" (1 Chr 29:20, RSV; the Greek uses proskuneo for both)",
+   "sources": [
+    "biblegateway.com 1 Chronicles 29:20 (RSV/NRSV)"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--those-who-knew-jesus-called-him-a-man-and-a-prop",
+   "snippet": "The two-natures doctrine is a later formulation (Chalcedon, 451) read back into texts that never state it.",
+   "status": "weak_source",
+   "problem": "Fine as a date, but Acts 2:21 (Joel 2:32 \"call on the name of the LORD\" applied to Jesus) and 2:34-36 (\"Lord and Christ\") in the same sermon are the standard Trinitarian reply and are not addressed.",
+   "correction": null,
+   "sources": [
+    "Acts 2:21, 2:36"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--jesus-distinguishes-himself-from-the-one-true-go",
+   "snippet": "Early Christian writers knew a form of the saying that is even clearer: \"One is good, my Father in heaven\" (Justin, Dialogue 101; Irenaeus; Hippolytus; Origen, Contra Celsum 5.11; the Clementine Homilies)",
+   "status": "misleading",
+   "problem": "Irenaeus (Haer. 1.20.2) and Hippolytus (Ref. 5.7) report this wording as used by Gnostic groups (Marcosians, Naassenes), not as a form endorsed by the church. Origen CC 5.11 has \"none is good but one, God the Father\", not \"my Father in heaven\". Justin Dial. 101 and the Clementine Homilies do have the longer form.",
+   "correction": "Justin (Dialogue 101) and the Clementine Homilies quote a longer form, \"One is good, my Father in heaven\"; Irenaeus and Hippolytus report Gnostic groups using it; Origen (CC 5.11) has \"none is good but one, God the Father\".",
+   "sources": [
+    "Irenaeus, Against Heresies 1.20.2",
+    "Hippolytus, Refutation 5.7",
+    "Origen, Contra Celsum 5.11 (ccel.org/ccel/schaff/npnf105)"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--jesus-lacked-the-attributes-of-god",
+   "snippet": "Jerome noted it was missing in some Greek copies",
+   "status": "unverifiable",
+   "problem": "Could not locate Jerome passage via accessible sources. Ambrose (De Fide 5.16) accusing Arians of interpolation is well attested; the Jerome claim needs a citation (Comm. Matt. 24:36).",
+   "correction": null,
+   "sources": [
+    "Ambrose, De Fide 5.16.193"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--jesus-lacked-the-attributes-of-god",
+   "snippet": "Some apologists say oiden (\"knows\") here means \"declares\". No Greek lexicon gives that meaning",
+   "status": "unverifiable",
+   "problem": "Universal negative about lexicons could not be confirmed. Safer to say no standard lexicon (BDAG, LSJ) lists \"declare\" as a sense of oida here.",
+   "correction": "Some apologists say oiden (\"knows\") here means \"declares\", but BDAG and LSJ do not list that sense.",
+   "sources": [
+    "BDAG s.v. oida"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--jesus-lacked-the-attributes-of-god",
+   "snippet": "and was strengthened by an angel (22:43)",
+   "status": "error",
+   "problem": "Luke 22:43-44 (angel and sweat like blood) is absent from P75, Vaticanus and other early witnesses and is bracketed in NA28 and footnoted in ESV/NRSV. Using it as firm evidence while arguing from textual insecurity elsewhere is inconsistent and will be turned on the speaker.",
+   "correction": "and, in a passage some early manuscripts omit, an angel is said to have strengthened him (Luke 22:43)",
+   "sources": [
+    "ESV/NRSV footnote on Luke 22:43-44",
+    "Metzger, Textual Commentary on Luke 22:43-44"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+   "snippet": "absent from all Greek manuscripts before the late Middle Ages and from all the early versions",
+   "status": "error",
+   "problem": "The Comma appears in Latin witnesses well before the Middle Ages (cited by Priscillian c. 385, in Old Latin manuscripts and later Vulgate copies). It is absent from the Syriac, Coptic, Armenian, Ethiopic and other non-Latin early versions. The earliest Greek manuscript is 14th-15th century.",
+   "correction": "absent from every Greek manuscript before the 14th-15th centuries and from all early versions except the Latin",
+   "sources": [
+    "Metzger, Textual Commentary on 1 John 5:7-8",
+    "Wikipedia, Comma Johanneum (manuscript table)"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+   "snippet": "It is the only explicit Trinity verse in the Bible, and it is a forgery.",
+   "status": "misleading",
+   "problem": "\"Forgery\" implies deliberate fraud; scholars call it a gloss or interpolation that probably began as a marginal allegorical comment on the three witnesses. Also internally inconsistent with the argument that other verses (Matt 28:19) are cited as explicit.",
+   "correction": "It is the only verse that states the Trinity in so many words, and it is a late Latin interpolation.",
+   "sources": [
+    "Metzger, Textual Commentary on 1 John 5:7-8; Bruce Metzger/Ehrman, Text of the NT 4th ed."
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+   "snippet": "Metzger's Textual Commentary (p. 641) says the change arose either by accident or deliberately to give \"greater dogmatic precision\".",
+   "status": "misleading",
+   "problem": "Metzger gives two deliberate motives: to supply a substantive for the six following verbs, \"or, with less probability, to provide greater dogmatic precision\". The article cites only the less probable motive. Page 641 is the 1st ed. (2nd ed. p. 574).",
+   "correction": "Metzger says theos arose either through misreading OS as ΘΣ or deliberately, mainly to supply a subject for the six verbs and, less probably, for greater dogmatic precision (Textual Commentary, 2nd ed., p. 574).",
+   "sources": [
+    "Metzger, Textual Commentary on the Greek NT, 1 Tim 3:16"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+   "snippet": "most naturally means \"with the blood of His own [one]\"",
+   "status": "misleading",
+   "problem": "Both readings are defended: \"his own blood\" (NRSV/ESV text) is the more usual understanding; \"blood of his own [Son]\" is a minority option many grammarians (Wallace, Marshall) accept as possible but not most natural.",
+   "correction": "can also be read \"with the blood of His own [one]\", i.e. His own Son",
+   "sources": [
+    "Wallace, Greek Grammar Beyond the Basics; Metzger on Acts 20:28"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+   "snippet": "Romans 9:5. \"Christ, who is God over all, blessed forever\" depends entirely on punctuation",
+   "status": "misleading",
+   "problem": "Most commentators and the NRSV/ESV/NIV texts read Rom 9:5 as naming Christ as God; the Metzger committee was divided (a 4-2 majority favoured the Christological reading). Presenting it as only a punctuation matter hides that this is the majority scholarly view on syntax. \"Paul never elsewhere calls Jesus God\" is also disputed (Titus 2:13, Phil 2:6).",
+   "correction": "Rom 9:5 is read both ways: most commentators take \"God over all\" of Christ, while the RSV, NEB footnote and others punctuate it as a separate doxology to the Father.",
+   "sources": [
+    "Metzger, Textual Commentary on Rom 9:5",
+    "Moo, Romans (NICNT)"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+   "snippet": "Both readings are early; neither is secure enough to build a doctrine on.",
+   "status": "misleading",
+   "problem": "The reading monogenes theos is in P66, P75, Sinaiticus and Vaticanus and is preferred by most critical editions (UBS {B}); huios is in A, C3, the Byzantine tradition and some early fathers. Early support is stronger for theos, which also undercuts the claim that scribes always moved toward a \"higher\" Christology.",
+   "correction": "Manuscripts divide between \"the only-begotten Son\" and \"the only-begotten God\"; most critical editions prefer \"God\" on the evidence of P66, P75, Sinaiticus and Vaticanus.",
+   "sources": [
+    "Metzger, Textual Commentary on John 1:18"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+   "snippet": "the direction of change is always toward higher Christology",
+   "status": "error",
+   "problem": "Overreach. Ehrman himself documents changes in both directions (e.g. Luke 2:33 \"Joseph and his mother\" for \"his father\"; Hebrews 2:9 choris theou; Mark 1:41). Not all variants are Christological. \"Always\" will be refuted by one counterexample.",
+   "correction": "the direction of change is often toward higher Christology",
+   "sources": [
+    "Ehrman, Orthodox Corruption of Scripture ch. 2-4"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-main-proof-texts-are-textually-insecure",
+   "snippet": "\"Fool and knave, leave the old reading, don't change it!\"",
+   "status": "weak_source",
+   "problem": "The marginal note in Codex Vaticanus (Heb 1:3) is normally quoted: \"Fool and knave, can't you leave the old reading alone and not alter it!\" (Metzger, Text of the NT). It concerns a scribe's habit, not Christology.",
+   "correction": "\"Fool and knave, can't you leave the old reading alone and not alter it!\"",
+   "sources": [
+    "Metzger & Ehrman, Text of the New Testament, 4th ed., p. 69"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--john-1-1-the-word-was-god-does-not-mean-jesus-is",
+   "snippet": "Origen and the second-century fathers read it as making the Word a derived, lesser divinity.",
+   "status": "misleading",
+   "problem": "Irenaeus, Tertullian and Clement of Alexandria call the Word fully God (\"God from God\") while subordinating him in order; Origen affirms eternal generation (De Principiis 1.2.9). Only some Logos theologians are fairly described as \"lesser\". Also Origen is third century, not second.",
+   "correction": "Origen and some second-century apologists (Justin, Tatian, Theophilus) read it as making the Word a derived, subordinate divinity.",
+   "sources": [
+    "Origen, De Principiis 1.2.9; Kelly, Early Christian Doctrines ch. 5"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--john-1-1-the-word-was-god-does-not-mean-jesus-is",
+   "snippet": "called the Logos \"the second god\", meaning a created intermediary",
+   "status": "misleading",
+   "problem": "Philo does say \"the second God, who is His Logos\" (Questions on Genesis 2.62), but \"created\" is a contested interpretation; Philo also calls the Logos \"firstborn\" and \"image of God\" and is not consistent.",
+   "correction": "called the Logos \"the second God\" (Questions on Genesis 2.62), a divine intermediary below God",
+   "sources": [
+    "Philo, QG 2.62"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--john-1-1-the-word-was-god-does-not-mean-jesus-is",
+   "snippet": "Justin Martyr, Tatian, Athenagoras, Theophilus, Hippolytus, Tertullian and Novatian held a \"two-stage\" Logos theology",
+   "status": "misleading",
+   "problem": "Accurate for Theophilus, Tatian, Tertullian, Hippolytus. Athenagoras (Plea 10) says the Son was in God \"from the beginning\" and Origen, Irenaeus (AH 2.30.9) held eternal generation. \"Point in time\" is not universal.",
+   "correction": "Justin, Tatian, Theophilus, Hippolytus, Tertullian and Novatian are usually read as holding a \"two-stage\" Logos theology",
+   "sources": [
+    "Kelly, Early Christian Doctrines pp. 95-108"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--before-abraham-was-i-am-john-8-58-is-not-a-claim",
+   "snippet": "In the Septuagint, Exodus 3:14 reads \" Ego eimi ho ōn \": \"I am the One who is \". The name given to Moses is ho ōn , and the next clause is \"tell them ho ōn has sent me\". Ego eimi is just the Greek for \"I am\".",
+   "status": "misleading",
+   "problem": "Omits that ego eimi is used absolutely as a divine self-identification in LXX Isa 41:4, 43:10, 46:4 and Deut 32:39, which is the case Trinitarians rely on for John 8:58. Saying the LXX name is \"a different phrase\" is also internally strained since Ex 3:14 itself contains ego eimi.",
+   "correction": "In the Septuagint, Exodus 3:14 reads \"Ego eimi ho on\" (\"I am the One who is\"), and the name sent to Moses is ho on. Ego eimi is also used absolutely of God in LXX Isaiah 43:10, which Trinitarians cite for John 8:58.",
+   "sources": [
+    "LXX Isaiah 43:10, 41:4, 46:4; Deut 32:39"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--before-abraham-was-i-am-john-8-58-is-not-a-claim",
+   "snippet": "Several translations render 8:58 \"I have been\" for this reason.",
+   "status": "weak_source",
+   "problem": "Standard English translations (NRSV, ESV, NIV, NASB) all read \"I am\"; \"I have been\" is found only in a few translations (e.g. NWT \"I have been\", Moffatt-type renderings). John 14:9 has an explicit time phrase, which 8:58 lacks (it has prin Abraham genesthai).",
+   "correction": "A few translations render 8:58 \"I have been\"; NRSV, ESV and NIV keep \"I am\".",
+   "sources": [
+    "biblegateway.com John 8:58"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--before-abraham-was-i-am-john-8-58-is-not-a-claim",
+   "snippet": "The Jews in John also tried to stone him for other statements (10:31)",
+   "status": "misleading",
+   "problem": "John 10:33 states the charge outright: \"because you, being a man, make yourself God\". The argument cannot use 10:31 to downplay 8:59 without addressing that.",
+   "correction": "The Jews in John also tried to stone him in 10:31 and said it was because he \"made himself God\" (10:33); his reply (10:34-36) appeals to Psalm 82.",
+   "sources": [
+    "John 10:31-36"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--thomas-my-lord-and-my-god-and-john-17-5",
+   "snippet": "Thomas' exclamation comes three verses after Jesus calls the Father \"my God\"",
+   "status": "error",
+   "problem": "John 20:17 and 20:28 are eleven verses apart, not three. The same slip is repeated in the Objections.",
+   "correction": "Thomas' exclamation comes eleven verses after Jesus calls the Father \"my God\"",
+   "sources": [
+    "John 20:17, 20:28"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--thomas-my-lord-and-my-god-and-john-17-5",
+   "snippet": "the text would contradict itself three verses apart",
+   "status": "error",
+   "problem": "Eleven verses (20:17 to 20:28), not three.",
+   "correction": "the text would contradict itself eleven verses apart",
+   "sources": [
+    "John 20:17, 20:28"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--thomas-my-lord-and-my-god-and-john-17-5",
+   "snippet": "Theodore of Mopsuestia, a major 4th-century bishop",
+   "status": "misleading",
+   "problem": "Theodore (c. 350-428) was bishop of Mopsuestia 392-428, so late 4th to early 5th century. His reading of Jn 20:28 is attested (Commentary on John), as is the 553 condemnation of his works.",
+   "correction": "Theodore of Mopsuestia, bishop from 392 to 428",
+   "sources": [
+    "Wikipedia, Theodore of Mopsuestia"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--philippians-2-6-11-the-second-adam-not-god-incar",
+   "snippet": "Most scholars read both as status or appearance.",
+   "status": "misleading",
+   "problem": "Contested. Many commentators (Fee, Hawthorne, Hurtado, Bockmuehl) take morphe theou as indicating real divine nature/mode of being; BDAG gives \"form, outward appearance\". \"Most scholars\" is not established.",
+   "correction": "Some scholars read both as status or appearance; others read morphe theou as divine nature.",
+   "sources": [
+    "Fee, Pauline Christology; Bockmuehl, Philippians (BNTC)"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--philippians-2-6-11-the-second-adam-not-god-incar",
+   "snippet": "Read the hymn against Genesis 3.",
+   "status": "misleading",
+   "problem": "The Adam-Christology reading (Dunn, Murphy-O'Connor) is a minority view among Philippians scholars; N.T. Wright and most commentators see Isaiah 45, 52-53 and Roman imperial language as primary background. Presented as settled.",
+   "correction": "Some scholars (Dunn) read the hymn against Genesis 3; others reject an Adam background.",
+   "sources": [
+    "Dunn, Christology in the Making; Bockmuehl, Philippians"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-divine-acts-of-jesus-were-done-by-prophets-t",
+   "snippet": "\"First and last\" in Revelation is tied to being \"the firstborn of the dead\" (Rev 1:5, 17-18), while the \"Almighty\" in Revelation 1:8 is distinguished from Jesus in 1:4-5.",
+   "status": "misleading",
+   "problem": "Omits that \"first and last\" is YHWH's title in Isa 44:6 and 48:12, that Rev 22:13 gives Jesus \"Alpha and Omega, first and last\", and that Rev 1:8 \"Alpha and Omega\" is used of both the Lord God and Christ (22:12-13).",
+   "correction": "\"First and last\" in Revelation is spoken by the risen Jesus (1:17-18; 22:13), though Isaiah 44:6 gives the same title to YHWH.",
+   "sources": [
+    "Isaiah 44:6; Rev 1:8, 22:13"
+   ]
+  },
+  {
+   "arg_id": "s-notgod--the-divine-acts-of-jesus-were-done-by-prophets-t",
+   "snippet": "Peter walked on water too (Matt 14:29)",
+   "status": "misleading",
+   "problem": "Peter walked only at Jesus' command and began to sink; the miracle is by Jesus' power. Moses and Elisha did not walk on water.",
+   "correction": "Peter walked on water at Jesus' command (Matt 14:29), and Elisha made iron float (2 Kgs 6:6).",
+   "sources": [
+    "Matt 14:28-31"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--the-hebrew-bible-teaches-one-god-who-is-a-single",
+   "snippet": "The scholar S.R. Driver explains that the verse contrasts the one LORD with the many local Baals; it is about number, not a \"compound unity\".",
+   "status": "unverifiable",
+   "problem": "Could not locate Driver's Deuteronomy (ICC) wording; no page given.",
+   "correction": null,
+   "sources": [
+    "S.R. Driver, Deuteronomy (ICC, 1895) on 6:4"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--the-hebrew-bible-teaches-one-god-who-is-a-single",
+   "snippet": "The Catholic Encyclopedia states that the doctrine of the Trinity is not taught in the Old Testament, and Augustine saw it only as foreshadowed.",
+   "status": "misleading",
+   "problem": "Augustine found the Trinity in Gen 1:26, the theophanies, Ps 110 and other OT texts (De Trinitate 2-3; City of God 11), more than \"foreshadowed\". CE also lists OT \"adumbrations\". Quote the actual CE wording if used.",
+   "correction": "The Catholic Encyclopedia says the doctrine of the Trinity is not clearly revealed in the Old Testament, though Augustine and other Fathers read hints of it there.",
+   "sources": [
+    "Catholic Encyclopedia, \"Trinity\"; Augustine, De Trinitate 2"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--the-hebrew-bible-teaches-one-god-who-is-a-single",
+   "snippet": "Jews, the original readers, unanimously reject it.",
+   "status": "misleading",
+   "problem": "Overstated. Some Jewish mystical texts (Zohar on Deut 6:4, \"three that are one\") use triadic language, and the earliest Jewish followers of Jesus were Jews. Safer: rabbinic Judaism rejects it.",
+   "correction": "Rabbinic Judaism has consistently rejected it.",
+   "sources": [
+    "Zohar II 43b; Segal, Two Powers in Heaven"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--the-hebrew-bible-teaches-one-god-who-is-a-single",
+   "snippet": "Jews have never read it as teaching three persons.",
+   "status": "misleading",
+   "problem": "See above; \"never\" is refuted by Jewish Christians and by Zohar-type readings.",
+   "correction": "Rabbinic Judaism has not read it as teaching three persons.",
+   "sources": [
+    "Zohar II 43b"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--by-deuteronomy-13-a-trinitarian-jesus-would-be-a",
+   "snippet": "The criterion is continuity with the God Israel already knew.",
+   "status": "weak_source",
+   "problem": "Deut 13:1-3 concerns calls to other gods (idolatry); Christians reply that Jesus calls to the same God. Not an error, but P3 is a contested premise stated as established.",
+   "correction": null,
+   "sources": [
+    "Deut 13:1-5"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--the-angel-of-the-lord-is-god-s-messenger-not-god",
+   "snippet": "The Bible says God appeared face to face only to Moses",
+   "status": "error",
+   "problem": "Gen 32:30 (Jacob: \"I have seen God face to face\"), Judg 6:22 (Gideon, \"face to face\" with the angel), Deut 5:4, Exod 33:11 (Moses). Num 12:6-8 contrasts Moses with prophets, not with all humanity.",
+   "correction": "The Bible says God spoke \"mouth to mouth\" with Moses, unlike other prophets (Num 12:6-8), though Jacob says he saw God \"face to face\" (Gen 32:30).",
+   "sources": [
+    "Gen 32:30; Judg 6:22; Num 12:8"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--the-angel-of-the-lord-is-god-s-messenger-not-god",
+   "snippet": "Manoah fears death \"because we have seen God\", but Pharaoh also told Moses",
+   "status": "misleading",
+   "problem": "Omits Judg 13:22-23 where Manoah's wife answers that if the LORD wanted to kill them he would not have accepted the offering; the angel also ascends in the flame and refuses a name (\"wonderful\").",
+   "correction": null,
+   "sources": [
+    "Judges 13:16-23"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--plural-words-elohim-let-us-do-not-mean-plural-pe",
+   "snippet": "Many Jewish and some Christian commentators read this as God addressing the heavenly court",
+   "status": "weak_source",
+   "problem": "True, but the plural of majesty claim in the same argument is contested: Gen 29:27 (Laban, speaking for his household) is not a royal \"we\", and Sarna (JPS Genesis 1:26) takes the heavenly-court reading, not majesty.",
+   "correction": null,
+   "sources": [
+    "Sarna, JPS Torah Commentary Genesis, on 1:26"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--plural-words-elohim-let-us-do-not-mean-plural-pe",
+   "snippet": "Laban says \" we will give you\" (Gen 29:27)",
+   "status": "misleading",
+   "problem": "Laban speaks for his household; not a royal \"we\". Ezra 4:18 mixes \"us\" and \"me\" in one verse and is Aramaic.",
+   "correction": "Artaxerxes writes \"the letter you sent us\" (Ezra 4:18).",
+   "sources": [
+    "Ezra 4:18; Gen 29:27"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--plural-words-elohim-let-us-do-not-mean-plural-pe",
+   "snippet": "Augustine ( City of God 16.29) read all three as angels",
+   "status": "weak_source",
+   "problem": "Confirmed for City of God 16.29, but in De Trinitate 2.19-23 Augustine allowed that the three men could prefigure the Trinity. Cite precisely.",
+   "correction": null,
+   "sources": [
+    "Augustine, City of God 16.29; De Trinitate 2.19-23"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--psalms-45-and-110-are-about-israel-s-king",
+   "snippet": "Robert Alter translates it \"your throne of God\", and the NRSV Study Bible notes that the king is nowhere else called God.",
+   "status": "unverifiable",
+   "problem": "Could not confirm either claim (Alter translation wording; NRSV Study Bible note). NRSV text itself reads \"Your throne, O God\" with a footnote alternative.",
+   "correction": null,
+   "sources": [
+    "Alter, The Book of Psalms (2007) on Ps 45:7; NRSV Study Bible"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--psalms-45-and-110-are-about-israel-s-king",
+   "snippet": "Herbert Bateman's study reads it as a royal psalm with the human king subordinate to God.",
+   "status": "misleading",
+   "problem": "Bateman (Bibliotheca Sacra 149, 1992) is a Trinitarian who concludes that the NT applies Ps 110:1 to Jesus as Davidic king who is also divine Lord. Using him as support for a non-divine reading misrepresents his conclusion.",
+   "correction": "Herbert Bateman argues Psalm 110 is a royal psalm about the Davidic king, though he concludes the NT shows Jesus is also divine Lord.",
+   "sources": [
+    "Bateman, \"Psalm 110:1 and the New Testament\", Bibliotheca Sacra 149 (1992)"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--isaiah-9-6-48-16-and-63-9",
+   "snippet": "Jewish translations read the verse as \"the Wonderful Counsellor, the Mighty God, the Everlasting Father has called his name Prince of Peace\".",
+   "status": "weak_source",
+   "problem": "No translation named. JPS 1917 transliterates the name with this reading in a footnote; the JPS 1985 Tanakh reads \"The Mighty God is planning grace; the Eternal Father, a peaceable ruler\" and this is the Rashi/Ibn Ezra reading. Name the source.",
+   "correction": "Rashi and Ibn Ezra, and the JPS 1985 Tanakh, read the names as describing God: \"the Mighty God is planning grace; the Eternal Father, a peaceable ruler\".",
+   "sources": [
+    "JPS Tanakh (1985) Isaiah 9:5; Rashi on Isa 9:5"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--isaiah-9-6-48-16-and-63-9",
+   "snippet": "( elei gibborim , Ezek 32:21)",
+   "status": "misleading",
+   "problem": "Ezek 32:21 is eilei gibborim, usually derived from ayil (\"chiefs/rams\"), not from el (\"god\"); it is therefore not a clean plural of el gibbor.",
+   "correction": "( eilei gibborim , \"chiefs of the mighty\", Ezek 32:21, from ayil rather than el, so only a weak parallel)",
+   "sources": [
+    "Ezekiel 32:21; HALOT s.v. ayil"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--isaiah-9-6-48-16-and-63-9",
+   "snippet": "The verb \"sent me\" is singular, so \"His Spirit\" is what the speaker is sent with",
+   "status": "misleading",
+   "problem": "A singular verb does not show that the spirit is not a second object; the plain Hebrew is \"sent me and his spirit\" (NRSV/ESV), and \"with his spirit\" is an interpretive reading. Scholar names (Childs, Blenkinsopp, Goldingay) were not verified.",
+   "correction": "The verb \"sent\" is singular, and some translators (NET, Goldingay) render \"sent me with his Spirit\"; NRSV and ESV read \"sent me and his spirit\".",
+   "sources": [
+    "NRSV/ESV Isa 48:16"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--daniel-micah-zechariah-and-malachi",
+   "snippet": "Micah 5:2. \"From you, Bethlehem, shall come forth for Me one who is to be ruler in Israel, whose origins ( motsa'otav ) are from of old, from ancient days.\" An eternal God does not have \"origins\".",
+   "status": "misleading",
+   "problem": "Motsa'ot also means \"goings forth\" (KJV/ESV margin), and miqqedem/yemei olam is used of eternity in Mic 5:2 and Hab 1:12. The argument asserts the narrow reading as fact.",
+   "correction": "Micah 5:2 can be read as \"origins\" or \"goings forth\" from of old.",
+   "sources": [
+    "Micah 5:2; Hab 1:12"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--the-quran-s-method-with-earlier-scripture-is-the",
+   "snippet": "Clement of Alexandria engaged with the Gospel of the Egyptians, judging it by \"the rule of the Gospel\".",
+   "status": "unverifiable",
+   "problem": "Clement (Strom. 3.9.63-66, 3.13.92) cites the Gospel of the Egyptians and says the saying is not in the four Gospels; the exact phrase \"the rule of the Gospel\" was not confirmed.",
+   "correction": null,
+   "sources": [
+    "Clement, Stromata 3.9.63-66; 3.13.92"
+   ]
+  },
+  {
+   "arg_id": "s-ot-trinity--the-quran-s-method-with-earlier-scripture-is-the",
+   "snippet": "Jude 14 quotes the Book of Enoch as genuine prophecy",
+   "status": "weak_source",
+   "problem": "Jude 14-15 does quote 1 Enoch 1:9 and says Enoch \"prophesied\", but Jude is not necessarily endorsing the whole book; this is the standard Christian reply.",
+   "correction": null,
+   "sources": [
+    "Jude 14-15; 1 Enoch 1:9"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--mainstream-scholars-agree-the-new-testament-does",
+   "snippet": "A.T. Hanson (Anglican theologian): \"No responsible New Testament scholar would claim that the doctrine of the Trinity was taught by Jesus, or preached by the earliest Christians, or consciously held by any writer in the New Testament\" ( The Image of the Invisible God , p. 87).",
+   "status": "unverifiable",
+   "problem": "Quote is widely reproduced online but I could not verify the page in the 1982 SCM text. Hanson affirmed the Trinity as a legitimate later development, which should be stated if quoted.",
+   "correction": null,
+   "sources": [
+    "A.T. Hanson, The Image of the Invisible God (SCM, 1982)"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--mainstream-scholars-agree-the-new-testament-does",
+   "snippet": "Alvan Lamson , The Church of the First Three Centuries (p. 341)",
+   "status": "weak_source",
+   "problem": "Lamson (1860) was a Unitarian minister arguing a position; not a \"mainstream\" or neutral scholar, and his work is long superseded.",
+   "correction": null,
+   "sources": [
+    "Lamson, The Church of the First Three Centuries (Boston, 1860)"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--mainstream-scholars-agree-the-new-testament-does",
+   "snippet": "Larry Hurtado and most historians conclude that Jesus did not present himself as divine; devotion to him developed after his death.",
+   "status": "misleading",
+   "problem": "Hurtado argues devotion to Jesus as a divine figure arose very early among Jewish followers (within years, not slowly), and is cautious on whether Jesus claimed divinity. \"Most historians\" is unsupported and Hurtado would object to the \"developed after his death\" framing as implying a late evolution.",
+   "correction": "Larry Hurtado holds that devotion to Jesus as a divine figure arose remarkably early among Jewish followers after Jesus' death, and that most historians doubt Jesus openly claimed to be God.",
+   "sources": [
+    "Hurtado, Lord Jesus Christ (2003); How on Earth Did Jesus Become a God? (2005)"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--mainstream-scholars-agree-the-new-testament-does",
+   "snippet": "G.L. Prestige showed the early Greek trias was a ranked list (God, His Logos, His Spirit), not three co-equal persons.",
+   "status": "misleading",
+   "problem": "Prestige (God in Patristic Thought, 1936) defended the continuity of patristic Trinitarianism; he noted early subordination but did not conclude the doctrine was non-apostolic.",
+   "correction": "G.L. Prestige noted that the early Greek trias was often a ranked list (God, His Logos, His Spirit), while defending the continuity of the later doctrine.",
+   "sources": [
+    "Prestige, God in Patristic Thought (1936)"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--mainstream-scholars-agree-the-new-testament-does",
+   "snippet": "W.R. Matthews , Dean of St Paul's, said Paul would not have understood the doctrine.",
+   "status": "unverifiable",
+   "problem": "No source or work given; could not locate the quote.",
+   "correction": null,
+   "sources": [
+    "W.R. Matthews, God in Christian Thought and Experience (1930)"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--mainstream-scholars-agree-the-new-testament-does",
+   "snippet": "D.E.H. Whiteley : for Jews, including Paul, God was one person.",
+   "status": "unverifiable",
+   "problem": "No work cited; likely The Theology of St Paul (1964). Not verified.",
+   "correction": null,
+   "sources": [
+    "Whiteley, The Theology of St Paul (1964)"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--mainstream-scholars-agree-the-new-testament-does",
+   "snippet": "H.J. Schoeps , a scholar of Jewish Christianity, concluded that Jewish Christianity \"disappeared within the church but was preserved in Islam\".",
+   "status": "unverifiable",
+   "problem": "Quote frequently cited (Schoeps, Das Judenchristentum / Jewish Christianity) but exact wording and page not verified; Schoeps' claim is widely rejected by later scholars.",
+   "correction": null,
+   "sources": [
+    "Schoeps, Theologie und Geschichte des Judenchristentums (1949)"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "1 Clement 59:4 (c. 96), the earliest Christian writing outside the NT: \"that all nations may know that You are God alone , and Jesus Christ is Your Son\".",
+   "status": "misleading",
+   "problem": "The Greek is pais, \"servant/child\"; Lightfoot and Lake translate \"servant\", Holmes \"child\"; ANF renders \"Son\" in some editions. The Didache is possibly earlier, so \"earliest\" is disputed.",
+   "correction": "1 Clement 59:4 (c. 96), among the earliest Christian writings outside the NT: \"that all nations may know that You alone are God, and that Jesus Christ is Your servant/child (pais)\".",
+   "sources": [
+    "Lightfoot, Apostolic Fathers; Holmes, Apostolic Fathers 3rd ed."
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "Cardinal Newman admitted: \"Ignatius may be considered a Patripassian, Justin arianizes, and Hippolytus is a Photinian.\"",
+   "status": "error",
+   "problem": "Newman (Essay on Development, ch. 4) writes that if we limit our view of the Fathers to what they expressly state, Ignatius may be considered a Patripassian etc.; he uses this to argue that the Fathers' words are incomplete, not that they were heterodox.",
+   "correction": "Newman wrote that, judged only by their express statements, \"Ignatius may be considered a Patripassian, Justin arianizes, and Hippolytus is a Photinian\", and used this to argue the Fathers' words were incomplete, not heretical.",
+   "sources": [
+    "Newman, Essay on the Development of Christian Doctrine (1845), ch. 4"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "He lists the angels among those Christians \"worship and adore\" ( 1 Apology 6)",
+   "status": "misleading",
+   "problem": "1 Apol. 6 is a disputed sentence; the grammar can be read as the host of angels being named but not worshipped, and many scholars so read it.",
+   "correction": "In 1 Apology 6 Justin names the host of good angels in a sentence scholars debate (some read it as angels being honoured, not worshipped).",
+   "sources": [
+    "Justin, 1 Apology 6; Kelly, Early Christian Doctrines p. 101"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "Irenaeus (c. 180): the Son \"received dominion from His Father\" ( Against Heresies 3.6.1)",
+   "status": "misleading",
+   "problem": "Irenaeus is the strongest counterexample to \"begotten at a point in time\": he says the Word was \"always with the Father\" (AH 2.30.9, 4.20.3) and that the Son is not created. Also Irenaeus identifies Wisdom (Prov 8) with the Spirit (AH 4.20.3), contradicting \"applied to the Son by nearly all fathers\".",
+   "correction": "Irenaeus (c. 180) speaks of the Son receiving dominion from the Father, but also says the Word was always with the Father (AH 2.30.9; 4.20.3).",
+   "sources": [
+    "Irenaeus, Against Heresies 2.30.9, 4.20.3"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "Origen (c. 230): \"nothing is uncreated but the Father\"",
+   "status": "misleading",
+   "problem": "Origen affirmed eternal generation (\"there was never a time when he was not\", De Principiis 1.2.9, 4.4.1) and the Son as God. Presenting him as teaching that the Son began at a point in time is wrong; his subordinationism is real.",
+   "correction": "Origen (c. 230) taught the Son is subordinate to the Father but eternally begotten (De Principiis 1.2.9).",
+   "sources": [
+    "Origen, De Principiis 1.2.9; Commentary on John 2.10"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "which shows the ordinary Christian was unitarian",
+   "status": "error",
+   "problem": "The \"simple\" Tertullian describes were modalist monarchians who believed Christ was God and feared two or three gods; they were not Unitarians who denied Christ's deity.",
+   "correction": "which shows that many ordinary Christians were uneasy about speaking of the Father and Son as distinct persons (they leaned towards modalism, not Unitarianism).",
+   "sources": [
+    "Tertullian, Against Praxeas 3"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "\"nothing is uncreated but the Father\" ( Commentary on John 2.6)",
+   "status": "unverifiable",
+   "problem": "Passage and wording not confirmed (Origen Comm. Jn 2.10.75 or 2.6 in some numbering).",
+   "correction": null,
+   "sources": [
+    "Origen, Commentary on John book 2"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "Jerome called him the \"most open defender of the heresy of Arius\"",
+   "status": "unverifiable",
+   "problem": "Jerome does call Eusebius an Arianizer (Apology against Rufinus 1.11), but the exact wording and citation could not be confirmed.",
+   "correction": null,
+   "sources": [
+    "Jerome, Apology against Rufinus 1.11"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "Eusebius of Caesarea , the church historian who attended Nicaea: the Son is \"not eternally coexistent with the Father\" and is \"Lord in the second degree\" ( Demonstration of the Gospel 5.1; 4.15)",
+   "status": "unverifiable",
+   "problem": "Eusebius subordinates the Son (second cause, second God), but quotations and references were not confirmed; he signed the Nicene Creed.",
+   "correction": null,
+   "sources": [
+    "Eusebius, Demonstratio Evangelica 5.1, 4.15"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "Moreschini and Norelli date the last two articles to the 4th century, Basil never cites them, and the Arabic text of the related treatise On the Trinity is classed as spurious (CPG 1787)",
+   "status": "unverifiable",
+   "problem": "Could not verify the scholars' dating, the claim that Basil never cites the creed (Basil, Ep. 204, 207, 210 cite Gregory), or the CPG number. Authenticity of the creed is debated.",
+   "correction": null,
+   "sources": [
+    "Moreschini and Norelli, Early Christian Greek and Latin Literature vol 1; CPG 1763"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-early-church-fathers-were-not-trinitarians",
+   "snippet": "Dionysius of Alexandria (c. 260): the Son is \"a creature and made",
+   "status": "misleading",
+   "problem": "Athanasius (De Sententia Dionysii) quotes this from Dionysius' letter but argues Dionysius retracted/clarified it (Refutation and Defence). The article omits that.",
+   "correction": "Dionysius of Alexandria (c. 260) wrote in a letter that the Son is \"a creature and made\", language Athanasius says he later clarified (On the Opinion of Dionysius 4-18).",
+   "sources": [
+    "Athanasius, De Sententia Dionysii"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-holy-spirit-s-divinity-was-undecided-until-3",
+   "snippet": "The Council of Constantinople (381) settled the question, and Emperor Theodosius' edicts made it law, with penalties for dissenters.",
+   "status": "misleading",
+   "problem": "The 381 creed does not call the Spirit \"God\" or \"homoousios\"; it says \"Lord, giver of life... worshipped and glorified with the Father and the Son\". Theodosius' Cunctos populos (380) and later edicts did enforce Nicene Trinitarian faith.",
+   "correction": "The Council of Constantinople (381) confessed the Spirit as \"Lord and giver of life... worshipped and glorified with the Father and the Son\" without calling him \"God\" in so many words, and Theodosius' edicts enforced that faith.",
+   "sources": [
+    "Creed of Constantinople (381); Codex Theodosianus 16.1.2"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-holy-spirit-s-divinity-was-undecided-until-3",
+   "snippet": "the triadic baptismal formula itself is textually doubtful",
+   "status": "misleading",
+   "problem": "Every Greek manuscript contains Matt 28:19. The doubt rests on Eusebius' pre-325 citations of a shorter form (\"in my name\") and on form-critical arguments. \"Textually doubtful\" overstates.",
+   "correction": "the authenticity of the triadic baptismal formula as a saying of Jesus is questioned by some scholars, although every extant manuscript contains it",
+   "sources": [
+    "Matt 28:19; Metzger, Textual Commentary"
+   ]
+  },
+  {
+   "arg_id": "s-trinity-dev--the-doctrine-is-logically-incoherent",
+   "snippet": "Luther admitted that the Trinity and two natures are beyond and contrary to reason, to be accepted on faith.",
+   "status": "weak_source",
+   "problem": "No citation. Luther does say the Trinity is above reason, but needs a source (e.g. Table Talk, Sermons on John 1).",
+   "correction": null,
+   "sources": [
+    "Luther, Sermon on John 1; Table Talk"
+   ]
+  },
+  {
+   "arg_id": "s-cross--what-the-quran-actually-claims",
+   "snippet": "and slanders about Mary appear in the same literature (Sanhedrin 106a)",
+   "status": "misleading",
+   "problem": "Sanhedrin 106a is about Balaam. The slander of Mary is usually located at Shabbat 104b and Sanhedrin 67a (ben Stada/Pandera). Sanh. 43a's \"Yeshu\" is a late passage, and \"hanged\" is not \"crucified\".",
+   "correction": "and slanders about Mary appear in the same literature (Shabbat 104b; Sanhedrin 67a)",
+   "sources": [
+    "Schafer, Jesus in the Talmud (2007)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--what-the-quran-actually-claims",
+   "snippet": "The boast is real: the Babylonian Talmud has a tradition that \"on the eve of Passover they hanged Yeshu\" (Sanhedrin 43a)",
+   "status": "misleading",
+   "problem": "Sanh. 43a says Yeshu was hanged on Passover eve after a forty-day call for defenders; it is a late tradition and does not record a \"we killed the Messiah\" boast. Scholars (Schafer, Maier) debate whether it is early or about Jesus.",
+   "correction": "The Babylonian Talmud has a late tradition that \"on the eve of Passover they hanged Yeshu\" (Sanhedrin 43a), though scholars debate its date and reliability.",
+   "sources": [
+    "Schafer, Jesus in the Talmud (2007)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-earliest-jesus-sources-say-nothing-of-the-cr",
+   "snippet": "The sayings source shared by Matthew and Luke (about 4,500 words) has no passion narrative and no resurrection. John Kloppenborg calls this \"the most striking difference\" between Q and the Gospels.",
+   "status": "misleading",
+   "problem": "Q does contain \"whoever does not take up his cross\" (Q 14:27) and sayings on killed prophets (Q 11:49-51, 13:34-35). Kloppenborg quote could not be verified.",
+   "correction": "The sayings source shared by Matthew and Luke has no passion narrative and no resurrection, though it mentions bearing a cross (Q 14:27) and the killing of prophets.",
+   "sources": [
+    "Matt 10:38; Luke 14:27; Kloppenborg, Excavating Q"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-earliest-jesus-sources-say-nothing-of-the-cr",
+   "snippet": "The Epistle of James , from Jesus' own brother and the leader of the Jerusalem church, never mentions the cross, the resurrection or atonement.",
+   "status": "misleading",
+   "problem": "Authorship by James the brother is disputed; many scholars date James to the late 1st-early 2nd century or consider it pseudonymous. Jas 5:6 (\"you have condemned and murdered the righteous one\") is read by some as an allusion to the passion. James mentions Jesus only twice.",
+   "correction": "The Epistle of James, traditionally attributed to Jesus' brother (a point many scholars dispute), never mentions the cross, the resurrection or atonement.",
+   "sources": [
+    "Allison, James (ICC, 2013)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-earliest-jesus-sources-say-nothing-of-the-cr",
+   "snippet": "Scholars from Bultmann to Vermes regard them as written after the fact.",
+   "status": "misleading",
+   "problem": "Not a consensus. Bultmann did; many others (Allison, Dunn, Wright, even Sanders) accept that Jesus expected a violent death. Vermes' view is more nuanced.",
+   "correction": "Bultmann and some others regard the detailed predictions as written after the fact; many scholars accept that Jesus expected a violent death.",
+   "sources": [
+    "Dunn, Jesus Remembered; Allison, Constructing Jesus"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-earliest-jesus-sources-say-nothing-of-the-cr",
+   "snippet": "The Oxford Bible Commentary on Mark says they \"owe a lot to later Christian creativity\".",
+   "status": "unverifiable",
+   "problem": "Quote not located.",
+   "correction": null,
+   "sources": [
+    "Oxford Bible Commentary (2001), Mark"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-earliest-jesus-sources-say-nothing-of-the-cr",
+   "snippet": "Bart Ehrman notes that Luke removes Mark's \"ransom for many\" (Mark 10:45) and that the sermons in Acts present Jesus' death as a miscarriage of justice reversed by God, not as an atoning sacrifice.",
+   "status": "misleading",
+   "problem": "Ehrman does say this, but Acts 20:28 (\"obtained with his own blood\"), Acts 8:32-35 (Isaiah 53) and Luke 22:37 point the other way; state as Ehrman's view only.",
+   "correction": "Bart Ehrman argues that Luke omits Mark's \"ransom for many\" and that Acts mostly presents the death as a miscarriage of justice, although Acts 8:32-35 and 20:28 are read by others as atonement language.",
+   "sources": [
+    "Ehrman, Jesus Interrupted; Acts 8:32-35, 20:28"
+   ]
+  },
+  {
+   "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+   "snippet": "Paul calls a crucified Christ \"a stumbling block to Jews\" (1 Cor 1:23), asks the Galatians \"who has bewitched you?\"",
+   "status": "misleading",
+   "problem": "None of these verses says Paul's opponents denied the crucifixion: 1 Cor 1:23 is about Jewish reaction, Gal 3:1 about the Law, Phil 3:18 about conduct. Presented as evidence of denial in P2, this is overreach.",
+   "correction": "Paul calls a crucified Christ \"a stumbling block to Jews\" (1 Cor 1:23), though these verses do not say anyone denied the crucifixion.",
+   "sources": [
+    "1 Cor 1:23; Gal 3:1; Phil 3:18"
+   ]
+  },
+  {
+   "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+   "snippet": "Scholars like Myllykoski argue these opponents were Jewish Christians, not Greek dualists.",
+   "status": "unverifiable",
+   "problem": "Not verified; Ignatius' Judaizers (Magn., Philad.) and docetists (Trall., Smyrn.) are generally distinguished by scholars (Schoedel).",
+   "correction": null,
+   "sources": [
+    "Schoedel, Ignatius of Antioch (Hermeneia)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+   "snippet": "Ignatius' opponents appealed to \"the archives\", the Jewish scriptures",
+   "status": "misleading",
+   "problem": "In Philad. 8 the dispute concerns the authority of the gospel versus the OT, not denial of the crucifixion; it does not support the claim that these opponents denied it.",
+   "correction": "In Philadelphians 8 Ignatius' opponents appealed to \"the archives\" (the Jewish scriptures), though that dispute is about scriptural authority, not the crucifixion.",
+   "sources": [
+    "Ignatius, Philadelphians 8"
+   ]
+  },
+  {
+   "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+   "snippet": "The Mandaeans , who revere John the Baptist, deny the crucifixion of Jesus.",
+   "status": "misleading",
+   "problem": "Mandaeans are not followers of Jesus; their texts (Ginza, Book of John) are late (post-3rd century, compiled after Islam) and treat Jesus as a false messiah. They are not evidence for the \"early period\".",
+   "correction": "The Mandaeans, a later non-Christian group that reveres John the Baptist, reject Jesus as Messiah and some of their texts deny his crucifixion.",
+   "sources": [
+    "Buckley, The Mandaeans; Lupieri, The Mandaeans"
+   ]
+  },
+  {
+   "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+   "snippet": "Basilides (early 2nd century, Alexandria), according to Irenaeus ( Against Heresies 1.24.4)",
+   "status": "misleading",
+   "problem": "Irenaeus' account is not matched in Hippolytus' report of Basilides; scholars doubt Irenaeus describes Basilides himself rather than later followers.",
+   "correction": "Basilides (early 2nd century), as reported by Irenaeus (Against Heresies 1.24.4), though Hippolytus' account differs",
+   "sources": [
+    "Hippolytus, Refutation 7.20-27"
+   ]
+  },
+  {
+   "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+   "snippet": "Dale Allison notes some early believers may have held that \"Jesus only seemed to die\"",
+   "status": "unverifiable",
+   "problem": "Page and wording (Constructing Jesus p. 57; Mark 15:44-45 \"to counter the polemic\") not verified.",
+   "correction": null,
+   "sources": [
+    "Allison, Constructing Jesus (2010)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--early-followers-of-jesus-disputed-the-crucifixio",
+   "snippet": "Paul's opponents and Ignatius' are first and early-2nd century, the same period as the Gospels themselves.",
+   "status": "misleading",
+   "problem": "The Gospels date c. 70-100; the Gnostic Seth treatise is 3rd century and Basilides c. 120-140.",
+   "correction": "Paul's opponents are mid-1st century and Ignatius' early 2nd century; the Seth treatise is 3rd century.",
+   "sources": [
+    "Wikipedia, Second Treatise of the Great Seth"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-independent-non-christian-witnesses-are-late",
+   "snippet": "at least eight earlier fathers quote Josephus",
+   "status": "unverifiable",
+   "problem": "Count not verified.",
+   "correction": null,
+   "sources": [
+    "Whealey, Josephus on Jesus (2003)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-independent-non-christian-witnesses-are-late",
+   "snippet": "Eusebius himself titled a chapter of his Preparation for the Gospel (12.31) \"that it will be necessary sometimes to use falsehood as a remedy\"",
+   "status": "misleading",
+   "problem": "The chapter title is real but the chapter paraphrases Plato's Republic/Laws on the \"noble lie\"; it is not Eusebius' stated policy about history. Burckhardt's 1853 verdict is also dated.",
+   "correction": "Eusebius titled Praeparatio Evangelica 12.31 \"that it will be necessary sometimes to use falsehood as a remedy\", in a chapter citing Plato on the \"noble lie\".",
+   "sources": [
+    "Eusebius, Praeparatio Evangelica 12.31"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-independent-non-christian-witnesses-are-late",
+   "snippet": "Louis Feldman's survey found that of 87 scholarly discussions between 1937 and 1980, most doubted the passage in whole or in part.",
+   "status": "misleading",
+   "problem": "Accurate, but Feldman's breakdown shows only 13 judged it wholly an interpolation, with the majority holding a partial core. Say so.",
+   "correction": "Louis Feldman's survey of 87 discussions (1937-1980) found only 13 treating the passage as wholly interpolated; most accepted a partly authentic core.",
+   "sources": [
+    "Feldman, Josephus and Modern Scholarship (1984)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-independent-non-christian-witnesses-are-late",
+   "snippet": "Bart Ehrman says Tacitus' information \"is not particularly helpful\" for establishing the historical Jesus.",
+   "status": "unverifiable",
+   "problem": "Quote not verified; Ehrman accepts Tacitus as independent confirmation that Jesus was executed under Pilate (Did Jesus Exist?).",
+   "correction": null,
+   "sources": [
+    "Ehrman, Did Jesus Exist? (2012)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-independent-non-christian-witnesses-are-late",
+   "snippet": "Ehrman accepts it mainly on the \"criterion of embarrassment\"",
+   "status": "error",
+   "problem": "Ehrman cites multiple attestation (Paul, Mark, John, Josephus, Tacitus), not mainly embarrassment. Treating the criterion as the main ground misrepresents his position.",
+   "correction": "Ehrman accepts the crucifixion on several grounds, including Paul, multiple Gospels, Josephus and Tacitus, and the embarrassment of a crucified Messiah.",
+   "sources": [
+    "Ehrman, Did Jesus Exist? ch. 3"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-gospel-accounts-of-the-death-and-resurrectio",
+   "snippet": "Some scholars think John is countering the tradition that Simon was crucified in his place.",
+   "status": "unverifiable",
+   "problem": "No scholar named; not located in mainstream commentaries.",
+   "correction": null,
+   "sources": [
+    null
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-gospel-accounts-of-the-death-and-resurrectio",
+   "snippet": "C.K. Barrett said there is no point trying to harmonise the wine passages.",
+   "status": "unverifiable",
+   "problem": "Quote not located.",
+   "correction": null,
+   "sources": [
+    "Barrett, The Gospel According to St John (2nd ed.)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-gospel-accounts-of-the-death-and-resurrectio",
+   "snippet": "Luke's Gospel seems to have Jesus ascend on the day of the resurrection (24:50-51)",
+   "status": "weak_source",
+   "problem": "Luke 24:51 \"and was carried up into heaven\" is omitted in some early manuscripts (Sinaiticus original hand, D), so the timing is itself textually uncertain.",
+   "correction": null,
+   "sources": [
+    "NA28 Luke 24:51"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-bible-promised-the-righteous-one-would-be-re",
+   "snippet": "Hebrews 5:7. \"In the days of his flesh, Jesus offered up prayers",
+   "status": "misleading",
+   "problem": "Greek ek thanatou can mean \"out of death\", and most commentators read the verse as God saving Jesus out of death by raising him. The argument's \"not out of death after dying\" is a minority reading.",
+   "correction": "Hebrews 5:7: \"to Him who was able to save him from death\" (Greek ek thanatou, which most commentators take to mean out of death by resurrection).",
+   "sources": [
+    "Attridge, Hebrews (Hermeneia); Ellingworth, Hebrews (NIGTC)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-bible-promised-the-righteous-one-would-be-re",
+   "snippet": "Hippolytus ( Against the Jews 9)",
+   "status": "weak_source",
+   "problem": "Demonstratio adversus Judaeos is attributed to Hippolytus but authorship is doubtful (Pseudo-Hippolytus). Augustine City of God 17.20 is correct.",
+   "correction": "Pseudo-Hippolytus ( Against the Jews 9)",
+   "sources": [
+    "Augustine, City of God 17.20"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-bible-promised-the-righteous-one-would-be-re",
+   "snippet": "yet it is the wicked who expect him to die and God who is said to deliver.",
+   "status": "misleading",
+   "problem": "Wisdom 3:1-5 immediately says the righteous \"seemed to have died\" but are at peace in God's hand; deliverance is from adversaries after death, which is not an escape from dying.",
+   "correction": "Wisdom 2:12-20 has the wicked expect his death, and Wisdom 3:1-5 says the righteous \"seemed to have died\" but are in God's hand.",
+   "sources": [
+    "Wisdom 3:1-5"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-shroud-the-swoon-theory-and-the-nazareth-ins",
+   "snippet": "Its first historical record is a 1389 memo from Bishop Pierre d'Arcis",
+   "status": "error",
+   "problem": "The shroud is attested in Lirey from the 1350s (pilgrim badge c. 1355, Geoffroy de Charny's exhibitions); the 1389 memo is the first record of the painting claim. The statement \"first record\" is therefore inaccurate.",
+   "correction": "Its first documented exhibition was at Lirey in the 1350s; the 1389 memo from Bishop Pierre d'Arcis is the first record claiming it was painted",
+   "sources": [
+    "Nicolotti, The Shroud of Turin (Baylor, 2014)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-shroud-the-swoon-theory-and-the-nazareth-ins",
+   "snippet": "and concluded it was an \"artistic or didactic representation\" of the 14th century",
+   "status": "unverifiable",
+   "problem": "Could not verify the quoted phrase; abstract says the stains are not consistent with a real body or blood flow.",
+   "correction": null,
+   "sources": [
+    "Borrini and Garlaschelli, J Forensic Sci 64 (2019) 137-141"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-shroud-the-swoon-theory-and-the-nazareth-ins",
+   "snippet": "Andrea Nicolotti has shown no Christian looked for Jesus' burial cloths before the 6th century",
+   "status": "unverifiable",
+   "problem": "Not verified.",
+   "correction": null,
+   "sources": [
+    "Nicolotti, The Shroud of Turin (2014)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-shroud-the-swoon-theory-and-the-nazareth-ins",
+   "snippet": "a 2020 isotope study of the marble found it came from the island of Kos, likely connected with the desecration of the tomb of the tyrant Nikias there",
+   "status": "weak_source",
+   "problem": "Confirmed: Harper et al., Journal of Archaeological Science: Reports 2020. Add that the Nikias link is a hypothesis, and name the study.",
+   "correction": "a 2020 isotope study (Harper et al., Journal of Archaeological Science: Reports) traced the marble to Kos and proposed a link with the desecration of the tomb of the tyrant Nikias",
+   "sources": [
+    "Harper et al., JASR 2020; smithsonianmag.com"
+   ]
+  },
+  {
+   "arg_id": "s-cross--the-shroud-the-swoon-theory-and-the-nazareth-ins",
+   "snippet": "and the result has been replicated in reanalysis",
+   "status": "misleading",
+   "problem": "There has been no new radiocarbon sampling since 1988. Reanalyses of the 1988 raw data (Casabianca et al., Archaeometry 2019) found the data heterogeneous, though still consistent with a medieval date; a disputed 2022 X-ray study (De Caro) claims a 1st century date.",
+   "correction": "and later statistical reanalyses of the 1988 data have not changed the medieval date, though some found heterogeneity",
+   "sources": [
+    "Casabianca et al., Archaeometry 61 (2019)"
+   ]
+  },
+  {
+   "arg_id": "s-cross--mutawaffika-3-55-does-not-mean-jesus-died",
+   "snippet": "The early authorities understood 3:55 as Jesus being taken up alive.",
+   "status": "misleading",
+   "problem": "Tabari also records reports from Ibn Abbas (via Ali ibn Abi Talha), Wahb ibn Munabbih and Ibn Ishaq that Jesus died for a period before being raised, and Qatada and others read tawaffa as death. Early commentators were divided.",
+   "correction": "Some early authorities understood 3:55 as Jesus being taken up alive, while others (Wahb, Ibn Ishaq, Ibn Abbas in one report) said he died briefly first.",
+   "sources": [
+    "Tabari, Jami al-bayan on 3:55"
+   ]
+  },
+  {
+   "arg_id": "s-cross--mutawaffika-3-55-does-not-mean-jesus-died",
+   "snippet": "al-Hasan al-Basri reported the Prophet ﷺ telling the Jews that \"Jesus did not die; he will return to you before the Day of Resurrection\".",
+   "status": "weak_source",
+   "problem": "Reported in Tabari as a mursal report from al-Hasan, not a continuous chain.",
+   "correction": "al-Hasan al-Basri reported in a mursal narration that the Prophet ﷺ told the Jews that \"Jesus did not die; he will return to you before the Day of Resurrection\".",
+   "sources": [
+    "Tabari on 3:55"
+   ]
+  },
+  {
+   "arg_id": "s-cross--mutawaffika-3-55-does-not-mean-jesus-died",
+   "snippet": "and always contrasts life with mawt (death), never with tawaffa",
+   "status": "misleading",
+   "problem": "Tawaffa is used of death in 2:234, 2:240, 3:193 and 16:70; the claim is about the contrast pattern, not the meaning.",
+   "correction": "and the Quran uses tawaffa for both death (2:234; 16:70) and sleep (6:60; 39:42)",
+   "sources": [
+    "Quran 2:234; 16:70; 6:60; 39:42"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--son-of-god-and-father-are-titles-of-closeness-no",
+   "snippet": "Joel Carmichael observed that pais tou theou , \"servant of God\", is exactly the Arabic 'Abdullah .",
+   "status": "unverifiable",
+   "problem": "Work not named and quote not located; pais can also mean \"child/son\", which is why the same sources are disputed.",
+   "correction": null,
+   "sources": [
+    "Carmichael, The Death of Jesus (1962)"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--son-of-god-and-father-are-titles-of-closeness-no",
+   "snippet": "My Father and your Father.\" Jesus himself puts his sonship on the same level as his disciples'",
+   "status": "misleading",
+   "problem": "John 20:17 is read by most as distinguishing \"my Father\" from \"your Father\" (not \"our\"). The reading as parity is not established.",
+   "correction": "Jesus speaks of \"my Father and your Father\", which some read as sharing his relationship to God and others as distinguishing it.",
+   "sources": [
+    "John 20:17"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--son-of-god-and-father-are-titles-of-closeness-no",
+   "snippet": "Jesus calls God \"Father\" roughly 4 times in Mark, about 17 in Luke, about 44 in Matthew and over 100 in John.",
+   "status": "weak_source",
+   "problem": "Counts vary by method (Mark 4, Luke 15-17, Matthew 40-45, John 100-120+); give a source.",
+   "correction": "Jesus calls God \"Father\" about 4 times in Mark, about 15-17 in Luke, about 40-45 in Matthew and over 100 in John.",
+   "sources": [
+    "Ehrman, How Jesus Became God; Jeremias, Prayers of Jesus"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--son-of-god-and-father-are-titles-of-closeness-no",
+   "snippet": "Ibn Taymiyya ( al-Jawab al-Sahih ) explained",
+   "status": "weak_source",
+   "problem": "No volume or page; locate before quoting.",
+   "correction": null,
+   "sources": [
+    "Ibn Taymiyya, al-Jawab al-Sahih"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--the-original-jerusalem-church-was-closest-to-isl",
+   "snippet": "Alan Segal describes Jewish Christians as a \"comfortable majority\" of the movement in the first generation.",
+   "status": "unverifiable",
+   "problem": "Quote not located.",
+   "correction": null,
+   "sources": [
+    "Segal, Paul the Convert (1990)"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--the-original-jerusalem-church-was-closest-to-isl",
+   "snippet": "Kegan Zarley argues that a Nazarene rejection of Jesus' deity is strong evidence",
+   "status": "weak_source",
+   "problem": "Zarley is not a recognised scholar of the field; more importantly the premise is false (see next).",
+   "correction": null,
+   "sources": [
+    null
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--the-original-jerusalem-church-was-closest-to-isl",
+   "snippet": "and its heirs the Nazarenes and Ebionites, believed Jesus was a human Messiah and prophet",
+   "status": "error",
+   "problem": "Epiphanius (Panarion 29.7) says the Nazarenes confessed one God and his Son Jesus Christ, differing from Christians only in Law observance; Jerome (Ep. 112.13) says they believed in Christ the Son of God born of Mary. So only the Ebionites are reported to deny his deity; it is the Nazarenes who were reported to accept the virgin birth and sonship.",
+   "correction": "and its heirs the Ebionites (and, on some readings, the Nazarenes) held that Jesus was a human Messiah and prophet",
+   "sources": [
+    "Epiphanius, Panarion 29.7.2-3; Jerome, Ep. 112.13"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--the-original-jerusalem-church-was-closest-to-isl",
+   "snippet": "Scholars recognise them as the original form of the movement.",
+   "status": "misleading",
+   "problem": "No scholarly consensus: Jewish Christianity was diverse; Ebionites are first attested c. 180 (Irenaeus) and the link to the Jerusalem church is disputed (Skarsaune, Pritz, Bauckham). Acts 15 and Gal 2:9 show James and Paul in agreement on the mission.",
+   "correction": "Some scholars regard Jewish-Christian groups as continuing the Jerusalem church, but this is disputed.",
+   "sources": [
+    "Pritz, Nazarene Jewish Christianity; Skarsaune and Hvalvik, Jewish Believers in Jesus"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--the-original-jerusalem-church-was-closest-to-isl",
+   "snippet": "Petri Luomanen finds that the Ebionites described by Irenaeus match the profile of the early Jerusalem church.",
+   "status": "unverifiable",
+   "problem": "Not verified.",
+   "correction": null,
+   "sources": [
+    "Luomanen, Recovering Jewish-Christian Sects and Gospels (2012)"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--the-original-jerusalem-church-was-closest-to-isl",
+   "snippet": "their founding link to the Jerusalem church is attested by Epiphanius and Eusebius",
+   "status": "misleading",
+   "problem": "Eusebius HE 3.27 does not link the Ebionites to Jerusalem; HE 3.5.3 (Pella) concerns the Jerusalem church generally. Only Epiphanius (Pan. 30.2.7) makes the Pella link.",
+   "correction": "their link to the Jerusalem church is attested by Epiphanius",
+   "sources": [
+    "Eusebius HE 3.5.3, 3.27; Epiphanius Pan. 30.2.7"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--the-original-jerusalem-church-was-closest-to-isl",
+   "snippet": "Epiphanius says the Nazarenes descended from the Jerusalem church that fled to Pella before 70 CE ( Panarion 29)",
+   "status": "weak_source",
+   "problem": "Panarion 29.7.7-8 does say this, but Epiphanius wrote in the 4th century, and the Pella tradition itself is debated (Brandon, Lüdemann).",
+   "correction": null,
+   "sources": [
+    "Epiphanius, Panarion 29.7.7-8; Eusebius HE 3.5.3"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--jesus-practised-islam-submission-to-the-one-god",
+   "snippet": "Matt 7:12 and James 2:8",
+   "status": "misleading",
+   "problem": "Jas 2:8 cites Lev 19:18 (\"royal law\"), not Matt 7:12; the link is loose. Matt 5:3 / Jas 2:5 and Matt 5:34-37 / Jas 5:12 are the strongest parallels.",
+   "correction": "Matt 5:3 and James 2:5; Matt 5:34-37 and James 5:12",
+   "sources": [
+    "James 2:8; Lev 19:18"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--quran-61-14-who-were-the-believers-who-prevailed",
+   "snippet": "Classical commentators such as Ibrahim al-Nakha'i and Muqatil explain",
+   "status": "unverifiable",
+   "problem": "Could not verify the Nakha'i and Muqatil attributions in Tabari or Muqatil's tafsir for 61:14; Tabari and others give several readings, including believers in Jesus becoming dominant before Islam.",
+   "correction": null,
+   "sources": [
+    "Tabari, Jami al-bayan on 61:14; Muqatil, Tafsir"
+   ]
+  },
+  {
+   "arg_id": "s-jewish-xn--quran-61-14-who-were-the-believers-who-prevailed",
+   "snippet": "\"the truth everywhere prevailed; we who were few became far more\"",
+   "status": "unverifiable",
+   "problem": "No book/chapter given; could not locate in the Pseudo-Clementine Recognitions.",
+   "correction": null,
+   "sources": [
+    "Pseudo-Clementine Recognitions 1.? (not located)"
+   ]
+  }
+ ]
+}

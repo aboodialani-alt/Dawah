@@ -1,0 +1,132 @@
+{
+  "id": "s-apostasy",
+  "title": "Apostasy and blasphemy",
+  "intro": "These are the questions where evasion is most costly. The majority classical position on apostasy is capital punishment after a call to repent, and several Muslim-majority countries have blasphemy laws with severe penalties. If you pretend otherwise, the first search result will refute you. The sound approach has three parts. First, state the classical ruling accurately and say who may apply it. Second, show what the sources actually say about belief, compulsion and the Prophet’s own conduct, including where scholars dissent. Third, keep the comparison fair: every society limits some speech and punishes betrayal in time of war. Condemn mob violence clearly, since Islamic law gives no private person the right to punish.",
+  "args": [
+    {
+      "title": "What the classical law says on apostasy, stated honestly",
+      "thesis": "The majority of classical jurists held that a Muslim who publicly abandons Islam is to be called to repent and then, if he refuses, faces the death penalty from a court. There are early and modern dissenting views. A debater should state this plainly before giving context.",
+      "premises": [
+        "You cannot defend or explain a ruling you have misstated.",
+        "The hadith and the practice of the early schools support a capital penalty for apostasy after repentance is offered, as the mainstream position.",
+        "A continuous line of scholars, early and contemporary, restricts or rejects the penalty, and the penalty is for courts, not individuals."
+      ],
+      "conclusion": "State the majority ruling accurately, say who may apply it and under what conditions, and then show the debate within the tradition. This gives you credibility and keeps the discussion on the real issues.",
+      "evidence": [
+        "<strong>The hadith.</strong> “Whoever changes his religion, kill him” (Bukhari 6922). And: “The blood of a Muslim is not lawful except for one of three: a life for a life, a married adulterer, and the one who leaves his religion and separates from the community” (Bukhari 6878, Muslim 1676). The second wording ties the offence to leaving and “separating from the community”.",
+        "<strong>The schools.</strong> The majority hold that the apostate is called to repent first. The Hanafis hold that women are imprisoned and not killed, while the other schools include women. The Malikis give three days’ delay.",
+        "<strong>Umar’s reaction.</strong> When told that an apostate had been killed straight away, Umar said: “Why did you not imprison him for three days, give him a loaf every day, and call him to repent? Perhaps he would have repented and Allah would have accepted him” (Muwatta Malik).",
+        "<strong>Dissent.</strong> Ibrahim al-Nakha‘i and Sufyan al-Thawri held that the apostate should be invited to repent indefinitely. In modern times Mahmud Shaltut and Taha Jabir al-Alwani (<em>La ikraha fi al-din</em>) argued that the penalty is discretionary or limited to those who fight the community, and Abdullah Saeed and Hassan Saeed wrote <em>Freedom of Religion, Apostasy and Islam</em> (2004) in the same direction.",
+        "<strong>Who applies it.</strong> Fixed penalties are for a judge in a functioning Islamic court, never for individuals, and a Muslim minority living in a non-Muslim state is not authorised to apply them."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“So you want to kill people who leave Islam?”", "a": "No Muslim in a non-Muslim society is allowed to punish anyone, and no individual in any society may do so. The classical law assigns the decision to a court and has the conditions above. The question of whether and how it should be applied in modern states is debated among Muslim scholars, as the dissenting views show. I would rather give you the accurate position than deny it."},
+        {"q": "“Your dissenters are a minority.”", "a": "They are a minority on the question of punishment, and I said so. But they are classical as well as modern, and their argument is based on the sources, the Quran’s silence on any earthly penalty and the Prophet’s own practice (see the next two arguments)."}
+      ],
+      "practice": {
+        "q": "Islam says apostates must be executed. Is that true or not?",
+        "a": "The majority of classical jurists said yes, after a call to repent, and carried out by a court, based on Bukhari 6922 and the hadith of the three cases (Bukhari 6878). I won’t deny it. But there is a long tradition of dissent from al-Nakha‘i and al-Thawri to Shaltut and al-Alwani, Umar objected to a man’s execution without a chance to repent, and the Quran itself names no earthly penalty. So the honest answer is: that is the majority classical ruling, and it is debated."
+      },
+      "summary": "The majority classical ruling is death for apostasy after a call to repent, by a court. There is early and modern dissent, no private person may apply it, and a debater should say all three."
+    },
+    {
+      "title": "“No compulsion in religion” and the apostasy ruling",
+      "thesis": "The Quran guarantees freedom to choose belief, never prescribes an earthly penalty for apostasy, and the classical ruling is linked to public defection from the community. The tension is real and the answers are scholarly, not rhetorical.",
+      "premises": [
+        "Entering Islam is not by force, which the Quran states repeatedly.",
+        "The Quran speaks of apostasy only with consequences in the hereafter.",
+        "The classical jurists treated apostasy as a public act with consequences for the community, which is why they often compare it to treason."
+      ],
+      "conclusion": "The ruling cannot be derived from the Quran’s text on belief alone, and defenders must give the full reasoning, including its disputed parts, rather than quoting 2:256 as if it settled the matter.",
+      "evidence": [
+        "<strong>Freedom of belief.</strong> “There is no compulsion in religion; the right path has become clear from the wrong” (2:256). “Would you then compel the people until they become believers?” (10:99). “Say: the truth is from your Lord, so whoever wills let him believe, and whoever wills let him disbelieve” (18:29). “You are only a reminder; you are not a controller over them” (88:21-22).",
+        "<strong>The Quran’s verses on apostasy.</strong> 2:217, 3:90, 4:137 and 16:106 speak of loss in this world and the next and a severe punishment from God, but none prescribes an earthly penalty.",
+        "<strong>The treason analogy.</strong> Many classical jurists linked the death penalty to apostasy together with leaving the community (the second wording of the hadith in Muslim 1676). Most states treat betrayal in wartime harshly: treason can carry death under US federal law (18 U.S.C. § 2381), and wartime desertion was punished by execution (Private Eddie Slovik in 1945).",
+        "<strong>The limits of the analogy.</strong> A critic will say that belief is not treason. The classical argument is that in the early community religion was the political identity, so public renunciation was treated as defection. Whether that logic applies now is exactly what contemporary scholars dispute."
+      ],
+      "arabic": [
+        {"text": "لَا إِكْرَاهَ فِي الدِّينِ ۖ قَدْ تَبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ", "cite": "2:256"}
+      ],
+      "objections": [
+        {"q": "“You cannot have both 2:256 and a death penalty.”", "a": "The verse guarantees that nobody is forced in, and Islamic law has historically distinguished a private change of belief, which jurists said could not be investigated, from public renunciation. The ruling is a point of dispute inside the tradition, and I have not claimed that it fully resolves the tension; I have said where the debate lies."},
+        {"q": "“Treason is about betraying the state, not changing your mind.”", "a": "That is the strongest objection and the reason many modern scholars reject the penalty for private belief. The classical position is a claim about a particular historical polity, and modern jurists such as al-Alwani argue the reasoning does not carry over."}
+      ],
+      "practice": {
+        "q": "How can Islam say there is no compulsion in religion and then execute apostates?",
+        "a": "The Quran does say there is no compulsion (2:256), and it names no earthly punishment for apostasy. The classical jurists attached the penalty to public defection from the community, comparing it to treason, and many modern scholars say that reasoning no longer applies. I admit there is a tension and that scholars dispute how to resolve it, but I would not say the rule is simply a command to force belief."
+      },
+      "summary": "The Quran guarantees no compulsion (2:256) and names no earthly penalty for apostasy. The classical ruling rests on hadith and public defection, and modern scholars dispute whether it still applies."
+    },
+    {
+      "title": "The Prophet’s own record with those who left",
+      "thesis": "The Prophet’s ﷺ recorded handling of people who left Islam, or were suspected of insincere belief, was largely restraint, and the people executed were tied to murder, theft or armed rebellion.",
+      "premises": [
+        "The Prophet’s ﷺ practice is the best evidence of how the rulings were applied.",
+        "In many recorded cases of apostasy or hypocrisy he did not punish the person.",
+        "The cases of execution involved violence, desertion in war or armed rebellion, not belief alone."
+      ],
+      "conclusion": "The Prophet’s own record supports reading the penalty as tied to violence and betrayal and does not show a general policy of killing people for belief. This is the strongest historical support for the dissenting view, and it is used with the honest note that the majority of jurists read the hadith more broadly.",
+      "evidence": [
+        "<strong>The Bedouin who left.</strong> A Bedouin came to the Prophet ﷺ, pledged allegiance, fell ill, and asked to withdraw it. The Prophet declined three times, and the man left Medina; no action was taken (Bukhari 7211).",
+        "<strong>Abdullah ibn Ubayy.</strong> The leader of the hypocrites was not executed, though Umar asked, because the Prophet ﷺ said: “People would say that Muhammad kills his companions” (Bukhari 4905, Muslim 2584).",
+        "<strong>Abdullah ibn Sa‘d ibn Abi Sarh.</strong> A scribe who apostatised and fled to Mecca, then was pardoned at the conquest after Uthman’s intercession (Abu Dawud 2683).",
+        "<strong>Ubaydullah ibn Jahsh.</strong> He left Islam for Christianity in Abyssinia, and the sources report no action against him (Ibn Ishaq).",
+        "<strong>Hudaybiyyah.</strong> The treaty of Hudaybiyyah required Muslims to send back anyone from Quraysh who came over without his guardian’s permission, while Quraysh was not required to return anyone who went from the Muslims to them. The Prophet ﷺ accepted this and said: “Whoever goes from us to them, may Allah keep him far away” (Muslim 1784). He did not order such people pursued.",
+        "<strong>Those who were executed.</strong> The ‘Urayna group accepted Islam, killed a shepherd, mutilated him and stole the camels, and were punished for that (Bukhari 233, 3018). In Abu Bakr’s Ridda wars the fighting was against tribes that withheld zakat in rebellion and against false claimants such as Musaylima who had armies."
+      ],
+      "arabic": [],
+      "objections": [
+        {"q": "“Bukhari 6922 says kill him. You are ignoring it.”", "a": "I am not ignoring it; it is the main proof of the majority view and I have set it out. The question is how the Prophet ﷺ applied his own words, and the record shows restraint and punishment tied to violence or rebellion. The majority jurists read the hadith as general; the dissenters read it in light of this record."},
+        {"q": "“Those pardoned were exceptions.”", "a": "They are the recorded cases. If belief alone were a capital offence enforced without exception, the exceptions would be the rule. That the Prophet ﷺ gave reasons (such as avoiding the label ‘Muhammad kills his companions’) shows he considered the effect on the community."}
+      ],
+      "practice": {
+        "q": "The Prophet ordered people killed for leaving Islam.",
+        "a": "The recorded cases show otherwise. A Bedouin withdrew his pledge and was let go (Bukhari 7211), Ibn Ubayy was left alone (Bukhari 4905), Abdullah ibn Sa‘d was pardoned (Abu Dawud 2683), and at Hudaybiyyah the Prophet accepted that people who went to Quraysh would not be pursued (Muslim 1784). The group executed in Bukhari 233 had killed and robbed. The majority jurists read Bukhari 6922 more broadly, and I would tell you that."
+      },
+      "summary": "The Prophet ﷺ let the Bedouin go, spared Ibn Ubayy, pardoned Abdullah ibn Sa‘d and accepted the Hudaybiyyah clause; those executed had killed or rebelled. Majority jurists still read the hadith more broadly."
+    },
+    {
+      "title": "Blasphemy: classical rulings, patience, and the free-speech comparison",
+      "thesis": "Classical law treats public insult of the Prophet ﷺ as a grave offence, schools differ on the penalty and on non-Muslims, and the Quran and Sunnah command patience under insult. Modern statutes are often broader than the classical law, and mob action has no basis in it.",
+      "premises": [
+        "Every society limits some speech, and the question is where and why.",
+        "Classical Islamic law and the Prophet’s own conduct under insult are more nuanced than the modern headlines suggest.",
+        "Vigilante violence over blasphemy has no basis in Islamic law."
+      ],
+      "conclusion": "Islam treats insult of the sacred as serious, commands patience in response to personal abuse, leaves penalties to a court, and applies no more of a double standard than states that restrict speech they find intolerable.",
+      "evidence": [
+        "<strong>The Quran’s tone.</strong> “Do not insult those they invoke besides Allah, lest they insult Allah in enmity without knowledge” (6:108). “Repel evil by that which is better” (41:34). “When you hear the verses of Allah denied and mocked, do not sit with them” (4:140), which prescribes leaving the gathering, not violence.",
+        "<strong>The Prophet’s patience.</strong> When some Jews greeted him with “al-sam ‘alaykum” (death be upon you), Aisha answered in kind and he said: “Gently, Aisha” (Bukhari 6024). At Ta’if the angel of the mountains offered to crush the town, and he refused (Bukhari 3231).",
+        "<strong>Ka‘b ibn al-Ashraf.</strong> The best-known case of a man killed for insulting the Prophet ﷺ (Bukhari 4037) is one where he was also inciting Quraysh to war, breaking the Medina covenant, and composing verses against Muslim women. Classical jurists differ on whether the case shows a rule on insult alone.",
+        "<strong>The schools.</strong> The Malikis, Shafi‘is and Hanbalis (see Ibn Taymiyya’s <em>al-Sarim al-maslul</em>) hold that insulting the Prophet ﷺ merits death. The Hanafis hold that a non-Muslim who insults is not put to death for it, and that a Muslim who does so is an apostate. The details of repentance also differ.",
+        "<strong>Modern statutes.</strong> Pakistan’s section 295-C was introduced in 1986, and the Federal Shariat Court in 1990 held that death should be the only penalty. Accusations there are frequently used to settle personal and property disputes, and mob killings (Mashal Khan in 2017) and the assassination of Salmaan Taseer in 2011 show the danger. These are not required by classical law, and many Pakistani scholars condemn them.",
+        "<strong>The comparison.</strong> England’s blasphemy law was only abolished in 2008, the last major case being <em>Whitehouse v Lemon</em> (1979); Ireland abolished its offence in 2018 after a referendum. Germany (§130 of its Criminal Code) and France (the Gayssot Act of 1990) criminalise forms of speech such as Holocaust denial, and Britain restricts incitement to hatred. No state has unlimited speech."
+      ],
+      "arabic": [
+        {"text": "وَلَا تَسُبُّوا الَّذِينَ يَدْعُونَ مِن دُونِ اللَّهِ فَيَسُبُّوا اللَّهَ عَدْوًا بِغَيْرِ عِلْمٍ", "cite": "6:108"}
+      ],
+      "objections": [
+        {"q": "“So Muslims want to kill anyone who draws the Prophet.”", "a": "No. The classical law gives the penalty to a court, the Quran commands leaving mocking gatherings (4:140), and the Prophet’s own example was patience (Bukhari 6024, 3231). Individuals who kill over insult act against Islamic law, and many scholars have said so after each such incident."},
+        {"q": "“Free speech is an absolute value in the West.”", "a": "It is not. Germany and France criminalise Holocaust denial, the UK criminalises incitement to hatred, and until 2008 England had a blasphemy offence, which Ireland abolished only in 2018. The real question is which speech a society chooses to restrict and why. Muslims say the sacred also deserves protection, and you may disagree, but then we are discussing where to draw a line, not whether to draw one."}
+      ],
+      "practice": {
+        "q": "Islam punishes blasphemy by death. That is the opposite of free speech.",
+        "a": "The classical schools do treat insulting the Prophet ﷺ as grave, and they differ on the penalty and on non-Muslims. But the Quran tells believers to leave mocking gatherings (4:140) and repel evil with good (41:34), and the Prophet ﷺ answered abuse with patience (Bukhari 6024). Private violence is forbidden, and modern laws like Pakistan’s 295-C go beyond the classical rulings and are abused. And no society has absolute free speech: Germany and France criminalise Holocaust denial, and England had a blasphemy law until 2008."
+      },
+      "summary": "Classical schools treat insulting the Prophet ﷺ as grave but differ on penalties, the Quran and Prophet teach patience, vigilantism is forbidden, modern statutes overreach, and no society has unlimited speech."
+    }
+  ],
+  "cards": [
+    ["Which hadith says “whoever changes his religion, kill him”?", "Bukhari 6922"],
+    ["Which hadith lists the three cases for lawful killing, including leaving the religion and separating from the community?", "Bukhari 6878 and Muslim 1676"],
+    ["What did Umar say about an apostate killed without delay?", "“Why did you not imprison him for three days and call him to repent?” (Muwatta Malik)"],
+    ["Name two classical scholars who allowed indefinite repentance.", "Ibrahim al-Nakha‘i and Sufyan al-Thawri"],
+    ["Which verse guarantees no compulsion in religion?", "2:256"],
+    ["Which hadith shows a Bedouin leaving without punishment?", "Bukhari 7211"],
+    ["Why did the Prophet ﷺ not execute Abdullah ibn Ubayy?", "“People would say Muhammad kills his companions” (Bukhari 4905)"],
+    ["What was the crime of the ‘Urayna group?", "They killed the shepherd and stole the camels (Bukhari 233)"],
+    ["Which verse forbids insulting what others invoke besides Allah?", "6:108"],
+    ["When did England abolish its blasphemy offence?", "2008 (Ireland: 2018)"]
+  ]
+}

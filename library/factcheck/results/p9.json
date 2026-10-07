@@ -1,0 +1,347 @@
+{
+ "part": "p9",
+ "arguments_checked": 12,
+ "findings": [
+  {
+   "arg_id": "s-text--seven-ahruf-seven-readings-ten-readings-three-diff",
+   "snippet": "All ten readings share the same Uthmanic consonantal outline",
+   "status": "misleading",
+   "problem": "Overstated. The regional Uthmanic codices differed in a few rasm details that the canonical readings preserve (e.g. 2:132 wawsa/awsa, 9:100 with or without 'min', 57:24 with or without 'huwa', 3:133 and 3:184 with or without waw/ba'). Almost all variants are in vowels and dots, but not all.",
+   "correction": "All ten readings fit the Uthmanic consonantal outline, with a handful of well-known rasm differences between the regional codices (for example 2:132, 9:100, 57:24)",
+   "sources": [
+    "Ibn al-Jazari, al-Nashr fi al-Qira'at al-'Ashr",
+    "Abu 'Amr al-Dani, al-Muqni' fi rasm masahif al-amsar"
+   ]
+  },
+  {
+   "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+   "snippet": "placed it, with 95 percent probability, roughly between 578 and 669 CE, which means the first half-century or so after the Prophet’s death",
+   "status": "error",
+   "problem": "The range 578-669 CE (95% probability, Sadeghi and Bergmann 2010) starts about 54 years before the Prophet's death in 632 and mostly spans his lifetime, so it is not 'the first half-century after his death'. Sadeghi and Bergmann argue that the parchment predates about 671 CE and that the text is pre-Uthmanic.",
+   "correction": "placed it, with about 95 percent probability, between 578 and 669 CE, a range that covers the Prophet's lifetime and the following decades (they argue for a date before about 671)",
+   "sources": [
+    "https://www.jstor.org/ Sadeghi & Bergmann, Arabica 57 (2010) 343-436",
+    "https://en.wikipedia.org/wiki/Sanaa_manuscript"
+   ]
+  },
+  {
+   "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+   "snippet": "it is dated to the first generation after the Prophet ﷺ",
+   "status": "misleading",
+   "problem": "Radiocarbon dates the parchment, not the writing, and the 578-669 range includes the Prophet's own lifetime. 'First generation' is acceptable only as 'by roughly the mid-seventh century'.",
+   "correction": "it is dated by radiocarbon to between 578 and 669 CE (parchment), i.e. no later than the first decades of Islam",
+   "sources": [
+    "Sadeghi & Bergmann, Arabica 57 (2010)"
+   ]
+  },
+  {
+   "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+   "snippet": "Their own conclusion is that it is close to the codices the sources attribute to the Companions.",
+   "status": "misleading",
+   "problem": "Sadeghi and Goudarzi argue the lower text is a distinct, pre-Uthmanic text-type, of a Companion-codex kind, and that it is not identical to any reported Companion codex. They also argue it shows the Uthmanic text is a later edited form and may be closer to the Prophet's own Qur'an in places. The page presents their view as simply confirming the traditional account, which they do not claim.",
+   "correction": "Their conclusion is that it is a non-Uthmanic text-type of the kind the sources attribute to Companion codices, though not identical to any reported codex; they draw conclusions about the text's early history that go beyond the traditional account, which a debater should acknowledge",
+   "sources": [
+    "Sadeghi & Goudarzi, Der Islam 87 (2012) 1-129",
+    "Sadeghi & Bergmann, Arabica 57 (2010)"
+   ]
+  },
+  {
+   "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+   "snippet": "Even its editors describe it as the same Quran with variations.",
+   "status": "misleading",
+   "problem": "Sadeghi and Goudarzi do call it a Qur'an text with a different text-type, but they stress that it differs from the Uthmanic text in many places and that the Uthmanic codex was a later editorial product, so 'the same Quran' is the page's gloss, not their wording.",
+   "correction": "Even its editors treat it as a Qur'an text, while arguing that it represents a different, pre-Uthmanic text-type.",
+   "sources": [
+    "Sadeghi & Goudarzi, Der Islam 87 (2012)"
+   ]
+  },
+  {
+   "arg_id": "s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+   "snippet": "Ibn Mas‘ud, Ubayy and others had private codices with variant wording and a different surah order, that this alarmed Hudhayfa, and that Uthman had a standard copy written and sent to the main cities (Bukhari 4987)",
+   "status": "weak_source",
+   "problem": "Bukhari 4987 mentions Hudhayfa, Zayd and the committee and copies sent to every region, but not Ibn Mas'ud, Ubayy, or different surah order. Those details come from other reports (e.g. Ibn Abi Dawud, al-Masahif; Bukhari 5000 and 3806 for Ibn Mas'ud/Ubayy).",
+   "correction": "... (Bukhari 4987 for Hudhayfa and the copies; Ibn Abi Dawud's al-Masahif for the other codices)",
+   "sources": [
+    "https://sunnah.com/bukhari:4987"
+   ]
+  },
+  {
+   "arg_id": "s-text--birmingham-t-bingen-and-the-radiocarbon-dates",
+   "snippet": "Surahs 18-20 are Meccan, revealed from the early years of his mission",
+   "status": "misleading",
+   "problem": "Surah 19 and 20 are Meccan but not usually early, and some verses of 18 (28, 83-101) are considered Medinan by some. 'From the early years' is too strong.",
+   "correction": "Surahs 18-20 are traditionally classed as Meccan",
+   "sources": [
+    "https://quran.com/18"
+   ]
+  },
+  {
+   "arg_id": "s-text--birmingham-t-bingen-and-the-radiocarbon-dates",
+   "snippet": "belong to the same early Hijazi tradition and are dated by palaeography to the first and early second centuries of Islam",
+   "status": "misleading",
+   "problem": "The sentence lists the Sana'a leaves among manuscripts 'dated by palaeography', but Sana'a was radiocarbon-dated. Palaeographic dating of Arabe 328a and Or. 2165 is also approximate and debated.",
+   "correction": "belong to the same early Hijazi tradition; the Sana'a leaves are radiocarbon-dated, the others are dated palaeographically to roughly the first two centuries of Islam",
+   "sources": [
+    "Sadeghi & Bergmann 2010"
+   ]
+  },
+  {
+   "arg_id": "s-text--uthman-s-standardisation-what-it-did-and-did-not-d",
+   "snippet": "Copies were sent to the main centres such as Kufa, Basra and Damascus, one was kept in Medina, and other copies and sheets were retired (Bukhari 4987).",
+   "status": "weak_source",
+   "problem": "Bukhari 4987 says Uthman sent a copy to every Muslim region and ordered other material burned; it names no cities. The city list and the number of copies (4, 5, 6 or 7) vary in other reports.",
+   "correction": "Copies were sent to the Muslim regions (Bukhari 4987); later reports name centres such as Kufa, Basra and Damascus, with Medina keeping one, and accounts differ on the number of copies",
+   "sources": [
+    "https://sunnah.com/bukhari:4987"
+   ]
+  },
+  {
+   "arg_id": "s-text--uthman-s-standardisation-what-it-did-and-did-not-d",
+   "snippet": "passes through readers who learned from Ibn Mas‘ud and Ali, so the supposedly suppressed Kufan tradition is part of the canon",
+   "status": "misleading",
+   "problem": "Asim's Hafs line goes mainly through Abu Abd al-Rahman al-Sulami from Ali, and Shu'ba's line through Zirr ibn Hubaysh from Ibn Mas'ud. But Ibn Mas'ud's variants that contradicted the Uthmanic rasm are not canonical, and the reports that his codex lacked the Fatiha and the Mu'awwidhatayn are rejected. So his reading survives only in part.",
+   "correction": "passes through readers who learned from Ali (Hafs, via al-Sulami) and Ibn Mas'ud (Shu'ba, via Zirr), so part of the Kufan tradition is in the canon, though Ibn Mas'ud's variants that depart from the Uthmanic outline are not",
+   "sources": [
+    "Ibn al-Jazari, al-Nashr",
+    "Ibn Abi Dawud, al-Masahif"
+   ]
+  },
+  {
+   "arg_id": "s-text--uthman-s-standardisation-what-it-did-and-did-not-d",
+   "snippet": "so nothing important was lost",
+   "status": "misleading",
+   "problem": "Overclaim. Readings of Ibn Mas'ud and Ubayy that conflict with the Uthmanic outline are classed shadh and were not retained as canonical. The defensible claim is that nothing the community regarded as Qur'an was lost.",
+   "correction": "so nothing the community counted as Qur'an was lost",
+   "sources": [
+    "Ibn al-Jazari, al-Nashr"
+   ]
+  },
+  {
+   "arg_id": "s-sources--luxenberg-s-syro-aramaic-reading-and-why-specialis",
+   "snippet": "Walid Saleh’s “The Etymological Fallacy and Quranic Studies” (2008)",
+   "status": "error",
+   "problem": "Saleh's essay appeared in A. Neuwirth, N. Sinai, M. Marx (eds), The Qur'an in Context (Leiden: Brill, 2010), pp. 649-698. 2008 is wrong.",
+   "correction": "Walid Saleh’s “The Etymological Fallacy and Quranic Studies” (2010)",
+   "sources": [
+    "https://www.academia.edu/1207713"
+   ]
+  },
+  {
+   "arg_id": "s-sources--luxenberg-s-syro-aramaic-reading-and-why-specialis",
+   "snippet": "early Quran manuscripts carry dots and strokes in many places",
+   "status": "misleading",
+   "problem": "Early Hijazi manuscripts mostly lack consonant dots; dots and strokes are sparse and inconsistent. 'Many places' overstates it.",
+   "correction": "some early Quran manuscripts carry dots and strokes in places",
+   "sources": [
+    "https://www.islamic-awareness.org/ (Hijazi script)"
+   ]
+  },
+  {
+   "arg_id": "s-sources--luxenberg-s-syro-aramaic-reading-and-why-specialis",
+   "snippet": "Arabic writing with dots is already attested in papyri from the 640s (for example PERF 558, dated 22 AH/643 CE)",
+   "status": "unverifiable",
+   "problem": "PERF 558 (Ramadan 22 AH, April 643) is the earliest dated Arabic papyrus and is reported to show some dots, but I could not open an edition to confirm which letters are pointed. Keep the claim modest: some pointing.",
+   "correction": "Some dotting is already attested in papyri from the 640s (for example PERF 558, dated 22 AH/643 CE)",
+   "sources": [
+    "Grohmann, Arabic Papyri; Hoyland, Arabia and the Arabs"
+   ]
+  },
+  {
+   "arg_id": "s-sources--the-teacher-claims-bahira-waraqa-and-the-foreign-t",
+   "snippet": "“and he died soon after, and the revelation paused” (Bukhari 3)",
+   "status": "misleading",
+   "problem": "This is a paraphrase placed in quotation marks. Bukhari 3 reads roughly 'Waraqa did not live long after that and died, and the revelation paused for a while'.",
+   "correction": "he died soon after, and the revelation paused for a while (Bukhari 3, paraphrased)",
+   "sources": [
+    "https://sunnah.com/bukhari:3"
+   ]
+  },
+  {
+   "arg_id": "s-sources--a-student-who-contradicts-his-teachers-on-every-ce",
+   "snippet": "a form no Christian community used",
+   "status": "error",
+   "problem": "Syriac Christians did use Ishoʿ (East Syriac) alongside Yeshuʿ, and most scholars (Jeffery, Nöldeke) derive Quranic ʿIsa from such a Christian or Jewish Aramaic form. The claim is false as stated.",
+   "correction": "a form that differs from the usual Arabic Christian Yasuʿ and whose origin is debated (an Aramaic Ishoʿ or a Jewish form)",
+   "sources": [
+    "Arthur Jeffery, The Foreign Vocabulary of the Qur'an"
+   ]
+  },
+  {
+   "arg_id": "s-sources--a-student-who-contradicts-his-teachers-on-every-ce",
+   "snippet": "born of a virgin, who says “I am the servant of God”, 19:30) resembles the view of early Jewish Christians more than that of the Syriac Church",
+   "status": "error",
+   "problem": "The Ebionites rejected the virgin birth (Irenaeus, Adv. Haer. 1.26), and the Syriac church accepted it, so the virgin birth does not favour the Jewish-Christian parallel. Only some Jewish Christian groups (Nazoreans) accepted it.",
+   "correction": "born of a virgin, who says “I am the servant of God”, 19:30) agrees with the Jewish-Christian view that Jesus was a human prophet and messiah, though on the virgin birth the Quran agrees with the Syriac Church and not the Ebionites",
+   "sources": [
+    "Irenaeus, Adversus Haereses 1.26.2",
+    "Eusebius, Hist. Eccl. 3.27"
+   ]
+  },
+  {
+   "arg_id": "s-sources--a-student-who-contradicts-his-teachers-on-every-ce",
+   "snippet": "rejects the Trinity, the divinity of Jesus, the crucifixion and original sin",
+   "status": "misleading",
+   "problem": "Syriac Christianity (unlike Augustinian Latin theology) did not teach original sin, so it cannot be listed among the doctrines the Quran 'overturns'. No verse is cited for it either.",
+   "correction": "rejects the Trinity, the divinity of Jesus and the crucifixion",
+   "sources": [
+    "Sebastian Brock, The Luminous Eye"
+   ]
+  },
+  {
+   "arg_id": "s-sources--a-student-who-contradicts-his-teachers-on-every-ce",
+   "snippet": "in a trading town where the Christian sources were remote and untranslated into Arabic",
+   "status": "misleading",
+   "problem": "Christianity was well established among Arab tribes (Najran, Hira, Ghassan, Yemen), and Meccan traders travelled to Syria and Yemen. 'Remote' overstates the case.",
+   "correction": "in a town whose Christian contacts were mainly through travel and trade, with no Arabic Bible",
+   "sources": [
+    "Irfan Shahid, Byzantium and the Arabs"
+   ]
+  },
+  {
+   "arg_id": "s-revision--the-petra-qibla-theory",
+   "snippet": "What is between the east and the west is a qibla” (Tirmidhi 342; Ibn Majah 1011)",
+   "status": "misleading",
+   "problem": "The hadith (from Abu Hurayra) is a general statement and does not say it was told to the people of Medina; scholars apply it to those north of Mecca, such as Medina. The sentence introducing the quote attributes it to the people of Medina.",
+   "correction": "“What is between the east and the west is a qibla” (Tirmidhi 342; Ibn Majah 1011), which scholars apply to those living north of Mecca, such as Medina",
+   "sources": [
+    "https://sunnah.com/tirmidhi:342",
+    "https://sunnah.com/ibnmajah:1011"
+   ]
+  },
+  {
+   "arg_id": "s-revision--the-petra-qibla-theory",
+   "snippet": "The Prophet ﷺ told the people of Medina",
+   "status": "misleading",
+   "problem": "Tirmidhi 342 and Ibn Majah 1011 do not specify an addressee.",
+   "correction": "The Prophet ﷺ said",
+   "sources": [
+    "https://sunnah.com/tirmidhi:342"
+   ]
+  },
+  {
+   "arg_id": "s-revision--the-petra-qibla-theory",
+   "snippet": "was a small settlement by the seventh century",
+   "status": "misleading",
+   "problem": "Petra still had a Byzantine Christian community (a bishopric and churches) into the sixth century and was damaged again by the 551 earthquake. 'Declined sharply' is safe, 'small settlement' is a reasonable but approximate summary.",
+   "correction": "had greatly declined by the seventh century",
+   "sources": [
+    "Zeitler, Petra archaeology; https://en.wikipedia.org/wiki/Petra"
+   ]
+  },
+  {
+   "arg_id": "s-revision--from-the-meccan-trade-debate-to-mecca-did-not-exis",
+   "snippet": "a different one that nobody in the field makes",
+   "status": "misleading",
+   "problem": "Overstated. Hagarism (1977) proposed that the original Muslim sanctuary lay in north-west Arabia, and Dan Gibson and some popular writers argue Mecca was a later site. The page's own Petra argument rests on this.",
+   "correction": "a different one that few specialists make (it is argued by popular writers and revisionists such as Gibson)",
+   "sources": [
+    "Crone & Cook, Hagarism (1977)"
+   ]
+  },
+  {
+   "arg_id": "s-revision--from-the-meccan-trade-debate-to-mecca-did-not-exis",
+   "snippet": "Diodorus Siculus’s account of a revered Arabian temple and Ptolemy’s “Macoraba”",
+   "status": "weak_source",
+   "problem": "Identification of Diodorus's temple (3.42) and Ptolemy's Macoraba with Mecca is disputed; Crone rejected both. They are suggestive at best, and the page should say they are disputed.",
+   "correction": "Diodorus Siculus’s account of a revered Arabian temple and Ptolemy’s “Macoraba” (identifications with Mecca are disputed and Crone rejected them)",
+   "sources": [
+    "Crone, Meccan Trade and the Rise of Islam (1987)"
+   ]
+  },
+  {
+   "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+   "snippet": "Dated public inscriptions are among the strongest kinds of historical evidence, since they cannot be revised later.",
+   "status": "error",
+   "problem": "The Dome's own foundation inscription was altered: the Abbasid caliph al-Ma'mun's name was substituted for Abd al-Malik's, though the date 72 AH was left in place. Inscriptions can be revised.",
+   "correction": "Dated public inscriptions are among the strongest kinds of historical evidence, though they must be checked for later alteration (the Dome's inscription had al-Ma'mun's name inserted over Abd al-Malik's, while the date 72 AH was left)",
+   "sources": [
+    "Grabar, The Shape of the Holy (1996)",
+    "Blair, 'What is the date of the Dome of the Rock?' (1992)"
+   ]
+  },
+  {
+   "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+   "snippet": "The monument. The Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik, and the inscription gives the date as 72 AH (691-2 CE).",
+   "status": "misleading",
+   "problem": "The inscription now names al-Ma'mun, not Abd al-Malik, as builder (the name was replaced in the Abbasid period). The attribution to Abd al-Malik rests on the surviving date and historical sources.",
+   "correction": "The Dome of the Rock was built by the Umayyad caliph ‘Abd al-Malik; the foundation inscription gives the date 72 AH (691-2 CE) but now carries the name of the Abbasid al-Ma'mun, who substituted it",
+   "sources": [
+    "https://www.islamic-awareness.org/history/islam/inscriptions/DoTR.html"
+   ]
+  },
+  {
+   "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+   "snippet": "the late-composition theories (Wansbrough; the Hagarism school) proposed",
+   "status": "error",
+   "problem": "Wansbrough placed the Quran's composition in the late eighth/ninth century. Hagarism did not: Crone and Cook wrote that there is no hard evidence for the Quran before the last decade of the seventh century, which is compatible with a 691 monument.",
+   "correction": "the late-composition theory (Wansbrough) proposed",
+   "sources": [
+    "Wansbrough, Quranic Studies (1977)",
+    "Crone & Cook, Hagarism (1977), p. 3"
+   ]
+  },
+  {
+   "arg_id": "s-revision--the-quran-in-stone-the-dome-of-the-rock-inscriptio",
+   "snippet": "The quotations closely follow the text we have",
+   "status": "misleading",
+   "problem": "The inscription contains known differences from the standard text (e.g. added phrases and variants in 3:18, wording choices in the Ikhlas and Isra verses, and the 33:56 passage supplemented with a blessing formula). The page admits differences later, which is more accurate than 'closely follow'.",
+   "correction": "The quotations broadly follow the text we have, with some small variants and additions",
+   "sources": [
+    "Grabar, The Shape of the Holy (1996)",
+    "https://www.islamic-awareness.org/history/islam/dome_of_the_rock/estwitness"
+   ]
+  },
+  {
+   "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+   "snippet": "Reports attributed to Aisha, Uthman and Ibn Abbas that scribes made a lahn (“mistake”) in these verses",
+   "status": "misleading",
+   "problem": "The Ibn Abbas reports concern other verses (13:31 and 24:27), and Uthman's report is generic ('I see lahn in it'), not about these three verses. Only the Aisha report names 4:162, 5:69 and 20:63.",
+   "correction": "Reports attributed to Aisha (naming 4:162, 5:69 and 20:63) and to Uthman (generic) say the scribes made a lahn; Ibn Abbas is reported for other verses (13:31, 24:27)",
+   "sources": [
+    "Ibn Abi Dawud, al-Masahif",
+    "al-Suyuti, al-Itqan, naw' on lahn in the Quran"
+   ]
+  },
+  {
+   "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+   "snippet": "Their chains are broken or disputed",
+   "status": "error",
+   "problem": "Al-Suyuti (al-Itqan) transmits the Aisha report (Hisham ibn Urwa from his father, via Abu Ubayd and Sa'id ibn Mansur) and graded its chain sahih on the conditions of the two Shaykhs. Uthman's report is the one with a broken chain. Abu Hayyan and others rejected the Aisha report on grounds of meaning, not chain.",
+   "correction": "The Uthman report has a broken chain, while the chain of the Aisha report is graded sound by al-Suyuti, so scholars rejected it on grounds of meaning (Aisha was an eloquent Arab and the cutting-off construction is well known)",
+   "sources": [
+    "https://islamqa.info/ar/135752",
+    "al-Suyuti, al-Itqan (Aisha report)"
+   ]
+  },
+  {
+   "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+   "snippet": "The reports are weak by their chains",
+   "status": "error",
+   "problem": "Not true of the Aisha report, whose chain al-Suyuti graded sahih. The reports are better answered on grounds of meaning and because lahn means dialect/style.",
+   "correction": "The Uthman report is weak by chain, and the Aisha report is answered on grounds of meaning",
+   "sources": [
+    "al-Suyuti, al-Itqan"
+   ]
+  },
+  {
+   "arg_id": "s-grammar--grammatical-errors-20-63-4-162-5-69-and-the-report",
+   "snippet": "al-Suyuti and Ibn Hajar understood lahn here as meaning dialect, style or a permitted variant, not an error",
+   "status": "unverifiable",
+   "problem": "I could not open the passages in al-Itqan or Fath al-Bari. Suyuti quotes scholars (e.g. Ibn Ashta, Ibn al-Anbari) who read lahn as dialect or style, but attributing this view directly to Ibn Hajar for these reports is unconfirmed.",
+   "correction": "al-Suyuti, citing earlier scholars, reports that lahn here means dialect, style or a permitted variant",
+   "sources": [
+    "al-Suyuti, al-Itqan"
+   ]
+  },
+  {
+   "arg_id": "s-grammar--abrogation-naskh-is-not-god-changing-his-mind",
+   "snippet": "Matthew 5:21-22, 38-39",
+   "status": "error",
+   "problem": "Matthew 5:21-22 is about murder and anger, not oaths. Oaths are Matthew 5:33-37 and retaliation is 5:38-39.",
+   "correction": "Matthew 5:33-34, 38-39",
+   "sources": [
+    "https://www.biblegateway.com/passage/?search=Matthew+5"
+   ]
+  }
+ ]
+}
