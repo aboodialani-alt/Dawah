@@ -53,6 +53,8 @@ All of this is a small sample read from titles and Meedro's own breakdowns. It i
 
 Both quote only references I checked against the open hadith dataset, give the exact wording, and carry an objection check. Both need a real clip or post from the person making the claim. I also found that the library's own Hammam figures (138 and 98) and "whole Sahifa in the Musnad" could not be confirmed, so the DA entry now carries a reviewer note.
 
+- `scripts/B2-romans-prophecy.md`: English, Style B, about 58 seconds, for "Is Muhammad ﷺ a true prophet?". Quran 30:2-4 and Gibbon verified. It also found that the library's "Issus 622" and the wager hadith need care (reviewer note added).
+
 ## Decisions waiting for you
 
 1. Hijab entry: your stance on state enforcement (Review desk).

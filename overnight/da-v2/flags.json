@@ -8,5 +8,10 @@
   "level": "care",
   "text": "Checked on 8 October 2026. Verified in the open hadith dataset: Bukhari 113, Bukhari 2434 ('Write it for Abu Shah'), Abu Dawud 3646 (sahih per al-Albani, al-Muhyi and Zubair Ali Zai), Muslim 3004 and Muslim 1370 (Ali's sheet). Not confirmed from available sources: the counts '138 hadith' and 'ninety-eight in Bukhari or Muslim', and the claim that the whole sahifa is in Musnad Ahmad (one source says all but two hadith). Hammam ibn Munabbih's death is dated 101 AH by Hamidullah and 130 AH by Jonathan Brown, so 'mid-first century' is an inference. Cite Speight and Motzki from their own publications before using their wording on screen.",
   "source": "Claude review, awaiting the owner's decision"
+ },
+ "p1#s-prophecy--the-romans-will-be-victorious-30-2-5": {
+  "level": "care",
+  "text": "Checked on 8 October 2026. Quran 30:2-4 wording verified. Gibbon's sentence confirmed in chapter 46 on CCEL, where Gibbon reports the prediction as 'said to have been delivered'. Not confirmed from available sources: the battle of 'Issus, 622' as named here, and the library's description of Tesei's paper. Tirmidhi 3194 (the wager) is graded daif by al-Albani and hasan by Shakir, Bashar Awad and Zubair Ali Zai, and Tirmidhi 3193 (the 'extend the term' detail) is daif by al-Albani and sahih or hasan by others, so scholars differ. The text does not say when the three to nine years start, so how well 622 to 627 fits depends on the date of revelation. A safer wording is in overnight/scripts/B2-romans-prophecy.md.",
+  "source": "Claude review, awaiting the owner's decision"
  }
 }
