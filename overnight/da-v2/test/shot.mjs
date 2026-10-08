@@ -16,8 +16,9 @@ const srv = http.createServer((q, r) => {
 }).listen(0);
 const port = srv.address().port;
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' }).catch(() => chromium.launch());
-const stub = () => {
-  const mem = {};
+const stub = ({ seed, room }) => {
+  const mem = JSON.parse(JSON.stringify(seed || {}));
+  if (room) { try { localStorage.setItem('sb:room', room); } catch (e) {} }
   const col = name => ({
     onSnapshot(n) { const emit = () => n({ docs: Object.entries(mem[name] || {}).map(([id, d]) => ({ id, data: () => d })) }); setTimeout(emit, 30); (col._l = col._l || {})[name] = emit; return () => {}; },
     doc: id => ({
@@ -30,11 +31,12 @@ const stub = () => {
   sample.json = async () => ({});
   window.claude = { use: async n => (n === 'db' ? { collection: col, doc: p => col(p.split('/')[0]).doc(p.split('/')[1]) } : n === 'sample' ? sample : null) };
 };
+const SEED = process.env.SEED;
 const errs = [];
 for (const spec of pages) {
   for (const [w, h, scheme, tag] of [[1440, 900, 'light', 'd-light'], [1440, 900, 'dark', 'd-dark'], [390, 844, 'dark', 'm-dark']]) {
     const ctx = await b.newContext({ viewport: { width: w, height: h }, colorScheme: scheme });
-    await ctx.addInitScript(stub);
+    await ctx.addInitScript(stub, { seed: SEED ? JSON.parse(fs.readFileSync(SEED, 'utf8')) : null, room: process.env.ROOM || null });
     const p = await ctx.newPage();
     p.on('console', m => { if (m.type() === 'error' && !/fonts\.g|ERR_|net::|Failed to load resource/.test(m.text())) errs.push(spec + ' ' + tag + ' console: ' + m.text()); });
     p.on('pageerror', e => errs.push(spec + ' ' + tag + ' pageerror: ' + e.message));

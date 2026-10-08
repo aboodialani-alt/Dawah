@@ -62,6 +62,19 @@ for blk in blocks:
 (site / "review.json").write_text(json.dumps({"intro": head.replace("# DA additions: draft for review", "").strip().rstrip("-").strip(), "items": items, "questions": questions}, ensure_ascii=False), encoding="utf8")
 print("review items", len(items))
 
+# study tracks: resolve titles to argument ids so a rename cannot silently break a path
+idx = json.loads((site / "idx.json").read_text(encoding="utf8"))
+tracks = json.loads((HERE / "tracks.json").read_text(encoding="utf8"))
+for t in tracks:
+    for s in t["steps"]:
+        hit = [x for x in idx["briefs"] if x["p"] == s["p"] and (x["title"].strip() == s["t"].strip() or x["title"].startswith(s["t"].strip()))]
+        if len(hit) != 1:
+            raise SystemExit(f"track {t['id']}: cannot resolve {s['t']!r}")
+        s["id"] = hit[0]["id"]; s["title"] = hit[0]["title"]; s["a"] = hit[0]["a"]; s["why"] = s.get("why", "").strip()
+        del s["t"]
+(site / "tracks.json").write_text(json.dumps(tracks, ensure_ascii=False), encoding="utf8")
+print("tracks", len(tracks), "steps", sum(len(t["steps"]) for t in tracks))
+
 # optional extra pages
 for name in ("hub", "drill", "review"):
     tpl = HERE / f"{name}.html"

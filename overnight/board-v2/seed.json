@@ -1,0 +1,102 @@
+{
+  "styles": {
+    "A": {
+      "id": "A", "name": "Ali Amery", "front": "ar", "frontLabel": "Arabic front",
+      "summary": "Open with the greeting, read the opponent's source out loud, then react to it line by line with questions and repetition, and end flat on a fork. Keep reels to about two and a half minutes or less.",
+      "anatomy": [
+        {"t0": 0, "t1": 4, "label": "Greeting + claim", "detail": "السلام عليكم, then the claim in one sentence."},
+        {"t0": 4, "t1": 40, "label": "Read the source", "detail": "Their source on screen with the key line highlighted. Read it plainly."},
+        {"t0": 40, "t1": 110, "label": "React", "detail": "Rhetorical questions and repetition. Formal Arabic with some Iraqi flavour."},
+        {"t0": 110, "t1": 140, "label": "Fork", "detail": "You are free: if X, then Y. End flat. No call to action."}
+      ],
+      "rules": [
+        "Open with السلام عليكم.",
+        "Read the opponent's own source first, then react to it.",
+        "Use questions and repetition; stay formal with some Iraqi flavour.",
+        "End on a fork and stop. No call to action.",
+        "Never copy: insults, distorting the other side, filming real people to mock them."
+      ],
+      "evidence": [
+        "24 of Ali Amery's TikTok reels analysed on Meedro (October 2026).",
+        "Reels of 2.5 minutes or less: median 2.08x outlier score and about 53k views. Reels over 6 minutes: median 1.01x and about 26k views.",
+        "'Versus setup' hooks did best (median 2.08x). Plain 'bold claim' hooks, 13 of the 24 reels, median 0.96x.",
+        "Best reel: 3.4x at 125 seconds. Worst: 0.2x on a 5 minute feminism and hijab piece."
+      ]
+    },
+    "B": {
+      "id": "B", "name": "Challenge clip", "front": "en", "frontLabel": "English front",
+      "summary": "One pointed question in the first three seconds, the opponent's claim and their source on screen with the key line highlighted, one decisive answer, then the fork. No intro and no call to action.",
+      "anatomy": [
+        {"t0": 0, "t1": 3, "label": "Challenge", "detail": "One pointed question or challenge put to the opponent."},
+        {"t0": 3, "t1": 10, "label": "Their claim", "detail": "The claim on screen with the speaker named."},
+        {"t0": 10, "t1": 22, "label": "Their source", "detail": "The source on screen, key line highlighted."},
+        {"t0": 22, "t1": 48, "label": "The answer", "detail": "One decisive idea, two verified sources at most. Interpretations labeled."},
+        {"t0": 48, "t1": 58, "label": "Fork", "detail": "You are free: if X, then Y. Stop there."}
+      ],
+      "rules": [
+        "First 3 seconds: a question or challenge, never an introduction.",
+        "Name the attacker and show their words and their source.",
+        "One idea per reel. Only verified Quran and hadith texts with number and grading.",
+        "Voice labeled as AI. No call to action."
+      ],
+      "evidence": [
+        "@orthodoxmuslim (Instagram): analysed reels of 36 to 118 seconds scored 11x to 16x outlier, 567k to 834k views, with question and challenge openings.",
+        "@korrathetaymi: median 66 seconds and about 71k views over the latest 20 reels, best 5.0x.",
+        "@bro_yusuf_11: best reel 6.0x at 54 seconds, a reaction to a named person's clip.",
+        "Hypothesis until your own 48-hour numbers confirm it."
+      ]
+    },
+    "C": {
+      "id": "C", "name": "Versus", "front": "both", "frontLabel": "Either front",
+      "summary": "Open on a contrast: the opponent's claim next to the verified text, side by side. Resolve it in one beat, allow one light humor or meme beat, then the fork.",
+      "anatomy": [
+        {"t0": 0, "t1": 4, "label": "Contrast", "detail": "Their claim and the text, side by side on one frame."},
+        {"t0": 4, "t1": 25, "label": "Their claim", "detail": "What they said and who said it."},
+        {"t0": 25, "t1": 55, "label": "The text", "detail": "The verified source, number and grading on screen."},
+        {"t0": 55, "t1": 80, "label": "One beat", "detail": "Resolve it in one move. One humor or meme beat allowed."},
+        {"t0": 80, "t1": 90, "label": "Fork", "detail": "You are free: if X, then Y."}
+      ],
+      "rules": [
+        "The first frame shows the claim and the text together.",
+        "One resolution beat, one humor or meme beat at most.",
+        "Same sourcing rule as every style.",
+        "Fits reaction videos where the opponent's clip plays first."
+      ],
+      "evidence": [
+        "Ali Amery's three 'versus setup' reels: median 2.08x, the strongest hook type in his 24-reel sample.",
+        "Lowest evidence of the three: small sample, one creator.",
+        "Hypothesis until your own 48-hour numbers confirm it."
+      ]
+    }
+  },
+  "accounts": {
+    "orthodoxmuslim": {"handle": "orthodoxmuslim", "platform": "Instagram", "lang": "en", "role": "style reference (B)", "followers": null, "medianViews": null, "medianLen": null, "bestOutlier": 16.4, "fit": 5, "note": "Debate-clip reels of 36 to 118 seconds with question and challenge openings, 11x to 16x outlier on the analysed reels."},
+    "korrathetaymi": {"handle": "korrathetaymi", "platform": "Instagram", "lang": "en", "role": "style reference (B, C)", "followers": 160643, "medianViews": 70672, "medianLen": 66, "bestOutlier": 5.0, "fit": 5, "note": "Debate clips, explainers and mid-debate reactions. Consistent reach on short reels."},
+    "a_qahar1": {"handle": "a_qahar1", "platform": "Instagram", "lang": "en", "role": "reference and claim source", "followers": 334981, "medianViews": 85923, "medianLen": 109, "bestOutlier": 5.3, "fit": 4, "note": "Posts on hadith rejectors and Gaza fundraising. Strong reach; check each reel before treating it as a model."},
+    "bro_yusuf_11": {"handle": "bro_yusuf_11", "platform": "Instagram", "lang": "en", "role": "style reference (B, C)", "followers": 58962, "medianViews": 23237, "medianLen": 83, "bestOutlier": 6.0, "fit": 4, "note": "Reactions to named people's clips, handle in the title. Matches the 'make the attacker known' rule."},
+    "ali_amery2": {"handle": "ali_amery2", "platform": "TikTok", "lang": "ar", "role": "style reference (A)", "followers": 61500, "medianViews": 36250, "medianLen": 140, "bestOutlier": 3.4, "fit": 4, "note": "The Arabic reference. Short reels (2.5 minutes or less) do about twice as well as long ones."},
+    "dr.nasserka": {"handle": "dr.nasserka", "platform": "Instagram", "lang": "en", "role": "lesson-style reference", "followers": 201720, "medianViews": 65320, "medianLen": 120, "bestOutlier": 4.9, "fit": 3, "note": "Lesson-style reels. Captions are mostly empty so hooks are hard to read from titles."},
+    "seerahdawah": {"handle": "seerahdawah", "platform": "Instagram", "lang": "en", "role": "claim source", "followers": 18676, "medianViews": 12138, "medianLen": 165, "bestOutlier": 1.4, "fit": 2, "note": "Apologetics and polemics, reels run long and nothing breaks out. Useful for seeing what Christian critics post."},
+    "vietcong.revert": {"handle": "vietcong.revert", "platform": "Instagram", "lang": "en", "role": "unverified", "followers": null, "medianViews": null, "medianLen": null, "bestOutlier": null, "fit": 0, "note": "Not yet confirmed on the Meedro watchlist (the add timed out). Needs a check."}
+  },
+  "claims": {
+    "c1": {"text": "The hadith were only written down about 200 years after the Prophet.", "who": "Recurring objection from hadith rejecters", "where": "Seeded from the library's own objections", "lang": "en", "priority": 1, "da": "Part I · Hadith were written down in the first century, not invented in the third", "note": "Replace with a live example from the weekly sweep.", "status": "new", "at": "2026-10-08T00:00:00Z"},
+    "c2": {"text": "Different readings of the Quran mean the text was not fixed.", "who": "Recurring objection", "where": "Seeded from the library's own objections", "lang": "en", "priority": 2, "da": "Part IX · Seven ahruf, seven readings, ten readings: three different things", "note": "Replace with a live example from the weekly sweep.", "status": "new", "at": "2026-10-08T00:00:00Z"},
+    "c3": {"text": "Is Muhammad a true prophet? (the core question, from the topic list)", "who": "Core topic", "where": "Topic list agreed in planning", "lang": "en", "priority": 1, "da": "Part I · Proofs for Islam", "note": "Needs a concrete attacker clip before scripting.", "status": "new", "at": "2026-10-08T00:00:00Z"}
+  },
+  "decisions": {
+    "d1": {"text": "Hijab entry: give your stance on state enforcement (Review desk, draft 1).", "owner": "you", "status": "open", "at": "2026-10-08T00:00:00Z"},
+    "d2": {"text": "Mongols and Baghdad entry: demote to use with care, or keep with corrected wording (Review desk).", "owner": "you", "status": "open", "at": "2026-10-08T00:00:00Z"},
+    "d3": {"text": "Regenerate the nine library PDFs when the library is republished?", "owner": "you", "status": "open", "at": "2026-10-08T00:00:00Z"},
+    "d4": {"text": "Approve deleting the videos/ folder (the Baghdad draft work)?", "owner": "you", "status": "open", "at": "2026-10-08T00:00:00Z"},
+    "d5": {"text": "Pick the first script style (B or C) and the first topic to produce.", "owner": "you", "status": "open", "at": "2026-10-08T00:00:00Z"},
+    "d6": {"text": "Check that @vietcong.revert actually landed on the Meedro watchlist.", "owner": "claude", "status": "open", "at": "2026-10-08T00:00:00Z"}
+  },
+  "log": {
+    "l1": {"at": "2026-10-08T01:00:00Z", "by": "claude", "text": "Read 24 stored Ali Amery reels on Meedro: reels of 2.5 minutes or less score about twice as well as reels over 6 minutes."},
+    "l2": {"at": "2026-10-08T02:00:00Z", "by": "claude", "text": "Added five accounts to the Meedro watchlist (250 credits) and read their latest 20 reels each."},
+    "l3": {"at": "2026-10-08T03:00:00Z", "by": "claude", "text": "Analysed 16 reels from the new accounts on Meedro (about 112 credits)."},
+    "l4": {"at": "2026-10-08T05:00:00Z", "by": "claude", "text": "Built DA Next: attack finder, command palette, drill room with Claude grading, review desk and per-argument tools."},
+    "l5": {"at": "2026-10-08T06:00:00Z", "by": "claude", "text": "Built this Studio Board with the pipeline, claims radar, style lab and accounts book."}
+  }
+}
