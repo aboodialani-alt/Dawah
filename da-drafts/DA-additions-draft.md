@@ -98,7 +98,7 @@ The is-ought gap (Hume): moral conclusions do not follow from descriptions alone
 
 **Objections**
 - *"Moral claims are shared agreements, not taste and not fact."* Then they are conventions, and conventions change; that is a coherent position but it is not "objective" in the sense the critic usually claims.
-- *"You are doing the same."* Islam states its ground (Allah's wise nature, 91:7-8 for the fitrah) and can be questioned on it. The demand here is that both sides state theirs.
+- *"You are doing the same."* Islam states its ground (Allah's wise nature; 91:7-8 says the soul was inspired with its wickedness and its righteousness, which is the verse usually cited for an innate moral sense, while 30:30 is the verse that names the fitrah) and can be questioned on it. The demand here is that both sides state theirs.
 
 **Practice**
 Your opponent says: "Everyone knows freedom means being able to do what you want if you do not harm others."
@@ -140,7 +140,7 @@ Asking where someone's moral line came from is a legitimate Socratic question. U
 - *"You were raised Muslim."* Say so: "Yes, that is why I check mine too. Can we both?"
 - *"This is the genetic fallacy."* It is, if used as proof. Part VI already lists it; here it is used only as a question.
 
-**For Muslim audiences only:** 45:23 ("Have you seen the one who takes his desire as his god?") frames following desire as a form of worship. Use it only with a Muslim audience, because for a non-Muslim it is a charge, not an argument. *(Verse number from memory; confirm against a Quran text.)*
+**For Muslim audiences only:** 45:23 ("Have you seen the one who takes his desire as his god?") frames following desire as a form of worship. Use it only with a Muslim audience, because for a non-Muslim it is a charge, not an argument. *(Verse checked against the Quran text on 8 October 2026: 45:23.)*
 
 **In one breath**
 Ask where the line came from and be willing to answer the same question about yours.

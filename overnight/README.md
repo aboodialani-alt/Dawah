@@ -57,6 +57,8 @@ Both quote only references I checked against the open hadith dataset, give the e
 
 - `scripts/B2-romans-prophecy.md`: English, Style B, about 58 seconds, for "Is Muhammad ﷺ a true prophet?". Quran 30:2-4 and Gibbon verified. It also found that the library's "Issus 622" and the wager hadith need care (reviewer note added).
 
+The Quran verse numbers in my own drafted additions (24:31, 33:59, 91:7-8, 45:23) are now checked against the Quran text. One correction: 91:7-8 is about the soul being inspired with its wickedness and righteousness, and 30:30 is the verse that names the fitrah. The draft says so now.
+
 ## Decisions waiting for you
 
 1. Hijab entry: your stance on state enforcement (Review desk).
