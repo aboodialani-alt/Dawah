@@ -76,7 +76,7 @@ for t in tracks:
 print("tracks", len(tracks), "steps", sum(len(t["steps"]) for t in tracks))
 
 # optional extra pages
-for name in ("hub", "drill", "review"):
+for name in ("hub", "drill", "review", "audit"):
     tpl = HERE / f"{name}.html"
     if tpl.exists():
         out = "index.html" if name == "hub" else f"{name}.html"

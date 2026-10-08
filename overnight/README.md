@@ -22,6 +22,7 @@ Everything here is separate from your live work. Your original DA and the origin
 - **Drill room**: 570 cards (329 attacks, 241 practice prompts) with spaced repetition. You can type your answer and have Claude grade it against the model answer.
 - **Review desk**: the six drafted additions and your three open questions. Accept, decline or request changes on each. The decisions are saved to the shared database so I can apply exactly what you chose.
 - **Video queue**: arguments you line up for reels. Shared, so I can read it and plan from it.
+- **Citation audit** (new page, linked from the front page): all 259 hadith references in the library looked up in the open dataset by number, set against the library's sentence, with each grader's verdict. 15 have graders who disagree (for example Tirmidhi 3194, 2733 and 113) and 2 are graded weak by every grader listed (Nasa'i 3269 and Tirmidhi 3620, the Bahira story, graded munkar). It is a lookup, not a ruling, and Bukhari and Muslim carry no grade in the dataset. `audit.py` regenerates it.
 - **Reviewer note layer**: the Mongols and Baghdad entry carries a note that its identification of Baghdad is an interpretation and that three details were unverified. The library text itself is not changed.
 - Light and dark themes, phone layout, keyboard keys on part pages: `j` and `k` move between arguments, `x` marks studied, `q` queues.
 

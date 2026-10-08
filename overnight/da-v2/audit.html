@@ -1,0 +1,94 @@
+<title>DA Citation Audit</title>
+<!--V2HEAD-->
+<style>
+/* Layout concept: a ledger. Each row is one hadith reference from the library, set against what the open dataset holds under that number,
+   with the graders' verdicts as pills. A lookup, not a ruling: the library's text is never edited from here. */
+.wrap{margin:0 auto;padding-inline:16px;padding-block:0 5rem}
+.stage{grid-template-columns:minmax(0,1fr);max-width:62rem;margin:1.6rem auto 0;display:grid;gap:1.2rem}
+h1.t{font-size:clamp(2rem,5vw,3.2rem);line-height:1.08;margin:.4rem 0 .3rem;letter-spacing:-.02em;font-weight:500}
+.sub{color:var(--muted);margin:0;max-width:46rem}
+.tally{display:flex;gap:1.6rem;flex-wrap:wrap;font-family:var(--f-ui);font-size:.8rem;color:var(--muted)}
+.tally b{display:block;font-family:var(--f-display);font-weight:500;font-size:1.9rem;color:var(--ink);line-height:1}
+.bar{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;font-family:var(--f-ui)}
+.bar button{font:inherit;font-size:.8rem;cursor:pointer;color:var(--muted);background:transparent;border:1px solid var(--rule);border-radius:99px;padding:.3rem .85rem}
+.bar button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.bar input{flex:1;min-width:12rem;font:inherit;font-size:.9rem;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:99px;padding:.4rem .9rem}
+.row2{background:var(--card);border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow);padding:1.1rem 1.3rem;display:grid;gap:.7rem}
+.row2.disputed,.row2.weak{border-left:4px solid var(--warn)}.row2.qd{border-left:4px solid var(--gold)}
+.top2{display:flex;flex-wrap:wrap;gap:.5rem .8rem;align-items:center;font-family:var(--f-ui);font-size:.78rem;color:var(--muted)}
+.ref{font-family:var(--f-display);font-size:1.3rem;color:var(--ink);font-weight:500}
+.fl{font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--rule);border-radius:99px;padding:.1rem .55rem}
+.fl.warn{border-color:var(--warn);color:var(--warn)}.fl.gold{border-color:var(--gold);color:var(--gold)}
+.pills{display:flex;flex-wrap:wrap;gap:.35rem;font-family:var(--f-ui);font-size:.72rem}
+.pill2{border:1px solid var(--rule);border-radius:99px;padding:.1rem .6rem;color:var(--muted)}
+.pill2.ok{border-color:var(--accent);color:var(--accent)}.pill2.bad{border-color:var(--warn);color:var(--warn)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:1rem}
+.col2 small{display:block;font-family:var(--f-ui);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:.25rem}
+.col2 p{margin:0;font-size:.97rem;line-height:1.5;overflow-wrap:anywhere}
+.col2.ds p{color:var(--muted)}
+mark.h{background:var(--hl);color:inherit;border-radius:2px;padding:0 .1rem}
+.top2 a{color:var(--accent)}
+.none2{font-family:var(--f-ui);color:var(--muted);text-align:center;padding:2rem}
+</style>
+<div class="wrap">
+  <main class="stage">
+    <div>
+      <p class="eyebrow">Citation audit</p>
+      <h1 class="t">Every hadith reference, checked against the text.</h1>
+      <p class="sub">Each reference the library gives is looked up in an open hadith dataset by number. This is a lookup, not a ruling. Gradings are the dataset's, from named scholars, and where scholars disagree you will see both. Bukhari and Muslim carry no grade in the dataset. Their numbers were checked to exist, and their text is shown so you can see whether it matches what the library says.</p>
+    </div>
+    <div class="tally" id="tally"></div>
+    <div class="bar" id="bar">
+      <button type="button" data-f="look" aria-pressed="true">Worth a look</button>
+      <button type="button" data-f="grading disputed" aria-pressed="false">Grading disputed</button>
+      <button type="button" data-f="graded weak" aria-pressed="false">Graded weak</button>
+      <button type="button" data-f="quote differs" aria-pressed="false">Quote differs</button>
+      <button type="button" data-f="low overlap" aria-pressed="false">Low overlap</button>
+      <button type="button" data-f="all" aria-pressed="false">Everything</button>
+      <input id="q" type="search" placeholder="Filter by reference, argument or word" aria-label="Filter the list">
+      <button class="btn2" type="button" id="cp">Copy this list</button>
+    </div>
+    <div id="list" aria-live="polite"></div>
+  </main>
+</div>
+<!--V2JS-->
+<script>
+(function () {
+  const { $, $$, esc } = DA2;
+  DA2.mountBar({ crumb: 'Citation audit' });
+  let rows = [], cur = 'look';
+  const LOOK = new Set(['grading disputed', 'graded weak', 'quote differs']);
+  const HELP = { 'grading disputed': 'Graders disagree', 'graded weak': 'Every listed grader says weak', 'quote differs': 'The quoted words share little with the dataset text', 'low overlap': 'The sentence shares few words with the dataset text. Often just a paraphrase.' };
+  const gcls = g => /da['’]?if|mawdu|munkar|batil/i.test(g) ? 'bad' : /sahih|hasan/i.test(g) ? 'ok' : '';
+  function hl(ctx, ref) {
+    const e = esc(ctx), r = esc(ref || '');
+    return r && e.includes(r) ? e.replace(r, '<mark class="h">' + r + '</mark>') : e;
+  }
+  function visible() {
+    const q = $('#q').value.trim().toLowerCase();
+    return rows.filter(r => (cur === 'all' || (cur === 'look' ? LOOK.has(r.flag) : r.flag === cur)) && (!q || (r.ref + ' ' + r.title + ' ' + r.ctx + ' ' + (r.text || '')).toLowerCase().includes(q)));
+  }
+  function draw() {
+    const v = visible(), box = $('#list');
+    $$('#bar [data-f]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.f === cur)));
+    if (!v.length) { box.innerHTML = '<p class="none2">Nothing matches that filter.</p>'; return; }
+    box.innerHTML = v.map(r => {
+      const cls = r.flag === 'quote differs' ? 'qd' : r.flag === 'grading disputed' ? 'disputed' : r.flag === 'graded weak' ? 'weak' : '';
+      const fl = r.flag ? '<span class="fl ' + (cls === 'qd' ? 'gold' : cls ? 'warn' : '') + '" title="' + esc(HELP[r.flag] || '') + '">' + esc(r.flag) + '</span>' : '';
+      const gr = (r.grades || []).map(([n, g]) => '<span class="pill2 ' + gcls(g) + '">' + esc(n) + ': ' + esc(g) + '</span>').join('');
+      return '<article class="row2 ' + cls + '" style="margin-bottom:1rem"><div class="top2"><span class="ref">' + esc(r.ref) + '</span>' + fl + '<span>Part ' + esc(r.p.replace('p', '')) + ' · <a href="' + esc(r.p + '.html#' + r.a) + '">' + esc(r.title) + '</a></span></div>' +
+        (gr ? '<div class="pills">' + gr + '</div>' : '') +
+        '<div class="cols"><div class="col2"><small>The library says</small><p>' + hl(r.ctx, r.hl) + '</p></div><div class="col2 ds"><small>The dataset says under that number' + (r.parts > 1 ? ' (first of ' + r.parts + ' parts)' : '') + '</small><p>' + esc(r.text || 'No entry under that number.') + (r.text && r.text.length >= 519 ? '…' : '') + '</p></div></div></article>';
+    }).join('');
+  }
+  fetch('audit.json').then(r => r.json()).then(d => {
+    rows = d.rows.sort((a, b) => ({ 'graded weak': 0, 'grading disputed': 1, 'quote differs': 2, 'low overlap': 3 }[a.flag] ?? 9) - ({ 'graded weak': 0, 'grading disputed': 1, 'quote differs': 2, 'low overlap': 3 }[b.flag] ?? 9));
+    const s = d.summary;
+    $('#tally').innerHTML = [[s.total, 'references checked'], [s.disputed, 'grading disputed'], [s.weak, 'graded weak'], [s.quote_differs, 'quote differs'], [s.with_grade, 'with a grade in the dataset']].map(([n, l]) => '<div><b>' + n + '</b>' + l + '</div>').join('');
+    draw();
+  }).catch(() => { $('#list').innerHTML = '<p class="none2">The audit data did not load.</p>'; });
+  $$('#bar [data-f]').forEach(b => b.onclick = () => { cur = b.dataset.f; draw(); });
+  $('#q').addEventListener('input', draw);
+  $('#cp').onclick = () => DA2.copy(visible().map(r => '- ' + r.ref + ' (Part ' + r.p.replace('p', '') + ', ' + r.title + ')' + (r.flag ? ' [' + r.flag + ']' : '') + (r.grades && r.grades.length ? ' ' + r.grades.map(g => g[0] + ': ' + g[1]).join('; ') : '')).join('\n'), 'List copied');
+})();
+</script>

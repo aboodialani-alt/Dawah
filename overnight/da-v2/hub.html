@@ -99,6 +99,7 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
   <div class="tools3">
     <a class="tool" href="drill.html"><span class="big" id="n-drill">0</span><b>Drill room</b><span>Face an attack, answer it out loud or in writing, then see the model answer. Claude can grade you.</span></a>
     <a class="tool gold" href="review.html"><span class="big" id="n-review">0</span><b>Review desk</b><span>Additions drafted for the library, waiting for your yes or no. Nothing goes in until you decide.</span></a>
+    <a class="tool" href="audit.html"><span class="big" id="n-audit">0</span><b>Citation audit</b><span>Every hadith reference looked up in the open dataset, with graders' verdicts. Flags the ones worth a second look.</span></a>
     <button class="tool" type="button" id="open-queue"><span class="big" id="n-queue">0</span><b>Video queue</b><span>Arguments you lined up for the next reels. Shared, so Claude can plan from it.</span></button>
   </div>
 
@@ -194,6 +195,7 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
     $('#rev').onclick = () => { $('#tans').hidden = false; $('#rev').hidden = true; };
   });
 
+  fetch('audit.json').then(r => r.json()).then(j => { $('#n-audit').textContent = j.summary.disputed + j.summary.weak + j.summary.quote_differs; }).catch(() => {});
   fetch('review.json').then(r => r.json()).then(j => { $('#n-review').textContent = j.items.length; }).catch(() => {});
   const nq = () => { $('#n-queue').textContent = DA2.Q.map.size; }; DA2.Q.subs.push(nq); nq();
   $('#open-queue').onclick = DA2.openQueue;
