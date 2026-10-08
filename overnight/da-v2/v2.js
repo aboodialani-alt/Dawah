@@ -63,16 +63,19 @@
     const nq = norm(q).trim();
     const has = (f, t) => f.indexOf(t) >= 0;
     const hits = [];
+    // short queries must match every word; long pasted sentences need about 60% of their words
+    const need = tk.length <= 3 ? tk.length : Math.max(3, Math.ceil(tk.length * 0.6));
+    const enough = all => tk.filter(t => has(all, t)).length >= need;
     d.briefs.forEach(b => {
       b.obj.forEach(o => {
         const all = o._q + ' ' + o._a + ' ' + b._t;
-        if (!tk.every(t => has(all, t))) return;
+        if (!enough(all)) return;
         let s = 0; tk.forEach(t => { if (has(o._q, t)) s += 5; if (has(o._a, t)) s += 1.5; if (has(b._t, t)) s += 2; });
         if (nq.length > 5 && has(o._q, nq)) s += 8;
         hits.push({ type: 'atk', b, o, s });
       });
       const all = b._t + ' ' + b._th + ' ' + b._s + ' ' + b._e + ' ' + b._k;
-      if (tk.every(t => has(all, t))) {
+      if (enough(all)) {
         let s = 0; tk.forEach(t => { if (has(b._t, t)) s += 4; if (has(b._th, t)) s += 3; if (has(b._s, t)) s += 2; if (has(b._e, t)) s += 1; if (has(b._k, t)) s += 1; });
         if (nq.length > 5 && (has(b._t, nq) || has(b._th, nq))) s += 8;
         hits.push({ type: 'arg', b, s });
@@ -80,6 +83,21 @@
     });
     hits.sort((x, y) => y.s - x.s);
     return { tk, hits: hits.slice(0, limit) };
+  }
+  /* Arabic claims: the library text is English, so Claude turns the claim into one English sentence first */
+  const hasAr = s => /[\u0600-\u06FF]/.test(s), trCache = new Map();
+  async function smartSearch(d, q, limit) {
+    if (!hasAr(q)) return Object.assign(search(d, q, limit), { via: null });
+    const key = q.trim(); let en = trCache.get(key);
+    if (!en) {
+      const sample = await getSample();
+      if (!sample) return { tk: [], hits: [], via: null, needSample: true };
+      try {
+        const r = await sample('Translate this claim into plain English in one short sentence. Output only the sentence, with no quotes and no commentary:\n' + key.slice(0, 500), { cache: true, modelTier: 'quick' });
+        en = r.text.trim().replace(/^["“]|["”]$/g, ''); trCache.set(key, en);
+      } catch (e) { return { tk: [], hits: [], via: null, failed: true }; }
+    }
+    return Object.assign(search(d, en, limit), { via: en });
   }
   function mark(text, tk) {
     let out = esc(text);
@@ -224,7 +242,7 @@
     document.body.appendChild(pal);
     pal.addEventListener('click', e => { if (e.target === pal) closePal(); });
     const inp = $('#pal-q', pal);
-    let t; inp.addEventListener('input', () => { clearTimeout(t); t = setTimeout(runPal, 90); });
+    let t; inp.addEventListener('input', () => { clearTimeout(t); t = setTimeout(runPal, hasAr(inp.value) ? 700 : 90); });
     inp.addEventListener('keydown', e => {
       if (e.key === 'ArrowDown') { palSel = Math.min(palHits.length - 1, palSel + 1); selPal(); e.preventDefault(); }
       else if (e.key === 'ArrowUp') { palSel = Math.max(0, palSel - 1); selPal(); e.preventDefault(); }
@@ -236,12 +254,15 @@
   async function runPal() {
     const list = $('#pal-list', pal), q = $('#pal-q', pal).value;
     if (!q.trim()) { list.innerHTML = '<div class="pal-empty">Type or paste a claim. Try “hadith were written 200 years later”.</div>'; palHits = []; return; }
-    const d = await loadIdx(); const r = search(d, q, 30); palHits = r.hits;
-    if (!r.hits.length) { list.innerHTML = '<div class="pal-empty">No match. Try fewer or simpler words.</div>'; return; }
+    const d = await loadIdx();
+    if (hasAr(q)) list.innerHTML = '<div class="pal-empty"><span class="spin"></span> Translating your claim…</div>';
+    const r = await smartSearch(d, q, 30); if ($('#pal-q', pal).value !== q) return; palHits = r.hits;
+    if (r.needSample) { list.innerHTML = '<div class="pal-empty">Searching in Arabic needs this page open inside Claude. Try the English words instead.</div>'; return; }
+    if (!r.hits.length) { list.innerHTML = '<div class="pal-empty">No match' + (r.via ? ' for “' + esc(r.via) + '”' : '') + '. Try fewer or simpler words.</div>'; return; }
     list.innerHTML = r.hits.map((h, i) => {
       const p = d.partBy.get(h.b.p);
       const title = h.type === 'atk' ? h.o.q : h.b.title;
-      const sub = h.type === 'atk' ? 'Part ' + p.no + ' · ' + h.b.title : 'Part ' + p.no + ' · ' + h.b.sec;
+      const sub = (r.via && i === 0 ? 'Searched for: ' + r.via + ' · ' : '') + (h.type === 'atk' ? 'Part ' + p.no + ' · ' + h.b.title : 'Part ' + p.no + ' · ' + h.b.sec);
       return '<a class="pal-item" role="option" aria-selected="' + (i === 0) + '" href="' + esc(href(h.b)) + '"><span class="tag ' + h.type + '">' + (h.type === 'atk' ? 'Attack' : 'Argument') + '</span><span class="t">' + mark(title, r.tk) + '</span><span class="s">' + esc(sub) + '</span></a>';
     }).join('');
     palSel = 0;
@@ -352,7 +373,7 @@
     addEventListener('hashchange', flash); flash();
   }
 
-  window.DA2 = { $, $$, store, esc, arN, toast, copy, loadIdx, search, mark, href, prep, norm, tokens, mountBar, openPal, Q, qToggle, qHas, openQueue, getSample, openDlg, closeDlg, enhancePart, STYLES };
+  window.DA2 = { $, $$, store, esc, arN, toast, copy, loadIdx, search, smartSearch, hasAr, mark, href, prep, norm, tokens, mountBar, openPal, Q, qToggle, qHas, openQueue, getSample, openDlg, closeDlg, enhancePart, STYLES };
   initDb();
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', enhancePart); else enhancePart();
 })();

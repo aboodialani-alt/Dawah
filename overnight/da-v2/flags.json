@@ -1,7 +1,12 @@
 {
-  "p1#s-prophecy--the-mongols-and-the-fall-of-baghdad": {
-    "level": "care",
-    "text": "Checked against the open hadith dataset on 7 October 2026. Bukhari 2928 names the Turks; Bukhari 3590 is a different report (Khuz and Kirman); Abu Dawud 4306 names a city called al-Basrah, not Baghdad. Linking it to the Mongol conquest of 1258 is an interpretation, not stated in the text. A corrected entry is drafted in the review desk. The Sa'id ibn Jumhan death date, the Ibn Taymiyya quote and the 'Basra Gate' are not verified. Recommendation: use with care.",
-    "source": "Claude review, awaiting the owner's decision"
-  }
+ "p1#s-prophecy--the-mongols-and-the-fall-of-baghdad": {
+  "level": "care",
+  "text": "Checked against the open hadith dataset on 7 October 2026. Bukhari 2928 names the Turks; Bukhari 3590 is a different report (Khuz and Kirman); Abu Dawud 4306 names a city called al-Basrah, not Baghdad. Linking it to the Mongol conquest of 1258 is an interpretation, not stated in the text. A corrected entry is drafted in the review desk. The Sa'id ibn Jumhan death date, the Ibn Taymiyya quote and the 'Basra Gate' are not verified. Recommendation: use with care.",
+  "source": "Claude review, awaiting the owner's decision"
+ },
+ "p1#s-hadith--hadith-were-written-down-in-the-first-century-no": {
+  "level": "care",
+  "text": "Checked on 8 October 2026. Verified in the open hadith dataset: Bukhari 113, Bukhari 2434 ('Write it for Abu Shah'), Abu Dawud 3646 (sahih per al-Albani, al-Muhyi and Zubair Ali Zai), Muslim 3004 and Muslim 1370 (Ali's sheet). Not confirmed from available sources: the counts '138 hadith' and 'ninety-eight in Bukhari or Muslim', and the claim that the whole sahifa is in Musnad Ahmad (one source says all but two hadith). Hammam ibn Munabbih's death is dated 101 AH by Hamidullah and 130 AH by Jonathan Brown, so 'mid-first century' is an inference. Cite Speight and Motzki from their own publications before using their wording on screen.",
+  "source": "Claude review, awaiting the owner's decision"
+ }
 }

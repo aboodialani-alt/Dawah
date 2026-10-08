@@ -46,6 +46,13 @@ The text of all 252 arguments is exactly as in your DA. Only the presentation an
 
 All of this is a small sample read from titles and Meedro's own breakdowns. It is a hypothesis until your own 48-hour numbers confirm it.
 
+## First two script drafts (ready to review, not recorded)
+
+- `scripts/B1-hadith-written-early.md`: English, Style B, about 58 seconds. "Who was writing hadith while the Prophet ﷺ was alive?"
+- `scripts/A1-hadith-muslim-3004-ar.md`: Arabic, Style A, about 2 minutes. Reads the whole of Muslim 3004, including the half critics leave out, then ends on a dilemma for critics who reject hadith.
+
+Both quote only references I checked against the open hadith dataset, give the exact wording, and carry an objection check. Both need a real clip or post from the person making the claim. I also found that the library's own Hammam figures (138 and 98) and "whole Sahifa in the Musnad" could not be confirmed, so the DA entry now carries a reviewer note.
+
 ## Decisions waiting for you
 
 1. Hijab entry: your stance on state enforcement (Review desk).
