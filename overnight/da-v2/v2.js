@@ -330,11 +330,23 @@
       const b = { id: pid + '#' + art.id, p: pid, a: art.id, title: ($('h3', art) || {}).textContent.trim(), sec: (art.closest('.sec') ? (($('h2', art.closest('.sec')) || {}).textContent || '') : '') };
       reg.set(art, b);
       const tools = document.createElement('div'); tools.className = 'tools';
-      tools.innerHTML = '<button type="button" data-q aria-pressed="false">＋ Queue for video</button><button type="button" class="draft" data-d>✎ Draft a reel</button><button type="button" data-c>Copy brief</button><button type="button" data-l>Copy link</button>';
+      tools.innerHTML = '<button type="button" data-q aria-pressed="false">＋ Queue for video</button><button type="button" class="draft" data-d>✎ Draft a reel</button><button type="button" data-s hidden>Listen</button><button type="button" data-c>Copy brief</button><button type="button" data-l>Copy link</button>';
       head.appendChild(tools);
       $('[data-q]', tools).addEventListener('click', () => qToggle(b));
       $('[data-d]', tools).addEventListener('click', () => openDraft(art, b));
       $('[data-c]', tools).addEventListener('click', () => copy(briefText(art), 'Brief copied'));
+      const sb = $('[data-s]', tools);
+      if ('speechSynthesis' in window && window.SpeechSynthesisUtterance) {
+        sb.hidden = false;
+        sb.addEventListener('click', () => {
+          const ss = window.speechSynthesis;
+          if (ss.speaking) { ss.cancel(); sb.textContent = 'Listen'; return; }
+          const t = $('.r-thesis .cell', art), s2 = $('.r-sum .cell', art);
+          const u = new SpeechSynthesisUtterance(((($('h3', art) || {}).textContent || '') + '. ' + (t ? t.textContent : '') + ' ' + (s2 ? s2.textContent : '')).replace(/\s+/g, ' '));
+          u.rate = 0.95; u.onend = u.onerror = () => { sb.textContent = 'Listen'; };
+          sb.textContent = 'Stop'; ss.speak(u);
+        });
+      }
       $('[data-l]', tools).addEventListener('click', () => copy(location.href.split('#')[0] + '#' + art.id, 'Link copied'));
       const f = flags[b.id];
       let anchorEl = head;

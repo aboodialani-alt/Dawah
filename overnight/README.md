@@ -19,6 +19,10 @@ Everything here is separate from your live work. Your original DA and the origin
 - **Per-argument tools**: queue for video, copy brief, copy link, and "Draft a reel" (Claude writes a script in Style A, B or C using only that argument's own text, then lists every claim it used).
 - **Reading modes**: Skim (thesis and one-breath only), Full, Drill (attacks first, answers hidden).
 - **Attacks and answers as a conversation** instead of a list.
+- **Daily session** (new, the main way to learn): ten minutes mixing three tasks. *Teach it back* (write the argument from memory, then see it, optionally with Claude checking your recall), *answer the attack*, and *name the source* (the library's sentence with the reference blanked, pick the right one from four). Spaced boxes bring missed items back sooner, with a day streak and a 14-day chart. It follows the research I found: retrieval beats rereading, and spacing helps.
+- **Sparring room** (new): a chat with a sharp but fair opponent (hadith rejecter, ex-Muslim voice, Christian missionary, atheist or secular liberal), in English or Arabic, at three pressure levels. The opponent may name a source only if the library has it. A coach panel comments on any answer using the library's own text, and a debrief scores the round and links the arguments to revisit. Recent scores are kept.
+- **Track sheets** (new): one-page revision sheet per study track (claim, one-breath line, the attack it answers), with copy. Linked from each track on the front page.
+- **Listen** button on every argument (browser speech, hidden where unavailable).
 - **Drill room**: 570 cards (329 attacks, 241 practice prompts) with spaced repetition. You can type your answer and have Claude grade it against the model answer.
 - **Review desk**: the six drafted additions and your three open questions. Accept, decline or request changes on each. The decisions are saved to the shared database so I can apply exactly what you chose.
 - **Video queue**: arguments you line up for reels. Shared, so I can read it and plan from it.

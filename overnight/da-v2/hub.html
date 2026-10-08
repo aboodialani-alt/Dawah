@@ -95,9 +95,15 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
   <h2 class="sh">The shelf <small>nine parts · progress is kept in this browser</small></h2>
   <div class="shelf" id="shelf"></div>
 
+  <h2 class="sh">Train <small>recall beats rereading: say it first, then check</small></h2>
+  <div class="tools3">
+    <a class="tool" href="learn.html"><span class="big" id="n-learn">10</span><b>Daily session</b><span>Ten minutes: teach an argument back, answer an attack, name the source. Missed items return sooner.</span></a>
+    <a class="tool gold" href="spar.html"><span class="big">⚔</span><b>Sparring room</b><span>Argue with a sharp but fair opponent: a hadith rejecter, an ex-Muslim voice, a missionary, an atheist. Coach notes after any answer.</span></a>
+    <a class="tool" href="drill.html"><span class="big" id="n-drill">0</span><b>Drill room</b><span>Attack cards only, one at a time, with Claude grading your typed answer.</span></a>
+  </div>
+
   <h2 class="sh">On the desk</h2>
   <div class="tools3">
-    <a class="tool" href="drill.html"><span class="big" id="n-drill">0</span><b>Drill room</b><span>Face an attack, answer it out loud or in writing, then see the model answer. Claude can grade you.</span></a>
     <a class="tool gold" href="review.html"><span class="big" id="n-review">0</span><b>Review desk</b><span>Additions drafted for the library, waiting for your yes or no. Nothing goes in until you decide.</span></a>
     <a class="tool" href="audit.html"><span class="big" id="n-audit">0</span><b>Citation audit</b><span>Every hadith reference looked up in the open dataset, with graders' verdicts. Flags the ones worth a second look.</span></a>
     <button class="tool" type="button" id="open-queue"><span class="big" id="n-queue">0</span><b>Video queue</b><span>Arguments you lined up for the next reels. Shared, so Claude can plan from it.</span></button>
@@ -163,7 +169,7 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
         const done = t.steps.filter(s => store.get('studied:' + s.a) === '1').length, pct = Math.round(100 * done / t.steps.length);
         const el = document.createElement('article'); el.className = 'track';
         el.innerHTML = '<button type="button" aria-expanded="false"><span class="for">' + esc(t['for']) + '</span><span class="rg" style="--p:' + pct + '" data-t="' + done + '/' + t.steps.length + '"></span><h3>' + esc(t.title) + '</h3><p class="bl">' + esc(t.blurb) + '</p></button>' +
-          '<ol hidden>' + t.steps.map(s => '<li class="' + (store.get('studied:' + s.a) === '1' ? 'done' : '') + '"><span><a href="' + esc(s.id.split('#')[0] + '.html#' + s.a) + '">' + esc(s.title) + '</a>' + (s.why ? '<small>' + esc(s.why) + '</small>' : '') + '</span></li>').join('') + '</ol>';
+          '<ol hidden>' + '<li style="display:block;padding:.4rem 0"><a href="sheet.html#' + t.id + '" style="font-family:var(--f-ui);font-size:.8rem;color:var(--accent);font-weight:500">Open the one-page revision sheet →</a></li>' + t.steps.map(s => '<li class="' + (store.get('studied:' + s.a) === '1' ? 'done' : '') + '"><span><a href="' + esc(s.id.split('#')[0] + '.html#' + s.a) + '">' + esc(s.title) + '</a>' + (s.why ? '<small>' + esc(s.why) + '</small>' : '') + '</span></li>').join('') + '</ol>';
         const btn = el.querySelector('button'), ol = el.querySelector('ol');
         btn.onclick = () => { ol.hidden = !ol.hidden; btn.setAttribute('aria-expanded', String(!ol.hidden)); };
         box.appendChild(el);

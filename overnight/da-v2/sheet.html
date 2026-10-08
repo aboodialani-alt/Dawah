@@ -1,0 +1,53 @@
+<title>DA Track Sheet</title>
+<!--V2HEAD-->
+<style>
+/* Layout concept: a revision sheet. Each study track on one page: for every step the claim, the one-breath version and the strongest
+   attack it answers, so you can scan the whole topic in two minutes before recording. */
+.wrap{margin:0 auto;padding-inline:16px;padding-block:0 5rem}
+.stage{grid-template-columns:minmax(0,1fr);max-width:54rem;margin:1.6rem auto 0;display:grid;gap:1.1rem}
+h1.t{font-size:clamp(2rem,5vw,3.2rem);line-height:1.08;margin:.4rem 0 .3rem;letter-spacing:-.02em;font-weight:500}
+.sub{color:var(--muted);margin:0}
+.bar{display:flex;flex-wrap:wrap;gap:.5rem;font-family:var(--f-ui)}
+.bar button{font:inherit;font-size:.82rem;cursor:pointer;color:var(--muted);background:transparent;border:1px solid var(--rule);border-radius:99px;padding:.3rem .9rem}
+.bar button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.step{display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:.2rem 1rem;padding:1.1rem 0;border-top:1px solid var(--rule)}
+.n{grid-row:1/5;font-family:var(--f-kufi);font-size:1.5rem;color:var(--gold);width:2.4rem;height:2.4rem;display:grid;place-items:center;border:1.5px solid var(--gold);border-radius:50% 50% 50% 8px}
+.step>:not(.n){grid-column:2}
+.step h3{margin:0;font-size:1.25rem;line-height:1.25;grid-column:2}.step h3 a{color:var(--ink);text-decoration:none}.step h3 a:hover{color:var(--accent)}
+.step .why{font-family:var(--f-ui);font-size:.76rem;color:var(--muted);margin:0}
+.step .th{margin:.4rem 0 0;font-size:1.02rem;border-left:3px solid var(--gold);padding-left:.8rem}
+.step .sm{margin:.4rem 0 0;color:var(--muted);font-style:italic;font-size:.95rem}
+.step .at{margin:.5rem 0 0;font-family:var(--f-ui);font-size:.82rem;background:var(--bubble-q);border-radius:12px 12px 12px 3px;padding:.5rem .8rem;justify-self:start}
+.step .at b{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:block;font-weight:400}
+</style>
+<div class="wrap">
+  <main class="stage">
+    <div><p class="eyebrow">Track sheet</p><h1 class="t" id="ttl">Revision sheet</h1><p class="sub" id="bl"></p></div>
+    <div class="bar" id="tabs"></div>
+    <div class="bar"><button class="btn2" id="cp" type="button">Copy this sheet</button><button class="btn2" id="sk" type="button">Hide the one-breath lines</button></div>
+    <div id="steps"></div>
+  </main>
+</div>
+<!--V2JS-->
+<script>
+(function () {
+  const { $, $$, esc } = DA2;
+  DA2.mountBar({ crumb: 'Track sheet' });
+  let D, TR, cur = (location.hash || '#hadith').slice(1), hide = false;
+  function draw() {
+    const t = TR.find(x => x.id === cur) || TR[0]; cur = t.id;
+    $('#ttl').textContent = t.title; $('#bl').textContent = t.blurb;
+    $('#tabs').innerHTML = TR.map(x => '<button type="button" data-t="' + x.id + '" aria-pressed="' + (x.id === cur) + '">' + esc(x.title) + '</button>').join('');
+    $$('#tabs [data-t]').forEach(b => b.onclick = () => { cur = b.dataset.t; history.replaceState(null, '', '#' + cur); draw(); });
+    $('#steps').innerHTML = t.steps.map((s, i) => {
+      const b = D.byId.get(s.id); if (!b) return '';
+      return '<article class="step"><span class="n">' + DA2.arN(i + 1) + '</span><h3><a href="' + esc(DA2.href(b)) + '">' + esc(b.title) + '</a></h3>' + (s.why ? '<p class="why">' + esc(s.why) + '</p>' : '') +
+        '<p class="th">' + esc(b.thesis || b.sum) + '</p>' + (hide ? '' : (b.sum ? '<p class="sm">' + esc(b.sum) + '</p>' : '')) +
+        (b.obj[0] ? '<div class="at"><b>The attack it answers</b>' + esc(b.obj[0].q) + '</div>' : '') + '</article>';
+    }).join('');
+  }
+  $('#sk').onclick = () => { hide = !hide; $('#sk').textContent = hide ? 'Show the one-breath lines' : 'Hide the one-breath lines'; draw(); };
+  $('#cp').onclick = () => { const t = TR.find(x => x.id === cur); DA2.copy('# ' + t.title + '\n\n' + t.steps.map((s, i) => { const b = D.byId.get(s.id); return (i + 1) + '. ' + b.title + '\n   Claim: ' + (b.thesis || '') + '\n   In one breath: ' + (b.sum || '') + (b.obj[0] ? '\n   Attack: ' + b.obj[0].q : ''); }).join('\n\n'), 'Sheet copied'); };
+  Promise.all([DA2.loadIdx(), fetch('tracks.json').then(r => r.json())]).then(([d, t]) => { D = d; TR = t; draw(); });
+})();
+</script>

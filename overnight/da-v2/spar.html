@@ -1,0 +1,150 @@
+<title>DA Sparring Room</title>
+<!--V2HEAD-->
+<style>
+/* Layout concept: a chat with a sharp, fair opponent. The opponent only leans on the library's own notes for any source it names,
+   a coach panel can comment on each of your answers, and a debrief at the end tells you which arguments to revisit. */
+.wrap{margin:0 auto;padding-inline:16px;padding-block:0 6rem}
+.stage{grid-template-columns:minmax(0,1fr);max-width:50rem;margin:1.6rem auto 0;display:grid;gap:1.1rem}
+h1.t{font-size:clamp(2rem,5vw,3.2rem);line-height:1.08;margin:.4rem 0 .3rem;letter-spacing:-.02em;font-weight:500}
+.sub{color:var(--muted);margin:0}
+.setup{display:grid;gap:.8rem;padding:1.2rem 1.3rem;background:var(--card);border:1px solid var(--rule);border-radius:18px;box-shadow:var(--shadow)}
+.setup .g{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr));gap:.7rem}
+.setup label{display:grid;gap:.25rem;font-family:var(--f-ui);font-size:.74rem;color:var(--muted);min-width:0}
+.setup select{width:100%;font:inherit;font-size:.92rem;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:9px;padding:.5rem .6rem}
+.chat{display:grid;gap:.9rem}
+.msg{max-width:92%;padding:.8rem 1.05rem;border-radius:18px;line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere}
+.msg small{display:block;font-family:var(--f-ui);font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:.2rem}
+.msg.opp{justify-self:start;background:var(--bubble-q);border-radius:18px 18px 18px 4px;font-family:var(--f-ui);font-weight:500}
+.msg.opp small{color:var(--muted)}
+.msg.me{justify-self:end;background:var(--bubble-a);border:1px solid var(--accent-soft);border-radius:18px 18px 4px 18px}
+.msg.me small{color:var(--accent)}
+.coach{justify-self:end;width:min(100%,92%);padding:.9rem 1.1rem;border:1.5px dashed var(--accent);border-radius:14px;font-family:var(--f-ui);font-size:.9rem;display:grid;gap:.4rem}
+.coach ul{margin:.1rem 0;padding-left:1.1rem}.coach b{font-weight:600}
+.mine{display:flex;gap:.5rem;justify-content:flex-end;font-family:var(--f-ui)}
+.composer{position:sticky;bottom:calc(.8rem + env(safe-area-inset-bottom,0px));display:grid;gap:.5rem;padding:.8rem;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(10px);border:1px solid var(--rule);border-radius:18px;box-shadow:var(--shadow)}
+.composer textarea{width:100%;min-height:4.4rem;max-height:14rem;resize:vertical;font:inherit;font-size:1rem;color:var(--ink);background:var(--paper);border:1.5px solid var(--rule);border-radius:12px;padding:.7rem .9rem;outline:0}
+.composer textarea:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--glow)}
+.composer .btns{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;justify-content:space-between}
+.deb{padding:1.2rem 1.3rem;background:var(--card);border:1px solid var(--rule);border-radius:18px;box-shadow:var(--shadow);display:grid;gap:.6rem;font-family:var(--f-ui);font-size:.92rem}
+.deb h2{margin:0;font-family:var(--f-display);font-weight:500;font-size:1.8rem}
+.score{font-family:var(--f-display);font-size:2.6rem;line-height:1;color:var(--accent)}
+.hist{display:grid;gap:.3rem;font-family:var(--f-ui);font-size:.8rem;color:var(--muted)}
+.hist div{display:flex;justify-content:space-between;border-top:1px solid var(--rule);padding:.3rem 0}
+</style>
+<div class="wrap">
+  <main class="stage">
+    <div>
+      <p class="eyebrow">Sparring room</p>
+      <h1 class="t">Argue with someone who pushes back.</h1>
+      <p class="sub">The opponent is sharp but fair, and it only names a source if the library has it. Answer in your own words. Ask the coach for notes after any answer, and finish with a debrief that points you back to the arguments to revisit.</p>
+    </div>
+    <section class="setup" id="setup">
+      <div class="g">
+        <label>Opponent<select id="s-opp"></select></label>
+        <label>Start from<select id="s-topic"></select></label>
+        <label>Pressure<select id="s-lvl"><option value="fair">Fair: one objection at a time</option><option value="sharp" selected>Sharp: presses on weak spots</option><option value="hard">Hard: the strongest case, no mercy</option></select></label>
+        <label>Language<select id="s-lang"><option>English</option><option>Arabic</option></select></label>
+      </div>
+      <div class="btns" style="display:flex;gap:.5rem;flex-wrap:wrap"><button class="btn1" id="go" type="button">Start sparring</button></div>
+      <div class="hist" id="hist"></div>
+    </section>
+    <section class="chat" id="chat" hidden aria-live="polite"></section>
+    <section class="composer" id="comp" hidden>
+      <textarea id="say" placeholder="Your answer. Enter to send, Shift+Enter for a new line." aria-label="Your answer"></textarea>
+      <div class="btns"><span class="note-s" id="st"></span><span style="display:flex;gap:.5rem"><button class="btn2" id="end" type="button">End and debrief</button><button class="btn1" id="send" type="button">Send</button></span></div>
+    </section>
+    <section id="debrief" hidden></section>
+  </main>
+</div>
+<!--V2JS-->
+<script>
+(function () {
+  const { $, $$, esc, store } = DA2;
+  DA2.mountBar({ crumb: 'Sparring room' });
+  const OPP = {
+    quranist: 'a Quranist who rejects hadith as a source and says the Quran alone is enough',
+    ex: 'an ex-Muslim who left Islam and now argues against it, sincere and well-read',
+    missionary: 'a Christian apologist who debates Muslims and challenges the Prophet and the Quran',
+    atheist: 'an atheist who thinks religion is a human invention and demands evidence',
+    liberal: 'a secular liberal who objects to Islamic rulings on gender, freedom and human rights'
+  };
+  const LABEL = { quranist: 'Hadith rejecter', ex: 'Ex-Muslim voice', missionary: 'Christian missionary', atheist: 'Atheist', liberal: 'Secular liberal' };
+  let D, TR = [], hist = [], notes = new Map(), turns = [], busy = false, cfg = null;
+  try { hist = JSON.parse(store.get('da2:spar') || '[]'); } catch (e) {}
+
+  function notesFor(text, add) {
+    const r = DA2.search(D, text, 6), seen = new Set(), out = [];
+    r.hits.forEach(h => { if (seen.has(h.b.id) || out.length >= 3) return; seen.add(h.b.id); out.push(h.b); });
+    if (add) out.forEach(b => notes.set(b.id, b));
+    return out.map(b => 'ARGUMENT: ' + b.title + '\nCLAIM: ' + b.thesis + '\nIN ONE BREATH: ' + b.sum + '\n' + b.obj.slice(0, 3).map(o => 'OBJECTION: ' + o.q + '\nREPLY: ' + o.a.slice(0, 450)).join('\n')).join('\n---\n');
+  }
+  const transcript = () => turns.slice(-10).map(t => (t.who === 'opp' ? 'OPPONENT: ' : 'STUDENT: ') + t.text).join('\n');
+  function oppPrompt(first) {
+    const ln = cfg.lang === 'Arabic' ? 'Speak in clear Arabic (Modern Standard with a light Iraqi touch is fine).' : 'Speak in plain English.';
+    const lib = notesFor(first ? cfg.topicText : turns.slice(-2).map(t => t.text).join(' '), true);
+    return 'You are role-playing ' + OPP[cfg.opp] + ' in a respectful but demanding debate practice with a Muslim student. ' + ln + '\n' +
+      'PRESSURE: ' + ({ fair: 'raise one objection at a time and accept a good answer.', sharp: 'press on weak spots and follow up on anything vague.', hard: 'make the strongest realistic case and do not let weak answers pass.' })[cfg.lvl] + '\n' +
+      'RULES: 1 to 3 sentences, one point per turn, a point real people actually make. No insults, no slurs, no mocking. Never invent a hadith number, verse, scholar quote or statistic: you may name a source only if it appears in LIBRARY NOTES; otherwise argue in general terms. Do not concede unless the student really answered your point; if they did, move to your next strongest point. Output only what the opponent says.\n\n' +
+      (first ? 'Start the conversation with your opening challenge on this topic: ' + cfg.topicText + '\n\n' : 'CONVERSATION SO FAR:\n' + transcript() + '\n\nSay the opponent\'s next line.\n\n') + 'LIBRARY NOTES (the student has studied these; use them to know what a good answer looks like, and to find where they may be weak):\n' + lib;
+  }
+  function add(who, text) {
+    turns.push({ who, text }); const d = document.createElement('div'); d.className = 'msg ' + (who === 'opp' ? 'opp' : 'me'); d.innerHTML = '<small>' + (who === 'opp' ? LABEL[cfg.opp] : 'You') + '</small>' + esc(text);
+    $('#chat').appendChild(d);
+    if (who === 'me') { const m = document.createElement('div'); m.className = 'mine'; m.innerHTML = '<button class="btn2" type="button" data-c>Coach me on this answer</button>'; $('#chat').appendChild(m); $('[data-c]', m).onclick = () => coach(d, m, turns.length - 1); }
+    d.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  }
+  async function ask(prompt, json) {
+    const sample = await DA2.getSample(); if (!sample) throw { code: 'nosample' };
+    return json ? sample.json(prompt, { cache: false, modelTier: 'default' }) : (await sample(prompt, { cache: false, modelTier: 'default' })).text.trim();
+  }
+  async function oppTurn(first) {
+    busy = true; $('#st').innerHTML = '<span class="spin"></span> The opponent is thinking…'; $('#send').disabled = true;
+    try { add('opp', await ask(oppPrompt(first))); $('#st').textContent = ''; }
+    catch (e) { $('#st').textContent = e && e.code === 'nosample' ? 'Sparring needs this page open inside Claude.' : e && e.code === 'not_granted' ? 'Not allowed, so nothing was sent.' : 'The opponent did not answer (' + ((e && e.code) || 'error') + '). Press Send to try again.'; }
+    busy = false; $('#send').disabled = false; $('#say').focus();
+  }
+  async function coach(bubble, row, idx) {
+    row.innerHTML = '<span class="note-s"><span class="spin"></span> The coach is reading…</span>';
+    const mine = turns[idx].text, prev = turns.slice(0, idx).reverse().find(t => t.who === 'opp');
+    const lib = notesFor((prev ? prev.text + ' ' : '') + mine, true);
+    const p = 'You are a debate coach for a Muslim student. Compare the STUDENT ANSWER with LIBRARY NOTES. Use only facts in the notes and what the student wrote; add no new verses, hadith or numbers. Reply as JSON: {"strong":["what worked"],"missing":["points from the notes the student left out"],"sharper":"one sentence the student could say instead","next":"the likely next push from the opponent"}. Be brief.\n\nOPPONENT SAID: ' + (prev ? prev.text : '') + '\n\nSTUDENT ANSWER: ' + mine + '\n\nLIBRARY NOTES:\n' + lib;
+    try {
+      const r = await ask(p, true), li = a => (a && a.length ? '<ul>' + a.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul>' : '<span class="note-s">None.</span>');
+      row.className = 'coach'; row.innerHTML = '<b>What worked</b>' + li(r.strong) + '<b>What the library adds</b>' + li(r.missing) + '<p style="margin:0"><b>Sharper:</b> ' + esc(r.sharper || '') + '</p><p style="margin:0"><b>Expect next:</b> ' + esc(r.next || '') + '</p>';
+    } catch (e) { row.innerHTML = '<span class="note-s">The coach could not answer this time.</span>'; }
+  }
+  async function send() {
+    const t = $('#say').value.trim(); if (!t || busy) return; $('#say').value = ''; add('me', t); await oppTurn(false);
+  }
+  async function debrief() {
+    if (turns.filter(t => t.who === 'me').length < 1) { $('#st').textContent = 'Answer at least once first.'; return; }
+    $('#comp').hidden = true; const box = $('#debrief'); box.hidden = false; box.innerHTML = '<div class="deb"><span class="spin"></span> Writing your debrief…</div>';
+    const lib = [...notes.values()].slice(0, 6).map(b => 'ARGUMENT: ' + b.title + '\nCLAIM: ' + b.thesis + '\nIN ONE BREATH: ' + b.sum).join('\n---\n');
+    const p = 'You are a debate coach. Read the whole exchange between the OPPONENT and the STUDENT, a Muslim student practising. Judge the student only against LIBRARY NOTES and clear reasoning; add no new sources. Reply as JSON: {"score":0-10,"strengths":["..."],"gaps":["specific points the student missed or answered weakly"],"revisit":["exact ARGUMENT titles from the notes worth rereading"],"drill":"one sentence: what to practise next"}. Be fair and specific.\n\nTRANSCRIPT:\n' + turns.map(t => (t.who === 'opp' ? 'OPPONENT: ' : 'STUDENT: ') + t.text).join('\n') + '\n\nLIBRARY NOTES:\n' + lib;
+    try {
+      const r = await ask(p, true), li = a => (a && a.length ? '<ul style="margin:.2rem 0;padding-left:1.1rem">' + a.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul>' : '<span class="note-s">None.</span>');
+      const links = (r.revisit || []).map(tt => { const b = [...notes.values()].find(x => x.title === tt) || [...notes.values()].find(x => tt && x.title.startsWith(tt.slice(0, 40))); return b ? '<li><a href="' + esc(DA2.href(b)) + '">' + esc(b.title) + '</a></li>' : '<li>' + esc(tt) + '</li>'; }).join('');
+      box.innerHTML = '<div class="deb"><h2>Debrief</h2><div class="score">' + esc(r.score) + '<span style="font-size:1rem;color:var(--muted)"> / 10</span></div><b>Strengths</b>' + li(r.strengths) + '<b>Gaps</b>' + li(r.gaps) + '<b>Revisit</b><ul style="margin:.2rem 0;padding-left:1.1rem">' + (links || '<li class="note-s">Nothing specific.</li>') + '</ul><p style="margin:0"><b>Practise next:</b> ' + esc(r.drill || '') + '</p><div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.5rem"><button class="btn1" id="again" type="button">Spar again</button><a class="btn2" style="text-decoration:none" href="learn.html">Daily session</a></div></div>';
+      hist.unshift({ at: Date.now(), opp: cfg.opp, topic: cfg.topicText.slice(0, 70), score: +r.score || 0 }); hist = hist.slice(0, 12); store.set('da2:spar', JSON.stringify(hist));
+      $('#again').onclick = () => location.reload();
+    } catch (e) { box.innerHTML = '<div class="deb">The debrief could not be written this time. You can still reread the exchange above.</div>'; }
+  }
+  function drawHist() { $('#hist').innerHTML = hist.length ? '<b style="color:var(--ink)">Recent rounds</b>' + hist.slice(0, 5).map(h => '<div><span>' + new Date(h.at).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) + ' · ' + esc(LABEL[h.opp] || h.opp) + ' · ' + esc(h.topic) + '</span><b>' + h.score + '/10</b></div>').join('') : ''; }
+  DA2.loadIdx().then(async d => {
+    D = d; DA2.prep(D);
+    try { TR = await fetch('tracks.json').then(r => r.json()); } catch (e) {}
+    $('#s-opp').innerHTML = Object.keys(LABEL).map(k => '<option value="' + k + '">' + LABEL[k] + '</option>').join('');
+    const opts = ['<option value="rand">A surprise from the library</option>'];
+    TR.forEach(t => { opts.push('<optgroup label="' + esc(t.title) + '">' + t.steps.map(s => '<option value="' + esc(s.id) + '">' + esc(s.title) + '</option>').join('') + '</optgroup>'); });
+    $('#s-topic').innerHTML = opts.join(''); drawHist();
+    $('#go').onclick = async () => {
+      const sel = $('#s-topic').value; let b = sel === 'rand' ? D.briefs[Math.floor(Math.random() * D.briefs.length)] : D.byId.get(sel);
+      cfg = { opp: $('#s-opp').value, lvl: $('#s-lvl').value, lang: $('#s-lang').value, topicText: b.title + (b.obj[0] ? ' (for example: ' + b.obj[0].q + ')' : '') };
+      const sample = await DA2.getSample(); if (!sample) { $('#hist').innerHTML = '<span style="color:var(--warn)">Sparring needs this page open inside Claude.</span>'; return; }
+      $('#setup').hidden = true; $('#chat').hidden = false; $('#comp').hidden = false; await oppTurn(true);
+    };
+    $('#send').onclick = send; $('#end').onclick = debrief;
+    $('#say').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); } });
+  });
+})();
+</script>
