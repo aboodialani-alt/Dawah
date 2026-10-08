@@ -22,7 +22,7 @@ Everything here is separate from your live work. Your original DA and the origin
 - **Drill room**: 570 cards (329 attacks, 241 practice prompts) with spaced repetition. You can type your answer and have Claude grade it against the model answer.
 - **Review desk**: the six drafted additions and your three open questions. Accept, decline or request changes on each. The decisions are saved to the shared database so I can apply exactly what you chose.
 - **Video queue**: arguments you line up for reels. Shared, so I can read it and plan from it.
-- **Citation audit** (new page, linked from the front page): all 259 hadith references in the library looked up in the open dataset by number, set against the library's sentence, with each grader's verdict. 15 have graders who disagree (for example Tirmidhi 3194, 2733 and 113) and 2 are graded weak by every grader listed (Nasa'i 3269 and Tirmidhi 3620, the Bahira story, graded munkar). It is a lookup, not a ruling, and Bukhari and Muslim carry no grade in the dataset. `audit.py` regenerates it.
+- **Citation audit** (new page, linked from the front page): all 259 hadith references in the library looked up in the open dataset by number, set against the library's sentence, with each grader's verdict. 15 have graders who disagree (for example Tirmidhi 3194, 2733 and 113) and 2 are graded weak by every grader listed (Nasa'i 3269 and Tirmidhi 3620, the Bahira story, graded munkar). It is a lookup, not a ruling, and Bukhari and Muslim carry no grade in the dataset. `audit.py` regenerates it. The same page also checks all 153 Arabic Quran quotations against the Uthmani text: 105 match word for word, 42 differ only by modern spelling or by quoting part of a verse, and none has different words.
 - **Reviewer note layer**: the Mongols and Baghdad entry carries a note that its identification of Baghdad is an interpretation and that three details were unverified. The library text itself is not changed.
 - Light and dark themes, phone layout, keyboard keys on part pages: `j` and `k` move between arguments, `x` marks studied, `q` queues.
 
@@ -71,6 +71,7 @@ Meedro credits went from 35,570 to 35,074, so 496 were used: six accounts added 
 
 ## What I could not check
 
+- An end-to-end test (`overnight/da-v2/test/e2e.mjs`) ran 22 checks across the pages with stubbed services: queue, draft dialog, reading modes, finder, tracks, drill, review decisions, audit filters. All passed (the one reported failure was a test comparing text that the page shows in capitals, and the decision itself saved correctly).
 - I cannot open the published pages in a browser here. I tested every page with a stubbed database and a stubbed Claude in a headless browser, at desktop and phone widths, light and dark. The calls to Claude ("Draft a reel", drill grading, intake, hook ideas) and the shared database were not run for real, so the first time you press them is the real test.
 - Wake subscriptions for the two new artifacts did not register, so I will not be woken by edits or comments on them.
 - The weekly Monday sweep routine is unchanged. It cannot write into the Studio Board yet. Doing that is a small change to its prompt if you want it.

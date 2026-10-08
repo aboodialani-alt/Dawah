@@ -49,6 +49,13 @@ mark.h{background:var(--hl);color:inherit;border-radius:2px;padding:0 .1rem}
       <button class="btn2" type="button" id="cp">Copy this list</button>
     </div>
     <div id="list" aria-live="polite"></div>
+    <section id="qsec" hidden>
+      <p class="eyebrow" style="margin-top:2rem">Arabic Quran quotations</p>
+      <h2 style="font-family:var(--f-display);font-weight:500;font-size:1.7rem;margin:.2rem 0 .6rem">Every Arabic verse in the library, compared with the Uthmani text.</h2>
+      <p class="sub" id="qsum"></p>
+      <div class="bar" style="margin-top:.8rem"><button type="button" id="qtog" class="btn2">Show the ones that differ in spelling or quote only part of the verse</button></div>
+      <div id="qlist" hidden style="margin-top:1rem"></div>
+    </section>
   </main>
 </div>
 <!--V2JS-->
@@ -87,6 +94,13 @@ mark.h{background:var(--hl);color:inherit;border-radius:2px;padding:0 .1rem}
     $('#tally').innerHTML = [[s.total, 'references checked'], [s.disputed, 'grading disputed'], [s.weak, 'graded weak'], [s.quote_differs, 'quote differs'], [s.with_grade, 'with a grade in the dataset']].map(([n, l]) => '<div><b>' + n + '</b>' + l + '</div>').join('');
     draw();
   }).catch(() => { $('#list').innerHTML = '<p class="none2">The audit data did not load.</p>'; });
+  fetch('quran-audit.json').then(r => r.json()).then(d => {
+    const s = d.summary, part = d.rows.filter(r => r.kind === 'partial');
+    $('#qsec').hidden = false;
+    $('#qsum').textContent = s.total + ' Arabic quotations checked. ' + s.match + ' match the standard text word for word. ' + s.partial + ' differ only because the library quotes part of the verse or uses modern spelling (for example هارون for هرون, ثلاثة for ثلثة). ' + s.differs + ' have different words. ' + s['no such verse'] + ' cite a verse that does not exist. Compared on the letters only, ignoring vowel marks.';
+    $('#qlist').innerHTML = part.map(r => '<article class="row2" style="margin-bottom:1rem"><div class="top2"><span class="ref">Quran ' + esc(r.cite) + '</span><span>Part ' + esc(r.p.replace('p', '')) + ' · <a href="' + esc(r.p + '.html#' + r.a) + '">' + esc(r.title) + '</a></span></div><div class="cols"><div class="col2"><small>The library quotes</small><p dir="rtl" lang="ar" style="font-family:var(--f-ar);font-size:1.3rem;line-height:1.9">' + esc(r.text) + '</p></div><div class="col2 ds"><small>The standard text</small><p dir="rtl" lang="ar" style="font-family:var(--f-ar);font-size:1.3rem;line-height:1.9">' + esc(r.ref_ar) + '</p></div></div></article>').join('');
+    $('#qtog').onclick = () => { const l = $('#qlist'); l.hidden = !l.hidden; $('#qtog').textContent = l.hidden ? 'Show the ones that differ in spelling or quote only part of the verse' : 'Hide them'; };
+  }).catch(() => {});
   $$('#bar [data-f]').forEach(b => b.onclick = () => { cur = b.dataset.f; draw(); });
   $('#q').addEventListener('input', draw);
   $('#cp').onclick = () => DA2.copy(visible().map(r => '- ' + r.ref + ' (Part ' + r.p.replace('p', '') + ', ' + r.title + ')' + (r.flag ? ' [' + r.flag + ']' : '') + (r.grades && r.grades.length ? ' ' + r.grades.map(g => g[0] + ': ' + g[1]).join('; ') : '')).join('\n'), 'List copied');
