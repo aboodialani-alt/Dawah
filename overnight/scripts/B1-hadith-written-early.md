@@ -39,6 +39,14 @@ Now the report critics love. Muslim 3004: 'Do not take down anything from me exc
 
 No call to action. End on the last word.
 
+## Alternative hooks (Style B now asks for a specific, checkable demand)
+
+1. "You say hadith weren't written for 200 years. So what do you do with Bukhari 113?" (a specific demand, strongest under the new rule)
+2. "Who was writing hadith while the Prophet ﷺ was still alive?" (the one in the script above)
+3. "Name one Companion who wrote hadith down. I'll give you the reference." (a challenge that you then answer in the reel)
+
+If you use 1 or 3, the first source beat (Bukhari 113) can move up to second 3 and the "their clip" beat shortens.
+
 ## On-screen text, in order
 1. WHO WAS WRITING HADITH WHILE THE PROPHET ﷺ WAS ALIVE?
 2. [Their name] · [Their claim, in their words]

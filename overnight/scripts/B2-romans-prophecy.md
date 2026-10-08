@@ -42,6 +42,12 @@ Muslim commentators count the first Roman successes, around the time of Badr in 
 
 No call to action. End on the last word.
 
+## Alternative hooks (Style B now asks for a specific, checkable demand)
+
+1. "If it was a lucky guess in 615, what were the odds?" (a demand that the critic name a number)
+2. "In 615, who was winning, Rome or Persia?" (the one in the script above)
+3. "Show me one source in 615 that gave Rome the better odds." (a checkable demand)
+
 ## On-screen text, in order
 1. IN 615, WHO WAS WINNING, ROME OR PERSIA?
 2. [Their name] · [their claim in their words]

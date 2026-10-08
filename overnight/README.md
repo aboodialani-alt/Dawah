@@ -43,6 +43,7 @@ The text of all 252 arguments is exactly as in your DA. Only the presentation an
 - Ali Amery: reels of 2.5 minutes or less score about twice as well as reels over 6 minutes. Most of his reels are long.
 - Question hooks with the same line in capitals on screen appear in several of the best reels from @korrathetaymi and @bro_yusuf_11.
 - A 10-second skit on "hadith acceptors" got 5.0x. Humor on your topic works when it is short.
+- The strongest English reference, @orthodoxmuslim, opens its best reels (65 to 98 seconds, 8x to 11x) with a **specific demand for evidence** ("is there anybody in the first 200 years who...") over a split screen with a capitals topic label. Its titles also use mocking frames ("GETS SILENCED", "CAUGHT", "GOT COOKED"). Style B takes the structure and drops that tone.
 - Full per-reel data is in `style-data/reels.json`.
 
 All of this is a small sample read from titles and Meedro's own breakdowns. It is a hypothesis until your own 48-hour numbers confirm it.
@@ -66,7 +67,7 @@ Both quote only references I checked against the open hadith dataset, give the e
 
 ## Credits
 
-Meedro credits went from 35,570 to 35,116, so 454 were used: six accounts added to the watchlist (300), 16 reels analysed (112), and 42 I cannot account for, probably from a batch you rejected. Everything else I did was free stored data.
+Meedro credits went from 35,570 to 35,074, so 496 were used: six accounts added to the watchlist (300), 22 reels analysed (154), and 42 I cannot account for, probably from a batch you rejected. Everything else I did was free stored data.
 
 ## What I could not check
 
