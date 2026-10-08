@@ -1,0 +1,146 @@
+<title>DA Drill Room</title>
+<!--V2HEAD-->
+<style>
+/* Layout concept: one card on the table at a time. The attack comes first as a chat bubble, you answer, then the model answer opens.
+   A spaced-repetition box system decides what comes back and when. */
+.wrap{margin:0 auto;padding-inline:16px;padding-block:0 4rem}
+.stage{grid-template-columns:minmax(0,1fr);max-width:50rem;margin:1.6rem auto 0;display:grid;gap:1.1rem}
+h1.t{font-size:clamp(2rem,5vw,3.2rem);margin:.4rem 0 .3rem;letter-spacing:-.02em;font-weight:500}
+.sub{color:var(--muted);margin:0 0 .6rem}
+.ctrl{display:flex;flex-wrap:wrap;gap:.6rem;align-items:end;font-family:var(--f-ui);font-size:.8rem;color:var(--muted)}
+.ctrl label{display:grid;gap:.25rem}
+.ctrl label{flex:1 1 12rem;min-width:0}.ctrl select{width:100%;max-width:100%;font:inherit;font-size:.9rem;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:9px;padding:.4rem .6rem}
+.meter{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;font-family:var(--f-ui);font-size:.8rem;color:var(--muted)}
+.meter b{font-family:var(--f-display);font-weight:500;font-size:1.6rem;color:var(--ink);display:block;line-height:1}
+.deck{position:relative;background:var(--card);border:1px solid var(--rule);border-radius:20px;box-shadow:var(--shadow);padding:1.4rem clamp(1rem,3vw,1.8rem) 1.5rem;display:grid;gap:1rem}
+.deck::before{content:"";position:absolute;inset:0;border-radius:20px;background-image:var(--tile);background-size:110px;opacity:.07;pointer-events:none}
+.deck>*{position:relative}
+.where{font-family:var(--f-ui);font-size:.74rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.3rem 1rem;align-items:center}
+.pill{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;padding:.12rem .55rem;border-radius:99px;border:1px solid var(--gold);color:var(--gold)}
+.atk{justify-self:start;max-width:96%;padding:1rem 1.2rem;background:var(--bubble-q);border-radius:18px 18px 18px 4px;font-family:var(--f-ui);font-weight:500;font-size:1.25rem;line-height:1.4}
+.atk small{display:block;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem;font-weight:400}
+textarea#mine{width:100%;min-height:6.5rem;resize:vertical;font:inherit;font-size:1rem;color:var(--ink);background:var(--paper);border:1.5px solid var(--rule);border-radius:14px;padding:.8rem 1rem;outline:0}
+textarea#mine:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--glow)}
+.btns{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.ans{justify-self:end;width:min(100%,96%);padding:1rem 1.2rem;background:var(--bubble-a);border:1px solid var(--accent-soft);border-radius:18px 18px 4px 18px;white-space:pre-line}
+.ans small{display:block;font-family:var(--f-ui);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:.3rem}
+.grade{padding:1rem 1.2rem;border:1.5px dashed var(--accent);border-radius:14px;font-family:var(--f-ui);font-size:.92rem;display:grid;gap:.5rem}
+.grade h4{margin:0;font-family:var(--f-display);font-weight:500;font-size:1.2rem}
+.grade ul{margin:.2rem 0;padding-left:1.1rem}
+.rate{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem}
+.rate button{font:inherit;font-family:var(--f-ui);cursor:pointer;border-radius:14px;border:1px solid var(--rule);background:var(--card);color:var(--ink);padding:.8rem .4rem;display:grid;gap:.1rem;transition:.15s}
+.rate button b{font-size:1rem}.rate button span{font-size:.72rem;color:var(--muted)}
+.rate button:hover{transform:translateY(-2px)}
+.rate .m:hover{border-color:var(--warn)}.rate .a:hover{border-color:var(--gold)}.rate .n:hover{border-color:var(--accent)}
+kbd{font-family:var(--f-ui);font-size:.68rem;border:1px solid var(--rule);border-radius:4px;padding:0 .3rem;color:var(--muted)}
+.empty{font-family:var(--f-ui);color:var(--muted);text-align:center;padding:2rem}
+</style>
+<div class="wrap">
+  <main class="stage">
+    <div>
+      <p class="eyebrow">Drill room</p>
+      <h1 class="t">Face the attack first.</h1>
+      <p class="sub">Every card is a real objection the library already answers. Say your answer, check it, and the cards you miss come back sooner.</p>
+    </div>
+    <div class="ctrl">
+      <label>Part<select id="f-part"></select></label>
+      <label>Cards<select id="f-kind"><option value="all">Attacks and practice prompts</option><option value="atk">Attacks only</option><option value="prac">Practice prompts only</option></select></label>
+      <button class="btn2" id="reset" type="button" title="Forget all drill progress in this browser">Reset progress</button>
+    </div>
+    <div class="meter" id="meter"></div>
+    <section class="deck" id="deck" aria-live="polite"></section>
+    <p class="note-s">Keys: <kbd>Space</kbd> reveal · <kbd>1</kbd> missed · <kbd>2</kbd> almost · <kbd>3</kbd> nailed. Progress is kept in this browser.</p>
+  </main>
+</div>
+<!--V2JS-->
+<script>
+(function () {
+  const { $, esc, store } = DA2;
+  DA2.mountBar({ crumb: 'Drill room' });
+  const KEY = 'da2:drill';
+  let prog = {}; try { prog = JSON.parse(store.get(KEY) || '{}'); } catch (e) {}
+  const save = () => store.set(KEY, JSON.stringify(prog));
+  const DAYS = [0, 1, 3, 7, 21];
+  let cards = [], cur = null, session = { n: 0, ok: 0, streak: 0 }, revealed = false, d;
+
+  function build() {
+    const part = $('#f-part').value, kind = $('#f-kind').value; cards = [];
+    d.briefs.forEach(b => {
+      if (part !== 'all' && b.p !== part) return;
+      if (kind !== 'prac') b.obj.forEach((o, i) => cards.push({ k: b.id + '#o' + i, b, q: o.q, a: o.a, kind: 'Attack' }));
+      if (kind !== 'atk' && b.prac && b.prac.q) cards.push({ k: b.id + '#p', b, q: b.prac.q, a: b.prac.a || b.sum, kind: 'Practice' });
+    });
+  }
+  const due = c => { const p = prog[c.k]; return !p || (p.due || 0) <= Date.now(); };
+  function pick() {
+    const dueCards = cards.filter(due);
+    const pool = dueCards.length ? dueCards : cards;
+    if (!pool.length) return null;
+    // avoid immediate repeat
+    let c, tries = 0; do { c = pool[Math.floor(Math.random() * pool.length)]; tries++; } while (cur && c.k === cur.k && tries < 6 && pool.length > 1);
+    return c;
+  }
+  function meter() {
+    const learned = cards.filter(c => (prog[c.k] || {}).box >= 3).length;
+    $('#meter').innerHTML = '<div><b>' + cards.filter(due).length + '</b>due now</div><div><b>' + learned + '</b>of ' + cards.length + ' solid</div><div><b>' + session.n + '</b>this session</div><div><b>' + (session.n ? Math.round(100 * session.ok / session.n) : 0) + '%</b>nailed or almost</div><div><b>' + session.streak + '</b>streak</div>';
+  }
+  function show() {
+    cur = pick(); revealed = false; meter();
+    const deck = $('#deck');
+    if (!cur) { deck.innerHTML = '<div class="empty">No cards for this filter.</div>'; return; }
+    const p = d.partBy.get(cur.b.p); const box = (prog[cur.k] || {}).box;
+    deck.innerHTML = '<div class="where"><span class="pill">' + cur.kind + '</span><span>Part ' + p.no + ' · ' + esc(cur.b.title) + '</span><span>' + (box == null ? 'new card' : 'box ' + (box + 1) + ' of 5') + '</span></div>' +
+      '<div class="atk"><small>They say</small>' + esc(cur.q) + '</div>' +
+      '<textarea id="mine" placeholder="Answer it here in your own words, or say it out loud and skip this box." aria-label="Your answer"></textarea>' +
+      '<div class="btns"><button class="btn1" id="rev" type="button">Reveal the model answer</button><button class="btn2" id="grade" type="button" hidden>Have Claude grade my answer</button><a class="btn2" style="text-decoration:none" href="' + esc(DA2.href(cur.b)) + '">Open the argument</a></div>' +
+      '<div id="after"></div>';
+    $('#rev').onclick = reveal; $('#grade').onclick = gradeIt;
+    DA2.getSample().then(s => { if (s) $('#grade') && ($('#grade').hidden = false); });
+    setTimeout(() => { const m = $('#mine'); m && m.focus({ preventScroll: true }); }, 50);
+  }
+  function reveal() {
+    if (revealed) return; revealed = true; $('#rev').hidden = true;
+    $('#after').innerHTML = '<div class="ans"><small>Model answer</small>' + esc(cur.a) + '</div><div class="rate" style="margin-top:1rem"><button class="m" data-r="0" type="button"><b>Missed</b><span>1 · back soon</span></button><button class="a" data-r="1" type="button"><b>Almost</b><span>2 · stays here</span></button><button class="n" data-r="2" type="button"><b>Nailed</b><span>3 · moves on</span></button></div>';
+    document.querySelectorAll('.rate button').forEach(b => b.onclick = () => rate(+b.dataset.r));
+  }
+  function rate(r) {
+    const p = prog[cur.k] || { box: 0 };
+    p.box = r === 0 ? 0 : r === 1 ? p.box : Math.min(4, p.box + 1);
+    p.due = Date.now() + (r === 0 ? 3 * 60 * 1000 : DAYS[p.box] * 864e5 + (r === 1 ? 0 : 0));
+    if (r === 1 && p.box === 0) p.due = Date.now() + 10 * 60 * 1000;
+    prog[cur.k] = p; save();
+    session.n++; if (r > 0) session.ok++; session.streak = r === 2 ? session.streak + 1 : 0;
+    show();
+  }
+  async function gradeIt() {
+    const mine = $('#mine').value.trim();
+    if (mine.length < 8) { DA2.toast('Write a few words first'); return; }
+    reveal();
+    const sample = await DA2.getSample(); if (!sample) return;
+    const out = document.createElement('div'); out.className = 'grade'; out.innerHTML = '<span class="spin"></span> Claude is reading your answer…';
+    $('#after').prepend(out);
+    const prompt = 'You are grading a debate student. Compare the STUDENT ANSWER only against the MODEL ANSWER. Do not add any new facts, verses, hadith or sources of your own. Reply as JSON: {"score":0-3,"hit":["points the student made that match the model"],"missed":["points in the model the student left out"],"tip":"one sentence on how to say it more sharply"}. 3 = covers the core, 2 = mostly, 1 = partly, 0 = off target. Be fair and brief.\n\nATTACK: ' + cur.q + '\n\nMODEL ANSWER: ' + cur.a + '\n\nSTUDENT ANSWER: ' + mine;
+    try {
+      const r = await sample.json(prompt, { cache: false, modelTier: 'quick' });
+      const li = a => (a && a.length ? '<ul>' + a.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul>' : '<p class="note-s">Nothing here.</p>');
+      out.innerHTML = '<h4>Score ' + esc(r.score) + ' of 3</h4><b>You covered</b>' + li(r.hit) + '<b>You left out</b>' + li(r.missed) + '<p><b>Tip:</b> ' + esc(r.tip || '') + '</p>';
+    } catch (e) { out.textContent = e && e.code === 'not_granted' ? 'Grading was not allowed, so nothing was sent.' : 'Could not grade this one. Compare it yourself with the model answer.'; }
+  }
+  document.addEventListener('keydown', e => {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    const typing = (e.target || {}).tagName === 'TEXTAREA';
+    if (e.key === ' ' && !typing && !revealed && cur) { e.preventDefault(); reveal(); }
+    else if (revealed && !typing && ['1', '2', '3'].includes(e.key)) rate(+e.key - 1);
+  });
+
+  DA2.loadIdx().then(data => {
+    d = data;
+    $('#f-part').innerHTML = '<option value="all">All nine parts</option>' + d.parts.map(p => '<option value="' + p.id + '">Part ' + p.no + ' · ' + esc(p.title) + '</option>').join('');
+    const rebuild = () => { build(); show(); };
+    $('#f-part').onchange = rebuild; $('#f-kind').onchange = rebuild;
+    $('#reset').onclick = () => { if (confirm_ok()) { prog = {}; save(); rebuild(); DA2.toast('Progress cleared'); } };
+    function confirm_ok() { return true; }
+    rebuild();
+  });
+})();
+</script>

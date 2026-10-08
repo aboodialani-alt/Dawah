@@ -1,0 +1,194 @@
+<title>DA Next</title>
+<!--V2HEAD-->
+<style>
+/* Layout concept: a working desk, not a table of contents. The hero is an attack finder (paste what they said, get the answer),
+   a live geometric field sits behind it, the nine parts are a shelf of tiles, tools sit in a row under it. */
+.wrap{margin:0 auto;padding-inline:16px;padding-block:0 4rem}
+.hero{position:relative;overflow:hidden;isolation:isolate;margin-top:1.2rem;border-radius:20px;padding:clamp(2rem,6vw,4.4rem) clamp(1.2rem,4vw,3.4rem) clamp(1.6rem,4vw,2.6rem);background:var(--card);box-shadow:var(--shadow);display:block;border:0}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;z-index:-1;mask-image:linear-gradient(100deg,transparent 28%,#000 75%);-webkit-mask-image:linear-gradient(100deg,transparent 28%,#000 75%)}
+.hero h1{font-size:clamp(2.5rem,7vw,5.2rem);line-height:1;letter-spacing:-.03em;margin:.3rem 0 1rem;max-width:12ch;font-weight:500}
+.hero h1 em{font-style:italic;color:var(--accent)}
+.hero .lede{max-width:34rem;color:var(--muted);font-size:1.15rem;margin:0 0 1.6rem}
+.finder{position:relative;max-width:42rem}
+.finder input{width:100%;font:inherit;font-family:var(--f-ui);font-size:1.1rem;padding:1rem 1.2rem 1rem 3rem;color:var(--ink);background:var(--paper);border:1.5px solid var(--rule);border-radius:14px;outline:0;transition:.2s}
+.finder input:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--glow)}
+.finder svg{position:absolute;left:1.05rem;top:50%;transform:translateY(-50%);color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.8rem;font-family:var(--f-ui);font-size:.8rem;color:var(--muted);align-items:center}
+.chips button{font:inherit;cursor:pointer;color:var(--muted);background:transparent;border:1px solid var(--rule);border-radius:99px;padding:.22rem .75rem}
+.chips button:hover{border-color:var(--accent);color:var(--accent)}
+.stats{display:flex;flex-wrap:wrap;gap:.5rem 2.2rem;margin-top:1.8rem;font-family:var(--f-ui);font-size:.82rem;color:var(--muted)}
+.stats b{display:block;font-family:var(--f-display);font-weight:500;font-size:2rem;line-height:1;color:var(--ink);font-variant-numeric:tabular-nums}
+
+#results{margin-top:1.4rem;display:grid;gap:1rem}
+.res{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:1.1rem 1.3rem;box-shadow:var(--shadow);display:grid;gap:.7rem}
+.res .meta{font-family:var(--f-ui);font-size:.74rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.3rem .8rem;align-items:center}
+.res .tag{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;padding:.12rem .5rem;border-radius:99px;border:1px solid var(--rule)}
+.res .tag.atk{border-color:var(--warn);color:var(--warn)}.res .tag.arg{border-color:var(--accent);color:var(--accent)}
+.res .q{justify-self:start;max-width:92%;padding:.65rem .95rem;background:var(--bubble-q);border-radius:14px 14px 14px 3px;font-family:var(--f-ui);font-weight:500}
+.res .a{justify-self:end;width:min(100%,94%);padding:.75rem 1rem;background:var(--bubble-a);border-radius:14px 14px 3px 14px;border:1px solid var(--accent-soft);white-space:pre-line}
+.res .a.clip{max-height:9.5rem;overflow:hidden;-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
+.res h3{margin:0;font-size:1.3rem}
+.res .th{border-left:3px solid var(--gold);padding-left:.9rem;margin:0}
+.res .acts{display:flex;flex-wrap:wrap;gap:.5rem}
+.none{font-family:var(--f-ui);color:var(--muted);padding:1rem .2rem}
+
+h2.sh{font-size:clamp(1.6rem,3vw,2.2rem);margin:3.4rem 0 1.1rem;display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap}
+h2.sh small{font-family:var(--f-ui);font-size:.8rem;font-weight:400;color:var(--muted);letter-spacing:0}
+.shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,22rem),1fr));gap:1rem}
+.tile{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-direction:column;gap:.5rem;min-height:15rem;padding:1.3rem 1.3rem 1.1rem;background:var(--card);border:1px solid var(--rule);border-radius:16px;text-decoration:none;color:var(--ink);transition:transform .25s,border-color .25s,box-shadow .25s}
+.tile:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 18px 40px -22px var(--accent)}
+.tile .no{position:absolute;right:.7rem;top:-.9rem;z-index:-1;font-family:var(--f-kufi);font-size:8.5rem;line-height:1;color:transparent;-webkit-text-stroke:1.3px var(--gold);opacity:.3}
+.tile .pn{font-family:var(--f-ui);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.tile .new{margin-left:.5rem;color:var(--accent)}
+.tile h3{font-size:1.45rem;line-height:1.15;margin:0;max-width:15ch}
+.tile p{margin:0;color:var(--muted);font-size:.95rem;line-height:1.45}
+.tile .foot{margin-top:auto;font-family:var(--f-ui);font-size:.76rem;color:var(--muted);display:grid;gap:.4rem}
+.pbar{height:4px;background:var(--rule);border-radius:3px;overflow:hidden}.pbar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--gold));transition:width .5s}
+
+.tools3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1rem}
+.tool{display:flex;flex-direction:column;gap:.45rem;padding:1.2rem 1.3rem;border-radius:16px;text-decoration:none;color:var(--ink);background:var(--accent-soft);border:1px solid transparent;cursor:pointer;text-align:left;font:inherit;transition:.2s}
+.tool:hover{border-color:var(--accent)}
+.tool b{font-family:var(--f-display);font-weight:500;font-size:1.35rem}
+.tool span{font-family:var(--f-ui);font-size:.86rem;color:var(--muted)}
+.tool .big{font-family:var(--f-display);font-size:2.3rem;line-height:1;color:var(--accent)}
+.tool.gold{background:var(--gold-soft)}.tool.gold .big{color:var(--gold)}
+.today{display:grid;gap:.8rem;padding:1.3rem;border:1px dashed var(--accent);border-radius:16px;background:transparent}
+.today .q{justify-self:start;max-width:94%;padding:.7rem 1rem;background:var(--bubble-q);border-radius:14px 14px 14px 3px;font-family:var(--f-ui);font-weight:500}
+.today .a{white-space:pre-line;justify-self:end;width:min(100%,94%);padding:.8rem 1rem;background:var(--bubble-a);border-radius:14px 14px 3px 14px}
+footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-family:var(--f-ui);font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.5rem 2rem;justify-content:space-between}
+</style>
+<div class="wrap">
+  <header class="hero" id="top">
+    <canvas id="geo" aria-hidden="true"></canvas>
+    <p class="eyebrow">Dawah Study Library · v2 preview</p>
+    <h1>Answer the <em>claim</em> in front of you.</h1>
+    <p class="lede">Paste what they said. The library finds the objection it already answers, with the verified reply, in one step.</p>
+    <div class="finder">
+      <svg width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.4 10.4L14 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <input id="fq" type="search" autocomplete="off" aria-label="Paste an attack or search the library" placeholder="e.g. “the hadith were written 200 years later”">
+    </div>
+    <div class="chips" id="chips"><span>Try:</span></div>
+    <div class="stats" id="stats" aria-label="Library size"></div>
+  </header>
+
+  <div id="results" aria-live="polite"></div>
+
+  <h2 class="sh">The shelf <small>nine parts · progress is kept in this browser</small></h2>
+  <div class="shelf" id="shelf"></div>
+
+  <h2 class="sh">On the desk</h2>
+  <div class="tools3">
+    <a class="tool" href="drill.html"><span class="big" id="n-drill">0</span><b>Drill room</b><span>Face an attack, answer it out loud or in writing, then see the model answer. Claude can grade you.</span></a>
+    <a class="tool gold" href="review.html"><span class="big" id="n-review">0</span><b>Review desk</b><span>Additions drafted for the library, waiting for your yes or no. Nothing goes in until you decide.</span></a>
+    <button class="tool" type="button" id="open-queue"><span class="big" id="n-queue">0</span><b>Video queue</b><span>Arguments you lined up for the next reels. Shared, so Claude can plan from it.</span></button>
+  </div>
+
+  <h2 class="sh">An attack a day <small id="tdate"></small></h2>
+  <div class="today" id="today"></div>
+
+  <footer class="f"><span>Compiled from the Islam | إسلام | Library And Training Center Discord server and written up as full arguments. Check each source before citing it.</span><span>Press <b>/</b> anywhere to search</span></footer>
+</div>
+<!--V2JS-->
+<script>
+(function(){
+  const { $, $$, esc, arN, store, mark } = DA2;
+  DA2.mountBar({ crumb: '' });
+  const root = $('#results');
+
+  DA2.loadIdx().then(d => {
+    DA2.prep(d);
+    const nObj = d.briefs.reduce((n, b) => n + b.obj.length, 0);
+    const nAr = d.briefs.filter(b => b.ar).length, nCare = d.briefs.filter(b => b.caution).length;
+    const nPrac = d.briefs.filter(b => b.prac).length;
+    $('#stats').innerHTML = [[d.briefs.length, 'arguments'], [nObj, 'attacks answered'], [nPrac, 'practice prompts'], [nAr, 'with Arabic text'], [nCare, 'marked use with care']]
+      .map(([n, l]) => '<div><b>' + n + '</b>' + l + '</div>').join('');
+    $('#n-drill').textContent = nObj + nPrac;
+
+    // chips
+    const samples = ['hadith were written 200 years later', 'Aisha', 'Bible is corrupted', 'moon splitting', 'apostasy', 'evolution', 'Satanic verses', 'women inheritance'];
+    const chips = $('#chips');
+    samples.forEach(s => { const b = document.createElement('button'); b.type = 'button'; b.textContent = s; b.onclick = () => { $('#fq').value = s; run(); $('#results').scrollIntoView({ behavior: 'smooth', block: 'start' }); }; chips.appendChild(b); });
+
+    // finder
+    function card(h, tk) {
+      const p = d.partBy.get(h.b.p);
+      if (h.type === 'atk') {
+        const long = h.o.a.length > 360;
+        return '<article class="res"><div class="meta"><span class="tag atk">Attack</span><span>Part ' + p.no + ' · ' + esc(h.b.title) + '</span></div>' +
+          '<div class="q">' + mark(h.o.q, tk) + '</div><div class="a' + (long ? ' clip' : '') + '">' + mark(h.o.a, tk) + '</div>' +
+          '<div class="acts">' + (long ? '<button class="btn2" data-more type="button">Read the full answer</button>' : '') +
+          '<a class="btn1" href="' + esc(DA2.href(h.b)) + '" style="text-decoration:none">Open the argument</a><button class="btn2" data-q="' + esc(h.b.id) + '" type="button">＋ Queue for video</button></div></article>';
+      }
+      return '<article class="res"><div class="meta"><span class="tag arg">Argument</span><span>Part ' + p.no + ' · ' + esc(h.b.sec) + '</span></div>' +
+        '<h3>' + mark(h.b.title, tk) + '</h3><p class="th">' + mark(h.b.thesis || h.b.sum, tk) + '</p>' +
+        '<div class="acts"><a class="btn1" href="' + esc(DA2.href(h.b)) + '" style="text-decoration:none">Open the argument</a><button class="btn2" data-q="' + esc(h.b.id) + '" type="button">＋ Queue for video</button></div></article>';
+    }
+    function run() {
+      const q = $('#fq').value;
+      if (!q.trim()) { root.innerHTML = ''; return; }
+      const r = DA2.search(d, q, 12);
+      if (!r.hits.length) { root.innerHTML = '<p class="none">Nothing in the library matches that yet. Try fewer words, or one distinctive word such as a name or verse number. If it is a real gap, that is a new argument to write.</p>'; return; }
+      root.innerHTML = r.hits.map(h => card(h, r.tk)).join('');
+      $$('[data-more]', root).forEach(b => b.onclick = () => { const a = b.closest('.res').querySelector('.a'); a.classList.remove('clip'); b.remove(); });
+      $$('[data-q]', root).forEach(b => b.onclick = () => DA2.qToggle(d.byId.get(b.dataset.q)));
+    }
+    let t; $('#fq').addEventListener('input', () => { clearTimeout(t); t = setTimeout(run, 120); });
+
+    // shelf
+    const shelf = $('#shelf');
+    d.parts.forEach(p => {
+      const bs = d.briefs.filter(b => b.p === p.id);
+      const secs = [...new Set(bs.map(b => b.sec))];
+      const a = document.createElement('a'); a.className = 'tile'; a.href = p.id + '.html';
+      a.innerHTML = '<span class="no" aria-hidden="true">' + arN(({ I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8, IX: 9 })[p.no]) + '</span>' +
+        '<span class="pn">Part ' + p.no + (p.new ? '<span class="new">New</span>' : '') + '</span><h3>' + esc(p.title) + '</h3><p>' + esc(p.desc) + '</p>' +
+        '<div class="foot"><div class="pbar"><i></i></div><span data-c></span></div>';
+      shelf.appendChild(a);
+      const done = bs.filter(b => store.get('studied:' + b.a) === '1').length;
+      $('i', a).style.width = (100 * done / bs.length) + '%';
+      $('[data-c]', a).textContent = done + ' of ' + bs.length + ' studied · ' + secs.length + (secs.length === 1 ? ' section' : ' sections');
+    });
+
+    // attack of the day (same for everyone on a given date)
+    const all = []; d.briefs.forEach(b => b.obj.forEach(o => all.push([b, o])));
+    const day = Math.floor(Date.now() / 864e5); const [tb, to] = all[(day * 2654435761 >>> 0) % all.length];
+    $('#tdate').textContent = new Date().toDateString();
+    $('#today').innerHTML = '<div class="meta note-s">Part ' + d.partBy.get(tb.p).no + ' · ' + esc(tb.title) + '</div><div class="q">' + esc(to.q) + '</div>' +
+      '<div><button class="btn1" id="rev" type="button">Answer in your head, then reveal</button></div><div class="a" id="tans" hidden>' + esc(to.a) + '</div>' +
+      '<div><a class="btn2" href="' + esc(DA2.href(tb)) + '" style="text-decoration:none">Open the full argument</a></div>';
+    $('#rev').onclick = () => { $('#tans').hidden = false; $('#rev').hidden = true; };
+  });
+
+  fetch('review.json').then(r => r.json()).then(j => { $('#n-review').textContent = j.items.length; }).catch(() => {});
+  const nq = () => { $('#n-queue').textContent = DA2.Q.map.size; }; DA2.Q.subs.push(nq); nq();
+  $('#open-queue').onclick = DA2.openQueue;
+
+  /* geometric field: eight-point stars that draw in from the top left, then breathe; the pointer wakes the ones near it */
+  const c = $('#geo'), x = c.getContext('2d'); let W, H, S = 78, dpr, mx = -999, my = -999, t0 = performance.now(), col;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function size() { dpr = Math.min(2, devicePixelRatio || 1); const r = c.getBoundingClientRect(); W = r.width; H = r.height; c.width = W * dpr; c.height = H * dpr; x.setTransform(dpr, 0, 0, dpr, 0, 0); const cs = getComputedStyle(document.documentElement); col = { g: cs.getPropertyValue('--gold').trim() || '#8d5f0c', a: cs.getPropertyValue('--accent').trim() || '#0a6f7a' }; }
+  function sq(cx, cy, s, rot) { x.save(); x.translate(cx, cy); x.rotate(rot); x.strokeRect(-s / 2, -s / 2, s, s); x.restore(); }
+  function draw(now) {
+    x.clearRect(0, 0, W, H); const t = (now - t0) / 1000;
+    for (let j = 0; j * S < H + S; j++) for (let i = 0; i * S < W + S; i++) {
+      const cx = i * S + (j % 2 ? S / 2 : 0), cy = j * S * .86, d0 = (cx + cy) / (W + H);
+      const k = reduce ? 1 : Math.max(0, Math.min(1, (t - d0 * 1.1) / .8)); if (k <= 0) continue;
+      const dx = cx - mx, dy = cy - my, near = Math.max(0, 1 - Math.hypot(dx, dy) / 150);
+      const breathe = reduce ? 0 : Math.sin(t * .7 + d0 * 6) * .05;
+      const r = Math.max(.5, S * .34 * (k + near * .35 + breathe));
+      x.globalAlpha = (.34 + near * .6) * k; x.strokeStyle = near > .15 ? col.a : col.g; x.lineWidth = 1.2 + near * 1.3;
+      sq(cx, cy, r * 1.5, near * .5); sq(cx, cy, r * 1.5, Math.PI / 4 + near * .5);
+      x.beginPath(); x.arc(cx, cy, r * .42, 0, 7); x.stroke();
+    }
+    x.globalAlpha = 1;
+  }
+  let raf, vis = true;
+  function loop(now) { draw(now); if (vis && !reduce) raf = requestAnimationFrame(loop); }
+  size(); if (reduce) { draw(performance.now()); } else raf = requestAnimationFrame(loop);
+  addEventListener('resize', () => { size(); if (reduce) draw(performance.now()); });
+  $('#top').addEventListener('pointermove', e => { const r = c.getBoundingClientRect(); mx = e.clientX - r.left; my = e.clientY - r.top; });
+  $('#top').addEventListener('pointerleave', () => { mx = my = -999; });
+  document.addEventListener('visibilitychange', () => { vis = !document.hidden; if (vis && !reduce) raf = requestAnimationFrame(loop); });
+  new MutationObserver(size).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+})();
+</script>
