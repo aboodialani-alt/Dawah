@@ -1,0 +1,89 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Aref+Ruqaa:wght@700&family=Amiri:wght@700&display=block" rel="stylesheet">
+<style>
+:root{--gold:linear-gradient(160deg,#fff1b8 0%,#e3b85a 25%,#a8771f 50%,#f2d27a 70%,#8d6115 100%)}
+*{box-sizing:border-box;margin:0}
+body{width:1440px;background:#1a120c;font-family:'Cormorant Garamond';color:#f3e6c8;position:relative}
+.wood{position:absolute;inset:0;background:repeating-linear-gradient(90deg,#24180f 0 3px,#2a1c12 3px 9px,#21160e 9px 14px);opacity:.9}
+.grain{position:absolute;inset:0;filter:url(#lea);mix-blend-mode:overlay;opacity:.55;pointer-events:none}
+nav{position:relative;display:flex;align-items:center;gap:34px;padding:24px 56px;font-family:Cinzel;font-size:13px;letter-spacing:.2em;color:#c9a86a}
+nav b{margin-right:auto;font-size:15px;color:#ecd08f}
+.stage{position:relative;display:grid;grid-template-columns:620px 1fr;gap:60px;padding:16px 56px 0;align-items:end}
+/* front cover */
+.cover{position:relative;height:780px;border-radius:6px 14px 14px 6px;background:radial-gradient(ellipse at 40% 30%,#7a1f22,#5a1216 55%,#3c0a0d);box-shadow:inset 18px 0 22px -10px rgba(0,0,0,.6),inset -3px 0 0 rgba(255,255,255,.05),0 40px 60px rgba(0,0,0,.6),12px 0 0 -2px #e9dfc6,14px 2px 0 -2px #cbbd9c,16px 4px 0 -2px #e9dfc6,18px 6px 8px rgba(0,0,0,.4);overflow:hidden}
+.cover .tex{position:absolute;inset:0;filter:url(#lea);opacity:.45;mix-blend-mode:multiply}
+.cover .hinge{position:absolute;left:30px;top:0;bottom:0;width:4px;background:rgba(0,0,0,.35);box-shadow:2px 0 2px rgba(255,255,255,.06)}
+.frame{position:absolute;inset:46px 40px 46px 64px;border:3px solid #d4a64a;box-shadow:0 0 0 6px transparent,inset 0 0 0 8px transparent}
+.frame:after{content:"";position:absolute;inset:10px;border:1px solid #d4a64a}
+.frame .dots{position:absolute;inset:-14px;border:2px dotted #c9973c;opacity:.8}
+.cnr{position:absolute;width:110px;height:110px}
+.cnr.tl{left:62px;top:44px}.cnr.tr{right:38px;top:44px;transform:scaleX(-1)}.cnr.bl{left:62px;bottom:44px;transform:scaleY(-1)}.cnr.br{right:38px;bottom:44px;transform:scale(-1)}
+.med{position:absolute;left:calc(50% + 12px);top:50%;transform:translate(-50%,-50%);width:400px;height:520px}
+.title{position:absolute;left:calc(50% + 12px);top:50%;transform:translate(-50%,-50%);text-align:center;width:300px}
+.ar{font-family:'Aref Ruqaa';font-size:58px;line-height:1.1;background:var(--gold);-webkit-background-clip:text;color:transparent;filter:drop-shadow(0 1px 0 rgba(0,0,0,.6)) drop-shadow(0 -1px 0 rgba(255,240,200,.15))}
+.en{font-family:Cinzel;font-weight:700;font-size:21px;letter-spacing:.16em;margin-top:10px;background:var(--gold);-webkit-background-clip:text;color:transparent}
+.vol{font-family:'Cormorant Garamond';font-style:italic;font-size:17px;color:#d9b670;margin-top:8px}
+.search{margin:26px auto 0;width:280px;border:1px solid #d4a64a;background:rgba(30,6,8,.55);padding:12px 14px;font-size:16px;font-style:italic;color:#d9c08c;border-radius:2px;box-shadow:inset 0 2px 6px rgba(0,0,0,.5)}
+.search small{display:block;font-family:Cinzel;font-style:normal;font-size:10px;letter-spacing:.24em;color:#c9a86a;margin-bottom:4px}
+.ribbon{position:absolute;bottom:-40px;left:300px;width:22px;height:110px;background:linear-gradient(90deg,#0f4d3a,#1a6b52,#0f4d3a);clip-path:polygon(0 0,100% 0,100% 100%,50% 82%,0 100%);z-index:3}
+/* shelf */
+.shelfwrap{position:relative}
+.shelf h2{font-family:Cinzel;font-weight:500;font-size:14px;letter-spacing:.3em;color:#c9a86a;margin-bottom:16px}
+.books{display:flex;align-items:flex-end;gap:5px;height:560px;padding:0 10px}
+.sp{position:relative;flex:1;border-radius:5px 5px 2px 2px;display:flex;flex-direction:column;align-items:center;padding:16px 0 18px;box-shadow:inset 6px 0 10px rgba(255,255,255,.08),inset -8px 0 12px rgba(0,0,0,.5),4px 0 8px rgba(0,0,0,.4);overflow:hidden}
+.sp .tex{position:absolute;inset:0;filter:url(#lea);opacity:.5;mix-blend-mode:multiply}
+.band{width:100%;height:16px;margin:4px 0;background:linear-gradient(180deg,transparent 0 3px,#d4a64a 3px 5px,transparent 5px 11px,#d4a64a 11px 13px,transparent 13px);opacity:.95}
+.lab{margin:14px 6px;padding:14px 4px;border:1px solid #d4a64a;outline:1px solid rgba(212,166,74,.45);outline-offset:3px;text-align:center;width:calc(100% - 22px)}
+.lab .n{font-family:Cinzel;font-weight:700;font-size:20px;background:var(--gold);-webkit-background-clip:text;color:transparent}
+.vt{writing-mode:vertical-rl;transform:rotate(180deg);font-family:Cinzel;font-size:15px;letter-spacing:.12em;line-height:1.1;background:var(--gold);-webkit-background-clip:text;color:transparent;flex:1;display:flex;align-items:center;margin:10px 0;white-space:nowrap}
+.orn{width:30px;height:30px;margin:6px 0}
+.cnt{font-family:Cinzel;font-size:11px;letter-spacing:.14em;color:#d9b670;margin-top:6px}
+.sp.out{transform:translateY(-34px) rotate(-2deg);z-index:2;box-shadow:inset 6px 0 10px rgba(255,255,255,.1),inset -8px 0 12px rgba(0,0,0,.5),0 20px 30px rgba(0,0,0,.6)}
+.plank{height:26px;margin-top:-2px;background:linear-gradient(180deg,#5b3a1f,#3a2412 60%,#24160b);border-radius:2px;box-shadow:0 14px 30px rgba(0,0,0,.6)}
+.note{margin-top:22px;display:flex;gap:16px;font-size:18px;font-style:italic;color:#cdb98e}
+.note b{font-family:Cinzel;font-style:normal;font-size:30px;color:#ecd08f;display:block;font-weight:500}
+.note div{flex:1;border-left:1px solid rgba(212,166,74,.4);padding-left:16px}
+/* endpaper */
+.ebru{position:relative;height:150px;margin-top:70px;background:#1d3557;overflow:hidden}
+.ebru svg{position:absolute;inset:0}
+.inside{position:relative;background:#f4ead3;color:#2b1a10;padding:46px 56px 56px;display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.plate{position:relative;border:1px solid #b08a3c;padding:26px 28px 24px;background:#fbf4e2;box-shadow:0 2px 0 #e7d7b1}
+.plate:before{content:"";position:absolute;inset:5px;border:1px solid rgba(176,138,60,.45)}
+.plate small{font-family:Cinzel;font-size:11.5px;letter-spacing:.24em;color:#8c2a1e}
+.plate h3{font-family:'Cormorant Garamond';font-weight:600;font-size:30px;line-height:1.05;margin:8px 0 8px;color:#3a0d10}
+.plate p{font-size:17px;line-height:1.4;color:#5b4630}
+.plate .seal{position:absolute;right:18px;top:16px;width:46px;height:46px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#b3302a,#7a1512);display:grid;place-items:center;color:#f5d9a0;font-family:Amiri;font-size:18px;box-shadow:0 2px 4px rgba(0,0,0,.3)}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><filter id="lea"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" seed="4"/><feColorMatrix values="0 0 0 0 .5  0 0 0 0 .4  0 0 0 0 .3  0 0 0 1.1 -.2"/></filter>
+<symbol id="cn" viewBox="0 0 110 110"><path d="M6 6h84c0 8-6 12-14 12 4 10 0 20-10 22 2 14-10 26-24 24-2 10-12 14-22 10 0 8-4 14-14 14z" fill="#d4a64a"/><path d="M14 14h58c-2 6-8 8-14 8 2 8-2 14-10 16 0 10-8 18-18 16 0 8-6 12-16 12z" fill="none" stroke="#5a1216" stroke-width="1.6"/><path d="M14 14l26 26" stroke="#5a1216" stroke-width="1.6"/><circle cx="24" cy="24" r="5" fill="#5a1216"/><path d="M6 100v4M100 6h4" stroke="#d4a64a" stroke-width="2"/></symbol>
+<symbol id="st" viewBox="0 0 30 30"><path d="M15 1l4 9 9 1-6 7 2 10-9-5-9 5 2-10-6-7 9-1z" fill="#d4a64a"/><circle cx="15" cy="15" r="3" fill="#000" fill-opacity=".35"/></symbol></svg>
+<div class="wood"></div>
+<nav><b>Dawah Study Library</b><span>The Set</span><span>Daily Session</span><span>Sparring</span><span>Dossier</span></nav>
+<div class="stage">
+<div class="cover"><div class="tex"></div><div class="hinge"></div><div class="frame"><div class="dots"></div></div>
+<svg class="cnr tl"><use href="#cn"/></svg><svg class="cnr tr"><use href="#cn"/></svg><svg class="cnr bl"><use href="#cn"/></svg><svg class="cnr br"><use href="#cn"/></svg>
+<svg class="med" viewBox="0 0 400 520"><g fill="none" stroke="#d4a64a"><path d="M200 8 C250 60 330 70 360 130 C392 196 372 240 392 260 C372 280 392 324 360 390 C330 450 250 460 200 512 C150 460 70 450 40 390 C8 324 28 280 8 260 C28 240 8 196 40 130 C70 70 150 60 200 8Z" stroke-width="3"/><path d="M200 30 C244 76 314 86 340 138 C368 196 352 236 370 260 C352 284 368 324 340 382 C314 434 244 444 200 490 C156 444 86 434 60 382 C32 324 48 284 30 260 C48 236 32 196 60 138 C86 86 156 76 200 30Z" stroke-width="1.2" stroke-dasharray="1 5" stroke-linecap="round"/><path d="M200 8v-8M200 512v8" stroke-width="3"/></g><g fill="#d4a64a"><path d="M200 0l10 18-10 12-10-12z"/><path d="M200 520l10-18-10-12-10 12z"/><circle cx="8" cy="260" r="6"/><circle cx="392" cy="260" r="6"/></g></svg>
+<div class="title"><div class="ar">مكتبة الدعوة</div><div class="en">Dawah Study Library</div><div class="vol">The complete set · nine volumes</div>
+<div class="search"><small>Seek in the index</small>What did they say?</div></div>
+<div class="ribbon"></div></div>
+<div class="shelfwrap shelf"><h2>The Set · 252 arguments</h2>
+<div class="books" id="bk"></div><div class="plank"></div>
+<div class="note"><div><b>112</b>arguments mastered</div><div><b>7</b>day streak</div><div><b>14</b>due today</div></div></div>
+</div>
+<div class="ebru"><svg viewBox="0 0 1440 150" preserveAspectRatio="none" id="eb"></svg></div>
+<div class="inside">
+<div class="plate"><div class="seal">١</div><small>Daily session · 12 min</small><h3>Today's reading is marked</h3><p>Three attacks to answer, two arguments to teach back, one source to check.</p></div>
+<div class="plate"><div class="seal">٢</div><small>Sparring room</small><h3>Defend the book aloud</h3><p>A sharp but fair opponent: rejecter, missionary, atheist or liberal. Last round 8 / 10.</p></div>
+<div class="plate"><div class="seal">٣</div><small>Debate dossier</small><h3>Prepare for a person</h3><p>Their recurring claims, your answers, and what not to say.</p></div>
+</div>
+<script>
+const P=[['I','Proofs for Islam',44,'#5a1216'],['II','Refuting Christianity',72,'#0f3d2e'],['III','Old Testament',16,'#1d2a4f'],['IV','Refuting Atheism',22,'#4a2a14'],['V','Answering Objections',45,'#5a1216'],['VI','Philosophy',12,'#0f3d2e'],['VII','Reading List',11,'#1d2a4f'],['VIII','Modern Ideologies',18,'#4a2a14'],['IX','The Quran Under Attack',12,'#3b0f2a']];
+const bk=document.getElementById('bk');
+P.forEach(([n,t,c,col],i)=>{const h=[540,560,500,530,560,490,470,520,540][i];
+bk.innerHTML+=`<div class="sp${i==0?' out':''}" style="height:${h}px;background:linear-gradient(90deg,${col}, color-mix(in srgb,${col} 70%,#fff 8%) 40%, ${col} 70%, color-mix(in srgb,${col} 70%,#000) 100%)"><div class="tex"></div><div class="band"></div><div class="band"></div><div class="lab"><div class="n">${n}</div></div><svg class="orn"><use href="#st"/></svg><div class="vt">${t}</div><svg class="orn"><use href="#st"/></svg><div class="cnt">${c}</div><div class="band"></div><div class="band"></div></div>`});
+// marbled endpaper (ebru)
+const eb=document.getElementById('eb');let s=11;const r=()=>(s=(s*16807)%2147483647)/2147483647;const cols=['#c9a24a','#f1e6d3','#8c2a1e','#2b5c8a','#e8d5a8','#1d3557'];let out='';
+for(let k=0;k<26;k++){let y=r()*150,d=`M0 ${y}`;for(let x=0;x<=1440;x+=40){y+=Math.sin(x/90+k)*9+(r()-.5)*6;d+=` Q${x+20} ${y+(r()-.5)*30} ${x+40} ${y}`}out+=`<path d="${d}" stroke="${cols[k%cols.length]}" stroke-width="${4+r()*16}" fill="none" opacity="${.5+r()*.5}" stroke-linecap="round"/>`}
+for(let k=0;k<40;k++){out+=`<circle cx="${r()*1440}" cy="${r()*150}" r="${3+r()*14}" fill="none" stroke="${cols[k%cols.length]}" stroke-width="${2+r()*3}" opacity=".7"/>`}
+eb.innerHTML=out;
+</script></body></html>
