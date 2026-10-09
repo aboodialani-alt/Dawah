@@ -1,0 +1,47 @@
+# Arabic core check
+
+17 cards, 21 with something to look at.
+- 01.json: **missing translation**
+- 02.json: **missing translation**
+- 03.json: **missing translation**
+- 04.json: **missing translation**
+- 05.json: **missing translation**
+- 06.json: **missing translation**
+- 07.json: **missing translation**
+- 08.json: **missing translation**
+- 09.json: **missing translation**
+- 10.json: **missing translation**
+- 11.json The Romans will be victorious (30:2-5): ok
+  - omitted: The battle of 'Issus, 622' (named in P3, the first objection, the practice answer and the sum) is not confirmed per review_note; left out, along with the dependent 'about eight years after the defeat of 614' / 'eight years after the fall of Jerusalem'. The text now speaks only of Heraclius' victories through 625 and Nineveh 627. | Tesei's paper is not described in the packet text, so nothing to omit there; the sum's generic 'sceptical academics' sentence is kept.
+- 12.json Muhammad ﷺ is attested by outsiders within years of his deat: ok
+- 13.json The Prophet ﷺ refused to exploit the eclipse: an argument fr: ok
+  - omitted: P2's English quote continues 'they are two signs among the signs of Allah'. That phrase is not in the Arabic of Bukhari 1043 given in the packet, so it was not back-translated; the Arabic quote uses only the dataset wording.
+- 14.json The Quran's literary challenge has never been met: ok
+  - omitted: The English quotes 74:18-25 ('he thought and deliberated… this is nothing but magic handed down'). quran_arabic has no Arabic for 74:18-25, so the verse was not back-translated; it is described in indirect speech with the reference only.
+- 15.json Deuteronomy 18: a prophet like Moses "from among their breth: ok
+  - omitted: quran_arabic entries 18:18, 2:4, 16:12, 34:10, 7:52, 3:22, 18:15-18, 3:22-26, 3:20-21, 17:15, 40:18, 46:5 are false matches for Bible references (Deut 18:18, Deut 2:4, Gen 16:12, Deut 34:10, John 7:52, Acts 3:22, Deut 18:15-18, Acts 3:22-26, Acts 3:20-21, Deut 17:15, Isa 40:18, Isa 46:5) and were ignored.
+- 16.json The Jews and Christians of the time recognised him: ok
+  - omitted: quran_arabic entry 9:4-7 is a false match for 1 Kings 9:4-7 and was ignored.
+- 17.json The experience of revelation was not epilepsy or possession: ok
+  - omitted: quran_arabic entries 32:24-25 and 3:22 are false matches for Genesis 32:24-25 and Mark 3:22 and were ignored.
+- 18.json The Prophet ﷺ did not use revelation for personal gain: ok
+- 19.json: **missing translation**
+- 20.json: **missing translation**
+- 21.json: **missing translation**
+- 22.json: **missing translation**
+- 23.json: **missing translation**
+- 24.json: **missing translation**
+- 25.json: **missing translation**
+- 26.json: **missing translation**
+- 27.json: **missing translation**
+- 28.json: **missing translation**
+- 29.json: **missing translation**
+- 30.json Secular liberalism is a worldview, not a neutral referee: ok
+- 31.json Where do universal human rights come from?: ok
+- 32.json “Religion causes most wars” and the data: ok
+- 33.json What the classical law says on apostasy, stated honestly: ok
+- 34.json “No compulsion in religion” and the apostasy ruling: ok
+- 35.json The laws of logic: what everyone is bound by: ok
+- 36.json How arguments work: validity, soundness and the three kinds : ok
+- 37.json The fallacies you will meet most often: ok
+- 38.json Debate conduct: charity, Socratic questions and staying in c: ok

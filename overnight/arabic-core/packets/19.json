@@ -1,0 +1,68 @@
+{
+ "n": 19,
+ "id": "p1#s-quran--the-quran-was-preserved-through-two-independent",
+ "title": "The Quran was preserved through two independent channels at once",
+ "thesis": "The Quran reached us through mass oral memorisation and early written codices at the same time, each checking the other, so a corruption in one would have been caught by the other.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A text is reliably preserved when it is fixed early and transmitted by many independent people who can check each other."
+  },
+  {
+   "tag": "P2",
+   "text": "The Quran was memorised in full by many Companions during the Prophet's lifetime, written down under his supervision, gathered into one codex within two years of his death (Abu Bakr, c. 632-634), and copied into a standard edition sent to every major city within about twenty years (Uthman, c. 650)."
+  },
+  {
+   "tag": "P3",
+   "text": "Every later generation recited the whole text publicly (in prayer, especially Ramadan) in front of thousands, and its manuscripts are checked against living memorisers to this day."
+  },
+  {
+   "tag": "∴",
+   "text": "The Quran meets the conditions of a reliably preserved text far better than any other scripture of antiquity."
+  }
+ ],
+ "evidence": [
+  "The written text was not an afterthought. The Prophet ﷺ had scribes such as Zayd ibn Thabit, Ubayy ibn Ka'b and Mu'awiya write each revelation as it came, and the Companions recited it in their prayers every day. When many reciters were killed at the Battle of Yamama, Umar urged Abu Bakr to gather the written fragments into one book. Zayd collected the Quran from written fragments and from memorisers (Bukhari 4986); later scholars such as Ibn Hajar explain that he required two witnesses for each verse.\n\nUnder Uthman (c. 650), disputes over regional pronunciations led to an official copy in the Qurayshi dialect. It was made from Abu Bakr's codex (kept with Hafsa) and sent to Kufa, Basra, Damascus and Mecca, and the private copies that differed were burned. The Companions agreed to this, including Ali, who said: \"Had I been in his place I would have done the same.\"\n\nThe modern academic picture backs this up. Angelika Neuwirth, writing in the Cambridge Companion to the Qur'an, notes that newly found fragments support an early fixed text and that the \"revisionist\" theories of a late, evolving Quran have failed. Seyfeddin Kara (The Integrity of the Qur'an) concludes the codex can be dated with certainty to before Umar's death (23/644)."
+ ],
+ "ar_quotes": [
+  {
+   "text": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+   "cite": "15:9"
+  },
+  {
+   "text": "إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ",
+   "cite": "75:17"
+  }
+ ],
+ "objections": [
+  {
+   "q": "\"Oral transmission is unreliable.\"",
+   "a": "For ordinary stories, yes. But the Quran was a fixed text recited word for word, with set rhythm and rhyme, and corrected publicly in congregational prayer. A memoriser who changes a word is corrected by the people behind him. That is the opposite of a game of whispers. And the written channel ran alongside it from the start."
+  },
+  {
+   "q": "\"Uthman burned copies, so he must have destroyed the real Quran.\"",
+   "a": "What he destroyed were private copies with dialectal spellings, personal glosses or a different surah order. The text itself was checked against Abu Bakr's codex and against the memorisers still alive, who included the senior reciters. No Companion is reported to have accused Uthman of adding or removing a verse, although Ibn Mas'ud objected to the burning of his own codex and to the choice of Zayd. If a verse had been removed, his enemies would have said so."
+  },
+  {
+   "q": "\"There are variant readings (qira'at), so there are different Qurans.\"",
+   "a": "See the next argument. The readings were taught by the Prophet himself and are part of the revelation, not later copying errors."
+  }
+ ],
+ "practice": {
+  "q": "“Uthman burned the other Qurans, so we only have his version, not Muhammad's.”",
+  "a": "Uthman copied from Abu Bakr's codex, compiled within two years of the Prophet's death from written pieces confirmed by memorisers, and the senior reciters were alive to check it. Not one Companion, including his political enemies, accused him of altering a verse; Ali said he would have done the same."
+ },
+ "sum": "The Quran was memorised by thousands, written under the Prophet's supervision, gathered within two years of his death and standardised within twenty. Today's text matches the first-century manuscripts. Few ancient scriptures combine a continuous oral recitation tradition with manuscripts radiocarbon-dated to within decades of the founder.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "15:9": "إِنَّا نَحۡنُ نَزَّلۡنَا ٱلذِّكۡرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ",
+  "75:17": "إِنَّ عَلَیۡنَا جَمۡعَهُۥ وَقُرۡءَانَهُۥ"
+ },
+ "hadith_arabic": {
+  "Bukhari 4986": {
+   "arabic": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، عَنْ إِبْرَاهِيمَ بْنِ سَعْدٍ، حَدَّثَنَا ابْنُ شِهَابٍ، عَنْ عُبَيْدِ بْنِ السَّبَّاقِ، أَنَّ زَيْدَ بْنَ ثَابِتٍ ـ رضى الله عنه ـ قَالَ أَرْسَلَ إِلَىَّ أَبُو بَكْرٍ مَقْتَلَ أَهْلِ الْيَمَامَةِ فَإِذَا عُمَرُ بْنُ الْخَطَّابِ عِنْدَهُ قَالَ أَبُو بَكْرٍ ـ رضى الله عنه ـ إِنَّ عُمَرَ أَتَانِي فَقَالَ إِنَّ الْقَتْلَ قَدِ اسْتَحَرَّ يَوْمَ الْيَمَامَةِ بِقُرَّاءِ الْقُرْآنِ وَإِنِّي أَخْشَى أَنْ يَسْتَحِرَّ الْقَتْلُ بِالْقُرَّاءِ بِالْمَوَاطِنِ، فَيَذْهَبَ كَثِيرٌ مِنَ الْقُرْآنِ وَإِنِّي أَرَى أَنْ تَأْمُرَ بِجَمْعِ الْقُرْآنِ‏.‏ قُلْتُ لِعُمَرَ كَيْفَ تَفْعَلُ شَيْئًا لَمْ يَفْعَلْهُ رَسُولُ اللَّهِ صلى الله عليه وسلم قَالَ عُمَرُ هَذَا وَاللَّهِ خَيْرٌ‏.‏ فَلَمْ يَزَلْ عُمَرُ يُرَاجِعُنِي حَتَّى شَرَحَ اللَّهُ صَدْرِي لِذَلِكَ، وَرَأَيْتُ فِي ذَلِكَ الَّذِي رَأَى عُمَرُ‏.‏ قَالَ زَيْدٌ قَالَ أَبُو بَكْرٍ إِنَّكَ رَجُلٌ شَابٌّ عَاقِلٌ لاَ نَتَّهِم",
+   "grades": []
+  }
+ }
+}

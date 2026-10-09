@@ -49,6 +49,7 @@ kbd{font-family:var(--f-ui);font-size:.68rem;border:1px solid var(--rule);border
     </div>
     <div class="ctrl">
       <label>Focus<select id="f-track"><option value="all">The whole library</option></select></label>
+      <label>Tasks<select id="f-mode"><option value="mix">A mix of all three</option><option value="atk">Attacks only</option><option value="tb">Teach-back only</option><option value="src">Name the source only</option></select></label>
       <label>Length<select id="f-len"><option value="6">Quick · 6 tasks</option><option value="10" selected>Standard · 10 tasks</option><option value="16">Long · 16 tasks</option></select></label>
     </div>
     <div class="meter" id="meter"></div>
@@ -83,7 +84,8 @@ kbd{font-family:var(--f-ui);font-size:.68rem;border:1px solid var(--rule);border
     return { tb, atk, src };
   }
   function build() {
-    const len = +$('#f-len').value, P = pools(), want = { tb: Math.round(len * .35), atk: Math.round(len * .4), src: len - Math.round(len * .35) - Math.round(len * .4) };
+    const len = +$('#f-len').value, P = pools(), mode = $('#f-mode').value;
+    const want = mode === 'mix' ? { tb: Math.round(len * .35), atk: Math.round(len * .4), src: len - Math.round(len * .35) - Math.round(len * .4) } : { tb: mode === 'tb' ? len : 0, atk: mode === 'atk' ? len : 0, src: mode === 'src' ? len : 0 };
     tasks = [];
     ['tb', 'atk', 'src'].forEach(t => {
       const pool = P[t]; if (!pool.length) return;
@@ -112,8 +114,8 @@ kbd{font-family:var(--f-ui);font-size:.68rem;border:1px solid var(--rule);border
       DA2.getSample().then(s => { if (s && $('#gr')) $('#gr').hidden = false; });
       setTimeout(() => { const m = $('#mine'); m && m.focus({ preventScroll: true }); }, 40);
     } else if (cur.type === 'atk') {
-      deck.innerHTML = where + '<div class="atk"><small style="display:block;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:400;margin-bottom:.3rem">They say</small>' + esc(cur.o.q) + '</div><textarea id="mine" aria-label="Your answer"></textarea><div class="btns"><button class="btn1" id="rev" type="button">Show the model answer</button></div><div id="after"></div>';
-      $('#rev').onclick = revealATK; setTimeout(() => { const m = $('#mine'); m && m.focus({ preventScroll: true }); }, 40);
+      deck.innerHTML = where + '<div class="atk"><small style="display:block;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:400;margin-bottom:.3rem">They say</small>' + esc(cur.o.q) + '</div><textarea id="mine" aria-label="Your answer"></textarea><div class="btns"><button class="btn1" id="rev" type="button">Show the model answer</button><button class="btn2" id="gr" type="button" hidden>Have Claude grade my answer</button></div><div id="after"></div>';
+      $('#rev').onclick = revealATK; $('#gr').onclick = gradeATK; DA2.getSample().then(x => { if (x && $('#gr')) $('#gr').hidden = false; }); setTimeout(() => { const m = $('#mine'); m && m.focus({ preventScroll: true }); }, 40);
     } else {
       const r = cur.r, blank = r.ctx.replace(r.hl, '_____');
       const same = AU.rows.filter(x => x.coll === r.coll && x.ref !== r.ref && x.found), opts = shuffle([r.ref, ...shuffle([...new Set(same.map(x => x.ref))]).slice(0, 3)]);
@@ -135,6 +137,14 @@ kbd{font-family:var(--f-ui);font-size:.68rem;border:1px solid var(--rule);border
     const out = document.createElement('div'); out.className = 'grade'; out.innerHTML = '<span class="spin"></span> Reading your recall…'; $('#after').prepend(out);
     const prompt = 'Compare the STUDENT RECALL with the LIBRARY text. Use only the library text; add no new facts. Reply as JSON: {"covered":["points the student got"],"missed":["important points left out"],"tip":"one sentence"}.\n\nLIBRARY CLAIM: ' + cur.b.thesis + '\nIN ONE BREATH: ' + cur.b.sum + '\nEVIDENCE: ' + cur.b.evs + '\n\nSTUDENT RECALL: ' + mine;
     try { const r = await sample.json(prompt, { cache: false, modelTier: 'quick' }); const li = a => (a && a.length ? '<ul>' + a.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul>' : '<p class="note-s">Nothing here.</p>'); out.innerHTML = '<b>You covered</b>' + li(r.covered) + '<b>You left out</b>' + li(r.missed) + '<p><b>Tip:</b> ' + esc(r.tip || '') + '</p>'; }
+    catch (e) { out.textContent = 'Could not grade this one. Compare it yourself.'; }
+  }
+  async function gradeATK() {
+    const mine = $('#mine').value.trim(); if (mine.length < 8) { DA2.toast('Write a few words first'); return; }
+    revealATK(); const sample = await DA2.getSample(); if (!sample) return;
+    const out = document.createElement('div'); out.className = 'grade'; out.innerHTML = '<span class="spin"></span> Reading your answer…'; $('#after').prepend(out);
+    const prompt = 'You are grading a debate student. Compare the STUDENT ANSWER only against the MODEL ANSWER. Add no new facts, verses, hadith or sources. Reply as JSON: {"score":0-3,"hit":["points that match the model"],"missed":["points in the model the student left out"],"tip":"one sentence on how to say it more sharply"}.\n\nATTACK: ' + cur.o.q + '\n\nMODEL ANSWER: ' + cur.o.a + '\n\nSTUDENT ANSWER: ' + mine;
+    try { const r = await sample.json(prompt, { cache: false, modelTier: 'quick' }); const li = a => (a && a.length ? '<ul>' + a.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul>' : '<p class="note-s">Nothing here.</p>'); out.innerHTML = '<b>Score ' + esc(r.score) + ' of 3</b><b>You covered</b>' + li(r.hit) + '<b>You left out</b>' + li(r.missed) + '<p><b>Tip:</b> ' + esc(r.tip || '') + '</p>'; }
     catch (e) { out.textContent = 'Could not grade this one. Compare it yourself.'; }
   }
   function revealATK() { if (revealed) return; revealed = true; $('#rev').hidden = true; $('#after').innerHTML = '<div class="ans"><small>Model answer</small>' + esc(cur.o.a) + '</div><div class="btns" style="margin:.7rem 0"><a class="btn2" style="text-decoration:none" href="' + esc(DA2.href(cur.b)) + '">Open the argument</a></div>' + ratingBlock(); wire(); }
@@ -173,7 +183,7 @@ kbd{font-family:var(--f-ui);font-size:.68rem;border:1px solid var(--rule);border
   Promise.all([DA2.loadIdx(), fetch('audit.json').then(r => r.json()), fetch('tracks.json').then(r => r.json()).catch(() => [])]).then(([d, a, t]) => {
     D = d; AU = a; TR = t;
     $('#f-track').innerHTML = '<option value="all">The whole library</option>' + TR.map(x => '<option value="' + x.id + '">' + esc(x.title) + '</option>').join('');
-    $('#f-track').onchange = build; $('#f-len').onchange = build; build();
+    $('#f-track').onchange = build; $('#f-len').onchange = build; $('#f-mode').onchange = build; build();
   });
 })();
 </script>

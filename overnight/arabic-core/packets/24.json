@@ -1,0 +1,56 @@
+{
+ "n": 24,
+ "id": "p9#s-text--the-sana-a-palimpsest-what-it-shows-and-what-it-do",
+ "title": "The Sana’a palimpsest: what it shows and what it does not",
+ "thesis": "The Sana’a palimpsest has a lower text with variants from the standard text, and it is often presented as proof that the Quran evolved. On the researchers’ own account, the lower text is overwhelmingly the same Quran, the parchment is dated by radiocarbon to between 578 and 669 CE, which is no later than the first decades of Islam, and a codex that differs from the standard text is exactly what the Islamic account of the Companion codices predicts.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "To count against preservation, a manuscript must show that the text was substantially different, or that the Islamic account of its history is false."
+  },
+  {
+   "tag": "P2",
+   "text": "The lower text of the palimpsest agrees with the standard text in the great majority of its wording, and its variants resemble those the Islamic sources report for the Companions’ private codices."
+  },
+  {
+   "tag": "P3",
+   "text": "The Islamic sources say that such codices existed and that Uthman standardised the text, so finding one confirms the account."
+  },
+  {
+   "tag": "∴",
+   "text": "The palimpsest is evidence that a Companion-type codex existed in the first century, which the tradition already says. It is not evidence that the Quran was composed later or that its content was different."
+  }
+ ],
+ "evidence": [
+  "What it is. A set of parchment leaves found in the Great Mosque of Sana’a in 1972, in which an earlier Quranic text was washed off and a later Quranic text was written over it (the upper text is close to the standard Uthmanic text). The scholars Behnam Sadeghi and Mohsen Goudarzi published the lower text in 2012 (“Ṣanʿāʾ 1 and the Origins of the Qurʾān”, Der Islam).",
+  "Its date. Sadeghi and Uwe Bergmann’s radiocarbon dating of the parchment (Arabica, 2010) placed it, with about 95 percent probability, between 578 and 669 CE, a range that covers the Prophet's lifetime and the following decades (they argue for a date before about 671).",
+  "What the lower text shows. According to Sadeghi and Goudarzi, the lower text is a non-Uthmanic codex that contains the same Quran with differences in wording and a different order of some surahs. Their conclusion is that it is a non-Uthmanic text-type of the kind the sources attribute to Companion codices, though not identical to any reported codex; they draw conclusions about the text's early history that go beyond the traditional account, which a debater should acknowledge",
+  "The Islamic account. The sources report that Ibn Mas‘ud, Ubayy and others had private codices with variant wording and a different surah order, that this alarmed Hudhayfa, and that Uthman had a standard copy written and sent to the main cities (Bukhari 4987 for Hudhayfa and the copies; Ibn Abi Dawud's al-Masahif for the other codices). A palimpsest that preserves an earlier text type is what that account predicts.",
+  "Why it was erased. Scholars suggest it was washed because it no longer matched the standard text, which fits the report that non-standard copies were retired after Uthman’s standardisation."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "“The variants show the Quran was changed after Muhammad.”",
+   "a": "The variants show that one early codex differed in some wording and surah order from the standard. The sources already say that such codices existed. What the palimpsest does not show is a different message, different laws, a different narrative or a text that was composed in the next century. Even its editors treat it as a Qur'an text, while arguing that it represents a different, pre-Uthmanic text-type."
+  },
+  {
+   "q": "“The material has been kept secret.”",
+   "a": "Sadeghi and Goudarzi’s 2012 article transcribes the lower text of Sana’a 1 and reproduces images, and Asma Hilali’s The Sanaa Palimpsest (Oxford, 2017) studies the whole palimpsest. Early press claims about it were often exaggerated, so rely on the specialists’ published work."
+  }
+ ],
+ "practice": {
+  "q": "“The Sana’a palimpsest proves the Quran was edited after Muhammad.”",
+  "a": "It proves that one early codex had some different wording and surah order, which is exactly what the Islamic sources say about the Companions’ codices and about Uthman’s standardisation (Bukhari 4987). Radiocarbon puts the parchment in the first half-century after the Prophet’s death, and the scholars who edited it describe a text that is, apart from limited variants, the same Quran. It confirms the story rather than contradicting it."
+ },
+ "sum": "The Sana’a lower text is an early Companion-type codex, dated to the first generation, overwhelmingly the same Quran with variants in wording and order, which is what the Islamic account already says existed.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {
+  "Bukhari 4987": {
+   "arabic": "حَدَّثَنَا مُوسَى، حَدَّثَنَا إِبْرَاهِيمُ، حَدَّثَنَا ابْنُ شِهَابٍ، أَنَّ أَنَسَ بْنَ مَالِكٍ، حَدَّثَهُ أَنَّ حُذَيْفَةَ بْنَ الْيَمَانِ قَدِمَ عَلَى عُثْمَانَ وَكَانَ يُغَازِي أَهْلَ الشَّأْمِ فِي فَتْحِ إِرْمِينِيَةَ وَأَذْرَبِيجَانَ مَعَ أَهْلِ الْعِرَاقِ فَأَفْزَعَ حُذَيْفَةَ اخْتِلاَفُهُمْ فِي الْقِرَاءَةِ فَقَالَ حُذَيْفَةُ لِعُثْمَانَ يَا أَمِيرَ الْمُؤْمِنِينَ أَدْرِكْ هَذِهِ الأُمَّةَ قَبْلَ أَنْ يَخْتَلِفُوا فِي الْكِتَابِ اخْتِلاَفَ الْيَهُودِ وَالنَّصَارَى فَأَرْسَلَ عُثْمَانُ إِلَى حَفْصَةَ أَنْ أَرْسِلِي إِلَيْنَا بِالصُّحُفِ نَنْسَخُهَا فِي الْمَصَاحِفِ ثُمَّ نَرُدُّهَا إِلَيْكِ فَأَرْسَلَتْ بِهَا حَفْصَةُ إِلَى عُثْمَانَ فَأَمَرَ زَيْدَ بْنَ ثَابِتٍ وَعَبْدَ اللَّهِ بْنَ الزُّبَيْرِ وَسَعِيدَ بْنَ الْعَاصِ وَعَبْدَ الرَّحْمَنِ بْنَ الْحَارِثِ بْنِ هِشَامٍ فَنَسَخُوهَا فِي الْمَصَاحِفِ وَقَالَ عُثْمَانُ لِلرَّهْطِ الْقُرَشِيِّينَ الثَّلاَثَةِ إِذَا اخْتَلَفْتُمْ أَنْتُم",
+   "grades": []
+  }
+ }
+}

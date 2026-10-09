@@ -1,0 +1,53 @@
+{
+ "n": 21,
+ "id": "p1#s-quran--the-qira-at-are-revealed-readings-not-copying-er",
+ "title": "The qira'at are revealed readings, not copying errors",
+ "thesis": "The canonical readings of the Quran go back to the Prophet ﷺ himself, differ in only a small fraction of words, and complement each other in meaning.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A copying error is accidental, unsupported by a chain to the source, and usually makes worse sense."
+  },
+  {
+   "tag": "P2",
+   "text": "Each canonical reading needs a sound chain to the Prophet (many scholars require mass transmission), must fit the Uthmanic consonantal outline, and must be correct Arabic. The Prophet explicitly approved different readings."
+  },
+  {
+   "tag": "∴",
+   "text": "The readings are deliberate, authorised variations within the revealed text, not corruption."
+  }
+ ],
+ "evidence": [
+  "Maliki/Maaliki yawm al-din (1:4): \"King of\" and \"Master of\" the Day of Judgement. Both are true of Allah.",
+  "Nunshiruha/nunshizuha (2:259): \"We raise them\" and \"We assemble them\". Both describe the bones of the man raised to life."
+ ],
+ "ar_quotes": [
+  {
+   "text": "إِنَّ هَذَا الْقُرْآنَ أُنْزِلَ عَلَى سَبْعَةِ أَحْرُفٍ فَاقْرَءُوا مَا تَيَسَّرَ مِنْهُ",
+   "cite": "Bukhari 2419"
+  }
+ ],
+ "objections": [
+  {
+   "q": "\"If the text was perfectly preserved, why are there differences at all?\"",
+   "a": "Because the differences were revealed. Preservation means the text is exactly as it was given, and it was given with these readings. The Bible's variants are the opposite case: they come from scribes changing the text after the fact, as Metzger and Ehrman document (see Corruption of the Bible)."
+  }
+ ],
+ "practice": {
+  "q": "“Hafs and Warsh are different Qurans, so the Quran wasn't preserved.”",
+  "a": "They are two authorised readings. The Prophet approved different recitations (the seven ahruf), and the canonical qira'at are held by scholars to preserve authorised recitations; how exactly the ahruf relate to the qira'at is discussed among scholars. They share the same consonantal text, differing in about 1% of words, mostly vowels, with complementary meanings like 'King' and 'Master' of the Day of Judgement. Preservation means preserved as revealed, and it was revealed with these readings."
+ },
+ "sum": "The readings are authorised by the Prophet, transmitted by mass chains, limited to about 1% of words, and they enrich the meaning. Calling them \"errors\" misunderstands what they are.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "1:4": "مَـٰلِكِ یَوۡمِ ٱلدِّینِ",
+  "2:259": "أَوۡ كَٱلَّذِی مَرَّ عَلَىٰ قَرۡیَةࣲ وَهِیَ خَاوِیَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ یُحۡیِۦ هَـٰذِهِ ٱللَّهُ بَعۡدَ مَوۡتِهَاۖ فَأَمَاتَهُ ٱللَّهُ مِا۟ئَةَ عَامࣲ ثُمَّ بَعَثَهُۥۖ قَالَ كَمۡ لَبِثۡتَۖ قَالَ لَبِثۡتُ یَوۡمًا أَوۡ بَعۡضَ یَوۡمࣲۖ قَالَ بَل لَّبِثۡتَ مِا۟ئَةَ عَامࣲ فَٱنظُرۡ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمۡ یَتَسَنَّهۡۖ وَٱنظُرۡ إِلَىٰ حِمَارِكَ وَلِنَجۡعَلَكَ ءَایَةࣰ لِّلنَّاسِۖ وَٱنظُرۡ إِلَى ٱلۡعِظَامِ كَیۡفَ نُنشِزُهَا ثُمَّ نَكۡسُوهَا لَحۡمࣰاۚ فَلَمَّا تَبَیَّنَ لَهُۥ قَالَ أَعۡلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرࣱ"
+ },
+ "hadith_arabic": {
+  "Bukhari 2419": {
+   "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَبْدٍ الْقَارِيِّ، أَنَّهُ قَالَ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ ـ رضى الله عنه ـ يَقُولُ سَمِعْتُ هِشَامَ بْنَ حَكِيمِ بْنِ حِزَامٍ، يَقْرَأُ سُورَةَ الْفُرْقَانِ عَلَى غَيْرِ مَا أَقْرَؤُهَا، وَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَقْرَأَنِيهَا، وَكِدْتُ أَنْ أَعْجَلَ عَلَيْهِ، ثُمَّ أَمْهَلْتُهُ حَتَّى انْصَرَفَ، ثُمَّ لَبَّبْتُهُ بِرِدَائِهِ فَجِئْتُ بِهِ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقُلْتُ إِنِّي سَمِعْتُ هَذَا يَقْرَأُ عَلَى غَيْرِ مَا أَقْرَأْتَنِيهَا، فَقَالَ لِي ‏\"‏ أَرْسِلْهُ ‏\"‏‏.‏ ثُمَّ قَالَ لَهُ ‏\"‏ اقْرَأْ ‏\"‏‏.‏ فَقَرَأَ‏.‏ قَالَ ‏\"‏ هَكَذَا أُنْزِلَتْ ‏\"‏‏.‏ ثُمَّ قَالَ لِي ‏\"‏ اقْرَأْ ‏\"‏‏.‏ فَقَرَأْتُ فَقَالَ ‏\"‏ هَكَذَا أُنْزِلَتْ‏.‏ إِنَّ الْقُرْآنَ أُنْزِلَ عَلَى سَبْعَةِ أَحْرُفٍ فَاقْرَءُوا مِنْهُ مَا تَيَسَّر",
+   "grades": []
+  }
+ }
+}

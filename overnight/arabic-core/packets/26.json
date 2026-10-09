@@ -1,0 +1,61 @@
+{
+ "n": 26,
+ "id": "p9#s-text--uthman-s-standardisation-what-it-did-and-did-not-d",
+ "title": "Uthman’s standardisation: what it did and did not do",
+ "thesis": "The Islamic sources describe the Uthmanic recension as a public, consultative standardisation of a text that already existed in written and memorised form, accepted by the Companions. It neither created the Quran nor silenced all other readings.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A standardisation presupposes an existing text and shows an effort to keep it intact."
+  },
+  {
+   "tag": "P2",
+   "text": "The sources state who did it, why, how, and that the leading Companions agreed."
+  },
+  {
+   "tag": "P3",
+   "text": "The readings of the Companions whose codices were retired survive in the canonical tradition."
+  },
+  {
+   "tag": "∴",
+   "text": "Uthman’s action is evidence of how seriously the early community guarded the text, and the charge of suppression is not supported by the sources or by the survival of the readings."
+  }
+ ],
+ "evidence": [
+  "The first collection. After the Battle of Yamama, Abu Bakr asked Zayd ibn Thabit, a scribe of the Prophet ﷺ who had memorised the Quran, to collect the text, which he did from writings and from memories (Bukhari 4986-4987). The sheets passed to Umar and then to Hafsa.",
+  "The second step. Hudhayfa ibn al-Yaman saw people differing in recitation on the campaign in Armenia and Azerbaijan and urged Uthman to act. Uthman asked Hafsa for the sheets and appointed Zayd, Abdullah ibn al-Zubayr, Sa‘id ibn al-As and ‘Abd al-Rahman ibn al-Harith, telling them that where they differed they should write in the dialect of Quraysh, in which it was revealed (Bukhari 4987).",
+  "Distribution. Copies were sent to the Muslim regions (Bukhari 4987); later reports name centres such as Kufa, Basra and Damascus, with Medina keeping one, and accounts differ on the number of copies",
+  "Consent. Ali is reported to have said that Uthman acted on the Mushaf with the agreement of the Companions (Ibn Abi Dawud, al-Masahif).",
+  "The other readings survive. The reading of ‘Asim, which gives us the Hafs text most Muslims recite today, passes through readers who learned from Ali (Hafs, via al-Sulami) and Ibn Mas'ud (Shu'ba, via Zirr), so part of the Kufan tradition is in the canon, though Ibn Mas'ud's variants that depart from the Uthmanic outline are not.",
+  "Compare. The Church’s canon was shaped over centuries by councils and regional practice, and no single recension ever fixed the New Testament text."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "“Ibn Mas‘ud was angry about the burning of his codex.”",
+   "a": "The sources do report his objection, and a debater should say so. They also report that the Companions as a body supported the decision, that Ibn Mas‘ud’s readings were taught through Kufa and survive in the reading of ‘Asim, and that no early Muslim community produced a rival text of the Quran. A disagreement about method, voiced and recorded, is not evidence of a corrupted text."
+  },
+  {
+   "q": "“Burning copies is destroying evidence.”",
+   "a": "The aim was to stop a dispute over recitation in the army. It was done in public with the main Companions present, and the content of the retired codices is known from the reports, which still circulate. Compare Part I on the “missing verses” reports."
+  }
+ ],
+ "practice": {
+  "q": "“Uthman burned every copy that disagreed with him, so the Quran is just his version.”",
+  "a": "The sources say that Uthman used a text collected under Abu Bakr from the Prophet’s scribes and from memorisers, that he did it in public with a committee headed by Zayd, and that the Companions agreed. The disputed readings were retired, but the reading of Ibn Mas‘ud and Ali survives through ‘Asim, so nothing the community counted as Qur'an was lost. And the oldest manuscripts we have match this text, with only the limited variants the sources themselves describe."
+ },
+ "sum": "Uthman’s standardisation was a public, consultative step based on an existing text, accepted by the Companions, and the readings of those whose codices were retired survive in the canon.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {
+  "Bukhari 4986": {
+   "arabic": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، عَنْ إِبْرَاهِيمَ بْنِ سَعْدٍ، حَدَّثَنَا ابْنُ شِهَابٍ، عَنْ عُبَيْدِ بْنِ السَّبَّاقِ، أَنَّ زَيْدَ بْنَ ثَابِتٍ ـ رضى الله عنه ـ قَالَ أَرْسَلَ إِلَىَّ أَبُو بَكْرٍ مَقْتَلَ أَهْلِ الْيَمَامَةِ فَإِذَا عُمَرُ بْنُ الْخَطَّابِ عِنْدَهُ قَالَ أَبُو بَكْرٍ ـ رضى الله عنه ـ إِنَّ عُمَرَ أَتَانِي فَقَالَ إِنَّ الْقَتْلَ قَدِ اسْتَحَرَّ يَوْمَ الْيَمَامَةِ بِقُرَّاءِ الْقُرْآنِ وَإِنِّي أَخْشَى أَنْ يَسْتَحِرَّ الْقَتْلُ بِالْقُرَّاءِ بِالْمَوَاطِنِ، فَيَذْهَبَ كَثِيرٌ مِنَ الْقُرْآنِ وَإِنِّي أَرَى أَنْ تَأْمُرَ بِجَمْعِ الْقُرْآنِ‏.‏ قُلْتُ لِعُمَرَ كَيْفَ تَفْعَلُ شَيْئًا لَمْ يَفْعَلْهُ رَسُولُ اللَّهِ صلى الله عليه وسلم قَالَ عُمَرُ هَذَا وَاللَّهِ خَيْرٌ‏.‏ فَلَمْ يَزَلْ عُمَرُ يُرَاجِعُنِي حَتَّى شَرَحَ اللَّهُ صَدْرِي لِذَلِكَ، وَرَأَيْتُ فِي ذَلِكَ الَّذِي رَأَى عُمَرُ‏.‏ قَالَ زَيْدٌ قَالَ أَبُو بَكْرٍ إِنَّكَ رَجُلٌ شَابٌّ عَاقِلٌ لاَ نَتَّهِم",
+   "grades": []
+  },
+  "Bukhari 4987": {
+   "arabic": "حَدَّثَنَا مُوسَى، حَدَّثَنَا إِبْرَاهِيمُ، حَدَّثَنَا ابْنُ شِهَابٍ، أَنَّ أَنَسَ بْنَ مَالِكٍ، حَدَّثَهُ أَنَّ حُذَيْفَةَ بْنَ الْيَمَانِ قَدِمَ عَلَى عُثْمَانَ وَكَانَ يُغَازِي أَهْلَ الشَّأْمِ فِي فَتْحِ إِرْمِينِيَةَ وَأَذْرَبِيجَانَ مَعَ أَهْلِ الْعِرَاقِ فَأَفْزَعَ حُذَيْفَةَ اخْتِلاَفُهُمْ فِي الْقِرَاءَةِ فَقَالَ حُذَيْفَةُ لِعُثْمَانَ يَا أَمِيرَ الْمُؤْمِنِينَ أَدْرِكْ هَذِهِ الأُمَّةَ قَبْلَ أَنْ يَخْتَلِفُوا فِي الْكِتَابِ اخْتِلاَفَ الْيَهُودِ وَالنَّصَارَى فَأَرْسَلَ عُثْمَانُ إِلَى حَفْصَةَ أَنْ أَرْسِلِي إِلَيْنَا بِالصُّحُفِ نَنْسَخُهَا فِي الْمَصَاحِفِ ثُمَّ نَرُدُّهَا إِلَيْكِ فَأَرْسَلَتْ بِهَا حَفْصَةُ إِلَى عُثْمَانَ فَأَمَرَ زَيْدَ بْنَ ثَابِتٍ وَعَبْدَ اللَّهِ بْنَ الزُّبَيْرِ وَسَعِيدَ بْنَ الْعَاصِ وَعَبْدَ الرَّحْمَنِ بْنَ الْحَارِثِ بْنِ هِشَامٍ فَنَسَخُوهَا فِي الْمَصَاحِفِ وَقَالَ عُثْمَانُ لِلرَّهْطِ الْقُرَشِيِّينَ الثَّلاَثَةِ إِذَا اخْتَلَفْتُمْ أَنْتُم",
+   "grades": []
+  }
+ }
+}

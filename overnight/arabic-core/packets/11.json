@@ -1,0 +1,99 @@
+{
+ "n": 11,
+ "id": "p1#s-prophecy--the-romans-will-be-victorious-30-2-5",
+ "title": "The Romans will be victorious (30:2-5)",
+ "thesis": "The Quran predicted, at the low point of the Byzantine Empire, that Rome would defeat Persia within a few years. It did, against all expectation.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "Around 614-615 CE, Persia had taken Damascus and Jerusalem (carrying off the \"True Cross\") and soon Egypt. Byzantium seemed about to collapse."
+  },
+  {
+   "tag": "P2",
+   "text": "At exactly this time, in Mecca, the Quran announced: \"The Romans have been defeated in the nearest land, but after their defeat they will overcome, within a few years (bid': three to nine)\" (30:2-4)."
+  },
+  {
+   "tag": "P3",
+   "text": "Heraclius' counter-offensive began in 622 with the victory at Issus, about eight years after the defeat of 614, which is inside the stated range of three to nine years; his further victories through 625 also fall inside it. The Persian army was finally destroyed at Nineveh in 627, which came after the range but completed the reversal. The Quran also said \"on that day the believers will rejoice\" (30:4), and the Muslims' own victory at Badr (624) fell in the same period."
+  },
+  {
+   "tag": "∴",
+   "text": "A specific, unlikely prediction with a time limit was fulfilled."
+  }
+ ],
+ "evidence": [
+  "Edward Gibbon wrote (Decline and Fall ch. 46) that \"at the time when this prediction is said to have been delivered, no prophecy could be more distant from its accomplishment, since the first twelve years of Heraclius announced the approaching dissolution of the empire.\""
+ ],
+ "ar_quotes": [
+  {
+   "text": "غُلِبَتِ الرُّومُ ۝ فِي أَدْنَى الْأَرْضِ وَهُم مِّن بَعْدِ غَلَبِهِمْ سَيَغْلِبُونَ ۝ فِي بِضْعِ سِنِينَ",
+   "cite": "30:2-4"
+  }
+ ],
+ "objections": [
+  {
+   "q": "\"Bid' is vague.\"",
+   "a": "It is a defined term, meaning 3 to 9 in Arabic, and the Prophet himself told Abu Bakr to extend his wager to fit it. The Byzantine victory at Issus in 622 and the victories through 625 fall inside it. Nineveh (627) came later."
+  },
+  {
+   "q": "\"It's a lucky guess about two empires that were always at war.\"",
+   "a": "The Quran did not say \"one of them will win someday\". It said the side that had just been crushed would win, within a few years. Gibbon's assessment above shows how unlikely that looked at the time."
+  }
+ ],
+ "practice": {
+  "q": "“Anyone could guess that one empire would eventually beat the other.”",
+  "a": "Not 'eventually': within bid' sinin, three to nine years, at the moment Persia held Jerusalem, Egypt and was at Constantinople's gates. Gibbon wrote that no prophecy could have seemed more distant from its fulfilment. Heraclius won at Issus in 622, eight years after the fall of Jerusalem, and the war turned from there. Nineveh followed in 627."
+ },
+ "sum": "In about 615, with Byzantium losing everything, the Quran said Rome would win within 3-9 years; Heraclius won at Issus in 622, inside that window, then through 625 and at Nineveh in 627. Some sceptical academics read the verses as a prediction of a Roman victory but argue they were edited after the event, and a variant reading of the verbs exists.",
+ "caution": "",
+ "review_note": "Checked on 8 October 2026. Quran 30:2-4 wording verified. Gibbon's sentence confirmed in chapter 46 on CCEL, where Gibbon reports the prediction as 'said to have been delivered'. Not confirmed from available sources: the battle of 'Issus, 622' as named here, and the library's description of Tesei's paper. Tirmidhi 3194 (the wager) is graded daif by al-Albani and hasan by Shakir, Bashar Awad and Zubair Ali Zai, and Tirmidhi 3193 (the 'extend the term' detail) is daif by al-Albani and sahih or hasan by others, so scholars differ. The text does not say when the three to nine years start, so how well 622 to 627 fits depends on the date of revelation. A safer wording is in overnight/scripts/B2-romans-prophecy.md.",
+ "quran_arabic": {
+  "30:2-5": "غُلِبَتِ ٱلرُّومُ فِیۤ أَدۡنَى ٱلۡأَرۡضِ وَهُم مِّنۢ بَعۡدِ غَلَبِهِمۡ سَیَغۡلِبُونَ فِی بِضۡعِ سِنِینَۗ لِلَّهِ ٱلۡأَمۡرُ مِن قَبۡلُ وَمِنۢ بَعۡدُۚ وَیَوۡمَئِذࣲ یَفۡرَحُ ٱلۡمُؤۡمِنُونَ بِنَصۡرِ ٱللَّهِۚ یَنصُرُ مَن یَشَاۤءُۖ وَهُوَ ٱلۡعَزِیزُ ٱلرَّحِیمُ",
+  "30:2-4": "غُلِبَتِ ٱلرُّومُ فِیۤ أَدۡنَى ٱلۡأَرۡضِ وَهُم مِّنۢ بَعۡدِ غَلَبِهِمۡ سَیَغۡلِبُونَ فِی بِضۡعِ سِنِینَۗ لِلَّهِ ٱلۡأَمۡرُ مِن قَبۡلُ وَمِنۢ بَعۡدُۚ وَیَوۡمَئِذࣲ یَفۡرَحُ ٱلۡمُؤۡمِنُونَ",
+  "30:4": "فِی بِضۡعِ سِنِینَۗ لِلَّهِ ٱلۡأَمۡرُ مِن قَبۡلُ وَمِنۢ بَعۡدُۚ وَیَوۡمَئِذࣲ یَفۡرَحُ ٱلۡمُؤۡمِنُونَ"
+ },
+ "hadith_arabic": {
+  "Tirmidhi 3194": {
+   "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ إِسْمَاعِيلَ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ، حَدَّثَنِي ابْنُ أَبِي الزِّنَادِ، عَنْ أَبِي الزِّنَادِ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ نِيَارِ بْنِ مُكْرَمٍ الأَسْلَمِيِّ، قَالَ لَمَّا نَزَلَتْ ‏:‏ ‏(‏ الم * غُلِبَتِ الرُّومُ * فِي أَدْنَى الأَرْضِ وَهُمْ مِنْ بَعْدِ غَلَبِهِمْ سَيَغْلِبُونَ * فِي بِضْعِ سِنِينَ ‏)‏ فَكَانَتْ فَارِسُ يَوْمَ نَزَلَتْ هَذِهِ الآيَةُ قَاهِرِينَ لِلرُّومِ وَكَانَ الْمُسْلِمُونَ يُحِبُّونَ ظُهُورَ الرُّومِ عَلَيْهِمْ لأَنَّهُمْ وَإِيَّاهُمْ أَهْلُ كِتَابٍ وَفِي ذَلِكَ قَوْلُ اللَّهِ تَعَالَى ‏:‏ ‏(‏يوْمَئِذٍ يَفْرَحُ الْمُؤْمِنُونَ * بِنَصْرِ اللَّهِ يَنْصُرُ مَنْ يَشَاءُ وَهُوَ الْعَزِيزُ الرَّحِيمُ ‏)‏ فَكَانَتْ قُرَيْشٌ تُحِبُّ ظُهُورَ فَارِسَ لأَنَّهُمْ وَإِيَّاهُمْ لَيْسُوا بِأَهْلِ كِتَابٍ وَلاَ إِيمَانٍ بِبَعْثٍ فَلَمَّا أَنْزَلَ اللَّهُ تَعَالَى هَذِهِ الآيَةَ خَرَجَ أَبُو بَكْرٍ الصِّدِّيقُ رضى الله عنه يَ",
+   "grades": [
+    [
+     "Ahmad Muhammad Shakir",
+     "Hasan"
+    ],
+    [
+     "Al-Albani",
+     "Daif"
+    ],
+    [
+     "Bashar Awad Maarouf",
+     "Hasan Sahih"
+    ],
+    [
+     "Zubair Ali Zai",
+     "Isnaad Hasan"
+    ]
+   ]
+  },
+  "Tirmidhi 3193": {
+   "arabic": "حَدَّثَنَا الْحُسَيْنُ بْنُ حُرَيْثٍ، حَدَّثَنَا مُعَاوِيَةُ بْنُ عَمْرٍو، عَنْ أَبِي إِسْحَاقَ الْفَزَارِيِّ، عَنْ سُفْيَانَ الثَّوْرِيِّ، عَنْ حَبِيبِ بْنِ أَبِي عَمْرَةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، فِي قَوْلِ اللَّهِ تَعَالَى ‏:‏ ‏(‏ الم * غُلِبَتِ الرُّومُ * فِي أَدْنَى الأَرْضِ ‏)‏ قَالَ غُلِبَتْ وَغَلَبَتْ كَانَ الْمُشْرِكُونَ يُحِبُّونَ أَنْ يَظْهَرَ أَهْلُ فَارِسَ عَلَى الرُّومِ لأَنَّهُمْ وَإِيَّاهُمْ أَهْلُ أَوْثَانٍ وَكَانَ الْمُسْلِمُونَ يُحِبُّونَ أَنْ يَظْهَرَ الرُّومُ عَلَى فَارِسَ لأَنَّهُمْ أَهْلُ كِتَابٍ فَذَكَرُوهُ لأَبِي بَكْرٍ فَذَكَرَهُ أَبُو بَكْرٍ لِرَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ أَمَا إِنَّهُمْ سَيَغْلِبُونَ ‏\"‏ ‏.‏ فَذَكَرَهُ أَبُو بَكْرٍ لَهُمْ فَقَالُوا اجْعَلْ بَيْنَنَا وَبَيْنَكَ أَجَلاً فَإِنْ ظَهَرْنَا كَانَ لَنَا كَذَا وَكَذَا وَإِنْ ظَهَرْتُمْ كَانَ لَكُمْ كَذَا وَكَذَا فَجَعَلَ أَجَلَ خَمْسِ سِنِينَ فَلَمْ يَظْهَرُوا ",
+   "grades": [
+    [
+     "Ahmad Muhammad Shakir",
+     "Sahih"
+    ],
+    [
+     "Al-Albani",
+     "Daif"
+    ],
+    [
+     "Bashar Awad Maarouf",
+     "Hasan"
+    ],
+    [
+     "Zubair Ali Zai",
+     "Hasan"
+    ]
+   ]
+  }
+ }
+}

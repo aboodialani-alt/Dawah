@@ -1,0 +1,56 @@
+{
+ "n": 13,
+ "id": "p1#s-miracles--the-prophet-refused-to-exploit-the-eclipse-an-ar",
+ "title": "The Prophet ﷺ refused to exploit the eclipse: an argument from sincerity",
+ "thesis": "On the day his son Ibrahim died, the sun was eclipsed and people said it was for Ibrahim's death. The Prophet ﷺ publicly denied it, throwing away a \"sign\" that would have boosted his authority. Impostors do not behave like that.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A false prophet seeks to strengthen his authority; a true prophet tells the truth even when a falsehood would help him."
+  },
+  {
+   "tag": "P2",
+   "text": "When the sun was eclipsed on the day his son died, the people attributed it to his grief, a ready-made miracle. The Prophet ﷺ immediately corrected them: \"The sun and the moon do not eclipse for the death or life of anyone; they are two signs among the signs of Allah\" (Bukhari 1043)."
+  },
+  {
+   "tag": "∴",
+   "text": "His behaviour fits a sincere prophet and does not fit an impostor."
+  }
+ ],
+ "evidence": [
+  "The event is historically anchored. Ibrahim, the Prophet's son by Mariya, died in 10 AH, and the eclipse of 27 January 632 CE is attested in the astronomical records; some Muslim sources place Ibrahim's death on that day, though the date of his death is disputed.\n\nThe point is psychological and historical. At this moment the Prophet ﷺ was grieving and the people were offering him, unprompted, a cosmic endorsement. A man inventing a religion for power would have stayed silent or accepted it. He instead gathered the people, led the eclipse prayer, and gave a sermon to correct the superstition.\n\nThis fits a wider pattern that even non-Muslim historians have noted. W. Montgomery Watt argued that his readiness to suffer persecution, the high character of those who followed him, and the greatness of what he achieved all make sincerity the default explanation, and that treating him as an impostor raises more problems than it solves. Other examples: the Quran rebukes him in his own recitation (80:1-10, the blind man; 9:43; 8:67), he lived poorly while ruling Arabia, and he refused kingship when Quraysh offered it."
+ ],
+ "ar_quotes": [
+  {
+   "text": "إِنَّ الشَّمْسَ وَالْقَمَرَ لَا يَنْكَسِفَانِ لِمَوْتِ أَحَدٍ وَلَا لِحَيَاتِهِ، فَإِذَا رَأَيْتُمُوهُمَا فَادْعُوا اللَّهَ وَصَلُّوا",
+   "cite": "Bukhari 1043"
+  }
+ ],
+ "objections": [
+  {
+   "q": "\"Sincerity doesn't prove truth. Many sincere people are wrong.\"",
+   "a": "True, so this argument has a limited job: it removes the \"liar\" option. Combined with the others (the Quran's preservation and challenge, fulfilled prophecies, his knowledge of earlier scripture), the remaining options are \"sincere and deluded\" or \"sincere and true\". A deluded man does not produce a coherent law, a disciplined state and a book his enemies cannot match within 23 years."
+  },
+  {
+   "q": "\"Maybe the story was invented to make him look humble.\"",
+   "a": "The report is in Bukhari and Muslim through several Companions, and the eclipse is astronomically confirmed on the right day. Inventing a story in which he declines a miracle is an odd strategy for a community that collected miracle reports eagerly."
+  }
+ ],
+ "practice": {
+  "q": "“Your prophet benefited enormously from his claims: power, wives, wealth. Isn't that the profile of an impostor?”",
+  "a": "He refused kingship and wealth when Quraysh offered them to stop preaching, died with his armour pawned to a Jew for barley, and corrected the people when an eclipse could have served him. Power came after 13 years of persecution, not before; someone seeking it would have taken the deal in Mecca."
+ },
+ "sum": "The eclipse on the day his son died handed him a free miracle, and he publicly refused it. Alongside the Quran's self-rebukes and his refusal of worldly offers, this makes sincerity the starting point for any honest evaluation.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "9:43": "عَفَا ٱللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمۡ حَتَّىٰ یَتَبَیَّنَ لَكَ ٱلَّذِینَ صَدَقُوا۟ وَتَعۡلَمَ ٱلۡكَـٰذِبِینَ",
+  "8:67": "مَا كَانَ لِنَبِیٍّ أَن یَكُونَ لَهُۥۤ أَسۡرَىٰ حَتَّىٰ یُثۡخِنَ فِی ٱلۡأَرۡضِۚ تُرِیدُونَ عَرَضَ ٱلدُّنۡیَا وَٱللَّهُ یُرِیدُ ٱلۡءَاخِرَةَۗ وَٱللَّهُ عَزِیزٌ حَكِیمࣱ"
+ },
+ "hadith_arabic": {
+  "Bukhari 1043": {
+   "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ حَدَّثَنَا هَاشِمُ بْنُ الْقَاسِمِ، قَالَ حَدَّثَنَا شَيْبَانُ أَبُو مُعَاوِيَةَ، عَنْ زِيَادِ بْنِ عِلاَقَةَ، عَنِ الْمُغِيرَةِ بْنِ شُعْبَةَ، قَالَ كَسَفَتِ الشَّمْسُ عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم يَوْمَ مَاتَ إِبْرَاهِيمُ، فَقَالَ النَّاسُ كَسَفَتِ الشَّمْسُ لِمَوْتِ إِبْرَاهِيمَ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ إِنَّ الشَّمْسَ وَالْقَمَرَ لاَ يَنْكَسِفَانِ لِمَوْتِ أَحَدٍ وَلاَ لِحَيَاتِهِ، فَإِذَا رَأَيْتُمْ فَصَلُّوا وَادْعُوا اللَّهَ ‏\"‏‏.‏",
+   "grades": []
+  }
+ }
+}

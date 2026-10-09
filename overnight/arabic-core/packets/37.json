@@ -1,0 +1,40 @@
+{
+ "n": 37,
+ "id": "p6#s-philosophy--the-fallacies-you-will-meet-most-often",
+ "title": "The fallacies you will meet most often",
+ "thesis": "Fallacies are patterns of bad reasoning. Learn to name the common ones briefly and without arrogance, and avoid committing them yourself.",
+ "premises": [],
+ "evidence": [
+  "Ad hominem: attacking the person, not the argument (\"you're just a Muslim apologist\"). Answer: \"Even if that's true, which premise is false?\"",
+  "Straw man: attacking a weaker version of the view. Answer by restating your view accurately. Avoid it yourself: represent the Trinity as Christians define it before you criticise it.",
+  "Red herring: changing the subject (asked about Gospel authorship, the opponent talks about Islamic violence).",
+  "Tu quoque (\"you too\"): dismissing a criticism because the critic is guilty of something similar. Use consistency arguments only to expose double standards, not to avoid answering.",
+  "Appeal to emotion or popularity: \"billions of Christians can't be wrong.\"",
+  "Genetic fallacy: judging a claim by its origin rather than its merit (\"you only believe because you were raised Muslim\"). Note the inverse: showing a doctrine developed historically is not a genetic fallacy if the question is whether it was originally taught.",
+  "Begging the question (circular reasoning): assuming what you're trying to prove (\"the Bible is true because the Bible says so\").",
+  "False dilemma: presenting two options when there are more (\"Jesus was a liar, lunatic, or Lord\" omits \"legend\" and \"misreported\").",
+  "Complex question: \"Have you stopped defending violence?\"",
+  "Special pleading: exempting your case from a rule you apply to others (demanding manuscripts from the Quran but not the Gospels).",
+  "Moving the goalposts: raising the standard once evidence is provided.",
+  "No true Scotsman: redefining a group to exclude counterexamples.",
+  "Equivocation: shifting a word's meaning mid-argument (\"son of God\", \"word\", \"one\").",
+  "Composition and division: assuming what's true of parts is true of the whole, or vice versa (\"every part of the universe has a cause, so the universe has a cause\" needs more argument; the dependence argument supplies it).",
+  "Argument from ignorance: \"it hasn't been proved false, so it's true\" (or vice versa).",
+  "Post hoc: assuming that because B followed A, A caused B.",
+  "Hasty generalisation: a few cases taken as the rule.",
+  "Gish gallop: firing many weak claims quickly so that rebuttal is impossible in the time. Answer: \"My opponent has raised fifteen claims; I'll take the three strongest and show they fail, and invite him to pick any other he thinks is decisive.\"",
+  "Burden shifting: making you prove a negative.",
+  "Appeal to authority is legitimate when the authority is a genuine expert on that specific question and experts broadly agree; fallacious when the authority is irrelevant or the experts are divided."
+ ],
+ "ar_quotes": [],
+ "objections": [],
+ "practice": {
+  "q": "“That's an ad hominem! (when you note a scholar's bias)”",
+  "a": "Pointing out a source's bias goes to how much weight their testimony gets, not whether their argument is valid. When I criticise an argument, I'll address its premises; when I assess a witness, credibility is relevant."
+ },
+ "sum": "Know ad hominem, straw man, red herring, tu quoque, genetic fallacy, begging the question, false dilemma, special pleading, moving goalposts, equivocation, composition, argument from ignorance and the Gish gallop. Name them briefly, answer the substance, and don't commit them yourself.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {}
+}

@@ -1,0 +1,74 @@
+{
+ "n": 14,
+ "id": "p1#s-miracles--the-quran-s-literary-challenge-has-never-been-me",
+ "title": "The Quran's literary challenge has never been met",
+ "thesis": "The Quran challenged the most eloquent Arabs of its day to produce even one surah like it. They had every motive to do so and failed, and that failure is best explained by a source beyond Muhammad ﷺ.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "If a person issues a public challenge that his enemies have every motive and ability to meet, and they fail, the best explanation is that the challenge really could not be met by human beings."
+  },
+  {
+   "tag": "P2",
+   "text": "The Quran repeatedly challenged its opponents to produce a book like it, then ten surahs, then one surah (17:88, 11:13, 2:23, 10:38)."
+  },
+  {
+   "tag": "P3",
+   "text": "The Quraysh were masters of the Arabic language, were desperate to discredit him, and chose war, boycott and assassination attempts rather than the far cheaper option of producing a surah."
+  },
+  {
+   "tag": "P4",
+   "text": "Their own leading experts conceded that the Quran was not poetry, soothsaying (kahana) or ordinary speech."
+  },
+  {
+   "tag": "∴",
+   "text": "The Quran's inimitability is real, and the best explanation is that it is not the speech of a man."
+  }
+ ],
+ "evidence": [
+  "The challenge is narrowed step by step. First the whole Quran (17:88: \"if mankind and jinn gathered to produce the like of this Quran, they could not produce the like of it, even if they helped one another\"), then ten surahs (11:13), then a single surah (2:23, 10:38). The shortest surah, al-Kawthar, is three lines. The bar was set as low as it could go, and it was set in public, in the market culture of Ukaz where poets competed for prizes.\n\nThe opponents' behaviour is the evidence. The Quraysh tried bribery (offering him wealth and kingship), a three-year boycott in the valley of Abu Talib, torture of the weak Muslims, and finally a plot to kill him. A short text in Arabic would have cost them nothing. They did not produce one, and those who later tried, such as Musaylima, produced lines that became a joke in Arabic literature.\n\nThe best-known account is that of al-Walid ibn al-Mughira, reported in al-Hakim and al-Bayhaqi (the chain is disputed). When the Quraysh asked him what to call the Quran so that pilgrims would avoid it, he rejected each label in turn: it is not poetry, for he knew all its metres; it is not the mumbling of a soothsayer; it is not the speech of a madman. He finally settled on \"magic\" only because it separates a man from his family, and Surah al-Muddaththir (74:18-25) records exactly this deliberation: \"he thought and deliberated… then he said: this is nothing but magic handed down\". The verse was recited publicly while al-Walid was alive and he did not deny it.\n\nIts effect on Arabic itself confirms its status. Arabic grammar (Sibawayh), rhetoric (balagha, al-Jurjani's Dala'il al-I'jaz) and lexicography were built around the Quran as the highest standard of the language. Western scholarship notes the same: the Legacy of Islam (p. 321) describes the Quran as the standard for Arabic grammar and literary theory."
+ ],
+ "ar_quotes": [
+  {
+   "text": "وَإِن كُنتُمْ فِي رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا بِسُورَةٍ مِّن مِّثْلِهِ وَادْعُوا شُهَدَاءَكُم مِّن دُونِ اللَّهِ إِن كُنتُمْ صَادِقِينَ",
+   "cite": "2:23"
+  },
+  {
+   "text": "قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيرًا",
+   "cite": "17:88"
+  },
+  {
+   "text": "أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ ۚ وَلَوْ كَانَ مِنْ عِندِ غَيْرِ اللَّهِ لَوَجَدُوا فِيهِ اخْتِلَافًا كَثِيرًا",
+   "cite": "4:82"
+  }
+ ],
+ "objections": [
+  {
+   "q": "\"Literary quality is subjective. Shakespeare is inimitable too.\"",
+   "a": "The challenge is not \"write something beautiful\". It is to produce a text of the same kind, and the Quran's form is unique: it is neither poetry (shi'r, with metre) nor rhymed prose (saj'), yet it uses rhythm and rhyme throughout. The judges were not modern readers but the Arabs who knew the forms best, and they agreed it fitted none of them. Also, Shakespeare never staked his credibility on the claim that no one could match him, and his contemporaries were not trying to destroy him by matching him."
+  },
+  {
+   "q": "\"Maybe people did meet it and Muslims destroyed the evidence.\"",
+   "a": "The attempts that exist (Musaylima, Ibn al-Muqaffa' as alleged, al-Mutanabbi as rumoured) are preserved and recorded by Muslims themselves. A successful imitation would have been the single most useful weapon for the Quraysh, the apostates of the Ridda wars and the later Christian polemicists writing in Arabic, and none of them claims to have produced one."
+  },
+  {
+   "q": "\"Non-Arabs can't judge, so the argument is useless to them.\"",
+   "a": "A non-specialist can still judge the historical argument: the experts of the time, who were hostile, conceded it. That is how we accept many expert judgements we cannot check ourselves."
+  }
+ ],
+ "practice": {
+  "q": "“I could write a surah right now in rhymed Arabic. Does that disprove the Quran?”",
+  "a": "The challenge is not rhyme. It is to match the Quran's unique form and quality, judged by people who master the language. Musaylima tried and became a byword for failure. If it were easy, the Quraysh, who had the language natively and every reason to win, would have done it rather than go to war."
+ },
+ "sum": "The Quran set a public challenge at the lowest possible bar to the people most able and most motivated to meet it. They chose war over a few lines of Arabic, and their best critic admitted it was unlike any known form of speech.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "17:88": "قُل لَّئِنِ ٱجۡتَمَعَتِ ٱلۡإِنسُ وَٱلۡجِنُّ عَلَىٰۤ أَن یَأۡتُوا۟ بِمِثۡلِ هَـٰذَا ٱلۡقُرۡءَانِ لَا یَأۡتُونَ بِمِثۡلِهِۦ وَلَوۡ كَانَ بَعۡضُهُمۡ لِبَعۡضࣲ ظَهِیرࣰا",
+  "11:13": "أَمۡ یَقُولُونَ ٱفۡتَرَىٰهُۖ قُلۡ فَأۡتُوا۟ بِعَشۡرِ سُوَرࣲ مِّثۡلِهِۦ مُفۡتَرَیَـٰتࣲ وَٱدۡعُوا۟ مَنِ ٱسۡتَطَعۡتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمۡ صَـٰدِقِینَ",
+  "2:23": "وَإِن كُنتُمۡ فِی رَیۡبࣲ مِّمَّا نَزَّلۡنَا عَلَىٰ عَبۡدِنَا فَأۡتُوا۟ بِسُورَةࣲ مِّن مِّثۡلِهِۦ وَٱدۡعُوا۟ شُهَدَاۤءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمۡ صَـٰدِقِینَ",
+  "10:38": "أَمۡ یَقُولُونَ ٱفۡتَرَىٰهُۖ قُلۡ فَأۡتُوا۟ بِسُورَةࣲ مِّثۡلِهِۦ وَٱدۡعُوا۟ مَنِ ٱسۡتَطَعۡتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمۡ صَـٰدِقِینَ",
+  "4:82": "أَفَلَا یَتَدَبَّرُونَ ٱلۡقُرۡءَانَۚ وَلَوۡ كَانَ مِنۡ عِندِ غَیۡرِ ٱللَّهِ لَوَجَدُوا۟ فِیهِ ٱخۡتِلَـٰفࣰا كَثِیرࣰا"
+ },
+ "hadith_arabic": {}
+}

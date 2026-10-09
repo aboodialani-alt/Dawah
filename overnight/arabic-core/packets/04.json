@@ -1,0 +1,46 @@
+{
+ "n": 4,
+ "id": "p5#s-hadith-obj--abu-hurayra-s-large-number-of-hadith",
+ "title": "Abu Hurayra's large number of hadith",
+ "thesis": "Abu Hurayra narrated many hadith because he devoted himself to the Prophet's ﷺ company and teaching, the Prophet prayed for his memory, and other young Companions also narrated thousands.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "The number of reports a Companion narrated depends on how long he lived after the Prophet, how much he devoted himself to learning, and how much he taught."
+  },
+  {
+   "tag": "P2",
+   "text": "Abu Hurayra lived with the Prophet ﷺ full-time, had his memory blessed by the Prophet's prayer, and taught for decades in Medina; other junior Companions like Ibn Umar and Ibn Abbas also narrated thousands."
+  },
+  {
+   "tag": "∴",
+   "text": "His number of narrations is not suspicious."
+  }
+ ],
+ "evidence": [
+  "Devotion. Abu Hurayra said: \"My brothers among the Muhajirun were busy in the markets and the Ansar with their property, while I stayed with the Messenger of Allah to fill my stomach\" (Bukhari 118). He was one of the People of the Suffa who lived at the mosque.",
+  "The prayer for memory. He spread his cloak, the Prophet ﷺ spoke, and he never forgot afterward (Bukhari 119).",
+  "Others. Ibn Umar has about 2,600 narrations and Ibn Abbas, who was only nine to fourteen when the Prophet died, about 1,700. Jonathan Brown (Hadith, pp. 18-19) notes that junior Companions who lived long and taught widely narrated the most.",
+  "Counting. The 5,300 figure counts every chain separately; the number of distinct reports is far smaller."
+ ],
+ "ar_quotes": [],
+ "objections": [],
+ "practice": {
+  "q": "“Abu Hurayra was with the Prophet for only three years but narrated more than anyone, so he must have invented hadith.”",
+  "a": "He spent those years at the Prophet's side full-time (Bukhari 118), the Prophet prayed for his memory (Bukhari 119), and he taught for decades after. Ibn Abbas was a child and still narrated 1,700. The 5,300 counts chains, not distinct reports."
+ },
+ "sum": "Abu Hurayra stayed constantly with the Prophet ﷺ, had his memory blessed, and taught for decades. Ibn Umar (2,600) and Ibn Abbas (1,700) also narrated thousands, and 5,300 counts chains, not distinct reports.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {
+  "Bukhari 118": {
+   "arabic": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ إِنَّ النَّاسَ يَقُولُونَ أَكْثَرَ أَبُو هُرَيْرَةَ، وَلَوْلاَ آيَتَانِ فِي كِتَابِ اللَّهِ مَا حَدَّثْتُ حَدِيثًا، ثُمَّ يَتْلُو ‏{‏إِنَّ الَّذِينَ يَكْتُمُونَ مَا أَنْزَلْنَا مِنَ الْبَيِّنَاتِ‏}‏ إِلَى قَوْلِهِ ‏{‏الرَّحِيمُ‏}‏ إِنَّ إِخْوَانَنَا مِنَ الْمُهَاجِرِينَ كَانَ يَشْغَلُهُمُ الصَّفْقُ بِالأَسْوَاقِ، وِإِنَّ إِخْوَانَنَا مِنَ الأَنْصَارِ كَانَ يَشْغَلُهُمُ الْعَمَلُ فِي أَمْوَالِهِمْ، وَإِنَّ أَبَا هُرَيْرَةَ كَانَ يَلْزَمُ رَسُولَ اللَّهِ صلى الله عليه وسلم بِشِبَعِ بَطْنِهِ وَيَحْضُرُ مَا لاَ يَحْضُرُونَ، وَيَحْفَظُ مَا لاَ يَحْفَظُونَ‏.‏",
+   "grades": []
+  },
+  "Bukhari 119": {
+   "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ أَبِي بَكْرٍ أَبُو مُصْعَبٍ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ دِينَارٍ، عَنِ ابْنِ أَبِي ذِئْبٍ، عَنْ سَعِيدٍ الْمَقْبُرِيِّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قُلْتُ يَا رَسُولَ اللَّهِ، إِنِّي أَسْمَعُ مِنْكَ حَدِيثًا كَثِيرًا أَنْسَاهُ‏.‏ قَالَ ‏\"‏ ابْسُطْ رِدَاءَكَ ‏\"‏ فَبَسَطْتُهُ‏.‏ قَالَ فَغَرَفَ بِيَدَيْهِ ثُمَّ قَالَ ‏\"‏ ضُمُّهُ ‏\"‏ فَضَمَمْتُهُ فَمَا نَسِيتُ شَيْئًا بَعْدَهُ‏. حَدَّثَنَا إِبْرَاهِيمُ بْنُ الْمُنْذِرِ قَالَ حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ بِهَذَا أَوْ قَالَ غَرَفَ بِيَدِهِ فِيهِ‏.‏",
+   "grades": []
+  }
+ }
+}

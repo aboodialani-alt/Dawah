@@ -1,0 +1,45 @@
+{
+ "n": 7,
+ "id": "p5#s-hadith-obj--the-prophet-attempted-suicide",
+ "title": "\"The Prophet ﷺ attempted suicide\"",
+ "thesis": "The passage in Bukhari 6982 about the Prophet ﷺ going to throw himself from a mountain is an unconnected addition by al-Zuhri (\"it reached us that…\"), not part of Aisha's connected narration.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A statement is a hadith of the Prophet ﷺ only if it has a connected chain to him."
+  },
+  {
+   "tag": "P2",
+   "text": "In Bukhari 6982, the mountain passage is introduced by al-Zuhri with \"it reached us (balaghana)\", with no chain; Aisha's connected narration ends before it."
+  },
+  {
+   "tag": "∴",
+   "text": "The suicide claim is not an authenticated hadith."
+  }
+ ],
+ "evidence": [
+  "In Bukhari 6982, after Aisha's account of the first revelation and the pause in revelation, the text continues \"and the Prophet ﷺ was so grieved, as it reached us, that he went several times to throw himself from the mountain tops…\". Ibn Hajar notes this is among al-Zuhri's balaghat, unconnected reports.",
+  "Bukhari includes it inside a longer narration but does not present it as a sound hadith in its own right; the authentic version of the first revelation (Bukhari 3; 4953) does not contain it.",
+  "Even in the report, Gabriel appears each time and reassures him, and he does not harm himself."
+ ],
+ "ar_quotes": [],
+ "objections": [],
+ "practice": {
+  "q": "“Sahih Bukhari says Muhammad tried to kill himself, so he doubted his prophethood.”",
+  "a": "The passage is al-Zuhri's \"it reached us\", without a chain, attached to Aisha's narration. Aisha's own connected report in Bukhari 3 doesn't contain it. Unchained hearsay isn't a hadith."
+ },
+ "sum": "The mountain passage in Bukhari 6982 is al-Zuhri's unconnected \"it reached us\" (balaghat), not part of Aisha's connected narration in Bukhari 3.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {
+  "Bukhari 6982": {
+   "arabic": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ،‏.‏ وَحَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، قَالَ الزُّهْرِيُّ فَأَخْبَرَنِي عُرْوَةُ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّهَا قَالَتْ أَوَّلُ مَا بُدِئَ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنَ الْوَحْىِ الرُّؤْيَا الصَّادِقَةُ فِي النَّوْمِ، فَكَانَ لاَ يَرَى رُؤْيَا إِلاَّ جَاءَتْ مِثْلَ فَلَقِ الصُّبْحِ، فَكَانَ يَأْتِي حِرَاءً فَيَتَحَنَّثُ فِيهِ ـ وَهْوَ التَّعَبُّدُ ـ اللَّيَالِيَ ذَوَاتِ الْعَدَدِ، وَيَتَزَوَّدُ لِذَلِكَ ثُمَّ يَرْجِعُ إِلَى خَدِيجَةَ فَتُزَوِّدُهُ لِمِثْلِهَا، حَتَّى فَجِئَهُ الْحَقُّ وَهْوَ فِي غَارِ حِرَاءٍ فَجَاءَهُ الْمَلَكُ فِيهِ فَقَالَ اقْرَأْ‏.‏ فَقَالَ لَهُ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ فَقُلْتُ مَا أَنَا بِقَارِئٍ فَأَخَذَنِي فَغَطَّنِي حَتَّى بَلَغَ مِنِّي الْجَهْدَ ثُمَّ أَرْسَلَنِي‏.‏ فَقَالَ اقْ",
+   "grades": []
+  },
+  "Bukhari 3": {
+   "arabic": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ، أَنَّهَا قَالَتْ أَوَّلُ مَا بُدِئَ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنَ الْوَحْىِ الرُّؤْيَا الصَّالِحَةُ فِي النَّوْمِ، فَكَانَ لاَ يَرَى رُؤْيَا إِلاَّ جَاءَتْ مِثْلَ فَلَقِ الصُّبْحِ، ثُمَّ حُبِّبَ إِلَيْهِ الْخَلاَءُ، وَكَانَ يَخْلُو بِغَارِ حِرَاءٍ فَيَتَحَنَّثُ فِيهِ ـ وَهُوَ التَّعَبُّدُ ـ اللَّيَالِيَ ذَوَاتِ الْعَدَدِ قَبْلَ أَنْ يَنْزِعَ إِلَى أَهْلِهِ، وَيَتَزَوَّدُ لِذَلِكَ، ثُمَّ يَرْجِعُ إِلَى خَدِيجَةَ، فَيَتَزَوَّدُ لِمِثْلِهَا، حَتَّى جَاءَهُ الْحَقُّ وَهُوَ فِي غَارِ حِرَاءٍ، فَجَاءَهُ الْمَلَكُ فَقَالَ اقْرَأْ‏.‏ قَالَ ‏\"‏ مَا أَنَا بِقَارِئٍ ‏\"‏‏.‏ قَالَ ‏\"‏ فَأَخَذَنِي فَغَطَّنِي حَتَّى بَلَغَ مِنِّي الْجَهْدَ، ثُمَّ أَرْسَلَنِي فَقَالَ اقْرَأْ‏.‏ قُلْتُ مَا أَنَا بِقَارِئٍ‏.‏ فَأَخَذَنِي فَغَطّ",
+   "grades": []
+  }
+ }
+}

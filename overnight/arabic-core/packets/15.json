@@ -1,0 +1,71 @@
+{
+ "n": 15,
+ "id": "p1#s-bible-muhammad--deuteronomy-18-a-prophet-like-moses-from-among-t",
+ "title": "Deuteronomy 18: a prophet like Moses \"from among their brethren\"",
+ "thesis": "God promised Moses: \"I will raise up for them a prophet like you from among their brethren, and I will put My words in his mouth\" (Deut 18:18). Every detail fits Muhammad ﷺ better than Jesus.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "The prophet is to come \"from among their brethren\". In Deuteronomy the \"brethren\" of Israel include Esau's descendants (Deut 2:4), and Ishmael dwells \"before his brethren\" (Gen 16:12). Deut 34:10 says that no prophet like Moses arose in Israel; the Samaritan Torah reads \"never will arise\"."
+  },
+  {
+   "tag": "P2",
+   "text": "He will be \"like Moses\": a prophet who brings a law, leads a community, fights its battles, rules a state, marries, has children and dies naturally. Jesus, on Christian terms, brought no new law, had no state, never married, and was (they say) God and crucified. Muhammad ﷺ matches Moses on many points."
+  },
+  {
+   "tag": "P3",
+   "text": "\"I will put My words in his mouth; he shall speak all that I command him\": the Quran was dictated to an unlettered prophet word for word."
+  },
+  {
+   "tag": "∴",
+   "text": "The prophet like Moses is Muhammad ﷺ."
+  }
+ ],
+ "evidence": [
+  "The New Testament keeps \"the Prophet\" distinct from the Messiah. The priests ask John the Baptist: \"Are you the Christ? … Are you Elijah? … Are you the Prophet?\" (John 1:20-21). So the Jews of Jesus' day expected three different figures.",
+  "In the best early papyri of John 7:52 (P66, P75), the Pharisees say: \"the Prophet does not arise from Galilee.\" So the Prophet was expected from somewhere else."
+ ],
+ "ar_quotes": [
+  {
+   "text": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ ۝ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
+   "cite": "53:3-4"
+  }
+ ],
+ "objections": [
+  {
+   "q": "\"Acts 3:22 applies Deuteronomy 18 to Jesus.\"",
+   "a": "Peter applies Deut 18:15-18 to Jesus (Acts 3:22-26), while also speaking of his future return (3:20-21), which concedes that Jesus' ministry did not fulfil it. And John 1:21 shows that the Prophet and the Christ were different people in the minds of Jesus' contemporaries."
+  },
+  {
+   "q": "\"'Brethren' means fellow Israelites.\"",
+   "a": "Deut 17:15 does use \"brethren\" for Israelites when choosing a king. But that verse belongs to the king law of 17:14-20, which many scholars date to the monarchy because it mirrors Solomon's sins (horses, wives, gold) and the Josianic \"book of the law\". And Deut 34:10 says outright that no prophet like Moses arose in Israel."
+  },
+  {
+   "q": "\"If Jesus is God, he is more than 'like Moses'.\"",
+   "a": "Exactly. The Bible says nothing is like God (Isa 40:18, 25; 46:5), so on the Christian view Jesus cannot be \"like\" a mere man. The prophecy must be about another human prophet."
+  }
+ ],
+ "practice": {
+  "q": "“Acts 3:22 applies Deuteronomy 18 to Jesus.”",
+  "a": "Jesus differs from Moses in nearly everything Deuteronomy stresses: no new law, no state, no marriage, and, for Christians, divine. 'From among their brethren' points outside Israel, Deuteronomy 34:10 says no such prophet arose in Israel, and John 1:21 shows the Jews still expected 'the Prophet' separate from the Messiah."
+ },
+ "sum": "A lawgiving, state-founding, married, fighting prophet who spoke the exact words put in his mouth, from Israel's brethren. Deuteronomy 34:10 says no such prophet arose in Israel, and John 1:21 shows the Jews expected \"the Prophet\" separately from the Messiah.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "18:18": "وَتَحۡسَبُهُمۡ أَیۡقَاظࣰا وَهُمۡ رُقُودࣱۚ وَنُقَلِّبُهُمۡ ذَاتَ ٱلۡیَمِینِ وَذَاتَ ٱلشِّمَالِۖ وَكَلۡبُهُم بَـٰسِطࣱ ذِرَاعَیۡهِ بِٱلۡوَصِیدِۚ لَوِ ٱطَّلَعۡتَ عَلَیۡهِمۡ لَوَلَّیۡتَ مِنۡهُمۡ فِرَارࣰا وَلَمُلِئۡتَ مِنۡهُمۡ رُعۡبࣰا",
+  "2:4": "وَٱلَّذِینَ یُؤۡمِنُونَ بِمَاۤ أُنزِلَ إِلَیۡكَ وَمَاۤ أُنزِلَ مِن قَبۡلِكَ وَبِٱلۡءَاخِرَةِ هُمۡ یُوقِنُونَ",
+  "16:12": "وَسَخَّرَ لَكُمُ ٱلَّیۡلَ وَٱلنَّهَارَ وَٱلشَّمۡسَ وَٱلۡقَمَرَۖ وَٱلنُّجُومُ مُسَخَّرَ ٰتُۢ بِأَمۡرِهِۦۤۚ إِنَّ فِی ذَ ٰلِكَ لَءَایَـٰتࣲ لِّقَوۡمࣲ یَعۡقِلُونَ",
+  "34:10": "۞ وَلَقَدۡ ءَاتَیۡنَا دَاوُۥدَ مِنَّا فَضۡلࣰاۖ یَـٰجِبَالُ أَوِّبِی مَعَهُۥ وَٱلطَّیۡرَۖ وَأَلَنَّا لَهُ ٱلۡحَدِیدَ",
+  "7:52": "وَلَقَدۡ جِئۡنَـٰهُم بِكِتَـٰبࣲ فَصَّلۡنَـٰهُ عَلَىٰ عِلۡمٍ هُدࣰى وَرَحۡمَةࣰ لِّقَوۡمࣲ یُؤۡمِنُونَ",
+  "53:3-4": "وَمَا یَنطِقُ عَنِ ٱلۡهَوَىٰۤ إِنۡ هُوَ إِلَّا وَحۡیࣱ یُوحَىٰ",
+  "3:22": "أُو۟لَـٰۤئِكَ ٱلَّذِینَ حَبِطَتۡ أَعۡمَـٰلُهُمۡ فِی ٱلدُّنۡیَا وَٱلۡءَاخِرَةِ وَمَا لَهُم مِّن نَّـٰصِرِینَ",
+  "18:15-18": "هَـٰۤؤُلَاۤءِ قَوۡمُنَا ٱتَّخَذُوا۟ مِن دُونِهِۦۤ ءَالِهَةࣰۖ لَّوۡلَا یَأۡتُونَ عَلَیۡهِم بِسُلۡطَـٰنِۭ بَیِّنࣲۖ فَمَنۡ أَظۡلَمُ مِمَّنِ ٱفۡتَرَىٰ عَلَى ٱللَّهِ كَذِبࣰا وَإِذِ ٱعۡتَزَلۡتُمُوهُمۡ وَمَا یَعۡبُدُونَ إِلَّا ٱللَّهَ فَأۡوُۥۤا۟ إِلَى ٱلۡكَهۡفِ یَنشُرۡ لَكُمۡ رَبُّكُم مِّن رَّحۡمَتِهِۦ وَیُهَیِّئۡ لَكُم مِّنۡ أَمۡرِكُم مِّرۡفَقࣰا ۞ وَتَرَى ٱلشَّمۡسَ إِذَا طَلَعَت تَّزَ ٰوَرُ عَن كَهۡفِهِمۡ ذَاتَ ٱلۡیَمِینِ وَإِذَا غَرَبَت تَّقۡرِضُهُمۡ ذَاتَ ٱلشِّمَالِ وَهُمۡ فِی فَجۡوَةࣲ مِّنۡهُۚ ذَ ٰلِكَ مِنۡ ءَایَـٰتِ ٱللَّهِۗ مَن یَهۡدِ ٱللَّهُ فَهُوَ ٱلۡمُهۡتَدِۖ وَمَن یُضۡلِلۡ فَلَن تَجِدَ لَهُۥ وَلِیࣰّا مُّرۡشِدࣰا وَتَحۡسَبُهُمۡ أَیۡقَاظࣰا وَهُمۡ رُقُودࣱۚ وَنُقَلِّبُهُمۡ ذَاتَ ٱلۡیَمِینِ وَذَاتَ ٱلشِّمَالِۖ وَكَلۡبُهُم بَـٰسِطࣱ ذِرَاعَیۡهِ بِٱلۡوَصِیدِۚ لَوِ ٱطَّلَعۡتَ عَلَیۡهِمۡ لَوَلَّیۡتَ مِنۡهُمۡ فِرَارࣰا وَلَمُلِئۡتَ مِنۡهُمۡ رُعۡبࣰا",
+  "3:22-26": "أُو۟لَـٰۤئِكَ ٱلَّذِینَ حَبِطَتۡ أَعۡمَـٰلُهُمۡ فِی ٱلدُّنۡیَا وَٱلۡءَاخِرَةِ وَمَا لَهُم مِّن نَّـٰصِرِینَ أَلَمۡ تَرَ إِلَى ٱلَّذِینَ أُوتُوا۟ نَصِیبࣰا مِّنَ ٱلۡكِتَـٰبِ یُدۡعَوۡنَ إِلَىٰ كِتَـٰبِ ٱللَّهِ لِیَحۡكُمَ بَیۡنَهُمۡ ثُمَّ یَتَوَلَّىٰ فَرِیقࣱ مِّنۡهُمۡ وَهُم مُّعۡرِضُونَ ذَ ٰلِكَ بِأَنَّهُمۡ قَالُوا۟ لَن تَمَسَّنَا ٱلنَّارُ إِلَّاۤ أَیَّامࣰا مَّعۡدُودَ ٰتࣲۖ وَغَرَّهُمۡ فِی دِینِهِم مَّا كَانُوا۟ یَفۡتَرُونَ فَكَیۡفَ إِذَا جَمَعۡنَـٰهُمۡ لِیَوۡمࣲ لَّا رَیۡبَ فِیهِ وَوُفِّیَتۡ كُلُّ نَفۡسࣲ مَّا كَسَبَتۡ وَهُمۡ لَا یُظۡلَمُونَ قُلِ ٱللَّهُمَّ مَـٰلِكَ ٱلۡمُلۡكِ تُؤۡتِی ٱلۡمُلۡكَ مَن تَشَاۤءُ وَتَنزِعُ ٱلۡمُلۡكَ مِمَّن تَشَاۤءُ وَتُعِزُّ مَن تَشَاۤءُ وَتُذِلُّ مَن تَشَاۤءُۖ بِیَدِكَ ٱلۡخَیۡرُۖ إِنَّكَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرࣱ",
+  "3:20-21": "فَإِنۡ حَاۤجُّوكَ فَقُلۡ أَسۡلَمۡتُ وَجۡهِیَ لِلَّهِ وَمَنِ ٱتَّبَعَنِۗ وَقُل لِّلَّذِینَ أُوتُوا۟ ٱلۡكِتَـٰبَ وَٱلۡأُمِّیِّـۧنَ ءَأَسۡلَمۡتُمۡۚ فَإِنۡ أَسۡلَمُوا۟ فَقَدِ ٱهۡتَدَوا۟ۖ وَّإِن تَوَلَّوۡا۟ فَإِنَّمَا عَلَیۡكَ ٱلۡبَلَـٰغُۗ وَٱللَّهُ بَصِیرُۢ بِٱلۡعِبَادِ إِنَّ ٱلَّذِینَ یَكۡفُرُونَ بِءَایَـٰتِ ٱللَّهِ وَیَقۡتُلُونَ ٱلنَّبِیِّـۧنَ بِغَیۡرِ حَقࣲّ وَیَقۡتُلُونَ ٱلَّذِینَ یَأۡمُرُونَ بِٱلۡقِسۡطِ مِنَ ٱلنَّاسِ فَبَشِّرۡهُم بِعَذَابٍ أَلِیمٍ",
+  "17:15": "مَّنِ ٱهۡتَدَىٰ فَإِنَّمَا یَهۡتَدِی لِنَفۡسِهِۦۖ وَمَن ضَلَّ فَإِنَّمَا یَضِلُّ عَلَیۡهَاۚ وَلَا تَزِرُ وَازِرَةࣱ وِزۡرَ أُخۡرَىٰۗ وَمَا كُنَّا مُعَذِّبِینَ حَتَّىٰ نَبۡعَثَ رَسُولࣰا",
+  "40:18": "وَأَنذِرۡهُمۡ یَوۡمَ ٱلۡءَازِفَةِ إِذِ ٱلۡقُلُوبُ لَدَى ٱلۡحَنَاجِرِ كَـٰظِمِینَۚ مَا لِلظَّـٰلِمِینَ مِنۡ حَمِیمࣲ وَلَا شَفِیعࣲ یُطَاعُ",
+  "46:5": "وَمَنۡ أَضَلُّ مِمَّن یَدۡعُوا۟ مِن دُونِ ٱللَّهِ مَن لَّا یَسۡتَجِیبُ لَهُۥۤ إِلَىٰ یَوۡمِ ٱلۡقِیَـٰمَةِ وَهُمۡ عَن دُعَاۤئِهِمۡ غَـٰفِلُونَ"
+ },
+ "hadith_arabic": {}
+}

@@ -78,7 +78,7 @@ print("tracks", len(tracks), "steps", sum(len(t["steps"]) for t in tracks))
 (site / "teen.json").write_text((HERE / "teen.json").read_text(encoding="utf8"), encoding="utf8")
 
 # optional extra pages
-for name in ("hub", "drill", "review", "audit", "learn", "spar", "sheet", "dossier", "clinic", "teen"):
+for name in ("hub", "review", "audit", "learn", "spar", "sheet", "dossier", "clinic", "teen", "ar"):
     tpl = HERE / f"{name}.html"
     if tpl.exists():
         out = "index.html" if name == "hub" else f"{name}.html"

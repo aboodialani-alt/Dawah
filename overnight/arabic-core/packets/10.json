@@ -1,0 +1,40 @@
+{
+ "n": 10,
+ "id": "p1#s-prophecy--what-makes-a-prophecy-count",
+ "title": "What makes a prophecy count",
+ "thesis": "A prophecy is evidence only if it is specific, risky, recorded before the event, and unlikely to come true by chance. Some of the prophecies below meet these four tests; others are weaker and should be used with care.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A prediction that is vague, made after the fact, or likely anyway proves nothing."
+  },
+  {
+   "tag": "P2",
+   "text": "A prediction that is precise, against expectations, demonstrably recorded before the event, and then fulfilled cannot be explained by luck or editing."
+  },
+  {
+   "tag": "P3",
+   "text": "When a person makes many such predictions and also has a record of honesty and no worldly motive, the best explanation is that he had knowledge from God, as he claimed."
+  },
+  {
+   "tag": "∴",
+   "text": "The test is cumulative: each fulfilled prophecy raises the probability that the Prophet ﷺ spoke from revelation."
+  }
+ ],
+ "evidence": [
+  "The keys of Syria (its red palaces).",
+  "The keys of Persia (the white palace of al-Mada'in).",
+  "The keys of Yemen.\nWithin a generation all three came under Muslim rule: Yemen in the Prophet's lifetime, then Syria (636) and Persia (637) (Musnad Ahmad). That is a prophecy made at the worst possible moment, against every expectation."
+ ],
+ "ar_quotes": [],
+ "objections": [],
+ "practice": {
+  "q": "“Prophecies are vague enough to fit anything.”",
+  "a": "That's why the test is specificity, risk, prior recording and improbability. 'Rome will defeat Persia within three to nine years', said when Rome was collapsing, is specific, risky and recorded before the event."
+ },
+ "sum": "Judge prophecies by specificity, risk, prior recording and improbability. The cases below pass all four tests.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {}
+}

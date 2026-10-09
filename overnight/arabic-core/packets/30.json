@@ -1,0 +1,54 @@
+{
+ "n": 30,
+ "id": "p8#s-liberal--secular-liberalism-is-a-worldview-not-a-neutral-re",
+ "title": "Secular liberalism is a worldview, not a neutral referee",
+ "thesis": "Secular liberalism claims to be neutral between ways of life, but its tests for what counts as harm, consent and personhood depend on disputed views of the good. It is one worldview among others and has to argue its case like the rest.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A procedure can be neutral only if its basic standards do not favour any side in the dispute it settles."
+  },
+  {
+   "tag": "P2",
+   "text": "The liberal tests (the harm principle, consent, autonomy, dignity) each need an answer to contested questions: what counts as harm, who counts as a person, and what makes a life good."
+  },
+  {
+   "tag": "P3",
+   "text": "Liberal states themselves restrict consensual acts on grounds of dignity or morality."
+  },
+  {
+   "tag": "∴",
+   "text": "Liberalism cannot claim the neutral high ground. The real debate is between comprehensive views, and Islam can present its own case on equal terms."
+  }
+ ],
+ "evidence": [
+  "Philosophers admit it. Alasdair MacIntyre (After Virtue, 1981; Whose Justice? Which Rationality?, 1988) argued that there is no tradition-independent standpoint of reason. Michael Sandel (Liberalism and the Limits of Justice, 1982) argued that liberalism presupposes a particular picture of the self. John Rawls himself retreated in Political Liberalism (1993) to claim only a limited, “political” neutrality.",
+  "Mill’s test needs a view of harm. John Stuart Mill’s harm principle (On Liberty, 1859) allows interference only to prevent harm to others. But what counts as harm (offence? damage to the social fabric? harm to the self?) is exactly what people dispute.",
+  "Consent is not enough even for liberal states. In 1995 France’s Conseil d’État upheld the ban on dwarf-tossing despite the consent of the dwarf, on grounds of human dignity (Commune de Morsang-sur-Orge). In Stübing v. Germany (2012) the European Court of Human Rights upheld a criminal ban on consensual incest between adult siblings. Both restrict consenting adults on moral grounds.",
+  "Quran 2:256. Islam does not claim to coerce belief (2:256; 10:99), and so argues its case in public. The Quran invites evidence: “Bring your proof, if you are truthful” (2:111)."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "“Liberalism at least lets everyone live as they choose.”",
+   "a": "It protects real goods, and Muslims benefit from freedom of conscience in liberal states. But it does not let everyone live as they choose: it forbids polygamy, drug sale, certain consensual acts and some speech. Every society draws lines, and liberalism draws its lines using its own contested values."
+  },
+  {
+   "q": "“Religious claims need justification; liberal values do not.”",
+   "a": "Both do. Appealing to “harm” or “autonomy” without an account of why those are the right values is as much a faith commitment as appealing to revelation. The debate should compare grounds, not exempt one side from giving them."
+  }
+ ],
+ "practice": {
+  "q": "“Secular law is neutral. Religious law imposes one group’s morals on everyone.”",
+  "a": "All law imposes someone’s morals. France bans dwarf-tossing with the dwarf’s consent, and the European Court upheld a ban on consensual adult incest. Those are moral judgements about dignity. Rawls himself accepted that liberalism could claim only a limited, political neutrality. So the real question is which moral foundations are true, and I am glad to compare grounds."
+ },
+ "sum": "Liberalism’s tests for harm, consent and personhood rest on disputed moral views, and liberal states restrict consensual acts on moral grounds. It is a worldview to be argued for, not a neutral referee.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "2:256": "لَاۤ إِكۡرَاهَ فِی ٱلدِّینِۖ قَد تَّبَیَّنَ ٱلرُّشۡدُ مِنَ ٱلۡغَیِّۚ فَمَن یَكۡفُرۡ بِٱلطَّـٰغُوتِ وَیُؤۡمِنۢ بِٱللَّهِ فَقَدِ ٱسۡتَمۡسَكَ بِٱلۡعُرۡوَةِ ٱلۡوُثۡقَىٰ لَا ٱنفِصَامَ لَهَاۗ وَٱللَّهُ سَمِیعٌ عَلِیمٌ",
+  "10:99": "وَلَوۡ شَاۤءَ رَبُّكَ لَءَامَنَ مَن فِی ٱلۡأَرۡضِ كُلُّهُمۡ جَمِیعًاۚ أَفَأَنتَ تُكۡرِهُ ٱلنَّاسَ حَتَّىٰ یَكُونُوا۟ مُؤۡمِنِینَ",
+  "2:111": "وَقَالُوا۟ لَن یَدۡخُلَ ٱلۡجَنَّةَ إِلَّا مَن كَانَ هُودًا أَوۡ نَصَـٰرَىٰۗ تِلۡكَ أَمَانِیُّهُمۡۗ قُلۡ هَاتُوا۟ بُرۡهَـٰنَكُمۡ إِن كُنتُمۡ صَـٰدِقِینَ"
+ },
+ "hadith_arabic": {}
+}

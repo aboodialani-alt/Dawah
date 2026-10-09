@@ -1,0 +1,48 @@
+{
+ "n": 12,
+ "id": "p1#s-history--muhammad-is-attested-by-outsiders-within-years-o",
+ "title": "Muhammad ﷺ is attested by outsiders within years of his death",
+ "thesis": "Non-Muslim sources from the 630s-660s describe a prophet among the Arabs who preached the God of Abraham, forbade wine and fornication, and whose followers conquered Persia and Syria. That is the Muhammad of Islamic history, not a later invention.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "If Muhammad were a later legend, early non-Muslim witnesses should be silent or describe someone different."
+  },
+  {
+   "tag": "P2",
+   "text": "Within a few decades of 632, Greek, Syriac and Armenian Christian sources, and then coins and inscriptions, name him and describe his message and movement in terms that match the Islamic sources."
+  },
+  {
+   "tag": "∴",
+   "text": "Muhammad ﷺ is a firmly attested historical figure who taught what Islam says he taught."
+  }
+ ],
+ "evidence": [
+  "Doctrina Jacobi (634): \"a prophet has appeared among the Saracens\".",
+  "Thomas the Presbyter (c. 640): mentions \"the Arabs of Muhammad\" (Mhmt, which some read as a title).",
+  "The Khuzistan Chronicle (c. 660): the Arabs led by MHMD conquered Persia.",
+  "Sebeos, Armenian bishop (c. 660s): Muhammad was a merchant who preached the God of Abraham, knew the Law of Moses, and forbade carrion, wine, lying and fornication.",
+  "Isho'yahb III, Catholicos of the Church of the East (c. 650s): the Arabs \"are not only no enemy to Christianity, but are even praisers of our faith\".",
+  "Physical evidence:\nThe Arab-Sasanian coins of Bishapur (66 AH) and later issues read \"Muhammad is the messenger of God\" in Pahlavi.",
+  "Abd al-Malik's dinars of the 70s AH carry the shahada.",
+  "The Hisma inscription, dated about 80 AH, reads \"O God, bless Muhammad the Prophet\".",
+  "The Syriac chronicle of the mid-8th century says Muhammad traded to Palestine.",
+  "Chinese sources: the Tang account and Du Huan (750s) describe the Arab religion, including prayer and a ban on wine ."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "\"The Islamic sources are too late; Muhammad might be a myth.\"",
+   "a": "The revisionists of the 1970s argued this, but they did not survive the evidence. Robert Hoyland (Seeing Islam as Others Saw It) collects dozens of non-Muslim witnesses within 150 years in six languages. Sinai's verdict above is now widely held."
+  }
+ ],
+ "practice": {
+  "q": "“Muhammad might be a later invention; the Islamic sources are late.”",
+  "a": "The Doctrina Jacobi (634) mentions a prophet among the Saracens; Sebeos (c. 660) describes him preaching the God of Abraham and forbidding wine and fornication; Isho'yahb III describes the Arabs. Sinai concludes a late-7th-century invention is improbable."
+ },
+ "sum": "Within thirty years of his death, Byzantine, Syriac and Armenian Christians were describing Muhammad ﷺ as a prophet of the God of Abraham who forbade wine and fornication. Coins and inscriptions confirm it, and Islamic history is corroborated by its rivals.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {}
+}

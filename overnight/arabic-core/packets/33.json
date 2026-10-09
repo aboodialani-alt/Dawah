@@ -1,0 +1,64 @@
+{
+ "n": 33,
+ "id": "p8#s-apostasy--what-the-classical-law-says-on-apostasy-stated-hon",
+ "title": "What the classical law says on apostasy, stated honestly",
+ "thesis": "The majority of classical jurists held that a Muslim who publicly abandons Islam is to be called to repent and then, if he refuses, faces the death penalty from a court. There are early and modern dissenting views. A debater should state this plainly before giving context.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "You cannot defend or explain a ruling you have misstated."
+  },
+  {
+   "tag": "P2",
+   "text": "The hadith and the practice of the early schools support a capital penalty for apostasy after repentance is offered, as the mainstream position."
+  },
+  {
+   "tag": "P3",
+   "text": "A continuous line of scholars, early and contemporary, restricts or rejects the penalty, and the penalty is for courts, not individuals."
+  },
+  {
+   "tag": "∴",
+   "text": "State the majority ruling accurately, say who may apply it and under what conditions, and then show the debate within the tradition. This gives you credibility and keeps the discussion on the real issues."
+  }
+ ],
+ "evidence": [
+  "The hadith. “Whoever changes his religion, kill him” (Bukhari 6922). And: “The blood of a Muslim is not lawful except for one of three: a life for a life, a married adulterer, and the one who leaves his religion and separates from the community” (Bukhari 6878, Muslim 1676). The second wording ties the offence to leaving and “separating from the community”.",
+  "The schools. The majority hold that the apostate is called to repent first. The Hanafis hold that women are imprisoned and not killed, while the other schools include women. The Malikis give three days’ delay.",
+  "Umar’s reaction. When told that an apostate had been killed straight away, Umar said: “Why did you not imprison him for three days, give him a loaf every day, and call him to repent? Perhaps he would have repented and Allah would have accepted him” (Muwatta Malik).",
+  "Dissent. Ibrahim al-Nakha‘i and Sufyan al-Thawri held that the apostate should be invited to repent indefinitely. In modern times Mahmud Shaltut and Taha Jabir al-Alwani (La ikraha fi al-din) argued that the penalty is discretionary or limited to those who fight the community, and Abdullah Saeed and Hassan Saeed wrote Freedom of Religion, Apostasy and Islam (2004) in the same direction.",
+  "Who applies it. Fixed penalties are for a judge in a functioning Islamic court, never for individuals, and a Muslim minority living in a non-Muslim state is not authorised to apply them."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "“So you want to kill people who leave Islam?”",
+   "a": "No Muslim in a non-Muslim society is allowed to punish anyone, and no individual in any society may do so. The classical law assigns the decision to a court and has the conditions above. The question of whether and how it should be applied in modern states is debated among Muslim scholars, as the dissenting views show. I would rather give you the accurate position than deny it."
+  },
+  {
+   "q": "“Your dissenters are a minority.”",
+   "a": "They are a minority on the question of punishment, and I said so. But they are classical as well as modern, and their argument is based on the sources, the Quran’s silence on any earthly penalty and the Prophet’s own practice (see the next two arguments)."
+  }
+ ],
+ "practice": {
+  "q": "“Islam says apostates must be executed. Is that true or not?”",
+  "a": "The majority of classical jurists said yes, after a call to repent, and carried out by a court, based on Bukhari 6922 and the hadith of the three cases (Bukhari 6878). I won’t deny it. But there is a long tradition of dissent from al-Nakha‘i and al-Thawri to Shaltut and al-Alwani, Umar objected to a man’s execution without a chance to repent, and the Quran itself names no earthly penalty. So the honest answer is: that is the majority classical ruling, and it is debated."
+ },
+ "sum": "The majority classical ruling is death for apostasy after a call to repent, by a court. There is early and modern dissent, no private person may apply it, and a debater should say all three.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {
+  "Bukhari 6922": {
+   "arabic": "حَدَّثَنَا أَبُو النُّعْمَانِ، مُحَمَّدُ بْنُ الْفَضْلِ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، عَنْ عِكْرِمَةَ، قَالَ أُتِيَ عَلِيٌّ ـ رضى الله عنه ـ بِزَنَادِقَةٍ فَأَحْرَقَهُمْ فَبَلَغَ ذَلِكَ ابْنَ عَبَّاسٍ فَقَالَ لَوْ كُنْتُ أَنَا لَمْ أُحْرِقْهُمْ لِنَهْىِ رَسُولِ اللَّهِ صلى الله عليه وسلم وَلَقَتَلْتُهُمْ لِقَوْلِ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏ \"‏ مَنْ بَدَّلَ دِينَهُ فَاقْتُلُوهُ ‏\"‏‏.‏",
+   "grades": []
+  },
+  "Bukhari 6878": {
+   "arabic": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ لاَ يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلاَّ بِإِحْدَى ثَلاَثٍ النَّفْسُ بِالنَّفْسِ وَالثَّيِّبُ الزَّانِي، وَالْمَارِقُ مِنَ الدِّينِ التَّارِكُ الْجَمَاعَةَ ‏\"‏‏.‏",
+   "grades": []
+  },
+  "Muslim 1676": {
+   "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، وَأَبُو مُعَاوِيَةَ وَوَكِيعٌ عَنِ الأَعْمَشِ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ لاَ يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلاَّ بِإِحْدَى ثَلاَثٍ الثَّيِّبُ الزَّانِ وَالنَّفْسُ بِالنَّفْسِ وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ ‏\"‏ ‏.‏",
+   "grades": []
+  }
+ }
+}

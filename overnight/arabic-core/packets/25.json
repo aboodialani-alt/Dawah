@@ -1,0 +1,54 @@
+{
+ "n": 25,
+ "id": "p9#s-text--birmingham-t-bingen-and-the-radiocarbon-dates",
+ "title": "Birmingham, Tübingen and the radiocarbon dates",
+ "thesis": "Radiocarbon dating of early Quran manuscripts places them in the lifetime of the Prophet’s Companions. The dates are ranges for the animal skin, not for the writing, so they should be presented carefully, and critics who claim a date before Muhammad are reading the range wrongly.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A radiocarbon date gives a range for when the animal died, and the writing is the same age or later."
+  },
+  {
+   "tag": "P2",
+   "text": "The best-known dated manuscripts fall in ranges that overlap the first decades of Islam."
+  },
+  {
+   "tag": "P3",
+   "text": "A range whose lower edge touches the Prophet’s birth does not show the text existed before him."
+  },
+  {
+   "tag": "∴",
+   "text": "The early manuscripts show a Quran in written circulation within the first generation, consistent with the Islamic account, and the arguments for a pre-Muhammad or much later text both misread the evidence."
+  }
+ ],
+ "evidence": [
+  "Birmingham (Mingana 1572a with Paris BnF Arabe 328c). Two leaves with parts of Surahs 18-20 in Hijazi script. The Oxford Radiocarbon Accelerator Unit dated the parchment in 2015 to 568-645 CE with 95.4 percent probability. The Prophet ﷺ was born around 570 and died in 632.",
+  "Tübingen (Ma VI 165). A manuscript that covers 17:36 to 36:57, dated by radiocarbon (2014) to 649-675 CE with 95.4 percent probability.",
+  "Others. The Sana’a leaves (see the previous argument), and manuscripts such as Paris BnF Arabe 328a and British Library Or. 2165, belong to the same early Hijazi tradition; the Sana'a leaves are radiocarbon-dated, the others are dated palaeographically to roughly the first two centuries of Islam.",
+  "The comparison. The oldest New Testament fragment (P52, a few verses of John) is dated by palaeography to the second century CE, and the oldest complete New Testament manuscripts are from the fourth century. The Quran has substantial parts in manuscripts within a century at most of its revelation, and the oral chain was running from the beginning.",
+  "The caution. The date refers to the skin. The parchment can be older than the ink by years or decades, or reused. State the ranges as they are and avoid saying that “the manuscript is from the Prophet’s time”."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "“568 is before Muhammad was born, so the Quran predates him.”",
+   "a": "The range is for the death of the animal, which is the earliest the writing could be, and the probability is not spread evenly across it. A parchment is normally written on within years or decades of preparation. A range that reaches back to 568 and forward to 645 includes the whole lifetime of the Prophet ﷺ and the early caliphate, and Surahs 18-20 are traditionally classed as Meccan."
+  },
+  {
+   "q": "“Scholars like Alba Fedeli say the Birmingham leaves are a palimpsest, so they were rewritten.”",
+   "a": "Fedeli’s proposal about a possible earlier layer is debated. In any case a palimpsest shows that parchment was reused, which would make the writing later than the skin, still within the early period and still the same Quranic text. The dating tells us the text in those surahs was in circulation very early."
+  }
+ ],
+ "practice": {
+  "q": "“Radiocarbon dates show the Quran existed before Muhammad was born.”",
+  "a": "They give a range for when the animal died, and the writing is the same age or later. The Birmingham range is 568-645 CE, and it starts two years before the Prophet’s birth and includes his entire life and the caliphate of Abu Bakr and Umar. The probability is not flat across the range, and the Hijazi script and the Meccan surahs on the leaves fit the first generation. Tübingen is 649-675, and Sana’a around 578-669. All point to a written Quran inside the lifetimes of the Companions."
+ },
+ "sum": "Birmingham (568-645), Tübingen (649-675) and Sana’a (about 578-669) put written Quranic text within the Companions’ lifetimes. The dates are for the skin, and claims of a pre-Muhammad text misread the range.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "17:36": "وَلَا تَقۡفُ مَا لَیۡسَ لَكَ بِهِۦ عِلۡمٌۚ إِنَّ ٱلسَّمۡعَ وَٱلۡبَصَرَ وَٱلۡفُؤَادَ كُلُّ أُو۟لَـٰۤئِكَ كَانَ عَنۡهُ مَسۡءُولࣰا",
+  "36:57": "لَهُمۡ فِیهَا فَـٰكِهَةࣱ وَلَهُم مَّا یَدَّعُونَ"
+ },
+ "hadith_arabic": {}
+}

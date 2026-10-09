@@ -1,0 +1,77 @@
+{
+ "n": 16,
+ "id": "p1#s-bible-muhammad--the-jews-and-christians-of-the-time-recognised-h",
+ "title": "The Jews and Christians of the time recognised him",
+ "thesis": "The Quran says the People of the Book \"recognise him as they recognise their own sons\" (2:146). The historical record shows learned Jews and Christians did exactly that.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "If the Prophet ﷺ were not foretold, the scholars of the People of the Book would have had no reason to recognise him from their own scriptures."
+  },
+  {
+   "tag": "P2",
+   "text": "Several of them did, some publicly and some while refusing to follow him."
+  },
+  {
+   "tag": "∴",
+   "text": "The recognition fits the Quran's claim that he is described in their books."
+  }
+ ],
+ "evidence": [
+  "'Abdullah ibn Salam, a leading rabbi of the Banu Qaynuqa', tested the Prophet ﷺ with three questions known only from rabbinic lore: the first sign of the Hour, the first food of Paradise, and why a child resembles a parent. The answers matched the rabbinic traditions, such as the banquet on the Leviathan's liver (Leviticus Rabbah), so he accepted Islam (Bukhari 3329). The Jews had called him \"our best and the son of our best\" before he declared his faith.",
+  "Waraqa ibn Nawfal, a Christian scholar, recognised the first revelation as \"the Namus (angel) that came to Moses\" (Bukhari 3).",
+  "The Negus of Abyssinia said Surah Maryam and the Gospel \"come from the same lamp\".",
+  "Jews who conceded (Tirmidhi 2733) kissed his hands and said \"we bear witness you are a prophet\", but would not follow him \"because David prayed that his line would never lack a prophet\". That blessing was conditional on obedience (Ps 132:12; 1 Kgs 9:4-7).",
+  "Heraclius, according to later Christian chronicles (such as Michael the Syrian, 12th century), ordered his governors to stop resisting the Arabs because of God's promise to Ishmael."
+ ],
+ "ar_quotes": [
+  {
+   "text": "الَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَعْرِفُونَهُ كَمَا يَعْرِفُونَ أَبْنَاءَهُمْ",
+   "cite": "2:146"
+  }
+ ],
+ "objections": [],
+ "practice": {
+  "q": "“If the Jews recognised him, why did most reject him?”",
+  "a": "The Quran says many recognised him and refused out of envy (2:109). Tirmidhi 2733 records Jews who conceded his prophethood but refused because they feared their people would abandon them. Abdullah ibn Salam, a chief rabbi, tested him and converted."
+ },
+ "sum": "A chief rabbi who tested him and converted, a Christian scholar who recognised the angel of Moses, a Christian king who saw one lamp, and Jews who conceded he was a prophet but feared their people.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "2:146": "ٱلَّذِینَ ءَاتَیۡنَـٰهُمُ ٱلۡكِتَـٰبَ یَعۡرِفُونَهُۥ كَمَا یَعۡرِفُونَ أَبۡنَاۤءَهُمۡۖ وَإِنَّ فَرِیقࣰا مِّنۡهُمۡ لَیَكۡتُمُونَ ٱلۡحَقَّ وَهُمۡ یَعۡلَمُونَ",
+  "9:4-7": "إِلَّا ٱلَّذِینَ عَـٰهَدتُّم مِّنَ ٱلۡمُشۡرِكِینَ ثُمَّ لَمۡ یَنقُصُوكُمۡ شَیۡءࣰا وَلَمۡ یُظَـٰهِرُوا۟ عَلَیۡكُمۡ أَحَدࣰا فَأَتِمُّوۤا۟ إِلَیۡهِمۡ عَهۡدَهُمۡ إِلَىٰ مُدَّتِهِمۡۚ إِنَّ ٱللَّهَ یُحِبُّ ٱلۡمُتَّقِینَ فَإِذَا ٱنسَلَخَ ٱلۡأَشۡهُرُ ٱلۡحُرُمُ فَٱقۡتُلُوا۟ ٱلۡمُشۡرِكِینَ حَیۡثُ وَجَدتُّمُوهُمۡ وَخُذُوهُمۡ وَٱحۡصُرُوهُمۡ وَٱقۡعُدُوا۟ لَهُمۡ كُلَّ مَرۡصَدࣲۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِیلَهُمۡۚ إِنَّ ٱللَّهَ غَفُورࣱ رَّحِیمࣱ وَإِنۡ أَحَدࣱ مِّنَ ٱلۡمُشۡرِكِینَ ٱسۡتَجَارَكَ فَأَجِرۡهُ حَتَّىٰ یَسۡمَعَ كَلَـٰمَ ٱللَّهِ ثُمَّ أَبۡلِغۡهُ مَأۡمَنَهُۥۚ ذَ ٰلِكَ بِأَنَّهُمۡ قَوۡمࣱ لَّا یَعۡلَمُونَ كَیۡفَ یَكُونُ لِلۡمُشۡرِكِینَ عَهۡدٌ عِندَ ٱللَّهِ وَعِندَ رَسُولِهِۦۤ إِلَّا ٱلَّذِینَ عَـٰهَدتُّمۡ عِندَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِۖ فَمَا ٱسۡتَقَـٰمُوا۟ لَكُمۡ فَٱسۡتَقِیمُوا۟ لَهُمۡۚ إِنَّ ٱللَّهَ یُحِبُّ ٱلۡمُتَّقِینَ",
+  "2:109": "وَدَّ كَثِیرࣱ مِّنۡ أَهۡلِ ٱلۡكِتَـٰبِ لَوۡ یَرُدُّونَكُم مِّنۢ بَعۡدِ إِیمَـٰنِكُمۡ كُفَّارًا حَسَدࣰا مِّنۡ عِندِ أَنفُسِهِم مِّنۢ بَعۡدِ مَا تَبَیَّنَ لَهُمُ ٱلۡحَقُّۖ فَٱعۡفُوا۟ وَٱصۡفَحُوا۟ حَتَّىٰ یَأۡتِیَ ٱللَّهُ بِأَمۡرِهِۦۤۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرࣱ"
+ },
+ "hadith_arabic": {
+  "Bukhari 3329": {
+   "arabic": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، أَخْبَرَنَا الْفَزَارِيُّ، عَنْ حُمَيْدٍ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ بَلَغَ عَبْدَ اللَّهِ بْنَ سَلاَمٍ مَقْدَمُ رَسُولِ اللَّهِ صلى الله عليه وسلم الْمَدِينَةَ، فَأَتَاهُ، فَقَالَ إِنِّي سَائِلُكَ عَنْ ثَلاَثٍ لاَ يَعْلَمُهُنَّ إِلاَّ نَبِيٌّ، ‏{‏قَالَ مَا‏}‏ أَوَّلُ أَشْرَاطِ السَّاعَةِ وَمَا أَوَّلُ طَعَامٍ يَأْكُلُهُ أَهْلُ الْجَنَّةِ وَمِنْ أَىِّ شَىْءٍ يَنْزِعُ الْوَلَدُ إِلَى أَبِيهِ وَمِنْ أَىِّ شَىْءٍ يَنْزِعُ إِلَى أَخْوَالِهِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خَبَّرَنِي بِهِنَّ آنِفًا جِبْرِيلُ ‏\"‏‏.‏ قَالَ فَقَالَ عَبْدُ اللَّهِ ذَاكَ عَدُوُّ الْيَهُودِ مِنَ الْمَلاَئِكَةِ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَمَّا أَوَّلُ أَشْرَاطِ السَّاعَةِ فَنَارٌ تَحْشُرُ النَّاسَ مِنَ الْمَشْرِقِ إِلَى الْمَغْرِبِ‏.‏ وَأَمَّا أَوَّلُ طَعَامٍ يَأْكُلُهُ أَهْلُ الْجَنَّةِ فَزِيَادَةُ كَبِدِ حُوتٍ‏.‏ وَأَمَّا الشَّبَهُ ف",
+   "grades": []
+  },
+  "Bukhari 3": {
+   "arabic": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ، أَنَّهَا قَالَتْ أَوَّلُ مَا بُدِئَ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنَ الْوَحْىِ الرُّؤْيَا الصَّالِحَةُ فِي النَّوْمِ، فَكَانَ لاَ يَرَى رُؤْيَا إِلاَّ جَاءَتْ مِثْلَ فَلَقِ الصُّبْحِ، ثُمَّ حُبِّبَ إِلَيْهِ الْخَلاَءُ، وَكَانَ يَخْلُو بِغَارِ حِرَاءٍ فَيَتَحَنَّثُ فِيهِ ـ وَهُوَ التَّعَبُّدُ ـ اللَّيَالِيَ ذَوَاتِ الْعَدَدِ قَبْلَ أَنْ يَنْزِعَ إِلَى أَهْلِهِ، وَيَتَزَوَّدُ لِذَلِكَ، ثُمَّ يَرْجِعُ إِلَى خَدِيجَةَ، فَيَتَزَوَّدُ لِمِثْلِهَا، حَتَّى جَاءَهُ الْحَقُّ وَهُوَ فِي غَارِ حِرَاءٍ، فَجَاءَهُ الْمَلَكُ فَقَالَ اقْرَأْ‏.‏ قَالَ ‏\"‏ مَا أَنَا بِقَارِئٍ ‏\"‏‏.‏ قَالَ ‏\"‏ فَأَخَذَنِي فَغَطَّنِي حَتَّى بَلَغَ مِنِّي الْجَهْدَ، ثُمَّ أَرْسَلَنِي فَقَالَ اقْرَأْ‏.‏ قُلْتُ مَا أَنَا بِقَارِئٍ‏.‏ فَأَخَذَنِي فَغَطّ",
+   "grades": []
+  },
+  "Tirmidhi 2733": {
+   "arabic": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، وَأَبُو أُسَامَةَ عَنْ شُعْبَةَ، عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ عَبْدِ اللَّهِ بْنِ سَلِمَةَ، عَنْ صَفْوَانَ بْنِ عَسَّالٍ، قَالَ قَالَ يَهُودِيٌّ لِصَاحِبِهِ اذْهَبْ بِنَا إِلَى هَذَا النَّبِيِّ ‏.‏ فَقَالَ صَاحِبُهُ لاَ تَقُلْ نَبِيٌّ إِنَّهُ لَوْ سَمِعَكَ كَانَ لَهُ أَرْبَعَةُ أَعْيُنٍ ‏.‏ فَأَتَيَا رَسُولَ اللَّهِ صلى الله عليه وسلم فَسَأَلاَهُ عَنْ تِسْعِ آيَاتٍ بَيِّنَاتٍ ‏.‏ فَقَالَ لَهُمْ ‏\"‏ لاَ تُشْرِكُوا بِاللَّهِ شَيْئًا وَلاَ تَسْرِقُوا وَلاَ تَزْنُوا وَلاَ تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ وَلاَ تَمْشُوا بِبَرِيءٍ إِلَى ذِي سُلْطَانٍ لِيَقْتُلَهُ وَلاَ تَسْحَرُوا وَلاَ تَأْكُلُوا الرِّبَا وَلاَ تَقْذِفُوا مُحْصَنَةً وَلاَ تُوَلُّوا الْفِرَارَ يَوْمَ الزَّحْفِ وَعَلَيْكُمْ خَاصَّةً الْيَهُودَ أَنْ لاَ تَعْتَدُوا فِي السَّبْتِ ‏\"‏ ‏.‏ قَالَ فَقَبَّلُوا يَدَهُ وَرِجْلَهُ فَقَالاَ",
+   "grades": [
+    [
+     "Ahmad Muhammad Shakir",
+     "Daif"
+    ],
+    [
+     "Al-Albani",
+     "Daif"
+    ],
+    [
+     "Bashar Awad Maarouf",
+     "Hasan Sahih"
+    ],
+    [
+     "Zubair Ali Zai",
+     "Isnaad Hasan"
+    ]
+   ]
+  }
+ }
+}

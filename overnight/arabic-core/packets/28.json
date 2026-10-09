@@ -1,0 +1,77 @@
+{
+ "n": 28,
+ "id": "p8#s-gender--what-feminism-got-right-and-where-islam-differs",
+ "title": "What feminism got right, and where Islam differs",
+ "thesis": "Islam agrees with the core early feminist demands (property, education, consent, protection from abuse) and established most of them in the seventh century. It parts company with parts of later feminism on identical roles, sexual autonomy and the status of the family. A debater should concede the agreement before stating the differences.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "“Feminism” covers incompatible positions (liberal, difference, radical, and Muslim feminists), so the first question to ask is which claim is being made."
+  },
+  {
+   "tag": "P2",
+   "text": "The founding demands were property rights, education, consent to marriage and protection from violence, and Islam’s sources establish each of these."
+  },
+  {
+   "tag": "P3",
+   "text": "Later claims, such as that gender is wholly a social construct, that sexual freedom is liberation and that family roles are oppression, conflict with Islamic teaching, and a Muslim can say so while affirming women’s rights."
+  },
+  {
+   "tag": "∴",
+   "text": "A Muslim can affirm women’s dignity and rights fully without adopting every feminist doctrine as a package, and should be honest where Muslim societies have fallen short of their own sources."
+  }
+ ],
+ "evidence": [
+  "Property. “For men is a share of what the parents and relatives leave, and for women is a share” (4:7). “For women is a share of what they have earned” (4:32). The dowry belongs to the bride: “Give women their dowries as a gift” (4:4). In England, a married woman’s property passed to her husband until the Married Women’s Property Acts of 1870 and 1882.",
+  "Education. Women came to the Prophet ﷺ and said men had taken all his time, so he set aside a day for them and taught them (Bukhari 101). Aisha became one of the great teachers of the first generation.",
+  "The vote, for context. Women got the vote in the United States in 1920, in Britain on equal terms in 1928, in France in 1944 and in Swiss federal elections in 1971.",
+  "Where Muslim societies fail. Denying daughters their inheritance, their education or a say in marriage contradicts the sources. When the Taliban banned girls’ secondary schooling (2021) and women’s university education (2022), Al-Azhar and the Organisation of Islamic Cooperation criticised the decisions as contrary to Islam.",
+  "Where Islam differs: sameness. In the story of Mary's birth the Quran quotes her mother saying “the male is not like the female” (3:36), and the Quran elsewhere treats sex as real and meaningful (53:45; see the section on sexuality and gender).",
+  "Where Islam differs: motherhood. A man asked who most deserved his good company and the Prophet ﷺ said: “Your mother”, three times, “then your father” (Bukhari 5971, Muslim 2548).",
+  "Where Islam differs: sexual ethics. Sex is lawful only within marriage for both sexes, which is a different understanding of liberation from the one in most Western feminism."
+ ],
+ "ar_quotes": [
+  {
+   "text": "وَلَيْسَ الذَّكَرُ كَالْأُنثَىٰ",
+   "cite": "3:36"
+  }
+ ],
+ "objections": [
+  {
+   "q": "“Muslim feminists like Amina Wadud show Islam can be feminist.”",
+   "a": "Some Muslim women scholars have raised real issues about patriarchal readings, and challenging culture presented as religion is legitimate. But when a reading sets aside explicit rulings (Wadud led a mixed-gender Friday prayer in New York in 2005), the great majority of scholars reject it. Distinguish between correcting a cultural reading and discarding a text."
+  },
+  {
+   "q": "“Women in Muslim countries are oppressed.”",
+   "a": "Some are, and often in ways the sources forbid: denying inheritance, schooling or consent. Others are not, and several Muslim-majority countries have elected women as heads of government (Benazir Bhutto in Pakistan in 1988, Tansu Çiller in Turkey, Khaleda Zia and Sheikh Hasina in Bangladesh, Megawati Sukarnoputri as president of Indonesia (2001)). The question is whether the rule is in the sources, not whether every society follows it."
+  }
+ ],
+ "practice": {
+  "q": "“You cannot call yourself pro-woman unless you accept feminism.”",
+  "a": "Feminism is several different positions, so tell me which one. If you mean property, education, consent and protection from violence, Islam established those in the seventh century (4:7, 4:32, Bukhari 101) when most legal systems did not, and I criticise Muslim societies that deny them. If you mean that sex roles are only a social construct or that sexual freedom is liberation, I disagree and I will say why. Rejecting a package is not the same as rejecting women’s dignity."
+ },
+ "sum": "Islam gave women property, education and consent early, and Muslims should condemn societies that deny them; it differs from parts of later feminism on identical roles, sexual autonomy and the family.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "4:7": "لِّلرِّجَالِ نَصِیبࣱ مِّمَّا تَرَكَ ٱلۡوَ ٰلِدَانِ وَٱلۡأَقۡرَبُونَ وَلِلنِّسَاۤءِ نَصِیبࣱ مِّمَّا تَرَكَ ٱلۡوَ ٰلِدَانِ وَٱلۡأَقۡرَبُونَ مِمَّا قَلَّ مِنۡهُ أَوۡ كَثُرَۚ نَصِیبࣰا مَّفۡرُوضࣰا",
+  "4:32": "وَلَا تَتَمَنَّوۡا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعۡضَكُمۡ عَلَىٰ بَعۡضࣲۚ لِّلرِّجَالِ نَصِیبࣱ مِّمَّا ٱكۡتَسَبُوا۟ۖ وَلِلنِّسَاۤءِ نَصِیبࣱ مِّمَّا ٱكۡتَسَبۡنَۚ وَسۡءَلُوا۟ ٱللَّهَ مِن فَضۡلِهِۦۤۚ إِنَّ ٱللَّهَ كَانَ بِكُلِّ شَیۡءٍ عَلِیمࣰا",
+  "4:4": "وَءَاتُوا۟ ٱلنِّسَاۤءَ صَدُقَـٰتِهِنَّ نِحۡلَةࣰۚ فَإِن طِبۡنَ لَكُمۡ عَن شَیۡءࣲ مِّنۡهُ نَفۡسࣰا فَكُلُوهُ هَنِیۤءࣰا مَّرِیۤءࣰا",
+  "3:36": "فَلَمَّا وَضَعَتۡهَا قَالَتۡ رَبِّ إِنِّی وَضَعۡتُهَاۤ أُنثَىٰ وَٱللَّهُ أَعۡلَمُ بِمَا وَضَعَتۡ وَلَیۡسَ ٱلذَّكَرُ كَٱلۡأُنثَىٰۖ وَإِنِّی سَمَّیۡتُهَا مَرۡیَمَ وَإِنِّیۤ أُعِیذُهَا بِكَ وَذُرِّیَّتَهَا مِنَ ٱلشَّیۡطَـٰنِ ٱلرَّجِیمِ",
+  "53:45": "وَأَنَّهُۥ خَلَقَ ٱلزَّوۡجَیۡنِ ٱلذَّكَرَ وَٱلۡأُنثَىٰ"
+ },
+ "hadith_arabic": {
+  "Bukhari 101": {
+   "arabic": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ حَدَّثَنِي ابْنُ الأَصْبَهَانِيِّ، قَالَ سَمِعْتُ أَبَا صَالِحٍ، ذَكْوَانَ يُحَدِّثُ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ،‏.‏ قَالَتِ النِّسَاءُ لِلنَّبِيِّ صلى الله عليه وسلم غَلَبَنَا عَلَيْكَ الرِّجَالُ، فَاجْعَلْ لَنَا يَوْمًا مِنْ نَفْسِكَ‏.‏ فَوَعَدَهُنَّ يَوْمًا لَقِيَهُنَّ فِيهِ، فَوَعَظَهُنَّ وَأَمَرَهُنَّ، فَكَانَ فِيمَا قَالَ لَهُنَّ ‏\"‏ مَا مِنْكُنَّ امْرَأَةٌ تُقَدِّمُ ثَلاَثَةً مِنْ وَلَدِهَا إِلاَّ كَانَ لَهَا حِجَابًا مِنَ النَّارِ ‏\"‏‏.‏ فَقَالَتِ امْرَأَةٌ وَاثْنَيْنِ فَقَالَ ‏\"‏ وَاثْنَيْنِ ‏\"‏‏.‏",
+   "grades": []
+  },
+  "Bukhari 5971": {
+   "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنْ عُمَارَةَ بْنِ الْقَعْقَاعِ بْنِ شُبْرُمَةَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ مَنْ أَحَقُّ بِحُسْنِ صَحَابَتِي قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أَبُوكَ ‏\"‏‏.‏ وَقَالَ ابْنُ شُبْرُمَةَ وَيَحْيَى بْنُ أَيُّوبَ حَدَّثَنَا أَبُو زُرْعَةَ مِثْلَهُ‏.‏",
+   "grades": []
+  },
+  "Muslim 2548": {
+   "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدِ بْنِ جَمِيلِ بْنِ طَرِيفٍ الثَّقَفِيُّ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا جَرِيرٌ، عَنْ عُمَارَةَ بْنِ الْقَعْقَاعِ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ مَنْ أَحَقُّ النَّاسِ بِحُسْنِ صَحَابَتِي قَالَ ‏\"‏ أُمُّكَ ‏\"‏ ‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أُمُّكَ ‏\"‏ ‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أُمُّكَ ‏\"‏ ‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أَبُوكَ ‏\"‏ ‏.‏ وَفِي حَدِيثِ قُتَيْبَةَ مَنْ أَحَقُّ بِحُسْنِ صَحَابَتِي وَلَمْ يَذْكُرِ النَّاسَ ‏.‏",
+   "grades": []
+  }
+ }
+}

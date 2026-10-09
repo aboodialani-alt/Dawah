@@ -1,0 +1,68 @@
+{
+ "n": 31,
+ "id": "p8#s-liberal--where-do-universal-human-rights-come-from",
+ "title": "Where do universal human rights come from?",
+ "thesis": "Universal, equal human rights need a ground that makes every person’s worth equal and non-negotiable. Some leading secular thinkers acknowledge the religious roots of equal human dignity (Habermas), argue that Locke's equality rested on theology (Waldron), or deny that rights need any foundation (Rorty), while Islam supplies one in creation and honour from God.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A claim that every human has equal, inalienable worth needs a reason that does not depend on abilities, since abilities differ."
+  },
+  {
+   "tag": "P2",
+   "text": "Secular accounts of the ground of rights are contested, and some of their best defenders admit the difficulty."
+  },
+  {
+   "tag": "P3",
+   "text": "The Quran grounds human worth in God’s act of honouring humanity, independent of status."
+  },
+  {
+   "tag": "∴",
+   "text": "Islam supplies a ground for universal human dignity that is stronger than a social convention, and the secular critic must explain what grounds rights in its place."
+  }
+ ],
+ "evidence": [
+  "Habermas. The German philosopher Jürgen Habermas, a non-believer, wrote that universalistic egalitarianism, “from which sprang the ideas of freedom and social solidarity”, is “the direct legacy of the Judaic ethic of justice and the Christian ethic of love” (Time of Transitions, 2006).",
+  "Waldron and Wolterstorff. Jeremy Waldron (God, Locke, and Equality, 2002) argues that Locke’s basic equality depends on theological premises. Nicholas Wolterstorff (Justice: Rights and Wrongs, 2008) argues that rights are grounded in being loved by God.",
+  "Rorty’s alternative. Richard Rorty (“Human Rights, Rationality, and Sentimentality”, 1993) argued that rights rest on no deep foundation, only on cultivated sentiment, a view Rorty held to be sufficient, and which critics say leaves rights without a ground.",
+  "The Islamic ground. “We have certainly honoured the children of Adam” (17:70). “We created you from a male and female… the most honoured is the most God-conscious” (49:13). “Whoever kills a soul… it is as if he had slain mankind entirely” (5:32). The Prophet ﷺ declared in the Farewell Sermon that “your blood, your wealth and your honour are sacred to each other” (Bukhari 1739, Muslim 1218), and that no Arab has superiority over a non-Arab except by taqwa (Ahmad 23489)."
+ ],
+ "ar_quotes": [
+  {
+   "text": "وَلَقَدْ كَرَّمْنَا بَنِي آدَمَ",
+   "cite": "17:70"
+  }
+ ],
+ "objections": [
+  {
+   "q": "“Atheists can be good without God.”",
+   "a": "Of course; the argument is about grounding and not about behaviour. The question is not whether atheists behave well but what makes human equality true, rather than a useful convention. A convention can be changed by a majority, while a right grounded in God cannot."
+  },
+  {
+   "q": "“Religion has been used to deny rights.”",
+   "a": "That is true of every ideology that has held power, secular ones included. It shows that a ground can be misused. It does not remove the need for a ground, and it does not tell us whether the Islamic ground in 17:70 and 49:13 is true."
+  }
+ ],
+ "practice": {
+  "q": "“Human rights do not need God. They are common sense.”",
+  "a": "If they were common sense, there would be no need for the philosophy. Habermas, who is not religious, concedes that universal egalitarianism is the legacy of Jewish and Christian ethics, and Rorty admits rights rest on sentiment, not a foundation. In Islam the ground is that God honoured every child of Adam (17:70) and that only taqwa ranks people (49:13). I am asking what grounds rights for you."
+ },
+ "sum": "Equal, universal rights need a ground. Habermas concedes their religious lineage, Rorty finds no deeper foundation, and the Quran grounds dignity in God’s honouring of humanity (17:70, 49:13).",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "17:70": "۞ وَلَقَدۡ كَرَّمۡنَا بَنِیۤ ءَادَمَ وَحَمَلۡنَـٰهُمۡ فِی ٱلۡبَرِّ وَٱلۡبَحۡرِ وَرَزَقۡنَـٰهُم مِّنَ ٱلطَّیِّبَـٰتِ وَفَضَّلۡنَـٰهُمۡ عَلَىٰ كَثِیرࣲ مِّمَّنۡ خَلَقۡنَا تَفۡضِیلࣰا",
+  "49:13": "یَـٰۤأَیُّهَا ٱلنَّاسُ إِنَّا خَلَقۡنَـٰكُم مِّن ذَكَرࣲ وَأُنثَىٰ وَجَعَلۡنَـٰكُمۡ شُعُوبࣰا وَقَبَاۤئِلَ لِتَعَارَفُوۤا۟ۚ إِنَّ أَكۡرَمَكُمۡ عِندَ ٱللَّهِ أَتۡقَىٰكُمۡۚ إِنَّ ٱللَّهَ عَلِیمٌ خَبِیرࣱ",
+  "5:32": "مِنۡ أَجۡلِ ذَ ٰلِكَ كَتَبۡنَا عَلَىٰ بَنِیۤ إِسۡرَ ٰۤءِیلَ أَنَّهُۥ مَن قَتَلَ نَفۡسَۢا بِغَیۡرِ نَفۡسٍ أَوۡ فَسَادࣲ فِی ٱلۡأَرۡضِ فَكَأَنَّمَا قَتَلَ ٱلنَّاسَ جَمِیعࣰا وَمَنۡ أَحۡیَاهَا فَكَأَنَّمَاۤ أَحۡیَا ٱلنَّاسَ جَمِیعࣰاۚ وَلَقَدۡ جَاۤءَتۡهُمۡ رُسُلُنَا بِٱلۡبَیِّنَـٰتِ ثُمَّ إِنَّ كَثِیرࣰا مِّنۡهُم بَعۡدَ ذَ ٰلِكَ فِی ٱلۡأَرۡضِ لَمُسۡرِفُونَ"
+ },
+ "hadith_arabic": {
+  "Bukhari 1739": {
+   "arabic": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنِي يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا فُضَيْلُ بْنُ غَزْوَانَ، حَدَّثَنَا عِكْرِمَةُ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم خَطَبَ النَّاسَ يَوْمَ النَّحْرِ فَقَالَ ‏\"‏ يَا أَيُّهَا النَّاسُ‏.‏ أَىُّ يَوْمٍ هَذَا ‏\"‏‏.‏ قَالُوا يَوْمٌ حَرَامٌ‏.‏ قَالَ ‏\"‏ فَأَىُّ بَلَدٍ هَذَا ‏\"‏‏.‏ قَالُوا بَلَدٌ حَرَامٌ‏.‏ قَالَ ‏\"‏ فَأَىُّ شَهْرٍ هَذَا ‏\"‏‏.‏ قَالُوا شَهْرٌ حَرَامٌ‏.‏ قَالَ ‏\"‏ فَإِنَّ دِمَاءَكُمْ وَأَمْوَالَكُمْ وَأَعْرَاضَكُمْ عَلَيْكُمْ حَرَامٌ، كَحُرْمَةِ يَوْمِكُمْ هَذَا، فِي بَلَدِكُمْ هَذَا فِي شَهْرِكُمْ هَذَا ‏\"‏‏.‏ فَأَعَادَهَا مِرَارًا، ثُمَّ رَفَعَ رَأْسَهُ فَقَالَ ‏\"‏ اللَّهُمَّ هَلْ بَلَّغْتُ اللَّهُمَّ هَلْ بَلَّغْتُ ‏\"‏‏.‏ قَالَ ابْنُ عَبَّاسٍ ـ رضى الله عنهما ـ فَوَالَّذِي نَفْسِي بِيَدِهِ إِنَّهَا لَوَصِيَّتُهُ إِلَى أُمَّتِهِ ـ ‏\"‏ فَلْيُبْلِغِ الشَّاهِدُ الْغَائِبَ، لاَ تَرْجِعُ",
+   "grades": []
+  },
+  "Muslim 1218": {
+   "arabic": "وَحَدَّثَنَا عُمَرُ بْنُ حَفْصِ بْنِ غِيَاثٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا جَعْفَرُ بْنُ مُحَمَّدٍ، حَدَّثَنِي أَبِي، قَالَ أَتَيْتُ جَابِرَ بْنَ عَبْدِ اللَّهِ فَسَأَلْتُهُ عَنْ حَجَّةِ، رَسُولِ اللَّهِ صلى الله عليه وسلم وَسَاقَ الْحَدِيثَ بِنَحْوِ حَدِيثِ حَاتِمِ بْنِ إِسْمَاعِيلَ وَزَادَ فِي الْحَدِيثِ وَكَانَتِ الْعَرَبُ يَدْفَعُ بِهِمْ أَبُو سَيَّارَةَ عَلَى حِمَارٍ عُرْىٍ فَلَمَّا أَجَازَ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنَ الْمُزْدَلِفَةِ بِالْمَشْعَرِ الْحَرَامِ ‏.‏ لَمْ تَشُكَّ قُرَيْشٌ أَنَّهُ سَيَقْتَصِرُ عَلَيْهِ وَيَكُونُ مَنْزِلُهُ ثَمَّ فَأَجَازَ وَلَمْ يَعْرِضْ لَهُ حَتَّى أَتَى عَرَفَاتٍ فَنَزَلَ ‏.‏",
+   "grades": []
+  }
+ }
+}

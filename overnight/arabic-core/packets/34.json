@@ -1,0 +1,69 @@
+{
+ "n": 34,
+ "id": "p8#s-apostasy--no-compulsion-in-religion-and-the-apostasy-ruling",
+ "title": "“No compulsion in religion” and the apostasy ruling",
+ "thesis": "The Quran guarantees freedom to choose belief, never prescribes an earthly penalty for apostasy, and the classical ruling is linked to public defection from the community. The tension is real and the answers are scholarly, not rhetorical.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "Entering Islam is not by force, which the Quran states repeatedly."
+  },
+  {
+   "tag": "P2",
+   "text": "The Quran speaks of apostasy only with consequences in the hereafter."
+  },
+  {
+   "tag": "P3",
+   "text": "The classical jurists treated apostasy as a public act with consequences for the community, which is why they often compare it to treason."
+  },
+  {
+   "tag": "∴",
+   "text": "The ruling cannot be derived from the Quran’s text on belief alone, and defenders must give the full reasoning, including its disputed parts, rather than quoting 2:256 as if it settled the matter."
+  }
+ ],
+ "evidence": [
+  "Freedom of belief. “There is no compulsion in religion; the right path has become clear from the wrong” (2:256). “Would you then compel the people until they become believers?” (10:99). “Say: the truth is from your Lord, so whoever wills let him believe, and whoever wills let him disbelieve” (18:29). “You are only a reminder; you are not a controller over them” (88:21-22).",
+  "The Quran’s verses on apostasy. 2:217, 3:90, 4:137 and 16:106 speak of loss in this world and the next and a severe punishment from God, but none prescribes an earthly penalty.",
+  "The treason analogy. Many classical jurists linked the death penalty to apostasy together with leaving the community (the second wording of the hadith in Muslim 1676). Most states treat betrayal in wartime harshly: treason can carry death under US federal law (18 U.S.C. § 2381), and wartime desertion was punished by execution (Private Eddie Slovik in 1945).",
+  "The limits of the analogy. A critic will say that belief is not treason. The classical argument is that in the early community religion was the political identity, so public renunciation was treated as defection. Whether that logic applies now is exactly what contemporary scholars dispute."
+ ],
+ "ar_quotes": [
+  {
+   "text": "لَا إِكْرَاهَ فِي الدِّينِ ۖ قَدْ تَبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ",
+   "cite": "2:256"
+  }
+ ],
+ "objections": [
+  {
+   "q": "“You cannot have both 2:256 and a death penalty.”",
+   "a": "The verse guarantees that nobody is forced in, and Islamic law has historically distinguished a private change of belief, which jurists said could not be investigated, from public renunciation. The ruling is a point of dispute inside the tradition, and I have not claimed that it fully resolves the tension; I have said where the debate lies."
+  },
+  {
+   "q": "“Treason is about betraying the state, not changing your mind.”",
+   "a": "That is the strongest objection and the reason many modern scholars reject the penalty for private belief. The classical position is a claim about a particular historical polity, and modern jurists such as al-Alwani argue the reasoning does not carry over."
+  }
+ ],
+ "practice": {
+  "q": "“How can Islam say there is no compulsion in religion and then execute apostates?”",
+  "a": "The Quran does say there is no compulsion (2:256), and it names no earthly punishment for apostasy. The classical jurists attached the penalty to public defection from the community, comparing it to treason, and many modern scholars say that reasoning no longer applies. I admit there is a tension and that scholars dispute how to resolve it, but I would not say the rule is simply a command to force belief."
+ },
+ "sum": "The Quran guarantees no compulsion (2:256) and names no earthly penalty for apostasy. The classical ruling rests on hadith and public defection, and modern scholars dispute whether it still applies.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "2:256": "لَاۤ إِكۡرَاهَ فِی ٱلدِّینِۖ قَد تَّبَیَّنَ ٱلرُّشۡدُ مِنَ ٱلۡغَیِّۚ فَمَن یَكۡفُرۡ بِٱلطَّـٰغُوتِ وَیُؤۡمِنۢ بِٱللَّهِ فَقَدِ ٱسۡتَمۡسَكَ بِٱلۡعُرۡوَةِ ٱلۡوُثۡقَىٰ لَا ٱنفِصَامَ لَهَاۗ وَٱللَّهُ سَمِیعٌ عَلِیمٌ",
+  "10:99": "وَلَوۡ شَاۤءَ رَبُّكَ لَءَامَنَ مَن فِی ٱلۡأَرۡضِ كُلُّهُمۡ جَمِیعًاۚ أَفَأَنتَ تُكۡرِهُ ٱلنَّاسَ حَتَّىٰ یَكُونُوا۟ مُؤۡمِنِینَ",
+  "18:29": "وَقُلِ ٱلۡحَقُّ مِن رَّبِّكُمۡۖ فَمَن شَاۤءَ فَلۡیُؤۡمِن وَمَن شَاۤءَ فَلۡیَكۡفُرۡۚ إِنَّاۤ أَعۡتَدۡنَا لِلظَّـٰلِمِینَ نَارًا أَحَاطَ بِهِمۡ سُرَادِقُهَاۚ وَإِن یَسۡتَغِیثُوا۟ یُغَاثُوا۟ بِمَاۤءࣲ كَٱلۡمُهۡلِ یَشۡوِی ٱلۡوُجُوهَۚ بِئۡسَ ٱلشَّرَابُ وَسَاۤءَتۡ مُرۡتَفَقًا",
+  "88:21-22": "فَذَكِّرۡ إِنَّمَاۤ أَنتَ مُذَكِّرࣱ لَّسۡتَ عَلَیۡهِم بِمُصَۣیۡطِرٍ",
+  "2:217": "یَسۡءَلُونَكَ عَنِ ٱلشَّهۡرِ ٱلۡحَرَامِ قِتَالࣲ فِیهِۖ قُلۡ قِتَالࣱ فِیهِ كَبِیرࣱۚ وَصَدٌّ عَن سَبِیلِ ٱللَّهِ وَكُفۡرُۢ بِهِۦ وَٱلۡمَسۡجِدِ ٱلۡحَرَامِ وَإِخۡرَاجُ أَهۡلِهِۦ مِنۡهُ أَكۡبَرُ عِندَ ٱللَّهِۚ وَٱلۡفِتۡنَةُ أَكۡبَرُ مِنَ ٱلۡقَتۡلِۗ وَلَا یَزَالُونَ یُقَـٰتِلُونَكُمۡ حَتَّىٰ یَرُدُّوكُمۡ عَن دِینِكُمۡ إِنِ ٱسۡتَطَـٰعُوا۟ۚ وَمَن یَرۡتَدِدۡ مِنكُمۡ عَن دِینِهِۦ فَیَمُتۡ وَهُوَ كَافِرࣱ فَأُو۟لَـٰۤئِكَ حَبِطَتۡ أَعۡمَـٰلُهُمۡ فِی ٱلدُّنۡیَا وَٱلۡءَاخِرَةِۖ وَأُو۟لَـٰۤئِكَ أَصۡحَـٰبُ ٱلنَّارِۖ هُمۡ فِیهَا خَـٰلِدُونَ",
+  "3:90": "إِنَّ ٱلَّذِینَ كَفَرُوا۟ بَعۡدَ إِیمَـٰنِهِمۡ ثُمَّ ٱزۡدَادُوا۟ كُفۡرࣰا لَّن تُقۡبَلَ تَوۡبَتُهُمۡ وَأُو۟لَـٰۤئِكَ هُمُ ٱلضَّاۤلُّونَ",
+  "4:137": "إِنَّ ٱلَّذِینَ ءَامَنُوا۟ ثُمَّ كَفَرُوا۟ ثُمَّ ءَامَنُوا۟ ثُمَّ كَفَرُوا۟ ثُمَّ ٱزۡدَادُوا۟ كُفۡرࣰا لَّمۡ یَكُنِ ٱللَّهُ لِیَغۡفِرَ لَهُمۡ وَلَا لِیَهۡدِیَهُمۡ سَبِیلَۢا",
+  "16:106": "مَن كَفَرَ بِٱللَّهِ مِنۢ بَعۡدِ إِیمَـٰنِهِۦۤ إِلَّا مَنۡ أُكۡرِهَ وَقَلۡبُهُۥ مُطۡمَئِنُّۢ بِٱلۡإِیمَـٰنِ وَلَـٰكِن مَّن شَرَحَ بِٱلۡكُفۡرِ صَدۡرࣰا فَعَلَیۡهِمۡ غَضَبࣱ مِّنَ ٱللَّهِ وَلَهُمۡ عَذَابٌ عَظِیمࣱ"
+ },
+ "hadith_arabic": {
+  "Muslim 1676": {
+   "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حَفْصُ بْنُ غِيَاثٍ، وَأَبُو مُعَاوِيَةَ وَوَكِيعٌ عَنِ الأَعْمَشِ، عَنْ عَبْدِ اللَّهِ بْنِ مُرَّةَ، عَنْ مَسْرُوقٍ، عَنْ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ لاَ يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلاَّ بِإِحْدَى ثَلاَثٍ الثَّيِّبُ الزَّانِ وَالنَّفْسُ بِالنَّفْسِ وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ ‏\"‏ ‏.‏",
+   "grades": []
+  }
+ }
+}

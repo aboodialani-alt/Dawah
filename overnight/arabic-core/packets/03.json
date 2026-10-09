@@ -1,0 +1,46 @@
+{
+ "n": 3,
+ "id": "p5#s-hadith-obj--hadith-criticism-is-rigorous-even-about-the-sahi",
+ "title": "Hadith criticism is rigorous, even about the Sahih collections",
+ "thesis": "Muslim scholars criticised and rejected weak reports, including a narration in Sahih Muslim, by examining both chains and content. That honesty is why a critic cannot treat every report as \"what Islam teaches\".",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A tradition that tests its own sources against strict criteria, even when the result is uncomfortable, is trustworthy in its accepted core."
+  },
+  {
+   "tag": "P2",
+   "text": "Hadith scholars rejected reports with broken chains, unknown or confused narrators, and content that contradicts the Quran, and they criticised specific narrations in the Sahih collections themselves."
+  },
+  {
+   "tag": "∴",
+   "text": "Islamic teaching is defined by authenticated reports, not by every report a critic can find."
+  }
+ ],
+ "evidence": [
+  "Muslim 2789 (\"Allah created the soil on Saturday…\", seven days of creation). Bukhari, in al-Tarikh al-Kabir, identified it as a saying of Ka'b al-Ahbar (a convert from Judaism), not the Prophet ﷺ. Ibn Taymiyya (Majmu' 17/235) and 'Ali al-Qari agreed. It contradicts the Quran's six days. Scholars flagged a defect in a narration inside Sahih Muslim, the second most respected collection.",
+  "The methods. Narrators were judged on memory and honesty; chains were checked for breaks; a narrator's memory decline (ikhtilat) dates were recorded so that late hearing could be rejected; and content (matn) was checked against the Quran and established Sunnah.",
+  "Western scholarship. Harald Motzki's study of the Musannaf of 'Abd al-Razzaq argued that much of the material can be traced to the late first or early second Islamic century (see Preservation of the Hadith)."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "\"Muslims just call any hadith they don't like weak.\"",
+   "a": "The gradings are centuries old, made by scholars who had no stake in modern debates, using fixed criteria that apply equally to reports Muslims like."
+  }
+ ],
+ "practice": {
+  "q": "“Your own Sahih Muslim says creation took seven days, contradicting the Quran.”",
+  "a": "Bukhari himself identified that narration as Ka'b al-Ahbar's saying, not the Prophet's, and Ibn Taymiyya agreed. Muslim scholars caught the error inside their own most respected books, which shows the system works."
+ },
+ "sum": "Bukhari traced Muslim 2789 to Ka'b al-Ahbar, not the Prophet; Ibn Taymiyya agreed. Hadith critics examined chains, memory decline and content, even in the Sahihs, so critics can't treat every report as Islam.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {
+  "Muslim 2789": {
+   "arabic": "حَدَّثَنِي سُرَيْجُ بْنُ يُونُسَ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، قَالاَ حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، قَالَ قَالَ ابْنُ جُرَيْجٍ أَخْبَرَنِي إِسْمَاعِيلُ بْنُ أُمَيَّةَ، عَنْ أَيُّوبَ بْنِ خَالِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ رَافِعٍ، مَوْلَى أُمِّ سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ، قَالَ أَخَذَ رَسُولُ اللَّهِ صلى الله عليه وسلم بِيَدِي فَقَالَ ‏ \"‏ خَلَقَ اللَّهُ عَزَّ وَجَلَّ التُّرْبَةَ يَوْمَ السَّبْتِ وَخَلَقَ فِيهَا الْجِبَالَ يَوْمَ الأَحَدِ وَخَلَقَ الشَّجَرَ يَوْمَ الاِثْنَيْنِ وَخَلَقَ الْمَكْرُوهَ يَوْمَ الثُّلاَثَاءِ وَخَلَقَ النُّورَ يَوْمَ الأَرْبِعَاءِ وَبَثَّ فِيهَا الدَّوَابَّ يَوْمَ الْخَمِيسِ وَخَلَقَ آدَمَ عَلَيْهِ السَّلاَمُ بَعْدَ الْعَصْرِ مِنْ يَوْمِ الْجُمُعَةِ فِي آخِرِ الْخَلْقِ وَفِي آخِرِ سَاعَةٍ مِنْ سَاعَاتِ الْجُمُعَةِ فِيمَا بَيْنَ الْعَصْرِ إِلَى اللَّيْلِ ‏\"‏ ‏.‏ قَالَ إِبْرَاهِيمُ حَدَّثَنَا الْبِسْطَامِيُّ، - وَهُوَ الْحُسَيْنُ بْنُ عِيسَى - وَسَهْل",
+   "grades": []
+  }
+ }
+}

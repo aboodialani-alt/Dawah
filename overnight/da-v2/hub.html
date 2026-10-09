@@ -53,7 +53,7 @@ h2.sh small{font-family:var(--f-ui);font-size:.8rem;font-weight:400;color:var(--
 .shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,22rem),1fr));gap:1rem}
 .tile{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-direction:column;gap:.5rem;min-height:15rem;padding:1.3rem 1.3rem 1.1rem;background:var(--card);border:1px solid var(--rule);border-radius:16px;text-decoration:none;color:var(--ink);transition:transform .25s,border-color .25s,box-shadow .25s}
 .tile:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 18px 40px -22px var(--accent)}
-.tile .no{position:absolute;right:.7rem;top:-.9rem;z-index:-1;font-family:var(--f-kufi);font-size:8.5rem;line-height:1;color:transparent;-webkit-text-stroke:1.3px var(--gold);opacity:.3}
+.tile .no{position:absolute;right:.6rem;bottom:-1.6rem;z-index:-1;font-family:var(--f-kufi);font-size:8.5rem;line-height:1;color:transparent;-webkit-text-stroke:1.3px var(--gold);opacity:.3}
 .tile .pn{font-family:var(--f-ui);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600}
 .tile .new{margin-left:.5rem;color:var(--accent)}
 .tile h3{font-size:1.45rem;line-height:1.15;margin:0;max-width:15ch}
@@ -68,9 +68,12 @@ h2.sh small{font-family:var(--f-ui);font-size:.8rem;font-weight:400;color:var(--
 .tool span{font-family:var(--f-ui);font-size:.86rem;color:var(--muted)}
 .tool .big{font-family:var(--f-display);font-size:2.3rem;line-height:1;color:var(--accent)}
 .tool.gold{background:var(--gold-soft)}.tool.gold .big{color:var(--gold)}
-.today{display:grid;gap:.8rem;padding:1.3rem;border:1px dashed var(--accent);border-radius:16px;background:transparent}
-.today .q{justify-self:start;max-width:94%;padding:.7rem 1rem;background:var(--bubble-q);border-radius:14px 14px 14px 3px;font-family:var(--f-ui);font-weight:500}
-.today .a{white-space:pre-line;justify-self:end;width:min(100%,94%);padding:.8rem 1rem;background:var(--bubble-a);border-radius:14px 14px 3px 14px}
+.cont{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:.8rem;margin-top:1.4rem}
+.cont:empty{display:none}
+.cont a{display:grid;gap:.15rem;padding:.9rem 1.1rem;border-radius:14px;border:1px solid var(--rule);background:var(--card);text-decoration:none;color:var(--ink);font-family:var(--f-ui);font-size:.82rem;transition:border-color .2s}
+.cont a:hover{border-color:var(--accent)}
+.cont a small{font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.cont a b{font-family:var(--f-display);font-weight:500;font-size:1.15rem;line-height:1.25}
 footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-family:var(--f-ui);font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.5rem 2rem;justify-content:space-between}
 </style>
 <div class="wrap">
@@ -89,35 +92,33 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
 
   <div id="results" aria-live="polite"></div>
 
+  <section class="cont" id="cont" aria-label="Pick up where you left off"></section>
+
+  <h2 class="sh">Train <small>recall beats rereading: say it first, then check</small></h2>
+  <div class="tools3">
+    <a class="tool" href="learn.html"><span class="big" id="n-learn">0</span><b>Daily session</b><span id="n-learn-s">Ten minutes: teach an argument back, answer an attack, name the source. Missed items come back sooner.</span></a>
+    <a class="tool gold" href="spar.html"><span class="big" id="n-spar">5</span><b>Sparring room</b><span>Argue with a sharp but fair opponent: a hadith rejecter, an ex-Muslim voice, a missionary, an atheist or a secular liberal.</span></a>
+    <a class="tool" href="sheet.html"><span class="big">5</span><b>Revision sheets</b><span>Each study track on one page: the claim, the one-breath line and the attack it answers. Two minutes before a conversation.</span></a>
+  </div>
+
   <h2 class="sh">Study tracks <small>ordered paths through the library, for the questions you answer most</small></h2>
   <div class="tracks" id="tracks"></div>
+
+  <h2 class="sh">Beyond debate <small>the same library, turned to different people</small></h2>
+  <div class="tools3">
+    <a class="tool" href="dossier.html"><span class="big" id="n-dos">0</span><b>Debate dossier</b><span>Paste what a specific person has said. Get a briefing: their recurring claims, your answers, their next move, questions to ask, and what not to say.</span></a>
+    <a class="tool gold" href="clinic.html"><span class="big">11</span><b>Questions you carry</b><span>For Muslims with doubts. A gentle, honest guide: what is established, what is debated, what nobody can settle. Nothing is saved.</span></a>
+    <a class="tool" href="teen.html"><span class="big" id="n-teen">23</span><b>Questions at school</b><span>The questions Muslim teenagers get asked, answered in plain words with what to say if someone pushes back.</span></a>
+  </div>
 
   <h2 class="sh">The shelf <small>nine parts · progress is kept in this browser</small></h2>
   <div class="shelf" id="shelf"></div>
 
-  <h2 class="sh">Train <small>recall beats rereading: say it first, then check</small></h2>
-  <div class="tools3">
-    <a class="tool" href="learn.html"><span class="big" id="n-learn">10</span><b>Daily session</b><span>Ten minutes: teach an argument back, answer an attack, name the source. Missed items return sooner.</span></a>
-    <a class="tool gold" href="spar.html"><span class="big">⚔</span><b>Sparring room</b><span>Argue with a sharp but fair opponent: a hadith rejecter, an ex-Muslim voice, a missionary, an atheist. Coach notes after any answer.</span></a>
-    <a class="tool" href="drill.html"><span class="big" id="n-drill">0</span><b>Drill room</b><span>Attack cards only, one at a time, with Claude grading your typed answer.</span></a>
-  </div>
-
-  <h2 class="sh">Beyond debate <small>the same library, turned to different people</small></h2>
-  <div class="tools3">
-    <a class="tool" href="dossier.html"><span class="big">✦</span><b>Debate dossier</b><span>Paste what a specific person has said. Get a briefing: their recurring claims, your answers, their next move, questions to ask, and what not to say.</span></a>
-    <a class="tool gold" href="clinic.html"><span class="big">☾</span><b>Questions you carry</b><span>For Muslims with doubts. A gentle, honest guide: what is established, what is debated, what nobody can settle. Nothing is saved.</span></a>
-    <a class="tool" href="teen.html"><span class="big" id="n-teen">23</span><b>Questions at school</b><span>The questions Muslim teenagers get asked, answered in plain words with what to say if someone pushes back.</span></a>
-  </div>
-
-  <h2 class="sh">On the desk</h2>
+  <h2 class="sh">Library upkeep <small>keeping what you study accurate</small></h2>
   <div class="tools3">
     <a class="tool gold" href="review.html"><span class="big" id="n-review">0</span><b>Review desk</b><span>Additions drafted for the library, waiting for your yes or no. Nothing goes in until you decide.</span></a>
-    <a class="tool" href="audit.html"><span class="big" id="n-audit">0</span><b>Citation audit</b><span>Every hadith reference looked up in the open dataset, with graders' verdicts. Flags the ones worth a second look.</span></a>
-    <button class="tool" type="button" id="open-queue"><span class="big" id="n-queue">0</span><b>Video queue</b><span>Arguments you lined up for the next reels. Shared, so Claude can plan from it.</span></button>
+    <a class="tool" href="audit.html"><span class="big" id="n-audit">0</span><b>Citation audit</b><span>Every hadith reference looked up in the open dataset, with graders' verdicts, plus every Arabic Quran quotation checked against the Uthmani text.</span></a>
   </div>
-
-  <h2 class="sh">An attack a day <small id="tdate"></small></h2>
-  <div class="today" id="today"></div>
 
   <footer class="f"><span>Compiled from the Islam | إسلام | Library And Training Center Discord server and written up as full arguments. Check each source before citing it.</span><span>Press <b>/</b> anywhere to search</span></footer>
 </div>
@@ -135,7 +136,6 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
     const nPrac = d.briefs.filter(b => b.prac).length;
     $('#stats').innerHTML = [[d.briefs.length, 'arguments'], [nObj, 'attacks answered'], [nPrac, 'practice prompts'], [nAr, 'with Arabic text'], [nCare, 'marked use with care']]
       .map(([n, l]) => '<div><b>' + n + '</b>' + l + '</div>').join('');
-    $('#n-drill').textContent = nObj + nPrac;
 
     // chips
     const samples = ['الأحاديث كُتبت بعد 200 سنة', 'hadith were written 200 years later', 'Aisha', 'Bible is corrupted', 'moon splitting', 'apostasy', 'evolution', 'Satanic verses', 'women inheritance'];
@@ -150,11 +150,11 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
         return '<article class="res"><div class="meta"><span class="tag atk">Attack</span><span>Part ' + p.no + ' · ' + esc(h.b.title) + '</span></div>' +
           '<div class="q">' + mark(h.o.q, tk) + '</div><div class="a' + (long ? ' clip' : '') + '">' + mark(h.o.a, tk) + '</div>' +
           '<div class="acts">' + (long ? '<button class="btn2" data-more type="button">Read the full answer</button>' : '') +
-          '<a class="btn1" href="' + esc(DA2.href(h.b)) + '" style="text-decoration:none">Open the argument</a><button class="btn2" data-q="' + esc(h.b.id) + '" type="button">＋ Queue for video</button></div></article>';
+          '<a class="btn1" href="' + esc(DA2.href(h.b)) + '" style="text-decoration:none">Open the argument</a><a class="btn2" style="text-decoration:none" href="spar.html#' + esc(h.b.p + '.' + h.b.a) + '">Spar on this</a></div></article>';
       }
       return '<article class="res"><div class="meta"><span class="tag arg">Argument</span><span>Part ' + p.no + ' · ' + esc(h.b.sec) + '</span></div>' +
         '<h3>' + mark(h.b.title, tk) + '</h3><p class="th">' + mark(h.b.thesis || h.b.sum, tk) + '</p>' +
-        '<div class="acts"><a class="btn1" href="' + esc(DA2.href(h.b)) + '" style="text-decoration:none">Open the argument</a><button class="btn2" data-q="' + esc(h.b.id) + '" type="button">＋ Queue for video</button></div></article>';
+        '<div class="acts"><a class="btn1" href="' + esc(DA2.href(h.b)) + '" style="text-decoration:none">Open the argument</a><a class="btn2" style="text-decoration:none" href="spar.html#' + esc(h.b.p + '.' + h.b.a) + '">Spar on this</a></div></article>';
     }
     async function run() {
       const q = $('#fq').value;
@@ -165,7 +165,6 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
       if (!r.hits.length) { root.innerHTML = '<p class="none">Nothing in the library matches that yet. Try fewer words, or one distinctive word such as a name or verse number. If it is a real gap, that is a new argument to write.</p>'; return; }
       root.innerHTML = (r.via ? '<p class="note-s">Searched for: <b>' + esc(r.via) + '</b></p>' : '') + r.hits.map(h => card(h, r.tk)).join('');
       $$('[data-more]', root).forEach(b => b.onclick = () => { const a = b.closest('.res').querySelector('.a'); a.classList.remove('clip'); b.remove(); });
-      $$('[data-q]', root).forEach(b => b.onclick = () => DA2.qToggle(d.byId.get(b.dataset.q)));
     }
     let t; $('#fq').addEventListener('input', () => { clearTimeout(t); t = setTimeout(run, DA2.hasAr($('#fq').value) ? 700 : 120); });
 
@@ -181,6 +180,9 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
         btn.onclick = () => { ol.hidden = !ol.hidden; btn.setAttribute('aria-expanded', String(!ol.hidden)); };
         box.appendChild(el);
       });
+      const ar = document.createElement('a'); ar.className = 'track'; ar.href = 'ar.html'; ar.style.textDecoration = 'none'; ar.style.color = 'inherit';
+      ar.innerHTML = '<span style="display:grid;gap:.3rem;padding:1.1rem 1.3rem"><span class="for">For the Arabic front</span><h3 lang="ar" dir="rtl" style="font-family:var(--f-kufi);font-weight:500;font-size:1.6rem">النواة العربية</h3><p class="bl" style="margin:0">The core arguments in Arabic, with the Quran in Uthmani script and hadith in their Arabic wording. Includes a large-type reading mode for camera.</p></span>';
+      box.appendChild(ar);
     }).catch(() => { const s = $('#tracks'); if (s) s.parentNode.removeChild(s.previousElementSibling), s.remove(); });
 
     // shelf
@@ -198,20 +200,22 @@ footer.f{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);font-
       $('[data-c]', a).textContent = done + ' of ' + bs.length + ' studied · ' + secs.length + (secs.length === 1 ? ' section' : ' sections');
     });
 
-    // attack of the day (same for everyone on a given date)
-    const all = []; d.briefs.forEach(b => b.obj.forEach(o => all.push([b, o])));
-    const day = Math.floor(Date.now() / 864e5); const [tb, to] = all[(day * 2654435761 >>> 0) % all.length];
-    $('#tdate').textContent = new Date().toDateString();
-    $('#today').innerHTML = '<div class="meta note-s">Part ' + d.partBy.get(tb.p).no + ' · ' + esc(tb.title) + '</div><div class="q">' + esc(to.q) + '</div>' +
-      '<div><button class="btn1" id="rev" type="button">Answer in your head, then reveal</button></div><div class="a" id="tans" hidden>' + esc(to.a) + '</div>' +
-      '<div><a class="btn2" href="' + esc(DA2.href(tb)) + '" style="text-decoration:none">Open the full argument</a></div>';
-    $('#rev').onclick = () => { $('#tans').hidden = false; $('#rev').hidden = true; };
+    // pick up where you left off
+    const J = k => { try { return JSON.parse(store.get(k) || 'null'); } catch (e) { return null; } };
+    const cont = [], last = J('da2:last'), prog = J('da2:drill') || {}, days = J('da2:days') || {}, spar = J('da2:spar') || [];
+    if (last && d.byId.get(last.id)) cont.push('<a href="' + esc(DA2.href(d.byId.get(last.id))) + '"><small>Continue reading</small><b>' + esc(last.title) + '</b><span class="note-s">' + new Date(last.at).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) + '</span></a>');
+    const due = Object.values(prog).filter(p => (p.due || 0) <= Date.now()).length;
+    let streak = 0; { const t = new Date(); while ((days[t.toISOString().slice(0, 10)] || 0) > 0) { streak++; t.setDate(t.getDate() - 1); } }
+    cont.push('<a href="learn.html"><small>Daily session</small><b>' + (due ? due + ' review' + (due > 1 ? 's' : '') + ' due' : 'Start today\'s ten minutes') + '</b><span class="note-s">' + (streak ? streak + '-day streak' : 'Recall first, then check') + '</span></a>');
+    if (spar[0]) cont.push('<a href="spar.html"><small>Last sparring round</small><b>' + esc(String(spar[0].score)) + ' / 10</b><span class="note-s">' + esc(spar[0].topic) + '</span></a>');
+    $('#cont').innerHTML = cont.join('');
+    $('#n-learn').textContent = due || 10; if (due) $('#n-learn-s').textContent = due + ' items are due for review. Ten minutes: teach an argument back, answer an attack, name the source.';
+    $('#n-spar').textContent = spar.length || 5;
+    $('#n-dos').textContent = Object.keys(J('da2:dossiers') || {}).length;
   });
 
   fetch('audit.json').then(r => r.json()).then(j => { $('#n-audit').textContent = j.summary.disputed + j.summary.weak + j.summary.quote_differs; }).catch(() => {});
   fetch('review.json').then(r => r.json()).then(j => { $('#n-review').textContent = j.items.length; }).catch(() => {});
-  const nq = () => { $('#n-queue').textContent = DA2.Q.map.size; }; DA2.Q.subs.push(nq); nq();
-  $('#open-queue').onclick = DA2.openQueue;
 
   /* geometric field: eight-point stars that draw in from the top left, then breathe; the pointer wakes the ones near it */
   const c = $('#geo'), x = c.getContext('2d'); let W, H, S = 78, dpr, mx = -999, my = -999, t0 = performance.now(), col;

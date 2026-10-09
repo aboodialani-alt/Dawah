@@ -1,0 +1,44 @@
+{
+ "n": 6,
+ "id": "p5#s-hadith-obj--the-assassinations-attributed-to-the-prophet",
+ "title": "The \"assassinations\" attributed to the Prophet ﷺ",
+ "thesis": "The killings critics cite are either fabricated (Asma bint Marwan), weakly transmitted and contradicting known law (Umm Qirfa), or were punishments for murder and acts of war (Abu 'Afak, Miqyas, al-Huwayrith), not for mere words or poetry.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A charge must rest on an authentic report and an accurate account of the reason."
+  },
+  {
+   "tag": "P2",
+   "text": "The Asma bint Marwan story is fabricated; the Umm Qirfa story is weak and contradicts the ban on killing women and mutilation; the others were combatants or murderers."
+  },
+  {
+   "tag": "∴",
+   "text": "There is no authentic case of the Prophet ﷺ killing someone merely for criticising him."
+  }
+ ],
+ "evidence": [
+  "Asma bint Marwan. The story comes through Muhammad ibn al-Hajjaj al-Lakhmi, whom Bukhari, Ibn Ma'in and al-Daraqutni called a liar; al-Albani graded it fabricated (mawdu').",
+  "Umm Qirfa. Her brutal killing is reported through an interrupted chain with weak narrators (Ibn Humayd, Salama). Al-Dhahabi calls it munkar. It contradicts the Prophet's explicit bans on mutilation and on killing women.",
+  "Abu 'Afak. Ibn Sa'd, Ibn Kathir and al-Zurqani describe him as inciting war against the Prophet ﷺ and the Muslims; the reports are weak and describe him as composing verses against the Prophet; defenders read this as incitement to war",
+  "Miqyas ibn Subaba killed the Ansari who had paid him blood money for his brother, then apostatised and fled. His execution was retaliation (qisas) for murder.",
+  "Al-Huwayrith attacked the Prophet's daughters as they fled Mecca and fought the Muslims.",
+  "The principle. Aisha: \"The Messenger of Allah never took revenge for himself\" (Bukhari 3560). At the conquest of Mecca he pardoned almost everyone who had persecuted him for 20 years."
+ ],
+ "ar_quotes": [],
+ "objections": [],
+ "practice": {
+  "q": "“Muhammad had poets killed for mocking him.”",
+  "a": "The Asma bint Marwan story is fabricated by a known liar; Abu 'Afak was inciting war; Miqyas was a murderer. Aisha said he never took revenge for himself, and he pardoned all of Mecca."
+ },
+ "sum": "Asma bint Marwan's story is fabricated (al-Albani); Umm Qirfa's is weak and contradicts the ban on killing women; Abu 'Afak, Miqyas and al-Huwayrith were combatants or murderers. The Prophet ﷺ never took personal revenge.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {
+  "Bukhari 3560": {
+   "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّهَا قَالَتْ مَا خُيِّرَ رَسُولُ اللَّهِ صلى الله عليه وسلم بَيْنَ أَمْرَيْنِ إِلاَّ أَخَذَ أَيْسَرَهُمَا، مَا لَمْ يَكُنْ إِثْمًا، فَإِنْ كَانَ إِثْمًا كَانَ أَبْعَدَ النَّاسِ مِنْهُ، وَمَا انْتَقَمَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِنَفْسِهِ، إِلاَّ أَنْ تُنْتَهَكَ حُرْمَةُ اللَّهِ فَيَنْتَقِمَ لِلَّهِ بِهَا‏.‏",
+   "grades": []
+  }
+ }
+}

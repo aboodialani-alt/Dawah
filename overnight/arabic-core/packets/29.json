@@ -1,0 +1,49 @@
+{
+ "n": 29,
+ "id": "p5#s-morality--hijab-and-modesty",
+ "title": "Hijab and modesty",
+ "thesis": "The hijab is a command to cover the head and body in public, shared with Jewish and Christian tradition, and its stated purpose is dignity and protection from harassment.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "The meaning of the command is fixed by the Arabic and the context."
+  },
+  {
+   "tag": "P2",
+   "text": "Khimar means a head covering (Lisan al-'Arab), and 24:31 tells women to draw it over their chests; 33:59 gives the purpose, \"so they will be recognised and not harassed\"."
+  },
+  {
+   "tag": "∴",
+   "text": "The hijab is a Quranic command with a protective purpose, consistent with earlier revelation."
+  }
+ ],
+ "evidence": [
+  "The words. Khimar is \"that with which a woman covers her head\" (Lisan al-'Arab, root kh-m-r). \"Let them draw their head-coverings over their chests\" (24:31). \"Tell your wives, daughters and the believing women to draw their outer garments over themselves; that is more suitable so they will be recognised and not harassed\" (33:59).",
+  "Earlier traditions. Rebekah covered herself with her veil on meeting Isaac (Gen 24:65); Paul required head covering (1 Cor 11:5-6); Clement of Alexandria said women should go out \"with face covered\"; Jerome advised covering all but the eyes; Aquinas held a married woman should not uncover her hair. Ancient Greek women of status were also depicted veiled.",
+  "Studies. Research has associated wearing the hijab with less self-objectification and better body image (Swami et al.)."
+ ],
+ "ar_quotes": [
+  {
+   "text": "وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ",
+   "cite": "24:31"
+  },
+  {
+   "text": "ذَٰلِكَ أَدْنَىٰ أَن يُعْرَفْنَ فَلَا يُؤْذَيْنَ",
+   "cite": "33:59"
+  }
+ ],
+ "objections": [],
+ "practice": {
+  "q": "“The Quran never commands a headscarf; it only says cover your chest.”",
+  "a": "The word used is khimar, which by definition is a head covering; the verse tells women to extend it over their chests. The command presupposes the head is covered."
+ },
+ "sum": "Khimar is a head covering, extended over the chest (24:31); 33:59 says it's for recognition and protection. Rebekah, Paul, Clement, Jerome and Aquinas all endorsed veiling.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "24:31": "وَقُل لِّلۡمُؤۡمِنَـٰتِ یَغۡضُضۡنَ مِنۡ أَبۡصَـٰرِهِنَّ وَیَحۡفَظۡنَ فُرُوجَهُنَّ وَلَا یُبۡدِینَ زِینَتَهُنَّ إِلَّا مَا ظَهَرَ مِنۡهَاۖ وَلۡیَضۡرِبۡنَ بِخُمُرِهِنَّ عَلَىٰ جُیُوبِهِنَّۖ وَلَا یُبۡدِینَ زِینَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوۡ ءَابَاۤئِهِنَّ أَوۡ ءَابَاۤءِ بُعُولَتِهِنَّ أَوۡ أَبۡنَاۤئِهِنَّ أَوۡ أَبۡنَاۤءِ بُعُولَتِهِنَّ أَوۡ إِخۡوَ ٰنِهِنَّ أَوۡ بَنِیۤ إِخۡوَ ٰنِهِنَّ أَوۡ بَنِیۤ أَخَوَ ٰتِهِنَّ أَوۡ نِسَاۤئِهِنَّ أَوۡ مَا مَلَكَتۡ أَیۡمَـٰنُهُنَّ أَوِ ٱلتَّـٰبِعِینَ غَیۡرِ أُو۟لِی ٱلۡإِرۡبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفۡلِ ٱلَّذِینَ لَمۡ یَظۡهَرُوا۟ عَلَىٰ عَوۡرَ ٰتِ ٱلنِّسَاۤءِۖ وَلَا یَضۡرِبۡنَ بِأَرۡجُلِهِنَّ لِیُعۡلَمَ مَا یُخۡفِینَ مِن زِینَتِهِنَّۚ وَتُوبُوۤا۟ إِلَى ٱللَّهِ جَمِیعًا أَیُّهَ ٱلۡمُؤۡمِنُونَ لَعَلَّكُمۡ تُفۡلِحُونَ",
+  "33:59": "یَـٰۤأَیُّهَا ٱلنَّبِیُّ قُل لِّأَزۡوَ ٰجِكَ وَبَنَاتِكَ وَنِسَاۤءِ ٱلۡمُؤۡمِنِینَ یُدۡنِینَ عَلَیۡهِنَّ مِن جَلَـٰبِیبِهِنَّۚ ذَ ٰلِكَ أَدۡنَىٰۤ أَن یُعۡرَفۡنَ فَلَا یُؤۡذَیۡنَۗ وَكَانَ ٱللَّهُ غَفُورࣰا رَّحِیمࣰا",
+  "11:5-6": "أَلَاۤ إِنَّهُمۡ یَثۡنُونَ صُدُورَهُمۡ لِیَسۡتَخۡفُوا۟ مِنۡهُۚ أَلَا حِینَ یَسۡتَغۡشُونَ ثِیَابَهُمۡ یَعۡلَمُ مَا یُسِرُّونَ وَمَا یُعۡلِنُونَۚ إِنَّهُۥ عَلِیمُۢ بِذَاتِ ٱلصُّدُورِ ۞ وَمَا مِن دَاۤبَّةࣲ فِی ٱلۡأَرۡضِ إِلَّا عَلَى ٱللَّهِ رِزۡقُهَا وَیَعۡلَمُ مُسۡتَقَرَّهَا وَمُسۡتَوۡدَعَهَاۚ كُلࣱّ فِی كِتَـٰبࣲ مُّبِینࣲ"
+ },
+ "hadith_arabic": {}
+}

@@ -1,0 +1,43 @@
+{
+ "n": 20,
+ "id": "p1#s-quran--non-muslim-scholars-concede-the-quran-s-integrit",
+ "title": "Non-Muslim scholars concede the Quran's integrity",
+ "thesis": "Even scholars hostile or indifferent to Islam admit that the Quran we have is the one Muhammad ﷺ taught.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A concession from a hostile or neutral witness carries more weight than praise from an insider."
+  },
+  {
+   "tag": "P2",
+   "text": "A long line of Western orientalists, many of them critical of Islam, state that the Quran is unaltered."
+  },
+  {
+   "tag": "∴",
+   "text": "The preservation of the Quran is accepted across the scholarly spectrum; it is not just a Muslim claim."
+  }
+ ],
+ "evidence": [
+  "William Muir, a missionary-minded critic of the Prophet: \"There is probably in the world no other book which has remained twelve centuries with so pure a text.\"",
+  "Stanley Lane-Poole: there is no doubt of the Quran's authenticity, and it has come down unchanged.",
+  "Kenneth Cragg (Anglican bishop): there is no room for doubt that what we have is essentially what Muhammad taught.",
+  "John Burton: the Quran we have is the text \"as it was arranged and approved by the Prophet\".",
+  "Neal Robinson, H.A.R. Gibb, R.V.C. Bodley, C.C. Torrey, Denise Masson and Laura Veccia Vaglieri make similar statements ."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "\"These are old orientalists; modern scholars are more sceptical.\"",
+   "a": "The trend is the opposite. The revisionist school of the 1970s (Wansbrough, Crone and Cook) argued for a late Quran, but the manuscript finds since then (Sana'a, Birmingham, Tübingen) have pushed the text back to the Prophet's generation. Neuwirth and Sinai, who are mainstream academics, accept that most of the Quran goes back to Muhammad's lifetime, while still describing a text that developed within his community."
+  }
+ ],
+ "practice": {
+  "q": "“Modern scholars like Wansbrough and Crone said the Quran was compiled centuries later.”",
+  "a": "Their theories predate the manuscript evidence. The Birmingham folios are radiocarbon-dated to 568-645 CE, and Sana'a and Paris codices show the same text in the first century. Even critical scholars like Sinai now say the late-Quran thesis has failed."
+ },
+ "sum": "From Muir to Neuwirth, scholars who have no stake in defending Islam increasingly accept that the Quran text goes back to Muhammad's generation. The manuscript discoveries of the last forty years have only made that consensus stronger.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {}
+}

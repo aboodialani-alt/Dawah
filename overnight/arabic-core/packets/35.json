@@ -1,0 +1,47 @@
+{
+ "n": 35,
+ "id": "p6#s-philosophy--the-laws-of-logic-what-everyone-is-bound-by",
+ "title": "The laws of logic: what everyone is bound by",
+ "thesis": "Three laws of logic bind every person in every debate: identity, non-contradiction and excluded middle. Almost every meaningful assertion presupposes them, and anyone who denies them in ordinary reasoning still relies on them to make the denial. They are the first thing you can hold anyone to.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "To assert anything meaningful, you must mean that it is so and not otherwise."
+  },
+  {
+   "tag": "P2",
+   "text": "That assumes non-contradiction (a claim and its denial can't both be true in the same sense at the same time), identity (a thing is what it is) and excluded middle (a claim or its negation is true; classical logic also assumes every claim is true or false, which is bivalence)."
+  },
+  {
+   "tag": "∴",
+   "text": "No one can coherently reject these laws; any argument against them uses them."
+  }
+ ],
+ "evidence": [
+  "Identity. A is A: a thing is what it is. \"God\" in your premise must mean the same in your conclusion (or you commit equivocation).",
+  "Non-contradiction. Not both A and not-A, in the same sense at the same time. Aristotle called it the firmest of all principles (Metaphysics IV). This is the law you use against the Trinity's formula when the 'is' is read as strict identity (Trinitarians reply that 'is' differs in sense): \"the Father is God, the Son is God, the Father is not the Son, there is one God\" (see How the Trinity developed), and against \"Jesus knew and did not know the Hour\".",
+  "Excluded middle. Either A or not-A. \"Jesus is God\" is either true or false; there is no third option once terms are fixed.",
+  "Self-refutation. Someone who says \"logic is just a Western construct\" is making a claim he wants you to accept as true and not false, which uses logic. Point that out calmly.",
+  "\"Mystery\" vs \"contradiction\". A mystery is something not fully understood; a contradiction is something that cannot be true. You can accept mysteries (how Allah's attributes are, kayfiyya); no one should accept contradictions."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "\"Quantum mechanics shows things can be in two states at once, so non-contradiction fails.\"",
+   "a": "Superposition is a mathematical description of a state that is not either of the classical values; it is not a particle being \"here and not here in the same sense at the same time\". Physicists use logic to state quantum mechanics."
+  },
+  {
+   "q": "\"Paraconsistent logics allow contradictions.\"",
+   "a": "Paraconsistent logics are formal systems built to avoid 'explosion' when inconsistent information is present; even dialetheists restrict true contradictions to special cases like the Liar paradox, not ordinary claims like God's existence."
+  }
+ ],
+ "practice": {
+  "q": "“The Trinity is beyond human logic; you can't judge God with logic.”",
+  "a": "If logic doesn't apply, you can't say the Trinity is true rather than false either, because \"true and not false\" is logic. God is beyond our full understanding, but He doesn't make contradictions true. A mystery is something we don't fully grasp; a contradiction is something that can't be."
+ },
+ "sum": "Identity, non-contradiction and excluded middle bind everyone; denying them uses them. Mystery is acceptable; contradiction is not. These are the first rules you can hold any opponent to.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {}
+}

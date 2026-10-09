@@ -1,0 +1,63 @@
+{
+ "n": 9,
+ "id": "p1#s-miracles--the-360-joints-and-the-medical-hadith-use-with-c",
+ "title": "The 360 joints and the medical hadith: use with care",
+ "thesis": "Some hadith make claims about the body or medicine that are sometimes presented as scientific miracles. They are best used defensively, to show they are not absurd, rather than as primary proofs.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A critic who calls a hadith \"obviously false\" must show it contradicts established knowledge."
+  },
+  {
+   "tag": "P2",
+   "text": "The hadith of 360 joints, the fly hadith and the camel milk hadith each have plausible readings that are consistent with, or partly supported by, modern findings."
+  },
+  {
+   "tag": "∴",
+   "text": "These hadith cannot be used as proof that the Prophet ﷺ spoke falsely."
+  }
+ ],
+ "evidence": [
+  "360 joints (Muslim 1007). \"Every human being is created with 360 joints\", given as the reason each person owes a daily charity for every joint. Counts depend on what is called a joint; anatomy references give figures around 360 for synovial and other articulations, while broader counts that include all fibrous junctions reach higher (Vizniak gives about 472). The point is that 360 is a respectable count, not a guess that anatomy contradicts. Chinese and other ancient sources that mention 360 or 365 do so for calendar or cosmological reasons, and were not accessible to the Prophet ﷺ.",
+  "The fly hadith (Bukhari 3320). \"If a fly falls into your drink, dip it fully, then remove it, for in one wing is a disease and in the other a cure.\" Classical scholars like al-Shashi read it as practical advice (irshad), not a command. Laboratory studies have reported antimicrobial activity in house-fly extracts and peptides (for example a 2023 review of Musca domestica antimicrobial peptides, PubMed 36619234), and some small studies report that dipping reduced bacterial counts. This is enough to show the hadith is not absurd; it is not enough to build a \"miracle\" on.",
+  "Camel milk and urine (Bukhari 233). The Prophet ﷺ prescribed these to a group of desert Arabs with a specific illness. Camel milk has documented bioactive properties. On urine, be cautious: modern health authorities warn against it because of MERS, and the hadith is about a specific remedy for specific people, not a general instruction. Yasir Qadhi and others classify much \"prophetic medicine\" as the Prophet's ﷺ human experience of his environment rather than revelation, citing the date-pollination hadith (\"you know best the affairs of your world\", Muslim 2363).",
+  "Ramadan fasting. Studies report benefits such as improved gut microbiome diversity, lower blood pressure, and reduced oxidative stress during Ramadan. These are good illustrations of wisdom in the law, but they are not proofs of revelation."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "\"Then why mention them at all?\"",
+   "a": "Because critics use them as ridicule (\"Islam says dip flies in your drink\"). Your goal is to neutralise the ridicule, not to win a proof."
+  },
+  {
+   "q": "\"The Prophet's medical advice could be wrong under your own view.\"",
+   "a": "Yes. Muslim scholarship distinguishes his role as a messenger from his ordinary human knowledge of agriculture or local medicine (Muslim 2363). Whether a given medical hadith is revelation is itself a scholarly question."
+  }
+ ],
+ "practice": {
+  "q": "“Your prophet told people to drink camel urine. How can anyone take that seriously?”",
+  "a": "It was a specific remedy for a specific group in a desert setting, following practice known to the Arabs; it is not a general command. Many scholars regard such medical advice as the Prophet's experience as a man of his environment, as he said in Muslim 2363. It tells us nothing against his prophethood, any more than the Bible's medical laws do."
+ },
+ "sum": "The 360-joint, fly and camel-milk hadith are defensible but not decisive. Use them to show critics have no real case, and build your positive case on stronger ground.",
+ "caution": "These arguments depend on how terms are defined and on small or preliminary studies. Don't lead with them. Use them when an opponent claims a hadith is ridiculous.",
+ "review_note": "",
+ "quran_arabic": {},
+ "hadith_arabic": {
+  "Muslim 1007": {
+   "arabic": "حَدَّثَنَا حَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، حَدَّثَنَا أَبُو تَوْبَةَ الرَّبِيعُ بْنُ نَافِعٍ، حَدَّثَنَا مُعَاوِيَةُ، - يَعْنِي ابْنَ سَلاَّمٍ - عَنْ زَيْدٍ، أَنَّهُ سَمِعَ أَبَا سَلاَّمٍ، يَقُولُ حَدَّثَنِي عَبْدُ اللَّهِ بْنُ فَرُّوخَ، أَنَّهُ سَمِعَ عَائِشَةَ، تَقُولُ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّهُ خُلِقَ كُلُّ إِنْسَانٍ مِنْ بَنِي آدَمَ عَلَى سِتِّينَ وَثَلاَثِمَائَةِ مَفْصِلٍ فَمَنْ كَبَّرَ اللَّهَ وَحَمِدَ اللَّهَ وَهَلَّلَ اللَّهَ وَسَبَّحَ اللَّهَ وَاسْتَغْفَرَ اللَّهَ وَعَزَلَ حَجَرًا عَنْ طَرِيقِ النَّاسِ أَوْ شَوْكَةً أَوْ عَظْمًا عَنْ طَرِيقِ النَّاسِ وَأَمَرَ بِمَعْرُوفٍ أَوْ نَهَى عَنْ مُنْكَرٍ عَدَدَ تِلْكَ السِّتِّينَ وَالثَّلاَثِمِائَةِ السُّلاَمَى فَإِنَّهُ يَمْشِي يَوْمَئِذٍ وَقَدْ زَحْزَحَ نَفْسَهُ عَنِ النَّارِ ‏\"‏ ‏.‏ قَالَ أَبُو تَوْبَةَ وَرُبَّمَا قَالَ ‏\"‏ يُمْسِي ‏\"‏ ‏.‏",
+   "grades": []
+  },
+  "Bukhari 3320": {
+   "arabic": "حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، حَدَّثَنَا سُلَيْمَانُ بْنُ بِلاَلٍ، قَالَ حَدَّثَنِي عُتْبَةُ بْنُ مُسْلِمٍ، قَالَ أَخْبَرَنِي عُبَيْدُ بْنُ حُنَيْنٍ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ يَقُولُ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏ \"‏ إِذَا وَقَعَ الذُّبَابُ فِي شَرَابِ أَحَدِكُمْ فَلْيَغْمِسْهُ، ثُمَّ لِيَنْزِعْهُ، فَإِنَّ فِي إِحْدَى جَنَاحَيْهِ دَاءً وَالأُخْرَى شِفَاءً ‏\"‏‏.‏",
+   "grades": []
+  },
+  "Bukhari 233": {
+   "arabic": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَنَسٍ، قَالَ قَدِمَ أُنَاسٌ مِنْ عُكْلٍ أَوْ عُرَيْنَةَ، فَاجْتَوَوُا الْمَدِينَةَ، فَأَمَرَهُمُ النَّبِيُّ صلى الله عليه وسلم بِلِقَاحٍ، وَأَنْ يَشْرَبُوا مِنْ أَبْوَالِهَا وَأَلْبَانِهَا، فَانْطَلَقُوا، فَلَمَّا صَحُّوا قَتَلُوا رَاعِيَ النَّبِيِّ صلى الله عليه وسلم وَاسْتَاقُوا النَّعَمَ، فَجَاءَ الْخَبَرُ فِي أَوَّلِ النَّهَارِ، فَبَعَثَ فِي آثَارِهِمْ، فَلَمَّا ارْتَفَعَ النَّهَارُ جِيءَ بِهِمْ، فَأَمَرَ فَقَطَعَ أَيْدِيَهُمْ وَأَرْجُلَهُمْ، وَسُمِرَتْ أَعْيُنُهُمْ، وَأُلْقُوا فِي الْحَرَّةِ يَسْتَسْقُونَ فَلاَ يُسْقَوْنَ‏.‏ قَالَ أَبُو قِلاَبَةَ فَهَؤُلاَءِ سَرَقُوا وَقَتَلُوا وَكَفَرُوا بَعْدَ إِيمَانِهِمْ، وَحَارَبُوا اللَّهَ وَرَسُولَهُ‏.‏",
+   "grades": []
+  },
+  "Muslim 2363": {
+   "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، كِلاَهُمَا عَنِ الأَسْوَدِ بْنِ عَامِرٍ، - قَالَ أَبُو بَكْرٍ حَدَّثَنَا أَسْوَدُ بْنُ عَامِرٍ، - حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، وَعَنْ ثَابِتٍ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم مَرَّ بِقَوْمٍ يُلَقِّحُونَ فَقَالَ ‏\"‏ لَوْ لَمْ تَفْعَلُوا لَصَلُحَ ‏\"‏ ‏.‏ قَالَ فَخَرَجَ شِيصًا فَمَرَّ بِهِمْ فَقَالَ ‏\"‏ مَا لِنَخْلِكُمْ ‏\"‏ ‏.‏ قَالُوا قُلْتَ كَذَا وَكَذَا قَالَ ‏\"‏ أَنْتُمْ أَعْلَمُ بِأَمْرِ دُنْيَاكُمْ ‏\"‏ ‏.‏",
+   "grades": []
+  }
+ }
+}

@@ -1,0 +1,114 @@
+<title>النواة العربية</title>
+<!--V2HEAD-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
+<style>
+/* Layout concept: the core arguments in Arabic, right to left, for speaking on camera. A track list on the side, one argument at a time
+   in the main column, and a prompter mode that strips everything but the lines you will say, in large type. */
+.wrap{margin:0 auto;padding-inline:16px;padding-block:0 5rem}
+.arw{direction:rtl;font-family:"IBM Plex Sans Arabic","Amiri",system-ui,sans-serif}
+.lay{display:grid;grid-template-columns:17rem minmax(0,1fr);gap:2rem;margin-top:1.4rem;align-items:start}
+.side{position:sticky;top:4.2rem;max-height:calc(100vh - 5rem);overflow:auto;display:grid;gap:1rem;padding-inline-start:.2rem}
+.side h2{margin:0;font-family:var(--f-kufi);font-weight:500;font-size:1.6rem;color:var(--ink)}
+.side .tr{display:grid;gap:.15rem}
+.side .tr b{font-size:.8rem;color:var(--gold);font-weight:600;margin:.4rem 0 .2rem}
+.side a{display:block;text-decoration:none;color:var(--muted);font-size:.9rem;line-height:1.45;padding:.25rem .7rem;border-inline-start:2px solid var(--rule)}
+.side a:hover{color:var(--ink);border-inline-start-color:var(--accent)}
+.side a[aria-current="true"]{color:var(--ink);border-inline-start-color:var(--gold);background:linear-gradient(270deg,var(--glow),transparent)}
+.top2{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;justify-content:space-between}
+.top2 .note-s{font-family:var(--f-ui);direction:ltr}
+.btnr{font:inherit;font-size:.9rem;cursor:pointer;border-radius:99px;border:1px solid var(--rule);background:var(--card);color:var(--ink);padding:.35rem .95rem;text-decoration:none}
+.btnr:hover{border-color:var(--accent);color:var(--accent)}
+.btnr[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.card3{background:var(--card);border:1px solid var(--rule);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+.card3 header{padding:1.4rem 1.5rem 1.1rem;border-bottom:1px solid var(--rule);display:grid;gap:.4rem}
+.card3 .kick{font-size:.82rem;color:var(--gold);font-weight:600}
+.card3 h1{margin:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-weight:600;font-size:clamp(1.5rem,3.4vw,2.1rem);line-height:1.4}
+.badge{justify-self:start;font-size:.75rem;border:1px solid var(--warn);color:var(--warn);border-radius:99px;padding:.05rem .65rem}
+.blk3{padding:1.1rem 1.5rem;border-bottom:1px solid var(--rule)}
+.blk3:last-child{border:0}
+.blk3 h3{margin:0 0 .5rem;font-size:.85rem;color:var(--gold);font-weight:600}
+.blk3 p,.blk3 li{font-size:1.12rem;line-height:1.95;margin:0}
+.thesis{font-size:1.3rem!important;font-weight:500;border-inline-start:3px solid var(--gold);padding-inline-start:1rem}
+.prem{list-style:none;margin:0;padding:0;display:grid;gap:.55rem}
+.prem li{display:grid;grid-template-columns:2.2rem minmax(0,1fr);gap:.7rem;align-items:baseline}
+.prem .tg{display:grid;place-items:center;height:1.9rem;border:1.5px solid var(--accent);color:var(--accent);border-radius:99px;font-size:.95rem}
+.prem li.c{border-top:1px dashed var(--rule);padding-top:.6rem;font-weight:600}
+.prem li.c .tg{background:var(--accent);color:var(--accent-ink)}
+.ev{margin:0;padding-inline-start:1.3rem;display:grid;gap:.5rem}
+.qt{margin:0 0 .7rem;padding:.9rem 1.1rem;border-radius:14px;background:var(--gold-soft)}
+.qt p{font-family:var(--f-ar);font-size:1.55rem!important;line-height:2.1!important}
+.qt cite{display:block;font-style:normal;font-size:.85rem;color:var(--muted);margin-top:.2rem}
+.ob{display:grid;gap:.45rem;margin-bottom:1.1rem}
+.ob .q{justify-self:start;max-width:92%;background:var(--bubble-q);border-radius:16px 16px 4px 16px;padding:.65rem 1rem;font-weight:500}
+.ob .a{justify-self:end;width:min(100%,94%);background:var(--bubble-a);border:1px solid var(--accent-soft);border-radius:16px 16px 16px 4px;padding:.75rem 1rem}
+.ob small{display:block;font-size:.72rem;color:var(--muted);margin-bottom:.15rem}
+.sumb{background:linear-gradient(0deg,var(--accent-soft),transparent)}
+.rev{font-family:var(--f-ui);direction:ltr;text-align:left;font-size:.82rem;color:var(--muted)}
+.rev summary{cursor:pointer}
+.nav3{display:flex;justify-content:space-between;gap:.5rem;margin-top:1rem}
+body.prompt .card3 .blk3:not(.pr){display:none}
+body.prompt .card3 .blk3.pr p,body.prompt .card3 .blk3.pr li{font-size:clamp(1.6rem,3.6vw,2.4rem)!important;line-height:1.8!important}
+body.prompt .card3 h1{font-size:clamp(1.8rem,4vw,2.8rem)}
+body.prompt .side{display:none}
+body.prompt .lay{grid-template-columns:minmax(0,1fr)}
+@media (max-width:900px){.lay{grid-template-columns:minmax(0,1fr)}.side{position:static;max-height:none}.side .tr{display:none}.side.open .tr{display:grid}}
+</style>
+<div class="wrap">
+  <div class="arw">
+    <div class="lay">
+      <nav class="side" id="side" aria-label="المحاور">
+        <h2>النواة العربية</h2>
+        <p class="note-s" style="margin:0;font-family:inherit">أهم ٣٨ حجة في المكتبة، مترجمة للحديث أمام الكاميرا. النصوص القرآنية منقولة من الرسم العثماني، والأحاديث من نصوصها العربية.</p>
+        <button class="btnr" id="tg" type="button" hidden>عرض القائمة</button>
+        <div id="list"></div>
+      </nav>
+      <main>
+        <div class="top2"><div style="display:flex;gap:.5rem;flex-wrap:wrap"><button class="btnr" id="pm" type="button" aria-pressed="false">وضع القراءة أمام الكاميرا</button><a class="btnr" id="en" href="#">English</a></div><span class="note-s" id="pos"></span></div>
+        <article class="card3" id="card" style="margin-top:1rem" aria-live="polite"></article>
+        <div class="nav3"><button class="btnr" id="prev" type="button">→ السابق</button><button class="btnr" id="next" type="button">التالي ←</button></div>
+      </main>
+    </div>
+  </div>
+</div>
+<!--V2JS-->
+<script>
+(function () {
+  const { $, $$, esc, store } = DA2;
+  DA2.mountBar({ crumb: 'Arabic core' });
+  document.documentElement.lang = 'ar';
+  const TRACKS = { hadith: 'هل السنة النبوية موثوقة؟', prophet: 'هل محمد ﷺ نبيٌّ حقًّا؟', quran: 'هل حُفظ القرآن؟', modern: 'شبهات معاصرة: المرأة والحرية والحقوق', toolkit: 'عُدّة المُحاور' };
+  let A = [], order = [], i = 0;
+  const key = id => id.replace('#', '.');
+  function show(n, quiet) {
+    i = Math.max(0, Math.min(order.length - 1, n)); const x = order[i];
+    history.replaceState(null, '', '#' + key(x.id)); store.set('da2:ar-last', x.id);
+    $$('#list a').forEach(a => a.setAttribute('aria-current', String(a.dataset.id === x.id)));
+    $('#pos').textContent = (i + 1) + ' / ' + order.length;
+    $('#en').href = x.id.split('#')[0] + '.html#' + x.id.split('#')[1];
+    const P = x.premises || [];
+    $('#card').innerHTML = '<header><span class="kick">' + esc(TRACKS[x.track] || '') + '</span><h1>' + esc(x.title) + '</h1><span class="badge">لم تُراجَع بعد</span></header>' +
+      (x.thesis ? '<section class="blk3 pr"><h3>الدعوى</h3><p class="thesis">' + esc(x.thesis) + '</p></section>' : '') +
+      (P.length ? '<section class="blk3 pr"><h3>الحجة</h3><ol class="prem">' + P.map(p => '<li class="' + (p.tag === '∴' ? 'c' : '') + '"><span class="tg">' + esc(p.tag) + '</span><span>' + esc(p.text) + '</span></li>').join('') + '</ol></section>' : '') +
+      ((x.quotes || []).length ? '<section class="blk3"><h3>النصوص</h3>' + x.quotes.map(q => '<figure class="qt"><p>' + esc(q.text) + '</p><cite>' + esc(q.cite) + '</cite></figure>').join('') + '</section>' : '') +
+      ((x.evidence || []).length ? '<section class="blk3"><h3>الأدلة</h3><ul class="ev">' + x.evidence.map(e => '<li>' + esc(e) + '</li>').join('') + '</ul></section>' : '') +
+      ((x.objections || []).length ? '<section class="blk3"><h3>الاعتراضات والأجوبة</h3>' + x.objections.map(o => '<div class="ob"><div class="q"><small>يقولون</small>' + esc(o.q) + '</div><div class="a"><small>الجواب</small>' + esc(o.a) + '</div></div>').join('') + '</section>' : '') +
+      (x.practice && x.practice.q ? '<section class="blk3"><h3>تدريب</h3><div class="ob"><div class="q"><small>يقول محاورك</small>' + esc(x.practice.q) + '</div><details><summary class="btnr" style="display:inline-block;margin-top:.3rem">أظهر الجواب النموذجي</summary><div class="ob" style="margin-top:.6rem"><div class="a">' + esc(x.practice.a) + '</div></div></details></div></section>' : '') +
+      (x.sum ? '<section class="blk3 sumb pr"><h3>باختصار</h3><p>' + esc(x.sum) + '</p></section>' : '') +
+      (((x.omitted || []).length || (x.check || []).length) ? '<section class="blk3"><details class="rev"><summary>Translator notes (English)</summary>' + ((x.omitted || []).length ? '<p><b>Left out because unconfirmed:</b></p><ul>' + x.omitted.map(o => '<li>' + esc(o) + '</li>').join('') + '</ul>' : '') + ((x.check || []).length ? '<p><b>Worth double-checking:</b></p><ul>' + x.check.map(o => '<li>' + esc(o) + '</li>').join('') + '</ul>' : '') + '</details></section>' : '');
+    if (!quiet) $('#pm').scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }
+  $('#prev').onclick = () => show(i - 1); $('#next').onclick = () => show(i + 1);
+  $('#pm').onclick = () => { const on = !document.body.classList.contains('prompt'); document.body.classList.toggle('prompt', on); $('#pm').setAttribute('aria-pressed', String(on)); };
+  $('#tg').onclick = () => { $('#side').classList.toggle('open'); };
+  document.addEventListener('keydown', e => { if (/^(INPUT|TEXTAREA|SELECT)$/.test((e.target || {}).tagName || '')) return; if (e.key === 'ArrowLeft') show(i + 1); else if (e.key === 'ArrowRight') show(i - 1); });
+  fetch('ar-core.json').then(r => r.json()).then(d => {
+    A = d; const seen = new Set();
+    order = []; Object.keys(TRACKS).forEach(t => A.filter(x => x.track === t).forEach(x => { if (!seen.has(x.id)) { seen.add(x.id); order.push(x); } }));
+    $('#list').innerHTML = Object.keys(TRACKS).map(t => '<div class="tr"><b>' + esc(TRACKS[t]) + '</b>' + order.filter(x => x.track === t).map(x => '<a href="#' + esc(key(x.id)) + '" data-id="' + esc(x.id) + '">' + esc(x.title) + '</a>').join('') + '</div>').join('');
+    $$('#list a').forEach(a => a.onclick = e => { e.preventDefault(); show(order.findIndex(x => x.id === a.dataset.id)); if (innerWidth < 900) $('#side').classList.remove('open'); });
+    if (innerWidth < 900) $('#tg').hidden = false;
+    const h = location.hash.slice(1).replace('.', '#'), want = order.findIndex(x => x.id === h), last = order.findIndex(x => x.id === store.get('da2:ar-last'));
+    show(want >= 0 ? want : last >= 0 ? last : 0, true);
+  }).catch(() => { $('#card').innerHTML = '<p style="padding:1.5rem">لم تُحمَّل البيانات.</p>'; });
+})();
+</script>

@@ -6,54 +6,29 @@ const base = `http://127.0.0.1:${srv.address().port}/`;
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
 const ctx = await b.newContext({ viewport: { width: 1300, height: 900 } });
 await ctx.addInitScript(() => {
-  const mem = {}, subs = {};
-  const emit = n => (subs[n] || []).forEach(f => f({ docs: Object.entries(mem[n] || {}).map(([id, d]) => ({ id, data: () => d })) }));
-  const col = n => ({ onSnapshot(f) { (subs[n] = subs[n] || []).push(f); setTimeout(() => emit(n), 20); return () => {}; },
-    doc: id => ({ set: async d => { (mem[n] = mem[n] || {})[id] = d; emit(n); window.__db = mem; }, delete: async () => { delete (mem[n] || {})[id]; emit(n); window.__db = mem; } }) });
-  const sample = async (p, o) => { const t = 'DRAFT OK ' + p.length; o && o.onText && o.onText({ text: t, delta: t }); return { text: t }; };
-  sample.json = async () => ({ score: 2, hit: ['a'], missed: ['b'], tip: 'tip' });
+  const mem = {};
+  const col = n => ({ onSnapshot(f) { setTimeout(() => f({ docs: Object.entries(mem[n] || {}).map(([id, d]) => ({ id, data: () => d })) }), 10); return () => {}; }, doc: id => ({ set: async d => { (mem[n] = mem[n] || {})[id] = d; window.__db = mem; }, delete: async () => { delete (mem[n] || {})[id]; } }) });
+  const sample = async () => ({ text: 'Opening line' }); sample.json = async () => ({ score: 2, hit: ['a'], missed: ['b'], tip: 't' });
   window.claude = { use: async n => n === 'db' ? { collection: col, doc: p => col(p.split('/')[0]).doc(p.split('/')[1]) } : n === 'sample' ? sample : null };
 });
-const results = []; const ok = (n, c) => results.push((c ? 'PASS ' : 'FAIL ') + n);
-const p = await ctx.newPage(); p.setDefaultTimeout(5000); const errs = [];
-p.on('pageerror', e => errs.push(e.message));
-// part page: queue + draft + modes + copy
-await p.goto(base + 'p8.html#s-gender--equal-in-worth-different-in-role'); await p.waitForTimeout(600);
-await p.click('article.brief >> nth=0 >> [data-q]'); await p.waitForTimeout(200);
-ok('queue counter 1', (await p.locator('.dabar .qn').innerText()) === '1');
-ok('db has queue doc', await p.evaluate(() => Object.keys((window.__db || {}).queue || {}).length === 1));
-await p.click('article.brief >> nth=0 >> [data-d]'); await p.waitForTimeout(200);
-await p.click('#dr-go'); await p.waitForTimeout(400);
-ok('draft output', (await p.locator('#dr-out').innerText()).startsWith('DRAFT OK'));
-await p.keyboard.press('Escape');
+const res = []; const ok = (n, c) => res.push((c ? 'PASS ' : 'FAIL ') + n);
+const p = await ctx.newPage(); p.setDefaultTimeout(5000); const errs = []; p.on('pageerror', e => errs.push(e.message));
+await p.goto(base + 'p8.html#s-gender--equal-in-worth-different-in-role'); await p.waitForTimeout(700);
+ok('no queue/draft buttons', (await p.locator('[data-q],[data-d],[data-queue]').count()) === 0);
+ok('spar link on brief', (await p.locator('article.brief >> nth=0 >> a.draft').getAttribute('href')).startsWith('spar.html#p8.'));
 await p.click('[data-mode=skim]'); ok('skim hides evidence', !(await p.locator('article.brief >> nth=0 >> .r-ev').isVisible()));
-await p.click('[data-mode=drill]'); await p.click('article.brief >> nth=0 >> .obj .q'); ok('drill reveals answer', await p.locator('article.brief >> nth=0 >> .obj.show .a').first().isVisible());
-await p.click('[data-mode=full]'); ok('full shows evidence', await p.locator('article.brief >> nth=0 >> .r-ev').isVisible());
-await p.click('.dabar [data-queue]'); ok('queue dialog lists item', (await p.locator('.dlg .dlg-body li').count()) === 1);
-await p.click('[data-rm]'); await p.waitForTimeout(200); await p.keyboard.press('Escape');
-ok('queue emptied', (await p.locator('.dabar .qn').innerText()) === '0');
-// hub: finder, tracks, shelf
-await p.goto(base + 'index.html'); await p.waitForTimeout(800);
+await p.click('[data-mode=full]'); await p.mouse.wheel(0, 1500); await p.waitForTimeout(400);
+ok('last read stored', await p.evaluate(() => !!localStorage.getItem('da2:last')));
+await p.goto(base + 'index.html'); await p.waitForTimeout(900);
+ok('continue strip', (await p.locator('#cont a').count()) >= 2);
 await p.fill('#fq', 'hadith written'); await p.waitForTimeout(500); ok('finder results', (await p.locator('#results .res').count()) > 0);
-await p.click('.track >> nth=0 >> button'); ok('track opens', await p.locator('.track >> nth=0 >> ol').isVisible());
-ok('five tracks', (await p.locator('.track').count()) === 5);
-ok('nine tiles', (await p.locator('.tile').count()) === 9);
-ok('audit card count', (await p.locator('#n-audit').innerText()) !== '0');
-// drill
-await p.goto(base + 'drill.html'); await p.waitForTimeout(700);
-await p.fill('#mine', 'my answer is long enough'); await p.click('#rev'); ok('model answer shown', await p.locator('.ans').isVisible());
-await p.keyboard.press('3'); await p.waitForTimeout(200); ok('rating advances', (await p.locator('#meter').innerText()).includes('1'));
-await p.fill('#mine', 'second answer long enough'); await p.click('#grade'); await p.waitForTimeout(500); ok('grading shown', (await p.locator('.grade').innerText()).includes('Score 2'));
-// review
-await p.goto(base + 'review.html'); await p.waitForTimeout(700);
-await p.click('#it1 [data-d=yes]'); await p.waitForTimeout(200); ok('review accepted state', (await p.locator('#it1 .state').innerText()) === 'Accepted');
-ok('review decision in db', await p.evaluate(() => !!((window.__db || {}).review || {})['item-1']));
-await p.click('#it2 [data-d=no]'); await p.fill('#a-hijab', 'x'); await p.click('#saveq'); await p.waitForTimeout(200);
-ok('questions saved', await p.evaluate(() => !!((window.__db || {}).review || {}).questions));
-// audit
-await p.goto(base + 'audit.html'); await p.waitForTimeout(900);
-ok('audit rows', (await p.locator('.row2').count()) > 10);
-await p.click('[data-f=all]'); await p.waitForTimeout(200); ok('audit all > look', (await p.locator('#list .row2').count()) > 100);
-ok('quran section', await p.locator('#qsec').isVisible());
-console.log(results.join('\n')); console.log(errs.length ? 'PAGE ERRORS: ' + errs.join(' | ') : 'no page errors');
+ok('finder spar links', (await p.locator('#results a:has-text("Spar on this")').count()) > 0);
+ok('no drill/queue on hub', (await p.locator('a[href="drill.html"], #open-queue').count()) === 0);
+await p.goto(base + 'spar.html#p8.s-gender--equal-in-worth-different-in-role'); await p.waitForTimeout(800);
+ok('spar preselects topic', (await p.locator('#s-topic').inputValue()) === 'p8#s-gender--equal-in-worth-different-in-role');
+await p.goto(base + 'learn.html'); await p.waitForTimeout(800);
+await p.selectOption('#f-mode', 'atk'); await p.waitForTimeout(300);
+ok('attacks-only mode', (await p.locator('.where .pill').first().innerText()).toLowerCase().includes('attack'));
+await p.fill('#mine', 'an answer long enough'); await p.click('#gr'); await p.waitForTimeout(400); ok('attack grading', (await p.locator('.grade').innerText()).includes('Score 2'));
+console.log(res.join('\n')); console.log(errs.length ? 'PAGE ERRORS: ' + errs.join(' | ') : 'no page errors');
 await b.close(); srv.close();

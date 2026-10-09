@@ -1,0 +1,112 @@
+{
+ "n": 27,
+ "id": "p8#s-gender--equal-in-worth-different-in-role",
+ "title": "Equal in worth, different in role",
+ "thesis": "The Quran addresses men and women as equals in worth, reward and accountability, and gives them different but complementary roles in some areas. Equality of worth is not the same claim as sameness of every role.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "Equality of moral worth and accountability is one claim; identical roles in every institution is a different claim, and the second does not follow from the first."
+  },
+  {
+   "tag": "P2",
+   "text": "The Quran asserts the first in the plainest terms (33:35; 16:97; 3:195; 49:13), and assigns some roles differently (maintenance in 4:34, shares in 4:11) while attaching matching duties to each."
+  },
+  {
+   "tag": "P3",
+   "text": "A rule that differentiates roles is unjust only if it is arbitrary or one-sided, and the critic has to show that, not assume it."
+  },
+  {
+   "tag": "∴",
+   "text": "Islam teaches equal worth with differentiated roles. Calling that “inequality” already assumes that identical roles are the only fair arrangement, which is a value claim and not a neutral fact."
+  }
+ ],
+ "evidence": [
+  "Parallel address. 33:35 lists ten qualities (Muslim, believing, obedient, truthful, patient, humble, charitable, fasting, chaste, remembering God) for men and women in matching pairs, and ends with one shared reward: “Allah has prepared for them forgiveness and a great reward.”",
+  "The same reward. “Whoever does righteousness, male or female, while a believer, We will surely cause him to live a good life, and We will surely give them their reward according to the best of what they used to do” (16:97). And “I will not allow the work of any worker among you, male or female, to be lost; you are of one another” (3:195).",
+  "No ranking by sex. “We created you from a male and a female… the most honoured of you with God is the most God-conscious” (49:13). The only ranking is taqwa.",
+  "Eve is not blamed alone. The Quran never makes the woman the cause of the Fall. Adam is named as the one who disobeyed (20:121), and the two say together “Our Lord, we have wronged ourselves” (7:23). Compare 1 Timothy 2:14 (“Adam was not deceived, but the woman was deceived”) and Sirach 25:24 (“From a woman sin had its beginning, and because of her we all die”).",
+  "The Prophet ﷺ. “Women are the twin halves of men” (Abu Dawud 236, Tirmidhi 113; graded sahih by al-Albani). On 2:228 Ibn Abbas said: “I like to adorn myself for my wife as I like her to adorn herself for me” (Tabari)."
+ ],
+ "ar_quotes": [
+  {
+   "text": "أَنِّي لَا أُضِيعُ عَمَلَ عَامِلٍ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّن بَعْضٍ",
+   "cite": "3:195"
+  }
+ ],
+ "objections": [
+  {
+   "q": "“‘Equal but different’ is what every sexist said.”",
+   "a": "The test is whether the difference is arbitrary and one-sided. Here each difference comes with a matching duty: the man carries the financial obligation (maintenance, the dowry) while the woman’s property stays entirely her own (4:32). The critic also uses a role-based standard of his own when he accepts separate sports categories or maternity leave, so “different treatment” cannot be the thing that is wrong in itself."
+  },
+  {
+   "q": "“2:228 says men have a degree over women.”",
+   "a": "The same verse opens: “And due to the wives is similar to what is expected of them, in a reasonable manner” (wa lahunna mithlu alladhi ‘alayhinna bil-ma‘ruf), then adds “and men have a degree over them.”\nCommentators differ: some link the degree to maintenance and leadership, and Ibn Abbas read it as the husband's forbearance and generosity, none as superior worth. Ibn Abbas, quoted above, read the verse as a mutual duty to treat each other well."
+  }
+ ],
+ "practice": {
+  "q": "“If men and women are really equal, why does Islam not make everything identical?”",
+  "a": "Because equal worth does not require identical roles, and no society treats them as the same: every legal system separates some categories by sex or by family role. What matters is whether the rule is fair and whether duties match rights. In Islam the woman’s worth, property, reward and accountability are equal to the man’s (33:35, 4:32), and the extra financial burden falls on him. If you think roles must be identical to be fair, that is a premise you have to defend, not a fact we both accept."
+ },
+ "sum": "Men and women are equal in worth, reward and accountability (33:35, 16:97, 49:13) and have complementary roles with matching duties. “Different” is not “unequal” unless you assume identical roles are the only fair design.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "33:35": "إِنَّ ٱلۡمُسۡلِمِینَ وَٱلۡمُسۡلِمَـٰتِ وَٱلۡمُؤۡمِنِینَ وَٱلۡمُؤۡمِنَـٰتِ وَٱلۡقَـٰنِتِینَ وَٱلۡقَـٰنِتَـٰتِ وَٱلصَّـٰدِقِینَ وَٱلصَّـٰدِقَـٰتِ وَٱلصَّـٰبِرِینَ وَٱلصَّـٰبِرَ ٰتِ وَٱلۡخَـٰشِعِینَ وَٱلۡخَـٰشِعَـٰتِ وَٱلۡمُتَصَدِّقِینَ وَٱلۡمُتَصَدِّقَـٰتِ وَٱلصَّـٰۤئِمِینَ وَٱلصَّـٰۤئِمَـٰتِ وَٱلۡحَـٰفِظِینَ فُرُوجَهُمۡ وَٱلۡحَـٰفِظَـٰتِ وَٱلذَّ ٰكِرِینَ ٱللَّهَ كَثِیرࣰا وَٱلذَّ ٰكِرَ ٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغۡفِرَةࣰ وَأَجۡرًا عَظِیمࣰا",
+  "16:97": "مَنۡ عَمِلَ صَـٰلِحࣰا مِّن ذَكَرٍ أَوۡ أُنثَىٰ وَهُوَ مُؤۡمِنࣱ فَلَنُحۡیِیَنَّهُۥ حَیَوٰةࣰ طَیِّبَةࣰۖ وَلَنَجۡزِیَنَّهُمۡ أَجۡرَهُم بِأَحۡسَنِ مَا كَانُوا۟ یَعۡمَلُونَ",
+  "3:195": "فَٱسۡتَجَابَ لَهُمۡ رَبُّهُمۡ أَنِّی لَاۤ أُضِیعُ عَمَلَ عَـٰمِلࣲ مِّنكُم مِّن ذَكَرٍ أَوۡ أُنثَىٰۖ بَعۡضُكُم مِّنۢ بَعۡضࣲۖ فَٱلَّذِینَ هَاجَرُوا۟ وَأُخۡرِجُوا۟ مِن دِیَـٰرِهِمۡ وَأُوذُوا۟ فِی سَبِیلِی وَقَـٰتَلُوا۟ وَقُتِلُوا۟ لَأُكَفِّرَنَّ عَنۡهُمۡ سَیِّءَاتِهِمۡ وَلَأُدۡخِلَنَّهُمۡ جَنَّـٰتࣲ تَجۡرِی مِن تَحۡتِهَا ٱلۡأَنۡهَـٰرُ ثَوَابࣰا مِّنۡ عِندِ ٱللَّهِۚ وَٱللَّهُ عِندَهُۥ حُسۡنُ ٱلثَّوَابِ",
+  "49:13": "یَـٰۤأَیُّهَا ٱلنَّاسُ إِنَّا خَلَقۡنَـٰكُم مِّن ذَكَرࣲ وَأُنثَىٰ وَجَعَلۡنَـٰكُمۡ شُعُوبࣰا وَقَبَاۤئِلَ لِتَعَارَفُوۤا۟ۚ إِنَّ أَكۡرَمَكُمۡ عِندَ ٱللَّهِ أَتۡقَىٰكُمۡۚ إِنَّ ٱللَّهَ عَلِیمٌ خَبِیرࣱ",
+  "4:34": "ٱلرِّجَالُ قَوَّ ٰمُونَ عَلَى ٱلنِّسَاۤءِ بِمَا فَضَّلَ ٱللَّهُ بَعۡضَهُمۡ عَلَىٰ بَعۡضࣲ وَبِمَاۤ أَنفَقُوا۟ مِنۡ أَمۡوَ ٰلِهِمۡۚ فَٱلصَّـٰلِحَـٰتُ قَـٰنِتَـٰتٌ حَـٰفِظَـٰتࣱ لِّلۡغَیۡبِ بِمَا حَفِظَ ٱللَّهُۚ وَٱلَّـٰتِی تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهۡجُرُوهُنَّ فِی ٱلۡمَضَاجِعِ وَٱضۡرِبُوهُنَّۖ فَإِنۡ أَطَعۡنَكُمۡ فَلَا تَبۡغُوا۟ عَلَیۡهِنَّ سَبِیلًاۗ إِنَّ ٱللَّهَ كَانَ عَلِیࣰّا كَبِیرࣰا",
+  "4:11": "یُوصِیكُمُ ٱللَّهُ فِیۤ أَوۡلَـٰدِكُمۡۖ لِلذَّكَرِ مِثۡلُ حَظِّ ٱلۡأُنثَیَیۡنِۚ فَإِن كُنَّ نِسَاۤءࣰ فَوۡقَ ٱثۡنَتَیۡنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَۖ وَإِن كَانَتۡ وَ ٰحِدَةࣰ فَلَهَا ٱلنِّصۡفُۚ وَلِأَبَوَیۡهِ لِكُلِّ وَ ٰحِدࣲ مِّنۡهُمَا ٱلسُّدُسُ مِمَّا تَرَكَ إِن كَانَ لَهُۥ وَلَدࣱۚ فَإِن لَّمۡ یَكُن لَّهُۥ وَلَدࣱ وَوَرِثَهُۥۤ أَبَوَاهُ فَلِأُمِّهِ ٱلثُّلُثُۚ فَإِن كَانَ لَهُۥۤ إِخۡوَةࣱ فَلِأُمِّهِ ٱلسُّدُسُۚ مِنۢ بَعۡدِ وَصِیَّةࣲ یُوصِی بِهَاۤ أَوۡ دَیۡنٍۗ ءَابَاۤؤُكُمۡ وَأَبۡنَاۤؤُكُمۡ لَا تَدۡرُونَ أَیُّهُمۡ أَقۡرَبُ لَكُمۡ نَفۡعࣰاۚ فَرِیضَةࣰ مِّنَ ٱللَّهِۗ إِنَّ ٱللَّهَ كَانَ عَلِیمًا حَكِیمࣰا",
+  "20:121": "فَأَكَلَا مِنۡهَا فَبَدَتۡ لَهُمَا سَوۡءَ ٰتُهُمَا وَطَفِقَا یَخۡصِفَانِ عَلَیۡهِمَا مِن وَرَقِ ٱلۡجَنَّةِۚ وَعَصَىٰۤ ءَادَمُ رَبَّهُۥ فَغَوَىٰ",
+  "7:23": "قَالَا رَبَّنَا ظَلَمۡنَاۤ أَنفُسَنَا وَإِن لَّمۡ تَغۡفِرۡ لَنَا وَتَرۡحَمۡنَا لَنَكُونَنَّ مِنَ ٱلۡخَـٰسِرِینَ",
+  "2:14": "وَإِذَا لَقُوا۟ ٱلَّذِینَ ءَامَنُوا۟ قَالُوۤا۟ ءَامَنَّا وَإِذَا خَلَوۡا۟ إِلَىٰ شَیَـٰطِینِهِمۡ قَالُوۤا۟ إِنَّا مَعَكُمۡ إِنَّمَا نَحۡنُ مُسۡتَهۡزِءُونَ",
+  "25:24": "أَصۡحَـٰبُ ٱلۡجَنَّةِ یَوۡمَئِذٍ خَیۡرࣱ مُّسۡتَقَرࣰّا وَأَحۡسَنُ مَقِیلࣰا",
+  "2:228": "وَٱلۡمُطَلَّقَـٰتُ یَتَرَبَّصۡنَ بِأَنفُسِهِنَّ ثَلَـٰثَةَ قُرُوۤءࣲۚ وَلَا یَحِلُّ لَهُنَّ أَن یَكۡتُمۡنَ مَا خَلَقَ ٱللَّهُ فِیۤ أَرۡحَامِهِنَّ إِن كُنَّ یُؤۡمِنَّ بِٱللَّهِ وَٱلۡیَوۡمِ ٱلۡءَاخِرِۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِی ذَ ٰلِكَ إِنۡ أَرَادُوۤا۟ إِصۡلَـٰحࣰاۚ وَلَهُنَّ مِثۡلُ ٱلَّذِی عَلَیۡهِنَّ بِٱلۡمَعۡرُوفِۚ وَلِلرِّجَالِ عَلَیۡهِنَّ دَرَجَةࣱۗ وَٱللَّهُ عَزِیزٌ حَكِیمٌ",
+  "4:32": "وَلَا تَتَمَنَّوۡا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعۡضَكُمۡ عَلَىٰ بَعۡضࣲۚ لِّلرِّجَالِ نَصِیبࣱ مِّمَّا ٱكۡتَسَبُوا۟ۖ وَلِلنِّسَاۤءِ نَصِیبࣱ مِّمَّا ٱكۡتَسَبۡنَۚ وَسۡءَلُوا۟ ٱللَّهَ مِن فَضۡلِهِۦۤۚ إِنَّ ٱللَّهَ كَانَ بِكُلِّ شَیۡءٍ عَلِیمࣰا"
+ },
+ "hadith_arabic": {
+  "Abu Dawud 236": {
+   "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَمَّادُ بْنُ خَالِدٍ الْخَيَّاطُ، حَدَّثَنَا عَبْدُ اللَّهِ الْعُمَرِيُّ، عَنْ عُبَيْدِ اللَّهِ، عَنِ الْقَاسِمِ، عَنْ عَائِشَةَ، قَالَتْ سُئِلَ رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الرَّجُلِ يَجِدُ الْبَلَلَ وَلاَ يَذْكُرُ احْتِلاَمًا قَالَ ‏\"‏ يَغْتَسِلُ ‏\"‏ ‏.‏ وَعَنِ الرَّجُلِ يَرَى أَنَّهُ قَدِ احْتَلَمَ وَلاَ يَجِدُ الْبَلَلَ قَالَ ‏\"‏ لاَ غُسْلَ عَلَيْهِ ‏\"‏ ‏.‏ فَقَالَتْ أُمُّ سُلَيْمٍ الْمَرْأَةُ تَرَى ذَلِكَ أَعَلَيْهَا غُسْلٌ قَالَ ‏\"‏ نَعَمْ إِنَّمَا النِّسَاءُ شَقَائِقُ الرِّجَالِ ‏\"‏ ‏.‏",
+   "grades": [
+    [
+     "Al-Albani",
+     "Hasan"
+    ],
+    [
+     "Muhammad Muhyi Al-Din Abdul Hamid",
+     "Hasan"
+    ],
+    [
+     "Shuaib Al Arnaut",
+     "Hasan Lighairihi"
+    ],
+    [
+     "Zubair Ali Zai",
+     "Daif"
+    ]
+   ]
+  },
+  "Tirmidhi 113": {
+   "arabic": "حَدَّثَنَا أَحْمَدُ بْنُ مَنِيعٍ، حَدَّثَنَا حَمَّادُ بْنُ خَالِدٍ الْخَيَّاطُ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، هُوَ الْعُمَرِيُّ عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ، عَنْ عَائِشَةَ، قَالَتْ سُئِلَ رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الرَّجُلِ يَجِدُ الْبَلَلَ وَلاَ يَذْكُرُ احْتِلاَمًا قَالَ ‏\"‏ يَغْتَسِلُ ‏\"‏ ‏.‏ وَعَنِ الرَّجُلِ يَرَى أَنَّهُ قَدِ احْتَلَمَ وَلَمْ يَجِدْ بَلَلاً قَالَ ‏\"‏ لاَ غُسْلَ عَلَيْهِ ‏\"‏ ‏.‏ قَالَتْ أُمُّ سَلَمَةَ يَا رَسُولَ اللَّهِ هَلْ عَلَى الْمَرْأَةِ تَرَى ذَلِكَ غُسْلٌ قَالَ ‏\"‏ نَعَمْ إِنَّ النِّسَاءَ شَقَائِقُ الرِّجَالِ ‏\"‏ ‏.‏ قَالَ أَبُو عِيسَى وَإِنَّمَا رَوَى هَذَا الْحَدِيثَ عَبْدُ اللَّهِ بْنُ عُمَرَ عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ حَدِيثَ عَائِشَةَ فِي الرَّجُلِ يَجِدُ الْبَلَلَ وَلاَ يَذْكُرُ احْتِلاَمًا ‏.‏ وَعَبْدُ اللَّهِ بْنُ عُمَرَ ضَعَّفَهُ يَحْيَى بْنُ سَعِيدٍ مِنْ قِبَلِ حِفْظِهِ فِي الْحَدِيثِ ‏.‏",
+   "grades": [
+    [
+     "Ahmad Muhammad Shakir",
+     "Sahih"
+    ],
+    [
+     "Al-Albani",
+     "Sahih"
+    ],
+    [
+     "Bashar Awad Maarouf",
+     "Daif"
+    ],
+    [
+     "Zubair Ali Zai",
+     "Daif"
+    ]
+   ]
+  }
+ }
+}

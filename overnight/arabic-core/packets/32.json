@@ -1,0 +1,53 @@
+{
+ "n": 32,
+ "id": "p8#s-liberal--religion-causes-most-wars-and-the-data",
+ "title": "“Religion causes most wars” and the data",
+ "thesis": "The claim that religion is the main cause of war is not supported by the historical record, and the category “religious violence” is itself contested. This is not a defence of every act done in religion’s name.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "A causal claim about the cause of most wars must be supported by a classification of wars."
+  },
+  {
+   "tag": "P2",
+   "text": "The best-known classification of wars in the standard reference work finds a small share with religion as the primary cause."
+  },
+  {
+   "tag": "P3",
+   "text": "The twentieth century’s largest atrocities were committed by states and ideologies that were avowedly secular."
+  },
+  {
+   "tag": "∴",
+   "text": "“Religion causes most wars” is a slogan. The honest position is that people have used religion, nationalism, ideology and economics as causes and justifications, and none of them has a clean record."
+  }
+ ],
+ "evidence": [
+  "The Encyclopedia of Wars. Charles Phillips and Alan Axelrod’s Encyclopedia of Wars (2005) records 1,763 wars, of which 123 (about 7 percent) are classified as religious. Be honest about the rest of the figure: the 123 figure is taken from the encyclopedia's index, and secondary tallies put about 66 of them as involving Islam; the encyclopedia does not itself make that classification. The coding is also debated, so cite it as a rough measure.",
+  "The category itself. William Cavanaugh (The Myth of Religious Violence, 2009) argues that the line between “religious” and “secular” violence is an arbitrary modern construction, and that nationalism and liberal ideology function as quasi-religions that also command killing and sacrifice.",
+  "The twentieth century. Estimates put the deaths of the Second World War at around 70 to 85 million, and the Soviet and Chinese famines and purges at tens of millions more, under states that officially rejected religion or acted on nationalist and racial ideology.",
+  "Islam’s own rules. “Do not transgress; indeed Allah does not like transgressors” (2:190). “Whoever kills a soul unjustly… it is as if he had killed all mankind” (5:32). Abu Bakr’s instructions to his armies forbade killing women, children, the elderly and monks and cutting down fruit trees (Muwatta Malik, Book of Jihad, a mursal report widely cited by jurists)."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "“But what about ISIS and Muslim terrorism?”",
+   "a": "Acknowledge it and condemn it. Groups that kill civilians violate the Quran’s rules (5:32) and the Prophet’s instructions in war, and the great majority of Muslim scholars and the victims of such groups are themselves Muslims. Naming Islam as the cause requires showing the groups’ conduct follows the sources, and it does not."
+  },
+  {
+   "q": "“The 7 percent figure is only for wars labelled religious.”",
+   "a": "That is the point of the coding dispute: if nationalism and ideology are also treated as secular belief systems, the picture shifts further away from religion as a special cause. The honest claim is that the evidence does not support the slogan, not that religion is harmless."
+  }
+ ],
+ "practice": {
+  "q": "“Religion is the biggest cause of war in history.”",
+  "a": "That is not what the data shows. In the Encyclopedia of Wars, 123 of 1,763 wars are classified as religious, about 7 percent, and I should add that 66 of those involve Islam, so I am not hiding anything. William Cavanaugh also argues that the line between religious and secular violence is arbitrary. The deadliest conflicts of the last century were fought by nations and ideologies that were openly secular. And Islam’s rules of war forbid harming civilians (5:32)."
+ },
+ "sum": "About 7 percent of 1,763 wars are classified as religious (66 of 123 involving Islam), the category is contested, the largest modern atrocities were secular, and Islam’s own rules forbid killing civilians.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "2:190": "وَقَـٰتِلُوا۟ فِی سَبِیلِ ٱللَّهِ ٱلَّذِینَ یُقَـٰتِلُونَكُمۡ وَلَا تَعۡتَدُوۤا۟ۚ إِنَّ ٱللَّهَ لَا یُحِبُّ ٱلۡمُعۡتَدِینَ",
+  "5:32": "مِنۡ أَجۡلِ ذَ ٰلِكَ كَتَبۡنَا عَلَىٰ بَنِیۤ إِسۡرَ ٰۤءِیلَ أَنَّهُۥ مَن قَتَلَ نَفۡسَۢا بِغَیۡرِ نَفۡسٍ أَوۡ فَسَادࣲ فِی ٱلۡأَرۡضِ فَكَأَنَّمَا قَتَلَ ٱلنَّاسَ جَمِیعࣰا وَمَنۡ أَحۡیَاهَا فَكَأَنَّمَاۤ أَحۡیَا ٱلنَّاسَ جَمِیعࣰاۚ وَلَقَدۡ جَاۤءَتۡهُمۡ رُسُلُنَا بِٱلۡبَیِّنَـٰتِ ثُمَّ إِنَّ كَثِیرࣰا مِّنۡهُم بَعۡدَ ذَ ٰلِكَ فِی ٱلۡأَرۡضِ لَمُسۡرِفُونَ"
+ },
+ "hadith_arabic": {}
+}

@@ -1,0 +1,68 @@
+{
+ "n": 22,
+ "id": "p9#s-text--seven-ahruf-seven-readings-ten-readings-three-diff",
+ "title": "Seven ahruf, seven readings, ten readings: three different things",
+ "thesis": "Critics often run together three different terms: the seven ahruf of the hadith, the seven or ten canonical readings (qira’at), and the Uthmanic text itself. Keeping them apart removes most of the force of the “seven versions of the Quran” charge.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "An argument built on a confusion of terms fails once the terms are separated."
+  },
+  {
+   "tag": "P2",
+   "text": "The seven ahruf are a Prophetic permission for variation in recitation, the qira’at are the later systematised readings that survive within the Uthmanic outline, and the Uthmanic text is the written standard."
+  },
+  {
+   "tag": "P3",
+   "text": "The ten canonical readings are variations on one text and one set of consonants, and the Quran has not been transmitted as ten different books."
+  },
+  {
+   "tag": "∴",
+   "text": "There is one Quran written in one consonantal outline, with a bounded set of authorised variations in recitation, and the claim of seven or ten Qurans comes from conflating terms."
+  }
+ ],
+ "evidence": [
+  "The ahruf. “The Quran was revealed in seven ahruf, so recite whichever is easy for you” (Bukhari 2419, 4992; Muslim 818). The word harf means “mode” or “manner”. Scholars have proposed many meanings (dialects, synonyms, types of variation), and a classical view held that the permission narrowed after Uthman’s standardisation.",
+  "The readings. Ibn Mujahid (d. 324 AH/936 CE) selected seven leading readers of the early centuries, and later Ibn al-Jazari (d. 833 AH/1429 CE) set out ten, with three conditions: an authentic chain back to the Prophet ﷺ, conformity with Arabic, and agreement with one of the Uthmanic copies. A reading that fails any of the three is not canonical.",
+  "The text. All ten readings fit the Uthmanic consonantal outline, with a handful of well-known rasm differences between the regional codices (for example 2:132, 9:100, 57:24) and differ mainly in vowels, in whether a letter is pointed one way or another, and in a limited number of word forms.",
+  "Not seven books. The hadith of Bukhari 2419 shows the Prophet ﷺ affirming two recitations of one surah as both revealed. It does not describe seven different Qurans.",
+  "Comparison. The New Testament exists in more than five thousand Greek manuscripts whose variants are counted in the hundreds of thousands (estimates differ), with several passages disputed even by conservative editors. The variants of the Quran are a fixed, listed set transmitted by named readers."
+ ],
+ "ar_quotes": [],
+ "objections": [
+  {
+   "q": "“Uthman burned six of the seven ahruf and kept one.”",
+   "a": "That was the view of al-Tabari and some others. Many scholars, such as Ibn al-Jazari, hold instead that the Uthmanic outline preserves the readings confirmed in the Prophet’s ﷺ final recitation of the Quran to Gabriel (the ‘ardah al-akhira), which is why more than one reading fits it. Scholars differ on this point, so present it as a scholarly debate and not as a settled fact."
+  },
+  {
+   "q": "“Different readings mean the text was not fixed.”",
+   "a": "They mean the recitation was transmitted with authorised variations. The text, in the sense of its consonantal skeleton and the content, is the same. The existence of an authorised variation is a feature of the revelation as the sources describe it, not a defect in preservation."
+  }
+ ],
+ "practice": {
+  "q": "“Muslims admit there are seven versions of the Quran, so it cannot be one preserved book.”",
+  "a": "Three different things are being run together. The seven ahruf are a Prophetic permission for variation in recitation. The readings are the later canonical systems, seven or ten depending on the list, each with an unbroken chain to the Prophet ﷺ and each fitting the same written outline. The written text is a single one. The differences are listed, small and transmitted by name, which is the opposite of a text drifting through copying errors."
+ },
+ "sum": "The ahruf, the qira’at and the Uthmanic text are three distinct things. The ten readings share one written outline and a listed set of authorised variants, so “seven Qurans” is a confusion of terms.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "2:132": "وَوَصَّىٰ بِهَاۤ إِبۡرَ ٰهِـۧمُ بَنِیهِ وَیَعۡقُوبُ یَـٰبَنِیَّ إِنَّ ٱللَّهَ ٱصۡطَفَىٰ لَكُمُ ٱلدِّینَ فَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسۡلِمُونَ",
+  "9:100": "وَٱلسَّـٰبِقُونَ ٱلۡأَوَّلُونَ مِنَ ٱلۡمُهَـٰجِرِینَ وَٱلۡأَنصَارِ وَٱلَّذِینَ ٱتَّبَعُوهُم بِإِحۡسَـٰنࣲ رَّضِیَ ٱللَّهُ عَنۡهُمۡ وَرَضُوا۟ عَنۡهُ وَأَعَدَّ لَهُمۡ جَنَّـٰتࣲ تَجۡرِی تَحۡتَهَا ٱلۡأَنۡهَـٰرُ خَـٰلِدِینَ فِیهَاۤ أَبَدࣰاۚ ذَ ٰلِكَ ٱلۡفَوۡزُ ٱلۡعَظِیمُ",
+  "57:24": "ٱلَّذِینَ یَبۡخَلُونَ وَیَأۡمُرُونَ ٱلنَّاسَ بِٱلۡبُخۡلِۗ وَمَن یَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلۡغَنِیُّ ٱلۡحَمِیدُ"
+ },
+ "hadith_arabic": {
+  "Bukhari 2419": {
+   "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَبْدٍ الْقَارِيِّ، أَنَّهُ قَالَ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ ـ رضى الله عنه ـ يَقُولُ سَمِعْتُ هِشَامَ بْنَ حَكِيمِ بْنِ حِزَامٍ، يَقْرَأُ سُورَةَ الْفُرْقَانِ عَلَى غَيْرِ مَا أَقْرَؤُهَا، وَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَقْرَأَنِيهَا، وَكِدْتُ أَنْ أَعْجَلَ عَلَيْهِ، ثُمَّ أَمْهَلْتُهُ حَتَّى انْصَرَفَ، ثُمَّ لَبَّبْتُهُ بِرِدَائِهِ فَجِئْتُ بِهِ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقُلْتُ إِنِّي سَمِعْتُ هَذَا يَقْرَأُ عَلَى غَيْرِ مَا أَقْرَأْتَنِيهَا، فَقَالَ لِي ‏\"‏ أَرْسِلْهُ ‏\"‏‏.‏ ثُمَّ قَالَ لَهُ ‏\"‏ اقْرَأْ ‏\"‏‏.‏ فَقَرَأَ‏.‏ قَالَ ‏\"‏ هَكَذَا أُنْزِلَتْ ‏\"‏‏.‏ ثُمَّ قَالَ لِي ‏\"‏ اقْرَأْ ‏\"‏‏.‏ فَقَرَأْتُ فَقَالَ ‏\"‏ هَكَذَا أُنْزِلَتْ‏.‏ إِنَّ الْقُرْآنَ أُنْزِلَ عَلَى سَبْعَةِ أَحْرُفٍ فَاقْرَءُوا مِنْهُ مَا تَيَسَّر",
+   "grades": []
+  },
+  "Bukhari 4992": {
+   "arabic": "حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، قَالَ حَدَّثَنِي اللَّيْثُ، قَالَ حَدَّثَنِي عُقَيْلٌ، عَنِ ابْنِ شِهَابٍ، قَالَ حَدَّثَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ الْمِسْوَرَ بْنَ مَخْرَمَةَ، وَعَبْدَ الرَّحْمَنِ بْنَ عَبْدٍ الْقَارِيَّ، حَدَّثَاهُ أَنَّهُمَا، سَمِعَا عُمَرَ بْنَ الْخَطَّابِ، يَقُولُ سَمِعْتُ هِشَامَ بْنَ حَكِيمٍ، يَقْرَأُ سُورَةَ الْفُرْقَانِ فِي حَيَاةِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَاسْتَمَعْتُ لِقِرَاءَتِهِ فَإِذَا هُوَ يَقْرَأُ عَلَى حُرُوفٍ كَثِيرَةٍ لَمْ يُقْرِئْنِيهَا رَسُولُ اللَّهِ صلى الله عليه وسلم فَكِدْتُ أُسَاوِرُهُ فِي الصَّلاَةِ فَتَصَبَّرْتُ حَتَّى سَلَّمَ فَلَبَّبْتُهُ بِرِدَائِهِ فَقُلْتُ مَنْ أَقْرَأَكَ هَذِهِ السُّورَةَ الَّتِي سَمِعْتُكَ تَقْرَأُ‏.‏ قَالَ أَقْرَأَنِيهَا رَسُولُ اللَّهِ صلى الله عليه وسلم‏.‏ فَقُلْتُ كَذَبْتَ فَإِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَدْ أَقْرَأَنِيهَا عَلَى غَيْرِ مَا قَرَأْتَ، فَانْطَلَقْتُ بِهِ أَقُودُهُ إِلَ",
+   "grades": []
+  },
+  "Muslim 818": {
+   "arabic": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَبْدٍ الْقَارِيِّ، قَالَ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ، يَقُولُ سَمِعْتُ هِشَامَ بْنَ، حَكِيمِ بْنِ حِزَامٍ يَقْرَأُ سُورَةَ الْفُرْقَانِ عَلَى غَيْرِ مَا أَقْرَؤُهَا وَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَقْرَأَنِيهَا فَكِدْتُ أَنْ أَعْجَلَ عَلَيْهِ ثُمَّ أَمْهَلْتُهُ حَتَّى انْصَرَفَ ثُمَّ لَبَّبْتُهُ بِرِدَائِهِ فَجِئْتُ بِهِ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقُلْتُ يَا رَسُولَ اللَّهِ إِنِّي سَمِعْتُ هَذَا يَقْرَأُ سُورَةَ الْفُرْقَانِ عَلَى غَيْرِ مَا أَقْرَأْتَنِيهَا ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَرْسِلْهُ اقْرَأْ ‏\"‏ ‏.‏ فَقَرَأَ الْقِرَاءَةَ الَّتِي سَمِعْتُهُ يَقْرَأُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ هَكَذَا أُنْزِلَتْ ‏\"‏ ‏.‏ ثُمَّ قَالَ لِيَ ‏\"‏ اقْرَأْ ‏\"‏ ‏.‏ فَقَرَأْتُ فَقَالَ ‏\"‏ هَكَ",
+   "grades": []
+  }
+ }
+}

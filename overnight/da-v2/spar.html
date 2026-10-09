@@ -136,7 +136,9 @@ h1.t{font-size:clamp(2rem,5vw,3.2rem);line-height:1.08;margin:.4rem 0 .3rem;lett
     $('#s-opp').innerHTML = Object.keys(LABEL).map(k => '<option value="' + k + '">' + LABEL[k] + '</option>').join('');
     const opts = ['<option value="rand">A surprise from the library</option>'];
     TR.forEach(t => { opts.push('<optgroup label="' + esc(t.title) + '">' + t.steps.map(s => '<option value="' + esc(s.id) + '">' + esc(s.title) + '</option>').join('') + '</optgroup>'); });
-    $('#s-topic').innerHTML = opts.join(''); drawHist();
+    const hsel = location.hash.length > 1 ? location.hash.slice(1).replace('.', '#') : '';
+    if (hsel && D.byId.get(hsel) && !TR.some(t => t.steps.some(s => s.id === hsel))) opts.splice(1, 0, '<option value="' + esc(hsel) + '">' + esc(D.byId.get(hsel).title) + '</option>');
+    $('#s-topic').innerHTML = opts.join(''); if (hsel && D.byId.get(hsel)) $('#s-topic').value = hsel; drawHist();
     $('#go').onclick = async () => {
       const sel = $('#s-topic').value; let b = sel === 'rand' ? D.briefs[Math.floor(Math.random() * D.briefs.length)] : D.byId.get(sel);
       cfg = { opp: $('#s-opp').value, lvl: $('#s-lvl').value, lang: $('#s-lang').value, topicText: b.title + (b.obj[0] ? ' (for example: ' + b.obj[0].q + ')' : '') };

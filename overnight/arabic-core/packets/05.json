@@ -1,0 +1,64 @@
+{
+ "n": 5,
+ "id": "p5#s-sects--the-quran-itself-requires-the-sunnah-against-qur",
+ "title": "The Quran itself requires the Sunnah (against Quranists)",
+ "thesis": "The Quran refers to revelation outside its text, commands obedience to the Messenger separately, calls him its explainer, and cannot be practised without the Sunnah. Rejecting hadith therefore contradicts the Quran.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "If the Quran mentions revelations that are not in it, and makes the Prophet ﷺ the explainer of the Quran, then revelation outside the Quran exists and binds Muslims."
+  },
+  {
+   "tag": "P2",
+   "text": "The Quran refers to promises and commands not recorded in it (3:124; 2:143; 2:187), distinguishes \"the Book and the Wisdom\", and says the Prophet was sent \"to explain to people what was sent down to them\" (16:44)."
+  },
+  {
+   "tag": "∴",
+   "text": "The Sunnah is revelation alongside the Quran, and the Quranist position contradicts the Quran."
+  }
+ ],
+ "evidence": [
+  "Revelation not in the Quran. \"Is it not sufficient that your Lord reinforces you with three thousand angels?\" (3:124), a promise recorded in no earlier verse. \"We did not make the qibla you used to face except to know who follows the Messenger\" (2:143), but no verse ever commanded the earlier qibla. \"Allah knows you used to deceive yourselves\" about intercourse at night in Ramadan (2:187), a prohibition never stated in the Quran.",
+  "The Book and the Wisdom. \"He teaches them the Book and the Wisdom\" (2:129; 62:2); the two are distinct.",
+  "The explainer. \"We sent down to you the Reminder so that you may explain to people what was sent down to them\" (16:44). \"Whatever the Messenger gives you, take it; whatever he forbids you, refrain\" (59:7). \"Whoever obeys the Messenger has obeyed Allah\" (4:80).",
+  "Practice. How to pray, the zakat rates and thresholds, the rites of Hajj, and even the seven modes of recitation are known only from the Sunnah.",
+  "Same transmitters. The Quran and the hadith were carried by the same Companions and their students; rejecting their reliability for one undermines the other.",
+  "The clarity dilemma. Quranists say the Quran is clear on its own. Yet the overwhelming majority of Muslims across 1,400 years understood it to require the Sunnah. If a \"clear\" book was misunderstood by almost everyone, it was not clear in the Quranist sense."
+ ],
+ "ar_quotes": [
+  {
+   "text": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+   "cite": "16:44"
+  },
+  {
+   "text": "وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ وَمَا نَهَاكُمْ عَنْهُ فَانتَهُوا",
+   "cite": "59:7"
+  }
+ ],
+ "objections": [
+  {
+   "q": "\"'We have neglected nothing in the Book' (6:38).\"",
+   "a": "Many commentators take the 'Book' to be the Preserved Tablet (others say the Quran), and 6:38 speaks of animals and birds. Even if it meant the Quran, the Quran includes the command to follow the Messenger, so it \"neglects\" nothing by referring us to him."
+  }
+ ],
+ "practice": {
+  "q": "“The Quran is complete and fully detailed (6:114). Why do we need hadith?”",
+  "a": "The Quran itself tells you to obey the Messenger and calls him its explainer (16:44; 59:7). It refers to a qibla and a promise of angels that it never stated, which proves there was revelation outside its text. Without hadith you can't even pray."
+ },
+ "sum": "The Quran refers to revelation it never records (3:124; 2:143; 2:187), distinguishes the Book and the Wisdom, and makes the Prophet its explainer (16:44). Prayer and zakat can't be performed without the Sunnah.",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "3:124": "إِذۡ تَقُولُ لِلۡمُؤۡمِنِینَ أَلَن یَكۡفِیَكُمۡ أَن یُمِدَّكُمۡ رَبُّكُم بِثَلَـٰثَةِ ءَالَـٰفࣲ مِّنَ ٱلۡمَلَـٰۤئِكَةِ مُنزَلِینَ",
+  "2:143": "وَكَذَ ٰلِكَ جَعَلۡنَـٰكُمۡ أُمَّةࣰ وَسَطࣰا لِّتَكُونُوا۟ شُهَدَاۤءَ عَلَى ٱلنَّاسِ وَیَكُونَ ٱلرَّسُولُ عَلَیۡكُمۡ شَهِیدࣰاۗ وَمَا جَعَلۡنَا ٱلۡقِبۡلَةَ ٱلَّتِی كُنتَ عَلَیۡهَاۤ إِلَّا لِنَعۡلَمَ مَن یَتَّبِعُ ٱلرَّسُولَ مِمَّن یَنقَلِبُ عَلَىٰ عَقِبَیۡهِۚ وَإِن كَانَتۡ لَكَبِیرَةً إِلَّا عَلَى ٱلَّذِینَ هَدَى ٱللَّهُۗ وَمَا كَانَ ٱللَّهُ لِیُضِیعَ إِیمَـٰنَكُمۡۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفࣱ رَّحِیمࣱ",
+  "2:187": "أُحِلَّ لَكُمۡ لَیۡلَةَ ٱلصِّیَامِ ٱلرَّفَثُ إِلَىٰ نِسَاۤئِكُمۡۚ هُنَّ لِبَاسࣱ لَّكُمۡ وَأَنتُمۡ لِبَاسࣱ لَّهُنَّۗ عَلِمَ ٱللَّهُ أَنَّكُمۡ كُنتُمۡ تَخۡتَانُونَ أَنفُسَكُمۡ فَتَابَ عَلَیۡكُمۡ وَعَفَا عَنكُمۡۖ فَٱلۡءَـٰنَ بَـٰشِرُوهُنَّ وَٱبۡتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمۡۚ وَكُلُوا۟ وَٱشۡرَبُوا۟ حَتَّىٰ یَتَبَیَّنَ لَكُمُ ٱلۡخَیۡطُ ٱلۡأَبۡیَضُ مِنَ ٱلۡخَیۡطِ ٱلۡأَسۡوَدِ مِنَ ٱلۡفَجۡرِۖ ثُمَّ أَتِمُّوا۟ ٱلصِّیَامَ إِلَى ٱلَّیۡلِۚ وَلَا تُبَـٰشِرُوهُنَّ وَأَنتُمۡ عَـٰكِفُونَ فِی ٱلۡمَسَـٰجِدِۗ تِلۡكَ حُدُودُ ٱللَّهِ فَلَا تَقۡرَبُوهَاۗ كَذَ ٰلِكَ یُبَیِّنُ ٱللَّهُ ءَایَـٰتِهِۦ لِلنَّاسِ لَعَلَّهُمۡ یَتَّقُونَ",
+  "16:44": "بِٱلۡبَیِّنَـٰتِ وَٱلزُّبُرِۗ وَأَنزَلۡنَاۤ إِلَیۡكَ ٱلذِّكۡرَ لِتُبَیِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَیۡهِمۡ وَلَعَلَّهُمۡ یَتَفَكَّرُونَ",
+  "2:129": "رَبَّنَا وَٱبۡعَثۡ فِیهِمۡ رَسُولࣰا مِّنۡهُمۡ یَتۡلُوا۟ عَلَیۡهِمۡ ءَایَـٰتِكَ وَیُعَلِّمُهُمُ ٱلۡكِتَـٰبَ وَٱلۡحِكۡمَةَ وَیُزَكِّیهِمۡۖ إِنَّكَ أَنتَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ",
+  "62:2": "هُوَ ٱلَّذِی بَعَثَ فِی ٱلۡأُمِّیِّـۧنَ رَسُولࣰا مِّنۡهُمۡ یَتۡلُوا۟ عَلَیۡهِمۡ ءَایَـٰتِهِۦ وَیُزَكِّیهِمۡ وَیُعَلِّمُهُمُ ٱلۡكِتَـٰبَ وَٱلۡحِكۡمَةَ وَإِن كَانُوا۟ مِن قَبۡلُ لَفِی ضَلَـٰلࣲ مُّبِینࣲ",
+  "59:7": "مَّاۤ أَفَاۤءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنۡ أَهۡلِ ٱلۡقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِی ٱلۡقُرۡبَىٰ وَٱلۡیَتَـٰمَىٰ وَٱلۡمَسَـٰكِینِ وَٱبۡنِ ٱلسَّبِیلِ كَیۡ لَا یَكُونَ دُولَةَۢ بَیۡنَ ٱلۡأَغۡنِیَاۤءِ مِنكُمۡۚ وَمَاۤ ءَاتَىٰكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمۡ عَنۡهُ فَٱنتَهُوا۟ۚ وَٱتَّقُوا۟ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِیدُ ٱلۡعِقَابِ",
+  "4:80": "مَّن یُطِعِ ٱلرَّسُولَ فَقَدۡ أَطَاعَ ٱللَّهَۖ وَمَن تَوَلَّىٰ فَمَاۤ أَرۡسَلۡنَـٰكَ عَلَیۡهِمۡ حَفِیظࣰا",
+  "6:38": "وَمَا مِن دَاۤبَّةࣲ فِی ٱلۡأَرۡضِ وَلَا طَـٰۤئِرࣲ یَطِیرُ بِجَنَاحَیۡهِ إِلَّاۤ أُمَمٌ أَمۡثَالُكُمۚ مَّا فَرَّطۡنَا فِی ٱلۡكِتَـٰبِ مِن شَیۡءࣲۚ ثُمَّ إِلَىٰ رَبِّهِمۡ یُحۡشَرُونَ",
+  "6:114": "أَفَغَیۡرَ ٱللَّهِ أَبۡتَغِی حَكَمࣰا وَهُوَ ٱلَّذِیۤ أَنزَلَ إِلَیۡكُمُ ٱلۡكِتَـٰبَ مُفَصَّلࣰاۚ وَٱلَّذِینَ ءَاتَیۡنَـٰهُمُ ٱلۡكِتَـٰبَ یَعۡلَمُونَ أَنَّهُۥ مُنَزَّلࣱ مِّن رَّبِّكَ بِٱلۡحَقِّۖ فَلَا تَكُونَنَّ مِنَ ٱلۡمُمۡتَرِینَ"
+ },
+ "hadith_arabic": {}
+}

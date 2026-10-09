@@ -1,0 +1,31 @@
+{
+ "n": 36,
+ "id": "p6#s-philosophy--how-arguments-work-validity-soundness-and-the-th",
+ "title": "How arguments work: validity, soundness and the three kinds of inference",
+ "thesis": "Every argument can be checked in two places: are the premises true, and does the conclusion follow? Learn the difference between deduction, induction and abduction, and you will know exactly where to attack, and where your own arguments are exposed.",
+ "premises": [],
+ "evidence": [
+  "Deductive arguments. If the premises are true and the form is valid, the conclusion must be true. Valid means the conclusion follows; sound means valid with true premises. Common valid forms:\nModus ponens: if P then Q; P; so Q.",
+  "Modus tollens: if P then Q; not Q; so not P. (Example: \"If Jesus were omniscient he would know the Hour; he did not know it; so he was not omniscient.\")",
+  "Disjunctive syllogism: P or Q; not P; so Q. (Example: 52:35 — created from nothing, self-created, or created by another.)",
+  "Reductio ad absurdum: assume the opponent's claim, derive a contradiction or absurdity, so reject the claim.",
+  "Invalid forms to watch for. Affirming the consequent: if P then Q; Q; so P. Denying the antecedent: if P then Q; not P; so not Q.",
+  "Inductive arguments reason from many cases to a general conclusion. They make conclusions probable, not certain. (Example: the Oxford Cognition, Religion and Theology Project's studies in 20 countries on natural predispositions to belief.)",
+  "Abductive arguments (inference to the best explanation) choose the hypothesis that best explains the evidence, judged by explanatory power, scope, simplicity, fit with background knowledge and lack of ad hoc additions. Most historical arguments (the Quran's preservation, the resurrection debate) are abductive.",
+  "How to attack. Grant the form and attack a premise, or grant the premises and show the conclusion doesn't follow. Say which you're doing: \"I accept your premise one, but premise two is false because…\"",
+  "How to defend. Number your premises in debate. It forces your opponent to say which premise he rejects, and stops him attacking a conclusion without engaging the reasoning."
+ ],
+ "ar_quotes": [],
+ "objections": [],
+ "practice": {
+  "q": "“Your argument is just your opinion.”",
+  "a": "It's a valid argument: if the premises are true, the conclusion follows. So which premise do you reject, and why? If you can't name one, you're rejecting the conclusion without a reason."
+ },
+ "sum": "Valid means the conclusion follows; sound means valid with true premises. Know modus ponens, modus tollens, disjunctive syllogism and reductio, and the invalid forms. Deduction gives certainty, induction probability, abduction the best explanation. Always ask: which premise do you reject?",
+ "caution": "",
+ "review_note": "",
+ "quran_arabic": {
+  "52:35": "أَمۡ خُلِقُوا۟ مِنۡ غَیۡرِ شَیۡءٍ أَمۡ هُمُ ٱلۡخَـٰلِقُونَ"
+ },
+ "hadith_arabic": {}
+}

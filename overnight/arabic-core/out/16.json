@@ -1,0 +1,62 @@
+{
+  "n": 16,
+  "id": "p1#s-bible-muhammad--the-jews-and-christians-of-the-time-recognised-h",
+  "title": "علماء اليهود والنصارى في زمانه عرفوه",
+  "thesis": "يقول القرآن إن أهل الكتاب ﴿یَعۡرِفُونَهُۥ كَمَا یَعۡرِفُونَ أَبۡنَاۤءَهُمۡۖ﴾ (البقرة: ١٤٦). والسجل التاريخي يبيّن أن علماء من اليهود والنصارى فعلوا ذلك بالضبط.",
+  "premises": [
+    {
+      "tag": "١",
+      "text": "لو لم يكن النبي ﷺ مبشَّرًا به، لما كان لعلماء أهل الكتاب سبب ليعرفوه من كتبهم."
+    },
+    {
+      "tag": "٢",
+      "text": "وقد عرفه عدد منهم، بعضهم علنًا، وبعضهم مع رفضه اتّباعه."
+    },
+    {
+      "tag": "∴",
+      "text": "إذن: هذه المعرفة توافق قول القرآن إنه موصوف في كتبهم."
+    }
+  ],
+  "evidence": [
+    "عبد الله بن سلام، وكان من كبار أحبار بني قينقاع، امتحن النبي ﷺ بثلاث مسائل لا تُعرف إلا من التراث الحاخامي: أول أشراط الساعة، وأول طعام يأكله أهل الجنة، ولماذا يشبه الولد أحد أبويه. فجاءت الأجوبة موافقة للتقاليد الحاخامية، كوليمة كبد اللوياثان (في «مدراش سفر اللاويين الكبير» (Leviticus Rabbah))، فأسلم (صحيح البخاري ٣٣٢٩). وكان اليهود قد قالوا عنه قبل أن يعلن إسلامه: «خيرنا وابن خيرنا».",
+    "ورقة بن نوفل، وكان عالمًا نصرانيًّا، عرف الوحي الأول بأنه «الناموس (أي الملَك) الذي جاء موسى» (صحيح البخاري ٣).",
+    "وقال النجاشي ملك الحبشة إن سورة مريم والإنجيل «يخرجان من مشكاة واحدة».",
+    "ويهود أقرّوا (جامع الترمذي ٢٧٣٣ (مختلف في تصحيحه)) فقبّلوا يديه وقالوا: «نشهد أنك نبيّ»، لكنهم لم يتّبعوه «لأن داود دعا ألا يزال في ذريته نبيّ». وتلك البركة كانت مشروطة بالطاعة (المزامير ١٣٢: ١٢؛ سفر الملوك الأول ٩: ٤–٧).",
+    "وهرقل، بحسب تواريخ مسيحية متأخرة (مثل ميخائيل السرياني (Michael the Syrian)، في القرن الثاني عشر)، أمر ولاته بالكفّ عن مقاومة العرب، بسبب وعد الله لإسماعيل."
+  ],
+  "quotes": [
+    {
+      "text": "ٱلَّذِینَ ءَاتَیۡنَـٰهُمُ ٱلۡكِتَـٰبَ یَعۡرِفُونَهُۥ كَمَا یَعۡرِفُونَ أَبۡنَاۤءَهُمۡۖ وَإِنَّ فَرِیقࣰا مِّنۡهُمۡ لَیَكۡتُمُونَ ٱلۡحَقَّ وَهُمۡ یَعۡلَمُونَ",
+      "cite": "سورة البقرة، الآية ١٤٦"
+    },
+    {
+      "text": "وَدَّ كَثِیرࣱ مِّنۡ أَهۡلِ ٱلۡكِتَـٰبِ لَوۡ یَرُدُّونَكُم مِّنۢ بَعۡدِ إِیمَـٰنِكُمۡ كُفَّارًا حَسَدࣰا مِّنۡ عِندِ أَنفُسِهِم مِّنۢ بَعۡدِ مَا تَبَیَّنَ لَهُمُ ٱلۡحَقُّۖ فَٱعۡفُوا۟ وَٱصۡفَحُوا۟ حَتَّىٰ یَأۡتِیَ ٱللَّهُ بِأَمۡرِهِۦۤۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرࣱ",
+      "cite": "سورة البقرة، الآية ١٠٩"
+    },
+    {
+      "text": "وَأَمَّا أَوَّلُ طَعَامٍ يَأْكُلُهُ أَهْلُ الْجَنَّةِ فَزِيَادَةُ كَبِدِ حُوتٍ",
+      "cite": "صحيح البخاري ٣٣٢٩"
+    },
+    {
+      "text": "فَقَبَّلُوا يَدَهُ وَرِجْلَهُ",
+      "cite": "جامع الترمذي ٢٧٣٣ (مختلف في تصحيحه)"
+    }
+  ],
+  "objections": [],
+  "practice": {
+    "q": "«إن كان اليهود قد عرفوه، فلماذا رفضه أكثرهم؟»",
+    "a": "يقول القرآن إن كثيرًا منهم عرفوه ورفضوه حسدًا (البقرة: ١٠٩). وفي جامع الترمذي ٢٧٣٣ (مختلف في تصحيحه) خبر يهود أقرّوا بنبوّته، لكنهم رفضوا اتّباعه خوفًا من أن يتخلّى عنهم قومهم. وعبد الله بن سلام، وهو من كبار الأحبار، امتحنه ثم أسلم."
+  },
+  "sum": "حَبرٌ كبير امتحنه فأسلم، وعالم نصراني عرف فيه ملَك موسى، وملك نصراني رأى أن المصدر مشكاة واحدة، ويهود أقرّوا بأنه نبيّ لكنهم خافوا قومهم.",
+  "omitted": [
+    "quran_arabic entry 9:4-7 is a false match for 1 Kings 9:4-7 and was ignored."
+  ],
+  "check": [
+    "Tirmidhi 2733: Shakir and al-Albani grade it Daif, Bashar Awad Hasan Sahih, Zubair Ali Zai Isnaad Hasan, so it is marked (مختلف في تصحيحه).",
+    "Tirmidhi 2733 dataset text says 'فَقَبَّلُوا يَدَهُ وَرِجْلَهُ' (his hand and foot), while the English says 'kissed his hands'. The Arabic quote uses the dataset wording; the running text follows the English.",
+    "Inconsistency in the English: the evidence gives the Jews' reason as David's prayer for a prophet in his line, while the practice answer says they feared their people would abandon them. Both translated as given; reconcile against the full text of Tirmidhi 2733 (the dataset excerpt is truncated before their reason).",
+    "Waraqa's words ('the Namus that came to Moses') and the Negus' 'same lamp' are translated from English; the Arabic wording of those reports is not in the packet (Bukhari 3 excerpt is truncated). The standard wordings should be checked before quoting them as exact.",
+    "'Our best and the son of our best' is translated from English; the Arabic is not in the truncated Bukhari 3329 excerpt.",
+    "Leviticus Rabbah rendered as «مدراش سفر اللاويين الكبير»; adjust if a standard Arabic name is preferred."
+  ]
+}

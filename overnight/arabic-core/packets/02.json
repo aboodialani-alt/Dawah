@@ -1,0 +1,87 @@
+{
+ "n": 2,
+ "id": "p1#s-hadith--hadith-were-written-down-in-the-first-century-no",
+ "title": "Hadith were written down in the first century, not invented in the third",
+ "thesis": "Written hadith collections existed in the Companions' and Successors' generation, and their contents match the later canonical books almost word for word.",
+ "premises": [
+  {
+   "tag": "P1",
+   "text": "If hadith were invented in the 2nd-3rd centuries, first-century collections should either not exist or differ greatly from Bukhari and Muslim."
+  },
+  {
+   "tag": "P2",
+   "text": "First-century collections such as the Sahifa of Hammam ibn Munabbih exist, and their texts are almost identical to the same hadith in Ahmad, Bukhari and Muslim."
+  },
+  {
+   "tag": "∴",
+   "text": "The canonical collections faithfully preserve earlier material; the hadith were not invented later."
+  }
+ ],
+ "evidence": [
+  "\"Write for Abu Shah\" (Bukhari 2434).",
+  "He told 'Abdullah ibn 'Amr to write, \"for only truth comes out of it\" (Abu Dawud 3646).",
+  "Ali kept a written sahifa (Muslim 1370).",
+  "Letters were sent out with written rulings, such as 'Amr ibn Hazm's letter and Abu Bakr's book of zakat."
+ ],
+ "ar_quotes": [
+  {
+   "text": "وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ وَمَا نَهَاكُمْ عَنْهُ فَانتَهُوا",
+   "cite": "59:7"
+  }
+ ],
+ "objections": [
+  {
+   "q": "\"Goldziher and Schacht proved hadith were forged to support later legal positions.\"",
+   "a": "Their method assumed a hadith was fake unless proven otherwise and looked at late legal texts. Harald Motzki studied the earlier Musannaf of 'Abd al-Razzaq (d. 211 AH) systematically. He concluded that its reports from figures like 'Ata' and Ibn Abbas were genuinely transmitted. He wrote that rejecting hadith as a source for the first century, a view \"to which I myself adhered\", deprives history of an important source."
+  },
+  {
+   "q": "\"The isnad system is arbitrary; critics just graded narrators as they liked.\"",
+   "a": "Scott C. Lucas compared the grades given by three early critics (Ibn Sa'd, Ibn Ma'in and Ibn Hanbal), who worked independently. They agree on 80-87% of the narrators they all graded. Arbitrary grading would not produce that level of agreement; a consistent method does."
+  }
+ ],
+ "practice": {
+  "q": "“Hadith were collected 200-250 years after Muhammad, so they're unreliable hearsay.”",
+  "a": "Bukhari compiled from earlier written collections. The Sahifa of Hammam ibn Munabbih, written by a student of Abu Hurayra, survives and matches Musnad Ahmad almost word for word, and Motzki dated material in 'Abd al-Razzaq's Musannaf to the first century."
+ },
+ "sum": "First-century written collections exist and match the canonical books; the scholar who studied the earliest material most closely abandoned the forgery thesis; and the early critics graded narrators with measurable consistency. The hadith are a preserved source.",
+ "caution": "",
+ "review_note": "Checked on 8 October 2026. Verified in the open hadith dataset: Bukhari 113, Bukhari 2434 ('Write it for Abu Shah'), Abu Dawud 3646 (sahih per al-Albani, al-Muhyi and Zubair Ali Zai), Muslim 3004 and Muslim 1370 (Ali's sheet). Not confirmed from available sources: the counts '138 hadith' and 'ninety-eight in Bukhari or Muslim', and the claim that the whole sahifa is in Musnad Ahmad (one source says all but two hadith). Hammam ibn Munabbih's death is dated 101 AH by Hamidullah and 130 AH by Jonathan Brown, so 'mid-first century' is an inference. Cite Speight and Motzki from their own publications before using their wording on screen.",
+ "quran_arabic": {
+  "59:7": "مَّاۤ أَفَاۤءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنۡ أَهۡلِ ٱلۡقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِی ٱلۡقُرۡبَىٰ وَٱلۡیَتَـٰمَىٰ وَٱلۡمَسَـٰكِینِ وَٱبۡنِ ٱلسَّبِیلِ كَیۡ لَا یَكُونَ دُولَةَۢ بَیۡنَ ٱلۡأَغۡنِیَاۤءِ مِنكُمۡۚ وَمَاۤ ءَاتَىٰكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمۡ عَنۡهُ فَٱنتَهُوا۟ۚ وَٱتَّقُوا۟ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِیدُ ٱلۡعِقَابِ"
+ },
+ "hadith_arabic": {
+  "Bukhari 2434": {
+   "arabic": "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنَا الأَوْزَاعِيُّ، قَالَ حَدَّثَنِي يَحْيَى بْنُ أَبِي كَثِيرٍ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، قَالَ حَدَّثَنِي أَبُو هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ لَمَّا فَتَحَ اللَّهُ عَلَى رَسُولِهِ صلى الله عليه وسلم مَكَّةَ قَامَ فِي النَّاسِ، فَحَمِدَ اللَّهَ، وَأَثْنَى عَلَيْهِ ثُمَّ قَالَ ‏\"‏ إِنَّ اللَّهَ حَبَسَ عَنْ مَكَّةَ الْفِيلَ، وَسَلَّطَ عَلَيْهَا رَسُولَهُ وَالْمُؤْمِنِينَ، فَإِنَّهَا لاَ تَحِلُّ لأَحَدٍ كَانَ قَبْلِي، وَإِنَّهَا أُحِلَّتْ لِي سَاعَةً مِنْ نَهَارٍ، وَإِنَّهَا لاَ تَحِلُّ لأَحَدٍ بَعْدِي، فَلاَ يُنَفَّرُ صَيْدُهَا وَلاَ يُخْتَلَى شَوْكُهَا، وَلاَ تَحِلُّ سَاقِطَتُهَا إِلاَّ لِمُنْشِدٍ، وَمَنْ قُتِلَ لَهُ قَتِيلٌ فَهْوَ بِخَيْرِ النَّظَرَيْنِ، إِمَّا أَنْ يُفْدَى، وَإِمَّا أَنْ يُقِيدَ ‏\"‏‏.‏ فَقَالَ الْعَبَّاسُ إِلاَّ الإِذْخِرَ، فَإِنَّا نَجْعَلُهُ لِقُبُورِنَا وَب",
+   "grades": []
+  },
+  "Abu Dawud 3646": {
+   "arabic": "حَدَّثَنَا مُسَدَّدٌ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ قَالاَ حَدَّثَنَا يَحْيَى، عَنْ عُبَيْدِ اللَّهِ بْنِ الأَخْنَسِ، عَنِ الْوَلِيدِ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي مُغِيثٍ، عَنْ يُوسُفَ بْنِ مَاهَكَ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ كُنْتُ أَكْتُبُ كُلَّ شَىْءٍ أَسْمَعُهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أُرِيدُ حِفْظَهُ فَنَهَتْنِي قُرَيْشٌ وَقَالُوا أَتَكْتُبُ كُلَّ شَىْءٍ تَسْمَعُهُ وَرَسُولُ اللَّهِ صلى الله عليه وسلم بَشَرٌ يَتَكَلَّمُ فِي الْغَضَبِ وَالرِّضَا فَأَمْسَكْتُ عَنِ الْكِتَابِ فَذَكَرْتُ ذَلِكَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم فَأَوْمَأَ بِأُصْبُعِهِ إِلَى فِيهِ فَقَالَ ‏ \"‏ اكْتُبْ فَوَالَّذِي نَفْسِي بِيَدِهِ مَا يَخْرُجُ مِنْهُ إِلاَّ حَقٌّ ‏\"‏ ‏.‏",
+   "grades": [
+    [
+     "Al-Albani",
+     "Sahih"
+    ],
+    [
+     "Muhammad Muhyi Al-Din Abdul Hamid",
+     "Sahih"
+    ],
+    [
+     "Zubair Ali Zai",
+     "Isnaad Sahih"
+    ]
+   ]
+  },
+  "Muslim 1370": {
+   "arabic": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، وَأَبُو كُرَيْبٍ جَمِيعًا عَنْ أَبِي مُعَاوِيَةَ، - قَالَ أَبُو كُرَيْبٍ حَدَّثَنَا أَبُو مُعَاوِيَةَ، - حَدَّثَنَا الأَعْمَشُ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، قَالَ خَطَبَنَا عَلِيُّ بْنُ أَبِي طَالِبٍ فَقَالَ مَنْ زَعَمَ أَنَّ عِنْدَنَا، شَيْئًا نَقْرَأُهُ إِلاَّ كِتَابَ اللَّهِ وَهَذِهِ الصَّحِيفَةَ - قَالَ وَصِحِيفَةٌ مُعَلَّقَةٌ فِي قِرَابِ سَيْفِهِ - فَقَدْ كَذَبَ فِيهَا أَسْنَانُ الإِبِلِ وَأَشْيَاءُ مِنَ الْجِرَاحَاتِ وَفِيهَا قَالَ النَّبِيُّ صلى الله تعالى عليه وسلم ‏\"‏ الْمَدِينَةُ حَرَمٌ مَا بَيْنَ عَيْرٍ إِلَى ثَوْرٍ فَمَنْ أَحْدَثَ فِيهَا حَدَثًا أَوْ آوَى مُحْدِثًا فَعَلَيْهِ لَعْنَةُ اللَّهِ وَالْمَلاَئِكَةِ وَالنَّاسِ أَجْمَعِينَ لاَ يَقْبَلُ اللَّهُ مِنْهُ يَوْمَ الْقِيَامَةِ صَرْفًا وَلاَ عَدْلاً وَذِمَّةُ الْمُسْلِمِينَ وَاحِدَةٌ يَسْعَى بِهَا أَدْنَاهُمْ وَمَنِ ادَّعَى إِلَى غَيْرِ أ",
+   "grades": []
+  },
+  "Bukhari 113": {
+   "arabic": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنَا عَمْرٌو، قَالَ أَخْبَرَنِي وَهْبُ بْنُ مُنَبِّهٍ، عَنْ أَخِيهِ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ مَا مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم أَحَدٌ أَكْثَرَ حَدِيثًا عَنْهُ مِنِّي، إِلاَّ مَا كَانَ مِنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو فَإِنَّهُ كَانَ يَكْتُبُ وَلاَ أَكْتُبُ‏.‏ تَابَعَهُ مَعْمَرٌ عَنْ هَمَّامٍ عَنْ أَبِي هُرَيْرَةَ‏.‏",
+   "grades": []
+  },
+  "Muslim 3004": {
+   "arabic": "حَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ الأَزْدِيُّ، حَدَّثَنَا هَمَّامٌ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لاَ تَكْتُبُوا عَنِّي وَمَنْ كَتَبَ عَنِّي غَيْرَ الْقُرْآنِ فَلْيَمْحُهُ وَحَدِّثُوا عَنِّي وَلاَ حَرَجَ وَمَنْ كَذَبَ عَلَىَّ - قَالَ هَمَّامٌ أَحْسِبُهُ قَالَ - مُتَعَمِّدًا فَلْيَتَبَوَّأْ مَقْعَدَهُ مِنَ النَّارِ ‏\"‏ ‏.‏",
+   "grades": []
+  }
+ }
+}
