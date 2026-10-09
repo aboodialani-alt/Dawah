@@ -13,5 +13,10 @@
   "level": "care",
   "text": "Checked on 8 October 2026. Quran 30:2-4 wording verified. Gibbon's sentence confirmed in chapter 46 on CCEL, where Gibbon reports the prediction as 'said to have been delivered'. Not confirmed from available sources: the battle of 'Issus, 622' as named here, and the library's description of Tesei's paper. Tirmidhi 3194 (the wager) is graded daif by al-Albani and hasan by Shakir, Bashar Awad and Zubair Ali Zai, and Tirmidhi 3193 (the 'extend the term' detail) is daif by al-Albani and sahih or hasan by others, so scholars differ. The text does not say when the three to nine years start, so how well 622 to 627 fits depends on the date of revelation. A safer wording is in overnight/scripts/B2-romans-prophecy.md.",
   "source": "Claude review, awaiting the owner's decision"
+ },
+ "p5#s-hadith-obj--other-hadith-objections-answered": {
+  "level": "care",
+  "text": "Checked on 9 October 2026. The practice answer calls the Buda'ah narrator 'unknown' and the summary calls the Black Stone report 'weak', but this card's own evidence, and every grader in the open dataset, grade both reports sahih or hasan (Abu Dawud 67; Tirmidhi 959). Do not say either report is weak; explain them instead, as the evidence row does.",
+  "source": "Claude review, awaiting the owner's decision"
  }
 }

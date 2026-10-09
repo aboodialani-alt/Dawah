@@ -10,6 +10,8 @@ The translators compared the library's English with the Arabic hadith texts in t
 | 18 No personal gain (Ibn Majah 4153) | "Kings slept on silk" | Dataset: Kisra and Caesar among fruits and rivers. |
 | 18 No personal gain (Bukhari 2916) | "Died in debt to a Jewish merchant" | Dataset: his armour was pawned for barley. Same event, different framing; use the hadith's wording. |
 | 18 No personal gain | The Quraysh offer of wealth and power | No source given in the library. |
+| 08 Other hadith objections | Practice answer: the Buda'ah narrator is "unknown"; summary: the Black Stone report is "weak" | The card's own evidence and every grader listed grade both sahih or hasan (Abu Dawud 67: al-Albani, Muhyi al-Din: sahih; Zubair Ali Zai: hasan. Tirmidhi 959: Shakir, al-Albani: sahih; Bashar Awad, Zubair Ali Zai: hasan). The library contradicts itself; the Arabic card follows the evidence. |
+| 02 Hadith writing (Bukhari 2434) | "Write for Abu Shah" | Confirmed in the full Arabic text: «اكْتُبُوا لأَبِي شَاهٍ». |
 | 11 Romans | Tirmidhi 3193 "extend the term" detail | Graded daif by al-Albani; the dataset text is cut before that detail. |
 | 12 Outside attestation | "Sinai's verdict above" | No Sinai quote appears earlier on the card. |
 | 14 Literary challenge | al-Walid ibn al-Mughira report | No hadith number given; chain disputed. "The Legacy of Islam, p. 321" has no edition. |

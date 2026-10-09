@@ -1,0 +1,63 @@
+{
+ "n": 2,
+ "id": "p1#s-hadith--hadith-were-written-down-in-the-first-century-no",
+ "title": "الحديث دُوِّن في القرن الأول، ولم يُخترع في القرن الثالث",
+ "thesis": "وُجدت مجموعات حديثية مكتوبة في جيل الصحابة والتابعين، وتطابق مضامينُها ما في كتب الحديث المعتمدة اللاحقة تطابقًا يكاد يكون حرفيًا.",
+ "premises": [
+  {
+   "tag": "١",
+   "text": "لو كانت الأحاديث قد اختُرعت في القرنين الثاني والثالث، لكان المتوقع ألا توجد مجموعات من القرن الأول، أو أن تختلف اختلافًا كبيرًا عمّا في البخاري ومسلم."
+  },
+  {
+   "tag": "٢",
+   "text": "توجد مجموعات من القرن الأول، مثل صحيفة همّام بن منبّه، ونصوصها تكاد تطابق الأحاديث نفسها عند أحمد والبخاري ومسلم."
+  },
+  {
+   "tag": "∴",
+   "text": "الكتب المعتمدة حفظت مادةً أقدم منها بأمانة؛ فالأحاديث لم تُخترع لاحقًا."
+  }
+ ],
+ "evidence": [
+  "«اكتبوا لأبي شاه» (صحيح البخاري ٢٤٣٤).",
+  "وأمر النبي ﷺ عبدَ الله بن عمرو بالكتابة فقال: «اكْتُبْ فَوَالَّذِي نَفْسِي بِيَدِهِ مَا يَخْرُجُ مِنْهُ إِلاَّ حَقٌّ» (سنن أبي داود ٣٦٤٦).",
+  "وكانت لعليٍّ رضي الله عنه صحيفة مكتوبة (صحيح مسلم ١٣٧٠).",
+  "وأُرسلت كتبٌ فيها أحكام مكتوبة، مثل كتاب عمرو بن حزم، وكتاب أبي بكر في الزكاة."
+ ],
+ "quotes": [
+  {
+   "text": "وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ وَمَا نَهَاكُمْ عَنْهُ فَانتَهُوا",
+   "cite": "سورة الحشر، الآية ٧"
+  },
+  {
+   "text": "اكْتُبْ فَوَالَّذِي نَفْسِي بِيَدِهِ مَا يَخْرُجُ مِنْهُ إِلاَّ حَقٌّ",
+   "cite": "سنن أبي داود ٣٦٤٦"
+  }
+ ],
+ "objections": [
+  {
+   "q": "«غولدتسيهر (Goldziher) وشاخت (Schacht) أثبتا أن الأحاديث وُضعت لتأييد مواقف فقهية متأخرة.»",
+   "a": "منهجهما افترض أن الحديث موضوع حتى يثبت خلاف ذلك، ونظر في نصوص فقهية متأخرة. أما هارالد موتسكي (Harald Motzki) فدرس دراسةً منهجية «مصنف عبد الرزاق» الأقدم (ت ٢١١هـ)، وانتهى إلى أن ما فيه من روايات عن أمثال عطاء وابن عباس قد نُقل نقلًا حقيقيًا. ورأى أن رفض الحديث مصدرًا لتاريخ القرن الأول، وهو رأي كان يتبنّاه هو نفسه من قبل، يحرم التاريخ من مصدر مهم."
+  },
+  {
+   "q": "«نظام الإسناد اعتباطي؛ فالنقاد حكموا على الرواة كما شاؤوا.»",
+   "a": "قارن سكوت لوكاس (Scott C. Lucas) بين أحكام ثلاثة من النقاد المتقدمين، هم ابن سعد وابن معين وابن حنبل، وقد عمل كلٌّ منهم مستقلًا عن الآخرين. فوجدهم متفقين في ٨٠-٨٧٪ من الرواة الذين حكموا عليهم جميعًا. والأحكام الاعتباطية لا تُنتج هذا القدر من الاتفاق؛ أما المنهج المتّسق فيُنتجه."
+  }
+ ],
+ "practice": {
+  "q": "«جُمعت الأحاديث بعد محمد ﷺ بمئتين إلى مئتين وخمسين سنة، فهي أقاويل منقولة لا يُعتمد عليها.»",
+  "a": "البخاري جمع صحيحه من مجموعات مكتوبة أقدم. وصحيفة همّام بن منبّه، التي كتبها أحد تلاميذ أبي هريرة، لا تزال موجودة، وتطابق أحاديثُها رواياتِها في مسند أحمد تطابقًا يكاد يكون حرفيًا. كما أرّخ موتسكي مادةً في مصنف عبد الرزاق إلى القرن الأول."
+ },
+ "sum": "توجد مجموعات مكتوبة من القرن الأول تطابق الكتب المعتمدة؛ والباحث الذي درس أقدم المواد عن كثب تخلّى عن فرضية الوضع؛ والنقاد المتقدمون حكموا على الرواة باتساق يمكن قياسه. فالحديث مصدر محفوظ.",
+ "omitted": [
+  "Motzki's words 'to which I myself adhered' and his sentence are not presented as a direct quotation; review note says to cite Motzki from his own publications before using his wording on screen. Kept as indirect paraphrase only.",
+  "Practice answer: 'matches Musnad Ahmad almost word for word' rendered as its hadith matching their parallels in Musnad Ahmad; did not state that the whole sahifa is in Musnad Ahmad (review note: not confirmed, one source says all but two).",
+  "Counts '138 hadith' and 'ninety-eight' named in the review note do not appear in this card; nothing to omit there."
+ ],
+ "check": [
+  "Bukhari 2434: dataset Arabic is cut off before the 'Write for Abu Shah' words, so «اكتبوا لأبي شاه» is a translation; verify exact wording in Sahih al-Bukhari.",
+  "Hammam ibn Munabbih's sahifa called 'first-century' (P2, practice): his death is dated 101 AH (Hamidullah) or 130 AH (Brown); confirm the framing.",
+  "Motzki paraphrase and the sum's 'abandoned the forgery thesis': verify against Motzki's own publication.",
+  "Quote of 59:7 is the ar_quotes library text (simple spelling, part of verse); the English body does not cite 59:7. quran_arabic has the full Uthmani verse if preferred.",
+  "Lucas 80-87% figure kept as given; source not covered by review note."
+ ]
+}

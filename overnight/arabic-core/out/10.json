@@ -1,0 +1,43 @@
+{
+ "n": 10,
+ "id": "p1#s-prophecy--what-makes-a-prophecy-count",
+ "title": "متى تُعدّ النبوءة دليلًا؟",
+ "thesis": "لا تكون النبوءة دليلًا إلا إذا كانت محددة، وفيها مخاطرة، ومسجّلة قبل وقوع الحدث، ويبعد أن تتحقق بالمصادفة. وبعض النبوءات أدناه تجتاز هذه الاختبارات الأربعة؛ وبعضها أضعف وينبغي استعماله بحذر.",
+ "premises": [
+  {
+   "tag": "١",
+   "text": "التنبؤ الغامض، أو الذي قيل بعد وقوع الحدث، أو الذي كان متوقعًا على أي حال، لا يُثبت شيئًا."
+  },
+  {
+   "tag": "٢",
+   "text": "أما التنبؤ الدقيق، المخالف للتوقعات، الذي يثبت تسجيله قبل الحدث، ثم يتحقق، فلا يمكن تفسيره بالحظ أو بالتعديل اللاحق."
+  },
+  {
+   "tag": "٣",
+   "text": "فإذا صدرت عن شخص تنبؤات كثيرة من هذا النوع، وعُرف بالصدق، ولم يكن له دافع دنيوي، فأفضل تفسير أنه كان يتلقى علمًا من الله كما قال."
+  },
+  {
+   "tag": "∴",
+   "text": "الاختبار تراكمي: كل نبوءة تتحقق ترفع احتمال أن النبي ﷺ كان يتكلم عن وحي."
+  }
+ ],
+ "evidence": [
+  "مفاتيح الشام (قصورها الحمر).",
+  "مفاتيح فارس (القصر الأبيض في المدائن).",
+  "مفاتيح اليمن.\nوفي غضون جيل واحد صارت البلاد الثلاثة كلها تحت حكم المسلمين: اليمن في حياة النبي ﷺ، ثم الشام (٦٣٦م) وفارس (٦٣٧م) (مسند أحمد). وهذه نبوءة قيلت في أسوأ لحظة ممكنة، على خلاف كل التوقعات."
+ ],
+ "quotes": [],
+ "objections": [],
+ "practice": {
+  "q": "«النبوءات غامضة بما يكفي لتنطبق على أي شيء.»",
+  "a": "لهذا كان الاختبار هو: التحديد، والمخاطرة، والتسجيل المسبق، وبُعد الاحتمال. فالقول بأن الروم سيهزمون الفرس في غضون ثلاث إلى تسع سنوات، وقد قيل حين كانت الروم تنهار، قولٌ محدد، وفيه مخاطرة، ومسجّل قبل وقوع الحدث."
+ },
+ "sum": "احكم على النبوءات بالتحديد والمخاطرة والتسجيل المسبق وبُعد الاحتمال. والحالات أدناه تجتاز الاختبارات الأربعة كلها.",
+ "omitted": [],
+ "check": [
+  "Practice answer paraphrases the Quranic prophecy about Rome (Surat al-Rum) with no reference and no quran_arabic supplied; translated as plain paraphrase, not as Quran wording. If shown as Quran, add the verified Uthmani text.",
+  "Evidence bullets look truncated: the setting behind 'the worst possible moment' and the hadith wording on the keys are not in the packet; the reference is only 'Musnad Ahmad' with no number.",
+  "Thesis says some prophecies are weaker; sum says 'the cases below pass all four tests'. Inconsistency kept as in the English.",
+  "Dates 636/637 marked as CE (م)."
+ ]
+}
