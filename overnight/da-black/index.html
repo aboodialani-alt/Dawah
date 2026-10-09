@@ -1,0 +1,348 @@
+<title>Dawah Study Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Alegreya:ital,wght@0,400;0,500;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Layout: a matte black cover (60%) with gold type and ornament (30%) and a red label accent (10%); the ornamental spine panel on the right is the navigation. */
+:root{
+  --black:#0b0a08; --black-2:#121009; --black-3:#1a1710;
+  --gold:#c8a55f; --gold-hi:#ead39a; --gold-dim:#7d6a40; --gold-line:rgba(200,165,95,.28);
+  --red:#9a1f1f; --red-hi:#c23b33;
+  --text:#e8dcc0; --mute:#a39577;
+  --f-ar:'Aref Ruqaa','Amiri',serif;
+  --f-disp:'Cormorant Garamond','Iowan Old Style',Georgia,serif;
+  --f-body:'Alegreya','Iowan Old Style',Georgia,serif;
+  --f-cap:'Alegreya Sans SC','Gill Sans',system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--black);color:var(--text);font:18px/1.6 var(--f-body)}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold-hi);outline-offset:2px}
+.app{display:grid;grid-template-columns:minmax(0,1fr) 300px;min-height:100%}
+main{min-width:0;padding-inline:clamp(16px,5vw,72px);padding-block:40px 80px;
+  background:radial-gradient(120% 70% at 30% 0%,#15120c 0%,var(--black) 60%)}
+.wrap{max-width:860px;margin:0 auto}
+
+/* ---------- the spine panel ---------- */
+.spine{position:sticky;top:env(safe-area-inset-top,0px);height:100vh;height:100dvh;overflow:hidden;background:var(--black-2);border-left:1px solid var(--gold-line);display:flex;flex-direction:column;align-items:center;padding-block:22px}
+.spine canvas{position:absolute;inset:0;width:100%;height:100%}
+.spine>*:not(canvas){position:relative}
+.spine .seal.end{margin-top:auto}
+.seal{width:62px;height:62px;flex:none;display:grid;place-items:center;border-radius:50%;background:var(--black);border:1px solid var(--gold);box-shadow:0 0 0 4px var(--black),0 0 0 5px var(--gold-dim);color:var(--gold);font:700 26px/1 var(--f-ar);text-decoration:none}
+.cart{margin:20px 0 16px;background:var(--black);padding:6px;border:1px solid var(--red);box-shadow:0 0 0 3px var(--black),0 0 0 4px var(--red)}
+.cart div{border:1px solid var(--gold-dim);padding:8px 18px;text-align:center}
+.cart b{display:block;font:700 30px/1.2 var(--f-ar);color:var(--gold-hi)}
+.cart span{font:500 12px/1 var(--f-cap);letter-spacing:.16em;color:var(--gold)}
+.vols{flex:0 1 auto;min-height:0;width:calc(100% - 36px);overflow:auto;background:rgba(11,10,8,.92);border:1px solid var(--gold-line);padding:6px;scrollbar-width:thin;scrollbar-color:var(--gold-dim) transparent}
+.vols a{display:grid;grid-template-columns:42px 1fr auto;align-items:baseline;gap:6px;padding:9px 10px;text-decoration:none;color:var(--mute);font-size:15.5px;line-height:1.25;border-left:2px solid transparent}
+.vols a i{font:normal 600 16px var(--f-disp);color:var(--gold)}
+.vols a em{font:normal 12px var(--f-cap);color:var(--gold-dim);font-variant-numeric:tabular-nums}
+.vols a:hover{color:var(--text);background:var(--black-3)}
+.vols a[aria-current]{color:var(--gold-hi);border-left-color:var(--red);background:var(--black-3)}
+.vols hr{border:0;border-top:1px solid var(--gold-line);margin:6px 8px}
+.prog{margin:14px 0 14px;width:calc(100% - 36px);font:500 12px/1.4 var(--f-cap);letter-spacing:.12em;color:var(--gold);text-align:center;background:rgba(11,10,8,.92);padding:8px;border:1px solid var(--gold-line)}
+.prog .bar{height:2px;background:var(--gold-line);margin-top:6px}.prog .bar i{display:block;height:100%;background:var(--gold)}
+
+/* ---------- shared ---------- */
+.cap{font:500 13px/1.3 var(--f-cap);letter-spacing:.16em;color:var(--gold)}
+h1,h2,h3{font-family:var(--f-disp);font-weight:600;color:var(--gold-hi);text-wrap:balance;margin:0}
+.rule{display:flex;align-items:center;gap:14px;margin:52px 0 20px}
+.rule:after{content:"";flex:1;height:1px;background:var(--gold-line)}
+.rule .cap{white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--gold-dim);background:transparent;padding:8px 16px;font:500 13px var(--f-cap);letter-spacing:.12em;color:var(--gold);cursor:pointer;text-decoration:none}
+.btn:hover{border-color:var(--gold);color:var(--gold-hi)}
+.btn.red{background:var(--red);border-color:var(--red);color:#f6e7c8}
+.btn.red:hover{background:var(--red-hi);border-color:var(--red-hi)}
+.btn[aria-pressed=true]{border-color:var(--gold);color:var(--black);background:var(--gold)}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--black-3);border:1px solid var(--gold);color:var(--gold-hi);padding:10px 18px;font-size:15px;z-index:9;max-width:calc(100% - 32px)}
+mark{background:none;color:var(--gold-hi);border-bottom:1px solid var(--gold)}
+.fade{animation:in .35s ease both}
+@keyframes in{from{opacity:.001;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+/* ---------- home ---------- */
+.hero{text-align:center;padding-top:24px}
+.hero .ar{font:700 clamp(64px,11vw,128px)/1.35 var(--f-ar);color:var(--gold);margin:0}
+.hero .en{font:600 clamp(24px,3.4vw,34px)/1.2 var(--f-disp);color:var(--gold-hi);letter-spacing:.04em;margin-top:2px}
+.hero p{color:var(--mute);margin:12px auto 0;max-width:34em}
+.find{display:flex;margin:30px auto 0;max-width:680px;border:1px solid var(--gold-dim);background:var(--black-2)}
+.find:focus-within{border-color:var(--gold)}
+.find input{flex:1;min-width:0;border:0;background:transparent;padding:16px 18px;font-size:18px;outline:none}
+.find input::placeholder{color:var(--gold-dim);font-style:italic}
+.find .btn{border:0;padding-inline:22px}
+.hint{text-align:center;margin-top:10px;font-size:14px;color:var(--gold-dim)}
+.hint kbd{font:12px var(--f-cap);border:1px solid var(--gold-dim);padding:1px 6px}
+.results{margin-top:22px;text-align:left}
+.res{display:block;padding:16px 4px;border-bottom:1px solid var(--gold-line);text-decoration:none}
+.res:hover h3{color:var(--gold-hi)}
+.res h3{font-size:22px;color:var(--gold)}
+.res p{margin:4px 0 0;color:var(--mute);font-size:16px;line-height:1.5}
+.res .cap{font-size:11.5px;color:var(--gold-dim)}
+.none{color:var(--mute);font-style:italic;padding:12px 4px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.pick{display:block;text-decoration:none;padding:18px 20px;border:1px solid var(--gold-line);background:var(--black-2)}
+.pick:hover{border-color:var(--gold-dim)}
+.pick h3{font-size:23px;margin:6px 0 6px;line-height:1.15}
+.pick p{margin:0;color:var(--mute);font-size:15.5px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--gold-line);border:1px solid var(--gold-line)}
+.vol{display:flex;flex-direction:column;gap:6px;background:var(--black);padding:20px 20px 18px;text-decoration:none;min-height:150px}
+.vol:hover{background:var(--black-3)}
+.vol .n{font:600 34px/1 var(--f-disp);color:var(--gold)}
+.vol h3{font-size:21px;line-height:1.15;color:var(--text)}
+.vol:hover h3{color:var(--gold-hi)}
+.vol .meta{margin-top:auto;display:flex;justify-content:space-between;font:500 12px var(--f-cap);letter-spacing:.1em;color:var(--gold-dim);font-variant-numeric:tabular-nums}
+.vol .bar{height:2px;background:var(--gold-line)}.vol .bar i{display:block;height:100%;background:var(--gold)}
+.rooms{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.room{text-align:left;cursor:pointer;background:transparent;border:0;border-top:1px solid var(--gold-dim);padding:14px 0 0}
+.room b{display:block;font:600 22px/1.2 var(--f-disp);color:var(--gold-hi)}
+.room span{display:block;color:var(--mute);font-size:15.5px;line-height:1.5;margin-top:4px}
+.room:hover b{color:var(--gold)}
+
+/* ---------- volume ---------- */
+.crumb{font:500 13px var(--f-cap);letter-spacing:.14em;color:var(--gold-dim);display:flex;gap:10px;flex-wrap:wrap}
+.crumb a{text-decoration:none;color:var(--gold)}.crumb a:hover{color:var(--gold-hi)}
+.vhead{display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center;margin:26px 0 8px}
+.vhead .n{font:600 84px/1 var(--f-disp);color:var(--gold);min-width:1.4em;text-align:center;border-right:1px solid var(--gold-line);padding-right:26px}
+.vhead h1{font-size:clamp(32px,4.4vw,48px);line-height:1.05}
+.vhead p{margin:10px 0 0;color:var(--mute)}
+.filter{margin-top:22px;width:100%;border:0;border-bottom:1px solid var(--gold-dim);background:transparent;padding:10px 2px;font-size:17px;outline:none}
+.filter::placeholder{color:var(--gold-dim);font-style:italic}
+.filter:focus{border-bottom-color:var(--gold)}
+.sec{margin-top:34px}
+.sec>.cap{display:block;padding-bottom:8px;border-bottom:1px solid var(--gold-line)}
+.row{display:grid;grid-template-columns:28px minmax(0,1fr);gap:8px;padding:14px 0;border-bottom:1px solid rgba(200,165,95,.12);text-decoration:none}
+.row .ok{color:var(--gold);font-size:15px;padding-top:4px}
+.row b{display:block;font:600 21px/1.25 var(--f-disp);color:var(--text)}
+.row:hover b{color:var(--gold-hi)}
+.row span{display:block;color:var(--mute);font-size:15.5px;line-height:1.45;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ---------- argument ---------- */
+.arg h1{font-size:clamp(34px,4.8vw,54px);line-height:1.04;margin:14px 0 0}
+.thesis{font:500 clamp(21px,2.3vw,25px)/1.45 var(--f-disp);color:var(--text);margin:22px 0 0;padding-left:20px;border-left:1px solid var(--gold)}
+.acts{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+.block{margin-top:38px}
+.block .cap{display:block;margin-bottom:10px}
+.block p{margin:0;max-width:40em}
+.say{display:grid;gap:14px}
+.say .q{font:italic 500 22px/1.4 var(--f-disp);color:var(--gold-hi)}
+.say .a{padding-left:18px;border-left:1px solid var(--gold-dim)}
+details{border-top:1px solid var(--gold-line)}
+details:last-of-type{border-bottom:1px solid var(--gold-line)}
+summary{cursor:pointer;list-style:none;padding:14px 30px 14px 0;position:relative;font:italic 500 19px/1.4 var(--f-disp);color:var(--gold-hi)}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";position:absolute;right:4px;top:12px;font:400 22px var(--f-disp);color:var(--gold)}
+details[open] summary:after{content:"–"}
+details p{padding:0 0 16px;color:var(--text)}
+.caution{margin-top:30px;border:1px solid var(--red);padding:14px 18px;background:rgba(154,31,31,.08)}
+.caution .cap{color:var(--red-hi)}
+.evs{color:var(--mute);font-size:16.5px}
+.pager{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:56px;border-top:1px solid var(--gold-line);padding-top:18px}
+.pager a{text-decoration:none;min-width:0}
+.pager a b{display:block;font:600 19px/1.25 var(--f-disp);color:var(--gold)}
+.pager a:hover b{color:var(--gold-hi)}
+.pager a:last-child{text-align:right}
+
+/* ---------- phone ---------- */
+@media (max-width:900px){
+  .app{grid-template-columns:1fr}
+  .spine{position:sticky;top:env(safe-area-inset-top,0px);height:auto;z-index:5;flex-direction:row;padding:10px 16px;gap:12px;border-left:0;border-bottom:1px solid var(--gold-line);order:-1}
+  .seal{width:40px;height:40px;font-size:18px;box-shadow:0 0 0 3px var(--black),0 0 0 4px var(--gold-dim)}
+  .cart,.prog,.spine .seal.end{display:none}
+  .vols{display:flex;gap:4px;overflow-x:auto;width:auto;flex:1;padding:4px;border:0;background:rgba(11,10,8,.9)}
+  .vols a{display:block;white-space:nowrap;padding:6px 10px;border-left:0;border-bottom:2px solid transparent}
+  .vols a[aria-current]{border-bottom-color:var(--red)}
+  .vols a span,.vols a em,.vols hr{display:none}
+  main{padding-block:28px 60px}
+  .pair,.rooms{grid-template-columns:1fr}
+  .hint{display:none}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .vhead{grid-template-columns:1fr;gap:10px}.vhead .n{border:0;padding:0;text-align:left;font-size:60px}
+}
+@media (max-width:440px){.grid{grid-template-columns:1fr}.find .btn{padding-inline:14px}}
+@media (prefers-reduced-motion:reduce){.fade{animation:none}}
+</style>
+
+<div class="app">
+  <main id="main"><div class="wrap"><p class="none">Opening the library…</p></div></main>
+  <aside class="spine" aria-label="Volumes">
+    <canvas id="orn" aria-hidden="true"></canvas>
+    <a class="seal" href="#" title="Home"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 1l2.6 5.7L20.5 4l-2.7 5.9L23 12l-5.2 2.1 2.7 5.9-5.9-2.7L12 23l-2.6-5.7L3.5 20l2.7-5.9L1 12l5.2-2.1L3.5 4l5.9 2.7z" fill="currentColor"/></svg></a>
+    <div class="cart"><div><b>مكتبة الدعوة</b><span>Dawah Study Library</span></div></div>
+    <nav class="vols" id="vols"></nav>
+    <div class="prog" id="prog"></div>
+    <span class="seal end" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 1l2.6 5.7L20.5 4l-2.7 5.9L23 12l-5.2 2.1 2.7 5.9-5.9-2.7L12 23l-2.6-5.7L3.5 20l2.7-5.9L1 12l5.2-2.1L3.5 4l5.9 2.7z" fill="currentColor"/></svg></span>
+  </aside>
+</div>
+
+<script>
+(() => {
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem('dab:' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem('dab:' + k, JSON.stringify(v)); } catch (e) {} }
+  };
+  let D, byId = new Map(), studied = new Set(store.get('studied', []));
+  const key = b => b.p + '.' + b.a;
+  const short = { p1: 'Proofs for Islam', p2: 'Refuting Christianity', p3: 'Old Testament & Judaism', p4: 'Refuting atheism', p5: 'Answering objections', p6: 'Philosophy for debaters', p7: 'Reading list', p8: 'Modern ideologies', p9: 'The Quran under attack' };
+
+  function toast(t) {
+    const el = document.createElement('div'); el.className = 'toast'; el.textContent = t; document.body.appendChild(el);
+    setTimeout(() => el.remove(), 2600);
+  }
+
+  /* ---- ornament: gold eight-point lattice drawn on the spine ---- */
+  function ornament() {
+    const c = $('#orn'), r = c.getBoundingClientRect(), dpr = Math.min(2, devicePixelRatio || 1);
+    c.width = r.width * dpr; c.height = r.height * dpr;
+    const x = c.getContext('2d'); x.scale(dpr, dpr); x.strokeStyle = 'rgba(200,165,95,.32)'; x.lineWidth = 1;
+    const s = 44;
+    for (let cy = -s; cy < r.height + s; cy += s) for (let cx = (Math.round(cy / s) % 2) * s / 2 - s; cx < r.width + s; cx += s) {
+      for (const rot of [0, Math.PI / 4]) {
+        x.beginPath();
+        for (let i = 0; i < 4; i++) { const a = rot + i * Math.PI / 2, R = s * .36; const px = cx + Math.cos(a) * R, py = cy + Math.sin(a) * R; i ? x.lineTo(px, py) : x.moveTo(px, py); }
+        x.closePath(); x.stroke();
+      }
+      x.beginPath(); x.arc(cx, cy, s * .1, 0, 7); x.stroke();
+    }
+  }
+
+  /* ---- search ---- */
+  const norm = s => String(s || '').toLowerCase().replace(/[’']/g, '').normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const STOP = new Set('the a an of and or to in is are was were be it that this for on with as by at from his he they them their not but so if do does did can you your we our has have had'.split(' '));
+  const toks = s => norm(s).split(/[^a-z0-9]+/).filter(w => w.length > 2 && !STOP.has(w));
+  function search(q) {
+    const t = toks(q); if (!t.length) return [];
+    const need = t.length > 3 ? Math.ceil(t.length * .6) : t.length;
+    return D.briefs.map(b => {
+      const T = norm(b.title), H = norm(b.thesis), R = norm([b.sum, b.prac && b.prac.q, (b.obj || []).map(o => o.q).join(' '), b.sec].join(' '));
+      let hit = 0, sc = 0;
+      for (const w of t) { const a = T.includes(w), h = H.includes(w), r = R.includes(w); if (a || h || r) hit++; sc += a * 4 + h * 2 + r; }
+      return { b, sc: hit >= need ? sc + hit * 3 : 0 };
+    }).filter(x => x.sc).sort((a, b) => b.sc - a.sc).slice(0, 8).map(x => x.b);
+  }
+  const hl = (s, q) => { let h = esc(s); for (const w of toks(q)) h = h.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'), '<mark>$1</mark>'); return h; };
+
+  /* ---- views ---- */
+  function nav(cur) {
+    $('#vols').innerHTML = '<a href="#"' + (cur === '' ? ' aria-current="page"' : '') + '><i>✦</i><span>Home</span><em></em></a><hr>' +
+      D.parts.map(p => '<a href="#' + p.id + '"' + (cur === p.id ? ' aria-current="page"' : '') + '><i>' + p.no + '</i><span>' + esc(short[p.id] || p.title) + '</span><em>' + count(p.id) + '</em></a>').join('');
+    const n = studied.size;
+    $('#prog').innerHTML = n + ' of ' + D.briefs.length + ' studied<div class="bar"><i style="width:' + (n / D.briefs.length * 100) + '%"></i></div>';
+  }
+  const inPart = id => D.briefs.filter(b => b.p === id);
+  const count = id => inPart(id).length;
+  const done = id => inPart(id).filter(b => studied.has(key(b))).length;
+  const today = () => { const d = new Date(); return D.briefs[(d.getFullYear() * 400 + d.getMonth() * 31 + d.getDate()) % D.briefs.length]; };
+
+  function home() {
+    const last = byId.get(store.get('last', ''));
+    const t = today();
+    const pick = (lab, b) => '<a class="pick" href="#' + key(b) + '"><span class="cap">' + lab + '</span><h3>' + esc(b.title) + '</h3><p>' + esc(b.thesis) + '</p></a>';
+    return '<div class="hero"><p class="ar" lang="ar">مكتبة الدعوة</p><div class="en">Dawah Study Library</div>' +
+      '<p>' + D.briefs.length + ' arguments in nine volumes. Paste what they said and the library finds the answer.</p>' +
+      '<form class="find" id="find" role="search"><input id="q" type="search" autocomplete="off" placeholder="“The hadith were written centuries later…”" aria-label="Search the library"><button class="btn red" type="submit">Find</button></form>' +
+      '<div class="hint">Press <kbd>/</kbd> to search from anywhere</div><div class="results" id="results" aria-live="polite"></div></div>' +
+      '<div class="rule"><span class="cap">Pick up from here</span></div><div class="pair">' +
+      (last ? pick('Where you stopped', last) : pick('Start here', D.briefs[0])) + pick('Argument of the day', t) + '</div>' +
+      '<div class="rule"><span class="cap">The nine volumes</span></div><div class="grid">' +
+      D.parts.map(p => { const c = count(p.id), d = done(p.id); return '<a class="vol" href="#' + p.id + '"><span class="n">' + p.no + '</span><h3>' + esc(p.title) + '</h3><div class="meta"><span>' + c + ' entries</span><span>' + (d ? d + ' studied' : '') + '</span></div><div class="bar"><i style="width:' + (d / c * 100) + '%"></i></div></a>'; }).join('') + '</div>' +
+      '<div class="rule"><span class="cap">Train</span></div><div class="rooms">' +
+      [['Daily session', 'Twelve minutes on what you are about to forget.'], ['Sparring room', 'Argue with a sharp but fair opponent.'], ['Debate dossier', 'Prepare for a specific person.']]
+        .map(([a, b]) => '<button class="room" type="button" data-room="' + a + '"><b>' + a + '</b><span>' + b + '</span></button>').join('') + '</div>';
+  }
+
+  function volume(id) {
+    const p = D.parts.find(x => x.id === id); const bs = inPart(id); const secs = [];
+    for (const b of bs) { let s = secs.find(x => x.n === b.sec); if (!s) secs.push(s = { n: b.sec, b: [] }); s.b.push(b); }
+    return '<nav class="crumb"><a href="#">Library</a><span>/</span><span>Volume ' + p.no + '</span></nav>' +
+      '<div class="vhead"><div class="n">' + p.no + '</div><div><h1>' + esc(p.title) + '</h1><p>' + esc(p.desc) + '</p></div></div>' +
+      '<input class="filter" id="vf" type="search" placeholder="Filter the ' + bs.length + ' entries in this volume" aria-label="Filter this volume">' +
+      '<div id="secs">' + secs.map(s => '<section class="sec"><span class="cap">' + esc(s.n) + '</span>' + s.b.map(b =>
+        '<a class="row" href="#' + key(b) + '" data-t="' + esc(norm(b.title + ' ' + b.thesis)) + '"><span class="ok" aria-label="' + (studied.has(key(b)) ? 'studied' : '') + '">' + (studied.has(key(b)) ? '✓' : '') + '</span><div style="min-width:0"><b>' + esc(b.title) + '</b><span>' + esc(b.thesis) + '</span></div></a>').join('') + '</section>').join('') + '</div>';
+  }
+
+  function argument(b) {
+    const p = D.parts.find(x => x.id === b.p), list = inPart(b.p), i = list.indexOf(b), prev = list[i - 1], next = list[i + 1];
+    const on = studied.has(key(b));
+    return '<article class="arg"><nav class="crumb"><a href="#">Library</a><span>/</span><a href="#' + p.id + '">Volume ' + p.no + '</a><span>/</span><span>' + esc(b.sec) + '</span></nav>' +
+      '<h1>' + esc(b.title) + '</h1><p class="thesis">' + esc(b.thesis) + '</p>' +
+      '<div class="acts"><button class="btn" id="mark" type="button" aria-pressed="' + on + '">' + (on ? '✓ Studied' : 'Mark as studied') + '</button><button class="btn" id="copy" type="button">Copy brief</button></div>' +
+      (b.caution ? '<div class="caution"><span class="cap">Use with care</span><p>' + esc(b.caution) + '</p></div>' : '') +
+      (b.sum ? '<div class="block"><span class="cap">In short</span><p>' + esc(b.sum) + '</p></div>' : '') +
+      (b.prac && b.prac.q ? '<div class="block"><span class="cap">If they say</span><div class="say"><div class="q">' + esc(b.prac.q) + '</div><div class="a">' + esc(b.prac.a) + '</div></div></div>' : '') +
+      ((b.obj || []).length ? '<div class="block"><span class="cap">Objections and answers</span>' + b.obj.map(o => '<details><summary>' + esc(o.q) + '</summary><p>' + esc(o.a) + '</p></details>').join('') + '</div>' : '') +
+      (b.evs ? '<div class="block"><span class="cap">Evidence</span><p class="evs">' + esc(b.evs) + '</p></div>' : '') +
+      '<nav class="pager">' + (prev ? '<a href="#' + key(prev) + '"><span class="cap">Previous</span><b>' + esc(prev.title) + '</b></a>' : '<span></span>') +
+      (next ? '<a href="#' + key(next) + '"><span class="cap">Next</span><b>' + esc(next.title) + '</b></a>' : '') + '</nav></article>';
+  }
+
+  function brief(b) {
+    return [b.title, '', b.thesis, b.sum && '\nIn short: ' + b.sum, b.prac && b.prac.q && '\nIf they say: ' + b.prac.q + '\nAnswer: ' + b.prac.a].filter(Boolean).join('\n');
+  }
+
+  function route() {
+    const h = decodeURIComponent(location.hash.slice(1));
+    const b = byId.get(h), p = D.parts.find(x => x.id === h);
+    const m = $('#main');
+    m.innerHTML = '<div class="wrap fade">' + (b ? argument(b) : p ? volume(p.id) : home()) + '</div>';
+    nav(b ? b.p : p ? p.id : '');
+    if (b) store.set('last', h);
+    window.scrollTo(0, 0);
+    document.title = b ? b.title + ' · Dawah Study Library' : p ? p.title + ' · Dawah Study Library' : 'Dawah Study Library';
+    wire(b);
+  }
+
+  function wire(b) {
+    const q = $('#q');
+    if (q) {
+      const run = () => {
+        const v = q.value.trim(), r = $('#results');
+        if (!v) { r.innerHTML = ''; return; }
+        const hits = search(v);
+        r.innerHTML = hits.length ? hits.map(h => '<a class="res" href="#' + key(h) + '"><span class="cap">Volume ' + D.parts.find(x => x.id === h.p).no + ' · ' + esc(h.sec) + '</span><h3>' + hl(h.title, v) + '</h3><p>' + hl(h.thesis, v) + '</p></a>').join('')
+          : '<p class="none">Nothing matches yet. Try the key words of the claim, such as “Trinity” or “Sana’a”.</p>';
+      };
+      let t; q.addEventListener('input', () => { clearTimeout(t); t = setTimeout(run, 120); });
+      $('#find').addEventListener('submit', e => { e.preventDefault(); const h = search(q.value)[0]; if (h) location.hash = key(h); else run(); });
+      try { const s = sessionStorage.getItem('dab:q'); if (s) { q.value = s; run(); sessionStorage.removeItem('dab:q'); } } catch (e) {}
+    }
+    document.querySelectorAll('[data-room]').forEach(el => el.addEventListener('click', () => toast('The ' + el.dataset.room + ' joins this design when it is applied to the DA.')));
+    const vf = $('#vf');
+    if (vf) vf.addEventListener('input', () => {
+      const v = toks(vf.value);
+      document.querySelectorAll('#secs .row').forEach(r => { r.hidden = v.length && !v.every(w => r.dataset.t.includes(w)); });
+      document.querySelectorAll('#secs .sec').forEach(s => { s.hidden = !s.querySelector('.row:not([hidden])'); });
+    });
+    if (b) {
+      $('#mark').addEventListener('click', e => {
+        const k = key(b); studied.has(k) ? studied.delete(k) : studied.add(k); store.set('studied', [...studied]);
+        const on = studied.has(k); e.currentTarget.setAttribute('aria-pressed', on); e.currentTarget.textContent = on ? '✓ Studied' : 'Mark as studied'; nav(b.p);
+      });
+      $('#copy').addEventListener('click', () => {
+        navigator.clipboard.writeText(brief(b)).then(() => toast('Brief copied'), () => toast('Copying is blocked here. Select the text instead.'));
+      });
+    }
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) {
+      e.preventDefault();
+      if ($('#q')) $('#q').focus(); else location.hash = '';
+    }
+    if (e.key === 'Escape' && location.hash) {
+      const h = location.hash.slice(1), b = byId.get(decodeURIComponent(h));
+      location.hash = b ? b.p : '';
+    }
+  });
+  addEventListener('hashchange', route);
+  addEventListener('resize', () => { clearTimeout(ornament.t); ornament.t = setTimeout(ornament, 150); });
+
+  fetch('idx.json').then(r => r.json()).then(d => {
+    D = d; for (const b of D.briefs) byId.set(key(b), b);
+    ornament(); route();
+    if (!location.hash) { const q = $('#q'); if (q) q.focus({ preventScroll: true }); }
+  }).catch(() => { $('#main').innerHTML = '<div class="wrap"><p class="none">The library index did not load. Reload the page to try again.</p></div>'; });
+})();
+</script>
