@@ -154,6 +154,43 @@ details p{padding:0 18px 4px;margin:0 0 12px}
 .keys{font-size:13px;color:var(--mute)}
 .keys kbd{font:12px var(--f-cap);border:1px solid var(--line);border-radius:4px;padding:0 5px}
 
+
+.tabs{display:inline-flex;gap:4px;margin:22px 0 4px;padding:4px;background:var(--paper);border:1px solid var(--line);border-radius:999px}
+.tabs button{border:0;background:none;border-radius:999px;padding:8px 20px;font:500 14px var(--f-cap);letter-spacing:.12em;color:var(--mute);cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--leather);color:var(--gold-soft)}
+.tabs button:hover{color:var(--ink)}.tabs button[aria-selected=true]:hover{color:#ead39a}
+.blk:first-child{margin-top:26px}
+.avoid{display:grid;gap:10px}.avoid .caution{margin:0}
+.orig p{margin:0 0 12px;max-width:40em}
+.orig .syl{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.orig .syl li{display:grid;grid-template-columns:48px minmax(0,1fr);gap:14px;align-items:start;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+.orig .ptag{display:grid;place-items:center;height:30px;border-radius:999px;background:var(--leather);color:var(--gold-soft);font:700 14px var(--f-cap);letter-spacing:.06em}
+.orig .syl li.concl{border-color:var(--gold);background:color-mix(in srgb,var(--gold-soft) 14%,var(--paper));font-weight:500}
+.orig ul{padding-left:1.2em;margin:0 0 12px}.orig li{margin-bottom:6px}
+.orig .obj{border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:14px 18px;margin-bottom:10px}
+.orig .obj .q{font-style:italic;font-weight:500;margin-bottom:8px}
+.orig .obj .a{padding-left:16px;border-left:2px solid var(--gold-soft)}
+.orig .obj .a p:last-child,.orig .rebut p:last-child{margin-bottom:0}
+.orig .rebut{border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:16px 18px}
+.orig .rb-tag{font:500 12.5px var(--f-cap);letter-spacing:.14em;color:var(--gold);margin-bottom:4px}
+.orig .rb-q{font-style:italic;font-size:19px}
+.orig .rb-a{display:none;margin-top:12px;padding:12px 16px;border-radius:12px;background:color-mix(in srgb,var(--gold-soft) 16%,var(--paper))}
+.orig .rebut.open .rb-a{display:block}
+.orig .fig{margin:6px 0 18px}
+.orig .thumb{display:block;padding:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--paper);cursor:zoom-in;max-width:100%}
+.orig .thumb img{display:block;max-width:100%;max-height:440px;width:auto}
+.orig figcaption{font-size:14.5px;color:var(--mute);margin-top:6px;max-width:40em}
+.orig .srcnote{font-size:15px;color:var(--mute)}
+.orig .srclabel{font:500 12px var(--f-cap);letter-spacing:.12em;color:var(--gold);margin-right:6px}
+.orig blockquote.ar{margin:0 0 12px;padding:12px 18px;background:var(--paper);border:1px solid var(--line);border-right:3px solid var(--gold);border-radius:14px 4px 4px 14px}
+.orig blockquote.ar p{font:400 25px/1.9 var(--f-quran);margin:0;max-width:none}
+.orig blockquote.ar cite{display:block;font:500 12.5px var(--f-cap);letter-spacing:.1em;color:var(--mute);font-style:normal}
+.k-thesis p{font-size:20px;line-height:1.65}
+.lb{position:fixed;inset:max(16px,4vh) max(16px,4vw);z-index:12;margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;pointer-events:none}
+.lb img{max-width:100%;max-height:calc(100% - 90px);border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5);pointer-events:auto;background:var(--paper)}
+.lb figcaption{color:#f2ede3;font-size:15px;text-align:center;max-width:60em}
+.lb .btn{pointer-events:auto}
+
 /* ---------- drawer ---------- */
 .scrim{position:fixed;inset:0;background:rgba(15,15,16,.45);z-index:10}
 .drawer{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);z-index:11;background:var(--paper);box-shadow:-20px 0 50px rgba(0,0,0,.25);display:flex;flex-direction:column;animation:slide .25s ease both}
@@ -327,19 +364,61 @@ details p{padding:0 18px 4px;margin:0 0 12px}
         '<a class="row" href="#' + key(b) + '" data-t="' + esc(norm(b.title + ' ' + b.thesis)) + '"><div style="min-width:0"><b>' + esc(b.title) + '</b><span>' + esc(b.thesis) + '</span></div><em>' + (studied.has(key(b)) ? '✓ studied' : '') + '</em></a>').join('') + '</section>').join('') + '<div class="pb"></div></div>';
   }
   function argument(b) {
-    const list = inPart(b.p), i = list.indexOf(b), prev = list[i - 1], next = list[i + 1], on = studied.has(key(b));
-    const blocks = [];
-    if (b.sum) blocks.push(['short', 'In short', '<p>' + esc(b.sum) + '</p>']);
-    if (b.prac && b.prac.q) blocks.push(['say', 'If they say', '<div class="say"><div class="q">' + esc(b.prac.q) + '</div><div class="a">' + esc(b.prac.a) + '</div></div>']);
-    if ((b.obj || []).length) blocks.push(['obj', 'Objections and answers', b.obj.map(o => '<details><summary>' + esc(o.q) + '</summary><p>' + esc(o.a) + '</p></details>').join('')]);
-    if (b.evs) blocks.push(['evs', 'Evidence', '<p class="evs">' + esc(b.evs) + '</p>']);
-    return '<div class="wrap"><div class="arg"><article><span class="cap">Volume ' + part(b.p).no + ' · ' + esc(b.sec) + '</span><h1>' + esc(b.title) + '</h1><p class="thesis">' + esc(b.thesis) + '</p>' +
-      (b.caution ? '<div class="caution"><span class="cap">Use with care</span><p>' + esc(b.caution) + '</p></div>' : '') +
-      blocks.map(([id, h, body]) => '<section class="blk" id="b-' + id + '"><h2>' + h + '</h2>' + body + '</section>').join('') + '</article>' +
-      '<aside class="side"><nav class="toc" aria-label="On this page"><span class="cap" style="margin-bottom:6px">On this page</span>' + blocks.map(([id, h]) => '<button type="button" data-go="b-' + id + '">' + h + '</button>').join('') + '</nav>' +
+    const list = inPart(b.p), i = list.indexOf(b), prev = list[i - 1], next = list[i + 1], on = studied.has(key(b)), tab = store.get('tab', 'easy');
+    return '<div class="wrap"><div class="arg"><article><span class="cap">Volume ' + part(b.p).no + ' · ' + esc(b.sec) + '</span><h1>' + esc(b.title) + '</h1>' +
+      '<div class="tabs" role="tablist" aria-label="How to read this argument">' +
+      '<button type="button" role="tab" id="t-easy" aria-selected="' + (tab === 'easy') + '" aria-controls="tabbody">Easy read</button>' +
+      '<button type="button" role="tab" id="t-full" aria-selected="' + (tab === 'full') + '" aria-controls="tabbody">Full argument</button></div>' +
+      '<div id="tabbody" role="tabpanel"></div></article>' +
+      '<aside class="side"><nav class="toc" id="toc" aria-label="On this page"></nav>' +
       '<div class="acts"><button class="btn" id="mark" type="button" aria-pressed="' + on + '">' + (on ? '✓ Studied' : 'Mark as studied') + '</button><button class="btn" id="copy" type="button">Copy brief</button></div>' +
       '<div class="pn">' + (prev ? '<a href="#' + key(prev) + '"><small>← Previous</small>' + esc(prev.title) + '</a>' : '') + (next ? '<a href="#' + key(next) + '"><small>Next →</small>' + esc(next.title) + '</a>' : '') + '</div>' +
-      '<p class="keys"><kbd>j</kbd> <kbd>k</kbd> next and previous · <kbd>Esc</kbd> back to the volume</p></aside></div></div>';
+      '<p class="keys"><kbd>j</kbd> <kbd>k</kbd> next and previous · <kbd>t</kbd> switch tab · <kbd>Esc</kbd> back to the volume</p></aside></div></div>';
+  }
+
+  /* ---- the two tabs ---- */
+  let AV = null; const ART = {};
+  const getAvoid = () => AV || (AV = fetch('avoid.json').then(r => r.json()).catch(() => ({})));
+  const getArt = p => ART[p] || (ART[p] = fetch('art/' + p + '.json').then(r => r.json()).catch(() => null));
+  const sec = (id, h, body) => '<section class="blk" id="' + id + '"><h2>' + h + '</h2>' + body + '</section>';
+
+  async function easyTab(b) {
+    const av = (await getAvoid())[key(b)] || [];
+    const blocks = [['e-thesis', 'The claim', '<p class="thesis">' + esc(b.thesis) + '</p>']];
+    if (b.sum) blocks.push(['e-short', 'In short', '<p>' + esc(b.sum) + '</p>']);
+    if (b.prac && b.prac.q) blocks.push(['e-say', 'If they say', '<div class="say"><div class="q">' + esc(b.prac.q) + '</div><div class="a">' + esc(b.prac.a) + '</div></div>']);
+    if ((b.obj || []).length) blocks.push(['e-obj', 'Objections and answers', b.obj.map(o => '<details><summary>' + esc(o.q) + '</summary><p>' + esc(o.a) + '</p></details>').join('')]);
+    if (b.evs) blocks.push(['e-evs', 'Evidence', '<p class="evs">' + esc(b.evs) + '</p>']);
+    if (b.caution || av.length) blocks.push(['e-avoid', 'What to avoid', '<div class="avoid">' +
+      (b.caution ? '<div class="caution"><span class="cap">The library says</span><p>' + esc(b.caution) + '</p></div>' : '') +
+      av.map(x => '<div class="caution"><span class="cap">' + (x.t === 'ref' ? 'Source check · ' + esc(x.ref) : 'Reviewer note') + '</span><p>' + esc(x.text) + '</p></div>').join('') + '</div>']);
+    return blocks;
+  }
+  async function fullTab(b) {
+    const d = await getArt(b.p), rows = d && d[b.a];
+    if (!rows) return [['f-none', 'Full argument', '<p class="evs">The full argument did not load. Reload the page to try again.</p>']];
+    return rows.map(r => ['f-' + r.k, esc(r.lab), '<div class="orig k-' + r.k + '">' + r.html + '</div>']);
+  }
+  async function showTab(b, tab) {
+    store.set('tab', tab);
+    $('#t-easy').setAttribute('aria-selected', tab === 'easy'); $('#t-full').setAttribute('aria-selected', tab === 'full');
+    const blocks = await (tab === 'full' ? fullTab(b) : easyTab(b));
+    if (decodeURIComponent(location.hash.slice(1)) !== key(b)) return;
+    $('#tabbody').innerHTML = '<div class="fade">' + blocks.map(([id, h, body]) => sec(id, h, body)).join('') + '</div>';
+    $$('#tabbody .rb-q').forEach(q => { const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'btn reveal'; btn.textContent = 'Show the model answer'; btn.onclick = () => { q.parentNode.classList.add('open'); btn.remove(); }; q.after(btn); });
+    $$('#tabbody .thumb').forEach(t => t.addEventListener('click', () => lightbox(t.dataset.src, t.dataset.cap)));
+    $('#toc').innerHTML = '<span class="cap" style="margin-bottom:6px">On this page</span>' + blocks.map(([id, h]) => '<button type="button" data-go="' + id + '">' + h + '</button>').join('');
+    const go = $$('[data-go]');
+    go.forEach(el => el.addEventListener('click', () => document.getElementById(el.dataset.go).scrollIntoView({ behavior: 'smooth' })));
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) go.forEach(g => g.classList.toggle('on', g.dataset.go === e.target.id)); }), { rootMargin: '-30% 0px -60% 0px' });
+      $$('#tabbody .blk').forEach(s => io.observe(s));
+    }
+  }
+  function lightbox(src, cap) {
+    $('#layer').innerHTML = '<div class="scrim" id="scrim"></div><figure class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Screenshot"><img src="' + esc(src) + '" alt=""><figcaption>' + esc(cap || '') + '</figcaption><button type="button" class="btn" id="lbx">Close</button></figure>';
+    const close = () => { $('#layer').innerHTML = ''; };
+    $('#scrim').onclick = close; $('#lbx').onclick = close; $('#lbx').focus();
   }
 
   function route() {
@@ -366,12 +445,9 @@ details p{padding:0 18px 4px;margin:0 0 12px}
       $$('.vsec').forEach(s => { s.hidden = !s.querySelector('.row:not([hidden])'); });
     });
     if (b) {
-      const go = $$('[data-go]');
-      go.forEach(el => el.addEventListener('click', () => document.getElementById(el.dataset.go).scrollIntoView({ behavior: 'smooth' })));
-      if ('IntersectionObserver' in window && go.length) {
-        const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) go.forEach(g => g.classList.toggle('on', g.dataset.go === e.target.id)); }), { rootMargin: '-30% 0px -60% 0px' });
-        $$('.blk').forEach(s => io.observe(s));
-      }
+      showTab(b, store.get('tab', 'easy'));
+      $('#t-easy').onclick = () => showTab(b, 'easy');
+      $('#t-full').onclick = () => showTab(b, 'full');
       $('#mark').addEventListener('click', e => {
         const k = key(b); studied.has(k) ? studied.delete(k) : studied.add(k); store.set('studied', [...studied]);
         const on = studied.has(k); e.currentTarget.setAttribute('aria-pressed', on); e.currentTarget.textContent = on ? '✓ Studied' : 'Mark as studied';
@@ -385,11 +461,12 @@ details p{padding:0 18px 4px;margin:0 0 12px}
 
   document.addEventListener('keydown', e => {
     const typing = /INPUT|TEXTAREA/.test(document.activeElement.tagName);
-    if ($('#drawer')) { if (e.key === 'Escape') { $('#layer').innerHTML = ''; $('#open').focus(); } return; }
+    if ($('#drawer') || $('#lb')) { if (e.key === 'Escape') { const d = $('#drawer'); $('#layer').innerHTML = ''; if (d) $('#open').focus(); } return; }
     if (typing) return;
     const h = decodeURIComponent(location.hash.slice(1)), b = byId.get(h);
     if (e.key === '/') { e.preventDefault(); $('#q').focus(); }
     else if (e.key === 'Escape' && h) location.hash = b ? b.p : '';
+    else if (b && e.key === 't') showTab(b, store.get('tab', 'easy') === 'full' ? 'easy' : 'full');
     else if (b && (e.key === 'j' || e.key === 'k')) { const l = inPart(b.p), n = l[l.indexOf(b) + (e.key === 'j' ? 1 : -1)]; if (n) location.hash = key(n); }
   });
   document.addEventListener('click', e => { if (!e.target.closest('#qbox')) $('#drop').hidden = true; });
