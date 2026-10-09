@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;500;600;700&family=Reem+Kufi:wght@500;700&display=block" rel="stylesheet">
+<style>
+:root{--teal:#0f5c5a;--teal2:#0a3f3e;--terra:#c2603a;--sand:#f1e6d3;--ivory:#fbf7ef;--gold:#c9a24a}
+*{box-sizing:border-box;margin:0}
+body{width:1440px;background:var(--sand);font-family:Manrope;color:#1f2a2a}
+.top{position:relative;height:600px;background:var(--teal2);overflow:hidden}
+.zel{position:absolute;inset:0;opacity:.22;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23e9d6a8' stroke-width='1.2'%3E%3Cpath d='M40 4l10 26 26 10-26 10-10 26-10-26L4 40l26-10z'/%3E%3Cpath d='M40 18l6 16 16 6-16 6-6 16-6-16-16-6 16-6z'/%3E%3Cpath d='M0 0l14 14M80 0L66 14M0 80l14-14M80 80L66 66'/%3E%3C/g%3E%3C/svg%3E")}
+nav{position:relative;display:flex;align-items:center;gap:30px;padding:26px 56px;color:#d9e8e4;font-size:14.5px;font-weight:500}
+nav b{font-family:Marcellus;font-size:22px;color:#fff;margin-right:auto;font-weight:400;letter-spacing:.02em}
+.arch{position:absolute;left:50%;transform:translateX(-50%);top:92px;width:760px;height:560px;background:var(--ivory);border-radius:380px 380px 0 0;box-shadow:0 0 0 14px rgba(201,162,74,.25),0 0 0 15px var(--gold);text-align:center;padding:96px 70px 0}
+.arch:before{content:"";position:absolute;inset:22px 22px 0;border-radius:360px 360px 0 0;border:1px solid var(--gold);border-bottom:0}
+.kufi{font-family:'Reem Kufi';color:var(--terra);font-size:22px;letter-spacing:.05em}
+h1{font-family:Marcellus;font-weight:400;font-size:46px;line-height:1.12;white-space:nowrap;color:var(--teal2);margin:12px 0 14px}
+.arch p{font-size:17px;line-height:1.55;color:#4b5a58;max-width:500px;margin:0 auto}
+.sb{position:relative;margin:28px auto 0;max-width:520px;display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #d9cdb4;border-radius:999px;padding:8px 8px 8px 22px;font-size:15.5px;color:#8a8574;box-shadow:0 10px 30px rgba(15,92,90,.12)}
+.sb b{margin-left:auto;background:var(--teal);color:#fff;padding:12px 20px;border-radius:999px;font-size:14px}
+.lamp{position:absolute;left:50%;top:0;width:2px;height:84px;background:var(--gold);transform:translateX(-50%)}
+.lamp:after{content:"";position:absolute;left:-14px;bottom:-26px;width:30px;height:30px;border-radius:50% 50% 40% 40%;background:radial-gradient(circle at 50% 60%,#ffe7a3,#e0a43c 60%,#9b6b1e);box-shadow:0 0 50px 18px rgba(255,210,120,.35)}
+.side{position:absolute;top:150px;width:250px;color:#d9e8e4}
+.side.l{left:56px}.side.r{right:56px;text-align:right}
+.side b{display:block;font-family:Marcellus;font-size:46px;color:#fff;font-weight:400}
+.side small{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.side div{margin-bottom:34px}
+.arcade{padding:56px 56px 30px}
+.h{display:flex;align-items:end;justify-content:space-between;margin-bottom:24px}
+.h h2{font-family:Marcellus;font-weight:400;font-size:36px;color:var(--teal2)}
+.h span{font-size:14px;color:var(--terra);font-weight:600}
+.row{display:grid;grid-template-columns:repeat(5,1fr);gap:22px 18px}
+.door{background:var(--ivory);border-radius:120px 120px 14px 14px;padding:56px 20px 22px;text-align:center;position:relative;border:1px solid #e3d6bb;box-shadow:0 8px 24px rgba(60,40,10,.06)}
+.door .n{position:absolute;top:16px;left:50%;transform:translateX(-50%);width:34px;height:34px;display:grid;place-items:center;font-family:Marcellus;font-size:15px;color:#fff;background:var(--terra);clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}
+.door.t .n{background:var(--teal)}
+.door h3{font-family:Marcellus;font-weight:400;font-size:20px;line-height:1.15;color:var(--teal2);min-height:46px}
+.door p{font-size:13px;color:#6c766f;margin-top:8px;line-height:1.45}
+.door .m{margin-top:14px;height:4px;background:#ece2cc;border-radius:4px;overflow:hidden}.door .m i{display:block;height:100%;background:var(--gold)}
+.train{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:18px;padding:10px 56px 56px}
+.tc{border-radius:18px;padding:26px;position:relative;overflow:hidden}
+.tc small{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700}
+.tc h3{font-family:Marcellus;font-weight:400;font-size:28px;margin:10px 0 8px}
+.tc p{font-size:14.5px;line-height:1.5}
+.a{background:var(--teal);color:#e2efec}.a small{color:var(--gold)}.a h3{color:#fff}
+.b{background:var(--terra);color:#fbe9df}.b small{color:#ffe0c9}.b h3{color:#fff}
+.c{background:var(--ivory);border:1px solid #e3d6bb}.c small{color:var(--terra)}.c h3{color:var(--teal2)}
+.tc .star{position:absolute;right:-30px;bottom:-30px;width:150px;opacity:.18}
+</style></head><body>
+<div class="top"><div class="zel"></div>
+<nav><b>Dawah Study Library</b><span>The Shelf</span><span>Train</span><span>Dossier</span><span>Questions you carry</span></nav>
+<div class="side l"><div><small>Arguments</small><b>252</b></div><div><small>Mastered</small><b>112</b></div></div>
+<div class="side r"><div><small>Day streak</small><b>7</b></div><div><small>Due today</small><b>14</b></div></div>
+<div class="lamp"></div>
+<div class="arch"><div class="kufi">وَجَادِلْهُم بِالَّتِي هِيَ أَحْسَنُ</div>
+<h1>Enter with a question.<br>Leave with an answer.</h1>
+<p>Nine halls of arguments, each source weighed and every reply rehearsed.</p>
+<div class="sb">⌕ &nbsp;What did they say? <b>Find the answer</b></div></div>
+</div>
+<div class="arcade"><div class="h"><h2>The nine halls</h2><span>Browse all 252 →</span></div>
+<div class="row">
+<div class="door"><div class="n">I</div><h3>Proofs for Islam</h3><p>44 arguments</p><div class="m"><i style="width:62%"></i></div></div>
+<div class="door t"><div class="n">II</div><h3>Refuting Christianity</h3><p>72 arguments</p><div class="m"><i style="width:38%"></i></div></div>
+<div class="door"><div class="n">III</div><h3>Old Testament &amp; Judaism</h3><p>16 arguments</p><div class="m"><i style="width:20%"></i></div></div>
+<div class="door t"><div class="n">IV</div><h3>Refuting atheism</h3><p>22 arguments</p><div class="m"><i style="width:81%"></i></div></div>
+<div class="door"><div class="n">V</div><h3>Answering objections</h3><p>45 arguments</p><div class="m"><i style="width:47%"></i></div></div>
+<div class="door t"><div class="n">VI</div><h3>Philosophy for debaters</h3><p>12 arguments</p><div class="m"><i style="width:90%"></i></div></div>
+<div class="door"><div class="n">VII</div><h3>Reading list</h3><p>11 entries</p><div class="m"><i style="width:10%"></i></div></div>
+<div class="door t"><div class="n">VIII</div><h3>Modern ideologies</h3><p>18 arguments</p><div class="m"><i style="width:33%"></i></div></div>
+<div class="door"><div class="n">IX</div><h3>The Quran under attack</h3><p>12 arguments</p><div class="m"><i style="width:55%"></i></div></div>
+<div class="door" style="background:var(--teal2);border-color:var(--teal2)"><h3 style="color:#fff">Questions you carry</h3><p style="color:#bcd3cf">A quiet room for your own doubts</p></div>
+</div></div>
+<div class="train">
+<div class="tc a"><small>Daily session · 12 min</small><h3>Today's lesson is ready</h3><p>Three attacks to answer, two arguments to teach back, one source to check, chosen from what you are about to forget.</p><svg class="star" viewBox="0 0 100 100"><path d="M50 0l12 30 30-12-12 30 30 12-30 12 12 30-30-12-12 30-12-30-30 12 12-30L0 50l30-12L18 8l30 12z" fill="#fff"/></svg></div>
+<div class="tc b"><small>Sparring room</small><h3>Face an opponent</h3><p>Hadith rejecter, missionary, atheist, ex-Muslim or secular liberal. Last round: 8 / 10.</p></div>
+<div class="tc c"><small>Debate dossier</small><h3>Prepare for a person</h3><p>Paste what they have said and get their patterns, your answers and what not to say.</p></div>
+</div></body></html>

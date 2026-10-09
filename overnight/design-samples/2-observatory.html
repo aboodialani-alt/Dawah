@@ -1,0 +1,57 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,600&family=Inter:wght@400;500;600&display=block" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:1000px;overflow:hidden;background:radial-gradient(ellipse at 60% 40%,#14234a 0%,#0a1128 45%,#04070f 100%);font-family:Inter;color:#dbe4ff}
+canvas{position:absolute;inset:0}
+nav{position:absolute;top:0;left:0;right:0;display:flex;align-items:center;gap:30px;padding:26px 44px;font-size:14px;color:#9fb0dd;z-index:2}
+nav b{color:#fff;font-family:Fraunces;font-weight:600;font-size:20px;margin-right:auto;letter-spacing:.01em}
+nav .pill{border:1px solid rgba(160,190,255,.25);padding:8px 14px;border-radius:20px}
+.hero{position:absolute;left:44px;top:120px;width:520px;z-index:2}
+.k{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:#f5c66b}
+h1{font-family:Fraunces;font-weight:300;font-size:58px;line-height:1.02;color:#fff;margin:14px 0 18px}
+h1 i{font-weight:600;font-style:normal;background:linear-gradient(90deg,#f5c66b,#ff9e7a);-webkit-background-clip:text;color:transparent}
+.hero p{font-size:17px;line-height:1.6;color:#a9b7de}
+.search{margin-top:30px;display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.06);backdrop-filter:blur(12px);border:1px solid rgba(160,190,255,.25);border-radius:16px;padding:16px 18px;font-size:16px;color:#7f90bf;box-shadow:0 0 40px rgba(90,140,255,.15)}
+.search kbd{margin-left:auto;font:12px Inter;border:1px solid rgba(160,190,255,.3);border-radius:6px;padding:3px 7px}
+.legend{margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px;font-size:13.5px;color:#b9c6ea}
+.legend span{display:flex;align-items:center;gap:10px}
+.legend i{width:9px;height:9px;border-radius:50%;box-shadow:0 0 10px currentColor}
+.card{position:absolute;left:44px;top:715px;width:440px;z-index:3;background:rgba(12,20,45,.78);backdrop-filter:blur(14px);border:1px solid rgba(245,198,107,.45);border-radius:18px;padding:22px 24px;box-shadow:0 20px 60px rgba(0,0,0,.5),0 0 50px rgba(245,198,107,.15)}
+.card small{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#f5c66b}
+.card h3{font-family:Fraunces;font-weight:600;font-size:24px;color:#fff;margin:8px 0 10px;line-height:1.15}
+.card p{font-size:14px;line-height:1.55;color:#b4c1e6}
+.card .row{display:flex;gap:8px;margin-top:16px}
+.card .row span{font-size:12.5px;padding:7px 12px;border-radius:10px;background:rgba(255,255,255,.07);border:1px solid rgba(160,190,255,.2)}
+.card .row span:first-child{background:#f5c66b;color:#1a1300;border:0;font-weight:600}
+.lbl{position:absolute;z-index:2;font-family:Fraunces;font-size:15px;color:#cdd8ff;letter-spacing:.04em;text-shadow:0 0 12px #000}
+.lbl small{display:block;font-family:Inter;font-size:11px;color:#7f90bf;letter-spacing:.15em}
+.stats{position:absolute;right:44px;bottom:30px;display:flex;gap:36px;z-index:2}
+.stats div{font-size:12px;color:#7f90bf;letter-spacing:.14em;text-transform:uppercase}
+.stats b{display:block;font-family:Fraunces;font-size:34px;color:#fff;font-weight:300;letter-spacing:0;text-transform:none}
+.ring{position:absolute;right:44px;bottom:36px;z-index:2;display:flex;align-items:center;gap:14px;font-size:13px;color:#a9b7de}
+</style></head><body><canvas id="c" width="1440" height="1000"></canvas>
+<nav><b>✦ Dawah Study Library</b><span>Shelf</span><span>Daily session</span><span>Sparring</span><span>Dossier</span><span class="pill">Night ◐</span></nav>
+<div class="hero"><div class="k">252 arguments · 9 constellations</div>
+<h1>Every answer,<br><i>mapped like the sky.</i></h1>
+<p>Each star is an argument. The bright ones you have mastered; the faint ones are waiting. Lines join arguments that lean on each other.</p>
+<div class="search">⌕ &nbsp;Paste a claim and watch the answers light up… <kbd>/</kbd></div>
+<div class="legend" id="lg"></div></div>
+<div class="card"><small>Part I · Proofs for Islam</small><h3>Hadith were written down in the first century</h3><p>Written collections survive from the Companions' generation, and their contents match the later books almost word for word.</p><div class="row"><span>Open</span><span>Spar on this</span><span>Listen</span></div></div>
+<div class="stats"><div><b>112</b>mastered</div><div><b>7</b>day streak</div><div><b>14</b>due today</div></div>
+<script>
+const C=[['Proofs for Islam',44,'#f5c66b',780,250],['Refuting Christianity',72,'#7fb0ff',1150,230],['Old Testament',16,'#c39bff',1300,470],['Atheism',22,'#6ee7c8',1120,450],['Objections',45,'#ff9e7a',830,520],['Philosophy',12,'#ffd9f0',640,760],['Reading list',11,'#b9c6ea',800,880],['Modern ideologies',18,'#ff6f91',1060,740],['Quran under attack',12,'#9ef0ff',1320,690]];
+const x=document.getElementById('c').getContext('2d');let s=7;const r=()=>(s=(s*16807)%2147483647)/2147483647;
+for(let i=0;i<500;i++){x.fillStyle=`rgba(200,215,255,${r()*.5})`;x.beginPath();x.arc(r()*1440,r()*1000,r()*1.1,0,7);x.fill()}
+const lg=document.getElementById('lg');
+C.forEach(([n,k,c,cx,cy],ci)=>{const pts=[];const R=40+Math.sqrt(k)*13;
+for(let i=0;i<k;i++){const a=r()*6.283,d=Math.sqrt(r())*R;pts.push([cx+Math.cos(a)*d*1.25,cy+Math.sin(a)*d*.85,r()<.45])}
+x.strokeStyle=c;x.globalAlpha=.22;x.lineWidth=1;x.beginPath();pts.slice(0,Math.min(k,14)).forEach((p,i)=>{i?x.lineTo(p[0],p[1]):x.moveTo(p[0],p[1])});x.stroke();x.globalAlpha=1;
+const g=x.createRadialGradient(cx,cy,0,cx,cy,R*1.4);g.addColorStop(0,c+'22');g.addColorStop(1,c+'00');x.fillStyle=g;x.beginPath();x.arc(cx,cy,R*1.4,0,7);x.fill();
+pts.forEach(([px,py,m])=>{x.shadowColor=c;x.shadowBlur=m?14:4;x.fillStyle=m?c:c+'66';x.beginPath();x.arc(px,py,m?2.6:1.6,0,7);x.fill()});x.shadowBlur=0;
+const l=document.createElement('div');l.className='lbl';l.style.left=(cx-60)+'px';l.style.top=(cy-R*.85-34)+'px';l.innerHTML=`<small>${['I','II','III','IV','V','VI','VII','VIII','IX'][ci]}</small>${n}`;document.body.appendChild(l);
+lg.innerHTML+=`<span style="color:${c}"><i style="background:${c}"></i><em style="color:#b9c6ea;font-style:normal">${n} · ${k}</em></span>`});
+// selected star
+x.shadowColor='#fff';x.shadowBlur=30;x.fillStyle='#fff';x.beginPath();x.arc(840,300,5,0,7);x.fill();x.shadowBlur=0;x.strokeStyle='#f5c66b';x.lineWidth=1.5;x.beginPath();x.arc(840,300,14,0,7);x.stroke();
+x.setLineDash([4,6]);x.strokeStyle='rgba(245,198,107,.6)';x.beginPath();x.moveTo(850,312);x.lineTo(484,760);x.stroke();
+</script></body></html>
