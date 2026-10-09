@@ -1,0 +1,125 @@
+<title>Questions You Carry</title>
+<!--V2HEAD-->
+<style>
+/* Layout concept: a quiet room, not a debate stage. Wide margins, no ornament, one question at a time. Each answer separates what is
+   well established, what scholars genuinely disagree on, and what nobody can settle, so honesty is part of the layout. */
+.wrap{margin:0 auto;padding-inline:16px;padding-block:0 5rem}
+.stage{grid-template-columns:minmax(0,1fr);max-width:46rem;margin:2.4rem auto 0;display:grid;gap:1.4rem}
+h1.t{font-size:clamp(2.1rem,5.4vw,3.4rem);line-height:1.08;margin:.4rem 0 .5rem;letter-spacing:-.02em;font-weight:400}
+h1.t em{font-style:italic;color:var(--accent)}
+.lede{color:var(--muted);font-size:1.12rem;margin:0}
+.hadith{margin:0;padding:1rem 1.2rem;border-radius:16px;background:var(--gold-soft);display:grid;gap:.4rem}
+.hadith p{margin:0}.hadith .ar{font-family:var(--f-ar);font-size:1.45rem;line-height:1.9;text-align:right;direction:rtl}
+.hadith small{font-family:var(--f-ui);font-size:.74rem;color:var(--muted)}
+.doubts{display:flex;flex-wrap:wrap;gap:.5rem}
+.doubts button{font:inherit;font-family:var(--f-ui);font-size:.86rem;cursor:pointer;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:99px;padding:.45rem .95rem;text-align:left}
+.doubts button:hover{border-color:var(--accent);color:var(--accent)}
+.box{display:grid;gap:.6rem}
+.box textarea{width:100%;min-height:6.5rem;resize:vertical;font:inherit;font-size:1.05rem;color:var(--ink);background:var(--card);border:1.5px solid var(--rule);border-radius:16px;padding:.9rem 1.1rem;outline:0}
+.box textarea:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--glow)}
+.row-b{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;justify-content:space-between}
+.thread{display:grid;gap:1.2rem}
+.you{justify-self:end;max-width:88%;padding:.8rem 1.05rem;background:var(--bubble-q);border-radius:18px 18px 4px 18px;white-space:pre-wrap}
+.reply{display:grid;gap:.9rem;padding:1.2rem 1.3rem;background:var(--card);border:1px solid var(--rule);border-radius:18px;box-shadow:var(--shadow)}
+.reply .heard{font-family:var(--f-display);font-size:1.15rem;line-height:1.5;margin:0}
+.blk{display:grid;grid-template-columns:.4rem minmax(0,1fr);gap:.8rem}
+.blk i{border-radius:4px}
+.blk.solid i{background:var(--accent)}.blk.deb i{background:var(--gold)}.blk.open i{background:var(--rule)}
+.blk h3{margin:0 0 .3rem;font-family:var(--f-ui);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.blk ul{margin:0;padding-left:1.1rem;display:grid;gap:.3rem}
+.next{margin:0;padding:.8rem 1rem;border-radius:12px;background:var(--accent-soft)}
+.read{font-family:var(--f-ui);font-size:.86rem;display:flex;flex-wrap:wrap;gap:.3rem .9rem}
+.crisis{padding:1rem 1.2rem;border-radius:14px;border:2px solid var(--warn);background:var(--warn-soft);font-family:var(--f-ui);font-size:.95rem}
+.quiet{font-family:var(--f-ui);font-size:.8rem;color:var(--muted)}
+</style>
+<div class="wrap">
+  <main class="stage">
+    <div>
+      <p class="eyebrow">Questions you carry</p>
+      <h1 class="t">You are allowed to <em>ask</em>.</h1>
+      <p class="lede">A quiet place to think through a doubt about Islam. You get honest answers that say what is well established, what scholars genuinely disagree on, and what nobody can settle. Nothing you write here is saved.</p>
+    </div>
+    <figure class="hadith">
+      <p class="ar" lang="ar">جَاءَ نَاسٌ مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم فَسَأَلُوهُ إِنَّا نَجِدُ فِي أَنْفُسِنَا مَا يَتَعَاظَمُ أَحَدُنَا أَنْ يَتَكَلَّمَ بِهِ. قَالَ: «وَقَدْ وَجَدْتُمُوهُ؟» قَالُوا: نَعَمْ. قَالَ: «ذَاكَ صَرِيحُ الإِيمَانِ»</p>
+      <p>Some Companions told the Prophet ﷺ they found thoughts in themselves too grave to say out loud. He asked, "Do you really find that?" They said yes. He said, "That is clear faith."</p>
+      <small>Sahih Muslim 132. Scholars explain that being troubled by such thoughts, and not wanting them, is itself a sign of faith.</small>
+    </figure>
+    <div>
+      <p class="quiet" style="margin:0 0 .5rem">Common questions. Tap one, or write your own below.</p>
+      <div class="doubts" id="doubts"></div>
+    </div>
+    <div class="box">
+      <textarea id="q" placeholder="What's on your mind? Write it the way you would say it to a friend." aria-label="Your question"></textarea>
+      <div class="row-b"><span class="quiet" id="st" aria-live="polite"></span><span style="display:flex;gap:.5rem"><button class="btn2" id="reset" type="button" hidden>Start over</button><button class="btn1" id="ask" type="button">Ask</button></span></div>
+    </div>
+    <section class="thread" id="thread" aria-live="polite"></section>
+    <p class="quiet">This page answers from a study library that is still being checked, so treat it as a starting point. A trusted, knowledgeable person (an imam, a teacher, a counsellor) can go further than any page. If you are in danger or thinking of harming yourself, contact your local emergency number now and tell someone you trust.</p>
+  </main>
+</div>
+<!--V2JS-->
+<script>
+(function () {
+  const { $, $$, esc } = DA2;
+  DA2.mountBar({ crumb: 'Questions you carry' });
+  const DOUBTS = [
+    ['Can I really trust the hadith?', 'hadith written reliable criticism'],
+    ['What if the Quran was changed over time?', 'Quran preserved readings manuscripts'],
+    ['How do I know Muhammad ﷺ was really a prophet?', 'prophecy prophet evidence attested'],
+    ['Why does God allow so much suffering?', 'problem of evil suffering'],
+    ['Is Islam unfair to women?', 'women equal worth role'],
+    ['What about Aisha\'s age?', 'Aisha age marriage'],
+    ['Does evolution disprove God?', 'Darwinism evolution'],
+    ['Why is leaving Islam treated so seriously?', 'apostasy compulsion'],
+    ['Aren\'t there scientific mistakes in the Quran?', 'scientific errors earth'],
+    ['I keep watching ex-Muslims online and it\'s shaking me', 'ex-Muslim doubt'],
+    ['I don\'t feel anything when I pray anymore', 'prayer faith feeling']
+  ];
+  let D, FLAGS = {}, turns = [], busy = false;
+  function notesFor(text) {
+    const r = DA2.search(D, text, 8), seen = new Set(), out = [];
+    r.hits.forEach(h => { if (out.length < 3 && !seen.has(h.b.id)) { seen.add(h.b.id); out.push(h.b); } });
+    return out;
+  }
+  function noteText(b) {
+    const f = FLAGS[b.id];
+    return 'TITLE: ' + b.title + '\nCLAIM: ' + b.thesis + '\nIN ONE BREATH: ' + b.sum + '\n' + b.obj.slice(0, 2).map(o => 'A COMMON WORRY: ' + o.q + '\nA REPLY: ' + o.a.slice(0, 450)).join('\n') + (b.caution ? '\nUSE WITH CARE: ' + b.caution.slice(0, 300) : '') + (f ? '\nUNDER REVIEW, do not rely on these details: ' + f.text.slice(0, 500) : '');
+  }
+  async function ask(text, seed) {
+    if (busy || !text.trim()) return;
+    const sample = await DA2.getSample(); if (!sample) { $('#st').textContent = 'This page needs to be open inside Claude to answer.'; return; }
+    busy = true; $('#ask').disabled = true; $('#reset').hidden = false;
+    const you = document.createElement('div'); you.className = 'you'; you.textContent = text; $('#thread').appendChild(you);
+    const wait = document.createElement('div'); wait.className = 'quiet'; wait.innerHTML = '<span class="spin"></span> Thinking it through with you…'; $('#thread').appendChild(wait);
+    const notes = notesFor((seed || '') + ' ' + text + ' ' + turns.slice(-2).map(t => t.text).join(' '));
+    const hist = turns.slice(-6).map(t => (t.who === 'you' ? 'PERSON: ' : 'YOU SAID: ') + t.text).join('\n');
+    const prompt = 'You are a gentle, honest companion for a Muslim who is carrying a doubt about Islam. You are not a debater and you are not trying to win. Help them think clearly and feel less alone.\n' +
+      'RULES: Be warm and brief. Never shame, threaten or pressure. Do not call having a doubt a sin. Be honest: separate what is well established, what scholars or historians genuinely disagree on, and what nobody can settle. Use only facts, verses, hadith, names and numbers that appear in LIBRARY NOTES, and do not use any detail marked UNDER REVIEW. If the notes do not cover the question, say so plainly and suggest who could help. Respect that the person is free to think for themselves. If they mention harming themselves, being harmed or being in danger, set "crisis" to true and put their safety first. Reply in the language the person writes in.\n' +
+      'Reply as JSON only: {"heard":"one or two sentences showing you understood what they are feeling and asking","solid":["what is well established, briefly"],"debated":["what is genuinely debated"],"open":["what nobody can settle, if anything"],"next":"one gentle, concrete next step","read":["exact TITLES of notes worth reading, if any"],"crisis":false}\n\n' +
+      (hist ? 'CONVERSATION SO FAR:\n' + hist + '\n\n' : '') + 'PERSON NOW SAYS: ' + text + '\n\nLIBRARY NOTES:\n' + (notes.map(noteText).join('\n---\n') || '(nothing relevant in the library)');
+    try {
+      const r = await sample.json(prompt, { cache: false, modelTier: 'default' });
+      wait.remove(); turns.push({ who: 'you', text }); turns.push({ who: 'me', text: (r.heard || '') + ' ' + (r.next || '') });
+      const li = a => '<ul>' + a.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul>';
+      const titles = new Map(notes.map(b => [b.title, b]));
+      const reads = (r.read || []).map(t => titles.get(t)).filter(Boolean);
+      const el = document.createElement('article'); el.className = 'reply';
+      el.innerHTML = (r.crisis ? '<div class="crisis"><b>Your safety comes first.</b> If you are in danger or thinking of harming yourself, please contact your local emergency number or a crisis line in your country now, and tell someone you trust what is happening. You do not have to carry this alone.</div>' : '') +
+        (r.heard ? '<p class="heard">' + esc(r.heard) + '</p>' : '') +
+        (r.solid && r.solid.length ? '<div class="blk solid"><i></i><div><h3>Well established</h3>' + li(r.solid) + '</div></div>' : '') +
+        (r.debated && r.debated.length ? '<div class="blk deb"><i></i><div><h3>Genuinely debated</h3>' + li(r.debated) + '</div></div>' : '') +
+        (r.open && r.open.length ? '<div class="blk open"><i></i><div><h3>Nobody can settle</h3>' + li(r.open) + '</div></div>' : '') +
+        (r.next ? '<p class="next">' + esc(r.next) + '</p>' : '') +
+        (reads.length ? '<div class="read"><span class="quiet">Read more:</span>' + reads.map(b => '<a href="' + esc(DA2.href(b)) + '">' + esc(b.title) + '</a>').join('') + '</div>' : '');
+      $('#thread').appendChild(el); el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      $('#q').value = ''; $('#q').placeholder = 'Ask a follow-up, or say what still doesn\'t sit right.'; $('#st').textContent = '';
+    } catch (e) { wait.remove(); $('#st').textContent = e && e.code === 'not_granted' ? 'Not allowed, so nothing was sent.' : 'Could not answer just now. Please try again.'; }
+    busy = false; $('#ask').disabled = false;
+  }
+  $('#doubts').innerHTML = DOUBTS.map((d, i) => '<button type="button" data-i="' + i + '">' + esc(d[0]) + '</button>').join('');
+  $$('#doubts [data-i]').forEach(b => b.onclick = () => { const d = DOUBTS[+b.dataset.i]; ask(d[0], d[1]); });
+  $('#ask').onclick = () => ask($('#q').value);
+  $('#q').addEventListener('keydown', e => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) ask($('#q').value); });
+  $('#reset').onclick = () => { turns = []; $('#thread').innerHTML = ''; $('#reset').hidden = true; $('#q').placeholder = 'What\'s on your mind? Write it the way you would say it to a friend.'; };
+  Promise.all([DA2.loadIdx(), fetch('flags.json').then(r => r.json()).catch(() => ({}))]).then(([d, f]) => { D = d; DA2.prep(D); FLAGS = f; });
+})();
+</script>

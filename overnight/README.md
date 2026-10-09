@@ -32,6 +32,14 @@ Everything here is separate from your live work. Your original DA and the origin
 
 The text of all 252 arguments is exactly as in your DA. Only the presentation and the new tools were added.
 
+## Beyond debate (added 9 October)
+
+- **Debate dossier** (`dossier.html`): paste what a specific person has said (several sources allowed). Claude lists their recurring claims with their own words and how often they repeat them, matches each to the library, and writes a briefing: your answer, their likely next move, three questions to ask them, a "do not say" list built from the reviewer notes, and the gaps the library cannot answer. Dossiers are saved to the shared database and can be copied as text.
+- **Questions you carry** (`clinic.html`): a quiet page for Muslims with doubts. Eleven common doubts to tap, or write your own. Each answer is split into well established, genuinely debated and what nobody can settle, uses only the library's notes (never details under review), and points to a next step and a person to talk to. Nothing is saved. If someone mentions harming themselves, a safety message comes first. It opens with Sahih Muslim 132 ("That is clear faith"), checked against the dataset.
+- **Questions at school** (`teen.html`): 23 questions Muslim teenagers get asked, hand-written in plain words from the library. Each has a short answer, three reasons, what to say if they push back, and an honest note on the hardest topics (suffering, Aisha, apostasy, sexuality). I left out every detail the audit flagged, and checked the hadith quoted (Bukhari 113, 2434, 7047; Abu Dawud 3646; Muslim 1657) against the dataset.
+
+All three are labelled as not yet verified until the core verification is done.
+
 ## What is new in Studio Board
 
 - **Overview**: both fronts as a six-stage belt, "Needs you" decisions, what Claude did, results chart by script style, weekly rhythm ring.

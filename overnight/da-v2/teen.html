@@ -1,0 +1,67 @@
+<title>Questions at School</title>
+<!--V2HEAD-->
+<style>
+/* Layout concept: a stack of question cards, the way a teenager meets these questions: one at a time, in a corridor or a classroom.
+   Short answer first, reasons on tap, then "if they push back". Bigger type, rounder shapes, plainer words than the main library. */
+.wrap{margin:0 auto;padding-inline:16px;padding-block:0 5rem}
+.stage{grid-template-columns:minmax(0,1fr);max-width:64rem;margin:1.8rem auto 0;display:grid;gap:1.3rem}
+.hero2{display:grid;gap:.6rem;max-width:44rem}
+h1.t{font-size:clamp(2.3rem,6.4vw,4rem);line-height:1;margin:.3rem 0 .4rem;letter-spacing:-.025em;font-weight:500}
+h1.t span{display:inline-block;background:var(--hl);padding:0 .2em;border-radius:.2em;transform:rotate(-1.2deg)}
+.lede{color:var(--muted);font-size:1.12rem;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;font-family:var(--f-ui)}
+.chips button{font:inherit;font-size:.9rem;cursor:pointer;color:var(--ink);background:var(--card);border:1.5px solid var(--rule);border-radius:99px;padding:.4rem 1rem}
+.chips button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,19rem),1fr));gap:1rem;align-items:start}
+.qc{background:var(--card);border:1.5px solid var(--rule);border-radius:22px;overflow:hidden;box-shadow:var(--shadow);transition:border-color .2s,transform .2s}
+.qc:hover{border-color:var(--accent)}
+.qc>button{all:unset;box-sizing:border-box;display:grid;gap:.6rem;width:100%;padding:1.2rem 1.25rem;cursor:pointer}
+.qc>button:focus-visible{outline:3px solid var(--accent);outline-offset:-3px;border-radius:22px}
+.qc .grp{font-family:var(--f-ui);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.qc .qq{font-family:var(--f-ui);font-weight:600;font-size:1.12rem;line-height:1.35}
+.qc .tap{font-family:var(--f-ui);font-size:.78rem;color:var(--accent)}
+.qc .body{display:grid;gap:.9rem;padding:0 1.25rem 1.3rem}
+.qc .short{font-size:1.08rem;line-height:1.55;margin:0}
+.qc h4{margin:0 0 .3rem;font-family:var(--f-ui);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.qc ol{margin:0;padding-left:1.2rem;display:grid;gap:.35rem}
+.push{display:grid;gap:.45rem}
+.push .them{justify-self:start;max-width:94%;background:var(--bubble-q);padding:.6rem .9rem;border-radius:16px 16px 16px 4px;font-family:var(--f-ui);font-size:.92rem}
+.push .you{justify-self:end;max-width:94%;background:var(--bubble-a);padding:.6rem .9rem;border-radius:16px 16px 4px 16px;font-size:.98rem}
+.honest{margin:0;padding:.7rem .9rem;border-radius:12px;background:var(--gold-soft);font-family:var(--f-ui);font-size:.88rem}
+.links{display:flex;flex-wrap:wrap;gap:.4rem 1rem;font-family:var(--f-ui);font-size:.85rem}
+.foot2{display:grid;gap:.4rem;padding:1.2rem 1.3rem;border-radius:20px;background:var(--accent-soft);font-family:var(--f-ui)}
+.foot2 b{font-family:var(--f-display);font-weight:500;font-size:1.3rem}
+</style>
+<div class="wrap">
+  <main class="stage">
+    <header class="hero2">
+      <p class="eyebrow">Questions at school</p>
+      <h1 class="t">They asked you <span>what?</span></h1>
+      <p class="lede">The questions Muslim teenagers actually get asked by classmates, teachers and online. Each one has a short answer, the reasons behind it, and what to say if they push back. Plain words, no lectures.</p>
+    </header>
+    <div class="chips" id="chips"></div>
+    <div class="grid" id="grid"></div>
+    <div class="foot2"><b>Got a question that isn't here?</b><span>Ask it in <a href="clinic.html">Questions you carry</a>. It's a quiet page that gives honest answers, and nothing you write there is saved. Talking it through with a parent, teacher or imam you trust helps too.</span><span class="note-s">These answers come from a study library that is still being checked. The sources quoted here have been checked against the hadith texts.</span></div>
+  </main>
+</div>
+<!--V2JS-->
+<script>
+(function () {
+  const { $, $$, esc } = DA2;
+  DA2.mountBar({ crumb: 'Questions at school' });
+  let ALL = [], cur = 'All';
+  function draw() {
+    const groups = ['All', ...new Set(ALL.map(x => x.g))];
+    $('#chips').innerHTML = groups.map(g => '<button type="button" data-g="' + esc(g) + '" aria-pressed="' + (g === cur) + '">' + esc(g) + '</button>').join('');
+    $$('#chips [data-g]').forEach(b => b.onclick = () => { cur = b.dataset.g; draw(); });
+    const list = ALL.filter(x => cur === 'All' || x.g === cur);
+    $('#grid').innerHTML = list.map((x, i) => '<article class="qc"><button type="button" aria-expanded="false" data-i="' + i + '"><span class="grp">' + esc(x.g) + '</span><span class="qq">' + esc(x.q) + '</span><span class="tap">Tap for the answer</span></button>' +
+      '<div class="body" hidden><p class="short">' + esc(x.short) + '</p><div><h4>Why</h4><ol>' + x.why.map(w => '<li>' + esc(w) + '</li>').join('') + '</ol></div>' +
+      (x.push ? '<div class="push"><h4>If they push back</h4><div class="them">' + esc(x.push.they) + '</div><div class="you">' + esc(x.push.you) + '</div></div>' : '') +
+      (x.honest ? '<p class="honest">' + esc(x.honest) + '</p>' : '') +
+      '<div class="links"><a href="' + esc(x.id.split('#')[0] + '.html#' + x.id.split('#')[1]) + '">The full answer in the library</a><a href="clinic.html">Talk it through</a></div></div></article>').join('');
+    $$('#grid .qc>button').forEach(b => b.onclick = () => { const body = b.nextElementSibling, open = body.hidden; body.hidden = !open; b.setAttribute('aria-expanded', String(open)); $('.tap', b).textContent = open ? 'Tap to close' : 'Tap for the answer'; });
+  }
+  fetch('teen.json').then(r => r.json()).then(d => { ALL = d; draw(); });
+})();
+</script>
