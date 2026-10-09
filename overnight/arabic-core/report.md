@@ -1,16 +1,18 @@
 # Arabic core check
 
-17 cards, 21 with something to look at.
-- 01.json: **missing translation**
-- 02.json: **missing translation**
-- 03.json: **missing translation**
-- 04.json: **missing translation**
-- 05.json: **missing translation**
-- 06.json: **missing translation**
-- 07.json: **missing translation**
-- 08.json: **missing translation**
-- 09.json: **missing translation**
-- 10.json: **missing translation**
+38 cards, 0 with something to look at.
+- 01.json Burden of proof and what you can hold someone to: ok
+- 02.json Hadith were written down in the first century, not invented : ok
+  - omitted: Motzki's words 'to which I myself adhered' and his sentence are not presented as a direct quotation; review note says to cite Motzki from his own publications before using his wording on screen. Kept as indirect paraphrase only. | Practice answer: 'matches Musnad Ahmad almost word for word' rendered as its hadith matching their parallels in Musnad Ahmad; did not state that the whole sahifa is in Musnad Ahmad (review note: not confirmed, one source says all but two). | Counts '138 hadith' and 'ninety-eight' named in the review note do not appear in this card; nothing to omit there.
+- 03.json Hadith criticism is rigorous, even about the Sahih collectio: ok
+- 04.json Abu Hurayra's large number of hadith: ok
+- 05.json The Quran itself requires the Sunnah (against Quranists): ok
+- 06.json The "assassinations" attributed to the Prophet ﷺ: ok
+- 07.json "The Prophet ﷺ attempted suicide": ok
+- 08.json Other hadith objections answered: ok
+  - omitted: quran_arabic entries 15:7, 19:40, 2:11, 24:27, 23:34 ignored: false automatic matches for the Bible references Luke 15:7, Luke 19:40, Hab 2:11, Josh 24:27, Luke 23:34. | Corrected, not translated: the English practice answer calls the Buda'ah narrator 'unknown' and the summary calls the Black Stone report 'weak'. The card's own evidence and every grader in the dataset grade both sahih or hasan (Abu Dawud 67; Tirmidhi 959), so the Arabic follows the evidence.
+- 09.json The 360 joints and the medical hadith: use with care: ok
+- 10.json What makes a prophecy count: ok
 - 11.json The Romans will be victorious (30:2-5): ok
   - omitted: The battle of 'Issus, 622' (named in P3, the first objection, the practice answer and the sum) is not confirmed per review_note; left out, along with the dependent 'about eight years after the defeat of 614' / 'eight years after the fall of Jerusalem'. The text now speaks only of Heraclius' victories through 625 and Nineveh 627. | Tesei's paper is not described in the packet text, so nothing to omit there; the sum's generic 'sceptical academics' sentence is kept.
 - 12.json Muhammad ﷺ is attested by outsiders within years of his deat: ok
@@ -25,17 +27,22 @@
 - 17.json The experience of revelation was not epilepsy or possession: ok
   - omitted: quran_arabic entries 32:24-25 and 3:22 are false matches for Genesis 32:24-25 and Mark 3:22 and were ignored.
 - 18.json The Prophet ﷺ did not use revelation for personal gain: ok
-- 19.json: **missing translation**
-- 20.json: **missing translation**
-- 21.json: **missing translation**
-- 22.json: **missing translation**
-- 23.json: **missing translation**
-- 24.json: **missing translation**
-- 25.json: **missing translation**
-- 26.json: **missing translation**
-- 27.json: **missing translation**
-- 28.json: **missing translation**
-- 29.json: **missing translation**
+- 19.json The Quran was preserved through two independent channels at : ok
+- 20.json Non-Muslim scholars concede the Quran's integrity: ok
+- 21.json The qira'at are revealed readings, not copying errors: ok
+- 22.json Seven ahruf, seven readings, ten readings: three different t: ok
+  - omitted: quran_arabic texts of 2:132, 9:100 and 57:24 not placed in quotes: the English cites them only as locations of rasm differences between regional codices and does not quote or paraphrase them. References kept in the text.
+- 23.json The "missing verses" reports answered: ok
+  - omitted: 87:6-7 not placed in quotes: the English only cites it ('also 87:6-7') without quoting or paraphrasing it; reference kept in the text. | Packet ar_quote for 2:106 (simple script) replaced by the exact Uthmani text from quran_arabic, per rule 2.
+- 24.json The Sana’a palimpsest: what it shows and what it does not: ok
+- 25.json Birmingham, Tübingen and the radiocarbon dates: ok
+  - omitted: quran_arabic texts of 17:36 and 36:57 not placed in quotes: they only mark where the Tübingen manuscript begins and ends; the English does not quote or paraphrase them.
+- 26.json Uthman’s standardisation: what it did and did not do: ok
+- 27.json Equal in worth, different in role: ok
+  - omitted: quran_arabic entries 2:14 and 25:24 ignored: false matches for 1 Timothy 2:14 and Sirach 25:24 (Bible references kept as Bible references). | 4:34 and 4:11 not placed in quotes: the English names them only as topics (maintenance, shares) and does not quote or paraphrase their wording.
+- 28.json What feminism got right, and where Islam differs: ok
+- 29.json Hijab and modesty: ok
+  - omitted: quran_arabic entry 11:5-6 ignored: false match for 1 Corinthians 11:5-6 (kept as a Bible reference).
 - 30.json Secular liberalism is a worldview, not a neutral referee: ok
 - 31.json Where do universal human rights come from?: ok
 - 32.json “Religion causes most wars” and the data: ok

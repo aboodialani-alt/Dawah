@@ -20,3 +20,8 @@ The translators compared the library's English with the Arabic hadith texts in t
 | 32 Religion and wars | "66 of 123 involving Islam" | The library attributes it to the encyclopedia in one place and to secondary tallies in another. |
 | 33 Apostasy | Umar's words from the Muwatta | Translated from English; the Muwatta Arabic is needed before quoting. |
 | 34 No compulsion | The apostasy verses speak of "loss in this world and the next" | Only 2:217 clearly says this. |
+| 23 Missing verses (Ibn Majah 1944) | The goat report is weak (al-Arna'ut) | Dataset: hasan by al-Albani, Abd al-Baqi and Zubair Ali Zai. Graders differ; say so rather than calling it weak. |
+| 24 Sana'a palimpsest | Practice: the parchment dates to "the first half-century after the Prophet's death" | The card's own range (578 to 669) starts before his death. Say "within the first generation" instead. |
+| 21 Qira'at | Readings differ in "about 1% of words"; summary calls them mass-transmitted | No source for the 1% figure; the argument itself only says many scholars require mass transmission. |
+| 27 Equal in worth (Abu Dawud 236, Tirmidhi 113) | "graded sahih by al-Albani" | Dataset: al-Albani hasan (Abu Dawud) and sahih (Tirmidhi); Zubair Ali Zai and Bashar Awad grade it daif. Graders differ. 2:228's quoted phrase is mid-verse, not its opening. |
+| 28 Feminism (Bukhari 101) | The Prophet "taught" the women | Dataset: he admonished them and gave them commands (وعظهن وأمرهن). |

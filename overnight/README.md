@@ -40,6 +40,12 @@ The text of all 252 arguments is exactly as in your DA. Only the presentation an
 
 All three are labelled as not yet verified until the core verification is done.
 
+## Arabic core and design pass (added 9 October)
+
+- **Arabic core** (`ar.html`, "النواة العربية" on the home page): the 38 core arguments in Arabic, right to left, grouped by track. Each card has الدعوى، الحجة، النصوص، الأدلة، الاعتراضات والأجوبة، تدريب، باختصار. Every Quran quote is copied from the Uthmani text and every hadith from the Arabic dataset; the build refuses any quote not found in its source (`arabic-core/build_ar.py`, report in `arabic-core/report.md`: 38 cards, 0 flagged). Each card shows translator notes, a camera-reading mode (large text) and a link back to the English. English argument pages show "بالعربية" when an Arabic card exists.
+- **Library mismatches** the translators found are listed in `arabic-core/findings.md` (19 rows). The biggest: card 08 says the Buda'ah and Black Stone reports are weak or unknown while its own evidence grades them sahih or hasan; card 23 calls the goat report weak while al-Albani and others grade it hasan. The library text is unchanged; these feed the core verification pass.
+- **Design and logic**: the home page is now hero search, a "continue" strip (where you stopped reading, today's session, last spar), Train, Study tracks, Beyond debate, the shelf, Library upkeep. The Drill room is merged into the Daily session (new mode picker: mix, attacks only, teach-back, sources), so `drill.html` is gone. Video queue and reel drafting are removed from the library since posting is on hold. Each brief now has Spar on this, Listen, Copy brief and Copy link. Cards rise in with a short stagger (off when the system asks for reduced motion). Long Arabic searches now match on most words instead of all words.
+
 ## What is new in Studio Board
 
 - **Overview**: both fronts as a six-stage belt, "Needs you" decisions, what Claude did, results chart by script style, weekly rhythm ring.
